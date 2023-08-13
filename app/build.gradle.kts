@@ -51,6 +51,8 @@ android {
 }
 
 dependencies {
+    implementation(project(":core:ui"))
+
     implementation(libs.accompanist.webview)
     implementation(libs.androidx.navigation.compose)
 

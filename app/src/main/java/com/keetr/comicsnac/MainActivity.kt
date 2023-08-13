@@ -15,6 +15,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.keetr.comicsnac.series.SeriesDetailsScreen
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
 
+//import com.keetr.comicsnac.ui.theme.ComicSnacTheme
+
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,7 +26,7 @@ class MainActivity : ComponentActivity() {
 
         super.onCreate(savedInstanceState)
         setContent {
-            com.keetr.comicsnac.ui.theme.ComicSnacTheme {
+            ComicSnacTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),

@@ -38,8 +38,12 @@ dependencies {
     implementation(libs.androidx.core.ktx)
 //    implementation(libs.appcompat)
 //    implementation(libs.material)
+    implementation(libs.ktor.core)
+    implementation(libs.ktor.cio)
+    implementation(libs.ktor.serialization.json)
 
     testImplementation(libs.junit)
+    testImplementation(libs.ktor.mock)
 
     androidTestImplementation(libs.androidx.test.ext.junit)
 //    androidTestImplementation(libs.androidx.test.espresso.core)
