@@ -1,0 +1,57 @@
+[versions]
+accompanist = "0.31.6-rc"
+android-gradle-plugin = "8.2.0-alpha14"
+androidx-activity = "1.7.2"
+androidx-appcompat = "1.6.1"
+andriodx-core = "1.10.1"
+androidx-espresso = "3.5.1"
+androidx-hilt = "1.0.0"
+andriodx-lifecycle = "2.6.1"
+androidx-navigation = "2.7.0"
+androidx-room = "2.5.2"
+androidx-paging = "3.2.0"
+androidx-test-ext-junit = "1.1.5"
+androidx-test-runner = "1.5.2"
+android-splashScreen = "1.0.0-beta02"
+coil = "2.4.0"
+compose-bom = "2023.08.00"
+junit = "4.13.2"
+kotlin = "1.9.0"
+kotlinx-serialization = "1.7.2"
+kotlinx-coroutines = "1.7.2"
+ktor = "2.3.3"
+mockk = "1.13.5"
+
+[libraries]
+accompanist-webview = { group = "com.google.accompanist", name = "accompanist-webview", version.ref = "accompanist"}
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "androidx-activity" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "andriodx-core" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
+androidx-compose-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-compose-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-compose-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-compose-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "androidx-navigation"}
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "andriodx-lifecycle" }
+androidx-test-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "androidx-espresso" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ktor-auth = { group = "io.ktor", name = "ktor-client-auth", version.ref = "ktor" }
+ktor-content-negotiation = { group = "io.ktor", name = "ktor-client-content-negotiation", version.ref = "ktor" }
+ktor-core = { group = "io.ktor", name = "ktor-client-core", version.ref = "ktor" }
+ktor-cio = { group = "io.ktor", name = "ktor-client-cio", version.ref = "ktor" }
+ktor-serialization-json = { group = "io.ktor", name = "ktor-serialization-kotlinx-json", version.ref = "ktor" }
+ktor-mock =  { group = "io.ktor", name = "ktor-client-mock", version.ref = "ktor"}
+mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk"}
+#appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "android-gradle-plugin" }
+androidLibrary = { id = "com.android.library", version.ref = "android-gradle-plugin" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+org-jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+
