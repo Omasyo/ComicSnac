@@ -1,6 +1,7 @@
 package com.keetr.comicsnac.network
 
 import android.content.Context
+import com.keetr.comicsnac.network.Api.appendDefaultParameters
 import com.keetr.comicsnac.network.character.models.CharactersDetailsResponseApiModel
 import com.keetr.comicsnac.network.character.models.ResultsApiModel
 import io.ktor.client.HttpClient
@@ -20,9 +21,7 @@ import io.ktor.serialization.kotlinx.json.json
 import kotlinx.serialization.json.Json
 import java.io.File
 
-const val ResponseFormat = "json"
-
-fun createClient(engine: HttpClientEngine, /*context: Context*/) =
+fun createClient(engine: HttpClientEngine, context: Context) =
     HttpClient(engine) {
         install(ContentNegotiation) {
             json(Json {
@@ -30,29 +29,28 @@ fun createClient(engine: HttpClientEngine, /*context: Context*/) =
                 coerceInputValues = true
             })
         }
-//        install(HttpCache) {
-//            val cacheFile = File(context.cacheDir, "comicsnac-ktor-cache")
-//            publicStorage(FileStorage(cacheFile))
-//        }
+        install(HttpCache) {
+            val cacheFile = File(context.cacheDir, "comicsnac-ktor-cache")
+            publicStorage(FileStorage(cacheFile))
+        }
         defaultRequest {
             url {
                 protocol = URLProtocol.HTTPS
-                host = "comicvine.gamespot.com"
-                path("api/")
+                host = Api.Host
+                path(Api.DefaultPath)
                 parameters.append("api_key", ApiKey)
-                parameters.append("format", "json")
+                parameters.append("format", Api.ResponseFormat)
             }
         }
     }
 
 
-suspend fun main() {
-    val client = createClient(CIO.create())
-
-    val t: CharactersDetailsResponseApiModel<ResultsApiModel> = client.get("https://comicvine.gamespot.com/api/character/4005-1699/"){
-        parameter("api_key", ApiKey)
-        parameter("format", ResponseFormat)
-    }.body()
-
-    println(t)
-}
+//suspend fun main() {
+//    val client = createClient(CIO.create())
+//
+//    val t: CharactersDetailsResponseApiModel = client.get("https://comicvine.gamespot.com/api/character/4005-1699/"){
+//        appendDefaultParameters()
+//    }.body()
+//
+//    println(t)
+//}

@@ -46,6 +46,7 @@ dependencies {
 
     testImplementation(libs.junit)
     testImplementation(libs.ktor.mock)
+    testImplementation(libs.mockk)
     testImplementation(libs.kotlinx.coroutines.test)
 
     androidTestImplementation(libs.androidx.test.ext.junit)
