@@ -20,9 +20,6 @@ import com.keetr.comicsnac.ui.theme.ComicSnacTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-        val policy = ThreadPolicy.Builder().permitAll().build()
-
-        StrictMode.setThreadPolicy(policy)
 
         super.onCreate(savedInstanceState)
         setContent {
@@ -36,21 +33,5 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    com.keetr.comicsnac.ui.theme.ComicSnacTheme {
-        Greeting("Android")
     }
 }

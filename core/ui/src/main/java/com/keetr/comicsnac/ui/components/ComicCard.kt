@@ -42,6 +42,7 @@ fun ComicCard(
 )
 @Composable
 private fun Preview() {
+
     ComicSnacTheme {
         ComicCard {
             Box(
