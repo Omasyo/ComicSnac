@@ -3,12 +3,14 @@ package com.keetr.comicsnac.network.character
 import com.keetr.comicsnac.network.Api.appendDefaultParameters
 import com.keetr.comicsnac.network.character.models.CharacterDetailsResponse
 import com.keetr.comicsnac.network.character.models.CharactersListResponse
+import com.keetr.comicsnac.network.common.Sort
+import com.keetr.comicsnac.network.common.models.GenderApiModel
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body
 import io.ktor.client.request.get
 import io.ktor.client.request.parameter
 
-class DefaultCharacterNetworkSource(
+internal class DefaultCharacterNetworkSource(
     private val client: HttpClient
 ) : CharacterNetworkSource {
 
@@ -26,7 +28,7 @@ class DefaultCharacterNetworkSource(
     override suspend fun getAllCharacters(
         pageSize: Int,
         offset: Int,
-        gender: Gender
+        gender: GenderApiModel
     ): CharactersListResponse = getCharacters(pageSize, offset, gender)
 
     override suspend fun getCharactersWithId(
@@ -38,14 +40,14 @@ class DefaultCharacterNetworkSource(
     private suspend fun getCharacters(
         pageSize: Int,
         offset: Int,
-        gender: Gender = Gender.All,
+        gender: GenderApiModel = GenderApiModel.All,
         characterIds: List<Int> = emptyList(),
         sortRecentlyUpdated: Sort = Sort.None
     ): CharactersListResponse = client.get("characters") {
         appendDefaultParameters()
         parameter("limit", pageSize)
         parameter("offset", offset)
-        if (gender != Gender.All) parameter("gender", gender.id)
+        if (gender != GenderApiModel.All) parameter("gender", gender.id)
         if (characterIds.isNotEmpty()) parameter("filter", "id:${characterIds.joinToString("|")}")
         if (sortRecentlyUpdated != Sort.None) parameter(
             "sort",

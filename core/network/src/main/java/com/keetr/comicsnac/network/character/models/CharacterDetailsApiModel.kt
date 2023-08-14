@@ -1,16 +1,17 @@
 package com.keetr.comicsnac.network.character.models
 
 
-import com.keetr.comicsnac.network.common.CharacterApiModel
-import com.keetr.comicsnac.network.common.CreatorApiModel
-import com.keetr.comicsnac.network.common.ImageApiModel
-import com.keetr.comicsnac.network.common.IssueApiModel
-import com.keetr.comicsnac.network.common.MovieApiModel
-import com.keetr.comicsnac.network.common.OriginApiModel
-import com.keetr.comicsnac.network.common.PowerApiModel
-import com.keetr.comicsnac.network.common.PublisherApiModel
-import com.keetr.comicsnac.network.common.TeamApiModel
-import com.keetr.comicsnac.network.common.VolumeApiModel
+import com.keetr.comicsnac.network.common.models.CharacterApiModel
+import com.keetr.comicsnac.network.common.models.CreatorApiModel
+import com.keetr.comicsnac.network.common.models.GenderApiModel
+import com.keetr.comicsnac.network.common.models.ImageApiModel
+import com.keetr.comicsnac.network.common.models.IssueApiModel
+import com.keetr.comicsnac.network.common.models.MovieApiModel
+import com.keetr.comicsnac.network.common.models.OriginApiModel
+import com.keetr.comicsnac.network.common.models.PowerApiModel
+import com.keetr.comicsnac.network.common.models.PublisherApiModel
+import com.keetr.comicsnac.network.common.models.TeamApiModel
+import com.keetr.comicsnac.network.common.models.VolumeApiModel
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
@@ -25,7 +26,7 @@ data class CharacterDetailsApiModel(
     @SerialName("deck") val deck: String?,
     @SerialName("description") val description: String?,
     @SerialName("first_appeared_in_issue") val firstAppearedInIssue: IssueApiModel,
-    @SerialName("gender") val gender: Int,
+    @SerialName("gender") val gender: GenderApiModel,
     @SerialName("id") val id: Int,
     @SerialName("image") val image: ImageApiModel,
     @SerialName("movies") val movies: List<MovieApiModel>,

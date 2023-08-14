@@ -1,6 +1,6 @@
 package com.keetr.comicsnac.network.character.fake
 
-val BarquinDetailsResponse = """{
+internal const val BarquinDetailsResponse = """{
     "error": "OK",
     "limit": 1,
     "offset": 0,

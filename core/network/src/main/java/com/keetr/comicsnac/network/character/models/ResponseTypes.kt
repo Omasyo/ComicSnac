@@ -1,9 +1,7 @@
 package com.keetr.comicsnac.network.character.models
 
-import com.keetr.comicsnac.network.common.ResponseApiModel
-import com.keetr.comicsnac.network.character.models.CharacterApiModel
-import com.keetr.comicsnac.network.character.models.CharacterDetailsApiModel
+import com.keetr.comicsnac.network.common.models.ResponseApiModel
 
 typealias CharacterDetailsResponse = ResponseApiModel<CharacterDetailsApiModel>
 
-typealias CharactersListResponse = ResponseApiModel<CharacterApiModel>
+typealias CharactersListResponse = ResponseApiModel<List<CharacterApiModel>>

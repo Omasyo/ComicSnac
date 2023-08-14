@@ -13,7 +13,7 @@ import io.ktor.serialization.kotlinx.json.json
 import kotlinx.serialization.json.Json
 import java.io.File
 
-fun createClient(engine: HttpClientEngine, context: Context) =
+internal fun createClient(engine: HttpClientEngine, context: Context) =
     HttpClient(engine) {
         install(ContentNegotiation) {
             json(Json {
