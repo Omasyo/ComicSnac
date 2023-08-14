@@ -4,4 +4,4 @@ import com.keetr.comicsnac.network.common.models.ResponseApiModel
 
 typealias CharacterDetailsResponse = ResponseApiModel<CharacterDetailsApiModel>
 
-typealias CharactersListResponse = ResponseApiModel<List<CharacterApiModel>>
+typealias CharactersListResponse = ResponseApiModel<List<CharacterListApiModel>>

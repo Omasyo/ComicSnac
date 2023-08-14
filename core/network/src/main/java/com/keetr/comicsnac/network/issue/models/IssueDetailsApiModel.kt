@@ -1,14 +1,13 @@
 package com.keetr.comicsnac.network.issue.models
 
 
-import com.keetr.comicsnac.network.character.models.CharacterApiModel
+import com.keetr.comicsnac.network.character.models.CharacterListApiModel
 import com.keetr.comicsnac.network.common.models.AssociatedImageApiModel
 import com.keetr.comicsnac.network.common.models.ConceptApiModel
 import com.keetr.comicsnac.network.common.models.ImageApiModel
 import com.keetr.comicsnac.network.common.models.LocationApiModel
 import com.keetr.comicsnac.network.common.models.ObjectApiModel
 import com.keetr.comicsnac.network.common.models.PersonCreditApiModel
-import com.keetr.comicsnac.network.common.models.StaffReviewApiModel
 import com.keetr.comicsnac.network.common.models.StoryArcApiModel
 import com.keetr.comicsnac.network.common.models.TeamApiModel
 import com.keetr.comicsnac.network.common.models.VolumeApiModel
@@ -20,7 +19,7 @@ data class IssueDetailsApiModel(
     @SerialName("aliases") val aliases: String?,
     @SerialName("api_detail_url") val apiDetailUrl: String,
     @SerialName("associated_images") val associatedImages: List<AssociatedImageApiModel>,
-    @SerialName("character_credits") val characterCredits: List<CharacterApiModel>,
+    @SerialName("character_credits") val characterCredits: List<CharacterListApiModel>,
 //    @SerialName("character_died_in") val characterDiedIn: List<CharacterApiModel>,
     @SerialName("concept_credits") val conceptCredits: List<ConceptApiModel>,
     @SerialName("cover_date") val coverDate: String?,

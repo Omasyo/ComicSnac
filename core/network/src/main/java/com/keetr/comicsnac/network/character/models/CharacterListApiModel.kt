@@ -8,10 +8,12 @@ import kotlinx.serialization.Serializable
 import java.time.LocalDateTime
 
 @Serializable
-data class CharacterApiModel(
+data class CharacterListApiModel(
     @SerialName("api_detail_url") val apiDetailUrl: String,
+
     @SerialName("date_last_updated")
     @Serializable(DateAsStringSerializer::class) val dateLastUpdate: LocalDateTime,
+
     @SerialName("id") val id: Int,
     @SerialName("image") val image: ImageApiModel,
     @SerialName("gender") val gender: GenderApiModel,

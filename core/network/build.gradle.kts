@@ -39,12 +39,13 @@ android {
 
 dependencies {
 
-    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.0.3")
-
+    coreLibraryDesugaring(libs.android.tools.desugar)
 
     implementation(libs.androidx.core.ktx)
-//    implementation(libs.appcompat)
-//    implementation(libs.material)
+
+    implementation(libs.hilt.android)
+    implementation(libs.hilt.compiler)
+
     implementation(libs.ktor.cio)
     implementation(libs.ktor.content.negotiation)
     implementation(libs.ktor.core)

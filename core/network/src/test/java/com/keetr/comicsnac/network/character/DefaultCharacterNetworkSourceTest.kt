@@ -44,8 +44,8 @@ class DefaultCharacterNetworkSourceTest {
                     "/api/character/4005-184971/" -> BarquinDetailsResponse
                     "/api/characters" -> with(request.url.encodedQuery) {
                         when {
-                            contains("gender") -> MaleCharactersResponse
-                            contains("filter") -> FilteredCharactersResponse
+                            contains("gender=") -> MaleCharactersResponse
+                            contains("filter=") -> FilteredCharactersResponse
                             else -> CharactersResponse
                         }
                     }
@@ -75,33 +75,35 @@ class DefaultCharacterNetworkSourceTest {
             issueNumber = "1",
             name = "The Max Rebo Band"
         )
-        assertEquals(issue, response.results.firstAppearedInIssue)
+        assertEquals(issue, response.getOrNull()?.results?.firstAppearedInIssue)
     }
 
     @Test
     fun getBatmanCharacterDetails() = runTest {
         val response =
             networkSource.getCharacterDetails("https://comicvine.gamespot.com/api/character/4005-1699/")
-        assertEquals("Batman", response.results.name)
+        assertEquals("Batman", response.getOrNull()?.results?.name)
     }
 
 
     @Test
     fun getCharacters() = runTest {
         val response = networkSource.getAllCharacters(100, 0, GenderApiModel.All)
-        assert(response.results.any { it.name == "Sal Martello" })
+        val characters = response.getOrThrow().results
+        assert(characters.any { it.name == "Sal Martello" })
+        assertEquals(100, characters.size)
     }
 
     @Test
     fun getMaleCharacters() = runTest {
         val response = networkSource.getAllCharacters(100, 0, GenderApiModel.Male)
-        assert(response.results.all { it.gender == GenderApiModel.Male })
+        assert(response.getOrThrow().results.all { it.gender == GenderApiModel.Male })
     }
 
     @Test
     fun getCharactersWithId() = runTest {
         val ids = setOf(1443, 48499, 45927, 44135)
         val response = networkSource.getCharactersWithId(100, 0, ids.toList())
-        assert(response.results.all { ids.contains(it.id) })
+        assert(response.getOrThrow().results.all { ids.contains(it.id) })
     }
 }
