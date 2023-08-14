@@ -1,13 +1,13 @@
-package com.keetr.comicsnac.network.basic
+package com.keetr.comicsnac.network.common
 
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class MovieApiModel(
+data class IssueApiModel(
     @SerialName("api_detail_url") val apiDetailUrl: String,
     @SerialName("id") val id: Int,
-    @SerialName("name") val name: String,
-    @SerialName("site_detail_url") val siteDetailUrl: String
+    @SerialName("issue_number") val issueNumber: String,
+    @SerialName("name") val name: String
 )

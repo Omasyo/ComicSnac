@@ -1,9 +1,8 @@
 package com.keetr.comicsnac.network.character
 
 import com.keetr.comicsnac.network.Api.appendDefaultParameters
-import com.keetr.comicsnac.network.character.models.CharactersDetailsResponseApiModel
+import com.keetr.comicsnac.network.character.models.CharacterDetailsResponse
 import com.keetr.comicsnac.network.character.models.CharactersListResponse
-import com.keetr.comicsnac.network.character.models.ResultsApiModel
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body
 import io.ktor.client.request.get
@@ -13,7 +12,7 @@ class DefaultCharacterNetworkSource(
     private val client: HttpClient
 ) : CharacterNetworkSource {
 
-    override suspend fun getCharacterDetails(apiUrl: String): CharactersDetailsResponseApiModel<ResultsApiModel> =
+    override suspend fun getCharacterDetails(apiUrl: String): CharacterDetailsResponse =
         client.get(apiUrl) {
             parameter("field_list", FieldList)
         }.body()

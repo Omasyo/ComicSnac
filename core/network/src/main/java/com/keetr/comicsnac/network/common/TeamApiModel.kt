@@ -1,4 +1,4 @@
-package com.keetr.comicsnac.network.basic
+package com.keetr.comicsnac.network.common
 
 
 import kotlinx.serialization.SerialName

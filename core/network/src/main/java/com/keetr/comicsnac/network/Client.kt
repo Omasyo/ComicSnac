@@ -1,21 +1,13 @@
 package com.keetr.comicsnac.network
 
 import android.content.Context
-import com.keetr.comicsnac.network.Api.appendDefaultParameters
-import com.keetr.comicsnac.network.character.models.CharactersDetailsResponseApiModel
-import com.keetr.comicsnac.network.character.models.ResultsApiModel
 import io.ktor.client.HttpClient
-import io.ktor.client.call.body
 import io.ktor.client.engine.HttpClientEngine
-import io.ktor.client.engine.cio.CIO
 import io.ktor.client.plugins.cache.HttpCache
 import io.ktor.client.plugins.cache.storage.FileStorage
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.client.plugins.defaultRequest
-import io.ktor.client.request.get
-import io.ktor.client.request.parameter
 import io.ktor.http.URLProtocol
-import io.ktor.http.parameters
 import io.ktor.http.path
 import io.ktor.serialization.kotlinx.json.json
 import kotlinx.serialization.json.Json

@@ -1,21 +1,21 @@
 package com.keetr.comicsnac.network.character.models
 
 
-import com.keetr.comicsnac.network.basic.CharacterApiModel
-import com.keetr.comicsnac.network.basic.CreatorApiModel
-import com.keetr.comicsnac.network.basic.ImageApiModel
-import com.keetr.comicsnac.network.basic.IssueApiModel
-import com.keetr.comicsnac.network.basic.MovieApiModel
-import com.keetr.comicsnac.network.basic.OriginApiModel
-import com.keetr.comicsnac.network.basic.PowerApiModel
-import com.keetr.comicsnac.network.basic.PublisherApiModel
-import com.keetr.comicsnac.network.basic.TeamApiModel
-import com.keetr.comicsnac.network.basic.VolumeApiModel
+import com.keetr.comicsnac.network.common.CharacterApiModel
+import com.keetr.comicsnac.network.common.CreatorApiModel
+import com.keetr.comicsnac.network.common.ImageApiModel
+import com.keetr.comicsnac.network.common.IssueApiModel
+import com.keetr.comicsnac.network.common.MovieApiModel
+import com.keetr.comicsnac.network.common.OriginApiModel
+import com.keetr.comicsnac.network.common.PowerApiModel
+import com.keetr.comicsnac.network.common.PublisherApiModel
+import com.keetr.comicsnac.network.common.TeamApiModel
+import com.keetr.comicsnac.network.common.VolumeApiModel
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class ResultsApiModel(
+data class CharacterDetailsApiModel(
     @SerialName("aliases") val aliases: String?,
     @SerialName("api_detail_url") val apiDetailUrl: String,
     @SerialName("character_enemies") val characterEnemies: List<CharacterApiModel>,

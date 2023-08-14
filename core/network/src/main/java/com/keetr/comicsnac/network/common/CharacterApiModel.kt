@@ -1,11 +1,11 @@
-package com.keetr.comicsnac.network.character.models
+package com.keetr.comicsnac.network.common
 
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class Result(
+data class CharacterApiModel(
     @SerialName("api_detail_url") val apiDetailUrl: String,
     @SerialName("id") val id: Int,
     @SerialName("name") val name: String,
