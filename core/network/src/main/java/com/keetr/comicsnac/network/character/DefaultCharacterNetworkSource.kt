@@ -16,13 +16,14 @@ internal class DefaultCharacterNetworkSource(
 
     override suspend fun getCharacterDetails(apiUrl: String): CharacterDetailsResponse =
         client.get(apiUrl) {
-            parameter("field_list", FieldList)
+            parameter("field_list", DetailsFieldList)
         }.body()
 
     override suspend fun getRecentCharacters(
         pageSize: Int,
         offset: Int
-    ): CharactersListResponse = getCharacters(pageSize, offset, sortRecentlyUpdated = Sort.Descending)
+    ): CharactersListResponse =
+        getCharacters(pageSize, offset, sortRecentlyUpdated = Sort.Descending)
 
 
     override suspend fun getAllCharacters(
@@ -45,6 +46,7 @@ internal class DefaultCharacterNetworkSource(
         sortRecentlyUpdated: Sort = Sort.None
     ): CharactersListResponse = client.get("characters") {
         appendDefaultParameters()
+        parameter("field_list", ListFieldList)
         parameter("limit", pageSize)
         parameter("offset", offset)
         if (gender != GenderApiModel.All) parameter("gender", gender.id)
@@ -56,7 +58,10 @@ internal class DefaultCharacterNetworkSource(
     }.body()
 }
 
-private const val FieldList = "aliases,api_detail_url,character_enemies,character_friends," +
+private const val DetailsFieldList = "aliases,api_detail_url,character_enemies,character_friends," +
         "count_of_issue_appearances,creators,deck,description,first_appeared_in_issue,gender," +
         "id,image,movies,name,origin,powers,publisher,real_name,site_detail_url,team_enemies," +
         "team_friends,teams,volume_credits"
+
+private const val ListFieldList =
+    "api_detail_url,date_last_updated,id,image,gender,name,site_detail_url"
