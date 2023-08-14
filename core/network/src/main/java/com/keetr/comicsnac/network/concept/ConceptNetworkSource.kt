@@ -1,6 +1,5 @@
 package com.keetr.comicsnac.network.concept
 
-import com.keetr.comicsnac.network.concept.models.ConceptListApiModel
 import com.keetr.comicsnac.network.concept.models.ConceptDetailsResponse
 import com.keetr.comicsnac.network.concept.models.ConceptListResponse
 

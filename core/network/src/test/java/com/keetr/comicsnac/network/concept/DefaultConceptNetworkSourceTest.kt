@@ -1,13 +1,6 @@
 package com.keetr.comicsnac.network.concept
 
 import android.content.Context
-import com.keetr.comicsnac.network.character.CharacterNetworkSource
-import com.keetr.comicsnac.network.character.DefaultCharacterNetworkSource
-import com.keetr.comicsnac.network.character.fake.BarquinDetailsResponse
-import com.keetr.comicsnac.network.character.fake.BatmanDetailsResponse
-import com.keetr.comicsnac.network.character.fake.CharactersResponse
-import com.keetr.comicsnac.network.character.fake.FilteredCharactersResponse
-import com.keetr.comicsnac.network.character.fake.MaleCharactersResponse
 import com.keetr.comicsnac.network.concept.fake.ConceptsResponse
 import com.keetr.comicsnac.network.concept.fake.OdinForceDetailsResponse
 import com.keetr.comicsnac.network.createClient
@@ -19,9 +12,8 @@ import io.ktor.http.headersOf
 import io.mockk.every
 import io.mockk.mockk
 import kotlinx.coroutines.test.runTest
-import org.junit.Assert.*
-
 import org.junit.After
+import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test

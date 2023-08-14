@@ -4,7 +4,6 @@ import com.keetr.comicsnac.network.common.models.ResponseApiModel
 import io.ktor.client.call.body
 import io.ktor.client.statement.HttpResponse
 import io.ktor.http.HttpStatusCode
-import io.ktor.http.cio.Response
 
 object InvalidApiException: Throwable()
 suspend inline fun <reified T> makeRequest(exec: () -> HttpResponse): Result<ResponseApiModel<T>> =

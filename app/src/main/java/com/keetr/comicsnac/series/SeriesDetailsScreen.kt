@@ -1,24 +1,11 @@
 package com.keetr.comicsnac.series
 
-import android.graphics.drawable.Drawable
-import android.text.Html.ImageGetter
-import android.text.Html.TagHandler
-import android.text.method.LinkMovementMethod
-import android.util.Log
-import android.webkit.WebView
-import android.widget.TextView
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.viewinterop.AndroidView
-import androidx.core.text.HtmlCompat
-import androidx.core.text.HtmlCompat.FROM_HTML_MODE_COMPACT
-import androidx.core.text.HtmlCompat.FROM_HTML_MODE_LEGACY
 import com.google.accompanist.web.WebView
-import com.google.accompanist.web.rememberWebViewState
 import com.google.accompanist.web.rememberWebViewStateWithHTMLData
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
-import java.net.URL
 
 @Composable
 fun SeriesDetailsScreen(
