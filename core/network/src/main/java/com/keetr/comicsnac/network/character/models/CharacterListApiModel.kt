@@ -11,9 +11,10 @@ import java.time.LocalDateTime
 data class CharacterListApiModel(
     @SerialName("api_detail_url") val apiDetailUrl: String,
 
-    @SerialName("date_last_updated")
-    @Serializable(DateAsStringSerializer::class) val dateLastUpdate: LocalDateTime,
+    @Serializable(DateAsStringSerializer::class)
+    @SerialName("date_last_updated") val dateLastUpdate: LocalDateTime,
 
+    @SerialName("deck") val deck: String?,
     @SerialName("id") val id: Int,
     @SerialName("image") val image: ImageApiModel,
     @SerialName("gender") val gender: GenderApiModel,

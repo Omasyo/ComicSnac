@@ -1,10 +1,11 @@
 package com.keetr.comicsnac.network.character
 
+import com.keetr.comicsnac.network.NetworkSource
 import com.keetr.comicsnac.network.character.models.CharacterDetailsResponse
 import com.keetr.comicsnac.network.character.models.CharactersListResponse
 import com.keetr.comicsnac.network.common.models.GenderApiModel
 
-interface CharacterNetworkSource {
+interface CharacterNetworkSource : NetworkSource{
 
     suspend fun getCharacterDetails(apiUrl: String): Result<CharacterDetailsResponse>
 

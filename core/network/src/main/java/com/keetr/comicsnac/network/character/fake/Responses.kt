@@ -8,6 +8,8 @@ internal val BatmanDetailsResponse = File(root, "BatmanDetailsResponse.json").re
 
 internal val CharactersResponse = File(root, "CharactersResponse.json").readText()
 
+internal val RecentCharactersResponse = File(root, "RecentCharactersResponse.json").readText()
+
 internal val MaleCharactersResponse = File(root, "MaleCharactersResponse.json").readText()
 
 internal val FilteredCharactersResponse = File(root, "FilteredCharactersResponse.json").readText()

@@ -9,7 +9,7 @@ import io.ktor.client.request.get
 import io.ktor.client.request.parameter
 import javax.inject.Inject
 
-class DefaultConceptNetworkSource @Inject constructor(
+internal class DefaultConceptNetworkSource @Inject constructor(
     private val client: HttpClient
 ) : ConceptNetworkSource {
     override suspend fun getConceptDetails(apiUrl: String): Result<ConceptDetailsResponse> =
@@ -22,7 +22,7 @@ class DefaultConceptNetworkSource @Inject constructor(
 
     override suspend fun getAllConcepts(pageSize: Int, offset: Int): Result<ConceptListResponse> =
         makeRequest {
-            client.get("characters") {
+            client.get("concepts") {
                 parameter("field_list", ListFieldList)
                 parameter("limit", pageSize)
                 parameter("offset", offset)
@@ -34,4 +34,4 @@ class DefaultConceptNetworkSource @Inject constructor(
 private const val DetailsFieldList = "aliases,api_detail_url,deck,description," +
         "first_appeared_in_issue,id,image,name,site_detail_url,start_year,volume_credits"
 
-private const val ListFieldList = "api_detail_url,id,image,name,site_detail_url"
+private const val ListFieldList = "api_detail_url,deck,id,image,name,site_detail_url"
