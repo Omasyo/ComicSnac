@@ -6,7 +6,7 @@ import androidx.compose.ui.graphics.Color
 val DefaultScheme = generateColorScheme(
     darkColor = Color(0xFF1A323E),
     lightColor = Color(0xFFF7D281),
-    surfaceColor = Color(0xFF02537C),
+    surfaceColor = Color(0xFF1B729F),
     altSurfaceColor = Color(0xFF902724),
     error = Color(0xFFF23C27)
 )

@@ -1,4 +1,4 @@
-package com.keetr.comicsnac.ui.components
+package com.keetr.comicsnac.ui.components.cards
 
 import android.content.res.Configuration
 import androidx.compose.foundation.background
@@ -26,8 +26,7 @@ fun ComicCard(
     }
     Box(
         modifier
-            .border(4f.dp, Color.Yellow, shape)
-
+            .border(4f.dp, MaterialTheme.colorScheme.outline, shape)
             .clip(shape)
             .background(MaterialTheme.colorScheme.background)
     ) {
@@ -46,7 +45,7 @@ private fun Preview() {
             Box(
                 Modifier
                     .fillMaxSize()
-                    .background(Color.Blue)
+                    .background(Color.Gray)
             )
         }
     }

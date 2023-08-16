@@ -22,6 +22,7 @@ import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
@@ -43,7 +44,7 @@ data class PanelColors(
 interface PanelLazyListScope {
 
     fun LazyListScope.panel(
-        tag: String, content: @Composable LazyItemScope.() -> Unit
+        content: @Composable LazyItemScope.() -> Unit
     )
 
     fun render(scope: LazyListScope)
@@ -58,13 +59,13 @@ private class PanelLazyListScopeImpl(colors: PanelColors) : PanelLazyListScope {
     private val panels: MutableList<@Composable LazyItemScope.() -> Unit> = mutableListOf()
 
     override fun LazyListScope.panel(
-        tag: String, content: @Composable LazyItemScope.() -> Unit
+        content: @Composable LazyItemScope.() -> Unit
     ) {
         panels.add(content)
     }
 
     override fun render(scope: LazyListScope) {
-        for (index in 0..panels.lastIndex - 1) {
+        for (index in 0 until panels.lastIndex) {
             val colorIndex = index % 3
             val nextColorIndex = (colorIndex + 1) % 3
 
@@ -115,7 +116,7 @@ private fun Preview() {
         val state = rememberLazyListState()
         val scope = rememberCoroutineScope()
         var expandedIndex by remember {
-            mutableStateOf(-1)
+            mutableIntStateOf(-1)
         }
 
         LazyColumn(
@@ -127,7 +128,7 @@ private fun Preview() {
             ) {
                 repeat(30) { index ->
 
-                    panel("Test $index") {
+                    panel {
                         val expandedModifier =
                             if (index == expandedIndex) Modifier.fillParentMaxHeight(0.85f) else Modifier.height(
                                 96f.dp
