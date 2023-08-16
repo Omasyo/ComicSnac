@@ -11,12 +11,14 @@ import io.ktor.client.request.get
 import io.ktor.client.request.parameter
 import javax.inject.Inject
 
+const val TAG = "DefaultCharacterNetworkSource"
+
 internal class DefaultCharacterNetworkSource @Inject constructor(
     private val client: HttpClient
 ) : CharacterNetworkSource {
 
     override suspend fun getCharacterDetails(apiUrl: String): Result<CharacterDetailsResponse> =
-        makeRequest {
+        makeRequest(TAG) {
             client.get(apiUrl) {
                 appendDefaultParameters()
                 parameter("field_list", DetailsFieldList)
@@ -43,7 +45,7 @@ internal class DefaultCharacterNetworkSource @Inject constructor(
         gender: GenderApiModel = GenderApiModel.All,
         characterIds: List<Int> = emptyList(),
         sortRecentlyUpdated: Sort = Sort.None
-    ): Result<CharactersListResponse> = makeRequest {
+    ): Result<CharactersListResponse> = makeRequest(TAG) {
         client.get("characters") {
             parameter("field_list", ListFieldList)
             parameter("limit", pageSize)

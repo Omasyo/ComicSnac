@@ -10,11 +10,13 @@ import io.ktor.client.request.get
 import io.ktor.client.request.parameter
 import javax.inject.Inject
 
+const val TAG = "DefaultIssueNetworkSource"
+
 class DefaultIssueNetworkSource @Inject constructor(
     private val client: HttpClient
 ) : IssueNetworkSource {
     override suspend fun getIssueDetails(apiUrl: String): Result<IssueDetailsResponse> =
-        makeRequest {
+        makeRequest(TAG) {
             client.get(apiUrl) {
                 appendDefaultParameters()
                 parameter("field_list", DetailsFieldList)
@@ -24,14 +26,18 @@ class DefaultIssueNetworkSource @Inject constructor(
     override suspend fun getRecentIssues(pageSize: Int, offset: Int): Result<IssueListResponse> =
         getIssues(pageSize, offset, Sort.Descending)
 
-    override suspend fun getAllIssues(pageSize: Int, offset: Int): Result<IssueListResponse>  =
-       getIssues(pageSize, offset)
+    override suspend fun getAllIssues(
+        pageSize: Int,
+        offset: Int,
+        sortCoverDate: Sort
+    ): Result<IssueListResponse> =
+        getIssues(pageSize, offset, sortCoverDate)
 
     private suspend fun getIssues(
         pageSize: Int,
         offset: Int,
         sortCoverDate: Sort = Sort.None
-    ): Result<IssueListResponse> = makeRequest {
+    ): Result<IssueListResponse> = makeRequest(TAG) {
         client.get("issues") {
             parameter("field_list", ListFieldList)
             parameter("limit", pageSize)
