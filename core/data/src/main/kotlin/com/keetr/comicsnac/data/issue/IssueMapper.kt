@@ -20,8 +20,10 @@ fun IssueListApiModel.toIssue() = Issue(
     deck = deck ?: "",
     id = id,
     imageUrl = image.smallUrl,
-    name = name ?: "######",
-    siteDetailUrl = siteDetailUrl
+    issueNumber = issueNumber,
+    name = name ?: "",
+    siteDetailUrl = siteDetailUrl,
+    volumeName = volume.name
 )
 
 fun IssueDetailsApiModel.toIssueDetails() = IssueDetails(

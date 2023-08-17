@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_issues">New Issues</string>
+    <string name="characters">Characters</string>
+    <string name="popular_volumes">Popular Volumes</string>
+    <string name="movies">Movies</string>
+    <string name="series">Series</string>
+    <string name="issue_image_desc">Cover image for issue %1$s of %2$s - %3$s</string>
+    <string name="character_image_desc">Character image for %1$s</string>
+</resources>

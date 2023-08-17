@@ -5,6 +5,8 @@ data class Issue(
     val deck: String,
     val id: Int,
     val imageUrl: String,
+    val issueNumber: String,
     val name: String,
-    val siteDetailUrl: String
+    val siteDetailUrl: String,
+    val volumeName: String
 )

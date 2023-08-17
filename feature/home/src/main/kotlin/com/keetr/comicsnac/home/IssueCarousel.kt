@@ -14,7 +14,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.PageSize
 import androidx.compose.foundation.pager.rememberPagerState
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -27,6 +26,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Density
@@ -35,7 +35,9 @@ import androidx.compose.ui.util.lerp
 import androidx.compose.ui.zIndex
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
+import com.keetr.comicsnac.home.fake.Issues
 import com.keetr.comicsnac.model.issue.Issue
+import com.keetr.comicsnac.ui.R
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
 import kotlinx.coroutines.launch
 import kotlin.math.absoluteValue
@@ -88,7 +90,7 @@ fun IssueCarousel(
                     AsyncImage(
                         model = ImageRequest.Builder(LocalContext.current).data(imageUrl)
                             .crossfade(true).build(),
-                        contentDescription = "Poster for Issue smotheing", //Add proper string resource
+                        contentDescription = stringResource(R.string.issue_image_desc, issueNumber, volumeName, name),
                         contentScale = ContentScale.Crop,
                         modifier = Modifier
                             .padding(1f.dp)
@@ -143,16 +145,4 @@ private fun Preview() {
             IssueCarousel(issues = Issues) { }
         }
     }
-}
-
-val Issues = List(30) {
-    Issue(
-        apiDetailUrl = "https://search.yahoo.com/search?p=qui",
-        deck = "vix",
-        id = 5697,
-        imageUrl = "https://comicvine.gamespot.com/a/uploads/scale_small/6/67663/2710974-698.jpg",
-        name = "Angelo Espinoza $it",
-        siteDetailUrl = "https://search.yahoo.com/search?p=magnis"
-
-    )
 }
