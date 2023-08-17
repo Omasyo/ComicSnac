@@ -4,8 +4,9 @@ import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.PagingData
 import com.keetr.comicsnac.data.CustomPagingSource
+import com.keetr.comicsnac.data.di.IODispatcher
 import com.keetr.comicsnac.data.fromNetworkError
-import com.keetr.comicsnac.model.Response
+import com.keetr.comicsnac.model.RepositoryResponse
 import com.keetr.comicsnac.model.character.Character
 import com.keetr.comicsnac.model.character.CharacterDetails
 import com.keetr.comicsnac.model.other.Gender
@@ -17,24 +18,23 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.withContext
 import javax.inject.Inject
-import javax.inject.Named
 
 internal class DefaultCharacterRepository @Inject constructor(
-    private val networkDataSource: CharacterNetworkSource,
-    @Named("IO") private val dispatcher: CoroutineDispatcher
+    private val networkSource: CharacterNetworkSource,
+    @IODispatcher private val dispatcher: CoroutineDispatcher
 ) : CharacterRepository {
-    override suspend fun getCharacterDetails(apiUrl: String): Response<CharacterDetails> =
+    override suspend fun getCharacterDetails(apiUrl: String): RepositoryResponse<CharacterDetails> =
         withContext(dispatcher) {
-            networkDataSource.getCharacterDetails(apiUrl)
-                .fold(onSuccess = { Response.Success(it.results.toCharacterDetail()) }) {
+            networkSource.getCharacterDetails(apiUrl)
+                .fold(onSuccess = { RepositoryResponse.Success(it.results.toCharacterDetail()) }) {
                     fromNetworkError(it)
                 }
         }
 
-    override suspend fun getRecentCharacters(): Response<List<Character>> =
+    override suspend fun getRecentCharacters(): RepositoryResponse<List<Character>> =
         withContext(dispatcher) {
-            networkDataSource.getRecentCharacters(100, 0)
-                .fold(onSuccess = { Response.Success(it.results.toCharacters()) }) {
+            networkSource.getRecentCharacters(25, 0)
+                .fold(onSuccess = { RepositoryResponse.Success(it.results.toCharacters()) }) {
                     fromNetworkError(it)
                 }
         }
@@ -45,7 +45,7 @@ internal class DefaultCharacterRepository @Inject constructor(
         ) {
             CustomPagingSource(
                 provider = { page ->
-                    networkDataSource.getAllCharacters(
+                    networkSource.getAllCharacters(
                         PageSize,
                         PageSize * page,
                         GenderApiModel.valueOf(genderFilter.name)
@@ -61,7 +61,7 @@ internal class DefaultCharacterRepository @Inject constructor(
         ) {
             CustomPagingSource(
                 provider = { page ->
-                    networkDataSource.getCharactersWithId(
+                    networkSource.getCharactersWithId(
                         PageSize,
                         PageSize * page,
                         charactersId

@@ -6,7 +6,7 @@ import org.gradle.kotlin.dsl.configure
 import org.gradle.kotlin.dsl.dependencies
 import org.gradle.kotlin.dsl.getByType
 
-class AndroidComposeConventionPlugin: Plugin<Project> {
+class AndroidComposeConventionPlugin : Plugin<Project> {
     override fun apply(target: Project) {
         with(target) {
             extensions.configure<LibraryExtension> {
@@ -19,7 +19,9 @@ class AndroidComposeConventionPlugin: Plugin<Project> {
             }
 
             val libs = extensions.getByType<VersionCatalogsExtension>().named("libs")
-            dependencies{
+            dependencies {
+                "implementation"(libs.findLibrary("coil.compose").get())
+
                 "implementation"(platform(libs.findLibrary("androidx.compose.bom").get()))
                 "implementation"(libs.findLibrary("androidx.compose.material3").get())
                 "implementation"(libs.findLibrary("androidx.compose.ui").get())

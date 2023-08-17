@@ -1,21 +1,20 @@
 package com.keetr.comicsnac.home
 
 import androidx.compose.runtime.Immutable
-import androidx.compose.runtime.Stable
-import com.keetr.comicsnac.model.Response
+import com.keetr.comicsnac.model.RepositoryResponse
 import com.keetr.comicsnac.model.character.Character
 import com.keetr.comicsnac.model.issue.Issue
 
 @Immutable
-sealed interface HomeCategoryUiState<out T> {
-    data object InDevelopment : HomeCategoryUiState<Nothing>
+sealed interface HomeCategoryUiState<out T>
 
-    data object Loading : HomeCategoryUiState<Nothing>
+data object InDevelopment : HomeCategoryUiState<Nothing>
 
-    data class Error(val error: Response.Error) : HomeCategoryUiState<Nothing>
+data object Loading : HomeCategoryUiState<Nothing>
 
-    data class Success<T>(val contents: List<T>) : HomeCategoryUiState<T>
-}
+data class Error(val error: RepositoryResponse.Error) : HomeCategoryUiState<Nothing>
+
+data class Success<T>(val contents: List<T>) : HomeCategoryUiState<T>
 
 typealias IssuesUiState = HomeCategoryUiState<Issue>
 

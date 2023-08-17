@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    id("comicsnac.android.hilt")
 }
 
 android {
@@ -30,6 +31,8 @@ android {
         }
     }
     compileOptions {
+        isCoreLibraryDesugaringEnabled = true
+
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
@@ -50,7 +53,11 @@ android {
 }
 
 dependencies {
+    coreLibraryDesugaring(libs.android.tools.desugar)
+    
+    implementation(project(":core:model"))
     implementation(project(":core:ui"))
+    implementation(project(":feature:home"))
 
     implementation(libs.accompanist.webview)
     implementation(libs.androidx.navigation.compose)

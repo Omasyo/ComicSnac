@@ -49,5 +49,6 @@ internal suspend inline fun <reified T> makeRequest(
             }
         }
     } catch (e: Exception) {
+        Log.w(tag, "makeRequest: ${e.message}")
         Result.failure(e)
     }

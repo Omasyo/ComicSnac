@@ -1,5 +1,9 @@
 package com.keetr.comicsnac.home
 
+import androidx.compose.foundation.Indication
+import androidx.compose.foundation.IndicationInstance
+import androidx.compose.foundation.LocalIndication
+import androidx.compose.foundation.interaction.InteractionSource
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -7,24 +11,36 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.LocalContentColor
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import coil.compose.AsyncImage
+import coil.request.ImageRequest
+import com.keetr.comicsnac.model.character.Character
 import com.keetr.comicsnac.model.issue.Issue
 import com.keetr.comicsnac.ui.components.PanelColors
+import com.keetr.comicsnac.ui.components.cards.ComicCard
 import com.keetr.comicsnac.ui.components.panelList
+import com.keetr.comicsnac.ui.placeholders.InDevelopmentPlaceholder
+import com.keetr.comicsnac.ui.placeholders.LoadingPlaceholder
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
 
 @Composable
@@ -47,149 +63,153 @@ fun HomeScreen(
         )
     }
 
-    CompositionLocalProvider(LocalContentColor provides MaterialTheme.colorScheme.onSurface) {
-        LazyColumn {
-            panelList(panelColors) {
-                panel {
-                    Text(
-                        "Comic Snac",
-                        style = MaterialTheme.typography.headlineLarge,
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(16f.dp, 8f.dp)
-                    )
-                }
-                panel {
-                    Column(
-                        Modifier
-                            .fillMaxWidth()
-                            .height(360f.dp),
-                        horizontalAlignment = Alignment.CenterHorizontally
-                    ) {
+    Scaffold { padding ->
+        CompositionLocalProvider(LocalContentColor provides MaterialTheme.colorScheme.onSurface) {
+            LazyColumn(contentPadding = padding) {
+                panelList(panelColors) {
+                    panel {
                         Text(
-                            "New Issues",
-                            style = MaterialTheme.typography.titleLarge,
-                            modifier = Modifier.padding(top = 4f.dp)
+                            "Comic Snac",
+                            style = MaterialTheme.typography.headlineLarge,
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(16f.dp, 8f.dp)
                         )
-                        Spacer(Modifier.height(48f.dp))
-                        when (val uiState = homeUiState.issuesUiState) {
-                            is HomeCategoryUiState.Error -> TODO()
-                            HomeCategoryUiState.InDevelopment -> Box(Modifier.fillMaxSize()) {
-                                Text(
-                                    "In Development",
-                                    style = MaterialTheme.typography.headlineLarge,
-                                    modifier = Modifier.align(Alignment.Center)
-                                )
-                            }
+                    }
+                    panel {
+                        Column(
+                            Modifier
+                                .fillMaxWidth(),
+//                                .height(376f.dp),
+                            horizontalAlignment = Alignment.CenterHorizontally,
+                        ) {
+                            Text(
+                                "New Issues",
+                                style = MaterialTheme.typography.titleLarge,
+                                modifier = Modifier.padding(top = 4f.dp)
+                            )
+                            when (val uiState = homeUiState.issuesUiState) {
+                                is Error -> TODO()
+                                InDevelopment -> InDevelopmentPlaceholder(Modifier.height(360f.dp))
+                                Loading -> LoadingPlaceholder(Modifier.height(360f.dp))
 
-                            HomeCategoryUiState.Loading -> TODO()
-                            is HomeCategoryUiState.Success -> {
-                                IssueCarousel(issues = uiState.contents)
+                                is Success -> {
+                                    var works = remember {
+                                        mutableStateOf(false)
+                                    }
+                                    if (works.value) Text("Works")
+                                    IssueCarousel(issues = uiState.contents) {
+                                        works.value = !works.value
+                                    }
+                                }
                             }
                         }
                     }
-                }
 
-                panel {
-                    CategoryCarousel(
-                        name = "Characters",
-                        uiState = homeUiState.charactersUiState
-                    ) {
+                    panel {
+                        CategoryCarousel(
+                            name = "Characters",
+                            key = { it.id },
+                            uiState = homeUiState.charactersUiState
+                        ) { character ->
+                            Column(
+                                horizontalAlignment = Alignment.CenterHorizontally,
+                                modifier = Modifier.width(144f.dp)
+                            ) {
+                                ComicCard(Modifier.size(136f.dp, 216f.dp)) {
 
+                                    AsyncImage(
+                                        model = ImageRequest.Builder(LocalContext.current)
+                                            .data(character.imageUrl)
+                                            .crossfade(true)
+                                            .build(),
+                                        contentDescription = "Poster for Issue smotheing", //Add proper string resource
+                                        contentScale = ContentScale.Crop,
+                                        modifier = Modifier.fillMaxSize()
+                                    )
+                                }
+                                Text(
+                                    character.name,
+                                    modifier = Modifier.padding(horizontal = 8f.dp),
+                                    textAlign = TextAlign.Center,
+                                    minLines = 2,
+                                    maxLines = 2
+                                )
+                            }
+                        }
                     }
-                }
 
-                panel {
-                    CategoryCarousel(
-                        name = "Popular Volumes",
-                        uiState = homeUiState.volumesUiState
-                    ) {
+                    panel {
+                        CategoryCarousel(
+                            name = "Popular Volumes",
+                            uiState = homeUiState.volumesUiState,
+                            key = { /* TODO */ }
+                        ) {
 
+                        }
                     }
-                }
 
-                panel {
-                    CategoryCarousel(
-                        name = "Movies",
-                        uiState = homeUiState.moviesUiState
-                    ) {
+                    panel {
+                        CategoryCarousel(
+                            name = "Movies",
+                            uiState = homeUiState.moviesUiState,
+                            key = { /* TODO */ }
+                        ) {
 
+                        }
                     }
-                }
 
-                panel {
-                    CategoryCarousel(
-                        name = "Series",
-                        uiState = homeUiState.seriesUiState
-                    ) {
+                    panel {
+                        CategoryCarousel(
+                            name = "Series",
+                            uiState = homeUiState.seriesUiState,
+                            key = { /* TODO */ }
+                        ) {
 
-                    }
-                }
-            }
-        }
-    }
-}
-
-@Composable
-private fun <T> CategoryCarousel(
-    modifier: Modifier = Modifier,
-    name: String,
-    uiState: HomeCategoryUiState<T>,
-    builder: @Composable (item: T) -> Unit
-) {
-    Column(
-        modifier
-            .fillMaxWidth()
-            .height(360f.dp)
-    ) {
-        Text(
-            name,
-            style = MaterialTheme.typography.titleLarge,
-            modifier = Modifier.padding(start = 16f.dp, top = 8f.dp)
-        )
-
-        when (uiState) {
-            is HomeCategoryUiState.Error -> TODO()
-            HomeCategoryUiState.InDevelopment -> Box(Modifier.fillMaxSize()) {
-                Text(
-                    "In Development",
-                    style = MaterialTheme.typography.headlineLarge,
-                    modifier = Modifier.align(Alignment.Center)
-                )
-            }
-
-            HomeCategoryUiState.Loading -> TODO()
-            is HomeCategoryUiState.Success -> {
-                LazyRow {
-                    items(uiState.contents) {
-                        builder(it)
+                        }
                     }
                 }
             }
         }
+
     }
+
 }
 
-@Preview
+@Preview(fontScale = 1.0f)
 @Composable
 private fun Preview() {
     ComicSnacTheme {
-        HomeScreen(
-            onItemClicked = {},
-            onMoreCategoriesClicked = { },
-            onCharacterCategoryClicked = { },
-            onVolumeCategoryClicked = { },
-            onMovieCategoryClicked = { },
-            onSeriesCategoryClicked = { },
-            homeUiState = HomeUiState(
-                issuesUiState = HomeCategoryUiState.Success(Issues),
-                charactersUiState = HomeCategoryUiState.InDevelopment,
-                volumesUiState = HomeCategoryUiState.InDevelopment,
-                moviesUiState = HomeCategoryUiState.InDevelopment,
-                seriesUiState = HomeCategoryUiState.InDevelopment,
-                publishersUiState = HomeCategoryUiState.InDevelopment
+        CompositionLocalProvider(
+        ) {
+            HomeScreen(
+                onItemClicked = {},
+                onMoreCategoriesClicked = { },
+                onCharacterCategoryClicked = { },
+                onVolumeCategoryClicked = { },
+                onMovieCategoryClicked = { },
+                onSeriesCategoryClicked = { },
+                homeUiState = HomeUiState(
+                    issuesUiState = Success(Issues),
+                    charactersUiState = Success(Characters),
+                    volumesUiState = InDevelopment,
+                    moviesUiState = InDevelopment,
+                    seriesUiState = InDevelopment,
+                    publishersUiState = InDevelopment
 
+                )
             )
-        )
+        }
     }
+}
+
+val Characters = List(30) {
+    Character(
+        apiDetailUrl = "http://www.bing.com/search?q=eius",
+        deck = "tation",
+        id = it,
+        imageUrl = "https://comicvine.gamespot.com/a/uploads/scale_small/11144/111442876/8759934-jrjrhr.jpg",
+        name = "Beatriz Coleman",
+        siteDetailUrl = "https://www.google.com/#q=fames"
+    )
 }

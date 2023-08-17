@@ -15,11 +15,11 @@ val Chewy = FontFamily(Font(R.font.chewy))
 // Set of Material typography styles to start with
 val Typography = with(Typography()) {
     Typography(
-//        headlineLarge = headlineLarge.copy(fontFamily = Bangers),
-//        headlineMedium = headlineMedium.copy(fontFamily = Bangers),
-//        headlineSmall = headlineSmall.copy(fontFamily = Bangers),
-//        titleLarge = titleLarge.copy(fontFamily = Chewy),
-//        titleMedium = titleMedium.copy(fontFamily = Chewy),
-//        bodyLarge = bodyLarge.copy(fontFamily = Chewy)
+        headlineLarge = headlineLarge.copy(fontFamily = Bangers),
+        headlineMedium = headlineMedium.copy(fontFamily = Bangers),
+        headlineSmall = headlineSmall.copy(fontFamily = Bangers),
+        titleLarge = titleLarge.copy(fontFamily = Chewy),
+        titleMedium = titleMedium.copy(fontFamily = Chewy),
+        bodyLarge = bodyLarge.copy(fontFamily = Chewy)
     )
 }
