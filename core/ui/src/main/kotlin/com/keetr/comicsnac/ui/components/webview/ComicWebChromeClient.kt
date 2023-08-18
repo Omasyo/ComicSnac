@@ -4,7 +4,7 @@ import android.util.Log
 import android.webkit.ConsoleMessage
 import com.google.accompanist.web.AccompanistWebChromeClient
 
-class ComicWebChromeClient : AccompanistWebChromeClient() {
+internal class ComicWebChromeClient : AccompanistWebChromeClient() {
     private val tag = this::class.simpleName
 
     override fun onConsoleMessage(consoleMessage: ConsoleMessage?): Boolean {
