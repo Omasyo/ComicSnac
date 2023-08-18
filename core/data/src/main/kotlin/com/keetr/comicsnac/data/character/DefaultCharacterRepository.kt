@@ -23,9 +23,9 @@ internal class DefaultCharacterRepository @Inject constructor(
     private val networkSource: CharacterNetworkSource,
     @IODispatcher private val dispatcher: CoroutineDispatcher
 ) : CharacterRepository {
-    override suspend fun getCharacterDetails(apiUrl: String): RepositoryResponse<CharacterDetails> =
+    override suspend fun getCharacterDetails(fullId: String): RepositoryResponse<CharacterDetails> =
         withContext(dispatcher) {
-            networkSource.getCharacterDetails(apiUrl)
+            networkSource.getCharacterDetails(fullId)
                 .fold(onSuccess = { RepositoryResponse.Success(it.results.toCharacterDetail()) }) {
                     fromNetworkError(it)
                 }

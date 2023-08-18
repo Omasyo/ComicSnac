@@ -8,7 +8,7 @@ import com.keetr.comicsnac.model.issue.IssueDetails
 import kotlinx.coroutines.flow.Flow
 
 interface IssueRepository {
-    suspend fun getIssueDetails(apiUrl: String): RepositoryResponse<IssueDetails>
+    suspend fun getIssueDetails(fullId: String): RepositoryResponse<IssueDetails>
 
     suspend fun getRecentIssues() : RepositoryResponse<List<Issue>>
 

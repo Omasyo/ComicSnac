@@ -8,7 +8,7 @@ import com.keetr.comicsnac.model.other.Gender
 import kotlinx.coroutines.flow.Flow
 
 interface CharacterRepository {
-    suspend fun getCharacterDetails(apiUrl: String): RepositoryResponse<CharacterDetails>
+    suspend fun getCharacterDetails(fullId: String): RepositoryResponse<CharacterDetails>
 
     suspend fun getRecentCharacters(): RepositoryResponse<List<Character>>
 

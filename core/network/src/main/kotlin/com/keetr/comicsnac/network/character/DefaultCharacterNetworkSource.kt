@@ -17,10 +17,9 @@ internal class DefaultCharacterNetworkSource @Inject constructor(
     private val client: HttpClient
 ) : CharacterNetworkSource {
 
-    override suspend fun getCharacterDetails(apiUrl: String): Result<CharacterDetailsResponse> =
+    override suspend fun getCharacterDetails(fullId: String): Result<CharacterDetailsResponse> =
         makeRequest(TAG) {
-            client.get(apiUrl) {
-                appendDefaultParameters()
+            client.get("character/$fullId") {
                 parameter("field_list", DetailsFieldList)
             }
         }

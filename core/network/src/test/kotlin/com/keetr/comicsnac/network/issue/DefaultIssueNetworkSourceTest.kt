@@ -13,7 +13,7 @@ import org.junit.Test
 class DefaultIssueNetworkSourceTest : NetworkSourceTest<IssueNetworkSource>() {
     override fun generateResponseBody(request: HttpRequestData): String =
         when (request.url.encodedPath) {
-            "/api/issue/4000-369103/" -> AmazingSpidermanIssueResponse
+            "/api/issue/4000-369103" -> AmazingSpidermanIssueResponse
             "/api/issues" -> with(request.url.parameters) {
                 when {
                     contains("sort", "cover_date:desc") -> RecentIssuesResponse
@@ -34,7 +34,7 @@ class DefaultIssueNetworkSourceTest : NetworkSourceTest<IssueNetworkSource>() {
     @Test
     fun `verify issue number`() = runTest {
         val response =
-            networkSource.getIssueDetails("https://comicvine.gamespot.com/api/issue/4000-369103/")
+            networkSource.getIssueDetails("4000-369103")
         assertEquals("698", response.getOrThrow().results.issueNumber)
     }
 

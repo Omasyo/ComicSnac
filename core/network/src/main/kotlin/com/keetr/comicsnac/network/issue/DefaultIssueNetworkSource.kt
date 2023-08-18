@@ -15,10 +15,9 @@ const val TAG = "DefaultIssueNetworkSource"
 class DefaultIssueNetworkSource @Inject constructor(
     private val client: HttpClient
 ) : IssueNetworkSource {
-    override suspend fun getIssueDetails(apiUrl: String): Result<IssueDetailsResponse> =
+    override suspend fun getIssueDetails(fullId: String): Result<IssueDetailsResponse> =
         makeRequest(TAG) {
-            client.get(apiUrl) {
-                appendDefaultParameters()
+            client.get("issue/$fullId") {
                 parameter("field_list", DetailsFieldList)
             }
         }

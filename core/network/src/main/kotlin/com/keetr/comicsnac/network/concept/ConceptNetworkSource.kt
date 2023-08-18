@@ -5,7 +5,7 @@ import com.keetr.comicsnac.network.concept.models.ConceptDetailsResponse
 import com.keetr.comicsnac.network.concept.models.ConceptListResponse
 
 interface ConceptNetworkSource: NetworkSource {
-    suspend fun getConceptDetails(apiUrl: String): Result<ConceptDetailsResponse>
+    suspend fun getConceptDetails(fullId: String): Result<ConceptDetailsResponse>
 
     suspend fun getAllConcepts(
         pageSize: Int,

@@ -56,13 +56,16 @@ class MainActivity : ComponentActivity() {
                         route = "/characters/{guid}",
                         deepLinks = listOf(
                             navDeepLink {
-                                uriPattern = "https://comicvine.gamespot.com/api/issue/{guid}/"
+                                uriPattern = "https://comicvine.gamespot.com/api/character/{guid}/"
+                            },
+                            navDeepLink {
+                                uriPattern = "https://comicvine.gamespot.com/{temp}/{guid}/"
                             }
                         )
                     ) { backStackEntry ->
 
                         val guid = checkNotNull(backStackEntry.arguments?.getString("guid"))
-                      val route =  backStackEntry
+                        val route = backStackEntry
 
                         Surface(Modifier.fillMaxSize()) {
                             Column(

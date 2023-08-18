@@ -23,9 +23,9 @@ class DefaultIssueRepository @Inject constructor(
     private val networkSource: IssueNetworkSource,
     @IODispatcher private val dispatcher: CoroutineDispatcher
 ) : IssueRepository {
-    override suspend fun getIssueDetails(apiUrl: String): RepositoryResponse<IssueDetails> =
+    override suspend fun getIssueDetails(fullId: String): RepositoryResponse<IssueDetails> =
         withContext(dispatcher) {
-            networkSource.getIssueDetails(apiUrl)
+            networkSource.getIssueDetails(fullId)
                 .fold(onSuccess = { RepositoryResponse.Success(it.results.toIssueDetails()) }) {
                     fromNetworkError(it)
                 }
