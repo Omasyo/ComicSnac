@@ -1,7 +1,11 @@
 package com.keetr.comicsnac.home
 
+import android.content.res.Configuration
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.animateContentSize
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -48,7 +52,7 @@ internal fun HomeScreen(
         )
     }
 
-    Scaffold { padding ->
+    Scaffold(modifier) { padding ->
         CompositionLocalProvider(LocalContentColor provides MaterialTheme.colorScheme.onSurface) {
             LazyColumn(contentPadding = padding) {
                 panelList(panelColors) {
@@ -95,7 +99,8 @@ internal fun HomeScreen(
                         CategoryCarousel(
                             name = stringResource(R.string.characters),
                             key = { it.id },
-                            uiState = homeUiState.charactersUiState
+                            uiState = homeUiState.charactersUiState,
+                            onExpand = onCharacterCategoryClicked
                         ) { character ->
                             Column(
                                 horizontalAlignment = Alignment.CenterHorizontally,
@@ -115,24 +120,46 @@ internal fun HomeScreen(
                     panel {
                         CategoryCarousel(name = stringResource(R.string.popular_volumes),
                             uiState = homeUiState.volumesUiState,
-                            key = { it.id }) {
-
+                            key = { it.id },
+                            onExpand = onVolumeCategoryClicked
+                        ) {
                         }
                     }
 
                     panel {
                         CategoryCarousel(name = stringResource(R.string.movies),
                             uiState = homeUiState.moviesUiState,
-                            key = { it.id }) {
+                            key = { it.id },
+                            onExpand = onMovieCategoryClicked
+                        ) {
 
                         }
                     }
 
                     panel {
-                        CategoryCarousel(name = stringResource(R.string.series),
+                        CategoryCarousel(
+                            name = stringResource(R.string.series),
                             uiState = homeUiState.seriesUiState,
-                            key = { it.id }) {
+                            key = { it.id },
+                            onExpand = onSeriesCategoryClicked
+                        ) {
 
+                        }
+                    }
+
+                    panel {
+                        Box(Modifier.fillMaxWidth().padding(bottom = 24f.dp)) {
+                            Text(
+                                "More Categories",
+                                style = MaterialTheme.typography.headlineSmall,
+                                color = MaterialTheme.colorScheme.primaryContainer,
+                                modifier = Modifier
+                                    .align(Alignment.CenterEnd)
+                                    .padding(top = 16f.dp)
+                                    .clickable { onMoreCategoriesClicked() }
+                                    .background(MaterialTheme.colorScheme.onSurface)
+                                    .padding(horizontal = 16f.dp, vertical = 4f.dp)
+                            )
                         }
                     }
                 }
@@ -143,13 +170,14 @@ internal fun HomeScreen(
 
 }
 
-@Preview(fontScale = 1.0f)
+@Preview
 @Composable
 private fun Preview() {
     ComicSnacTheme {
         CompositionLocalProvider(
         ) {
-            HomeScreen(onItemClicked = {},
+            HomeScreen(
+                onItemClicked = {},
                 onMoreCategoriesClicked = { },
                 onCharacterCategoryClicked = { },
                 onVolumeCategoryClicked = { },

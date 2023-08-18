@@ -2,9 +2,12 @@ package com.keetr.comicsnac.home
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.animateContentSize
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
@@ -25,17 +28,33 @@ internal fun <T> CategoryCarousel(
     name: String,
     uiState: HomeCategoryUiState<T>,
     key: (item: T) -> Any,
+    onExpand: () -> Unit,
     builder: @Composable (item: T) -> Unit
 ) {
     Column(
         modifier
             .fillMaxWidth()
     ) {
-        Text(
-            name,
-            style = MaterialTheme.typography.titleLarge,
-            modifier = Modifier.padding(start = 16f.dp, top = 8f.dp)
-        )
+        Row(
+            Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {
+            Text(
+                name,
+                style = MaterialTheme.typography.titleLarge,
+                modifier = Modifier.padding(start = 16f.dp, top = 8f.dp)
+            )
+            Text(
+                "More",
+                style = MaterialTheme.typography.titleMedium,
+                color = MaterialTheme.colorScheme.primary,
+                modifier = Modifier
+                    .padding(top = 8f.dp)
+                    .clickable { onExpand() }
+                    .background(MaterialTheme.colorScheme.onSurface)
+                    .padding(horizontal = 16f.dp, vertical = 4f.dp)
+            )
+        }
 
         AnimatedContent(
             targetState = uiState,
