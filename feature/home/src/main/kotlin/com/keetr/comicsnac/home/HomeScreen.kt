@@ -1,6 +1,5 @@
 package com.keetr.comicsnac.home
 
-import android.content.res.Configuration
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.animateContentSize
 import androidx.compose.foundation.background
@@ -27,12 +26,12 @@ import androidx.compose.ui.unit.dp
 import com.keetr.comicsnac.home.fake.Characters
 import com.keetr.comicsnac.home.fake.Issues
 import com.keetr.comicsnac.ui.R
-import com.keetr.comicsnac.ui.components.PanelColors
+import com.keetr.comicsnac.ui.components.lazylist.PanelColors
 import com.keetr.comicsnac.ui.components.cards.ComicCard
-import com.keetr.comicsnac.ui.components.panelList
-import com.keetr.comicsnac.ui.placeholders.ErrorPlaceholder
-import com.keetr.comicsnac.ui.placeholders.InDevelopmentPlaceholder
-import com.keetr.comicsnac.ui.placeholders.LoadingPlaceholder
+import com.keetr.comicsnac.ui.components.lazylist.panelList
+import com.keetr.comicsnac.ui.components.placeholders.ErrorPlaceholder
+import com.keetr.comicsnac.ui.components.placeholders.InDevelopmentPlaceholder
+import com.keetr.comicsnac.ui.components.placeholders.LoadingPlaceholder
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
 
 @Composable

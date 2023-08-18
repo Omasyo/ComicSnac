@@ -18,9 +18,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.keetr.comicsnac.ui.placeholders.ErrorPlaceholder
-import com.keetr.comicsnac.ui.placeholders.InDevelopmentPlaceholder
-import com.keetr.comicsnac.ui.placeholders.LoadingPlaceholder
+import com.keetr.comicsnac.ui.components.placeholders.ErrorPlaceholder
+import com.keetr.comicsnac.ui.components.placeholders.InDevelopmentPlaceholder
+import com.keetr.comicsnac.ui.components.placeholders.LoadingPlaceholder
 
 @Composable
 internal fun <T> CategoryCarousel(

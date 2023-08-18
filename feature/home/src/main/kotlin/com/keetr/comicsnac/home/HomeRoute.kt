@@ -5,9 +5,37 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.navigation.NavGraphBuilder
+import androidx.navigation.compose.composable
+import com.keetr.comicsnac.model.NavigationRoute
+
+
+ object HomeRoute : NavigationRoute("/")
+
+fun NavGraphBuilder.homeRoute(
+    modifier: Modifier = Modifier,
+    onItemClicked: (apiDetailUrl: String) -> Unit,
+    onMoreCategoriesClicked: () -> Unit,
+    onCharacterCategoryClicked: () -> Unit,
+    onVolumeCategoryClicked: () -> Unit,
+    onMovieCategoryClicked: () -> Unit,
+    onSeriesCategoryClicked: () -> Unit,
+) = composable(
+    route = HomeRoute.route
+) {
+    HomeRoute(
+        modifier = modifier,
+        onItemClicked = onItemClicked,
+        onMoreCategoriesClicked = onMoreCategoriesClicked,
+        onCharacterCategoryClicked = onCharacterCategoryClicked,
+        onVolumeCategoryClicked = onVolumeCategoryClicked,
+        onMovieCategoryClicked = onMovieCategoryClicked,
+        onSeriesCategoryClicked = onSeriesCategoryClicked)
+}
+
 
 @Composable
-fun HomeRoute(
+private fun HomeRoute(
     modifier: Modifier = Modifier,
     onItemClicked: (apiDetailUrl: String) -> Unit,
     onMoreCategoriesClicked: () -> Unit,

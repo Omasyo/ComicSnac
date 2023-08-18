@@ -1,4 +1,4 @@
-package com.keetr.comicsnac.ui.placeholders
+package com.keetr.comicsnac.ui.components.placeholders
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

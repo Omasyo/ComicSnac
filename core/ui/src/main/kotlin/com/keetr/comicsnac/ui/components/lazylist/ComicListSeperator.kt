@@ -1,4 +1,4 @@
-package com.keetr.comicsnac.ui.components
+package com.keetr.comicsnac.ui.components.lazylist
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.aspectRatio

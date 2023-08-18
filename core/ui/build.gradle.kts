@@ -6,3 +6,7 @@ plugins {
 android {
     namespace = "com.keetr.comicsnac.ui"
 }
+
+dependencies {
+    implementation(libs.accompanist.webview)
+}
