@@ -1,6 +1,6 @@
 package com.keetr.comicsnac.details
 
-import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -12,6 +12,10 @@ import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
@@ -33,6 +37,10 @@ fun DetailsScreen(
     modifier: Modifier = Modifier,
     images: List<Image>,
     onBackPressed: () -> Unit,
+    userScrollEnabled: Boolean = true,
+    imageExpanded: Boolean,
+    onImageClicked: () -> Unit,
+    onImageCloseClicked: () -> Unit,
     lazyListState: LazyListState = rememberLazyListState(),
     content: PanelLazyListScope.() -> Unit
 ) {
@@ -47,13 +55,18 @@ fun DetailsScreen(
             )
         }
         PanelList(
-            contentPadding = paddingValues, state = lazyListState,
-            colors = panelColors
+            contentPadding = paddingValues,
+            state = lazyListState,
+            colors = panelColors,
+            userScrollEnabled = userScrollEnabled
         ) {
             panel(true) {
                 ImageCarousel(
                     images = images,
-                    lazyListState = lazyListState
+                    lazyListState = lazyListState,
+                    imageExpanded = imageExpanded,
+                    onImageClicked = onImageClicked,
+                    onBackPressed =  onImageCloseClicked,
                 )
             }
             panelSeparator { _, lowerColor, strokeColor, flipped ->
@@ -106,6 +119,9 @@ private fun Preview() {
     ComicSnacTheme {
         DetailsScreen(
             images = List(5) { Image(it.toString(), null) },
+            imageExpanded = true,
+            onImageClicked = { },
+            onImageCloseClicked = { },
             onBackPressed = {}
         ) {
             repeat(4) {
