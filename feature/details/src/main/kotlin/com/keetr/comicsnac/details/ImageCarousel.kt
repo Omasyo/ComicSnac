@@ -1,7 +1,10 @@
 package com.keetr.comicsnac.details
 
 import androidx.activity.compose.BackHandler
+import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.animateContentSize
+import androidx.compose.animation.expandIn
+import androidx.compose.animation.shrinkOut
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -9,6 +12,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyItemScope
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.pager.HorizontalPager
@@ -29,6 +33,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.util.lerp
+import androidx.compose.ui.zIndex
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 
@@ -40,12 +45,12 @@ data class Image(val url: String, val description: String?)
 fun LazyItemScope.ImageCarousel(
     modifier: Modifier = Modifier,
     images: List<Image>,
+    imageExpanded: Boolean,
+    onImageClicked: () -> Unit,
+    onBackPressed: () -> Unit,
     lazyListState: LazyListState
 ) {
     val pagerState = rememberPagerState { images.size }
-    var imageExpanded by remember {
-        mutableStateOf(false)
-    }
     val imageModifier = remember(imageExpanded) {
         if (imageExpanded) Modifier.fillParentMaxSize() else Modifier
             .fillMaxSize(0.7f)
@@ -58,20 +63,20 @@ fun LazyItemScope.ImageCarousel(
     }
 
     HorizontalPager(
-        modifier =
-        modifier
+        modifier = modifier
             .animateContentSize()
             .then(pagerModifier),
         state = pagerState,
         pageSize = PageSize.Fill,
         verticalAlignment = Alignment.CenterVertically
     ) { index ->
-        Box(Modifier
-            .fillMaxSize()
+        Box(
+            Modifier
+                .fillMaxSize()
         ) {
             Box(
                 Modifier
-                    .clickable { imageExpanded = !imageExpanded }
+                    .clickable { onImageClicked() }
                     .graphicsLayer {
                         if (lazyListState.firstVisibleItemIndex == 0) {
                             scaleX = lerp(
@@ -90,6 +95,8 @@ fun LazyItemScope.ImageCarousel(
                         spotColor = MaterialTheme.colorScheme.onSurface
                     )
             ) {
+
+
                 Box(
                     Modifier
                         .background(Color.Gray)
@@ -102,10 +109,19 @@ fun LazyItemScope.ImageCarousel(
                     contentScale = ContentScale.Crop,
                     modifier = Modifier.fillMaxSize()
                 )
+                AnimatedVisibility(
+                   visible = imageExpanded,
+                    enter = expandIn(expandFrom = Alignment.Center),
+                    exit = shrinkOut(shrinkTowards = Alignment.Center),
+                    modifier = Modifier
+                        .clickable { onBackPressed() }
+                        .size(64f.dp)
+                ) {
+                    Box(
+                        Modifier
+                            .background(MaterialTheme.colorScheme.primary))
+                }
             }
         }
-    }
-    BackHandler(imageExpanded) {
-        imageExpanded = false
     }
 }

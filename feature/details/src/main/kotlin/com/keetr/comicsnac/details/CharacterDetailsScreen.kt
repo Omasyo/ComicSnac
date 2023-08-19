@@ -1,5 +1,6 @@
 package com.keetr.comicsnac.details
 
+import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -8,7 +9,6 @@ import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material3.MaterialTheme
@@ -31,11 +31,13 @@ import com.keetr.comicsnac.model.other.Gender
 import com.keetr.comicsnac.model.power.PowerBasic
 import com.keetr.comicsnac.ui.R
 import com.keetr.comicsnac.ui.components.cards.ComicCard
+import com.keetr.comicsnac.ui.components.lazylist.animateScrollAndAlignItem
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
+import kotlinx.coroutines.launch
 
-private enum class ExpandableCategory {
-    None, Enemies, Friends, Movies, Teams, TeamEnemies, TeamFriends
-}
+//private enum class ExpandableCategory {
+//    None, Enemies, Friends, Movies, Teams, TeamEnemies, TeamFriends
+//}
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
@@ -57,12 +59,20 @@ fun CharacterDetailsScreen(
         InDevelopment -> TODO()
         Loading -> TODO()
         is Success -> {
+            val coroutineScope = rememberCoroutineScope()
 
+            var imageExpanded by remember {
+                mutableStateOf(false)
+            }
+            BackHandler(imageExpanded) {
+                imageExpanded = false
+            }
 
             val state = rememberLazyListState()
-            var expandedCategory by remember {
-                mutableStateOf(ExpandableCategory.None)
+            var expandedIndex by remember {
+                mutableStateOf(-1)
             }
+            val canScroll = expandedIndex < 0 && !imageExpanded
 
             with(detailsUiState.content) {
                 DetailsScreen(
@@ -71,7 +81,18 @@ fun CharacterDetailsScreen(
                         Image(imageUrl, "Image of $name") //TODOD: extract resource
                     ),
                     lazyListState = state,
-                    onBackPressed = onBackPressed
+                    userScrollEnabled = canScroll,
+                    onBackPressed = onBackPressed,
+                    imageExpanded = imageExpanded,
+                    onImageClicked = {
+                        coroutineScope.launch {
+
+                            imageExpanded = true
+                            state.scrollToItem(0)
+                        }
+                                     },
+                    onImageCloseClicked = { imageExpanded = false},
+                    
                 ) {
                     panel {
                         Column(
@@ -138,14 +159,27 @@ fun CharacterDetailsScreen(
 
                     panelSeparator()
 
-                    panel {
+                    panel { index ->
                         val scope = rememberCoroutineScope()
                         DetailsGrid(
                             name = "Friends",
                             uiState = friendsUiState,
-                            expanded = expandedCategory == ExpandableCategory.Friends,
+                            expanded = expandedIndex == index,
                             onExpand = {
-                                expandedCategory = ExpandableCategory.Friends
+                                scope.launch {
+
+                                    if (expandedIndex == index) {
+                                        expandedIndex = -1
+                                        state.animateScrollAndAlignItem(
+                                            index, 0.33f
+                                        )
+                                    } else {
+                                        expandedIndex = index
+                                        state.animateScrollAndAlignItem(
+                                            index, 0.04f
+                                        )
+                                    }
+                                }
                             },
                             key = { it.id }
                         ) { character ->

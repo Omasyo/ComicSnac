@@ -28,7 +28,7 @@ data class PanelColors(
 interface PanelLazyListScope {
     fun panel(
         transparent: Boolean = false,
-        content: @Composable LazyItemScope.(backgroundColor: Color) -> Unit
+        content: @Composable LazyItemScope.(index: Int) -> Unit
     )
 
     fun panelSeparator(
@@ -77,7 +77,7 @@ fun PanelList(
 private sealed interface PanelListItem
 
 private data class Panel(
-    val content: @Composable LazyItemScope.(backgroundColor: Color) -> Unit,
+    val content: @Composable LazyItemScope.(index: Int) -> Unit,
     val colorId: Int
 ) : PanelListItem
 
@@ -103,7 +103,7 @@ private class DefaultPanelListScope(colors: PanelColors) : PanelLazyListScope {
 
     override fun panel(
         transparent: Boolean,
-        content: @Composable (LazyItemScope.(backgroundColor: Color) -> Unit)
+        content: @Composable (LazyItemScope.(index: Int) -> Unit)
     ) {
         panels.add(Panel(content, if (transparent) -1 else colorId))
     }
@@ -139,7 +139,7 @@ private class DefaultPanelListScope(colors: PanelColors) : PanelLazyListScope {
                         val backgroundColor =
                             if (colorIndex < 0) Color.Transparent else colors[colorIndex]
                         Box(Modifier.background(backgroundColor)) {
-                            content(backgroundColor)
+                            content(index)
                         }
                     }
                 }

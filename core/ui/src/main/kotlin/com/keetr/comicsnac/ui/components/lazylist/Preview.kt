@@ -68,12 +68,12 @@ private fun Preview() {
                                     if (expandedIndex == index) {
                                         expandedIndex = -1
                                         state.animateScrollAndAlignItem(
-                                            index * 2, 0.33f
+                                            it, 0.33f
                                         )
                                     } else {
                                         expandedIndex = index
                                         state.animateScrollAndAlignItem(
-                                            index * 2, 0.04f
+                                            it, 0.04f
                                         )
                                     }
                                 }
