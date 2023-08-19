@@ -27,7 +27,8 @@ data class PanelColors(
 
 interface PanelLazyListScope {
     fun panel(
-        content: @Composable LazyItemScope.(backgroundColor: Color) -> Unit,
+        transparent: Boolean = false,
+        content: @Composable LazyItemScope.(backgroundColor: Color) -> Unit
     )
 
     fun panelSeparator(
@@ -100,8 +101,11 @@ private class DefaultPanelListScope(colors: PanelColors) : PanelLazyListScope {
 
     private var colorId = 0
 
-    override fun panel(content: @Composable (LazyItemScope.(backgroundColor: Color) -> Unit)) {
-        panels.add(Panel(content, colorId))
+    override fun panel(
+        transparent: Boolean,
+        content: @Composable (LazyItemScope.(backgroundColor: Color) -> Unit)
+    ) {
+        panels.add(Panel(content, if (transparent) -1 else colorId))
     }
 
     override fun panelSeparator(content: @Composable (LazyItemScope.(upperColor: Color, lowerColor: Color, strokeColor: Color, flipped: Boolean) -> Unit)?) {
@@ -132,8 +136,10 @@ private class DefaultPanelListScope(colors: PanelColors) : PanelLazyListScope {
                     val colorIndex = colorId % 3
 
                     scope.item {
-                        Box(Modifier.background(colors[colorIndex])) {
-                            content(colors[colorIndex])
+                        val backgroundColor =
+                            if (colorIndex < 0) Color.Transparent else colors[colorIndex]
+                        Box(Modifier.background(backgroundColor)) {
+                            content(backgroundColor)
                         }
                     }
                 }
@@ -149,7 +155,7 @@ private class DefaultPanelListScope(colors: PanelColors) : PanelLazyListScope {
                             colors[colorIndex],
                             colors[nextColorIndex],
                             strokeColor,
-                            flipped = colorId % 2 == 0
+                            flipped = colorId % 2 != 0
                         )
                     }
                 }
@@ -157,5 +163,4 @@ private class DefaultPanelListScope(colors: PanelColors) : PanelLazyListScope {
 
         }
     }
-
 }

@@ -6,7 +6,9 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxScope
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -71,19 +73,21 @@ fun ComicCard(
     contentDescription: String?,
     onClick: () -> Unit
 ) {
-    ComicCard(
-        modifier,
-        imageUrl = imageUrl,
-        contentDescription = contentDescription,
-        onClick = onClick
-    )
-    Text(
-        name,
-        modifier = Modifier.padding(horizontal = 8f.dp),
-        textAlign = TextAlign.Center,
-        minLines = 2,
-        maxLines = 2
-    )
+    Column(modifier) {
+        ComicCard(
+            Modifier.weight(1f),
+            imageUrl = imageUrl,
+            contentDescription = contentDescription,
+            onClick = onClick
+        )
+        Text(
+            name,
+            modifier = Modifier.fillMaxWidth().padding(horizontal = 8f.dp),
+            textAlign = TextAlign.Center,
+            minLines = 2,
+            maxLines = 2
+        )
+    }
 }
 
 @Preview(
@@ -94,12 +98,13 @@ fun ComicCard(
 private fun Preview() {
 
     ComicSnacTheme {
-        ComicCard {
-            Box(
-                Modifier
-                    .fillMaxSize()
-                    .background(Color.Gray)
-            )
-        }
+//        ComicCard {
+//            Box(
+//                Modifier
+//                    .fillMaxSize()
+//                    .background(Color.Gray)
+//            )
+//        }
+        ComicCard(name = "Hisdf" ,imageUrl = "", contentDescription = "") {}
     }
 }

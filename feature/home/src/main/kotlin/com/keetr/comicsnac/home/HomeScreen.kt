@@ -104,18 +104,15 @@ internal fun HomeScreen(
                         uiState = homeUiState.charactersUiState,
                         onExpand = onCharacterCategoryClicked
                     ) { character ->
-                        Column(
-                            horizontalAlignment = Alignment.CenterHorizontally,
-                            modifier = Modifier.width(144f.dp)
-                        ) {
-                            ComicCard(modifier = Modifier.size(136f.dp, 216f.dp),
-                                name = character.name,
-                                imageUrl = character.imageUrl,
-                                contentDescription = stringResource(
-                                    R.string.character_image_desc, character.name
-                                ),
-                                onClick = { onItemClicked(character.apiDetailUrl) })
-                        }
+                        ComicCard(modifier = Modifier
+                            .size(136f.dp, 224.dp)
+                            .padding(horizontal = 4f.dp),
+                            name = character.name,
+                            imageUrl = character.imageUrl,
+                            contentDescription = stringResource(
+                                R.string.character_image_desc, character.name
+                            ),
+                            onClick = { onItemClicked(character.apiDetailUrl) })
                     }
                 }
 

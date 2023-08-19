@@ -1,4 +1,4 @@
-package com.keetr.comicsnac.categories
+package com.keetr.comicsnac.details
 
 import org.junit.Test
 

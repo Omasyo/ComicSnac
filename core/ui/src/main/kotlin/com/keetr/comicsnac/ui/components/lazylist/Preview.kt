@@ -53,10 +53,11 @@ private fun Preview() {
             repeat(30) { index ->
 
                 panel {
-                    val expandedModifier =
+                    val expandedModifier = remember(expandedIndex) {
                         if (index == expandedIndex) Modifier.fillParentMaxHeight(0.85f) else Modifier.height(
                             96f.dp
                         )
+                    }
 
                     Box(
                         Modifier

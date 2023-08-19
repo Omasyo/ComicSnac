@@ -1,4 +1,4 @@
-package com.keetr.comicsnac.categories
+package com.keetr.comicsnac.details
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.keetr.comicsnac.categories.test", appContext.packageName)
+        assertEquals("com.keetr.comicsnac.details.test", appContext.packageName)
     }
 }
