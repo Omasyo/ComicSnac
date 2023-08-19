@@ -43,7 +43,7 @@ interface PanelLazyListScope {
 fun PanelList(
     modifier: Modifier = Modifier,
     colors: PanelColors = with(MaterialTheme.colorScheme) {
-        PanelColors(onSurface, primary, secondary, tertiary)
+        PanelColors(onSurface, primary, tertiary, secondary)
     },
     state: LazyListState = rememberLazyListState(),
     contentPadding: PaddingValues = PaddingValues(0.dp),
