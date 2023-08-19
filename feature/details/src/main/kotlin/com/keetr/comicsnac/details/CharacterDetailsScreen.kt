@@ -10,11 +10,13 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.lazy.LazyItemScope
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
@@ -59,41 +61,57 @@ fun CharacterDetailsScreen(
         InDevelopment -> TODO()
         Loading -> TODO()
         is Success -> {
-            val coroutineScope = rememberCoroutineScope()
+            val scope = rememberCoroutineScope()
 
             var imageExpanded by remember {
                 mutableStateOf(false)
             }
-            BackHandler(imageExpanded) {
-                imageExpanded = false
-            }
+
 
             val state = rememberLazyListState()
             var expandedIndex by remember {
-                mutableStateOf(-1)
+                mutableIntStateOf(-1)
             }
             val canScroll = expandedIndex < 0 && !imageExpanded
+
+            suspend fun onExpand(index: Int) {
+                if (expandedIndex == index) {
+                    expandedIndex = -1
+                    state.animateScrollAndAlignItem(
+                        index, 0.33f
+                    )
+                } else {
+                    expandedIndex = index
+                    state.animateScrollAndAlignItem(
+                        index, 0.04f
+                    )
+                }
+            }
+
+            BackHandler(!canScroll) {
+                imageExpanded = false
+                expandedIndex = -1
+            }
 
             with(detailsUiState.content) {
                 DetailsScreen(
                     modifier = modifier,
                     images = listOf(
-                        Image(imageUrl, "Image of $name") //TODOD: extract resource
+                        Image(imageUrl, "Image of $name") //TODO: extract resource
                     ),
                     lazyListState = state,
                     userScrollEnabled = canScroll,
                     onBackPressed = onBackPressed,
+                    onImageClose = { imageExpanded = false},
                     imageExpanded = imageExpanded,
                     onImageClicked = {
-                        coroutineScope.launch {
-
+                        scope.launch {
                             imageExpanded = true
                             state.scrollToItem(0)
                         }
-                                     },
-                    onImageCloseClicked = { imageExpanded = false},
-                    
-                ) {
+                    },
+
+                    ) {
                     panel {
                         Column(
                             Modifier
@@ -160,26 +178,12 @@ fun CharacterDetailsScreen(
                     panelSeparator()
 
                     panel { index ->
-                        val scope = rememberCoroutineScope()
                         DetailsGrid(
                             name = "Friends",
                             uiState = friendsUiState,
                             expanded = expandedIndex == index,
-                            onExpand = {
-                                scope.launch {
-
-                                    if (expandedIndex == index) {
-                                        expandedIndex = -1
-                                        state.animateScrollAndAlignItem(
-                                            index, 0.33f
-                                        )
-                                    } else {
-                                        expandedIndex = index
-                                        state.animateScrollAndAlignItem(
-                                            index, 0.04f
-                                        )
-                                    }
-                                }
+                            onToggleExpand = {
+                                scope.launch { onExpand(index) }
                             },
                             key = { it.id }
                         ) { character ->
@@ -194,7 +198,120 @@ fun CharacterDetailsScreen(
                         }
                     }
 
+                    panelSeparator()
 
+                    panel { index ->
+                        DetailsGrid(
+                            name = "Enemies",
+                            uiState = enemiesUiState,
+                            expanded = expandedIndex == index,
+                            onToggleExpand = {
+                                scope.launch { onExpand(index) }
+                            },
+                            key = { it.id }
+                        ) { character ->
+                            ComicCard(
+                                modifier = Modifier.width(136f.dp),
+                                name = character.name,
+                                imageUrl = character.imageUrl,
+                                contentDescription = stringResource(
+                                    R.string.character_image_desc, character.name
+                                ),
+                                onClick = { onItemClicked(character.apiDetailUrl) })
+                        }
+                    }
+
+                    panelSeparator()
+
+                    panel { index ->
+                        DetailsGrid(
+                            name = "Teams",
+                            uiState = teamsUiState,
+                            expanded = expandedIndex == index,
+                            onToggleExpand = {
+                                scope.launch { onExpand(index) }
+                            },
+                            key = { it.id }
+                        ) { team ->
+//                            ComicCard(
+//                                modifier = Modifier.width(136f.dp),
+//                                name = character.name,
+//                                imageUrl = character.imageUrl,
+//                                contentDescription = stringResource(
+//                                    R.string.character_image_desc, character.name
+//                                ),
+//                                onClick = { onItemClicked(character.apiDetailUrl) })
+                        }
+                    }
+
+                    panelSeparator()
+
+                    panel { index ->
+                        DetailsGrid(
+                            name = "Team Friends",
+                            uiState = teamFriendsUiState,
+                            expanded = expandedIndex == index,
+                            onToggleExpand = {
+                                scope.launch { onExpand(index) }
+                            },
+                            key = { it.id }
+                        ) { team ->
+//                            ComicCard(
+//                                modifier = Modifier.width(136f.dp),
+//                                name = character.name,
+//                                imageUrl = character.imageUrl,
+//                                contentDescription = stringResource(
+//                                    R.string.character_image_desc, character.name
+//                                ),
+//                                onClick = { onItemClicked(character.apiDetailUrl) })
+                        }
+                    }
+
+                    panelSeparator()
+
+                    panel { index ->
+                        DetailsGrid(
+                            name = "Team Enemies",
+                            uiState = teamEnemiesUiState,
+                            expanded = expandedIndex == index,
+                            onToggleExpand = {
+                                scope.launch { onExpand(index) }
+                            },
+                            key = { it.id }
+                        ) { team ->
+//                            ComicCard(
+//                                modifier = Modifier.width(136f.dp),
+//                                name = character.name,
+//                                imageUrl = character.imageUrl,
+//                                contentDescription = stringResource(
+//                                    R.string.character_image_desc, character.name
+//                                ),
+//                                onClick = { onItemClicked(character.apiDetailUrl) })
+                        }
+                    }
+
+                    panelSeparator()
+
+                    panel { index ->
+                        DetailsGrid(
+                            name = "Volumes",
+                            uiState = volumeUiState,
+                            expanded = expandedIndex == index,
+                            onToggleExpand = {
+                                scope.launch { onExpand(index) }
+                            },
+                            key = { it.id }
+                        ) { volume ->
+//                            ComicCard(
+//                                modifier = Modifier.width(136f.dp),
+//                                name = character.name,
+//                                imageUrl = character.imageUrl,
+//                                contentDescription = stringResource(
+//                                    R.string.character_image_desc, character.name
+//                                ),
+//                                onClick = { onItemClicked(character.apiDetailUrl) })
+                        }
+                    }
 
                     creators
                 }
@@ -203,6 +320,30 @@ fun CharacterDetailsScreen(
         }
     }
 }
+
+//@OptIn(ExperimentalLayoutApi::class)
+//@Composable
+//internal fun LazyItemScope.FlowPanel(
+//    modifier: Modifier = Modifier
+//) {
+//    FlowRow(
+//        modifier
+//            .fillMaxWidth()
+//            .padding(16f.dp),
+//        verticalArrangement = Arrangement.spacedBy(32f.dp),
+//        horizontalArrangement = Arrangement.SpaceEvenly
+//    ) {
+//        for (power in powers) {
+//            Text(
+//                power.name,
+//                Modifier
+//                    .clickable { onItemClicked(apiDetailUrl) }
+//                    .padding(horizontal = 16f.dp),
+//                style = MaterialTheme.typography.titleLarge
+//            )
+//        }
+//    }
+//}
 
 @Composable
 private fun Info(

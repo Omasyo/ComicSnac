@@ -1,12 +1,12 @@
 package com.keetr.comicsnac.details
 
-import android.health.connect.datatypes.units.Volume
 import androidx.compose.runtime.Immutable
 import com.keetr.comicsnac.model.RepositoryResponse
 import com.keetr.comicsnac.model.character.Character
 import com.keetr.comicsnac.model.character.CharacterDetails
 import com.keetr.comicsnac.model.movie.Movie
 import com.keetr.comicsnac.model.team.Team
+import com.keetr.comicsnac.model.volume.Volume
 
 sealed interface ExtrasUiState<out T>
 
@@ -28,4 +28,4 @@ typealias MoviesUiState = ExtrasUiState<List<Movie>>
 
 typealias TeamsUiState = ExtrasUiState<List<Team>>
 
-typealias VolumeUiState = ExtrasUiState<Volume>
+typealias VolumeUiState = ExtrasUiState<List<Volume>>

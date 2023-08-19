@@ -31,7 +31,7 @@ internal fun <T> LazyItemScope.DetailsGrid(
     name: String,
     uiState: ExtrasUiState<List<T>>,
     expanded: Boolean,
-    onExpand: () -> Unit,
+    onToggleExpand: () -> Unit,
     key: (item: T) -> Any,
     builder: @Composable (item: T) -> Unit
 ) {
@@ -42,6 +42,7 @@ internal fun <T> LazyItemScope.DetailsGrid(
     }
     Column(
         modifier
+            .animateContentSize()
             .fillMaxWidth()
             .then(heightModifier)
     ) {
@@ -60,7 +61,7 @@ internal fun <T> LazyItemScope.DetailsGrid(
                 color = MaterialTheme.colorScheme.primary,
                 modifier = Modifier
                     .padding(top = 8f.dp)
-                    .clickable { onExpand() }
+                    .clickable { onToggleExpand() }
                     .background(MaterialTheme.colorScheme.onSurface)
                     .padding(horizontal = 16f.dp, vertical = 4f.dp)
             )
@@ -68,7 +69,6 @@ internal fun <T> LazyItemScope.DetailsGrid(
 
         AnimatedContent(
             targetState = uiState,
-            modifier = Modifier.animateContentSize(),
             label = "Category Carousel"
         ) { uiState ->
             when (uiState) {

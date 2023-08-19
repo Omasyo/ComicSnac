@@ -47,7 +47,6 @@ fun LazyItemScope.ImageCarousel(
     images: List<Image>,
     imageExpanded: Boolean,
     onImageClicked: () -> Unit,
-    onBackPressed: () -> Unit,
     lazyListState: LazyListState
 ) {
     val pagerState = rememberPagerState { images.size }
@@ -76,7 +75,6 @@ fun LazyItemScope.ImageCarousel(
         ) {
             Box(
                 Modifier
-                    .clickable { onImageClicked() }
                     .graphicsLayer {
                         if (lazyListState.firstVisibleItemIndex == 0) {
                             scaleX = lerp(
@@ -87,7 +85,9 @@ fun LazyItemScope.ImageCarousel(
                             scaleY = scaleX
                         }
                     }
+                    .background(Color.White.copy(0.2f))
                     .then(imageModifier)
+                    .clickable { onImageClicked() }
                     .align(Alignment.Center)
                     .shadow(
                         elevation = 16f.dp,
@@ -95,8 +95,6 @@ fun LazyItemScope.ImageCarousel(
                         spotColor = MaterialTheme.colorScheme.onSurface
                     )
             ) {
-
-
                 Box(
                     Modifier
                         .background(Color.Gray)
@@ -109,18 +107,6 @@ fun LazyItemScope.ImageCarousel(
                     contentScale = ContentScale.Crop,
                     modifier = Modifier.fillMaxSize()
                 )
-                AnimatedVisibility(
-                   visible = imageExpanded,
-                    enter = expandIn(expandFrom = Alignment.Center),
-                    exit = shrinkOut(shrinkTowards = Alignment.Center),
-                    modifier = Modifier
-                        .clickable { onBackPressed() }
-                        .size(64f.dp)
-                ) {
-                    Box(
-                        Modifier
-                            .background(MaterialTheme.colorScheme.primary))
-                }
             }
         }
     }
