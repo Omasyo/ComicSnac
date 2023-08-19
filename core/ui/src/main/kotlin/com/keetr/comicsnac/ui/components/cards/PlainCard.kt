@@ -90,12 +90,15 @@ private fun Preview() {
 
     ComicSnacTheme {
         Box(Modifier.background(Color.White).fillMaxSize()) {
-            PlainCard(Modifier.fillMaxSize(0.6f).align(Alignment.Center)) {
-                Box(
-                    Modifier
-                        .fillMaxSize()
-                        .background(Color.Gray)
-                )
+            PlainCard(
+                Modifier.fillMaxSize(0.6f).align(Alignment.Center),
+                backgroundColor = Color.Yellow
+            ) {
+//                Box(
+//                    Modifier
+//                        .fillMaxSize()
+//                        .background(Color.Gray)
+//                )
             }
         }
     }

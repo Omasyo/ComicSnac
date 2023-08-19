@@ -28,7 +28,7 @@ import com.keetr.comicsnac.home.fake.Issues
 import com.keetr.comicsnac.ui.R
 import com.keetr.comicsnac.ui.components.lazylist.PanelColors
 import com.keetr.comicsnac.ui.components.cards.ComicCard
-import com.keetr.comicsnac.ui.components.lazylist.panelList
+import com.keetr.comicsnac.ui.components.lazylist.PanelList
 import com.keetr.comicsnac.ui.components.placeholders.ErrorPlaceholder
 import com.keetr.comicsnac.ui.components.placeholders.InDevelopmentPlaceholder
 import com.keetr.comicsnac.ui.components.placeholders.LoadingPlaceholder
@@ -53,120 +53,134 @@ internal fun HomeScreen(
 
     Scaffold(modifier) { padding ->
         CompositionLocalProvider(LocalContentColor provides MaterialTheme.colorScheme.onSurface) {
-            LazyColumn(contentPadding = padding) {
-                panelList(panelColors) {
-                    panel {
-                        Text(
-                            "Comic Snac",
-                            style = MaterialTheme.typography.headlineLarge,
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .padding(16f.dp, 8f.dp)
-                        )
-                    }
-                    panel {
-                        Column(
-                            Modifier.fillMaxWidth(),
+            PanelList(contentPadding = padding) {
+                panel {
+                    Text(
+                        "Comic Snac",
+                        style = MaterialTheme.typography.headlineLarge,
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(16f.dp, 8f.dp)
+                    )
+                }
+                panelSeparator()
+
+                panel {
+                    Column(
+                        Modifier.fillMaxWidth(),
 //                                .height(376f.dp),
-                            horizontalAlignment = Alignment.CenterHorizontally,
-                        ) {
-                            Text(
-                                stringResource(R.string.new_issues),
-                                style = MaterialTheme.typography.titleLarge,
-                                modifier = Modifier.padding(top = 4f.dp)
-                            )
-                            AnimatedContent(
-                                targetState = homeUiState.issuesUiState,
-                                modifier = Modifier.animateContentSize(),
-                                label = "New Issues Carousel"
-                            ) { uiState ->
-                                when (uiState) {
-                                    is Error -> ErrorPlaceholder(Modifier.height(360f.dp))
-                                    InDevelopment -> InDevelopmentPlaceholder(Modifier.height(360f.dp))
-                                    Loading -> LoadingPlaceholder(Modifier.height(360f.dp))
-                                    is Success -> {
-                                        IssueCarousel(
-                                            issues = uiState.contents, onIssueClick = onItemClicked
-                                        )
-                                    }
+                        horizontalAlignment = Alignment.CenterHorizontally,
+                    ) {
+                        Text(
+                            stringResource(R.string.new_issues),
+                            style = MaterialTheme.typography.titleLarge,
+                            modifier = Modifier.padding(top = 4f.dp)
+                        )
+                        AnimatedContent(
+                            targetState = homeUiState.issuesUiState,
+                            modifier = Modifier.animateContentSize(),
+                            label = "New Issues Carousel"
+                        ) { uiState ->
+                            when (uiState) {
+                                is Error -> ErrorPlaceholder(Modifier.height(360f.dp))
+                                InDevelopment -> InDevelopmentPlaceholder(Modifier.height(360f.dp))
+                                Loading -> LoadingPlaceholder(Modifier.height(360f.dp))
+                                is Success -> {
+                                    IssueCarousel(
+                                        issues = uiState.contents, onIssueClick = onItemClicked
+                                    )
                                 }
                             }
                         }
                     }
+                }
 
-                    panel {
-                        CategoryCarousel(
-                            name = stringResource(R.string.characters),
-                            key = { it.id },
-                            uiState = homeUiState.charactersUiState,
-                            onExpand = onCharacterCategoryClicked
-                        ) { character ->
-                            Column(
-                                horizontalAlignment = Alignment.CenterHorizontally,
-                                modifier = Modifier.width(144f.dp)
-                            ) {
-                                ComicCard(modifier = Modifier.size(136f.dp, 216f.dp),
-                                    name = character.name,
-                                    imageUrl = character.imageUrl,
-                                    contentDescription = stringResource(
-                                        R.string.character_image_desc, character.name
-                                    ),
-                                    onClick = { onItemClicked(character.apiDetailUrl) })
-                            }
-                        }
-                    }
+                panelSeparator()
 
-                    panel {
-                        CategoryCarousel(name = stringResource(R.string.popular_volumes),
-                            uiState = homeUiState.volumesUiState,
-                            key = { it.id },
-                            onExpand = onVolumeCategoryClicked
+                panel {
+                    CategoryCarousel(
+                        name = stringResource(R.string.characters),
+                        key = { it.id },
+                        uiState = homeUiState.charactersUiState,
+                        onExpand = onCharacterCategoryClicked
+                    ) { character ->
+                        Column(
+                            horizontalAlignment = Alignment.CenterHorizontally,
+                            modifier = Modifier.width(144f.dp)
                         ) {
+                            ComicCard(modifier = Modifier.size(136f.dp, 216f.dp),
+                                name = character.name,
+                                imageUrl = character.imageUrl,
+                                contentDescription = stringResource(
+                                    R.string.character_image_desc, character.name
+                                ),
+                                onClick = { onItemClicked(character.apiDetailUrl) })
                         }
                     }
+                }
 
-                    panel {
-                        CategoryCarousel(name = stringResource(R.string.movies),
-                            uiState = homeUiState.moviesUiState,
-                            key = { it.id },
-                            onExpand = onMovieCategoryClicked
-                        ) {
+                panelSeparator()
 
-                        }
+                panel {
+                    CategoryCarousel(
+                        name = stringResource(R.string.popular_volumes),
+                        uiState = homeUiState.volumesUiState,
+                        key = { it.id },
+                        onExpand = onVolumeCategoryClicked
+                    ) {
                     }
+                }
 
-                    panel {
-                        CategoryCarousel(
-                            name = stringResource(R.string.series),
-                            uiState = homeUiState.seriesUiState,
-                            key = { it.id },
-                            onExpand = onSeriesCategoryClicked
-                        ) {
+                panelSeparator()
 
-                        }
+                panel {
+                    CategoryCarousel(
+                        name = stringResource(R.string.movies),
+                        uiState = homeUiState.moviesUiState,
+                        key = { it.id },
+                        onExpand = onMovieCategoryClicked
+                    ) {
+
                     }
+                }
 
-                    panel {
-                        Box(Modifier.fillMaxWidth().padding(bottom = 24f.dp)) {
-                            Text(
-                                "More Categories",
-                                style = MaterialTheme.typography.headlineSmall,
-                                color = MaterialTheme.colorScheme.primaryContainer,
-                                modifier = Modifier
-                                    .align(Alignment.CenterEnd)
-                                    .padding(top = 16f.dp)
-                                    .clickable { onMoreCategoriesClicked() }
-                                    .background(MaterialTheme.colorScheme.onSurface)
-                                    .padding(horizontal = 16f.dp, vertical = 4f.dp)
-                            )
-                        }
+                panelSeparator()
+
+                panel {
+                    CategoryCarousel(
+                        name = stringResource(R.string.series),
+                        uiState = homeUiState.seriesUiState,
+                        key = { it.id },
+                        onExpand = onSeriesCategoryClicked
+                    ) {
+
+                    }
+                }
+
+                panelSeparator()
+
+                panel {
+                    Box(
+                        Modifier
+                            .fillMaxWidth()
+                            .padding(bottom = 24f.dp)
+                    ) {
+                        Text(
+                            "More Categories",
+                            style = MaterialTheme.typography.headlineSmall,
+                            color = MaterialTheme.colorScheme.primaryContainer,
+                            modifier = Modifier
+                                .align(Alignment.CenterEnd)
+                                .padding(top = 16f.dp)
+                                .clickable { onMoreCategoriesClicked() }
+                                .background(MaterialTheme.colorScheme.onSurface)
+                                .padding(horizontal = 16f.dp, vertical = 4f.dp)
+                        )
                     }
                 }
             }
         }
-
     }
-
 }
 
 @Preview

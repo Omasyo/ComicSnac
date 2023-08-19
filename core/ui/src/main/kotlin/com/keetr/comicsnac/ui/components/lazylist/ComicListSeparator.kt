@@ -13,7 +13,7 @@ import androidx.compose.ui.unit.dp
 import kotlin.random.Random
 
 @Composable
-fun ComicListSeperator(
+fun ComicListSeparator(
     modifier: Modifier = Modifier,
     upperColor: Color,
     lowerColor: Color,
@@ -50,7 +50,7 @@ fun ComicListSeperator(
 @Preview
 @Composable
 private fun Preview() {
-    ComicListSeperator(
+    ComicListSeparator(
         upperColor = Color.Blue,
         lowerColor = Color.Red,
         strokeColor = Color.Yellow,
