@@ -54,7 +54,7 @@ internal fun HomeScreen(
     Scaffold(modifier) { padding ->
         CompositionLocalProvider(LocalContentColor provides MaterialTheme.colorScheme.onSurface) {
             LazyColumn(contentPadding = padding) {
-                panelList(panelColors) {
+                com.keetr.comicsnac.ui.components.lazylist.remak.panelList(panelColors) {
                     panel {
                         Text(
                             "Comic Snac",
@@ -117,7 +117,8 @@ internal fun HomeScreen(
                     }
 
                     panel {
-                        CategoryCarousel(name = stringResource(R.string.popular_volumes),
+                        CategoryCarousel(
+                            name = stringResource(R.string.popular_volumes),
                             uiState = homeUiState.volumesUiState,
                             key = { it.id },
                             onExpand = onVolumeCategoryClicked
@@ -126,7 +127,8 @@ internal fun HomeScreen(
                     }
 
                     panel {
-                        CategoryCarousel(name = stringResource(R.string.movies),
+                        CategoryCarousel(
+                            name = stringResource(R.string.movies),
                             uiState = homeUiState.moviesUiState,
                             key = { it.id },
                             onExpand = onMovieCategoryClicked

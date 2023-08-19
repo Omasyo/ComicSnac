@@ -1,2 +1,2 @@
 /build
-/src/main/java/com/keetr/comicsnac/network/ApiKey.kt
+/src/main/kotlin/com/keetr/comicsnac/network/ApiKey.kt
