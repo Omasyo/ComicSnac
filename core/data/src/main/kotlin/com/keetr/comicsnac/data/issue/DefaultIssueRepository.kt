@@ -15,6 +15,7 @@ import com.keetr.comicsnac.network.issue.IssueNetworkSource
 import com.keetr.comicsnac.network.issue.models.IssueListApiModel
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.withContext
 import javax.inject.Inject
@@ -23,37 +24,33 @@ class DefaultIssueRepository @Inject constructor(
     private val networkSource: IssueNetworkSource,
     @IODispatcher private val dispatcher: CoroutineDispatcher
 ) : IssueRepository {
-    override suspend fun getIssueDetails(fullId: String): RepositoryResponse<IssueDetails> =
-        withContext(dispatcher) {
-            networkSource.getIssueDetails(fullId)
-                .fold(onSuccess = { RepositoryResponse.Success(it.results.toIssueDetails()) }) {
-                    fromNetworkError(it)
-                }
-        }
+    override fun getIssueDetails(fullId: String): Flow<RepositoryResponse<IssueDetails>> = flow {
+        emit(networkSource.getIssueDetails(fullId)
+            .fold(onSuccess = { RepositoryResponse.Success(it.results.toIssueDetails()) }) {
+                fromNetworkError(it)
+            })
+    }.flowOn(dispatcher)
 
-    override suspend fun getRecentIssues(): RepositoryResponse<List<Issue>> =
-        withContext(dispatcher) {
-            networkSource.getRecentIssues(10, 0)
-                .fold(onSuccess = { RepositoryResponse.Success(it.results.toIssues()) }) {
-                    fromNetworkError(it)
-                }
-        }
+    override fun getRecentIssues(): Flow<RepositoryResponse<List<Issue>>> = flow {
+        emit(networkSource.getRecentIssues(10, 0)
+            .fold(onSuccess = { RepositoryResponse.Success(it.results.toIssues()) }) {
+                fromNetworkError(it)
+            })
+    }.flowOn(dispatcher)
 
-    override suspend fun getAllIssues(sort: Sort): Flow<PagingData<Issue>> =
-        Pager(
-            config = pagingConfig,
-        ) {
-            CustomPagingSource(
-                provider = { page ->
-                    networkSource.getAllIssues(
-                        PageSize,
-                        PageSize * page,
-                        NetworkSort.valueOf(sort.name),
-                    ).getOrThrow().results
-                },
-                mapper = List<IssueListApiModel>::toIssues
-            )
-        }.flow.flowOn(dispatcher)
+    override fun getAllIssues(sort: Sort): Flow<PagingData<Issue>> = Pager(
+        config = pagingConfig,
+    ) {
+        CustomPagingSource(
+            provider = { page ->
+                networkSource.getAllIssues(
+                    PageSize,
+                    PageSize * page,
+                    NetworkSort.valueOf(sort.name),
+                ).getOrThrow().results
+            }, mapper = List<IssueListApiModel>::toIssues
+        )
+    }.flow.flowOn(dispatcher)
 
     companion object {
         const val PageSize = 100

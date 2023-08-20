@@ -8,11 +8,11 @@ import com.keetr.comicsnac.model.other.Gender
 import kotlinx.coroutines.flow.Flow
 
 interface CharacterRepository {
-    suspend fun getCharacterDetails(fullId: String): RepositoryResponse<CharacterDetails>
+    fun getCharacterDetails(fullId: String): Flow<RepositoryResponse<CharacterDetails>>
 
-    suspend fun getRecentCharacters(): RepositoryResponse<List<Character>>
+    fun getRecentCharacters(): Flow<RepositoryResponse<List<Character>>>
 
-    suspend fun getAllCharacters(genderFilter: Gender): Flow<PagingData<Character>>
+    fun getAllCharacters(genderFilter: Gender): Flow<PagingData<Character>>
 
-    suspend fun getCharactersWithId(charactersId: List<Int>): Flow<PagingData<Character>>
+    fun getCharactersWithId(charactersId: List<Int>): Flow<PagingData<Character>>
 }

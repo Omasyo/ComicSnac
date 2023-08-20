@@ -15,6 +15,7 @@ import com.keetr.comicsnac.network.character.models.CharacterListApiModel
 import com.keetr.comicsnac.network.common.models.GenderApiModel
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.withContext
 import javax.inject.Inject
@@ -23,23 +24,23 @@ internal class DefaultCharacterRepository @Inject constructor(
     private val networkSource: CharacterNetworkSource,
     @IODispatcher private val dispatcher: CoroutineDispatcher
 ) : CharacterRepository {
-    override suspend fun getCharacterDetails(fullId: String): RepositoryResponse<CharacterDetails> =
-        withContext(dispatcher) {
-            networkSource.getCharacterDetails(fullId)
+    override fun getCharacterDetails(fullId: String): Flow<RepositoryResponse<CharacterDetails>> =
+        flow {
+            emit(networkSource.getCharacterDetails(fullId)
                 .fold(onSuccess = { RepositoryResponse.Success(it.results.toCharacterDetail()) }) {
                     fromNetworkError(it)
-                }
-        }
+                })
+        }.flowOn(dispatcher)
 
-    override suspend fun getRecentCharacters(): RepositoryResponse<List<Character>> =
-        withContext(dispatcher) {
-            networkSource.getRecentCharacters(25, 0)
+    override fun getRecentCharacters(): Flow<RepositoryResponse<List<Character>>> =
+        flow {
+            emit(networkSource.getRecentCharacters(25, 0)
                 .fold(onSuccess = { RepositoryResponse.Success(it.results.toCharacters()) }) {
                     fromNetworkError(it)
-                }
-        }
+                })
+        }.flowOn(dispatcher)
 
-    override suspend fun getAllCharacters(genderFilter: Gender): Flow<PagingData<Character>> =
+    override fun getAllCharacters(genderFilter: Gender): Flow<PagingData<Character>> =
         Pager(
             config = pagingConfig,
         ) {
@@ -55,7 +56,7 @@ internal class DefaultCharacterRepository @Inject constructor(
             )
         }.flow.flowOn(dispatcher)
 
-    override suspend fun getCharactersWithId(charactersId: List<Int>): Flow<PagingData<Character>> =
+    override fun getCharactersWithId(charactersId: List<Int>): Flow<PagingData<Character>> =
         Pager(
             config = pagingConfig,
         ) {
