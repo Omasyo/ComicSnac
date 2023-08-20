@@ -95,7 +95,7 @@ fun DetailsScreen(
                             transitionSpec = {
                                 scaleIn() togetherWith scaleOut()
                             },
-                            label = "fsadf"
+                            label = "carousel_image"
                         ) { imageExpanded ->
                             if (imageExpanded) {
                                 Icon(Icons.Default.Close, contentDescription = null)

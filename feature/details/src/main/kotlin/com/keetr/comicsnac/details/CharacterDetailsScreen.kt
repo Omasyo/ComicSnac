@@ -31,17 +31,12 @@ import com.keetr.comicsnac.model.issue.IssueBasic
 import com.keetr.comicsnac.model.origin.OriginBasic
 import com.keetr.comicsnac.model.other.Gender
 import com.keetr.comicsnac.model.power.PowerBasic
-import com.keetr.comicsnac.ui.R
+import com.keetr.comicsnac.ui.R.string as CommonString
 import com.keetr.comicsnac.ui.components.cards.ComicCard
 import com.keetr.comicsnac.ui.components.lazylist.animateScrollAndAlignItem
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
 import kotlinx.coroutines.launch
 
-//private enum class ExpandableCategory {
-//    None, Enemies, Friends, Movies, Teams, TeamEnemies, TeamFriends
-//}
-
-@OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun CharacterDetailsScreen(
     modifier: Modifier = Modifier,
@@ -59,7 +54,9 @@ fun CharacterDetailsScreen(
     when (detailsUiState) {
         is Error -> TODO()
         InDevelopment -> TODO()
-        Loading -> TODO()
+        Loading -> {
+            TODO()
+        }
         is Success -> {
             val scope = rememberCoroutineScope()
 
@@ -83,7 +80,7 @@ fun CharacterDetailsScreen(
                 } else {
                     expandedIndex = index
                     state.animateScrollAndAlignItem(
-                        index, 0.04f
+                        index
                     )
                 }
             }
@@ -97,12 +94,15 @@ fun CharacterDetailsScreen(
                 DetailsScreen(
                     modifier = modifier,
                     images = listOf(
-                        Image(imageUrl, "Image of $name") //TODO: extract resource
+                        Image(
+                            imageUrl,
+                            stringResource(CommonString.character_image_desc)
+                        )
                     ),
                     lazyListState = state,
                     userScrollEnabled = canScroll,
                     onBackPressed = onBackPressed,
-                    onImageClose = { imageExpanded = false},
+                    onImageClose = { imageExpanded = false },
                     imageExpanded = imageExpanded,
                     onImageClicked = {
                         scope.launch {
@@ -130,23 +130,29 @@ fun CharacterDetailsScreen(
                                 .padding(horizontal = 16f.dp, vertical = 4f.dp),
                             verticalArrangement = Arrangement.spacedBy(4f.dp)
                         ) {
-                            Info(name = "Real Name", content = name)
+                            Info(name = stringResource(R.string.real_name), content = name)
                             origin?.let {
-                                Info(name = "Origin", content = it.name) {
+                                Info(name = stringResource(R.string.origin), content = it.name) {
                                     onItemClicked(it.apiDetailUrl)
                                 }
                             }
-                            Info(name = "Gender", content = gender.name)
-                            Info(name = "Aliases", content = aliases.joinToString(", "))
-                            Info(name = "First Appeared In", content = firstAppearance.name) {
+                            Info(name = stringResource(CommonString.gender), content = gender.name)
+                            Info(
+                                name = stringResource(CommonString.aliases),
+                                content = aliases.joinToString(", ")
+                            )
+                            Info(
+                                name = stringResource(R.string.first_appeared_in_issue),
+                                content = firstAppearance.name
+                            ) {
                                 onItemClicked(firstAppearance.apiDetailUrl)
                             }
                             Info(
-                                name = "Issues Appearances",
+                                name = stringResource(R.string.issue_appearances),
                                 content = countOfIssueAppearances.toString()
                             )
                             publisher?.let {
-                                Info(name = "Publisher", content = it.name) {
+                                Info(name = stringResource(R.string.publisher), content = it.name) {
                                     onItemClicked(it.apiDetailUrl)
                                 }
                             }
@@ -156,7 +162,10 @@ fun CharacterDetailsScreen(
                     panelSeparator()
 
                     panel {
-                        DetailsFlow(name = "Powers", items = powers) { power ->
+                        DetailsFlow(
+                            name = stringResource(CommonString.powers),
+                            items = powers
+                        ) { power ->
                             Text(
                                 power.name,
                                 Modifier
@@ -171,7 +180,7 @@ fun CharacterDetailsScreen(
 
                     panel { index ->
                         DetailsGrid(
-                            name = "Friends",
+                            name = stringResource(CommonString.friends),
                             uiState = friendsUiState,
                             expanded = expandedIndex == index,
                             onToggleExpand = {
@@ -184,7 +193,7 @@ fun CharacterDetailsScreen(
                                 name = character.name,
                                 imageUrl = character.imageUrl,
                                 contentDescription = stringResource(
-                                    R.string.character_image_desc, character.name
+                                    CommonString.character_image_desc, character.name
                                 ),
                                 onClick = { onItemClicked(character.apiDetailUrl) })
                         }
@@ -194,7 +203,7 @@ fun CharacterDetailsScreen(
 
                     panel { index ->
                         DetailsGrid(
-                            name = "Enemies",
+                            name = stringResource(CommonString.enemies),
                             uiState = enemiesUiState,
                             expanded = expandedIndex == index,
                             onToggleExpand = {
@@ -207,7 +216,7 @@ fun CharacterDetailsScreen(
                                 name = character.name,
                                 imageUrl = character.imageUrl,
                                 contentDescription = stringResource(
-                                    R.string.character_image_desc, character.name
+                                    CommonString.character_image_desc, character.name
                                 ),
                                 onClick = { onItemClicked(character.apiDetailUrl) })
                         }
@@ -217,7 +226,7 @@ fun CharacterDetailsScreen(
 
                     panel { index ->
                         DetailsGrid(
-                            name = "Teams",
+                            name = stringResource(CommonString.teams),
                             uiState = teamsUiState,
                             expanded = expandedIndex == index,
                             onToggleExpand = {
@@ -227,8 +236,8 @@ fun CharacterDetailsScreen(
                         ) { team ->
 //                            ComicCard(
 //                                modifier = Modifier.width(136f.dp),
-//                                name = character.name,
-//                                imageUrl = character.imageUrl,
+//                                name = team.name,
+//                                imageUrl = team.imageUrl,
 //                                contentDescription = stringResource(
 //                                    R.string.character_image_desc, character.name
 //                                ),
@@ -240,7 +249,7 @@ fun CharacterDetailsScreen(
 
                     panel { index ->
                         DetailsGrid(
-                            name = "Team Friends",
+                            name = stringResource(R.string.team_friends),
                             uiState = teamFriendsUiState,
                             expanded = expandedIndex == index,
                             onToggleExpand = {
@@ -263,7 +272,7 @@ fun CharacterDetailsScreen(
 
                     panel { index ->
                         DetailsGrid(
-                            name = "Team Enemies",
+                            name = stringResource(R.string.team_enemies),
                             uiState = teamEnemiesUiState,
                             expanded = expandedIndex == index,
                             onToggleExpand = {
@@ -286,7 +295,7 @@ fun CharacterDetailsScreen(
 
                     panel { index ->
                         DetailsGrid(
-                            name = "Volumes",
+                            name = stringResource(CommonString.volumes),
                             uiState = volumeUiState,
                             expanded = expandedIndex == index,
                             onToggleExpand = {
@@ -309,7 +318,7 @@ fun CharacterDetailsScreen(
 
                     panel { index ->
                         DetailsGrid(
-                            name = "Movies",
+                            name = stringResource(CommonString.movies),
                             uiState = moviesUiState,
                             expanded = expandedIndex == index,
                             onToggleExpand = {
@@ -331,8 +340,10 @@ fun CharacterDetailsScreen(
                     panelSeparator()
 
                     panel {
-                        DetailsFlow(name = "Creators", items = creators) {person ->
-
+                        DetailsFlow(
+                            name = stringResource(CommonString.creators),
+                            items = creators
+                        ) { person ->
                             Text(
                                 person.name,
                                 Modifier
@@ -353,11 +364,11 @@ fun CharacterDetailsScreen(
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-internal fun<T> LazyItemScope.DetailsFlow(
+internal fun <T> LazyItemScope.DetailsFlow(
     modifier: Modifier = Modifier,
     name: String,
     items: List<T>,
-    builder:  @Composable (T) -> Unit
+    builder: @Composable (T) -> Unit
 ) {
     Column(modifier) {
         Text(

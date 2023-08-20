@@ -20,6 +20,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.keetr.comicsnac.ui.components.placeholders.ErrorPlaceholder
 import com.keetr.comicsnac.ui.components.placeholders.InDevelopmentPlaceholder
@@ -56,9 +57,9 @@ internal fun <T> LazyItemScope.DetailsGrid(
                 modifier = Modifier.padding(start = 16f.dp, top = 8f.dp)
             )
             Text(
-                "Expand",
+                stringResource(if (expanded) R.string.collapse else R.string.expand),
                 style = MaterialTheme.typography.titleMedium,
-                color = MaterialTheme.colorScheme.primary,
+                color = if (expanded) MaterialTheme.colorScheme.tertiary else MaterialTheme.colorScheme.primary,
                 modifier = Modifier
                     .padding(top = 8f.dp)
                     .clickable { onToggleExpand() }

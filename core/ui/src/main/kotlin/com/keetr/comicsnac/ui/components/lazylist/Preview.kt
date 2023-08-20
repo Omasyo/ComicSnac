@@ -114,7 +114,7 @@ private fun Preview() {
     }
 }
 
-suspend fun LazyListState.animateScrollAndAlignItem(index: Int, offsetRatio: Float) {
+suspend fun LazyListState.animateScrollAndAlignItem(index: Int, offsetRatio: Float = 0f) {
     val itemInfo = this.layoutInfo.visibleItemsInfo.firstOrNull { it.index == index }
     if (itemInfo != null) {
         val center = layoutInfo.viewportEndOffset * offsetRatio
