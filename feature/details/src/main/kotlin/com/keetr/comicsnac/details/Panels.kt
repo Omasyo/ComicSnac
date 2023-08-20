@@ -72,9 +72,9 @@ internal fun <T> LazyItemScope.DetailsGrid(
             label = "Category Carousel"
         ) { uiState ->
             when (uiState) {
-                is Error -> ErrorPlaceholder(Modifier.height(300f.dp))
-                InDevelopment -> InDevelopmentPlaceholder(Modifier.height(300f.dp))
-                Loading -> LoadingPlaceholder(Modifier.height(300f.dp))
+                is Error -> ErrorPlaceholder(heightModifier)
+                InDevelopment -> InDevelopmentPlaceholder(heightModifier)
+                Loading -> LoadingPlaceholder(heightModifier)
 
                 is Success -> {
                     LazyHorizontalGrid(
