@@ -1,7 +1,7 @@
 package com.keetr.comicsnac.data.character
 
 import androidx.paging.PagingData
-import com.keetr.comicsnac.model.RepositoryResponse
+import com.keetr.comicsnac.data.RepositoryResponse
 import com.keetr.comicsnac.model.character.Character
 import com.keetr.comicsnac.model.character.CharacterDetails
 import com.keetr.comicsnac.model.other.Gender

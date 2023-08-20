@@ -13,11 +13,11 @@ import com.keetr.comicsnac.network.character.models.CharacterDetailsApiModel
 import com.keetr.comicsnac.network.character.models.CharacterListApiModel
 import com.keetr.comicsnac.network.common.models.CharacterApiModel
 
-fun CharacterApiModel.toCharacterBasic() = CharacterBasic(
+internal fun CharacterApiModel.toCharacterBasic() = CharacterBasic(
     apiDetailUrl = apiDetailUrl, id = id, name = name
 )
 
-fun List<CharacterListApiModel>.toCharacters() = map { apiModel -> apiModel.toCharacter() }
+internal fun List<CharacterListApiModel>.toCharacters() = map { apiModel -> apiModel.toCharacter() }
 
 fun CharacterListApiModel.toCharacter() =
     Character(
@@ -29,7 +29,7 @@ fun CharacterListApiModel.toCharacter() =
         siteDetailUrl = siteDetailUrl
     )
 
-fun CharacterDetailsApiModel.toCharacterDetail() =
+internal fun CharacterDetailsApiModel.toCharacterDetail() =
     CharacterDetails(
         id = id,
         aliases = aliases?.split('\n') ?: emptyList(),
@@ -42,7 +42,7 @@ fun CharacterDetailsApiModel.toCharacterDetail() =
         enemiesId = characterEnemies.map { it.id },
         friendsId = characterFriends.map { it.id },
         gender = Gender.valueOf(gender.name),
-        imageUrl = image.smallUrl, //todo: Bump if not clear
+        imageUrl = image.smallUrl,
         moviesId = movies.map { it.id },
         name = name,
         origin = origin?.toOriginBasic(),

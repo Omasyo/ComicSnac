@@ -116,7 +116,7 @@ fun CharacterDetailsScreen(
                         Column(
                             Modifier
                                 .fillMaxWidth()
-                                .padding(horizontal = 16f.dp, vertical = 4f.dp),
+                                .padding(horizontal = 16f.dp, vertical = 8f.dp),
                             verticalArrangement = Arrangement.spacedBy(4f.dp),
                         ) {
                             Text(name, style = MaterialTheme.typography.headlineMedium)
@@ -156,22 +156,14 @@ fun CharacterDetailsScreen(
                     panelSeparator()
 
                     panel {
-                        FlowRow(
-                            Modifier
-                                .fillMaxWidth()
-                                .padding(16f.dp),
-                            verticalArrangement = Arrangement.spacedBy(32f.dp),
-                            horizontalArrangement = Arrangement.SpaceEvenly
-                        ) {
-                            for (power in powers) {
-                                Text(
-                                    power.name,
-                                    Modifier
-                                        .clickable { onItemClicked(apiDetailUrl) }
-                                        .padding(horizontal = 16f.dp),
-                                    style = MaterialTheme.typography.titleLarge
-                                )
-                            }
+                        DetailsFlow(name = "Powers", items = powers) { power ->
+                            Text(
+                                power.name,
+                                Modifier
+                                    .clickable { onItemClicked(apiDetailUrl) }
+                                    .padding(horizontal = 8f.dp),
+                                style = MaterialTheme.typography.titleMedium
+                            )
                         }
                     }
 
@@ -313,6 +305,44 @@ fun CharacterDetailsScreen(
                         }
                     }
 
+                    panelSeparator()
+
+                    panel { index ->
+                        DetailsGrid(
+                            name = "Movies",
+                            uiState = moviesUiState,
+                            expanded = expandedIndex == index,
+                            onToggleExpand = {
+                                scope.launch { onExpand(index) }
+                            },
+                            key = { it.id }
+                        ) { movie ->
+//                            ComicCard(
+//                                modifier = Modifier.width(136f.dp),
+//                                name = character.name,
+//                                imageUrl = character.imageUrl,
+//                                contentDescription = stringResource(
+//                                    R.string.character_image_desc, character.name
+//                                ),
+//                                onClick = { onItemClicked(character.apiDetailUrl) })
+                        }
+                    }
+
+                    panelSeparator()
+
+                    panel {
+                        DetailsFlow(name = "Creators", items = creators) {person ->
+
+                            Text(
+                                person.name,
+                                Modifier
+                                    .clickable { onItemClicked(apiDetailUrl) }
+                                    .padding(horizontal = 16f.dp),
+                                style = MaterialTheme.typography.titleLarge
+                            )
+                        }
+                    }
+
                     creators
                 }
 
@@ -321,29 +351,33 @@ fun CharacterDetailsScreen(
     }
 }
 
-//@OptIn(ExperimentalLayoutApi::class)
-//@Composable
-//internal fun LazyItemScope.FlowPanel(
-//    modifier: Modifier = Modifier
-//) {
-//    FlowRow(
-//        modifier
-//            .fillMaxWidth()
-//            .padding(16f.dp),
-//        verticalArrangement = Arrangement.spacedBy(32f.dp),
-//        horizontalArrangement = Arrangement.SpaceEvenly
-//    ) {
-//        for (power in powers) {
-//            Text(
-//                power.name,
-//                Modifier
-//                    .clickable { onItemClicked(apiDetailUrl) }
-//                    .padding(horizontal = 16f.dp),
-//                style = MaterialTheme.typography.titleLarge
-//            )
-//        }
-//    }
-//}
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+internal fun<T> LazyItemScope.DetailsFlow(
+    modifier: Modifier = Modifier,
+    name: String,
+    items: List<T>,
+    builder:  @Composable (T) -> Unit
+) {
+    Column(modifier) {
+        Text(
+            name,
+            style = MaterialTheme.typography.titleLarge,
+            modifier = Modifier.padding(start = 16f.dp, top = 8f.dp)
+        )
+        FlowRow(
+            Modifier
+                .fillMaxWidth()
+                .padding(16f.dp),
+            verticalArrangement = Arrangement.spacedBy(32f.dp),
+            horizontalArrangement = Arrangement.SpaceEvenly
+        ) {
+            for (item in items) {
+                builder(item)
+            }
+        }
+    }
+}
 
 @Composable
 private fun Info(

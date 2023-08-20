@@ -9,13 +9,13 @@ import com.keetr.comicsnac.network.common.models.IssueApiModel
 import com.keetr.comicsnac.network.issue.models.IssueDetailsApiModel
 import com.keetr.comicsnac.network.issue.models.IssueListApiModel
 
-fun IssueApiModel.toIssueBasic() = IssueBasic(
+internal fun IssueApiModel.toIssueBasic() = IssueBasic(
     apiDetailUrl = apiDetailUrl, id = id, name = name
 )
 
-fun List<IssueListApiModel>.toIssues() = map { apiModel -> apiModel.toIssue() }
+internal fun List<IssueListApiModel>.toIssues() = map { apiModel -> apiModel.toIssue() }
 
-fun IssueListApiModel.toIssue() = Issue(
+internal fun IssueListApiModel.toIssue() = Issue(
     apiDetailUrl = apiDetailUrl,
     deck = deck ?: "",
     id = id,
@@ -26,7 +26,7 @@ fun IssueListApiModel.toIssue() = Issue(
     volumeName = volume.name
 )
 
-fun IssueDetailsApiModel.toIssueDetails() = IssueDetails(
+internal fun IssueDetailsApiModel.toIssueDetails() = IssueDetails(
     apiDetailUrl = apiDetailUrl,
     associatedImagesUrl = associatedImages.map { it.originalUrl },
     credits = personCredits.toCredits(),

@@ -1,7 +1,7 @@
 package com.keetr.comicsnac.home
 
 import androidx.compose.runtime.Immutable
-import com.keetr.comicsnac.model.RepositoryResponse
+import com.keetr.comicsnac.data.RepositoryResponse
 import com.keetr.comicsnac.model.character.Character
 import com.keetr.comicsnac.model.issue.Issue
 import com.keetr.comicsnac.model.movie.Movie

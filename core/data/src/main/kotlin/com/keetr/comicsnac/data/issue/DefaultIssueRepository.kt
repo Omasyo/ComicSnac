@@ -6,7 +6,7 @@ import androidx.paging.PagingData
 import com.keetr.comicsnac.data.CustomPagingSource
 import com.keetr.comicsnac.data.di.IODispatcher
 import com.keetr.comicsnac.data.fromNetworkError
-import com.keetr.comicsnac.model.RepositoryResponse
+import com.keetr.comicsnac.data.RepositoryResponse
 import com.keetr.comicsnac.model.Sort
 import com.keetr.comicsnac.model.issue.Issue
 import com.keetr.comicsnac.model.issue.IssueDetails
@@ -17,10 +17,9 @@ import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOn
-import kotlinx.coroutines.withContext
 import javax.inject.Inject
 
-class DefaultIssueRepository @Inject constructor(
+internal class DefaultIssueRepository @Inject constructor(
     private val networkSource: IssueNetworkSource,
     @IODispatcher private val dispatcher: CoroutineDispatcher
 ) : IssueRepository {

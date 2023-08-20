@@ -6,8 +6,8 @@ import com.keetr.comicsnac.model.power.PowerBasic
 import com.keetr.comicsnac.network.common.models.CreatorApiModel
 import com.keetr.comicsnac.network.common.models.PowerApiModel
 
-fun List<PowerApiModel>.toBasic() = map { apiModel -> apiModel.toPowerBasic() }
+internal fun List<PowerApiModel>.toBasic() = map { apiModel -> apiModel.toPowerBasic() }
 
-fun PowerApiModel.toPowerBasic() = PowerBasic(
+internal fun PowerApiModel.toPowerBasic() = PowerBasic(
     apiDetailUrl = apiDetailUrl, id = id, name = name
 )
