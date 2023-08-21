@@ -17,6 +17,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navDeepLink
+import com.keetr.comicsnac.details.character.characterRoute
 import com.keetr.comicsnac.home.HomeRoute
 import com.keetr.comicsnac.home.homeRoute
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
@@ -37,51 +38,27 @@ class MainActivity : ComponentActivity() {
                     navController = navController,
                     startDestination = HomeRoute.route
                 ) {
+                    val onItemClicked = { guid: String ->
+                        navController.navigate(
+                            Uri.parse(guid)
+                        )
+                    }
+
                     homeRoute(
-                        onItemClicked = {
-//                            navController.navigate("/characters/TheId")
-                            navController.navigate(
-                                Uri.parse(it)
-                            )
-                        },
+                        onItemClicked = onItemClicked,
                         onMoreCategoriesClicked = {},
                         onCharacterCategoryClicked = {},
                         onVolumeCategoryClicked = {},
                         onMovieCategoryClicked = {},
-                        onSeriesCategoryClicked = {
-                        }
+                        onSeriesCategoryClicked = {}
                     )
 
-                    composable(
-                        route = "/characters/{guid}",
-                        deepLinks = listOf(
-                            navDeepLink {
-                                uriPattern = "https://comicvine.gamespot.com/api/character/{guid}/"
-                            },
-                            navDeepLink {
-                                uriPattern = "https://comicvine.gamespot.com/{temp}/{guid}/"
-                            }
-                        )
-                    ) { backStackEntry ->
-
-                        val guid = checkNotNull(backStackEntry.arguments?.getString("guid"))
-                        val route = backStackEntry
-
-                        Surface(Modifier.fillMaxSize()) {
-                            Column(
-                                verticalArrangement = Arrangement.Center
-                            ) {
-                                Text(
-                                    guid,
-                                    style = MaterialTheme.typography.titleLarge,
-                                )
-                                Text(
-                                    guid,
-                                    style = MaterialTheme.typography.titleLarge,
-                                )
-                            }
+                    characterRoute(
+                        onItemClicked = onItemClicked,
+                        onBackPressed = {
+                            navController.popBackStack()
                         }
-                    }
+                    )
                 }
             }
         }

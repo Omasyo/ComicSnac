@@ -1,4 +1,4 @@
-package com.keetr.comicsnac.details
+package com.keetr.comicsnac.details.components
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

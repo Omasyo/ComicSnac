@@ -15,4 +15,7 @@
     <string name="teams">Teams</string>
     <string name="volumes">Volumes</string>
     <string name="creators">Creators</string>
+    <string name="back_button_desc">Back Button</string>
+    <string name="close_button_desc">Close Button</string>
+    <string name="share_button_desc">Share Button</string>
 </resources>

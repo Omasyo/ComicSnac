@@ -1,4 +1,4 @@
-package com.keetr.comicsnac.details
+package com.keetr.comicsnac.details.components
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.animateContentSize
@@ -22,6 +22,12 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
+import com.keetr.comicsnac.details.Error
+import com.keetr.comicsnac.details.ExtrasUiState
+import com.keetr.comicsnac.details.InDevelopment
+import com.keetr.comicsnac.details.Loading
+import com.keetr.comicsnac.details.R
+import com.keetr.comicsnac.details.Success
 import com.keetr.comicsnac.ui.components.placeholders.ErrorPlaceholder
 import com.keetr.comicsnac.ui.components.placeholders.InDevelopmentPlaceholder
 import com.keetr.comicsnac.ui.components.placeholders.LoadingPlaceholder

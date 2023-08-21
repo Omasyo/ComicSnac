@@ -14,7 +14,7 @@ import kotlinx.coroutines.flow.stateIn
 import javax.inject.Inject
 
 @HiltViewModel
-class HomeViewModel @Inject constructor(
+internal class HomeViewModel @Inject constructor(
     private val characterRepository: CharacterRepository,
     private val issueRepository: IssueRepository,
 ) : ViewModel() {
@@ -27,16 +27,6 @@ class HomeViewModel @Inject constructor(
     val issueUiState =
         issueRepository.getRecentIssues().map(::getCategoryState).stateInCurrentScope()
 
-//    init {
-//
-//        viewModelScope.launch {
-////            launch {
-////                _characterUiState.value =
-////                    getCategoryState(characterRepository.getRecentCharacters())
-////            }
-//            launch { _issueUiState.value = getCategoryState(issueRepository.getRecentIssues()) }
-//        }
-//    }
 
     private fun <T> getCategoryState(response: RepositoryResponse<List<T>>) =
         when (response) {

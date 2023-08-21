@@ -1,7 +1,6 @@
 package com.keetr.comicsnac.home
 
 import androidx.compose.foundation.ExperimentalFoundationApi
-import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -21,7 +20,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.drawBehind
+import androidx.compose.ui.draw.drawWithContent
 import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
@@ -87,31 +89,35 @@ fun IssueCarousel(
                         .fillMaxWidth(0.85f)
                         .aspectRatio(11f / 17f)
                 ) {
+                    val overlay = MaterialTheme.colorScheme.surfaceVariant
                     AsyncImage(
                         model = ImageRequest.Builder(LocalContext.current).data(imageUrl)
                             .crossfade(true).build(),
-                        contentDescription = stringResource(R.string.issue_image_desc, issueNumber, volumeName, name),
+                        contentDescription = stringResource(
+                            R.string.issue_image_desc,
+                            issueNumber,
+                            volumeName,
+                            name
+                        ),
                         contentScale = ContentScale.Crop,
                         modifier = Modifier
                             .padding(1f.dp)
+                            .drawWithContent {
+                                drawContent()
+                                drawRect(
+                                    overlay.copy(
+                                        lerp(
+                                            0.3f,
+                                            0f,
+                                            (1f - pageOffset).coerceIn(0.0f, 1f)
+                                        )
+                                    ), Offset.Zero, size
+                                )
+                            }
                             .clickable {
                                 if (index - 1 == pagerState.currentPage) onIssueClick(apiDetailUrl)
                                 else coroutineScope.launch { pagerState.animateScrollToPage(index - 1) }
                             }
-                            .fillMaxSize()
-                    )
-                    Spacer(
-                        Modifier
-                            .padding(1f.dp)
-                            .background(
-                                Color.Black.copy(
-                                    lerp(
-                                        0.3f,
-                                        0f,
-                                        (1f - pageOffset).coerceIn(0.0f, 1f)
-                                    )
-                                )
-                            )
                             .fillMaxSize()
                     )
                 }

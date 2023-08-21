@@ -1,8 +1,8 @@
-package com.keetr.comicsnac.details.panels
+package com.keetr.comicsnac.details.components.panels
 
 import androidx.annotation.StringRes
 import androidx.compose.ui.res.stringResource
-import com.keetr.comicsnac.details.DetailsGrid
+import com.keetr.comicsnac.details.components.DetailsGrid
 import com.keetr.comicsnac.details.R
 import com.keetr.comicsnac.details.TeamsUiState
 import com.keetr.comicsnac.ui.R.string as CommonString

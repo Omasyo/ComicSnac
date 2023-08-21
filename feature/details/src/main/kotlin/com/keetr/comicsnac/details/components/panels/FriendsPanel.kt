@@ -1,4 +1,4 @@
-package com.keetr.comicsnac.details.panels
+package com.keetr.comicsnac.details.components.panels
 
 import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.width
@@ -6,7 +6,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.keetr.comicsnac.details.CharactersUiState
-import com.keetr.comicsnac.details.DetailsGrid
+import com.keetr.comicsnac.details.components.DetailsGrid
 import com.keetr.comicsnac.ui.R
 import com.keetr.comicsnac.ui.components.cards.ComicCard
 import com.keetr.comicsnac.ui.components.lazylist.PanelLazyListScope

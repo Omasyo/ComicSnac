@@ -1,9 +1,10 @@
-package com.keetr.comicsnac.details.panels
+package com.keetr.comicsnac.details.components.panels
 
 import androidx.compose.animation.animateContentSize
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
@@ -12,6 +13,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
@@ -29,7 +31,7 @@ internal fun PanelLazyListScope.webViewPanel(
     onItemClicked: (String) -> Unit
 ) {
 
-    specialPanel {index ->
+    specialPanel { index ->
 
         val expanded = expandedProvider(index)
 
@@ -37,26 +39,34 @@ internal fun PanelLazyListScope.webViewPanel(
             if (expanded) Modifier.fillParentMaxHeight() else Modifier.height(400.dp)
         }
 
-        ComicWebView(
+        Box(
             Modifier
                 .animateContentSize()
                 .fillMaxWidth()
                 .then(heightModifier),
-            data = description,
-            baseUrl = siteDetailUrl,
-            onLinkClick = {})
+        ) {
+            ComicWebView(
+                data = description,
+                baseUrl = siteDetailUrl,
+                contentPadding = PaddingValues(16f.dp),
+                scrollable = expanded,
+                onLinkClick = onItemClicked
+            )
 
-        Text(
-            stringResource(if (expanded) R.string.collapse else R.string.expand),
-            style = MaterialTheme.typography.titleMedium,
-            color = if (expanded) MaterialTheme.colorScheme.tertiary else MaterialTheme.colorScheme.primary,
-            modifier = Modifier
-                .padding(top = 8f.dp)
-                .clickable {
-                    onToggleExpand(index)
-                }
-                .background(MaterialTheme.colorScheme.onSurface)
-                .padding(horizontal = 16f.dp, vertical = 4f.dp))
+            Text(
+                stringResource(if (expanded) R.string.collapse else R.string.expand),
+                style = MaterialTheme.typography.titleMedium,
+                color = MaterialTheme.colorScheme.onSurface,
+                modifier = Modifier
+                    .align(Alignment.TopEnd)
+                    .padding(top = 8f.dp)
+                    .clickable {
+                        onToggleExpand(index)
+                    }
+                    .background(MaterialTheme.colorScheme.surface)
+                    .padding(horizontal = 16f.dp, vertical = 4f.dp))
+
+        }
     }
 }
 

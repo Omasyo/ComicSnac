@@ -10,7 +10,7 @@ import androidx.navigation.compose.composable
 import com.keetr.comicsnac.model.NavigationRoute
 
 
- object HomeRoute : NavigationRoute("/")
+object HomeRoute : NavigationRoute("/")
 
 fun NavGraphBuilder.homeRoute(
     modifier: Modifier = Modifier,
@@ -30,7 +30,8 @@ fun NavGraphBuilder.homeRoute(
         onCharacterCategoryClicked = onCharacterCategoryClicked,
         onVolumeCategoryClicked = onVolumeCategoryClicked,
         onMovieCategoryClicked = onMovieCategoryClicked,
-        onSeriesCategoryClicked = onSeriesCategoryClicked)
+        onSeriesCategoryClicked = onSeriesCategoryClicked
+    )
 }
 
 

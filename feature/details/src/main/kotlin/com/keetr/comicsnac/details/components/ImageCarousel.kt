@@ -1,4 +1,4 @@
-package com.keetr.comicsnac.details
+package com.keetr.comicsnac.details.components
 
 import androidx.compose.animation.animateContentSize
 import androidx.compose.foundation.ExperimentalFoundationApi
@@ -18,7 +18,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.drawWithContent
 import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
@@ -86,17 +88,27 @@ internal fun LazyItemScope.ImageCarousel(
                         spotColor = MaterialTheme.colorScheme.onSurface
                     )
             ) {
-                Box(
-                    Modifier
-                        .background(Color.Gray)
-                        .fillMaxSize()
-                )
+                val overlay = MaterialTheme.colorScheme.surfaceVariant
+
                 AsyncImage(
                     model = ImageRequest.Builder(LocalContext.current)
                         .data(images[index].url).crossfade(true).build(),
                     contentDescription = images[index].description, //Add proper string resource
                     contentScale = ContentScale.Crop,
-                    modifier = Modifier.fillMaxSize()
+                    modifier = Modifier
+                        .drawWithContent {
+                            drawContent()
+                            drawRect(
+                                overlay.copy(
+                                    lerp(
+                                        1.0f,
+                                        0.0f,
+                                        1f - (lazyListState.firstVisibleItemScrollOffset.toFloat() / lazyListState.layoutInfo.viewportEndOffset)
+                                    )
+                                ), Offset.Zero, size
+                            )
+                        }
+                        .fillMaxSize()
                 )
             }
         }

@@ -1,13 +1,10 @@
-package com.keetr.comicsnac.details
+package com.keetr.comicsnac.details.character
 
 import androidx.activity.compose.BackHandler
-import androidx.compose.animation.animateContentSize
-import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material3.MaterialTheme
@@ -23,14 +20,28 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.keetr.comicsnac.details.panels.enemiesPanel
-import com.keetr.comicsnac.details.panels.friendsPanel
-import com.keetr.comicsnac.details.panels.moviesPanel
-import com.keetr.comicsnac.details.panels.teamEnemiesPanel
-import com.keetr.comicsnac.details.panels.teamFriendsPanel
-import com.keetr.comicsnac.details.panels.teamsPanel
-import com.keetr.comicsnac.details.panels.volumesPanel
-import com.keetr.comicsnac.details.panels.webViewPanel
+import com.keetr.comicsnac.details.CharacterDetailsUiState
+import com.keetr.comicsnac.details.CharactersUiState
+import com.keetr.comicsnac.details.components.DetailsFlow
+import com.keetr.comicsnac.details.components.DetailsScreen
+import com.keetr.comicsnac.details.Error
+import com.keetr.comicsnac.details.components.Image
+import com.keetr.comicsnac.details.InDevelopment
+import com.keetr.comicsnac.details.components.Info
+import com.keetr.comicsnac.details.Loading
+import com.keetr.comicsnac.details.MoviesUiState
+import com.keetr.comicsnac.details.R
+import com.keetr.comicsnac.details.Success
+import com.keetr.comicsnac.details.TeamsUiState
+import com.keetr.comicsnac.details.VolumeUiState
+import com.keetr.comicsnac.details.components.panels.enemiesPanel
+import com.keetr.comicsnac.details.components.panels.friendsPanel
+import com.keetr.comicsnac.details.components.panels.moviesPanel
+import com.keetr.comicsnac.details.components.panels.teamEnemiesPanel
+import com.keetr.comicsnac.details.components.panels.teamFriendsPanel
+import com.keetr.comicsnac.details.components.panels.teamsPanel
+import com.keetr.comicsnac.details.components.panels.volumesPanel
+import com.keetr.comicsnac.details.components.panels.webViewPanel
 import com.keetr.comicsnac.model.character.Character
 import com.keetr.comicsnac.model.character.CharacterDetails
 import com.keetr.comicsnac.model.issue.IssueBasic
@@ -39,7 +50,6 @@ import com.keetr.comicsnac.model.other.Gender
 import com.keetr.comicsnac.model.power.PowerBasic
 import com.keetr.comicsnac.ui.R.string as CommonString
 import com.keetr.comicsnac.ui.components.lazylist.animateScrollAndAlignItem
-import com.keetr.comicsnac.ui.components.webview.ComicWebView
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
 import kotlinx.coroutines.launch
 
@@ -61,7 +71,7 @@ internal fun CharacterDetailsScreen(
         is Error -> TODO()
         InDevelopment -> TODO()
         Loading -> {
-            TODO()
+           // TODO()
         }
 
         is Success -> {
@@ -108,7 +118,7 @@ internal fun CharacterDetailsScreen(
                     images = listOf(
                         Image(
                             imageUrl, stringResource(CommonString.character_image_desc)
-                        )
+                        ),
                     ),
                     lazyListState = state,
                     userScrollEnabled = canScroll,

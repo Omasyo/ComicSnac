@@ -1,10 +1,8 @@
-package com.keetr.comicsnac.details.panels
+package com.keetr.comicsnac.details.components.panels
 
 import androidx.compose.ui.res.stringResource
-import com.keetr.comicsnac.details.DetailsGrid
-import com.keetr.comicsnac.details.MoviesUiState
+import com.keetr.comicsnac.details.components.DetailsGrid
 import com.keetr.comicsnac.details.VolumeUiState
-import com.keetr.comicsnac.model.volume.Volume
 import com.keetr.comicsnac.ui.R
 import com.keetr.comicsnac.ui.components.lazylist.PanelLazyListScope
 
