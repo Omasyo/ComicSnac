@@ -10,6 +10,11 @@ internal class ComicWebViewClient(
     private val onLinkClick: (Uri) -> Unit
 ) : AccompanistWebViewClient() {
 
+    override fun onPageFinished(view: WebView, url: String?) {
+        super.onPageFinished(view, url)
+        view.setLayerType(WebView.LAYER_TYPE_SOFTWARE, null)
+    }
+
     override fun shouldOverrideUrlLoading(view: WebView?, request: WebResourceRequest?): Boolean {
         request?.url?.let {
             onLinkClick(it)

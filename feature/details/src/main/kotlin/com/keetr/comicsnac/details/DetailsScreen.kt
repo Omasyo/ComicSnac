@@ -1,6 +1,5 @@
 package com.keetr.comicsnac.details
 
-import android.util.Log
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.expandIn
@@ -11,9 +10,8 @@ import androidx.compose.animation.togetherWith
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyItemScope
 import androidx.compose.foundation.lazy.LazyListState
@@ -24,25 +22,20 @@ import androidx.compose.material.icons.filled.Close
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.keetr.comicsnac.ui.components.lazylist.ComicListSeparator
 import com.keetr.comicsnac.ui.components.lazylist.PanelColors
 import com.keetr.comicsnac.ui.components.lazylist.PanelLazyListScope
 import com.keetr.comicsnac.ui.components.lazylist.PanelList
-import com.keetr.comicsnac.ui.theme.ComicSnacTheme
 
 
 @Composable
-fun DetailsScreen(
+internal fun DetailsScreen(
     modifier: Modifier = Modifier,
     images: List<Image>,
     onBackPressed: () -> Unit,
@@ -134,84 +127,18 @@ fun DetailsScreen(
     }
 }
 
-
-fun PanelLazyListScope.webViewPanel(
-    content: @Composable LazyItemScope.() -> Unit,
-) {
-    panelSeparator { upperColor, lowerColor, _, flipped ->
-
-        ComicListSeparator(
-            upperColor = upperColor,
-            lowerColor = MaterialTheme.colorScheme.onSurface,
-            strokeColor = lowerColor,
-            flipped = flipped
-        )
-    }
-    panel {
-        Box(
-            Modifier
-                .background(MaterialTheme.colorScheme.onSurface)
-        ) {
-            content()
-        }
-    }
-    panelSeparator { upperColor, lowerColor, _, flipped ->
-        ComicListSeparator(
-            upperColor = MaterialTheme.colorScheme.onSurface,
-            lowerColor = lowerColor,
-            strokeColor = upperColor,
-            flipped = flipped
-        )
-    }
-}
-
-@Preview
 @Composable
-private fun Preview() {
-    ComicSnacTheme {
-        var expanded by remember {
-            mutableStateOf(false)
-        }
-        DetailsScreen(
-            images = List(5) { Image(it.toString(), null) },
-            imageExpanded = expanded,
-            onImageClicked = { expanded = true },
-            onBackPressed = {
-                expanded = false
-            },
-            onImageClose = { }
-        ) {
-            repeat(4) {
-                panel {
-                    Box(
-                        Modifier
-                            .padding(24f.dp)
-                            .background(Color.Red)
-                            .fillMaxWidth()
-                            .height(120f.dp)
-                    )
-                }
-                panelSeparator()
-            }
-
-            panel {
-                Box(
-                    Modifier
-                        .padding(24f.dp)
-                        .background(Color.Red)
-                        .fillMaxWidth()
-                        .height(120f.dp)
-                )
-            }
-            webViewPanel {
-                Box(
-                    Modifier
-                        .padding(24f.dp)
-                        .background(Color.Red)
-                        .fillMaxWidth()
-                        .height(120f.dp)
-                )
-            }
-        }
+internal fun Info(
+    name: String,
+    content: String,
+    onItemClicked: (() -> Unit)? = null
+) {
+    Row(Modifier.fillMaxWidth()) {
+        Text("$name: ", style = MaterialTheme.typography.titleLarge)
+        Text(
+            content,
+            style = MaterialTheme.typography.titleLarge,
+            modifier = Modifier.clickable(onItemClicked != null) { onItemClicked?.invoke() })
     }
 }
+
