@@ -10,7 +10,7 @@ import com.keetr.comicsnac.network.issue.models.IssueDetailsApiModel
 import com.keetr.comicsnac.network.issue.models.IssueListApiModel
 
 internal fun IssueApiModel.toIssueBasic() = IssueBasic(
-    apiDetailUrl = apiDetailUrl, id = id, name = name
+    apiDetailUrl = apiDetailUrl, id = id, name = name ?: ""
 )
 
 internal fun List<IssueListApiModel>.toIssues() = map { apiModel -> apiModel.toIssue() }

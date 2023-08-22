@@ -25,6 +25,9 @@ fun NavGraphBuilder.characterRoute(
     deepLinks = listOf(
         navDeepLink {
             uriPattern = "https://comicvine.gamespot.com/api/${CharacterRoute.route}"
+        },
+        navDeepLink {
+            uriPattern = "https://comicvine.gamespot.com/{_t}/{$Arg}/"
         }
     )
 ) {

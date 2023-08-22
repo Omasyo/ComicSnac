@@ -10,6 +10,7 @@ import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
@@ -18,8 +19,10 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.core.text.HtmlCompat
 import com.keetr.comicsnac.details.CharacterDetailsUiState
 import com.keetr.comicsnac.details.CharactersUiState
 import com.keetr.comicsnac.details.components.DetailsFlow
@@ -52,7 +55,9 @@ import com.keetr.comicsnac.model.other.Gender
 import com.keetr.comicsnac.model.power.PowerBasic
 import com.keetr.comicsnac.ui.R.string as CommonString
 import com.keetr.comicsnac.ui.components.lazylist.animateScrollAndAlignItem
+import com.keetr.comicsnac.ui.components.webview.toAnnotatedString
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
 @Composable
@@ -75,14 +80,17 @@ internal fun CharacterDetailsScreen(
 
             }
         }
+
         InDevelopment -> {
             // TODO Remove later
         }
+
         Loading -> {
             DetailsLoadingPlaceholder {
 
             }
         }
+
         is Success -> {
             val scope = rememberCoroutineScope()
 
@@ -118,10 +126,32 @@ internal fun CharacterDetailsScreen(
 
             BackHandler(!canScroll) {
                 imageExpanded = false
-                expandedIndex = -1
             }
 
             with(detailsUiState.content) {
+
+                val body =
+                    MaterialTheme.typography.bodyLarge.copy(MaterialTheme.colorScheme.tertiary)
+                val title =
+                    MaterialTheme.typography.titleLarge.copy(MaterialTheme.colorScheme.tertiary)
+                val headline =
+                    MaterialTheme.typography.headlineSmall.copy(MaterialTheme.colorScheme.tertiary)
+                val link =
+                    MaterialTheme.typography.bodyLarge.copy(MaterialTheme.colorScheme.secondary)
+
+
+                val annotatedString =
+                    remember(body, title, headline, link) {
+                        HtmlCompat.fromHtml(description, HtmlCompat.FROM_HTML_MODE_LEGACY)
+                            .toAnnotatedString(
+                                "https://comicvine.gamespot.com",
+                                body,
+                                title,
+                                headline,
+                                link
+                            )
+                    }
+
                 DetailsScreen(
                     modifier = modifier,
                     images = listOf(
@@ -160,7 +190,7 @@ internal fun CharacterDetailsScreen(
                                 .padding(horizontal = 16f.dp, vertical = 4f.dp),
                             verticalArrangement = Arrangement.spacedBy(4f.dp)
                         ) {
-                            if(realName.isNotBlank()) {
+                            if (realName.isNotBlank()) {
                                 Info(name = stringResource(R.string.real_name), content = realName)
                             }
                             origin?.let {
@@ -169,7 +199,7 @@ internal fun CharacterDetailsScreen(
                                 }
                             }
                             Info(name = stringResource(CommonString.gender), content = gender.name)
-                            if(aliases.isNotEmpty()) {
+                            if (aliases.isNotEmpty()) {
                                 Info(
                                     name = stringResource(CommonString.aliases),
                                     content = aliases.joinToString(", ")
@@ -177,7 +207,7 @@ internal fun CharacterDetailsScreen(
                             }
                             Info(
                                 name = stringResource(R.string.first_appeared_in_issue),
-                                content = firstAppearance.name
+                                content = firstAppearance.name.ifBlank { "Unknown name" }
                             ) {
                                 onItemClicked(firstAppearance.apiDetailUrl)
                             }
@@ -267,8 +297,7 @@ internal fun CharacterDetailsScreen(
 
                     if (description.isNotBlank()) {
                         webViewPanel(
-                            description,
-                            siteDetailUrl,
+                            annotatedString,
                             ::expandedProviderCallback,
                             ::onExpand,
                             onItemClicked
@@ -286,7 +315,7 @@ internal fun CharacterDetailsScreen(
                         )
                     }
 
-                    if(moviesId.isNotEmpty()) {
+                    if (moviesId.isNotEmpty()) {
                         panelSeparator()
 
                         moviesPanel(
@@ -297,7 +326,7 @@ internal fun CharacterDetailsScreen(
                         )
                     }
 
-                    if(creators.isNotEmpty()) {
+                    if (creators.isNotEmpty()) {
                         panelSeparator()
 
                         panel {

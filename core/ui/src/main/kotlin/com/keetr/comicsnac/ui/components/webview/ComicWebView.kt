@@ -61,80 +61,52 @@ const val TAG = "SComicWebView"
 fun ComicWebView(
     modifier: Modifier = Modifier,
     contentPadding: PaddingValues = PaddingValues(0f.dp),
-    data: String,
-    baseUrl: String,
+    annotatedString: AnnotatedString,
     scrollable: Boolean = true,
     onLinkClick: (String) -> Unit,
 ) {
-
-    val body = MaterialTheme.typography.bodyLarge.copy(MaterialTheme.colorScheme.tertiary)
-    val title = MaterialTheme.typography.titleLarge.copy(MaterialTheme.colorScheme.tertiary)
-    val headline = MaterialTheme.typography.headlineSmall.copy(MaterialTheme.colorScheme.tertiary)
-    val link = MaterialTheme.typography.bodyLarge.copy(MaterialTheme.colorScheme.secondary)
-
-    var annotatedString by remember(body, title, headline, link) {
-        mutableStateOf(AnnotatedString(""))
-    }
-
-    LaunchedEffect(body, title, headline, link) {
-        this.launch(Dispatchers.IO) {
-            annotatedString = HtmlCompat.fromHtml(data, HtmlCompat.FROM_HTML_MODE_LEGACY)
-                .toAnnotatedString(
-                    baseUrl,
-                    body,
-                    title,
-                    headline,
-                    link
-                )
-        }
-    }
-
-    with(MaterialTheme) {
-        Crossfade(targetState = annotatedString) { annotatedString ->
-            ClickableText(
-                text = annotatedString,
-                style = typography.bodyLarge.copy(colorScheme.primary),
-                modifier = modifier
-                    .verticalScroll(
-                        rememberScrollState(),
-                        scrollable
-                    )
-                    .padding(contentPadding)
-            ) { offset ->
-                annotatedString.getUrlAnnotations(offset, offset).firstOrNull()?.let {
-                    onLinkClick(it.item.url)
-                }
-            }
-        }
-    }
-}
-
-@Preview
-@Composable
-private fun Preview() {
-    ComicSnacTheme {
-        Box(
-            Modifier
-                .background(MaterialTheme.colorScheme.onSurface)
-                .fillMaxSize()
-                .padding(24f.dp)
-        ) {
-            ComicWebView(
-                Modifier.fillMaxSize(),
-                data = SampleHtmlText, baseUrl =
-                "https://comicvine.gamespot.com/lightning-lad/4005-1253/"
+    ClickableText(
+        text = annotatedString,
+        style = MaterialTheme.typography.bodyLarge.copy(MaterialTheme.colorScheme.primary),
+        modifier = modifier
+            .verticalScroll(
+                rememberScrollState(),
+                scrollable
             )
-            { Log.d("TAG", "ComicWebView: $it") }
-
-//            Column {
-//                Text(Color.Red.value.toString())
-//                Text(Color.Black.toArgb().toString())
-//                Text(Color.Black.format())
-//                Text(0x000000.toString())
-//            }
+            .padding(contentPadding)
+    ) { offset ->
+        annotatedString.getUrlAnnotations(offset, offset).firstOrNull()?.let {
+            onLinkClick(it.item.url)
         }
     }
 }
+
+//@Preview
+//@Composable
+//private fun Preview() {
+//    ComicSnacTheme {
+//        Box(
+//            Modifier
+//                .background(MaterialTheme.colorScheme.onSurface)
+//                .fillMaxSize()
+//                .padding(24f.dp)
+//        ) {
+//            ComicWebView(
+//                Modifier.fillMaxSize(),
+//                data = SampleHtmlText, baseUrl =
+//                "https://comicvine.gamespot.com/lightning-lad/4005-1253/"
+//            )
+//            { Log.d("TAG", "ComicWebView: $it") }
+//
+////            Column {
+////                Text(Color.Red.value.toString())
+////                Text(Color.Black.toArgb().toString())
+////                Text(Color.Black.format())
+////                Text(0x000000.toString())
+////            }
+//        }
+//    }
+//}
 
 @OptIn(ExperimentalTextApi::class)
 fun Spanned.toAnnotatedString(
@@ -145,6 +117,8 @@ fun Spanned.toAnnotatedString(
     link: TextStyle
 ): AnnotatedString =
     buildAnnotatedString {
+        Log.w(TAG, "toAnnotatedString: Building string")
+
         val spanned = this@toAnnotatedString
 
         var index = 0

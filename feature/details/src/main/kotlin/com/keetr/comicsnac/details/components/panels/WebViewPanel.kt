@@ -16,6 +16,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.unit.dp
 import com.keetr.comicsnac.details.R
 import com.keetr.comicsnac.ui.components.lazylist.ComicListSeparator
@@ -24,8 +25,7 @@ import com.keetr.comicsnac.ui.components.webview.ComicWebView
 
 
 internal fun PanelLazyListScope.webViewPanel(
-    description: String,
-    siteDetailUrl: String,
+    description: AnnotatedString,
     expandedProvider: (Int) -> Boolean,
     onToggleExpand: (Int) -> Unit,
     onItemClicked: (String) -> Unit
@@ -46,8 +46,7 @@ internal fun PanelLazyListScope.webViewPanel(
                 .then(heightModifier),
         ) {
             ComicWebView(
-                data = description,
-                baseUrl = siteDetailUrl,
+                annotatedString = description,
                 contentPadding = PaddingValues(16f.dp),
                 scrollable = expanded,
                 onLinkClick = onItemClicked

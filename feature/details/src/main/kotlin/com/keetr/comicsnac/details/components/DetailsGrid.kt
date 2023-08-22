@@ -1,5 +1,6 @@
 package com.keetr.comicsnac.details.components
 
+import androidx.activity.compose.BackHandler
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.animateContentSize
 import androidx.compose.foundation.background
@@ -43,6 +44,9 @@ internal fun <T> LazyItemScope.DetailsGrid(
     builder: @Composable (item: T) -> Unit
 ) {
 
+    BackHandler(expanded) {
+        onToggleExpand()
+    }
     val heightModifier = remember(expanded) {
         if (expanded) Modifier.fillParentMaxHeight() else Modifier
             .height(320.dp)
