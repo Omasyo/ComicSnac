@@ -30,7 +30,7 @@ internal fun PanelLazyListScope.enemiesPanel(
     onToggleExpand: (Int) -> Unit,
     onItemClicked: (String) -> Unit
 ) = charactersPanel(
-    R.string.friends,
+    R.string.enemies,
     uiState,
     expandedProvider,
     onToggleExpand,

@@ -34,6 +34,8 @@ import com.keetr.comicsnac.details.R
 import com.keetr.comicsnac.details.Success
 import com.keetr.comicsnac.details.TeamsUiState
 import com.keetr.comicsnac.details.VolumeUiState
+import com.keetr.comicsnac.details.components.DetailsErrorPlaceholder
+import com.keetr.comicsnac.details.components.DetailsLoadingPlaceholder
 import com.keetr.comicsnac.details.components.panels.enemiesPanel
 import com.keetr.comicsnac.details.components.panels.friendsPanel
 import com.keetr.comicsnac.details.components.panels.moviesPanel
@@ -68,12 +70,19 @@ internal fun CharacterDetailsScreen(
     volumeUiState: VolumeUiState
 ) {
     when (detailsUiState) {
-        is Error -> TODO()
-        InDevelopment -> TODO()
-        Loading -> {
-           // TODO()
-        }
+        is Error -> {
+            DetailsErrorPlaceholder {
 
+            }
+        }
+        InDevelopment -> {
+            // TODO Remove later
+        }
+        Loading -> {
+            DetailsLoadingPlaceholder {
+
+            }
+        }
         is Success -> {
             val scope = rememberCoroutineScope()
 
@@ -151,17 +160,21 @@ internal fun CharacterDetailsScreen(
                                 .padding(horizontal = 16f.dp, vertical = 4f.dp),
                             verticalArrangement = Arrangement.spacedBy(4f.dp)
                         ) {
-                            Info(name = stringResource(R.string.real_name), content = name)
+                            if(realName.isNotBlank()) {
+                                Info(name = stringResource(R.string.real_name), content = realName)
+                            }
                             origin?.let {
                                 Info(name = stringResource(R.string.origin), content = it.name) {
                                     onItemClicked(it.apiDetailUrl)
                                 }
                             }
                             Info(name = stringResource(CommonString.gender), content = gender.name)
-                            Info(
-                                name = stringResource(CommonString.aliases),
-                                content = aliases.joinToString(", ")
-                            )
+                            if(aliases.isNotEmpty()) {
+                                Info(
+                                    name = stringResource(CommonString.aliases),
+                                    content = aliases.joinToString(", ")
+                                )
+                            }
                             Info(
                                 name = stringResource(R.string.first_appeared_in_issue),
                                 content = firstAppearance.name
@@ -180,106 +193,126 @@ internal fun CharacterDetailsScreen(
                         }
                     }
 
-                    panelSeparator()
+                    if (powers.isNotEmpty()) {
+                        panelSeparator()
 
-                    panel {
-                        DetailsFlow(
-                            name = stringResource(CommonString.powers), items = powers
-                        ) { power ->
-                            Text(power.name,
-                                Modifier
-                                    .clickable { onItemClicked(apiDetailUrl) }
-                                    .padding(horizontal = 8f.dp),
-                                style = MaterialTheme.typography.titleMedium)
+                        panel {
+                            DetailsFlow(
+                                name = stringResource(CommonString.powers), items = powers
+                            ) { power ->
+                                Text(power.name,
+                                    Modifier
+                                        .clickable { onItemClicked(apiDetailUrl) }
+                                        .padding(horizontal = 8f.dp),
+                                    style = MaterialTheme.typography.titleMedium)
+                            }
                         }
                     }
 
-                    panelSeparator()
 
-                    friendsPanel(
-                        friendsUiState,
-                        ::expandedProviderCallback,
-                        ::onExpand,
-                        onItemClicked
-                    )
+                    if (friendsId.isNotEmpty()) {
+                        panelSeparator()
 
-                    panelSeparator()
-
-                    enemiesPanel(
-                        enemiesUiState,
-                        ::expandedProviderCallback,
-                        ::onExpand,
-                        onItemClicked
-                    )
-
-                    panelSeparator()
-
-                    teamsPanel(
-                        teamsUiState,
-                        ::expandedProviderCallback,
-                        ::onExpand,
-                        onItemClicked
-                    )
-
-                    panelSeparator()
-
-                    teamFriendsPanel(
-                        teamFriendsUiState,
-                        ::expandedProviderCallback,
-                        ::onExpand,
-                        onItemClicked
-                    )
-
-                    panelSeparator()
-
-                    teamEnemiesPanel(
-                        teamEnemiesUiState,
-                        ::expandedProviderCallback,
-                        ::onExpand,
-                        onItemClicked
-                    )
-
-                    webViewPanel(
-                        description,
-                        siteDetailUrl,
-                        ::expandedProviderCallback,
-                        ::onExpand,
-                        onItemClicked
-                    )
-
-                    volumesPanel(
-                        volumeUiState,
-                        ::expandedProviderCallback,
-                        ::onExpand,
-                        onItemClicked
-                    )
-
-                    panelSeparator()
-
-                    moviesPanel(
-                        moviesUiState,
-                        ::expandedProviderCallback,
-                        ::onExpand,
-                        onItemClicked
-                    )
-
-                    panelSeparator()
-
-                    panel {
-                        DetailsFlow(
-                            name = stringResource(CommonString.creators), items = creators
-                        ) { person ->
-                            Text(person.name,
-                                Modifier
-                                    .clickable { onItemClicked(apiDetailUrl) }
-                                    .padding(horizontal = 16f.dp),
-                                style = MaterialTheme.typography.titleLarge)
-                        }
+                        friendsPanel(
+                            friendsUiState,
+                            ::expandedProviderCallback,
+                            ::onExpand,
+                            onItemClicked
+                        )
                     }
 
-                    creators
+                    if (enemiesId.isNotEmpty()) {
+                        panelSeparator()
+
+                        enemiesPanel(
+                            enemiesUiState,
+                            ::expandedProviderCallback,
+                            ::onExpand,
+                            onItemClicked
+                        )
+                    }
+
+                    if (teamsId.isNotEmpty()) {
+                        panelSeparator()
+
+                        teamsPanel(
+                            teamsUiState,
+                            ::expandedProviderCallback,
+                            ::onExpand,
+                            onItemClicked
+                        )
+                    }
+
+                    if (teamFriendsId.isNotEmpty()) {
+                        panelSeparator()
+
+                        teamFriendsPanel(
+                            teamFriendsUiState,
+                            ::expandedProviderCallback,
+                            ::onExpand,
+                            onItemClicked
+                        )
+                    }
+
+                    if (teamEnemiesId.isNotEmpty()) {
+                        panelSeparator()
+
+                        teamEnemiesPanel(
+                            teamEnemiesUiState,
+                            ::expandedProviderCallback,
+                            ::onExpand,
+                            onItemClicked
+                        )
+                    }
+
+                    if (description.isNotBlank()) {
+                        webViewPanel(
+                            description,
+                            siteDetailUrl,
+                            ::expandedProviderCallback,
+                            ::onExpand,
+                            onItemClicked
+                        )
+                    } else if (volumeCreditsId.isNotEmpty()) {
+                        panelSeparator()
+                    }
+
+                    if (volumeCreditsId.isNotEmpty()) {
+                        volumesPanel(
+                            volumeUiState,
+                            ::expandedProviderCallback,
+                            ::onExpand,
+                            onItemClicked
+                        )
+                    }
+
+                    if(moviesId.isNotEmpty()) {
+                        panelSeparator()
+
+                        moviesPanel(
+                            moviesUiState,
+                            ::expandedProviderCallback,
+                            ::onExpand,
+                            onItemClicked
+                        )
+                    }
+
+                    if(creators.isNotEmpty()) {
+                        panelSeparator()
+
+                        panel {
+                            DetailsFlow(
+                                name = stringResource(CommonString.creators), items = creators
+                            ) { person ->
+                                Text(person.name,
+                                    Modifier
+                                        .clickable { onItemClicked(apiDetailUrl) }
+                                        .padding(horizontal = 16f.dp),
+                                    style = MaterialTheme.typography.titleLarge)
+                            }
+                        }
+                    }
                 }
-
             }
         }
     }

@@ -5,7 +5,9 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxScope
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -66,19 +68,21 @@ fun PlainCard(
     contentDescription: String?,
     onClick: () -> Unit
 ) {
-    PlainCard(
-        modifier,
-        imageUrl = imageUrl,
-        contentDescription = contentDescription,
-        onClick = onClick
-    )
-    Text(
-        name,
-        modifier = Modifier.padding(horizontal = 8f.dp),
-        textAlign = TextAlign.Center,
-        minLines = 2,
-        maxLines = 2
-    )
+    Column(modifier) {
+        PlainCard(
+            Modifier.weight(1f),
+            imageUrl = imageUrl,
+            contentDescription = contentDescription,
+            onClick = onClick
+        )
+        Text(
+            name,
+            modifier = Modifier.fillMaxWidth().padding(horizontal = 8f.dp),
+            textAlign = TextAlign.Center,
+            minLines = 2,
+            maxLines = 2
+        )
+    }
 }
 
 @Preview(
@@ -89,9 +93,14 @@ fun PlainCard(
 private fun Preview() {
 
     ComicSnacTheme {
-        Box(Modifier.background(Color.White).fillMaxSize()) {
+        Box(
+            Modifier
+                .background(Color.White)
+                .fillMaxSize()) {
             PlainCard(
-                Modifier.fillMaxSize(0.6f).align(Alignment.Center),
+                Modifier
+                    .fillMaxSize(0.6f)
+                    .align(Alignment.Center),
                 backgroundColor = Color.Yellow
             ) {
 //                Box(

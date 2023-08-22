@@ -26,6 +26,7 @@ import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.graphics.painter.ColorPainter
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
@@ -93,12 +94,14 @@ fun IssueCarousel(
                     AsyncImage(
                         model = ImageRequest.Builder(LocalContext.current).data(imageUrl)
                             .crossfade(true).build(),
+
                         contentDescription = stringResource(
                             R.string.issue_image_desc,
                             issueNumber,
                             volumeName,
                             name
                         ),
+//                        placeholder = ,
                         contentScale = ContentScale.Crop,
                         modifier = Modifier
                             .padding(1f.dp)

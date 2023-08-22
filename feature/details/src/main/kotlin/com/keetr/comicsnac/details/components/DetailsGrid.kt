@@ -36,7 +36,7 @@ import com.keetr.comicsnac.ui.components.placeholders.LoadingPlaceholder
 internal fun <T> LazyItemScope.DetailsGrid(
     modifier: Modifier = Modifier,
     name: String,
-    uiState: ExtrasUiState<List<T>>,
+    uiState: ExtrasUiState<T>,
     expanded: Boolean,
     onToggleExpand: () -> Unit,
     key: (item: T) -> Any,

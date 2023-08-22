@@ -5,6 +5,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.keetr.comicsnac.data.RepositoryResponse
 import com.keetr.comicsnac.data.character.CharacterRepository
+import com.keetr.comicsnac.details.DetailsUiState
 import com.keetr.comicsnac.details.Error
 import com.keetr.comicsnac.details.ExtrasUiState
 import com.keetr.comicsnac.details.Loading
@@ -27,7 +28,7 @@ internal class CharacterViewModel @Inject constructor(
     val detailsUiState =
         characterRepository.getCharacterDetails(guid).map(::getState).stateInCurrentScope()
 
-    private fun <T> Flow<ExtrasUiState<T>>.stateInCurrentScope() =
+    private fun <T> Flow<DetailsUiState<T>>.stateInCurrentScope() =
         stateIn(viewModelScope, SharingStarted.WhileSubscribed(), Loading)
 }
 

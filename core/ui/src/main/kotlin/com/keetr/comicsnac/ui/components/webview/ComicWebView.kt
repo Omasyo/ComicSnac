@@ -8,6 +8,7 @@ import android.text.style.RelativeSizeSpan
 import android.text.style.StyleSpan
 import android.text.style.URLSpan
 import android.util.Log
+import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.PaddingValues
@@ -23,8 +24,12 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.Typography
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateMapOf
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.AnnotatedString
@@ -45,6 +50,8 @@ import androidx.compose.ui.unit.em
 import androidx.core.text.HtmlCompat
 import androidx.core.text.getSpans
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 import kotlin.math.roundToInt
 
 const val TAG = "SComicWebView"
@@ -60,26 +67,43 @@ fun ComicWebView(
     onLinkClick: (String) -> Unit,
 ) {
 
-    val annotatedString = HtmlCompat.fromHtml(data, HtmlCompat.FROM_HTML_MODE_LEGACY)
-        .toAnnotatedString(
-            baseUrl,
-            MaterialTheme.typography.bodyLarge.copy(MaterialTheme.colorScheme.tertiary),
-            MaterialTheme.typography.titleLarge.copy(MaterialTheme.colorScheme.tertiary),
-            MaterialTheme.typography.headlineSmall.copy(MaterialTheme.colorScheme.tertiary),
-            MaterialTheme.typography.bodyLarge.copy(MaterialTheme.colorScheme.secondary),
-        )
+    val body = MaterialTheme.typography.bodyLarge.copy(MaterialTheme.colorScheme.tertiary)
+    val title = MaterialTheme.typography.titleLarge.copy(MaterialTheme.colorScheme.tertiary)
+    val headline = MaterialTheme.typography.headlineSmall.copy(MaterialTheme.colorScheme.tertiary)
+    val link = MaterialTheme.typography.bodyLarge.copy(MaterialTheme.colorScheme.secondary)
+
+    var annotatedString by remember(body, title, headline, link) {
+        mutableStateOf(AnnotatedString(""))
+    }
+
+    LaunchedEffect(body, title, headline, link) {
+        this.launch(Dispatchers.IO) {
+            annotatedString = HtmlCompat.fromHtml(data, HtmlCompat.FROM_HTML_MODE_LEGACY)
+                .toAnnotatedString(
+                    baseUrl,
+                    body,
+                    title,
+                    headline,
+                    link
+                )
+        }
+    }
 
     with(MaterialTheme) {
-        ClickableText(
-            text = annotatedString,
-            style = typography.bodyLarge.copy(colorScheme.primary),
-            modifier = modifier.verticalScroll(
-                rememberScrollState(),
-                scrollable
-            ).padding(contentPadding)
-        ) { offset ->
-            annotatedString.getUrlAnnotations(offset, offset).firstOrNull()?.let {
-                onLinkClick(it.item.url)
+        Crossfade(targetState = annotatedString) { annotatedString ->
+            ClickableText(
+                text = annotatedString,
+                style = typography.bodyLarge.copy(colorScheme.primary),
+                modifier = modifier
+                    .verticalScroll(
+                        rememberScrollState(),
+                        scrollable
+                    )
+                    .padding(contentPadding)
+            ) { offset ->
+                annotatedString.getUrlAnnotations(offset, offset).firstOrNull()?.let {
+                    onLinkClick(it.item.url)
+                }
             }
         }
     }

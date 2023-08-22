@@ -8,24 +8,12 @@ import com.keetr.comicsnac.model.movie.Movie
 import com.keetr.comicsnac.model.team.Team
 import com.keetr.comicsnac.model.volume.Volume
 
-internal sealed interface ExtrasUiState<out T>
+internal typealias ExtrasUiState<T> = DetailsUiState<List<T>>
 
-internal data object InDevelopment : ExtrasUiState<Nothing>
+internal typealias CharactersUiState = ExtrasUiState<Character>
 
-internal data object Loading : ExtrasUiState<Nothing>
+internal typealias MoviesUiState = ExtrasUiState<Movie>
 
-internal data class Error(val error: RepositoryResponse.Error) : ExtrasUiState<Nothing>
+internal typealias TeamsUiState = ExtrasUiState<Team>
 
-internal typealias CharacterDetailsUiState = ExtrasUiState<CharacterDetails>
-
-@Immutable
-internal data class Success<T>(val content: T) : ExtrasUiState<T>
-
-
-internal typealias CharactersUiState = ExtrasUiState<List<Character>>
-
-internal typealias MoviesUiState = ExtrasUiState<List<Movie>>
-
-internal typealias TeamsUiState = ExtrasUiState<List<Team>>
-
-internal typealias VolumeUiState = ExtrasUiState<List<Volume>>
+internal typealias VolumeUiState = ExtrasUiState<Volume>

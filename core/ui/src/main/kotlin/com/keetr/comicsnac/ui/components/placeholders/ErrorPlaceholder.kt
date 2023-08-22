@@ -2,9 +2,12 @@ package com.keetr.comicsnac.ui.components.placeholders
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.material3.MaterialTheme
@@ -17,6 +20,7 @@ import androidx.compose.ui.unit.dp
 import com.keetr.comicsnac.ui.components.cards.ComicCard
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
 
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun ErrorPlaceholder(
     modifier: Modifier = Modifier,
@@ -37,8 +41,11 @@ fun ErrorPlaceholder(
                 modifier = Modifier.padding(20f.dp, 12f.dp)
             )
         }
-
-        Row(verticalAlignment = Alignment.CenterVertically) {
+        Spacer(Modifier.height(16f.dp))
+        FlowRow(
+            verticalArrangement = Arrangement.Center,
+            horizontalArrangement = Arrangement.Center
+        ) {
             Text(
                 "An Error Occured",
                 color = MaterialTheme.colorScheme.onBackground,
@@ -53,6 +60,7 @@ fun ErrorPlaceholder(
                 ) {
                     Text(
                         "Retry",
+                        maxLines = 1,
                         color = MaterialTheme.colorScheme.error,
                         style = MaterialTheme.typography.titleLarge,
                         modifier = Modifier.padding(12f.dp, 8f.dp)
