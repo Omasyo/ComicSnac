@@ -8,8 +8,10 @@ import com.keetr.comicsnac.network.concept.DefaultConceptNetworkSource
 import com.keetr.comicsnac.network.createClient
 import com.keetr.comicsnac.network.issue.DefaultIssueNetworkSource
 import com.keetr.comicsnac.network.issue.IssueNetworkSource
-import com.keetr.comicsnac.network.teams.DefaultTeamNetworkSource
-import com.keetr.comicsnac.network.teams.TeamNetworkSource
+import com.keetr.comicsnac.network.team.DefaultTeamNetworkSource
+import com.keetr.comicsnac.network.team.TeamNetworkSource
+import com.keetr.comicsnac.network.volume.DefaultVolumeNetworkSource
+import com.keetr.comicsnac.network.volume.VolumeNetworkSource
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -57,4 +59,9 @@ private object NetworkModule {
     @Singleton
     fun provideTeamNetworkSource(client: HttpClient): TeamNetworkSource =
         DefaultTeamNetworkSource(client)
+
+    @Provides
+    @Singleton
+    fun provideVolumeNetworkSource(client: HttpClient): VolumeNetworkSource =
+        DefaultVolumeNetworkSource(client)
 }

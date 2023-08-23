@@ -1,8 +1,8 @@
-package com.keetr.comicsnac.network.teams
+package com.keetr.comicsnac.network.team
 
 import com.keetr.comicsnac.network.NetworkSource
-import com.keetr.comicsnac.network.teams.models.TeamDetailsResponse
-import com.keetr.comicsnac.network.teams.models.TeamListResponse
+import com.keetr.comicsnac.network.team.models.TeamDetailsResponse
+import com.keetr.comicsnac.network.team.models.TeamListResponse
 
 interface TeamNetworkSource: NetworkSource {
     suspend fun getTeamDetails(id: String): Result<TeamDetailsResponse>

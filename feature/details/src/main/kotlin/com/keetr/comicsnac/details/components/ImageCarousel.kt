@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.lazy.LazyItemScope
 import androidx.compose.foundation.lazy.LazyListState
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.PageSize
 import androidx.compose.foundation.pager.rememberPagerState
@@ -18,17 +19,21 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.drawWithContent
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.util.lerp
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
+import com.keetr.comicsnac.ui.theme.ComicSnacTheme
 
 internal data class Image(val url: String, val description: String?)
 
@@ -78,15 +83,9 @@ internal fun LazyItemScope.ImageCarousel(
                             scaleY = scaleX
                         }
                     }
-                    .background(Color.White.copy(0.2f))
                     .then(imageModifier)
                     .clickable { onImageClicked() }
                     .align(Alignment.Center)
-                    .shadow(
-                        elevation = 16f.dp,
-                        ambientColor = MaterialTheme.colorScheme.onSurface,
-                        spotColor = MaterialTheme.colorScheme.onSurface
-                    )
             ) {
                 val overlay = MaterialTheme.colorScheme.surfaceVariant
 
@@ -96,6 +95,11 @@ internal fun LazyItemScope.ImageCarousel(
                     contentDescription = images[index].description, //Add proper string resource
                     contentScale = ContentScale.Crop,
                     modifier = Modifier
+                        .shadow(
+                            elevation = 16f.dp,
+                            ambientColor = MaterialTheme.colorScheme.onSurface,
+                            spotColor = MaterialTheme.colorScheme.onSurface
+                        )
                         .drawWithContent {
                             drawContent()
                             drawRect(

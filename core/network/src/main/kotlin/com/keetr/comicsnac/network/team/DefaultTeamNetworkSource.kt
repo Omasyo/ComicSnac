@@ -1,9 +1,9 @@
-package com.keetr.comicsnac.network.teams
+package com.keetr.comicsnac.network.team
 
 import com.keetr.comicsnac.network.common.Sort
 import com.keetr.comicsnac.network.makeRequest
-import com.keetr.comicsnac.network.teams.models.TeamDetailsResponse
-import com.keetr.comicsnac.network.teams.models.TeamListResponse
+import com.keetr.comicsnac.network.team.models.TeamDetailsResponse
+import com.keetr.comicsnac.network.team.models.TeamListResponse
 import io.ktor.client.HttpClient
 import io.ktor.client.request.get
 import io.ktor.client.request.parameter

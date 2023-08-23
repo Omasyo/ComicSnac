@@ -1,8 +1,8 @@
-package com.keetr.comicsnac.network.teams
+package com.keetr.comicsnac.network.team
 
 import com.keetr.comicsnac.network.NetworkSourceTest
-import com.keetr.comicsnac.network.teams.fake.NewMutantsResponse
-import com.keetr.comicsnac.network.teams.fake.TeamsResponse
+import com.keetr.comicsnac.network.team.fake.NewMutantsResponse
+import com.keetr.comicsnac.network.team.fake.TeamsResponse
 import io.ktor.client.request.HttpRequestData
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert.assertEquals

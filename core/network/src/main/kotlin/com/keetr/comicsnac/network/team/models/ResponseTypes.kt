@@ -1,4 +1,4 @@
-package com.keetr.comicsnac.network.teams.models
+package com.keetr.comicsnac.network.team.models
 
 import com.keetr.comicsnac.network.common.models.ResponseApiModel
 

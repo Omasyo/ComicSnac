@@ -1,0 +1,34 @@
+{
+  "error": "OK",
+  "limit": 1,
+  "offset": 0,
+  "number_of_page_results": 1,
+  "number_of_total_results": 1,
+  "status_code": 1,
+  "results": {
+    "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-153158/",
+    "count_of_issues": 0,
+    "deck": " ",
+    "description": null,
+    "first_issue": null,
+    "id": 153158,
+    "image": {
+      "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11154/111543045/9069502-1645195.jpg",
+      "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11154/111543045/9069502-1645195.jpg",
+      "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11154/111543045/9069502-1645195.jpg",
+      "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11154/111543045/9069502-1645195.jpg",
+      "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11154/111543045/9069502-1645195.jpg",
+      "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11154/111543045/9069502-1645195.jpg",
+      "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11154/111543045/9069502-1645195.jpg",
+      "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11154/111543045/9069502-1645195.jpg",
+      "original_url": "https://comicvine.gamespot.com/a/uploads/original/11154/111543045/9069502-1645195.jpg",
+      "image_tags": "All Images"
+    },
+    "last_issue": null,
+    "name": "Ninja High School / Gold Digger Crossover Collection",
+    "publisher": null,
+    "site_detail_url": "https://comicvine.gamespot.com/ninja-high-school-gold-digger-crossover-collection/4050-153158/",
+    "start_year": null
+  },
+  "version": "1.0"
+}

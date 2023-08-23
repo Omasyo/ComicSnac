@@ -1,0 +1,1911 @@
+{
+  "error": "OK",
+  "limit": 100,
+  "offset": 0,
+  "number_of_page_results": 100,
+  "number_of_total_results": 136937,
+  "status_code": 1,
+  "results": [
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-766/",
+      "deck": null,
+      "id": 766,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/880845-1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/880845-1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/880845-1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/880845-1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/880845-1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/880845-1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/880845-1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/880845-1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/880845-1.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Single Series",
+      "site_detail_url": "https://comicvine.gamespot.com/single-series/4050-766/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-769/",
+      "deck": null,
+      "id": 769,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/1556940-38491.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/1556940-38491.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/1556940-38491.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/1556940-38491.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/1556940-38491.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/1556940-38491.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/1556940-38491.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/1556940-38491.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/1556940-38491.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Jumbo Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/jumbo-comics/4050-769/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-771/",
+      "deck": null,
+      "id": 771,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/59474-771-92469-1-movie-comics.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/59474-771-92469-1-movie-comics.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/59474-771-92469-1-movie-comics.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/59474-771-92469-1-movie-comics.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/59474-771-92469-1-movie-comics.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/59474-771-92469-1-movie-comics.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/59474-771-92469-1-movie-comics.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/59474-771-92469-1-movie-comics.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/59474-771-92469-1-movie-comics.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Movie Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/movie-comics/4050-771/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-773/",
+      "deck": "Volume 1",
+      "id": 773,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/38826/851086-01.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/38826/851086-01.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/38826/851086-01.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/38826/851086-01.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/38826/851086-01.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/38826/851086-01.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/38826/851086-01.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/38826/851086-01.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/38826/851086-01.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Superman",
+      "site_detail_url": "https://comicvine.gamespot.com/superman/4050-773/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-776/",
+      "deck": null,
+      "id": 776,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/13923/778783-magiccomics0001.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/13923/778783-magiccomics0001.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/13923/778783-magiccomics0001.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/13923/778783-magiccomics0001.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/13923/778783-magiccomics0001.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/13923/778783-magiccomics0001.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/13923/778783-magiccomics0001.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/13923/778783-magiccomics0001.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/13923/778783-magiccomics0001.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Magic Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/magic-comics/4050-776/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-777/",
+      "deck": null,
+      "id": 777,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/59543-777-92538-1-four-color.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/59543-777-92538-1-four-color.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/59543-777-92538-1-four-color.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/59543-777-92538-1-four-color.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/59543-777-92538-1-four-color.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/59543-777-92538-1-four-color.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/59543-777-92538-1-four-color.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/59543-777-92538-1-four-color.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/59543-777-92538-1-four-color.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Four Color",
+      "site_detail_url": "https://comicvine.gamespot.com/four-color/4050-777/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-778/",
+      "deck": null,
+      "id": 778,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/59563-778-92558-1-large-feature-comic.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/59563-778-92558-1-large-feature-comic.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/59563-778-92558-1-large-feature-comic.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/59563-778-92558-1-large-feature-comic.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/59563-778-92558-1-large-feature-comic.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/59563-778-92558-1-large-feature-comic.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/59563-778-92558-1-large-feature-comic.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/59563-778-92558-1-large-feature-comic.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/59563-778-92558-1-large-feature-comic.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Large Feature Comic",
+      "site_detail_url": "https://comicvine.gamespot.com/large-feature-comic/4050-778/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-794/",
+      "deck": null,
+      "id": 794,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/1557160-38.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/1557160-38.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/1557160-38.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/1557160-38.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/1557160-38.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/1557160-38.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/1557160-38.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/1557160-38.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/1557160-38.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "New Heroic Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/new-heroic-comics/4050-794/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-796/",
+      "deck": "Volume 1. The one that started it all. Batman focuses on the rise of the famous Batman and his influence on Gotham City as he fights the most devilish of villains and stops the most dastardly plans. It spanned from 1940-2011.",
+      "id": 796,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/10/103530/3421824-2.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/10/103530/3421824-2.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/10/103530/3421824-2.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/10/103530/3421824-2.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/10/103530/3421824-2.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/10/103530/3421824-2.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/10/103530/3421824-2.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/10/103530/3421824-2.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/10/103530/3421824-2.png",
+        "image_tags": "All Images"
+      },
+      "name": "Batman",
+      "site_detail_url": "https://comicvine.gamespot.com/batman/4050-796/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-806/",
+      "deck": null,
+      "id": 806,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/59648-806-92643-1-future-comics.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/59648-806-92643-1-future-comics.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/59648-806-92643-1-future-comics.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/59648-806-92643-1-future-comics.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/59648-806-92643-1-future-comics.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/59648-806-92643-1-future-comics.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/59648-806-92643-1-future-comics.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/59648-806-92643-1-future-comics.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/59648-806-92643-1-future-comics.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Future Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/future-comics/4050-806/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-816/",
+      "deck": null,
+      "id": 816,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11114/111149159/4641116-1441336221-0.jpg.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11114/111149159/4641116-1441336221-0.jpg.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11114/111149159/4641116-1441336221-0.jpg.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11114/111149159/4641116-1441336221-0.jpg.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11114/111149159/4641116-1441336221-0.jpg.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11114/111149159/4641116-1441336221-0.jpg.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11114/111149159/4641116-1441336221-0.jpg.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11114/111149159/4641116-1441336221-0.jpg.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11114/111149159/4641116-1441336221-0.jpg.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Planet Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/planet-comics/4050-816/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-832/",
+      "deck": null,
+      "id": 832,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/229/251258-832-119476-1-human-torch-the.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/229/251258-832-119476-1-human-torch-the.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/229/251258-832-119476-1-human-torch-the.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/229/251258-832-119476-1-human-torch-the.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/229/251258-832-119476-1-human-torch-the.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/229/251258-832-119476-1-human-torch-the.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/229/251258-832-119476-1-human-torch-the.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/229/251258-832-119476-1-human-torch-the.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/229/251258-832-119476-1-human-torch-the.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Human Torch",
+      "site_detail_url": "https://comicvine.gamespot.com/the-human-torch/4050-832/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-836/",
+      "deck": null,
+      "id": 836,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/2/27783/702894-sm_1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/2/27783/702894-sm_1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/2/27783/702894-sm_1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/2/27783/702894-sm_1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/2/27783/702894-sm_1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/2/27783/702894-sm_1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/2/27783/702894-sm_1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/2/27783/702894-sm_1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/2/27783/702894-sm_1.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Super-Mystery Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/super-mystery-comics/4050-836/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-839/",
+      "deck": null,
+      "id": 839,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/229/134580-839-110392-1-master-comics.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/229/134580-839-110392-1-master-comics.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/229/134580-839-110392-1-master-comics.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/229/134580-839-110392-1-master-comics.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/229/134580-839-110392-1-master-comics.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/229/134580-839-110392-1-master-comics.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/229/134580-839-110392-1-master-comics.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/229/134580-839-110392-1-master-comics.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/229/134580-839-110392-1-master-comics.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Master Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/master-comics/4050-839/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-843/",
+      "deck": null,
+      "id": 843,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/1618220-2.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/1618220-2.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/1618220-2.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/1618220-2.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/1618220-2.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/1618220-2.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/1618220-2.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/1618220-2.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/1618220-2.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Whiz Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/whiz-comics/4050-843/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-874/",
+      "deck": null,
+      "id": 874,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/2/27783/789831-spark_1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/2/27783/789831-spark_1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/2/27783/789831-spark_1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/2/27783/789831-spark_1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/2/27783/789831-spark_1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/2/27783/789831-spark_1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/2/27783/789831-spark_1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/2/27783/789831-spark_1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/2/27783/789831-spark_1.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Sparkler Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/sparkler-comics/4050-874/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-879/",
+      "deck": null,
+      "id": 879,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/1618451-1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/1618451-1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/1618451-1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/1618451-1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/1618451-1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/1618451-1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/1618451-1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/1618451-1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/1618451-1.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Rangers of Freedom Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/rangers-of-freedom-comics/4050-879/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-886/",
+      "deck": null,
+      "id": 886,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15776/8409132-daredevilcomics1a.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/8409132-daredevilcomics1a.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15776/8409132-daredevilcomics1a.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15776/8409132-daredevilcomics1a.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15776/8409132-daredevilcomics1a.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/8409132-daredevilcomics1a.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/8409132-daredevilcomics1a.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15776/8409132-daredevilcomics1a.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15776/8409132-daredevilcomics1a.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Daredevil Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/daredevil-comics/4050-886/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-893/",
+      "deck": null,
+      "id": 893,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/816386-1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/816386-1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/816386-1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/816386-1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/816386-1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/816386-1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/816386-1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/816386-1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/816386-1.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Four Favorites",
+      "site_detail_url": "https://comicvine.gamespot.com/four-favorites/4050-893/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-898/",
+      "deck": null,
+      "id": 898,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/3125/317843-898-124120-1-captain-marvel-adven.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3125/317843-898-124120-1-captain-marvel-adven.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/3125/317843-898-124120-1-captain-marvel-adven.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/3125/317843-898-124120-1-captain-marvel-adven.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/3125/317843-898-124120-1-captain-marvel-adven.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/3125/317843-898-124120-1-captain-marvel-adven.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/3125/317843-898-124120-1-captain-marvel-adven.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/3125/317843-898-124120-1-captain-marvel-adven.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/3125/317843-898-124120-1-captain-marvel-adven.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Captain Marvel Adventures",
+      "site_detail_url": "https://comicvine.gamespot.com/captain-marvel-adventures/4050-898/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-908/",
+      "deck": null,
+      "id": 908,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/1796102-1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/1796102-1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/1796102-1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/1796102-1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/1796102-1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/1796102-1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/1796102-1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/1796102-1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/1796102-1.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Freelance Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/freelance-comics/4050-908/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-914/",
+      "deck": null,
+      "id": 914,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/77/321316-914-124408-1-classics-illustrated.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/321316-914-124408-1-classics-illustrated.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/77/321316-914-124408-1-classics-illustrated.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/77/321316-914-124408-1-classics-illustrated.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/77/321316-914-124408-1-classics-illustrated.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/77/321316-914-124408-1-classics-illustrated.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/77/321316-914-124408-1-classics-illustrated.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/77/321316-914-124408-1-classics-illustrated.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/77/321316-914-124408-1-classics-illustrated.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Classics Illustrated",
+      "site_detail_url": "https://comicvine.gamespot.com/classics-illustrated/4050-914/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-921/",
+      "deck": null,
+      "id": 921,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/45206-921-52350-1-boy-commandos.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/45206-921-52350-1-boy-commandos.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/45206-921-52350-1-boy-commandos.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/45206-921-52350-1-boy-commandos.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/45206-921-52350-1-boy-commandos.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/45206-921-52350-1-boy-commandos.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/45206-921-52350-1-boy-commandos.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/45206-921-52350-1-boy-commandos.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/45206-921-52350-1-boy-commandos.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Boy Commandos",
+      "site_detail_url": "https://comicvine.gamespot.com/boy-commandos/4050-921/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-923/",
+      "deck": null,
+      "id": 923,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/1955652-1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/1955652-1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/1955652-1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/1955652-1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/1955652-1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/1955652-1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/1955652-1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/1955652-1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/1955652-1.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Picture Stories from the Bible (Old Testament)",
+      "site_detail_url": "https://comicvine.gamespot.com/picture-stories-from-the-bible-old-testament/4050-923/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-927/",
+      "deck": null,
+      "id": 927,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/119838/2827033-fourcolor1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/119838/2827033-fourcolor1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/119838/2827033-fourcolor1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/119838/2827033-fourcolor1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/119838/2827033-fourcolor1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/119838/2827033-fourcolor1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/119838/2827033-fourcolor1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/119838/2827033-fourcolor1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/119838/2827033-fourcolor1.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Four Color",
+      "site_detail_url": "https://comicvine.gamespot.com/four-color/4050-927/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-942/",
+      "deck": null,
+      "id": 942,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/2/27783/937979-boy_1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/2/27783/937979-boy_1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/2/27783/937979-boy_1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/2/27783/937979-boy_1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/2/27783/937979-boy_1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/2/27783/937979-boy_1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/2/27783/937979-boy_1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/2/27783/937979-boy_1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/2/27783/937979-boy_1.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Boy Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/boy-comics/4050-942/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-943/",
+      "deck": null,
+      "id": 943,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/1011229-22.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/1011229-22.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/1011229-22.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/1011229-22.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/1011229-22.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/1011229-22.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/1011229-22.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/1011229-22.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/1011229-22.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Crime Does Not Pay",
+      "site_detail_url": "https://comicvine.gamespot.com/crime-does-not-pay/4050-943/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-944/",
+      "deck": null,
+      "id": 944,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/229/546927-1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/229/546927-1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/229/546927-1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/229/546927-1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/229/546927-1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/229/546927-1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/229/546927-1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/229/546927-1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/229/546927-1.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Comedy Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/comedy-comics/4050-944/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-946/",
+      "deck": null,
+      "id": 946,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/61880-946-94875-1-krazy-komics.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/61880-946-94875-1-krazy-komics.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/61880-946-94875-1-krazy-komics.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/61880-946-94875-1-krazy-komics.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/61880-946-94875-1-krazy-komics.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/61880-946-94875-1-krazy-komics.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/61880-946-94875-1-krazy-komics.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/61880-946-94875-1-krazy-komics.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/61880-946-94875-1-krazy-komics.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Krazy Komics",
+      "site_detail_url": "https://comicvine.gamespot.com/krazy-komics/4050-946/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-948/",
+      "deck": null,
+      "id": 948,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/2/27783/836240-terrytoon_1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/2/27783/836240-terrytoon_1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/2/27783/836240-terrytoon_1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/2/27783/836240-terrytoon_1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/2/27783/836240-terrytoon_1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/2/27783/836240-terrytoon_1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/2/27783/836240-terrytoon_1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/2/27783/836240-terrytoon_1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/2/27783/836240-terrytoon_1.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Terry-Toons Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/terry-toons-comics/4050-948/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-953/",
+      "deck": null,
+      "id": 953,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/5/58127/1768831-captain_marvel_jr._vol_1_1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/58127/1768831-captain_marvel_jr._vol_1_1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/5/58127/1768831-captain_marvel_jr._vol_1_1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/5/58127/1768831-captain_marvel_jr._vol_1_1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/5/58127/1768831-captain_marvel_jr._vol_1_1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/5/58127/1768831-captain_marvel_jr._vol_1_1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/5/58127/1768831-captain_marvel_jr._vol_1_1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/5/58127/1768831-captain_marvel_jr._vol_1_1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/5/58127/1768831-captain_marvel_jr._vol_1_1.jpg",
+        "image_tags": "All Images,Comic book covers"
+      },
+      "name": "Captain Marvel, Jr.",
+      "site_detail_url": "https://comicvine.gamespot.com/captain-marvel-jr/4050-953/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-972/",
+      "deck": null,
+      "id": 972,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/47575-972-56959-1-all-surprise.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/47575-972-56959-1-all-surprise.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/47575-972-56959-1-all-surprise.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/47575-972-56959-1-all-surprise.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/47575-972-56959-1-all-surprise.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/47575-972-56959-1-all-surprise.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/47575-972-56959-1-all-surprise.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/47575-972-56959-1-all-surprise.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/47575-972-56959-1-all-surprise.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "All Surprise Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/all-surprise-comics/4050-972/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-978/",
+      "deck": null,
+      "id": 978,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/59223-978-92218-1-don-winslow-of-the-n.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/59223-978-92218-1-don-winslow-of-the-n.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/59223-978-92218-1-don-winslow-of-the-n.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/59223-978-92218-1-don-winslow-of-the-n.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/59223-978-92218-1-don-winslow-of-the-n.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/59223-978-92218-1-don-winslow-of-the-n.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/59223-978-92218-1-don-winslow-of-the-n.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/59223-978-92218-1-don-winslow-of-the-n.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/59223-978-92218-1-don-winslow-of-the-n.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Don Winslow of the Navy",
+      "site_detail_url": "https://comicvine.gamespot.com/don-winslow-of-the-navy/4050-978/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-988/",
+      "deck": null,
+      "id": 988,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/61369-988-94364-1-picture-stories-from.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/61369-988-94364-1-picture-stories-from.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/61369-988-94364-1-picture-stories-from.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/61369-988-94364-1-picture-stories-from.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/61369-988-94364-1-picture-stories-from.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/61369-988-94364-1-picture-stories-from.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/61369-988-94364-1-picture-stories-from.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/61369-988-94364-1-picture-stories-from.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/61369-988-94364-1-picture-stories-from.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Picture Stories from the Bible (New Testament)",
+      "site_detail_url": "https://comicvine.gamespot.com/picture-stories-from-the-bible-new-testament/4050-988/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1003/",
+      "deck": null,
+      "id": 1003,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/5/54649/1063482-comic_capers_1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/54649/1063482-comic_capers_1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/5/54649/1063482-comic_capers_1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/5/54649/1063482-comic_capers_1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/5/54649/1063482-comic_capers_1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/5/54649/1063482-comic_capers_1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/5/54649/1063482-comic_capers_1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/5/54649/1063482-comic_capers_1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/5/54649/1063482-comic_capers_1.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Comic Capers",
+      "site_detail_url": "https://comicvine.gamespot.com/comic-capers/4050-1003/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1006/",
+      "deck": null,
+      "id": 1006,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/57751-1006-90746-1-funny-tunes.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/57751-1006-90746-1-funny-tunes.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/57751-1006-90746-1-funny-tunes.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/57751-1006-90746-1-funny-tunes.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/57751-1006-90746-1-funny-tunes.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/57751-1006-90746-1-funny-tunes.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/57751-1006-90746-1-funny-tunes.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/57751-1006-90746-1-funny-tunes.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/57751-1006-90746-1-funny-tunes.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Funny Tunes",
+      "site_detail_url": "https://comicvine.gamespot.com/funny-tunes/4050-1006/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1007/",
+      "deck": null,
+      "id": 1007,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/57862-1007-90857-1-ideal-comics.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/57862-1007-90857-1-ideal-comics.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/57862-1007-90857-1-ideal-comics.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/57862-1007-90857-1-ideal-comics.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/57862-1007-90857-1-ideal-comics.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/57862-1007-90857-1-ideal-comics.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/57862-1007-90857-1-ideal-comics.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/57862-1007-90857-1-ideal-comics.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/57862-1007-90857-1-ideal-comics.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Ideal Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/ideal-comics/4050-1007/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1012/",
+      "deck": null,
+      "id": 1012,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/927188-1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/927188-1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/927188-1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/927188-1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/927188-1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/927188-1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/927188-1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/927188-1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/927188-1.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Tessie the Typist",
+      "site_detail_url": "https://comicvine.gamespot.com/tessie-the-typist/4050-1012/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1013/",
+      "deck": null,
+      "id": 1013,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/48383-1013-57855-1-ziggy-pig-and-silly-.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/48383-1013-57855-1-ziggy-pig-and-silly-.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/48383-1013-57855-1-ziggy-pig-and-silly-.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/48383-1013-57855-1-ziggy-pig-and-silly-.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/48383-1013-57855-1-ziggy-pig-and-silly-.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/48383-1013-57855-1-ziggy-pig-and-silly-.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/48383-1013-57855-1-ziggy-pig-and-silly-.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/48383-1013-57855-1-ziggy-pig-and-silly-.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/48383-1013-57855-1-ziggy-pig-and-silly-.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Ziggy Pig-Silly Seal Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/ziggy-pig-silly-seal-comics/4050-1013/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1032/",
+      "deck": null,
+      "id": 1032,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/66021-1032-99018-1-a-1-comics.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/66021-1032-99018-1-a-1-comics.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/66021-1032-99018-1-a-1-comics.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/66021-1032-99018-1-a-1-comics.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/66021-1032-99018-1-a-1-comics.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/66021-1032-99018-1-a-1-comics.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/66021-1032-99018-1-a-1-comics.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/66021-1032-99018-1-a-1-comics.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/66021-1032-99018-1-a-1-comics.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "A-1 Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/a-1-comics/4050-1032/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1038/",
+      "deck": null,
+      "id": 1038,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/59196-1038-92191-1-gay-comics.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/59196-1038-92191-1-gay-comics.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/59196-1038-92191-1-gay-comics.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/59196-1038-92191-1-gay-comics.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/59196-1038-92191-1-gay-comics.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/59196-1038-92191-1-gay-comics.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/59196-1038-92191-1-gay-comics.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/59196-1038-92191-1-gay-comics.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/59196-1038-92191-1-gay-comics.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Gay Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/gay-comics/4050-1038/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1041/",
+      "deck": null,
+      "id": 1041,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/61365-1041-94360-1-picture-stories-from.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/61365-1041-94360-1-picture-stories-from.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/61365-1041-94360-1-picture-stories-from.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/61365-1041-94360-1-picture-stories-from.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/61365-1041-94360-1-picture-stories-from.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/61365-1041-94360-1-picture-stories-from.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/61365-1041-94360-1-picture-stories-from.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/61365-1041-94360-1-picture-stories-from.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/61365-1041-94360-1-picture-stories-from.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Picture Stories from American History",
+      "site_detail_url": "https://comicvine.gamespot.com/picture-stories-from-american-history/4050-1041/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1043/",
+      "deck": null,
+      "id": 1043,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/47251-1043-56618-1-real-screen-comics.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/47251-1043-56618-1-real-screen-comics.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/47251-1043-56618-1-real-screen-comics.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/47251-1043-56618-1-real-screen-comics.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/47251-1043-56618-1-real-screen-comics.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/47251-1043-56618-1-real-screen-comics.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/47251-1043-56618-1-real-screen-comics.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/47251-1043-56618-1-real-screen-comics.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/47251-1043-56618-1-real-screen-comics.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Real Screen Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/real-screen-comics/4050-1043/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1056/",
+      "deck": null,
+      "id": 1056,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/59190-1056-92185-1-funny-frolics.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/59190-1056-92185-1-funny-frolics.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/59190-1056-92185-1-funny-frolics.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/59190-1056-92185-1-funny-frolics.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/59190-1056-92185-1-funny-frolics.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/59190-1056-92185-1-funny-frolics.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/59190-1056-92185-1-funny-frolics.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/59190-1056-92185-1-funny-frolics.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/59190-1056-92185-1-funny-frolics.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Funny Frolics",
+      "site_detail_url": "https://comicvine.gamespot.com/funny-frolics/4050-1056/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1057/",
+      "deck": null,
+      "id": 1057,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/57760-1057-90755-1-georgie-comics.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/57760-1057-90755-1-georgie-comics.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/57760-1057-90755-1-georgie-comics.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/57760-1057-90755-1-georgie-comics.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/57760-1057-90755-1-georgie-comics.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/57760-1057-90755-1-georgie-comics.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/57760-1057-90755-1-georgie-comics.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/57760-1057-90755-1-georgie-comics.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/57760-1057-90755-1-georgie-comics.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Georgie Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/georgie-comics/4050-1057/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1059/",
+      "deck": null,
+      "id": 1059,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/61900-1059-94895-1-krazy-krow.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/61900-1059-94895-1-krazy-krow.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/61900-1059-94895-1-krazy-krow.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/61900-1059-94895-1-krazy-krow.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/61900-1059-94895-1-krazy-krow.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/61900-1059-94895-1-krazy-krow.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/61900-1059-94895-1-krazy-krow.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/61900-1059-94895-1-krazy-krow.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/61900-1059-94895-1-krazy-krow.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Krazy Krow",
+      "site_detail_url": "https://comicvine.gamespot.com/krazy-krow/4050-1059/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1061/",
+      "deck": null,
+      "id": 1061,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/57550-1061-90545-1-nellie-the-nurse.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/57550-1061-90545-1-nellie-the-nurse.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/57550-1061-90545-1-nellie-the-nurse.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/57550-1061-90545-1-nellie-the-nurse.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/57550-1061-90545-1-nellie-the-nurse.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/57550-1061-90545-1-nellie-the-nurse.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/57550-1061-90545-1-nellie-the-nurse.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/57550-1061-90545-1-nellie-the-nurse.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/57550-1061-90545-1-nellie-the-nurse.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Nellie the Nurse",
+      "site_detail_url": "https://comicvine.gamespot.com/nellie-the-nurse/4050-1061/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1062/",
+      "deck": null,
+      "id": 1062,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/1995068-1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/1995068-1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/1995068-1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/1995068-1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/1995068-1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/1995068-1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/1995068-1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/1995068-1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/1995068-1.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Patsy Walker",
+      "site_detail_url": "https://comicvine.gamespot.com/patsy-walker/4050-1062/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1063/",
+      "deck": null,
+      "id": 1063,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/58243-1063-91238-1-silly-tunes.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/58243-1063-91238-1-silly-tunes.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/58243-1063-91238-1-silly-tunes.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/58243-1063-91238-1-silly-tunes.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/58243-1063-91238-1-silly-tunes.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/58243-1063-91238-1-silly-tunes.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/58243-1063-91238-1-silly-tunes.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/58243-1063-91238-1-silly-tunes.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/58243-1063-91238-1-silly-tunes.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Silly Tunes",
+      "site_detail_url": "https://comicvine.gamespot.com/silly-tunes/4050-1063/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1066/",
+      "deck": null,
+      "id": 1066,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/251573-1066-119538-1-marvel-family-the.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/251573-1066-119538-1-marvel-family-the.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/251573-1066-119538-1-marvel-family-the.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/251573-1066-119538-1-marvel-family-the.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/251573-1066-119538-1-marvel-family-the.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/251573-1066-119538-1-marvel-family-the.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/251573-1066-119538-1-marvel-family-the.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/251573-1066-119538-1-marvel-family-the.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/251573-1066-119538-1-marvel-family-the.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Marvel Family",
+      "site_detail_url": "https://comicvine.gamespot.com/the-marvel-family/4050-1066/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1068/",
+      "deck": null,
+      "id": 1068,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/77/509146-425_4_002.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/509146-425_4_002.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/77/509146-425_4_002.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/77/509146-425_4_002.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/77/509146-425_4_002.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/77/509146-425_4_002.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/77/509146-425_4_002.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/77/509146-425_4_002.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/77/509146-425_4_002.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Nyoka the Jungle Girl",
+      "site_detail_url": "https://comicvine.gamespot.com/nyoka-the-jungle-girl/4050-1068/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1069/",
+      "deck": null,
+      "id": 1069,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/2/27783/938023-airboy_11.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/2/27783/938023-airboy_11.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/2/27783/938023-airboy_11.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/2/27783/938023-airboy_11.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/2/27783/938023-airboy_11.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/2/27783/938023-airboy_11.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/2/27783/938023-airboy_11.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/2/27783/938023-airboy_11.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/2/27783/938023-airboy_11.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Airboy Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/airboy-comics/4050-1069/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1071/",
+      "deck": null,
+      "id": 1071,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/61739-1071-94734-1-treasure-comics.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/61739-1071-94734-1-treasure-comics.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/61739-1071-94734-1-treasure-comics.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/61739-1071-94734-1-treasure-comics.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/61739-1071-94734-1-treasure-comics.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/61739-1071-94734-1-treasure-comics.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/61739-1071-94734-1-treasure-comics.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/61739-1071-94734-1-treasure-comics.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/61739-1071-94734-1-treasure-comics.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Treasure Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/treasure-comics/4050-1071/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1097/",
+      "deck": "DC Comics' 1940s anthology series offering real facts about real people.",
+      "id": 1097,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/64932-1097-97929-1-real-fact-comics.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/64932-1097-97929-1-real-fact-comics.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/64932-1097-97929-1-real-fact-comics.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/64932-1097-97929-1-real-fact-comics.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/64932-1097-97929-1-real-fact-comics.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/64932-1097-97929-1-real-fact-comics.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/64932-1097-97929-1-real-fact-comics.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/64932-1097-97929-1-real-fact-comics.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/64932-1097-97929-1-real-fact-comics.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Real Fact Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/real-fact-comics/4050-1097/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1098/",
+      "deck": null,
+      "id": 1098,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/3125/903874-wlnf109.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3125/903874-wlnf109.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/3125/903874-wlnf109.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/3125/903874-wlnf109.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/3125/903874-wlnf109.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/3125/903874-wlnf109.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/3125/903874-wlnf109.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/3125/903874-wlnf109.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/3125/903874-wlnf109.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Walter Lantz New Funnies",
+      "site_detail_url": "https://comicvine.gamespot.com/walter-lantz-new-funnies/4050-1098/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1101/",
+      "deck": null,
+      "id": 1101,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/1965127-100.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/1965127-100.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/1965127-100.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/1965127-100.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/1965127-100.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/1965127-100.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/1965127-100.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/1965127-100.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/1965127-100.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Laugh",
+      "site_detail_url": "https://comicvine.gamespot.com/laugh/4050-1101/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1111/",
+      "deck": null,
+      "id": 1111,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/5/54649/1133040-851_o_1_.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/54649/1133040-851_o_1_.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/5/54649/1133040-851_o_1_.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/5/54649/1133040-851_o_1_.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/5/54649/1133040-851_o_1_.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/5/54649/1133040-851_o_1_.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/5/54649/1133040-851_o_1_.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/5/54649/1133040-851_o_1_.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/5/54649/1133040-851_o_1_.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Frankie Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/frankie-comics/4050-1111/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1113/",
+      "deck": null,
+      "id": 1113,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/62136-1113-95131-1-margie-comics.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/62136-1113-95131-1-margie-comics.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/62136-1113-95131-1-margie-comics.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/62136-1113-95131-1-margie-comics.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/62136-1113-95131-1-margie-comics.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/62136-1113-95131-1-margie-comics.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/62136-1113-95131-1-margie-comics.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/62136-1113-95131-1-margie-comics.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/62136-1113-95131-1-margie-comics.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Margie Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/margie-comics/4050-1113/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1114/",
+      "deck": null,
+      "id": 1114,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/62205-1114-95200-1-mighty-mouse.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/62205-1114-95200-1-mighty-mouse.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/62205-1114-95200-1-mighty-mouse.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/62205-1114-95200-1-mighty-mouse.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/62205-1114-95200-1-mighty-mouse.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/62205-1114-95200-1-mighty-mouse.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/62205-1114-95200-1-mighty-mouse.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/62205-1114-95200-1-mighty-mouse.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/62205-1114-95200-1-mighty-mouse.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Paul Terry's Mighty Mouse Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/paul-terry-s-mighty-mouse-comics/4050-1114/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1116/",
+      "deck": null,
+      "id": 1116,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/48206-1116-57668-1-wacky-duck.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/48206-1116-57668-1-wacky-duck.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/48206-1116-57668-1-wacky-duck.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/48206-1116-57668-1-wacky-duck.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/48206-1116-57668-1-wacky-duck.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/48206-1116-57668-1-wacky-duck.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/48206-1116-57668-1-wacky-duck.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/48206-1116-57668-1-wacky-duck.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/48206-1116-57668-1-wacky-duck.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Wacky Duck",
+      "site_detail_url": "https://comicvine.gamespot.com/wacky-duck/4050-1116/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1117/",
+      "deck": null,
+      "id": 1117,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/5/54649/1173145-4675_o_1_.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/54649/1173145-4675_o_1_.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/5/54649/1173145-4675_o_1_.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/5/54649/1173145-4675_o_1_.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/5/54649/1173145-4675_o_1_.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/5/54649/1173145-4675_o_1_.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/5/54649/1173145-4675_o_1_.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/5/54649/1173145-4675_o_1_.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/5/54649/1173145-4675_o_1_.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Willie Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/willie-comics/4050-1117/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1119/",
+      "deck": null,
+      "id": 1119,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/974304-1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/974304-1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/974304-1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/974304-1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/974304-1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/974304-1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/974304-1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/974304-1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/974304-1.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Blackstone, Master Magician Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/blackstone-master-magician-comics/4050-1119/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1133/",
+      "deck": null,
+      "id": 1133,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/45860-1133-53209-1-date-with-judy-a.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/45860-1133-53209-1-date-with-judy-a.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/45860-1133-53209-1-date-with-judy-a.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/45860-1133-53209-1-date-with-judy-a.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/45860-1133-53209-1-date-with-judy-a.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/45860-1133-53209-1-date-with-judy-a.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/45860-1133-53209-1-date-with-judy-a.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/45860-1133-53209-1-date-with-judy-a.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/45860-1133-53209-1-date-with-judy-a.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "A Date with Judy",
+      "site_detail_url": "https://comicvine.gamespot.com/a-date-with-judy/4050-1133/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1134/",
+      "deck": null,
+      "id": 1134,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/2/27783/797909-gangbusters_a.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/2/27783/797909-gangbusters_a.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/2/27783/797909-gangbusters_a.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/2/27783/797909-gangbusters_a.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/2/27783/797909-gangbusters_a.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/2/27783/797909-gangbusters_a.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/2/27783/797909-gangbusters_a.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/2/27783/797909-gangbusters_a.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/2/27783/797909-gangbusters_a.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Gang Busters",
+      "site_detail_url": "https://comicvine.gamespot.com/gang-busters/4050-1134/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1139/",
+      "deck": null,
+      "id": 1139,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/63959-1139-96955-1-terry-and-the-pirate.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/63959-1139-96955-1-terry-and-the-pirate.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/63959-1139-96955-1-terry-and-the-pirate.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/63959-1139-96955-1-terry-and-the-pirate.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/63959-1139-96955-1-terry-and-the-pirate.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/63959-1139-96955-1-terry-and-the-pirate.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/63959-1139-96955-1-terry-and-the-pirate.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/63959-1139-96955-1-terry-and-the-pirate.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/63959-1139-96955-1-terry-and-the-pirate.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Terry and the Pirates Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/terry-and-the-pirates-comics/4050-1139/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1141/",
+      "deck": null,
+      "id": 1141,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/57608-1141-90603-1-cindy-comics.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/57608-1141-90603-1-cindy-comics.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/57608-1141-90603-1-cindy-comics.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/57608-1141-90603-1-cindy-comics.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/57608-1141-90603-1-cindy-comics.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/57608-1141-90603-1-cindy-comics.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/57608-1141-90603-1-cindy-comics.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/57608-1141-90603-1-cindy-comics.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/57608-1141-90603-1-cindy-comics.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Cindy Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/cindy-comics/4050-1141/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1142/",
+      "deck": null,
+      "id": 1142,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15776/8705141-hedy22a.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/8705141-hedy22a.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15776/8705141-hedy22a.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15776/8705141-hedy22a.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15776/8705141-hedy22a.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/8705141-hedy22a.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/8705141-hedy22a.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15776/8705141-hedy22a.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15776/8705141-hedy22a.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Hedy De Vine Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/hedy-de-vine-comics/4050-1142/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1143/",
+      "deck": null,
+      "id": 1143,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/60081-1143-93076-1-jeanie-comics.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/60081-1143-93076-1-jeanie-comics.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/60081-1143-93076-1-jeanie-comics.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/60081-1143-93076-1-jeanie-comics.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/60081-1143-93076-1-jeanie-comics.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/60081-1143-93076-1-jeanie-comics.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/60081-1143-93076-1-jeanie-comics.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/60081-1143-93076-1-jeanie-comics.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/60081-1143-93076-1-jeanie-comics.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Jeanie Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/jeanie-comics/4050-1143/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1144/",
+      "deck": "Justice: Every Case Taken From Real Life!!",
+      "id": 1144,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/57928-1144-90923-1-justice.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/57928-1144-90923-1-justice.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/57928-1144-90923-1-justice.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/57928-1144-90923-1-justice.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/57928-1144-90923-1-justice.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/57928-1144-90923-1-justice.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/57928-1144-90923-1-justice.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/57928-1144-90923-1-justice.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/57928-1144-90923-1-justice.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Justice",
+      "site_detail_url": "https://comicvine.gamespot.com/justice/4050-1144/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1146/",
+      "deck": null,
+      "id": 1146,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/62466-1146-95461-1-oscar-comics.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/62466-1146-95461-1-oscar-comics.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/62466-1146-95461-1-oscar-comics.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/62466-1146-95461-1-oscar-comics.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/62466-1146-95461-1-oscar-comics.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/62466-1146-95461-1-oscar-comics.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/62466-1146-95461-1-oscar-comics.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/62466-1146-95461-1-oscar-comics.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/62466-1146-95461-1-oscar-comics.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Oscar Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/oscar-comics/4050-1146/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1147/",
+      "deck": null,
+      "id": 1147,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/110017/8744440-rusty_comics_012_001.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/110017/8744440-rusty_comics_012_001.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/110017/8744440-rusty_comics_012_001.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/110017/8744440-rusty_comics_012_001.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/110017/8744440-rusty_comics_012_001.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/110017/8744440-rusty_comics_012_001.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/110017/8744440-rusty_comics_012_001.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/110017/8744440-rusty_comics_012_001.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/110017/8744440-rusty_comics_012_001.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Rusty Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/rusty-comics/4050-1147/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1148/",
+      "deck": null,
+      "id": 1148,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/5/54649/1062859-teen_comics_21.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/54649/1062859-teen_comics_21.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/5/54649/1062859-teen_comics_21.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/5/54649/1062859-teen_comics_21.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/5/54649/1062859-teen_comics_21.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/5/54649/1062859-teen_comics_21.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/5/54649/1062859-teen_comics_21.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/5/54649/1062859-teen_comics_21.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/5/54649/1062859-teen_comics_21.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Teen Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/teen-comics/4050-1148/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1151/",
+      "deck": null,
+      "id": 1151,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/60823-1151-93818-1-justice-traps-the-gu.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/60823-1151-93818-1-justice-traps-the-gu.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/60823-1151-93818-1-justice-traps-the-gu.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/60823-1151-93818-1-justice-traps-the-gu.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/60823-1151-93818-1-justice-traps-the-gu.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/60823-1151-93818-1-justice-traps-the-gu.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/60823-1151-93818-1-justice-traps-the-gu.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/60823-1151-93818-1-justice-traps-the-gu.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/60823-1151-93818-1-justice-traps-the-gu.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Justice Traps the Guilty",
+      "site_detail_url": "https://comicvine.gamespot.com/justice-traps-the-guilty/4050-1151/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1153/",
+      "deck": null,
+      "id": 1153,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/72259-1153-105257-1-manhunt.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/72259-1153-105257-1-manhunt.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/72259-1153-105257-1-manhunt.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/72259-1153-105257-1-manhunt.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/72259-1153-105257-1-manhunt.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/72259-1153-105257-1-manhunt.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/72259-1153-105257-1-manhunt.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/72259-1153-105257-1-manhunt.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/72259-1153-105257-1-manhunt.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Manhunt",
+      "site_detail_url": "https://comicvine.gamespot.com/manhunt/4050-1153/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1168/",
+      "deck": null,
+      "id": 1168,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/47008-1168-56353-1-leave-it-to-binky.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/47008-1168-56353-1-leave-it-to-binky.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/47008-1168-56353-1-leave-it-to-binky.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/47008-1168-56353-1-leave-it-to-binky.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/47008-1168-56353-1-leave-it-to-binky.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/47008-1168-56353-1-leave-it-to-binky.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/47008-1168-56353-1-leave-it-to-binky.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/47008-1168-56353-1-leave-it-to-binky.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/47008-1168-56353-1-leave-it-to-binky.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Leave it to Binky",
+      "site_detail_url": "https://comicvine.gamespot.com/leave-it-to-binky/4050-1168/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1169/",
+      "deck": null,
+      "id": 1169,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/1011212-1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/1011212-1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/1011212-1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/1011212-1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/1011212-1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/1011212-1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/1011212-1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/1011212-1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/1011212-1.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Mr. District Attorney",
+      "site_detail_url": "https://comicvine.gamespot.com/mr-district-attorney/4050-1169/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1171/",
+      "deck": null,
+      "id": 1171,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/2/27783/1261850-westerndc_1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/2/27783/1261850-westerndc_1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/2/27783/1261850-westerndc_1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/2/27783/1261850-westerndc_1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/2/27783/1261850-westerndc_1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/2/27783/1261850-westerndc_1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/2/27783/1261850-westerndc_1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/2/27783/1261850-westerndc_1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/2/27783/1261850-westerndc_1.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Western Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/western-comics/4050-1171/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1172/",
+      "deck": null,
+      "id": 1172,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/229/223200-1172-116602-1-lone-ranger-the.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/229/223200-1172-116602-1-lone-ranger-the.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/229/223200-1172-116602-1-lone-ranger-the.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/229/223200-1172-116602-1-lone-ranger-the.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/229/223200-1172-116602-1-lone-ranger-the.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/229/223200-1172-116602-1-lone-ranger-the.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/229/223200-1172-116602-1-lone-ranger-the.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/229/223200-1172-116602-1-lone-ranger-the.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/229/223200-1172-116602-1-lone-ranger-the.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Lone Ranger",
+      "site_detail_url": "https://comicvine.gamespot.com/the-lone-ranger/4050-1172/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1174/",
+      "deck": null,
+      "id": 1174,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/3125/542739-popeye001.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3125/542739-popeye001.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/3125/542739-popeye001.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/3125/542739-popeye001.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/3125/542739-popeye001.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/3125/542739-popeye001.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/3125/542739-popeye001.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/3125/542739-popeye001.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/3125/542739-popeye001.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Popeye",
+      "site_detail_url": "https://comicvine.gamespot.com/popeye/4050-1174/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1176/",
+      "deck": null,
+      "id": 1176,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/3125/980239-tar10.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3125/980239-tar10.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/3125/980239-tar10.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/3125/980239-tar10.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/3125/980239-tar10.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/3125/980239-tar10.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/3125/980239-tar10.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/3125/980239-tar10.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/3125/980239-tar10.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Edgar Rice Burroughs' Tarzan",
+      "site_detail_url": "https://comicvine.gamespot.com/edgar-rice-burroughs-tarzan/4050-1176/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1183/",
+      "deck": null,
+      "id": 1183,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/3125/2119444-hump1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3125/2119444-hump1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/3125/2119444-hump1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/3125/2119444-hump1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/3125/2119444-hump1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/3125/2119444-hump1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/3125/2119444-hump1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/3125/2119444-hump1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/3125/2119444-hump1.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Humphrey Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/humphrey-comics/4050-1183/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1184/",
+      "deck": null,
+      "id": 1184,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/61145-1184-94140-1-kerry-drake-detectiv.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/61145-1184-94140-1-kerry-drake-detectiv.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/61145-1184-94140-1-kerry-drake-detectiv.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/61145-1184-94140-1-kerry-drake-detectiv.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/61145-1184-94140-1-kerry-drake-detectiv.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/61145-1184-94140-1-kerry-drake-detectiv.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/61145-1184-94140-1-kerry-drake-detectiv.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/61145-1184-94140-1-kerry-drake-detectiv.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/61145-1184-94140-1-kerry-drake-detectiv.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Kerry Drake Detective Cases",
+      "site_detail_url": "https://comicvine.gamespot.com/kerry-drake-detective-cases/4050-1184/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1192/",
+      "deck": null,
+      "id": 1192,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/59180-1192-92175-1-blaze-carson.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/59180-1192-92175-1-blaze-carson.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/59180-1192-92175-1-blaze-carson.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/59180-1192-92175-1-blaze-carson.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/59180-1192-92175-1-blaze-carson.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/59180-1192-92175-1-blaze-carson.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/59180-1192-92175-1-blaze-carson.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/59180-1192-92175-1-blaze-carson.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/59180-1192-92175-1-blaze-carson.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Blaze Carson",
+      "site_detail_url": "https://comicvine.gamespot.com/blaze-carson/4050-1192/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1193/",
+      "deck": null,
+      "id": 1193,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/899276-1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/899276-1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/899276-1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/899276-1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/899276-1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/899276-1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/899276-1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/899276-1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/899276-1.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Doom Force Special",
+      "site_detail_url": "https://comicvine.gamespot.com/doom-force-special/4050-1193/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1194/",
+      "deck": null,
+      "id": 1194,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/58752-1194-91747-1-complete-mystery.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/58752-1194-91747-1-complete-mystery.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/58752-1194-91747-1-complete-mystery.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/58752-1194-91747-1-complete-mystery.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/58752-1194-91747-1-complete-mystery.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/58752-1194-91747-1-complete-mystery.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/58752-1194-91747-1-complete-mystery.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/58752-1194-91747-1-complete-mystery.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/58752-1194-91747-1-complete-mystery.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Complete Mystery",
+      "site_detail_url": "https://comicvine.gamespot.com/complete-mystery/4050-1194/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1196/",
+      "deck": null,
+      "id": 1196,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/57741-1196-90736-1-crimefighters.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/57741-1196-90736-1-crimefighters.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/57741-1196-90736-1-crimefighters.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/57741-1196-90736-1-crimefighters.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/57741-1196-90736-1-crimefighters.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/57741-1196-90736-1-crimefighters.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/57741-1196-90736-1-crimefighters.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/57741-1196-90736-1-crimefighters.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/57741-1196-90736-1-crimefighters.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Crimefighters",
+      "site_detail_url": "https://comicvine.gamespot.com/crimefighters/4050-1196/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1197/",
+      "deck": null,
+      "id": 1197,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/57365-1197-90360-1-frankie-and-lana-com.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/57365-1197-90360-1-frankie-and-lana-com.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/57365-1197-90360-1-frankie-and-lana-com.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/57365-1197-90360-1-frankie-and-lana-com.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/57365-1197-90360-1-frankie-and-lana-com.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/57365-1197-90360-1-frankie-and-lana-com.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/57365-1197-90360-1-frankie-and-lana-com.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/57365-1197-90360-1-frankie-and-lana-com.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/57365-1197-90360-1-frankie-and-lana-com.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Frankie and Lana Comics",
+      "site_detail_url": "https://comicvine.gamespot.com/frankie-and-lana-comics/4050-1197/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1198/",
+      "deck": null,
+      "id": 1198,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/61156-1198-94151-1-kid-colt-hero-of-th.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/61156-1198-94151-1-kid-colt-hero-of-th.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/61156-1198-94151-1-kid-colt-hero-of-th.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/61156-1198-94151-1-kid-colt-hero-of-th.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/61156-1198-94151-1-kid-colt-hero-of-th.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/61156-1198-94151-1-kid-colt-hero-of-th.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/61156-1198-94151-1-kid-colt-hero-of-th.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/61156-1198-94151-1-kid-colt-hero-of-th.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/61156-1198-94151-1-kid-colt-hero-of-th.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Kid Colt",
+      "site_detail_url": "https://comicvine.gamespot.com/kid-colt/4050-1198/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1199/",
+      "deck": "Volume 1.",
+      "id": 1199,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/65553-1199-98550-1-kid-colt-outlaw.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/65553-1199-98550-1-kid-colt-outlaw.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/65553-1199-98550-1-kid-colt-outlaw.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/65553-1199-98550-1-kid-colt-outlaw.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/65553-1199-98550-1-kid-colt-outlaw.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/65553-1199-98550-1-kid-colt-outlaw.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/65553-1199-98550-1-kid-colt-outlaw.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/65553-1199-98550-1-kid-colt-outlaw.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/65553-1199-98550-1-kid-colt-outlaw.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Kid Colt Outlaw",
+      "site_detail_url": "https://comicvine.gamespot.com/kid-colt-outlaw/4050-1199/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1201/",
+      "deck": null,
+      "id": 1201,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/61919-1201-94914-1-lana-comics.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/61919-1201-94914-1-lana-comics.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/61919-1201-94914-1-lana-comics.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/61919-1201-94914-1-lana-comics.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/61919-1201-94914-1-lana-comics.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/61919-1201-94914-1-lana-comics.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/61919-1201-94914-1-lana-comics.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/61919-1201-94914-1-lana-comics.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/61919-1201-94914-1-lana-comics.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Lana",
+      "site_detail_url": "https://comicvine.gamespot.com/lana/4050-1201/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1202/",
+      "deck": null,
+      "id": 1202,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/61928-1202-94923-1-lawbreakers-always-l.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/61928-1202-94923-1-lawbreakers-always-l.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/61928-1202-94923-1-lawbreakers-always-l.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/61928-1202-94923-1-lawbreakers-always-l.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/61928-1202-94923-1-lawbreakers-always-l.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/61928-1202-94923-1-lawbreakers-always-l.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/61928-1202-94923-1-lawbreakers-always-l.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/61928-1202-94923-1-lawbreakers-always-l.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/61928-1202-94923-1-lawbreakers-always-l.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Lawbreakers Always Lose",
+      "site_detail_url": "https://comicvine.gamespot.com/lawbreakers-always-lose/4050-1202/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1211/",
+      "deck": null,
+      "id": 1211,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/5/54649/1061904-wacky_duck_1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/54649/1061904-wacky_duck_1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/5/54649/1061904-wacky_duck_1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/5/54649/1061904-wacky_duck_1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/5/54649/1061904-wacky_duck_1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/5/54649/1061904-wacky_duck_1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/5/54649/1061904-wacky_duck_1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/5/54649/1061904-wacky_duck_1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/5/54649/1061904-wacky_duck_1.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Wacky Duck",
+      "site_detail_url": "https://comicvine.gamespot.com/wacky-duck/4050-1211/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1213/",
+      "deck": null,
+      "id": 1213,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/5/54649/1064400-wild_western_3.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/54649/1064400-wild_western_3.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/5/54649/1064400-wild_western_3.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/5/54649/1064400-wild_western_3.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/5/54649/1064400-wild_western_3.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/5/54649/1064400-wild_western_3.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/5/54649/1064400-wild_western_3.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/5/54649/1064400-wild_western_3.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/5/54649/1064400-wild_western_3.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Wild Western",
+      "site_detail_url": "https://comicvine.gamespot.com/wild-western/4050-1213/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1219/",
+      "deck": null,
+      "id": 1219,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/58672-1219-91667-1-charlie-chan.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/58672-1219-91667-1-charlie-chan.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/58672-1219-91667-1-charlie-chan.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/58672-1219-91667-1-charlie-chan.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/58672-1219-91667-1-charlie-chan.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/58672-1219-91667-1-charlie-chan.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/58672-1219-91667-1-charlie-chan.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/58672-1219-91667-1-charlie-chan.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/58672-1219-91667-1-charlie-chan.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Charlie Chan",
+      "site_detail_url": "https://comicvine.gamespot.com/charlie-chan/4050-1219/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1223/",
+      "deck": null,
+      "id": 1223,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15776/8677826-timholt4a.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/8677826-timholt4a.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15776/8677826-timholt4a.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15776/8677826-timholt4a.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15776/8677826-timholt4a.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/8677826-timholt4a.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/8677826-timholt4a.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15776/8677826-timholt4a.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15776/8677826-timholt4a.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Tim Holt",
+      "site_detail_url": "https://comicvine.gamespot.com/tim-holt/4050-1223/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1239/",
+      "deck": null,
+      "id": 1239,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/45721-1239-53062-1-ozzie-and-harriet.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/45721-1239-53062-1-ozzie-and-harriet.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/45721-1239-53062-1-ozzie-and-harriet.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/45721-1239-53062-1-ozzie-and-harriet.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/45721-1239-53062-1-ozzie-and-harriet.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/45721-1239-53062-1-ozzie-and-harriet.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/45721-1239-53062-1-ozzie-and-harriet.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/45721-1239-53062-1-ozzie-and-harriet.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/45721-1239-53062-1-ozzie-and-harriet.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Ozzie and Harriet",
+      "site_detail_url": "https://comicvine.gamespot.com/ozzie-and-harriet/4050-1239/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1241/",
+      "deck": null,
+      "id": 1241,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/47099-1241-56459-1-miss-beverly-hills-o.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/47099-1241-56459-1-miss-beverly-hills-o.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/47099-1241-56459-1-miss-beverly-hills-o.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/47099-1241-56459-1-miss-beverly-hills-o.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/47099-1241-56459-1-miss-beverly-hills-o.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/47099-1241-56459-1-miss-beverly-hills-o.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/47099-1241-56459-1-miss-beverly-hills-o.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/47099-1241-56459-1-miss-beverly-hills-o.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/47099-1241-56459-1-miss-beverly-hills-o.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Miss Beverly Hills of Hollywood",
+      "site_detail_url": "https://comicvine.gamespot.com/miss-beverly-hills-of-hollywood/4050-1241/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1242/",
+      "deck": null,
+      "id": 1242,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/47155-1242-56519-1-peter-porkchops.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/47155-1242-56519-1-peter-porkchops.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/47155-1242-56519-1-peter-porkchops.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/47155-1242-56519-1-peter-porkchops.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/47155-1242-56519-1-peter-porkchops.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/47155-1242-56519-1-peter-porkchops.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/47155-1242-56519-1-peter-porkchops.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/47155-1242-56519-1-peter-porkchops.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/47155-1242-56519-1-peter-porkchops.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Peter Porkchops",
+      "site_detail_url": "https://comicvine.gamespot.com/peter-porkchops/4050-1242/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1243/",
+      "deck": null,
+      "id": 1243,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/4/47362-1243-56744-1-romance-trail.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/47362-1243-56744-1-romance-trail.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/4/47362-1243-56744-1-romance-trail.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/4/47362-1243-56744-1-romance-trail.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/4/47362-1243-56744-1-romance-trail.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/4/47362-1243-56744-1-romance-trail.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/4/47362-1243-56744-1-romance-trail.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/4/47362-1243-56744-1-romance-trail.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/4/47362-1243-56744-1-romance-trail.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Romance Trail",
+      "site_detail_url": "https://comicvine.gamespot.com/romance-trail/4050-1243/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-1244/",
+      "deck": null,
+      "id": 1244,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/3125/952670-sh1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3125/952670-sh1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/3125/952670-sh1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/3125/952670-sh1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/3125/952670-sh1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/3125/952670-sh1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/3125/952670-sh1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/3125/952670-sh1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/3125/952670-sh1.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Secret Hearts",
+      "site_detail_url": "https://comicvine.gamespot.com/secret-hearts/4050-1244/"
+    }
+  ],
+  "version": "1.0"
+}
