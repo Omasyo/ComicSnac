@@ -18,7 +18,6 @@ internal class HomeViewModel @Inject constructor(
     private val characterRepository: CharacterRepository,
     private val issueRepository: IssueRepository,
 ) : ViewModel() {
-//    private val _characterUiState: MutableStateFlow<CharactersUiState> =
 
     val charactersUiState =
         characterRepository.getRecentCharacters().map(::getCategoryState).stateInCurrentScope()

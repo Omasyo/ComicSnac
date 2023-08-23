@@ -24,7 +24,7 @@ data class TeamDetailsApiModel(
     @SerialName("image") val image: ImageApiModel,
     @SerialName("movies") val movies: List<MovieApiModel>,
     @SerialName("name") val name: String,
-    @SerialName("publisher") val publisher: PublisherApiModel,
+    @SerialName("publisher") val publisher: PublisherApiModel?,
     @SerialName("site_detail_url") val siteDetailUrl: String,
     @SerialName("volume_credits") val volumeCredits: List<VolumeApiModel>
 )

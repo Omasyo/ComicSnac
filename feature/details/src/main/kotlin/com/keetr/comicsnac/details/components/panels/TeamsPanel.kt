@@ -1,11 +1,15 @@
 package com.keetr.comicsnac.details.components.panels
 
 import androidx.annotation.StringRes
+import androidx.compose.foundation.layout.width
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
 import androidx.paging.compose.LazyPagingItems
 import com.keetr.comicsnac.details.R
 import com.keetr.comicsnac.details.components.DetailsGrid
 import com.keetr.comicsnac.model.team.Team
+import com.keetr.comicsnac.ui.components.cards.ComicCard
 import com.keetr.comicsnac.ui.components.lazylist.PanelLazyListScope
 import com.keetr.comicsnac.ui.R.string as CommonString
 
@@ -63,14 +67,14 @@ private fun PanelLazyListScope.teamsPanel(
                 onToggleExpand(index)
             },
             key = { it.id }) { team ->
-//                            ComicCard(
-//                                modifier = Modifier.width(136f.dp),
-//                                name = team.name,
-//                                imageUrl = team.imageUrl,
-//                                contentDescription = stringResource(
-//                                    R.string.character_image_desc, character.name
-//                                ),
-//                                onClick = { onItemClicked(character.apiDetailUrl) })
+            ComicCard(
+                modifier = Modifier.width(136f.dp),
+                name = team.name,
+                imageUrl = team.imageUrl,
+                contentDescription = stringResource(
+                    CommonString.team_image_desc, team.name
+                ),
+                onClick = { onItemClicked(team.apiDetailUrl) })
         }
     }
 }

@@ -26,7 +26,7 @@ internal class DefaultCharacterRepository @Inject constructor(
     override fun getCharacterDetails(id: String): Flow<RepositoryResponse<CharacterDetails>> =
         flow {
             emit(networkSource.getCharacterDetails(id)
-                .fold(onSuccess = { RepositoryResponse.Success(it.results.toCharacterDetail()) }) {
+                .fold(onSuccess = { RepositoryResponse.Success(it.results.toCharacterDetails()) }) {
                     fromNetworkError(it)
                 })
         }.flowOn(dispatcher)

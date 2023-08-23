@@ -1,5 +1,6 @@
 package com.keetr.comicsnac.network.concept
 
+import com.keetr.comicsnac.network.common.Sort
 import com.keetr.comicsnac.network.concept.models.ConceptDetailsResponse
 import com.keetr.comicsnac.network.concept.models.ConceptListResponse
 import com.keetr.comicsnac.network.makeRequest
@@ -26,6 +27,7 @@ internal class DefaultConceptNetworkSource @Inject constructor(
                 parameter("field_list", ListFieldList)
                 parameter("limit", pageSize)
                 parameter("offset", offset)
+                parameter("sort", "date_last_updated:${Sort.Descending.format}")
             }
         }
 }

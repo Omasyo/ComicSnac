@@ -18,4 +18,5 @@
     <string name="back_button_desc">Back Button</string>
     <string name="close_button_desc">Close Button</string>
     <string name="share_button_desc">Share Button</string>
+    <string name="team_image_desc">Team image for %1$s</string>
 </resources>

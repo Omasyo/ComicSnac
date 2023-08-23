@@ -7,6 +7,7 @@ import androidx.paging.PagingData
 import androidx.paging.cachedIn
 import com.keetr.comicsnac.data.RepositoryResponse
 import com.keetr.comicsnac.data.character.CharacterRepository
+import com.keetr.comicsnac.data.team.TeamRepository
 import com.keetr.comicsnac.details.DetailsUiState
 import com.keetr.comicsnac.details.Error
 import com.keetr.comicsnac.details.Loading
@@ -19,7 +20,6 @@ import com.keetr.comicsnac.model.volume.Volume
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.flow
@@ -30,7 +30,7 @@ import javax.inject.Inject
 @HiltViewModel
 internal class CharacterViewModel @Inject constructor(
     private val characterRepository: CharacterRepository,
-
+    private val teamRepository: TeamRepository,
     savedStateHandle: SavedStateHandle,
 ) : ViewModel() {
 
@@ -53,15 +53,15 @@ internal class CharacterViewModel @Inject constructor(
     }
 
     val teams: Flow<PagingData<Team>> = getPagingData {
-        flow {  }
+        teamRepository.getTeamsWithId(teamsId)
     }
 
     val teamEnemies: Flow<PagingData<Team>> = getPagingData {
-        flow {  }
+        teamRepository.getTeamsWithId(teamEnemiesId)
     }
 
     val teamFriends: Flow<PagingData<Team>> = getPagingData {
-        flow {  }
+        teamRepository.getTeamsWithId(teamFriendsId)
     }
 
     val volumes: Flow<PagingData<Volume>> = getPagingData {

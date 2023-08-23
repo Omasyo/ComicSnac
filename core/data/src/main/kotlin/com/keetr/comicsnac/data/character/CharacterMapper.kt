@@ -29,7 +29,7 @@ fun CharacterListApiModel.toCharacter() =
         siteDetailUrl = siteDetailUrl
     )
 
-internal fun CharacterDetailsApiModel.toCharacterDetail() =
+internal fun CharacterDetailsApiModel.toCharacterDetails() =
     CharacterDetails(
         id = id,
         aliases = aliases?.split('\n') ?: emptyList(),

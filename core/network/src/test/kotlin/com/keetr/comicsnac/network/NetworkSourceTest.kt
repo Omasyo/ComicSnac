@@ -1,6 +1,7 @@
 package com.keetr.comicsnac.network
 
 import android.content.Context
+import android.util.Log
 import io.ktor.client.HttpClient
 import io.ktor.client.engine.mock.MockEngine
 import io.ktor.client.engine.mock.respond
@@ -9,6 +10,7 @@ import io.ktor.http.HttpHeaders
 import io.ktor.http.headersOf
 import io.mockk.every
 import io.mockk.mockk
+import io.mockk.mockkStatic
 import org.junit.After
 import org.junit.Before
 import org.junit.Rule
@@ -36,6 +38,14 @@ abstract class NetworkSourceTest<T: NetworkSource> {
         val context = mockk<Context>()
         every { context.cacheDir } returns temporaryFolder.newFile()
         client = createClient(mockEngine, context)
+
+        mockkStatic(Log::class)
+        every { Log.v(any(), any()) } returns 0
+        every { Log.d(any(), any()) } returns 0
+        every { Log.i(any(), any()) } returns 0
+        every { Log.e(any(), any()) } returns 0
+        every { Log.w(any(), any<String>()) } returns 0
+
     }
 
     @Before

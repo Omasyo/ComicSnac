@@ -8,7 +8,8 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class TeamListApiModel(
     @SerialName("api_detail_url") val apiDetailUrl: String,
-    @SerialName("deck") val deck: String,
+    @SerialName("deck") val deck: String?,
+    @SerialName("id") val id: Int,
     @SerialName("image") val image: ImageApiModel,
     @SerialName("name") val name: String,
     @SerialName("site_detail_url") val siteDetailUrl: String

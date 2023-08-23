@@ -8,6 +8,8 @@ import com.keetr.comicsnac.network.concept.DefaultConceptNetworkSource
 import com.keetr.comicsnac.network.createClient
 import com.keetr.comicsnac.network.issue.DefaultIssueNetworkSource
 import com.keetr.comicsnac.network.issue.IssueNetworkSource
+import com.keetr.comicsnac.network.teams.DefaultTeamNetworkSource
+import com.keetr.comicsnac.network.teams.TeamNetworkSource
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -50,4 +52,9 @@ private object NetworkModule {
     @Singleton
     fun provideIssueNetworkSource(client: HttpClient): IssueNetworkSource =
         DefaultIssueNetworkSource(client)
+
+    @Provides
+    @Singleton
+    fun provideTeamNetworkSource(client: HttpClient): TeamNetworkSource =
+        DefaultTeamNetworkSource(client)
 }

@@ -1,28 +1,17 @@
 package com.keetr.comicsnac.details.components
 
-import androidx.compose.animation.AnimatedContent
-import androidx.compose.animation.AnimatedVisibility
-import androidx.compose.animation.scaleIn
-import androidx.compose.animation.scaleOut
-import androidx.compose.animation.togetherWith
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.lazy.LazyListState
-import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
-import androidx.compose.material.icons.filled.Close
-import androidx.compose.material.icons.filled.Share
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -42,7 +31,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.keetr.comicsnac.ui.components.lazylist.ComicListSeparator
 import com.keetr.comicsnac.ui.components.lazylist.PanelColors
-import com.keetr.comicsnac.ui.components.lazylist.PanelLazyListScope
 import com.keetr.comicsnac.ui.components.lazylist.PanelList
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
 import kotlinx.coroutines.delay
@@ -102,11 +90,10 @@ internal fun DetailsLoadingPlaceholder(
                     var dotCount by remember {
                         mutableIntStateOf(0)
                     }
-                    val next = dotCount % 12
 
                     LaunchedEffect(key1 = Unit) {
                         while (true) {
-                            dotCount = dotCount.plus(1) % 800
+                            dotCount = dotCount.plus(1) % 12
                             delay(450)
                         }
                     }
@@ -117,10 +104,17 @@ internal fun DetailsLoadingPlaceholder(
                             .padding(horizontal = 16f.dp, vertical = 8f.dp),
                         verticalArrangement = Arrangement.spacedBy(4f.dp),
                     ) {
-                        Text(PlaceholderName.replaceRange(next, next, "_"), style = MaterialTheme.typography.headlineMedium)
                         Text(
-                            PlaceholderBody,
+                            PlaceholderName.replaceRange(dotCount, dotCount, "_"),
+                            style = MaterialTheme.typography.headlineMedium
+                        )
+                        Text(
+                            PlaceholderDesc,
                             color = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
+                        Text(
+                            "~~~~ : ~~~~~~~~\n".repeat(5),
+                            style = MaterialTheme.typography.titleLarge
                         )
                     }
                 }
@@ -130,7 +124,7 @@ internal fun DetailsLoadingPlaceholder(
 }
 
 val PlaceholderName = "#".repeat(12)
-val PlaceholderBody = "*".repeat(800)
+val PlaceholderDesc = "*".repeat(120)
 
 @Preview
 @Composable

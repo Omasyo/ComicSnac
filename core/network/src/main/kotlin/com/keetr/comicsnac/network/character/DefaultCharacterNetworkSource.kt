@@ -29,17 +29,18 @@ internal class DefaultCharacterNetworkSource @Inject constructor(
 
     override suspend fun getAllCharacters(
         pageSize: Int, offset: Int, gender: GenderApiModel
-    ): Result<CharactersListResponse> = getCharacters(pageSize, offset, gender)
+    ): Result<CharactersListResponse> =
+        getCharacters(pageSize, offset, gender, sortRecentlyUpdated = Sort.Descending)
 
     override suspend fun getCharactersWithId(
         pageSize: Int, offset: Int, characterIds: List<Int>
-    ): Result<CharactersListResponse> = getCharacters(pageSize, offset, characterIds = characterIds)
+    ): Result<CharactersListResponse> = getCharacters(pageSize, offset, charactersId = characterIds)
 
     private suspend fun getCharacters(
         pageSize: Int,
         offset: Int,
         gender: GenderApiModel = GenderApiModel.All,
-        characterIds: List<Int> = emptyList(),
+        charactersId: List<Int> = emptyList(),
         sortRecentlyUpdated: Sort = Sort.None
     ): Result<CharactersListResponse> = makeRequest {
         client.get("characters") {
@@ -47,8 +48,8 @@ internal class DefaultCharacterNetworkSource @Inject constructor(
             parameter("limit", pageSize)
             parameter("offset", offset)
             if (gender != GenderApiModel.All) parameter("gender", gender.id)
-            if (characterIds.isNotEmpty()) parameter(
-                "filter", "id:${characterIds.joinToString("|")}"
+            if (charactersId.isNotEmpty()) parameter(
+                "filter", "id:${charactersId.joinToString("|")}"
             )
             if (sortRecentlyUpdated != Sort.None) parameter(
                 "sort", "date_last_updated:${sortRecentlyUpdated.format}"

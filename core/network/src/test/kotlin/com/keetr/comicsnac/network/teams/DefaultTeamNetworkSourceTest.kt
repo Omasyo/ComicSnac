@@ -32,6 +32,6 @@ class DefaultTeamNetworkSourceTest : NetworkSourceTest<TeamNetworkSource>() {
     @Test
     fun getAllTeams() = runTest {
         val response = networkSource.getAllTeams(100, 0)
-        assertEquals("The Hand", response.getOrNull()?.results?.firstOrNull()?.name)
+        assertEquals("Metagen", response.getOrThrow().results.firstOrNull()?.name)
     }
 }

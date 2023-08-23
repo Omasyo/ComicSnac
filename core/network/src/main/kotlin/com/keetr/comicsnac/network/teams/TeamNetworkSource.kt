@@ -11,4 +11,10 @@ interface TeamNetworkSource: NetworkSource {
         pageSize: Int,
         offset: Int
     ): Result<TeamListResponse>
+
+    suspend fun getTeamsWithId(
+        pageSize: Int,
+        offset: Int,
+        teamIds: List<Int>
+    ): Result<TeamListResponse>
 }

@@ -2,6 +2,9 @@ package com.keetr.comicsnac.model.team
 
 data class Team(
     val apiDetailUrl: String,
+    val deck: String,
     val id: Int,
-    val name: String
+    val imageUrl: String,
+    val name: String,
+    val siteDetailUrl: String
 )

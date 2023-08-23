@@ -13,6 +13,6 @@ interface IssueNetworkSource : NetworkSource {
     suspend fun getAllIssues(
         pageSize: Int,
         offset: Int,
-        sortCoverDate: Sort = Sort.None
+        sortCoverDate: Sort = Sort.Descending
     ): Result<IssueListResponse>
 }
