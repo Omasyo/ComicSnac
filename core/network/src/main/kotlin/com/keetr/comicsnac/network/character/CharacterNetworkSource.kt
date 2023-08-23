@@ -7,7 +7,7 @@ import com.keetr.comicsnac.network.common.models.GenderApiModel
 
 interface CharacterNetworkSource : NetworkSource {
 
-    suspend fun getCharacterDetails(fullId: String): Result<CharacterDetailsResponse>
+    suspend fun getCharacterDetails(id: String): Result<CharacterDetailsResponse>
 
     suspend fun getRecentCharacters(pageSize: Int, offset: Int): Result<CharactersListResponse>
 

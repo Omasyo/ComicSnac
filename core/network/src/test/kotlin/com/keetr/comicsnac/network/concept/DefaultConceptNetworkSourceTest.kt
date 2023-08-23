@@ -25,7 +25,7 @@ class DefaultConceptNetworkSourceTest : NetworkSourceTest<ConceptNetworkSource>(
     @Test
     fun getConceptDetails() = runTest {
         val response =
-            networkSource.getConceptDetails("4015-35070")
+            networkSource.getConceptDetails("35070")
         assertEquals("The Odin Force", response.getOrNull()?.results?.name)
     }
 

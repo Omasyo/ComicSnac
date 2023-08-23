@@ -34,7 +34,7 @@ class DefaultIssueNetworkSourceTest : NetworkSourceTest<IssueNetworkSource>() {
     @Test
     fun `verify issue number`() = runTest {
         val response =
-            networkSource.getIssueDetails("4000-369103")
+            networkSource.getIssueDetails("369103")
         assertEquals("698", response.getOrThrow().results.issueNumber)
     }
 

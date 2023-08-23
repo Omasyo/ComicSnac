@@ -23,9 +23,9 @@ internal class DefaultCharacterRepository @Inject constructor(
     private val networkSource: CharacterNetworkSource,
     @IODispatcher private val dispatcher: CoroutineDispatcher
 ) : CharacterRepository {
-    override fun getCharacterDetails(fullId: String): Flow<RepositoryResponse<CharacterDetails>> =
+    override fun getCharacterDetails(id: String): Flow<RepositoryResponse<CharacterDetails>> =
         flow {
-            emit(networkSource.getCharacterDetails(fullId)
+            emit(networkSource.getCharacterDetails(id)
                 .fold(onSuccess = { RepositoryResponse.Success(it.results.toCharacterDetail()) }) {
                     fromNetworkError(it)
                 })

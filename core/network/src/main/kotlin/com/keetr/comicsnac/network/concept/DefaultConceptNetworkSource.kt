@@ -1,6 +1,5 @@
 package com.keetr.comicsnac.network.concept
 
-import com.keetr.comicsnac.network.Api.appendDefaultParameters
 import com.keetr.comicsnac.network.concept.models.ConceptDetailsResponse
 import com.keetr.comicsnac.network.concept.models.ConceptListResponse
 import com.keetr.comicsnac.network.makeRequest
@@ -14,9 +13,9 @@ const val TAG = "DefaultConceptNetworkSource"
 internal class DefaultConceptNetworkSource @Inject constructor(
     private val client: HttpClient
 ) : ConceptNetworkSource {
-    override suspend fun getConceptDetails(fullId: String): Result<ConceptDetailsResponse> =
+    override suspend fun getConceptDetails(id: String): Result<ConceptDetailsResponse> =
         makeRequest(TAG) {
-            client.get("concept/$fullId") {
+            client.get("concept/4015-$id") {
                 parameter("field_list", DetailsFieldList)
             }
         }

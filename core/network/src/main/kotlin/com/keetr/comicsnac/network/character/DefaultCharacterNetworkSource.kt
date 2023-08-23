@@ -1,6 +1,5 @@
 package com.keetr.comicsnac.network.character
 
-import com.keetr.comicsnac.network.Api.appendDefaultParameters
 import com.keetr.comicsnac.network.character.models.CharacterDetailsResponse
 import com.keetr.comicsnac.network.character.models.CharactersListResponse
 import com.keetr.comicsnac.network.common.Sort
@@ -17,9 +16,9 @@ internal class DefaultCharacterNetworkSource @Inject constructor(
     private val client: HttpClient
 ) : CharacterNetworkSource {
 
-    override suspend fun getCharacterDetails(fullId: String): Result<CharacterDetailsResponse> =
+    override suspend fun getCharacterDetails(id: String): Result<CharacterDetailsResponse> =
         makeRequest(TAG) {
-            client.get("character/$fullId") {
+            client.get("character/4005-$id") {
                 parameter("field_list", DetailsFieldList)
             }
         }

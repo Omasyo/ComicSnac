@@ -42,7 +42,7 @@ class DefaultCharacterNetworkSourceTest : NetworkSourceTest<CharacterNetworkSour
     @Test
     fun `verify character first issue`() = runTest {
         val response =
-            networkSource.getCharacterDetails("4005-184971")
+            networkSource.getCharacterDetails("184971")
         val issue = IssueApiModel(
             apiDetailUrl = "https://comicvine.gamespot.com/api/first_appeared_in_issue/4000-1006449/",
             id = 1006449,
@@ -55,7 +55,7 @@ class DefaultCharacterNetworkSourceTest : NetworkSourceTest<CharacterNetworkSour
     @Test
     fun `verify character name`() = runTest {
         val response =
-            networkSource.getCharacterDetails("4005-1699")
+            networkSource.getCharacterDetails("1699")
         assertEquals("Batman", response.getOrNull()?.results?.name)
     }
 

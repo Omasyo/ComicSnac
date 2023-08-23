@@ -7,7 +7,6 @@ import com.keetr.comicsnac.data.RepositoryResponse
 import com.keetr.comicsnac.data.character.CharacterRepository
 import com.keetr.comicsnac.details.DetailsUiState
 import com.keetr.comicsnac.details.Error
-import com.keetr.comicsnac.details.ExtrasUiState
 import com.keetr.comicsnac.details.Loading
 import com.keetr.comicsnac.details.Success
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -23,10 +22,10 @@ internal class CharacterViewModel @Inject constructor(
     savedStateHandle: SavedStateHandle,
 ) : ViewModel() {
 
-    private val guid = checkNotNull(savedStateHandle.get<String>(Arg))
+    private val id = checkNotNull(savedStateHandle.get<String>(Arg))
 
     val detailsUiState =
-        characterRepository.getCharacterDetails(guid).map(::getState).stateInCurrentScope()
+        characterRepository.getCharacterDetails(id).map(::getState).stateInCurrentScope()
 
     private fun <T> Flow<DetailsUiState<T>>.stateInCurrentScope() =
         stateIn(viewModelScope, SharingStarted.WhileSubscribed(), Loading)

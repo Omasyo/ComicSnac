@@ -10,9 +10,9 @@ import androidx.navigation.navDeepLink
 import com.keetr.comicsnac.details.InDevelopment
 import com.keetr.comicsnac.model.NavigationRoute
 
-const val Arg = "guid"
+const val Arg = "id"
 
-private object CharacterRoute : NavigationRoute("character/%s/") {
+private object CharacterRoute : NavigationRoute("character/4005-%s/") {
     override val requiredArguments: List<String> = listOf(Arg)
 }
 
@@ -27,7 +27,7 @@ fun NavGraphBuilder.characterRoute(
             uriPattern = "https://comicvine.gamespot.com/api/${CharacterRoute.route}"
         },
         navDeepLink {
-            uriPattern = "https://comicvine.gamespot.com/{_t}/{$Arg}/"
+            uriPattern = "https://comicvine.gamespot.com/{_}/4005-{$Arg}/"
         }
     )
 ) {

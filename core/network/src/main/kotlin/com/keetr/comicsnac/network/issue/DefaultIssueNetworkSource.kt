@@ -1,6 +1,5 @@
 package com.keetr.comicsnac.network.issue
 
-import com.keetr.comicsnac.network.Api.appendDefaultParameters
 import com.keetr.comicsnac.network.common.Sort
 import com.keetr.comicsnac.network.issue.models.IssueDetailsResponse
 import com.keetr.comicsnac.network.issue.models.IssueListResponse
@@ -15,9 +14,9 @@ const val TAG = "DefaultIssueNetworkSource"
 class DefaultIssueNetworkSource @Inject constructor(
     private val client: HttpClient
 ) : IssueNetworkSource {
-    override suspend fun getIssueDetails(fullId: String): Result<IssueDetailsResponse> =
+    override suspend fun getIssueDetails(id: String): Result<IssueDetailsResponse> =
         makeRequest(TAG) {
-            client.get("issue/$fullId") {
+            client.get("issue/4000-$id") {
                 parameter("field_list", DetailsFieldList)
             }
         }
