@@ -1,13 +1,14 @@
 package com.keetr.comicsnac.details.components.panels
 
 import androidx.compose.ui.res.stringResource
+import androidx.paging.compose.LazyPagingItems
 import com.keetr.comicsnac.details.components.DetailsGrid
-import com.keetr.comicsnac.details.MoviesUiState
+import com.keetr.comicsnac.model.movie.Movie
 import com.keetr.comicsnac.ui.R
 import com.keetr.comicsnac.ui.components.lazylist.PanelLazyListScope
 
 internal fun PanelLazyListScope.moviesPanel(
-    moviesUiState: MoviesUiState,
+    items: LazyPagingItems<Movie>,
     expandedProvider: (Int) -> Boolean,
     onToggleExpand: (Int) -> Unit,
     onItemClicked: (String) -> Unit
@@ -16,7 +17,7 @@ internal fun PanelLazyListScope.moviesPanel(
     panel { index ->
         DetailsGrid(
             name = stringResource(R.string.movies),
-            uiState = moviesUiState,
+            items = items,
             expanded = expandedProvider(index),
             onToggleExpand = {
                 onToggleExpand(index)

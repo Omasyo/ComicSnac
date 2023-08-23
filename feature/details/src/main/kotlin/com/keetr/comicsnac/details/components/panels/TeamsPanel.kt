@@ -2,46 +2,47 @@ package com.keetr.comicsnac.details.components.panels
 
 import androidx.annotation.StringRes
 import androidx.compose.ui.res.stringResource
-import com.keetr.comicsnac.details.components.DetailsGrid
+import androidx.paging.compose.LazyPagingItems
 import com.keetr.comicsnac.details.R
-import com.keetr.comicsnac.details.TeamsUiState
-import com.keetr.comicsnac.ui.R.string as CommonString
+import com.keetr.comicsnac.details.components.DetailsGrid
+import com.keetr.comicsnac.model.team.Team
 import com.keetr.comicsnac.ui.components.lazylist.PanelLazyListScope
+import com.keetr.comicsnac.ui.R.string as CommonString
 
 internal fun PanelLazyListScope.teamsPanel(
-    uiState: TeamsUiState,
+    items: LazyPagingItems<Team>,
     expandedProvider: (Int) -> Boolean,
     onToggleExpand: (Int) -> Unit,
     onItemClicked: (String) -> Unit
 ) = teamsPanel(
     CommonString.teams,
-    uiState,
+    items,
     expandedProvider,
     onToggleExpand,
     onItemClicked
 )
 
 internal fun PanelLazyListScope.teamFriendsPanel(
-    uiState: TeamsUiState,
+    items: LazyPagingItems<Team>,
     expandedProvider: (Int) -> Boolean,
     onToggleExpand: (Int) -> Unit,
     onItemClicked: (String) -> Unit
 ) = teamsPanel(
     R.string.team_friends,
-    uiState,
+    items,
     expandedProvider,
     onToggleExpand,
     onItemClicked
 )
 
 internal fun PanelLazyListScope.teamEnemiesPanel(
-    uiState: TeamsUiState,
+    items: LazyPagingItems<Team>,
     expandedProvider: (Int) -> Boolean,
     onToggleExpand: (Int) -> Unit,
     onItemClicked: (String) -> Unit
 ) = teamsPanel(
     R.string.team_enemies,
-    uiState,
+    items,
     expandedProvider,
     onToggleExpand,
     onItemClicked
@@ -49,14 +50,14 @@ internal fun PanelLazyListScope.teamEnemiesPanel(
 
 private fun PanelLazyListScope.teamsPanel(
     @StringRes nameResId: Int,
-    uiState: TeamsUiState,
+    items: LazyPagingItems<Team>,
     expandedProvider: (Int) -> Boolean,
     onToggleExpand: (Int) -> Unit,
     onItemClicked: (String) -> Unit
 ) {
     panel { index ->
         DetailsGrid(name = stringResource(nameResId),
-            uiState = uiState,
+            items = items,
             expanded = expandedProvider(index),
             onToggleExpand = {
                 onToggleExpand(index)

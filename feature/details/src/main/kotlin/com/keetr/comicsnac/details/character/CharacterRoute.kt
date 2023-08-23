@@ -7,7 +7,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
 import androidx.navigation.navDeepLink
-import com.keetr.comicsnac.details.InDevelopment
+import androidx.paging.compose.collectAsLazyPagingItems
 import com.keetr.comicsnac.model.NavigationRoute
 
 const val Arg = "id"
@@ -46,15 +46,16 @@ private fun CharacterRoute(
     viewModel: CharacterViewModel = hiltViewModel()
 ) {
     CharacterDetailsScreen(
+        modifier = modifier,
         onItemClicked = onItemClicked,
         onBackPressed = onBackPressed,
         detailsUiState = viewModel.detailsUiState.collectAsState().value,
-        enemiesUiState = InDevelopment,
-        friendsUiState = InDevelopment,
-        moviesUiState = InDevelopment,
-        teamsUiState = InDevelopment,
-        teamEnemiesUiState = InDevelopment,
-        teamFriendsUiState = InDevelopment,
-        volumeUiState = InDevelopment
+        enemies = viewModel.enemies.collectAsLazyPagingItems(),
+        friends = viewModel.friends.collectAsLazyPagingItems(),
+        movies = viewModel.movies.collectAsLazyPagingItems(),
+        teams = viewModel.teams.collectAsLazyPagingItems(),
+        teamEnemies = viewModel.teamEnemies.collectAsLazyPagingItems(),
+        teamFriends = viewModel.teamFriends.collectAsLazyPagingItems(),
+        volumes = viewModel.volumes.collectAsLazyPagingItems()
     )
 }

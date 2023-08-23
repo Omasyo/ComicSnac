@@ -7,8 +7,6 @@ import com.keetr.comicsnac.model.character.CharacterDetails
 
 internal sealed interface DetailsUiState<out T>
 
-internal data object InDevelopment : DetailsUiState<Nothing>
-
 internal data object Loading : DetailsUiState<Nothing>
 
 internal data class Error(val error: RepositoryResponse.Error) : DetailsUiState<Nothing>

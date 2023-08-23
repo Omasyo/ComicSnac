@@ -5,33 +5,34 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.keetr.comicsnac.details.CharactersUiState
+import androidx.paging.compose.LazyPagingItems
 import com.keetr.comicsnac.details.components.DetailsGrid
+import com.keetr.comicsnac.model.character.Character
 import com.keetr.comicsnac.ui.R
 import com.keetr.comicsnac.ui.components.cards.ComicCard
 import com.keetr.comicsnac.ui.components.lazylist.PanelLazyListScope
 
 internal fun PanelLazyListScope.friendsPanel(
-    uiState: CharactersUiState,
+    items: LazyPagingItems<Character>,
     expandedProvider: (Int) -> Boolean,
     onToggleExpand: (Int) -> Unit,
     onItemClicked: (String) -> Unit
 ) = charactersPanel(
     R.string.friends,
-    uiState,
+    items,
     expandedProvider,
     onToggleExpand,
     onItemClicked
 )
 
 internal fun PanelLazyListScope.enemiesPanel(
-    uiState: CharactersUiState,
+    items: LazyPagingItems<Character>,
     expandedProvider: (Int) -> Boolean,
     onToggleExpand: (Int) -> Unit,
     onItemClicked: (String) -> Unit
 ) = charactersPanel(
     R.string.enemies,
-    uiState,
+    items,
     expandedProvider,
     onToggleExpand,
     onItemClicked
@@ -39,14 +40,14 @@ internal fun PanelLazyListScope.enemiesPanel(
 
 private fun PanelLazyListScope.charactersPanel(
     @StringRes nameResId: Int,
-    uiState: CharactersUiState,
+    items: LazyPagingItems<Character>,
     expandedProvider: (Int) -> Boolean,
     onToggleExpand: (Int) -> Unit,
     onItemClicked: (String) -> Unit
 ) {
     panel { index ->
         DetailsGrid(name = stringResource(nameResId),
-            uiState = uiState,
+            items = items,
             expanded = expandedProvider(index),
             onToggleExpand = {
                 onToggleExpand(index)

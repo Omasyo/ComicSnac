@@ -15,7 +15,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyItemScope
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyHorizontalGrid
-import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -23,21 +22,18 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.keetr.comicsnac.details.Error
-import com.keetr.comicsnac.details.ExtrasUiState
-import com.keetr.comicsnac.details.InDevelopment
-import com.keetr.comicsnac.details.Loading
+import androidx.paging.LoadState
+import androidx.paging.compose.LazyPagingItems
+import androidx.paging.compose.itemKey
 import com.keetr.comicsnac.details.R
-import com.keetr.comicsnac.details.Success
 import com.keetr.comicsnac.ui.components.placeholders.ErrorPlaceholder
-import com.keetr.comicsnac.ui.components.placeholders.InDevelopmentPlaceholder
 import com.keetr.comicsnac.ui.components.placeholders.LoadingPlaceholder
 
 @Composable
-internal fun <T> LazyItemScope.DetailsGrid(
+internal fun <T : Any> LazyItemScope.DetailsGrid(
     modifier: Modifier = Modifier,
     name: String,
-    uiState: ExtrasUiState<T>,
+    items: LazyPagingItems<T>,
     expanded: Boolean,
     onToggleExpand: () -> Unit,
     key: (item: T) -> Any,
@@ -79,26 +75,27 @@ internal fun <T> LazyItemScope.DetailsGrid(
         }
 
         AnimatedContent(
-            targetState = uiState,
+            targetState = items.loadState.refresh,
             label = "Category Carousel"
-        ) { uiState ->
-            when (uiState) {
-                is Error -> ErrorPlaceholder(heightModifier)
-                InDevelopment -> InDevelopmentPlaceholder(heightModifier)
-                Loading -> LoadingPlaceholder(heightModifier)
-
-                is Success -> {
+        ) { refreshState ->
+            when (refreshState) {
+                is LoadState.Error -> ErrorPlaceholder(heightModifier)
+                LoadState.Loading -> LoadingPlaceholder(heightModifier)
+                is LoadState.NotLoading -> {
                     LazyHorizontalGrid(
                         rows = GridCells.Adaptive(224f.dp),
                         contentPadding = PaddingValues(16f.dp, 8f.dp),
                         horizontalArrangement = Arrangement.spacedBy(8f.dp),
                         verticalArrangement = Arrangement.spacedBy(16f.dp)
                     ) {
-                        items(uiState.content, key = key) {
-                            builder(it)
+                        items(items.itemCount, key = items.itemKey(key)) {
+                            builder(items[it]!!)
                         }
                     }
                 }
+            }
+            if (items.loadState.append == LoadState.Loading) {
+
             }
         }
     }

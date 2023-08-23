@@ -10,7 +10,6 @@ import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
@@ -19,26 +18,20 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.text.AnnotatedString
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.core.text.HtmlCompat
+import androidx.paging.compose.LazyPagingItems
 import com.keetr.comicsnac.details.CharacterDetailsUiState
-import com.keetr.comicsnac.details.CharactersUiState
-import com.keetr.comicsnac.details.components.DetailsFlow
-import com.keetr.comicsnac.details.components.DetailsScreen
 import com.keetr.comicsnac.details.Error
-import com.keetr.comicsnac.details.components.Image
-import com.keetr.comicsnac.details.InDevelopment
-import com.keetr.comicsnac.details.components.Info
 import com.keetr.comicsnac.details.Loading
-import com.keetr.comicsnac.details.MoviesUiState
 import com.keetr.comicsnac.details.R
 import com.keetr.comicsnac.details.Success
-import com.keetr.comicsnac.details.TeamsUiState
-import com.keetr.comicsnac.details.VolumeUiState
 import com.keetr.comicsnac.details.components.DetailsErrorPlaceholder
+import com.keetr.comicsnac.details.components.DetailsFlow
 import com.keetr.comicsnac.details.components.DetailsLoadingPlaceholder
+import com.keetr.comicsnac.details.components.DetailsScreen
+import com.keetr.comicsnac.details.components.Image
+import com.keetr.comicsnac.details.components.Info
 import com.keetr.comicsnac.details.components.panels.enemiesPanel
 import com.keetr.comicsnac.details.components.panels.friendsPanel
 import com.keetr.comicsnac.details.components.panels.moviesPanel
@@ -50,15 +43,16 @@ import com.keetr.comicsnac.details.components.panels.webViewPanel
 import com.keetr.comicsnac.model.character.Character
 import com.keetr.comicsnac.model.character.CharacterDetails
 import com.keetr.comicsnac.model.issue.IssueBasic
+import com.keetr.comicsnac.model.movie.Movie
 import com.keetr.comicsnac.model.origin.OriginBasic
 import com.keetr.comicsnac.model.other.Gender
 import com.keetr.comicsnac.model.power.PowerBasic
-import com.keetr.comicsnac.ui.R.string as CommonString
+import com.keetr.comicsnac.model.team.Team
+import com.keetr.comicsnac.model.volume.Volume
 import com.keetr.comicsnac.ui.components.lazylist.animateScrollAndAlignItem
 import com.keetr.comicsnac.ui.components.webview.toAnnotatedString
-import com.keetr.comicsnac.ui.theme.ComicSnacTheme
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import com.keetr.comicsnac.ui.R.string as CommonString
 
 @Composable
 internal fun CharacterDetailsScreen(
@@ -66,23 +60,19 @@ internal fun CharacterDetailsScreen(
     onItemClicked: (fullId: String) -> Unit,
     onBackPressed: () -> Unit,
     detailsUiState: CharacterDetailsUiState,
-    enemiesUiState: CharactersUiState,
-    friendsUiState: CharactersUiState,
-    moviesUiState: MoviesUiState,
-    teamsUiState: TeamsUiState,
-    teamEnemiesUiState: TeamsUiState,
-    teamFriendsUiState: TeamsUiState,
-    volumeUiState: VolumeUiState
+    enemies: LazyPagingItems<Character>,
+    friends: LazyPagingItems<Character>,
+    movies: LazyPagingItems<Movie>,
+    teams: LazyPagingItems<Team>,
+    teamEnemies: LazyPagingItems<Team>,
+    teamFriends: LazyPagingItems<Team>,
+    volumes: LazyPagingItems<Volume>
 ) {
     when (detailsUiState) {
         is Error -> {
             DetailsErrorPlaceholder {
 
             }
-        }
-
-        InDevelopment -> {
-            // TODO Remove later
         }
 
         Loading -> {
@@ -244,7 +234,7 @@ internal fun CharacterDetailsScreen(
                         panelSeparator()
 
                         friendsPanel(
-                            friendsUiState,
+                            friends,
                             ::expandedProviderCallback,
                             ::onExpand,
                             onItemClicked
@@ -255,7 +245,7 @@ internal fun CharacterDetailsScreen(
                         panelSeparator()
 
                         enemiesPanel(
-                            enemiesUiState,
+                            enemies,
                             ::expandedProviderCallback,
                             ::onExpand,
                             onItemClicked
@@ -266,7 +256,7 @@ internal fun CharacterDetailsScreen(
                         panelSeparator()
 
                         teamsPanel(
-                            teamsUiState,
+                            teams,
                             ::expandedProviderCallback,
                             ::onExpand,
                             onItemClicked
@@ -277,7 +267,7 @@ internal fun CharacterDetailsScreen(
                         panelSeparator()
 
                         teamFriendsPanel(
-                            teamFriendsUiState,
+                            teamFriends,
                             ::expandedProviderCallback,
                             ::onExpand,
                             onItemClicked
@@ -288,7 +278,7 @@ internal fun CharacterDetailsScreen(
                         panelSeparator()
 
                         teamEnemiesPanel(
-                            teamEnemiesUiState,
+                            teamEnemies,
                             ::expandedProviderCallback,
                             ::onExpand,
                             onItemClicked
@@ -308,7 +298,7 @@ internal fun CharacterDetailsScreen(
 
                     if (volumeCreditsId.isNotEmpty()) {
                         volumesPanel(
-                            volumeUiState,
+                            volumes,
                             ::expandedProviderCallback,
                             ::onExpand,
                             onItemClicked
@@ -319,7 +309,7 @@ internal fun CharacterDetailsScreen(
                         panelSeparator()
 
                         moviesPanel(
-                            moviesUiState,
+                            movies,
                             ::expandedProviderCallback,
                             ::onExpand,
                             onItemClicked
@@ -348,25 +338,25 @@ internal fun CharacterDetailsScreen(
 }
 
 
-@Preview
-@Composable
-private fun Preview() {
-    ComicSnacTheme {
-
-        CharacterDetailsScreen(
-            onItemClicked = {},
-            onBackPressed = { /*TODO*/ },
-            detailsUiState = Success(Character),
-            enemiesUiState = InDevelopment,
-            friendsUiState = Success(Friends),
-            moviesUiState = InDevelopment,
-            teamsUiState = InDevelopment,
-            teamEnemiesUiState = InDevelopment,
-            teamFriendsUiState = InDevelopment,
-            volumeUiState = InDevelopment,
-        )
-    }
-}
+//@Preview
+//@Composable
+//private fun Preview() {
+//    ComicSnacTheme {
+//
+//        CharacterDetailsScreen(
+//            onItemClicked = {},
+//            onBackPressed = { /*TODO*/ },
+//            detailsUiState = Success(Character),
+//            enemies = PagingData.empty<Character>(),
+//            friendsUiState = Success(Friends),
+//            moviesUiState = InDevelopment,
+//            teamsUiState = InDevelopment,
+//            teamEnemiesUiState = InDevelopment,
+//            teamFriendsUiState = InDevelopment,
+//            volumeUiState = InDevelopment,
+//        )
+//    }
+//}
 
 val Friends = List(40) {
     Character(
