@@ -15,7 +15,7 @@ class DefaultIssueNetworkSource @Inject constructor(
     private val client: HttpClient
 ) : IssueNetworkSource {
     override suspend fun getIssueDetails(id: String): Result<IssueDetailsResponse> =
-        makeRequest(TAG) {
+        makeRequest {
             client.get("issue/4000-$id") {
                 parameter("field_list", DetailsFieldList)
             }
@@ -35,7 +35,7 @@ class DefaultIssueNetworkSource @Inject constructor(
         pageSize: Int,
         offset: Int,
         sortCoverDate: Sort = Sort.None
-    ): Result<IssueListResponse> = makeRequest(TAG) {
+    ): Result<IssueListResponse> = makeRequest {
         client.get("issues") {
             parameter("field_list", ListFieldList)
             parameter("limit", pageSize)

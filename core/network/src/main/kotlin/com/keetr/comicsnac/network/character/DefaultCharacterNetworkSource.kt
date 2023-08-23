@@ -17,7 +17,7 @@ internal class DefaultCharacterNetworkSource @Inject constructor(
 ) : CharacterNetworkSource {
 
     override suspend fun getCharacterDetails(id: String): Result<CharacterDetailsResponse> =
-        makeRequest(TAG) {
+        makeRequest {
             client.get("character/4005-$id") {
                 parameter("field_list", DetailsFieldList)
             }
@@ -43,7 +43,7 @@ internal class DefaultCharacterNetworkSource @Inject constructor(
         gender: GenderApiModel = GenderApiModel.All,
         characterIds: List<Int> = emptyList(),
         sortRecentlyUpdated: Sort = Sort.None
-    ): Result<CharactersListResponse> = makeRequest(TAG) {
+    ): Result<CharactersListResponse> = makeRequest {
         client.get("characters") {
             parameter("field_list", ListFieldList)
             parameter("limit", pageSize)

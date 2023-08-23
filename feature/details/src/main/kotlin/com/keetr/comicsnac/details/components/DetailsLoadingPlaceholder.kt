@@ -100,7 +100,7 @@ internal fun DetailsLoadingPlaceholder(
                 }
                 panel {
                     var dotCount by remember {
-                        mutableIntStateOf(1)
+                        mutableIntStateOf(0)
                     }
                     val next = dotCount % 12
 
@@ -117,7 +117,7 @@ internal fun DetailsLoadingPlaceholder(
                             .padding(horizontal = 16f.dp, vertical = 8f.dp),
                         verticalArrangement = Arrangement.spacedBy(4f.dp),
                     ) {
-                        Text(PlaceholderName.replaceRange(next, next, "*"), style = MaterialTheme.typography.headlineMedium)
+                        Text(PlaceholderName.replaceRange(next, next, "_"), style = MaterialTheme.typography.headlineMedium)
                         Text(
                             PlaceholderBody,
                             color = MaterialTheme.colorScheme.onSurfaceVariant

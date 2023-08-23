@@ -14,14 +14,14 @@ internal class DefaultConceptNetworkSource @Inject constructor(
     private val client: HttpClient
 ) : ConceptNetworkSource {
     override suspend fun getConceptDetails(id: String): Result<ConceptDetailsResponse> =
-        makeRequest(TAG) {
+        makeRequest {
             client.get("concept/4015-$id") {
                 parameter("field_list", DetailsFieldList)
             }
         }
 
     override suspend fun getAllConcepts(pageSize: Int, offset: Int): Result<ConceptListResponse> =
-        makeRequest(TAG) {
+        makeRequest {
             client.get("concepts") {
                 parameter("field_list", ListFieldList)
                 parameter("limit", pageSize)

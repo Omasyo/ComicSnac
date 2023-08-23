@@ -1,0 +1,1811 @@
+{
+  "error": "OK",
+  "limit": 100,
+  "offset": 0,
+  "number_of_page_results": 100,
+  "number_of_total_results": 10880,
+  "status_code": 1,
+  "results": [
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-1800/",
+      "deck": "An ancient mystical order of assassins founded in Japan. They are among Daredevil's greatest foes.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15776/8924343-hand.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/8924343-hand.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15776/8924343-hand.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15776/8924343-hand.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15776/8924343-hand.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/8924343-hand.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/8924343-hand.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15776/8924343-hand.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15776/8924343-hand.jpg",
+        "image_tags": "All Images,The Hand"
+      },
+      "name": "The Hand",
+      "site_detail_url": "https://comicvine.gamespot.com/the-hand/4060-1800/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-2171/",
+      "deck": "The Thunderiders are a team of world class motorcycle racing and stunt drivers. The team is secretly comprised of mutants who share a psychic link with one another.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/11352/499733-pinup_marauder.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/11352/499733-pinup_marauder.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/11352/499733-pinup_marauder.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/11352/499733-pinup_marauder.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/11352/499733-pinup_marauder.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/11352/499733-pinup_marauder.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/11352/499733-pinup_marauder.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/11352/499733-pinup_marauder.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/11352/499733-pinup_marauder.jpg",
+        "image_tags": "All Images,gallery"
+      },
+      "name": "Thunderiders",
+      "site_detail_url": "https://comicvine.gamespot.com/thunderiders/4060-2171/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-2508/",
+      "deck": "An animal themed team of villains.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/5586/474224-ani1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/5586/474224-ani1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/5586/474224-ani1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/5586/474224-ani1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/5586/474224-ani1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/5586/474224-ani1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/5586/474224-ani1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/5586/474224-ani1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/5586/474224-ani1.jpg",
+        "image_tags": "All Images,Ani-Men"
+      },
+      "name": "Ani-Men",
+      "site_detail_url": "https://comicvine.gamespot.com/ani-men/4060-2508/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-3173/",
+      "deck": "The X-Men are a superhero team of mutants founded by Professor Charles Xavier. They are dedicated to helping fellow mutants and sworn to protect a world that fears and hates them.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/12/124259/8717944-ezgif-1-47a0b8de56.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/12/124259/8717944-ezgif-1-47a0b8de56.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/12/124259/8717944-ezgif-1-47a0b8de56.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/12/124259/8717944-ezgif-1-47a0b8de56.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/8717944-ezgif-1-47a0b8de56.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/8717944-ezgif-1-47a0b8de56.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/8717944-ezgif-1-47a0b8de56.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/12/124259/8717944-ezgif-1-47a0b8de56.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/12/124259/8717944-ezgif-1-47a0b8de56.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "X-Men",
+      "site_detail_url": "https://comicvine.gamespot.com/x-men/4060-3173/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-3191/",
+      "deck": "Outcasts from society, the Morlocks were a community of mutants who lived in tunnels beneath New York City and its vicinity.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/462/79461-179332-morlocks.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/462/79461-179332-morlocks.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/462/79461-179332-morlocks.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/462/79461-179332-morlocks.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/462/79461-179332-morlocks.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/462/79461-179332-morlocks.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/462/79461-179332-morlocks.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/462/79461-179332-morlocks.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/462/79461-179332-morlocks.jpg",
+        "image_tags": "All Images,Alternate Team"
+      },
+      "name": "Morlocks",
+      "site_detail_url": "https://comicvine.gamespot.com/morlocks/4060-3191/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-3199/",
+      "deck": "As often as there has been a teen/junior X-team, there has been a team of Hellions to antagonize them. Originally created by the White Queen of the Hellfire Club to fight the New Mutants.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/12/124259/7292798-jan200820.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/12/124259/7292798-jan200820.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/12/124259/7292798-jan200820.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/12/124259/7292798-jan200820.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/7292798-jan200820.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/7292798-jan200820.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/7292798-jan200820.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/12/124259/7292798-jan200820.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/12/124259/7292798-jan200820.jpg",
+        "image_tags": "All Images,Krakoa team"
+      },
+      "name": "Hellions",
+      "site_detail_url": "https://comicvine.gamespot.com/hellions/4060-3199/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-3238/",
+      "deck": "Simon Utrecht and his compatriots attempt to recreate the historic flight of the Fantastic Four, with mixed results.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15776/1079140-u_foes1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/1079140-u_foes1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15776/1079140-u_foes1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15776/1079140-u_foes1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15776/1079140-u_foes1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/1079140-u_foes1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/1079140-u_foes1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15776/1079140-u_foes1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15776/1079140-u_foes1.jpg",
+        "image_tags": "All Images,Earth-616 U-Foes,Suit"
+      },
+      "name": "U-Foes",
+      "site_detail_url": "https://comicvine.gamespot.com/u-foes/4060-3238/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-3266/",
+      "deck": "Once they were seven ordinary human beings. Then they began to develop bizarre superhuman powers. They met at a clinic set up to deal with paranormal problems like theirs, but left when they discovered something sinister was going on there. Banding together for their own protection, they became D.P.7!",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/117763/2555903-detail.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2555903-detail.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/117763/2555903-detail.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/117763/2555903-detail.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/117763/2555903-detail.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/117763/2555903-detail.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/117763/2555903-detail.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/117763/2555903-detail.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/117763/2555903-detail.jpg",
+        "image_tags": "All Images,Charly Beck,D.P.7.,David Landers,Gallery,Jeff Walters,Lenore Fenzl"
+      },
+      "name": "D.P.7",
+      "site_detail_url": "https://comicvine.gamespot.com/dp7/4060-3266/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-3480/",
+      "deck": "A worldwide subversive organization dedicated to global domination.  At its height, HYDRA was the most extensive, powerful, and dangerous organization in history.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/117763/2781621-hydralogo.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2781621-hydralogo.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/117763/2781621-hydralogo.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/117763/2781621-hydralogo.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/117763/2781621-hydralogo.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/117763/2781621-hydralogo.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/117763/2781621-hydralogo.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/117763/2781621-hydralogo.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/117763/2781621-hydralogo.jpg",
+        "image_tags": "All Images,Earth-616 Hydra"
+      },
+      "name": "HYDRA",
+      "site_detail_url": "https://comicvine.gamespot.com/hydra/4060-3480/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-3775/",
+      "deck": "A U.N. affiliated intelligence agency dealing primarily with terrorism and superhuman threats that was originally founded by the U.S. government.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/39636/2424505-cv2.jpeg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/39636/2424505-cv2.jpeg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/39636/2424505-cv2.jpeg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/39636/2424505-cv2.jpeg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/39636/2424505-cv2.jpeg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/39636/2424505-cv2.jpeg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/39636/2424505-cv2.jpeg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/39636/2424505-cv2.jpeg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/39636/2424505-cv2.jpeg",
+        "image_tags": "All Images"
+      },
+      "name": "S.H.I.E.L.D.",
+      "site_detail_url": "https://comicvine.gamespot.com/shield/4060-3775/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-3804/",
+      "deck": "An intrepid group of astronauts: Reed Richards, Sue Storm, Johnny Storm, and Ben Grimm originally received their powers after being exposed to an immense amount of cosmic radiation during a trip into space. Mutated and given strange powers by this exposure, they became the Fantastic Four and dedicated their abilities to the good of humanity.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/12/124259/8113336-fantastic_four_vol_6_1_dell%27otto_exclusive_variant_textless.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/12/124259/8113336-fantastic_four_vol_6_1_dell%27otto_exclusive_variant_textless.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/12/124259/8113336-fantastic_four_vol_6_1_dell%27otto_exclusive_variant_textless.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/12/124259/8113336-fantastic_four_vol_6_1_dell%27otto_exclusive_variant_textless.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/8113336-fantastic_four_vol_6_1_dell%27otto_exclusive_variant_textless.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/8113336-fantastic_four_vol_6_1_dell%27otto_exclusive_variant_textless.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/8113336-fantastic_four_vol_6_1_dell%27otto_exclusive_variant_textless.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/12/124259/8113336-fantastic_four_vol_6_1_dell%27otto_exclusive_variant_textless.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/12/124259/8113336-fantastic_four_vol_6_1_dell%27otto_exclusive_variant_textless.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Fantastic Four",
+      "site_detail_url": "https://comicvine.gamespot.com/fantastic-four/4060-3804/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-3806/",
+      "deck": "The Avengers are Earth's mightiest heroes and foremost super-team... \"There came a day, a day unlike any other, when Earth's mightiest heroes found themselves united against a common threat. On that day, the Avengers were born - to fight the foes no single super hero could withstand! Heed the call, then - for now, the Avengers Assemble!\"",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/12/124259/8947068-33.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/12/124259/8947068-33.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/12/124259/8947068-33.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/12/124259/8947068-33.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/8947068-33.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/8947068-33.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/8947068-33.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/12/124259/8947068-33.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/12/124259/8947068-33.jpg",
+        "image_tags": "All Images,Earth-616 Avengers"
+      },
+      "name": "Avengers",
+      "site_detail_url": "https://comicvine.gamespot.com/avengers/4060-3806/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-4101/",
+      "deck": "A group of humans armed with giant Robots. They called themselves the Shogun Warriors and lived and worked in Japan.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/6/64684/1492537-shogun.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/64684/1492537-shogun.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/6/64684/1492537-shogun.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/6/64684/1492537-shogun.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/6/64684/1492537-shogun.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/6/64684/1492537-shogun.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/6/64684/1492537-shogun.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/6/64684/1492537-shogun.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/6/64684/1492537-shogun.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Shogun Warriors",
+      "site_detail_url": "https://comicvine.gamespot.com/shogun-warriors/4060-4101/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-4296/",
+      "deck": "Advanced androids designed to hunt down and eliminate mutants.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/117763/2573288-tumblr_m9a6zwqulc1qiknbco1_1280.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2573288-tumblr_m9a6zwqulc1qiknbco1_1280.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/117763/2573288-tumblr_m9a6zwqulc1qiknbco1_1280.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/117763/2573288-tumblr_m9a6zwqulc1qiknbco1_1280.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/117763/2573288-tumblr_m9a6zwqulc1qiknbco1_1280.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/117763/2573288-tumblr_m9a6zwqulc1qiknbco1_1280.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/117763/2573288-tumblr_m9a6zwqulc1qiknbco1_1280.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/117763/2573288-tumblr_m9a6zwqulc1qiknbco1_1280.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/117763/2573288-tumblr_m9a6zwqulc1qiknbco1_1280.jpg",
+        "image_tags": "All Images,Artwork,Earth-616 Colossus,Earth-616 Cyclops,Earth-616 Nightcrawler,Earth-616 Sentinels,Earth-616 Storm,Earth-616 Wolverine,Earth-616 X-Men,MU Toyline Artwork"
+      },
+      "name": "Sentinels",
+      "site_detail_url": "https://comicvine.gamespot.com/sentinels/4060-4296/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-4443/",
+      "deck": "The Stepford Cuckoos are five powerful telepaths - cloned daughters of Emma Frost's - who can combine their telepathic abilities to create a much more powerful hive-mind. The Cuckoos are currently acting as psychic emissaries to the mutant nation & are residing at The White Palace in Krakoa with Emma Frost.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/12/124259/8102811-marauders_vol_1_23_aspinall_variant_textless.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/12/124259/8102811-marauders_vol_1_23_aspinall_variant_textless.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/12/124259/8102811-marauders_vol_1_23_aspinall_variant_textless.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/12/124259/8102811-marauders_vol_1_23_aspinall_variant_textless.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/8102811-marauders_vol_1_23_aspinall_variant_textless.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/8102811-marauders_vol_1_23_aspinall_variant_textless.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/8102811-marauders_vol_1_23_aspinall_variant_textless.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/12/124259/8102811-marauders_vol_1_23_aspinall_variant_textless.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/12/124259/8102811-marauders_vol_1_23_aspinall_variant_textless.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Stepford Cuckoos",
+      "site_detail_url": "https://comicvine.gamespot.com/stepford-cuckoos/4060-4443/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-4951/",
+      "deck": "An engineering and construction company that specializes in repairing property damage caused by superhero conflicts.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/117763/2727286-ohotmu_a_to_z__2___page_10.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2727286-ohotmu_a_to_z__2___page_10.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/117763/2727286-ohotmu_a_to_z__2___page_10.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/117763/2727286-ohotmu_a_to_z__2___page_10.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/117763/2727286-ohotmu_a_to_z__2___page_10.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/117763/2727286-ohotmu_a_to_z__2___page_10.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/117763/2727286-ohotmu_a_to_z__2___page_10.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/117763/2727286-ohotmu_a_to_z__2___page_10.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/117763/2727286-ohotmu_a_to_z__2___page_10.jpg",
+        "image_tags": "All Images,Logos"
+      },
+      "name": "Damage Control",
+      "site_detail_url": "https://comicvine.gamespot.com/damage-control/4060-4951/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-4987/",
+      "deck": "The Brood are a race of alien parasites that reproduce by implanting their eggs in others. They are a recurring enemy of the X-Men, Sh'iar, Carol Danvers and others in the Marvel Universe.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/77/229769-25848-brood.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/229769-25848-brood.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/77/229769-25848-brood.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/77/229769-25848-brood.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/77/229769-25848-brood.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/77/229769-25848-brood.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/77/229769-25848-brood.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/77/229769-25848-brood.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/77/229769-25848-brood.jpg",
+        "image_tags": "All Images,Earth-616 Brood"
+      },
+      "name": "Brood",
+      "site_detail_url": "https://comicvine.gamespot.com/brood/4060-4987/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-5018/",
+      "deck": "Weapon X is a program started by Weapon Plus. Their job is to create super soldiers for the government. Many have gone through the Weapon X program, including Deadpool &amp; Wolverine.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/117763/3149197-weaponx00002.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/3149197-weaponx00002.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/117763/3149197-weaponx00002.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/117763/3149197-weaponx00002.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/117763/3149197-weaponx00002.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/117763/3149197-weaponx00002.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/117763/3149197-weaponx00002.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/117763/3149197-weaponx00002.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/117763/3149197-weaponx00002.jpg",
+        "image_tags": "All Images,Artwork,Earth-616 Abraham Cornelius,Earth-616 Brent Jackson,Earth-616 Carol Hines,Earth-616 Director,Earth-616 Kane,Earth-616 Maverick,Earth-616 Mesmero,Earth-616 Professor,Earth-616 Rich Duncan,Earth-616 Sabretooth,Earth-616 Team X,Earth-616 Weapon X,Earth-616 Wolverine,Earth-616 Zanna Zira"
+      },
+      "name": "Weapon X Program",
+      "site_detail_url": "https://comicvine.gamespot.com/weapon-x-program/4060-5018/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-5196/",
+      "deck": "Youngblood is a team of superheroes formed by the United States government to be the next generation of heroes.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/13/134753/6673743-8b5f9e70-6e2d-44f9-b1ae-0a141274503a.jpeg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/13/134753/6673743-8b5f9e70-6e2d-44f9-b1ae-0a141274503a.jpeg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/13/134753/6673743-8b5f9e70-6e2d-44f9-b1ae-0a141274503a.jpeg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/13/134753/6673743-8b5f9e70-6e2d-44f9-b1ae-0a141274503a.jpeg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/13/134753/6673743-8b5f9e70-6e2d-44f9-b1ae-0a141274503a.jpeg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/13/134753/6673743-8b5f9e70-6e2d-44f9-b1ae-0a141274503a.jpeg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/13/134753/6673743-8b5f9e70-6e2d-44f9-b1ae-0a141274503a.jpeg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/13/134753/6673743-8b5f9e70-6e2d-44f9-b1ae-0a141274503a.jpeg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/13/134753/6673743-8b5f9e70-6e2d-44f9-b1ae-0a141274503a.jpeg",
+        "image_tags": "All Images"
+      },
+      "name": "Youngblood",
+      "site_detail_url": "https://comicvine.gamespot.com/youngblood/4060-5196/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-5289/",
+      "deck": "A rogue mercenary team lead by Battlestone. Brigade has fought against corrupt government agencies.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11131/111318833/5796605-brigade.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11131/111318833/5796605-brigade.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11131/111318833/5796605-brigade.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11131/111318833/5796605-brigade.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11131/111318833/5796605-brigade.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11131/111318833/5796605-brigade.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11131/111318833/5796605-brigade.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11131/111318833/5796605-brigade.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11131/111318833/5796605-brigade.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Brigade",
+      "site_detail_url": "https://comicvine.gamespot.com/brigade/4060-5289/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-5701/",
+      "deck": "The World's Strangest Heroes. A team of outcasts, with some of the most bizarre powers, and abilities gathered together by Niles Caulder (The Chief) to battle evil.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11111/111113340/9032620-unstoppable-doom-patrol-7-1-25-variant.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11111/111113340/9032620-unstoppable-doom-patrol-7-1-25-variant.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11111/111113340/9032620-unstoppable-doom-patrol-7-1-25-variant.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11111/111113340/9032620-unstoppable-doom-patrol-7-1-25-variant.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11111/111113340/9032620-unstoppable-doom-patrol-7-1-25-variant.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11111/111113340/9032620-unstoppable-doom-patrol-7-1-25-variant.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11111/111113340/9032620-unstoppable-doom-patrol-7-1-25-variant.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11111/111113340/9032620-unstoppable-doom-patrol-7-1-25-variant.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11111/111113340/9032620-unstoppable-doom-patrol-7-1-25-variant.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Doom Patrol",
+      "site_detail_url": "https://comicvine.gamespot.com/doom-patrol/4060-5701/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-5704/",
+      "deck": "The Outsiders is a group of Batman-adjacent, non-primary superheroes in the DC Universe that handles major threats that are endangering the Earth and its people from outside the system.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/12/124259/8501817-ezgif-5-e45a4e2b93.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/12/124259/8501817-ezgif-5-e45a4e2b93.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/12/124259/8501817-ezgif-5-e45a4e2b93.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/12/124259/8501817-ezgif-5-e45a4e2b93.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/8501817-ezgif-5-e45a4e2b93.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/8501817-ezgif-5-e45a4e2b93.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/8501817-ezgif-5-e45a4e2b93.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/12/124259/8501817-ezgif-5-e45a4e2b93.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/12/124259/8501817-ezgif-5-e45a4e2b93.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Outsiders",
+      "site_detail_url": "https://comicvine.gamespot.com/outsiders/4060-5704/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-5712/",
+      "deck": "A group of robotic superheroes created by William Magnus. Each of them are constructed with a responsometer, a device that gives them human intelligence and personalities and allows them to control their given element.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11114/111147698/7021561-ahr0cdovl3d3dy5uzxdzyxjhbweuy29tl2ltywdlcy9plzawmc8ynjavmza3l29yawdpbmfsl01ldgfsx01lbl9ddjeuanbnpze1njmymdy1nde%3D.jpeg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11114/111147698/7021561-ahr0cdovl3d3dy5uzxdzyxjhbweuy29tl2ltywdlcy9plzawmc8ynjavmza3l29yawdpbmfsl01ldgfsx01lbl9ddjeuanbnpze1njmymdy1nde%3D.jpeg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11114/111147698/7021561-ahr0cdovl3d3dy5uzxdzyxjhbweuy29tl2ltywdlcy9plzawmc8ynjavmza3l29yawdpbmfsl01ldgfsx01lbl9ddjeuanbnpze1njmymdy1nde%3D.jpeg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11114/111147698/7021561-ahr0cdovl3d3dy5uzxdzyxjhbweuy29tl2ltywdlcy9plzawmc8ynjavmza3l29yawdpbmfsl01ldgfsx01lbl9ddjeuanbnpze1njmymdy1nde%3D.jpeg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11114/111147698/7021561-ahr0cdovl3d3dy5uzxdzyxjhbweuy29tl2ltywdlcy9plzawmc8ynjavmza3l29yawdpbmfsl01ldgfsx01lbl9ddjeuanbnpze1njmymdy1nde%3D.jpeg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11114/111147698/7021561-ahr0cdovl3d3dy5uzxdzyxjhbweuy29tl2ltywdlcy9plzawmc8ynjavmza3l29yawdpbmfsl01ldgfsx01lbl9ddjeuanbnpze1njmymdy1nde%3D.jpeg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11114/111147698/7021561-ahr0cdovl3d3dy5uzxdzyxjhbweuy29tl2ltywdlcy9plzawmc8ynjavmza3l29yawdpbmfsl01ldgfsx01lbl9ddjeuanbnpze1njmymdy1nde%3D.jpeg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11114/111147698/7021561-ahr0cdovl3d3dy5uzxdzyxjhbweuy29tl2ltywdlcy9plzawmc8ynjavmza3l29yawdpbmfsl01ldgfsx01lbl9ddjeuanbnpze1njmymdy1nde%3D.jpeg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11114/111147698/7021561-ahr0cdovl3d3dy5uzxdzyxjhbweuy29tl2ltywdlcy9plzawmc8ynjavmza3l29yawdpbmfsl01ldgfsx01lbl9ddjeuanbnpze1njmymdy1nde%3D.jpeg",
+        "image_tags": "All Images"
+      },
+      "name": "Metal Men",
+      "site_detail_url": "https://comicvine.gamespot.com/metal-men/4060-5712/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-6097/",
+      "deck": "The Imperial Guard is a legion of superpowered champions who protect and defend the Shi'ar galactic empire.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/77/1005084-prv3685_pg5.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/1005084-prv3685_pg5.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/77/1005084-prv3685_pg5.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/77/1005084-prv3685_pg5.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/77/1005084-prv3685_pg5.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/77/1005084-prv3685_pg5.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/77/1005084-prv3685_pg5.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/77/1005084-prv3685_pg5.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/77/1005084-prv3685_pg5.jpg",
+        "image_tags": "All Images,Earth-616 Imperial Guard"
+      },
+      "name": "Imperial Guard",
+      "site_detail_url": "https://comicvine.gamespot.com/imperial-guard/4060-6097/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-6331/",
+      "deck": "Ewoks are a small teddy bear like species that is native to the planet Endor.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/19151/367187-154544-ewoks.JPG",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/19151/367187-154544-ewoks.JPG",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/19151/367187-154544-ewoks.JPG",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/19151/367187-154544-ewoks.JPG",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/19151/367187-154544-ewoks.JPG",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/19151/367187-154544-ewoks.JPG",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/19151/367187-154544-ewoks.JPG",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/19151/367187-154544-ewoks.JPG",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/19151/367187-154544-ewoks.JPG",
+        "image_tags": "All Images,gallery"
+      },
+      "name": "Ewoks",
+      "site_detail_url": "https://comicvine.gamespot.com/ewoks/4060-6331/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-6796/",
+      "deck": "The Bacchae are loyal servants to Hippolyta and Hades.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/5586/551687-ba1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/5586/551687-ba1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/5586/551687-ba1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/5586/551687-ba1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/5586/551687-ba1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/5586/551687-ba1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/5586/551687-ba1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/5586/551687-ba1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/5586/551687-ba1.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Bacchae",
+      "site_detail_url": "https://comicvine.gamespot.com/bacchae/4060-6796/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-6889/",
+      "deck": "The Madmen are a gang of misfits who wear brightly colored costumes.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/6/64770/2194801-madmen.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/64770/2194801-madmen.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/6/64770/2194801-madmen.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/6/64770/2194801-madmen.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/6/64770/2194801-madmen.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/6/64770/2194801-madmen.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/6/64770/2194801-madmen.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/6/64770/2194801-madmen.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/6/64770/2194801-madmen.jpg",
+        "image_tags": "All Images,Comics"
+      },
+      "name": "Madmen",
+      "site_detail_url": "https://comicvine.gamespot.com/madmen/4060-6889/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-6905/",
+      "deck": "The Royal Flush Gang is a group of card-themed supervillains in the DC Universe.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/7658/355426-48867-royal-flush-gang.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/7658/355426-48867-royal-flush-gang.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/7658/355426-48867-royal-flush-gang.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/7658/355426-48867-royal-flush-gang.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/7658/355426-48867-royal-flush-gang.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/7658/355426-48867-royal-flush-gang.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/7658/355426-48867-royal-flush-gang.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/7658/355426-48867-royal-flush-gang.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/7658/355426-48867-royal-flush-gang.jpg",
+        "image_tags": "All Images,Royal Flush Gang"
+      },
+      "name": "Royal Flush Gang",
+      "site_detail_url": "https://comicvine.gamespot.com/royal-flush-gang/4060-6905/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-6992/",
+      "deck": "The Green Lantern Corps is an intergalactic police force dedicated to the promotion of order and democracy throughout the universe. Each Green Lantern member protects a sector and it is their duty to defend it from any possible threat.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11114/111147698/4849177-crd-xiywuaaqnca.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11114/111147698/4849177-crd-xiywuaaqnca.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11114/111147698/4849177-crd-xiywuaaqnca.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11114/111147698/4849177-crd-xiywuaaqnca.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11114/111147698/4849177-crd-xiywuaaqnca.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11114/111147698/4849177-crd-xiywuaaqnca.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11114/111147698/4849177-crd-xiywuaaqnca.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11114/111147698/4849177-crd-xiywuaaqnca.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11114/111147698/4849177-crd-xiywuaaqnca.jpg",
+        "image_tags": "All Images,DC New 52"
+      },
+      "name": "Green Lantern Corps",
+      "site_detail_url": "https://comicvine.gamespot.com/green-lantern-corps/4060-6992/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-7115/",
+      "deck": "Scrier is the name of a secretive cult based on the cosmic entity called Scrier.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/77/190470-131056-scrier.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/190470-131056-scrier.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/77/190470-131056-scrier.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/77/190470-131056-scrier.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/77/190470-131056-scrier.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/77/190470-131056-scrier.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/77/190470-131056-scrier.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/77/190470-131056-scrier.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/77/190470-131056-scrier.jpg",
+        "image_tags": "All Images,Scrier"
+      },
+      "name": "Cabal of Scrier",
+      "site_detail_url": "https://comicvine.gamespot.com/cabal-of-scrier/4060-7115/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-7417/",
+      "deck": "Cobra (also called Cobra Command or Cobra Organization) is the nemesis of the G.I. Joe team.   Along with battling G.I. Joe, the members of Cobra are dealing with numerous internal power struggles.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/114183/5754116-cobralogo.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/114183/5754116-cobralogo.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/114183/5754116-cobralogo.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/114183/5754116-cobralogo.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/114183/5754116-cobralogo.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/114183/5754116-cobralogo.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/114183/5754116-cobralogo.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/114183/5754116-cobralogo.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/114183/5754116-cobralogo.png",
+        "image_tags": "All Images"
+      },
+      "name": "COBRA",
+      "site_detail_url": "https://comicvine.gamespot.com/cobra/4060-7417/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-7582/",
+      "deck": "The Masters of Evil is the name of various groups of super villains and their motive is usually to defeat or humiliate the Avengers. Leaders have included both Baron Zemos, Ultron, the Mandarin, Klaw, Doctor Octopus, Egghead, the Crimson Cowl, Machinesmith, Whirlwind,  the Hood, Jonas Harrow, Max Fury and Lightmaster.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/117763/2831969-siege__3___page_9.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2831969-siege__3___page_9.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/117763/2831969-siege__3___page_9.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/117763/2831969-siege__3___page_9.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/117763/2831969-siege__3___page_9.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/117763/2831969-siege__3___page_9.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/117763/2831969-siege__3___page_9.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/117763/2831969-siege__3___page_9.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/117763/2831969-siege__3___page_9.jpg",
+        "image_tags": "All Images,Art,Earth-616 Blackout,Earth-616 Brothers Grimm,Earth-616 Bulldozer,Earth-616 Corruptor,Earth-616 Cutthroat,Earth-616 Deathwatch,Earth-616 Griffin,Earth-616 Hood,Earth-616 Madame Masque,Earth-616 Mandrill,Earth-616 Masters of Evil,Earth-616 Mockingbird,Earth-616 Piledriver,Earth-616 Ronin,Earth-616 Scarecrow,Earth-616 Thunderball,Earth-616 Wrecker"
+      },
+      "name": "Masters of Evil",
+      "site_detail_url": "https://comicvine.gamespot.com/masters-of-evil/4060-7582/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-7588/",
+      "deck": "The Kree are a militant race with a vast empire.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/1513/87122-7509-kree.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/1513/87122-7509-kree.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/1513/87122-7509-kree.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/1513/87122-7509-kree.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/1513/87122-7509-kree.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/1513/87122-7509-kree.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/1513/87122-7509-kree.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/1513/87122-7509-kree.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/1513/87122-7509-kree.jpg",
+        "image_tags": "All Images,Kree"
+      },
+      "name": "Kree",
+      "site_detail_url": "https://comicvine.gamespot.com/kree/4060-7588/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-7715/",
+      "deck": "The Dreadnoks are Zartan's mercenary team.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/229/90339-2626-dreadnoks.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/229/90339-2626-dreadnoks.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/229/90339-2626-dreadnoks.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/229/90339-2626-dreadnoks.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/229/90339-2626-dreadnoks.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/229/90339-2626-dreadnoks.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/229/90339-2626-dreadnoks.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/229/90339-2626-dreadnoks.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/229/90339-2626-dreadnoks.jpg",
+        "image_tags": "All Images,Dreadnoks"
+      },
+      "name": "Dreadnoks",
+      "site_detail_url": "https://comicvine.gamespot.com/dreadnoks/4060-7715/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-7903/",
+      "deck": "An organization of both highly skilled and superhuman assassins founded by Candra of the Externals.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/6/60598/1374032-prv6161_pg1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/60598/1374032-prv6161_pg1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/6/60598/1374032-prv6161_pg1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/6/60598/1374032-prv6161_pg1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/6/60598/1374032-prv6161_pg1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/6/60598/1374032-prv6161_pg1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/6/60598/1374032-prv6161_pg1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/6/60598/1374032-prv6161_pg1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/6/60598/1374032-prv6161_pg1.jpg",
+        "image_tags": "All Images,Assassins Guild"
+      },
+      "name": "Assassins Guild",
+      "site_detail_url": "https://comicvine.gamespot.com/assassins-guild/4060-7903/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-7906/",
+      "deck": "Originally a group of pick-pockets and thieves, the Fallen Angels later consisted of runaway young mutants and cyborgs who had an intergalactic adventure.\nRecently, Revanche (now renamed Psylocke) formed a new team along with X-23 and the time-displaced Cable.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/10/101073/2023378-angels.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/10/101073/2023378-angels.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/10/101073/2023378-angels.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/10/101073/2023378-angels.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/10/101073/2023378-angels.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/10/101073/2023378-angels.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/10/101073/2023378-angels.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/10/101073/2023378-angels.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/10/101073/2023378-angels.png",
+        "image_tags": "All Images"
+      },
+      "name": "Fallen Angels",
+      "site_detail_url": "https://comicvine.gamespot.com/fallen-angels/4060-7906/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-7972/",
+      "deck": "Team of British super-heroes dedicated to fighting Mys-Tech throughout time and space. Dark Angel is the team's leader.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15317/301749-65367-dark-guard.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15317/301749-65367-dark-guard.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15317/301749-65367-dark-guard.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15317/301749-65367-dark-guard.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15317/301749-65367-dark-guard.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15317/301749-65367-dark-guard.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15317/301749-65367-dark-guard.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15317/301749-65367-dark-guard.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15317/301749-65367-dark-guard.jpg",
+        "image_tags": "All Images,Dark Guard"
+      },
+      "name": "Dark Guard",
+      "site_detail_url": "https://comicvine.gamespot.com/dark-guard/4060-7972/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-8178/",
+      "deck": "The Cylons (Cybernetic Lifeform Node) are a robotic race in the Battlestar Galactica Franchise. They first appeared in the original series and in the next series. Cylon is also the name of the alien race who created them.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/3848/227970-195822-cylons.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3848/227970-195822-cylons.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/3848/227970-195822-cylons.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/3848/227970-195822-cylons.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/3848/227970-195822-cylons.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/3848/227970-195822-cylons.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/3848/227970-195822-cylons.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/3848/227970-195822-cylons.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/3848/227970-195822-cylons.jpg",
+        "image_tags": "All Images,Cylons"
+      },
+      "name": "Cylons",
+      "site_detail_url": "https://comicvine.gamespot.com/cylons/4060-8178/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-9057/",
+      "deck": "A race of immensely powerful immortals living on Oa, the planet at the center of the universe, who founded and run the Green Lantern Corps.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/10/100647/4144070-878249-black_risen006.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/10/100647/4144070-878249-black_risen006.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/10/100647/4144070-878249-black_risen006.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/10/100647/4144070-878249-black_risen006.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/10/100647/4144070-878249-black_risen006.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/10/100647/4144070-878249-black_risen006.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/10/100647/4144070-878249-black_risen006.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/10/100647/4144070-878249-black_risen006.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/10/100647/4144070-878249-black_risen006.jpg",
+        "image_tags": "All Images,Guardians of the Universe,Images From Editing"
+      },
+      "name": "Guardians of the Universe",
+      "site_detail_url": "https://comicvine.gamespot.com/guardians-of-the-universe/4060-9057/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-9483/",
+      "deck": "Code Blue is a special unit of the NYPD designed to deal with super-powered threats.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/117763/3240444-ohotmu%20a%20to%20z%20%232%20-%20page%2060.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/3240444-ohotmu%20a%20to%20z%20%232%20-%20page%2060.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/117763/3240444-ohotmu%20a%20to%20z%20%232%20-%20page%2060.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/117763/3240444-ohotmu%20a%20to%20z%20%232%20-%20page%2060.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/117763/3240444-ohotmu%20a%20to%20z%20%232%20-%20page%2060.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/117763/3240444-ohotmu%20a%20to%20z%20%232%20-%20page%2060.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/117763/3240444-ohotmu%20a%20to%20z%20%232%20-%20page%2060.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/117763/3240444-ohotmu%20a%20to%20z%20%232%20-%20page%2060.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/117763/3240444-ohotmu%20a%20to%20z%20%232%20-%20page%2060.jpg",
+        "image_tags": "All Images,Earth-616 Code: Blue"
+      },
+      "name": "Code: Blue",
+      "site_detail_url": "https://comicvine.gamespot.com/code-blue/4060-9483/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-9591/",
+      "deck": "The League of Assassins is an ancient army of killers led by Ra's al Ghul that often comes into conflict with Batman. Many of the greatest martial artists and mercenaries in the DCU have been members of the League of Assassins at some point.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/18154/5803636-8004032594-latest",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/18154/5803636-8004032594-latest",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/18154/5803636-8004032594-latest",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/18154/5803636-8004032594-latest",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/18154/5803636-8004032594-latest",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/18154/5803636-8004032594-latest",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/18154/5803636-8004032594-latest",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/18154/5803636-8004032594-latest",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/18154/5803636-8004032594-latest",
+        "image_tags": "All Images,Comics"
+      },
+      "name": "League of Assassins",
+      "site_detail_url": "https://comicvine.gamespot.com/league-of-assassins/4060-9591/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-9726/",
+      "deck": "The Reavers are a group of cyborgs that are most known for their criminal activity, and their hatred of mutants including the X-Men.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/12/124259/7815513-rco014_1613570167.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/12/124259/7815513-rco014_1613570167.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/12/124259/7815513-rco014_1613570167.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/12/124259/7815513-rco014_1613570167.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/7815513-rco014_1613570167.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/7815513-rco014_1613570167.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/7815513-rco014_1613570167.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/12/124259/7815513-rco014_1613570167.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/12/124259/7815513-rco014_1613570167.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Reavers",
+      "site_detail_url": "https://comicvine.gamespot.com/reavers/4060-9726/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-9727/",
+      "deck": "The Young, The Rich, The Powerful and the elite! The Upstarts would enter a game of death and deception to gain power. Though Selene founded them, it would be the Gamesmaster who would call the shots.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/229/84868-190618-upstarts.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/229/84868-190618-upstarts.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/229/84868-190618-upstarts.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/229/84868-190618-upstarts.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/229/84868-190618-upstarts.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/229/84868-190618-upstarts.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/229/84868-190618-upstarts.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/229/84868-190618-upstarts.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/229/84868-190618-upstarts.jpg",
+        "image_tags": "All Images,Upstarts"
+      },
+      "name": "Upstarts",
+      "site_detail_url": "https://comicvine.gamespot.com/upstarts/4060-9727/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-9730/",
+      "deck": "The Acolytes are a group of mutants that followed Magneto's ideals and believed in a society where humans are dominated by mutants formed by Fabian Cortez.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/77/79022-149714-acolytes.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/79022-149714-acolytes.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/77/79022-149714-acolytes.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/77/79022-149714-acolytes.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/77/79022-149714-acolytes.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/77/79022-149714-acolytes.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/77/79022-149714-acolytes.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/77/79022-149714-acolytes.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/77/79022-149714-acolytes.jpg",
+        "image_tags": "All Images,Earth 616 Acolytes"
+      },
+      "name": "Acolytes",
+      "site_detail_url": "https://comicvine.gamespot.com/acolytes/4060-9730/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-10977/",
+      "deck": "Created by Iron Man following the deaths of the Avengers in a battle with the Absorbing Man, The Iron Avengers were modelled after the fallen heroes and were led by the Vision. Following the death of Iron Man, Black Knight took over leading the Iron Avengers.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/117763/3324723-ironmen1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/3324723-ironmen1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/117763/3324723-ironmen1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/117763/3324723-ironmen1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/117763/3324723-ironmen1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/117763/3324723-ironmen1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/117763/3324723-ironmen1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/117763/3324723-ironmen1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/117763/3324723-ironmen1.jpg",
+        "image_tags": "All Images,Alternate Earths,Artwork,Earth-9997 Bolt,Earth-9997 Crimson Sage,Earth-9997 Iron Avengers,Earth-9997 Iron Maiden,Earth-9997 Jade Dragon,Earth-9997 Monolith,Earth-9997 Steelbow,Earth-9997 Sting"
+      },
+      "name": "Iron Avengers",
+      "site_detail_url": "https://comicvine.gamespot.com/iron-avengers/4060-10977/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-10980/",
+      "deck": "The Micronauts are a team of freedom fighters, explorers and adventurers. Originally dedicated to fighting the tyrant Baron Karza who enslaved most of their planets in the Microverse, the team has stayed together after his defeat, exploring the Microverse.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/13/134753/5883065-img_4773.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/13/134753/5883065-img_4773.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/13/134753/5883065-img_4773.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/13/134753/5883065-img_4773.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/13/134753/5883065-img_4773.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/13/134753/5883065-img_4773.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/13/134753/5883065-img_4773.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/13/134753/5883065-img_4773.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/13/134753/5883065-img_4773.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Micronauts",
+      "site_detail_url": "https://comicvine.gamespot.com/micronauts/4060-10980/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-11285/",
+      "deck": "An alien race that shared the world with the Martian Manhunter's people, but are alot more violent.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/77/170125-53202-white-martians.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/170125-53202-white-martians.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/77/170125-53202-white-martians.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/77/170125-53202-white-martians.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/77/170125-53202-white-martians.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/77/170125-53202-white-martians.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/77/170125-53202-white-martians.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/77/170125-53202-white-martians.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/77/170125-53202-white-martians.jpg",
+        "image_tags": "All Images,Comics"
+      },
+      "name": "White Martians",
+      "site_detail_url": "https://comicvine.gamespot.com/white-martians/4060-11285/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-11401/",
+      "deck": "The Quinntets were a comical team of henchmen that worked for Harley Quinn.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15659/1805902-283507_12514_quinntets.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15659/1805902-283507_12514_quinntets.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15659/1805902-283507_12514_quinntets.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15659/1805902-283507_12514_quinntets.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15659/1805902-283507_12514_quinntets.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15659/1805902-283507_12514_quinntets.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15659/1805902-283507_12514_quinntets.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15659/1805902-283507_12514_quinntets.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15659/1805902-283507_12514_quinntets.jpg",
+        "image_tags": "All Images,Full Team,Funny Images"
+      },
+      "name": "Quinntets",
+      "site_detail_url": "https://comicvine.gamespot.com/quinntets/4060-11401/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-11427/",
+      "deck": "The result of Kree experimentation on Homo Neanderthalensis using Terrigen Mist, The Inhumans are a race of super powered beings who live in isolation and do not trust humans.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/31666/3325624-1379703378.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/31666/3325624-1379703378.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/31666/3325624-1379703378.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/31666/3325624-1379703378.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/31666/3325624-1379703378.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/31666/3325624-1379703378.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/31666/3325624-1379703378.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/31666/3325624-1379703378.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/31666/3325624-1379703378.jpg",
+        "image_tags": "All Images,Art,Earth-616 - Maximus,Earth-616 Ahura,Earth-616 Black Bolt,Earth-616 Crystal,Earth-616 Gorgon,Earth-616 Inhumans,Earth-616 Karnak,Earth-616 Lockjaw,Earth-616 Medusa,Earth-616 Terrigen Crystals,Earth-616 Triton"
+      },
+      "name": "Inhumans",
+      "site_detail_url": "https://comicvine.gamespot.com/inhumans/4060-11427/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-11439/",
+      "deck": "Introduced as the nemesis to the Fantastic Four, the rotation has constantly changed but features the Wizard as its leader. Its current roster consists of the Wizard, Bulldozer (Marci Camp), Thunderball and Wrecker.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/77/125885-5016-frightful-four.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/125885-5016-frightful-four.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/77/125885-5016-frightful-four.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/77/125885-5016-frightful-four.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/77/125885-5016-frightful-four.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/77/125885-5016-frightful-four.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/77/125885-5016-frightful-four.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/77/125885-5016-frightful-four.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/77/125885-5016-frightful-four.jpg",
+        "image_tags": "All Images,Frightful Four"
+      },
+      "name": "Frightful Four",
+      "site_detail_url": "https://comicvine.gamespot.com/frightful-four/4060-11439/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-11482/",
+      "deck": "The O-Force was a celebrity mutant group, whose exploits where made into a reality series. They where the counterpart to the X-statix team, untill many members died during a mission.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/77/267578-47474-o-force.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/267578-47474-o-force.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/77/267578-47474-o-force.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/77/267578-47474-o-force.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/77/267578-47474-o-force.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/77/267578-47474-o-force.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/77/267578-47474-o-force.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/77/267578-47474-o-force.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/77/267578-47474-o-force.jpg",
+        "image_tags": "All Images,gallery"
+      },
+      "name": "O-Force",
+      "site_detail_url": "https://comicvine.gamespot.com/o-force/4060-11482/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-11485/",
+      "deck": "The X-Statix were a group of mutant heroes whose main goal was to achieve fame and fortune.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/117763/2498465-ohotmu_teams__1___page_49.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2498465-ohotmu_teams__1___page_49.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/117763/2498465-ohotmu_teams__1___page_49.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/117763/2498465-ohotmu_teams__1___page_49.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/117763/2498465-ohotmu_teams__1___page_49.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/117763/2498465-ohotmu_teams__1___page_49.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/117763/2498465-ohotmu_teams__1___page_49.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/117763/2498465-ohotmu_teams__1___page_49.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/117763/2498465-ohotmu_teams__1___page_49.jpg",
+        "image_tags": "All Images,X-Statix"
+      },
+      "name": "X-Statix",
+      "site_detail_url": "https://comicvine.gamespot.com/x-statix/4060-11485/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-11523/",
+      "deck": "The Watchers are some of the oldest beings in the universe. They remain perched throughout the universe using their advanced technology to record all events without interfering.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/117763/3334736-watchers.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/3334736-watchers.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/117763/3334736-watchers.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/117763/3334736-watchers.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/117763/3334736-watchers.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/117763/3334736-watchers.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/117763/3334736-watchers.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/117763/3334736-watchers.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/117763/3334736-watchers.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Watchers",
+      "site_detail_url": "https://comicvine.gamespot.com/the-watchers/4060-11523/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-11879/",
+      "deck": "Mercenaries working for Silver Sable",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/12/124259/8126567-amazing_spider-man_vol_5_69_textless.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/12/124259/8126567-amazing_spider-man_vol_5_69_textless.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/12/124259/8126567-amazing_spider-man_vol_5_69_textless.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/12/124259/8126567-amazing_spider-man_vol_5_69_textless.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/8126567-amazing_spider-man_vol_5_69_textless.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/8126567-amazing_spider-man_vol_5_69_textless.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/8126567-amazing_spider-man_vol_5_69_textless.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/12/124259/8126567-amazing_spider-man_vol_5_69_textless.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/12/124259/8126567-amazing_spider-man_vol_5_69_textless.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Wild Pack",
+      "site_detail_url": "https://comicvine.gamespot.com/wild-pack/4060-11879/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-11896/",
+      "deck": "A team of superpowered teens originally formed by Night Thrasher until they inadvertently started the Civil War. Ever since, they would go through multiple temporary incarnations but could never consistently stay together. ",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/12/124259/7283639-newwar2020001_cover.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/12/124259/7283639-newwar2020001_cover.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/12/124259/7283639-newwar2020001_cover.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/12/124259/7283639-newwar2020001_cover.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/7283639-newwar2020001_cover.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/7283639-newwar2020001_cover.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/7283639-newwar2020001_cover.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/12/124259/7283639-newwar2020001_cover.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/12/124259/7283639-newwar2020001_cover.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "New Warriors",
+      "site_detail_url": "https://comicvine.gamespot.com/new-warriors/4060-11896/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-12147/",
+      "deck": "Team of moronic degenerate wannabe heroes who actually helped save the day in one instance.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/31666/4453101-section_8_1_54fe292f47f982.39332614.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/31666/4453101-section_8_1_54fe292f47f982.39332614.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/31666/4453101-section_8_1_54fe292f47f982.39332614.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/31666/4453101-section_8_1_54fe292f47f982.39332614.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/31666/4453101-section_8_1_54fe292f47f982.39332614.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/31666/4453101-section_8_1_54fe292f47f982.39332614.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/31666/4453101-section_8_1_54fe292f47f982.39332614.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/31666/4453101-section_8_1_54fe292f47f982.39332614.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/31666/4453101-section_8_1_54fe292f47f982.39332614.jpg",
+        "image_tags": "All Images,Artwork,New 52,Section 8"
+      },
+      "name": "Section Eight",
+      "site_detail_url": "https://comicvine.gamespot.com/section-eight/4060-12147/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-12206/",
+      "deck": "G.I. Joe is America's elite fighting force. They are the best trained counter-terrorist team. The only defense against the villainous terrorist organization, Cobra.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/14/147237/8993722-2721105604-G.I.J.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/14/147237/8993722-2721105604-G.I.J.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/14/147237/8993722-2721105604-G.I.J.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/14/147237/8993722-2721105604-G.I.J.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/14/147237/8993722-2721105604-G.I.J.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/14/147237/8993722-2721105604-G.I.J.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/14/147237/8993722-2721105604-G.I.J.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/14/147237/8993722-2721105604-G.I.J.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/14/147237/8993722-2721105604-G.I.J.jpg",
+        "image_tags": "All Images,Image/Skybound"
+      },
+      "name": "G.I. Joe",
+      "site_detail_url": "https://comicvine.gamespot.com/gi-joe/4060-12206/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-12522/",
+      "deck": "The Wildebeest Society was a criminal cartel who conducted various underhanded affairs for financial gain.  Although the Society was made up of many members, only one Wildebeest ever operated publicly, giving the illusion that all of their crimes were being committed by a single individual.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/10/100647/5472944-untitled-2.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/10/100647/5472944-untitled-2.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/10/100647/5472944-untitled-2.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/10/100647/5472944-untitled-2.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/10/100647/5472944-untitled-2.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/10/100647/5472944-untitled-2.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/10/100647/5472944-untitled-2.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/10/100647/5472944-untitled-2.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/10/100647/5472944-untitled-2.jpg",
+        "image_tags": "All Images,Images From Editing,Wildebeest Society"
+      },
+      "name": "Wildebeest Society",
+      "site_detail_url": "https://comicvine.gamespot.com/wildebeest-society/4060-12522/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-13011/",
+      "deck": "A gang of kids who worked with the Guardian and were later involved with Project Cadmus. They represent a living symbols of a famous legend.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/30334/596055-jla2205.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/30334/596055-jla2205.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/30334/596055-jla2205.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/30334/596055-jla2205.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/30334/596055-jla2205.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/30334/596055-jla2205.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/30334/596055-jla2205.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/30334/596055-jla2205.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/30334/596055-jla2205.jpg",
+        "image_tags": "All Images,Newsboy Legion"
+      },
+      "name": "Newsboy Legion",
+      "site_detail_url": "https://comicvine.gamespot.com/newsboy-legion/4060-13011/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-13340/",
+      "deck": "All members of the Externals were shown to be immortal and important to Apocalypse's rise of power, now only three of them remain...though even those seem to have lost all connection to one another.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11161/111612243/8927953-1457257149-latest.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11161/111612243/8927953-1457257149-latest.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11161/111612243/8927953-1457257149-latest.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11161/111612243/8927953-1457257149-latest.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11161/111612243/8927953-1457257149-latest.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11161/111612243/8927953-1457257149-latest.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11161/111612243/8927953-1457257149-latest.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11161/111612243/8927953-1457257149-latest.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11161/111612243/8927953-1457257149-latest.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Externals",
+      "site_detail_url": "https://comicvine.gamespot.com/externals/4060-13340/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-13343/",
+      "deck": "A giant and ancient cosmic race that used their godlike abilities to experiment on lower life forms. They are responsible for mankind's potential to gain superhuman powers as well as the creation of various races and life forms in the universe, the most know being the race of Godlike beings know as the Eternals and Deviants, the opposite of the Eternals.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11170/111705043/8686465-firstcelestials002.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11170/111705043/8686465-firstcelestials002.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11170/111705043/8686465-firstcelestials002.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11170/111705043/8686465-firstcelestials002.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11170/111705043/8686465-firstcelestials002.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11170/111705043/8686465-firstcelestials002.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11170/111705043/8686465-firstcelestials002.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11170/111705043/8686465-firstcelestials002.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11170/111705043/8686465-firstcelestials002.jpg",
+        "image_tags": "All Images,Earth-616 Celestials"
+      },
+      "name": "Celestials",
+      "site_detail_url": "https://comicvine.gamespot.com/celestials/4060-13343/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-13344/",
+      "deck": "The Eternals are an evolutionary offshoot of humanity living on Earth who possess greater powers and longer lifespans than the mainstream human race.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/77/326270-83077-eternals.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/326270-83077-eternals.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/77/326270-83077-eternals.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/77/326270-83077-eternals.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/77/326270-83077-eternals.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/77/326270-83077-eternals.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/77/326270-83077-eternals.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/77/326270-83077-eternals.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/77/326270-83077-eternals.jpg",
+        "image_tags": "All Images,Earth-616 Eternals,The Eternals"
+      },
+      "name": "Eternals",
+      "site_detail_url": "https://comicvine.gamespot.com/eternals/4060-13344/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-13345/",
+      "deck": "The Deviants are an evolutionary offshoot of humanity created by the Celestials' experiments on prehistoric humans around a million years ago.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/2/25733/1768011-_1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/2/25733/1768011-_1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/2/25733/1768011-_1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/2/25733/1768011-_1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/2/25733/1768011-_1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/2/25733/1768011-_1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/2/25733/1768011-_1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/2/25733/1768011-_1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/2/25733/1768011-_1.jpg",
+        "image_tags": "All Images,Main Gallery,The Deviants"
+      },
+      "name": "Deviants",
+      "site_detail_url": "https://comicvine.gamespot.com/deviants/4060-13345/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-13357/",
+      "deck": "An international group of the world's social elite run by mutants that consider themselves superior to other mutants in both their mutant abilities and social status.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/12/124259/8151617-marauders_vol_1_24_textless.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/12/124259/8151617-marauders_vol_1_24_textless.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/12/124259/8151617-marauders_vol_1_24_textless.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/12/124259/8151617-marauders_vol_1_24_textless.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/8151617-marauders_vol_1_24_textless.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/8151617-marauders_vol_1_24_textless.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/8151617-marauders_vol_1_24_textless.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/12/124259/8151617-marauders_vol_1_24_textless.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/12/124259/8151617-marauders_vol_1_24_textless.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Hellfire Club",
+      "site_detail_url": "https://comicvine.gamespot.com/hellfire-club/4060-13357/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-13407/",
+      "deck": "A water breathing species known as Homo Mermani who occupied sunken Atlantis and built an undersea empire in the Atlantic Ocean.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/33913/963129-119_torch_4.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/33913/963129-119_torch_4.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/33913/963129-119_torch_4.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/33913/963129-119_torch_4.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/33913/963129-119_torch_4.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/33913/963129-119_torch_4.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/33913/963129-119_torch_4.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/33913/963129-119_torch_4.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/33913/963129-119_torch_4.jpg",
+        "image_tags": "All Images,Artwork,Earth-616 Namor,gallery,Marvel Solicitations,Namor"
+      },
+      "name": "Atlanteans",
+      "site_detail_url": "https://comicvine.gamespot.com/atlanteans/4060-13407/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-13497/",
+      "deck": "An organization of brilliant scientists and their hirelings dedicated to the acquisition of power and the overthrow of all governments by technological means.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/12/124259/8277599-rco025_1631302344.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/12/124259/8277599-rco025_1631302344.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/12/124259/8277599-rco025_1631302344.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/12/124259/8277599-rco025_1631302344.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/8277599-rco025_1631302344.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/8277599-rco025_1631302344.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/8277599-rco025_1631302344.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/12/124259/8277599-rco025_1631302344.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/12/124259/8277599-rco025_1631302344.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "A.I.M.",
+      "site_detail_url": "https://comicvine.gamespot.com/aim/4060-13497/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-13699/",
+      "deck": "Technology-equipped hippie gang who were friends of Jimmy Olsen.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/8/84205/2306443-2306017_4_20_2012_004.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/2306443-2306017_4_20_2012_004.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/8/84205/2306443-2306017_4_20_2012_004.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/8/84205/2306443-2306017_4_20_2012_004.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/8/84205/2306443-2306017_4_20_2012_004.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/8/84205/2306443-2306017_4_20_2012_004.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/8/84205/2306443-2306017_4_20_2012_004.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/8/84205/2306443-2306017_4_20_2012_004.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/8/84205/2306443-2306017_4_20_2012_004.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Hairies",
+      "site_detail_url": "https://comicvine.gamespot.com/the-hairies/4060-13699/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-13918/",
+      "deck": "An advanced race that likes to colonize other planets.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/77/291532-16182-rigellians.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/291532-16182-rigellians.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/77/291532-16182-rigellians.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/77/291532-16182-rigellians.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/77/291532-16182-rigellians.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/77/291532-16182-rigellians.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/77/291532-16182-rigellians.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/77/291532-16182-rigellians.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/77/291532-16182-rigellians.jpg",
+        "image_tags": "All Images,Rigellians"
+      },
+      "name": "Rigellians",
+      "site_detail_url": "https://comicvine.gamespot.com/rigellians/4060-13918/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-13930/",
+      "deck": "An extremely advanced alien species.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/229/90057-106591-ovoids.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/229/90057-106591-ovoids.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/229/90057-106591-ovoids.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/229/90057-106591-ovoids.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/229/90057-106591-ovoids.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/229/90057-106591-ovoids.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/229/90057-106591-ovoids.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/229/90057-106591-ovoids.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/229/90057-106591-ovoids.jpg",
+        "image_tags": "All Images,Ovoids"
+      },
+      "name": "Ovoids",
+      "site_detail_url": "https://comicvine.gamespot.com/ovoids/4060-13930/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-13937/",
+      "deck": "The Brotherhood of the Wellspring are a cult who worship the Wellspring of Power.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/117763/2870690-untitled.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2870690-untitled.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/117763/2870690-untitled.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/117763/2870690-untitled.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/117763/2870690-untitled.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/117763/2870690-untitled.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/117763/2870690-untitled.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/117763/2870690-untitled.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/117763/2870690-untitled.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Brotherhood of the Wellspring",
+      "site_detail_url": "https://comicvine.gamespot.com/brotherhood-of-the-wellspring/4060-13937/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-13953/",
+      "deck": "The Megans are Aliens that use captured space monsters as biological weapons.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/16281/320660-125138-megans.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/16281/320660-125138-megans.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/16281/320660-125138-megans.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/16281/320660-125138-megans.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/16281/320660-125138-megans.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/16281/320660-125138-megans.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/16281/320660-125138-megans.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/16281/320660-125138-megans.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/16281/320660-125138-megans.jpg",
+        "image_tags": "All Images,megans images"
+      },
+      "name": "Megans",
+      "site_detail_url": "https://comicvine.gamespot.com/megans/4060-13953/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-13986/",
+      "deck": "The Kronans, also known as the Rock People from Saturn, are an alien race that Korg and Zardok belong too.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15659/2023165-kronans.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15659/2023165-kronans.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15659/2023165-kronans.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15659/2023165-kronans.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15659/2023165-kronans.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15659/2023165-kronans.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15659/2023165-kronans.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15659/2023165-kronans.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15659/2023165-kronans.jpg",
+        "image_tags": "All Images,The Kronans"
+      },
+      "name": "Kronans",
+      "site_detail_url": "https://comicvine.gamespot.com/kronans/4060-13986/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-14015/",
+      "deck": "Black Magic using offshoot of the Skrull race and nemesis of the Spaceknights!",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/5344/2828217-dire_wraiths_01.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/5344/2828217-dire_wraiths_01.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/5344/2828217-dire_wraiths_01.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/5344/2828217-dire_wraiths_01.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/5344/2828217-dire_wraiths_01.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/5344/2828217-dire_wraiths_01.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/5344/2828217-dire_wraiths_01.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/5344/2828217-dire_wraiths_01.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/5344/2828217-dire_wraiths_01.jpg",
+        "image_tags": "All Images,Comics"
+      },
+      "name": "Dire Wraiths",
+      "site_detail_url": "https://comicvine.gamespot.com/dire-wraiths/4060-14015/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-14245/",
+      "deck": "Force Works was originally a superhero team composed of old West Coast Avengers and led by a disgruntled Iron Man who had recently quit the Avengers. The name has occasionally been used for short-term hero teams since the end of the original team.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/12/124259/8785199-ezgif-5-eea83fc854.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/12/124259/8785199-ezgif-5-eea83fc854.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/12/124259/8785199-ezgif-5-eea83fc854.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/12/124259/8785199-ezgif-5-eea83fc854.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/8785199-ezgif-5-eea83fc854.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/8785199-ezgif-5-eea83fc854.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/8785199-ezgif-5-eea83fc854.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/12/124259/8785199-ezgif-5-eea83fc854.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/12/124259/8785199-ezgif-5-eea83fc854.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Force Works",
+      "site_detail_url": "https://comicvine.gamespot.com/force-works/4060-14245/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-14616/",
+      "deck": "Alpha Flight is Canada's premiere superhero team. Amongst its members are Guardian, Sasquatch, Puck, Vindicator, and Northstar. Even Wolverine has been counted among their ranks.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/12/124259/8918783-ezgif-2-55d5fc9267.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/12/124259/8918783-ezgif-2-55d5fc9267.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/12/124259/8918783-ezgif-2-55d5fc9267.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/12/124259/8918783-ezgif-2-55d5fc9267.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/8918783-ezgif-2-55d5fc9267.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/8918783-ezgif-2-55d5fc9267.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/8918783-ezgif-2-55d5fc9267.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/12/124259/8918783-ezgif-2-55d5fc9267.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/12/124259/8918783-ezgif-2-55d5fc9267.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Alpha Flight",
+      "site_detail_url": "https://comicvine.gamespot.com/alpha-flight/4060-14616/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-14632/",
+      "deck": "A group of freedom fighters from the Vega System who oppose the tyrannical rule of the Citadel.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11114/111147698/4602010-screen%20shot%202015-06-02%20at%206.51.32%20pm.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11114/111147698/4602010-screen%20shot%202015-06-02%20at%206.51.32%20pm.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11114/111147698/4602010-screen%20shot%202015-06-02%20at%206.51.32%20pm.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11114/111147698/4602010-screen%20shot%202015-06-02%20at%206.51.32%20pm.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11114/111147698/4602010-screen%20shot%202015-06-02%20at%206.51.32%20pm.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11114/111147698/4602010-screen%20shot%202015-06-02%20at%206.51.32%20pm.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11114/111147698/4602010-screen%20shot%202015-06-02%20at%206.51.32%20pm.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11114/111147698/4602010-screen%20shot%202015-06-02%20at%206.51.32%20pm.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11114/111147698/4602010-screen%20shot%202015-06-02%20at%206.51.32%20pm.png",
+        "image_tags": "All Images"
+      },
+      "name": "Omega Men",
+      "site_detail_url": "https://comicvine.gamespot.com/omega-men/4060-14632/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-14693/",
+      "deck": "A team of bounty hunters founded and originally led by Gatecrasher.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/229/83833-25784-technet.jpeg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/229/83833-25784-technet.jpeg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/229/83833-25784-technet.jpeg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/229/83833-25784-technet.jpeg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/229/83833-25784-technet.jpeg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/229/83833-25784-technet.jpeg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/229/83833-25784-technet.jpeg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/229/83833-25784-technet.jpeg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/229/83833-25784-technet.jpeg",
+        "image_tags": "All Images,Technet"
+      },
+      "name": "Technet",
+      "site_detail_url": "https://comicvine.gamespot.com/technet/4060-14693/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-14778/",
+      "deck": "Individuals empowered by Pendragon spirits which were once members of the Round Table.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/31666/3384208-revowarkop2014003-cov.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/31666/3384208-revowarkop2014003-cov.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/31666/3384208-revowarkop2014003-cov.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/31666/3384208-revowarkop2014003-cov.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/31666/3384208-revowarkop2014003-cov.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/31666/3384208-revowarkop2014003-cov.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/31666/3384208-revowarkop2014003-cov.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/31666/3384208-revowarkop2014003-cov.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/31666/3384208-revowarkop2014003-cov.jpg",
+        "image_tags": "Albion,All Images,Artwork,Dai Thomas,Earth-616 Union Jack,gallery,Gawain,Kate McClellan,Main Gallery"
+      },
+      "name": "Knights of Pendragon",
+      "site_detail_url": "https://comicvine.gamespot.com/knights-of-pendragon/4060-14778/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-14821/",
+      "deck": "Team of professional criminals from the crooked world of Earth-238.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/13/134753/5982621-img_6996.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/13/134753/5982621-img_6996.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/13/134753/5982621-img_6996.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/13/134753/5982621-img_6996.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/13/134753/5982621-img_6996.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/13/134753/5982621-img_6996.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/13/134753/5982621-img_6996.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/13/134753/5982621-img_6996.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/13/134753/5982621-img_6996.png",
+        "image_tags": "All Images"
+      },
+      "name": "Crazy Gang",
+      "site_detail_url": "https://comicvine.gamespot.com/crazy-gang/4060-14821/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-14851/",
+      "deck": "Black Air was formerly a Governmental Intelligence department that operated mainly within the UK.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15659/2751807-black_air_excalibur_89_logo.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15659/2751807-black_air_excalibur_89_logo.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15659/2751807-black_air_excalibur_89_logo.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15659/2751807-black_air_excalibur_89_logo.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15659/2751807-black_air_excalibur_89_logo.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15659/2751807-black_air_excalibur_89_logo.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15659/2751807-black_air_excalibur_89_logo.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15659/2751807-black_air_excalibur_89_logo.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15659/2751807-black_air_excalibur_89_logo.jpg",
+        "image_tags": "All Images,Gallery"
+      },
+      "name": "Black Air",
+      "site_detail_url": "https://comicvine.gamespot.com/black-air/4060-14851/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-14864/",
+      "deck": "Excalibur is a super-group of mutants in the Marvel Universe that are based out of Britain. They are an off-shoot of the X-Men books and contain many one time X-Men members.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/12/124259/7126024-01.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/12/124259/7126024-01.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/12/124259/7126024-01.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/12/124259/7126024-01.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/7126024-01.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/7126024-01.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/7126024-01.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/12/124259/7126024-01.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/12/124259/7126024-01.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Excalibur",
+      "site_detail_url": "https://comicvine.gamespot.com/excalibur/4060-14864/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-14871/",
+      "deck": "The Starjammers are a group of space pirates. They were formerly led by Christopher Summers alias Corsair, then by his son Havok.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/117763/2373850-uncanny_x_men_482.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2373850-uncanny_x_men_482.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/117763/2373850-uncanny_x_men_482.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/117763/2373850-uncanny_x_men_482.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/117763/2373850-uncanny_x_men_482.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/117763/2373850-uncanny_x_men_482.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/117763/2373850-uncanny_x_men_482.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/117763/2373850-uncanny_x_men_482.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/117763/2373850-uncanny_x_men_482.jpg",
+        "image_tags": "All Images,Earth-616 Corsair,Earth-616 Hepzibah,Earth-616 Polaris,Earth-616 Raza,Main Gallery,Starjammers"
+      },
+      "name": "Starjammers",
+      "site_detail_url": "https://comicvine.gamespot.com/starjammers/4060-14871/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-14915/",
+      "deck": "The Purifiers are a terrorist group engaged in a holy war against mutant-kind. Their aim is the eradication of mutants everywhere. They have deceived people who believe that it is God's will to exterminate mutants.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/77/217860-31315-purifiers.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/217860-31315-purifiers.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/77/217860-31315-purifiers.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/77/217860-31315-purifiers.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/77/217860-31315-purifiers.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/77/217860-31315-purifiers.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/77/217860-31315-purifiers.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/77/217860-31315-purifiers.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/77/217860-31315-purifiers.jpg",
+        "image_tags": "All Images,Purifiers"
+      },
+      "name": "Purifiers",
+      "site_detail_url": "https://comicvine.gamespot.com/purifiers/4060-14915/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-14999/",
+      "deck": "Nameless goons working for the Hellfire Club.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/31599/770527-hellfire_club_01.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/31599/770527-hellfire_club_01.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/31599/770527-hellfire_club_01.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/31599/770527-hellfire_club_01.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/31599/770527-hellfire_club_01.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/31599/770527-hellfire_club_01.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/31599/770527-hellfire_club_01.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/31599/770527-hellfire_club_01.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/31599/770527-hellfire_club_01.jpg",
+        "image_tags": "All Images,Hellfire Soldiers"
+      },
+      "name": "Hellfire Soldiers",
+      "site_detail_url": "https://comicvine.gamespot.com/hellfire-soldiers/4060-14999/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-15025/",
+      "deck": "The Goth were a trio of super-powered individuals who were led by a man who was also called the Goth,made their debut in X-Men #103",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/6754/176340-99945-the-goth.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/6754/176340-99945-the-goth.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/6754/176340-99945-the-goth.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/6754/176340-99945-the-goth.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/6754/176340-99945-the-goth.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/6754/176340-99945-the-goth.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/6754/176340-99945-the-goth.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/6754/176340-99945-the-goth.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/6754/176340-99945-the-goth.jpg",
+        "image_tags": "All Images,The Goth"
+      },
+      "name": "The Goth",
+      "site_detail_url": "https://comicvine.gamespot.com/the-goth/4060-15025/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-15083/",
+      "deck": "Generation X was a Marvel super-group that was a junior team off-shoot of the X-Men. The team was led by former X-Men member Banshee and reformed Hellfire Club villainess White Queen. A new incarnation of Generation X will center around young mutants with powers that are difficult on a 'team setting.' This new group will be taught and led by former Generation X and X-Men mainstay, Jubilee.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/3848/6235556-generation_x_87_sparkles.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3848/6235556-generation_x_87_sparkles.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/3848/6235556-generation_x_87_sparkles.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/3848/6235556-generation_x_87_sparkles.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/3848/6235556-generation_x_87_sparkles.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/3848/6235556-generation_x_87_sparkles.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/3848/6235556-generation_x_87_sparkles.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/3848/6235556-generation_x_87_sparkles.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/3848/6235556-generation_x_87_sparkles.jpg",
+        "image_tags": "All Images,Gen X Vol 2"
+      },
+      "name": "Generation X",
+      "site_detail_url": "https://comicvine.gamespot.com/generation-x/4060-15083/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-15136/",
+      "deck": "The Secret Empire is a subversive organization formed by a clandestine group to take control of the U.S. government. It has had varying agents and schemes but have been beaten by several heroes over the years.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15659/2030560-secret_empire_profile_taskmaster_1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15659/2030560-secret_empire_profile_taskmaster_1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15659/2030560-secret_empire_profile_taskmaster_1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15659/2030560-secret_empire_profile_taskmaster_1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15659/2030560-secret_empire_profile_taskmaster_1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15659/2030560-secret_empire_profile_taskmaster_1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15659/2030560-secret_empire_profile_taskmaster_1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15659/2030560-secret_empire_profile_taskmaster_1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15659/2030560-secret_empire_profile_taskmaster_1.jpg",
+        "image_tags": "All Images,Earth-616 Secret Empire"
+      },
+      "name": "Secret Empire",
+      "site_detail_url": "https://comicvine.gamespot.com/secret-empire/4060-15136/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-15150/",
+      "deck": "A male group of villainous mutants, the Nasty Boys were henchmen for Mr Sinister in the 1990's. They often had encounters with the government sponsored team, X-Factor.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/5586/1631954-nasty3.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/5586/1631954-nasty3.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/5586/1631954-nasty3.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/5586/1631954-nasty3.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/5586/1631954-nasty3.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/5586/1631954-nasty3.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/5586/1631954-nasty3.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/5586/1631954-nasty3.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/5586/1631954-nasty3.jpg",
+        "image_tags": "All Images,Nasty Boys"
+      },
+      "name": "Nasty Boys",
+      "site_detail_url": "https://comicvine.gamespot.com/nasty-boys/4060-15150/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-15344/",
+      "deck": "Animals transformed into humanoid beings by the High Evolutionary.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15776/798443-new_men.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/798443-new_men.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15776/798443-new_men.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15776/798443-new_men.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15776/798443-new_men.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/798443-new_men.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/798443-new_men.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15776/798443-new_men.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15776/798443-new_men.jpg",
+        "image_tags": "All Images,Earth-616 New Men,Furries"
+      },
+      "name": "New Men",
+      "site_detail_url": "https://comicvine.gamespot.com/new-men/4060-15344/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-15347/",
+      "deck": "A group of terrorists at one point led by Dark Beast. They have had more than one incarnation.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/117763/3204935-weaponx02115.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/3204935-weaponx02115.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/117763/3204935-weaponx02115.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/117763/3204935-weaponx02115.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/117763/3204935-weaponx02115.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/117763/3204935-weaponx02115.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/117763/3204935-weaponx02115.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/117763/3204935-weaponx02115.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/117763/3204935-weaponx02115.jpg",
+        "image_tags": "All Images,Artwork,Earth-616 Gene Nation,Earth-616 Hemingway,Earth-616 Marrow"
+      },
+      "name": "Gene Nation",
+      "site_detail_url": "https://comicvine.gamespot.com/gene-nation/4060-15347/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-15409/",
+      "deck": "Adversarial group of the X-Men. ",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/1494/89261-36040-factor-three.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/1494/89261-36040-factor-three.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/1494/89261-36040-factor-three.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/1494/89261-36040-factor-three.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/1494/89261-36040-factor-three.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/1494/89261-36040-factor-three.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/1494/89261-36040-factor-three.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/1494/89261-36040-factor-three.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/1494/89261-36040-factor-three.jpg",
+        "image_tags": "All Images,Factor Three,Other Users"
+      },
+      "name": "Factor Three",
+      "site_detail_url": "https://comicvine.gamespot.com/factor-three/4060-15409/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-15411/",
+      "deck": "The heroes and villains of Earth-2149 who were tragically turned into zombies. They have all but destroyed their own reality.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/40/847313-8484new_storyimage5448173_full.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/40/847313-8484new_storyimage5448173_full.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/40/847313-8484new_storyimage5448173_full.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/40/847313-8484new_storyimage5448173_full.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/40/847313-8484new_storyimage5448173_full.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/40/847313-8484new_storyimage5448173_full.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/40/847313-8484new_storyimage5448173_full.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/40/847313-8484new_storyimage5448173_full.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/40/847313-8484new_storyimage5448173_full.jpg",
+        "image_tags": "All Images,Alternate Earths,The Marvel Zombies"
+      },
+      "name": "Marvel Zombies",
+      "site_detail_url": "https://comicvine.gamespot.com/marvel-zombies/4060-15411/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-15521/",
+      "deck": "The People's Defense Force, formerly known as China Force, are China's premier superhero team.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/117763/2292840-defence.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2292840-defence.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/117763/2292840-defence.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/117763/2292840-defence.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/117763/2292840-defence.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/117763/2292840-defence.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/117763/2292840-defence.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/117763/2292840-defence.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/117763/2292840-defence.jpg",
+        "image_tags": "All Images,Earth-616 People's Defense Force"
+      },
+      "name": "People's Defense Force",
+      "site_detail_url": "https://comicvine.gamespot.com/people-s-defense-force/4060-15521/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-15595/",
+      "deck": "When Cable reformed the New Mutants, he made them his soldiers. They became a mutant \"black ops\" team, assigned to kill not just the enemies of the X-Men, but of all mutantkind. Although this team eventually disbanded, the X-Force moniker has persisted in successive iterations of more and more aggressive X-teams. ",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/12/124259/7898747-x-force_vol_6_1_textless.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/12/124259/7898747-x-force_vol_6_1_textless.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/12/124259/7898747-x-force_vol_6_1_textless.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/12/124259/7898747-x-force_vol_6_1_textless.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/7898747-x-force_vol_6_1_textless.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/7898747-x-force_vol_6_1_textless.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/7898747-x-force_vol_6_1_textless.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/12/124259/7898747-x-force_vol_6_1_textless.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/12/124259/7898747-x-force_vol_6_1_textless.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "X-Force",
+      "site_detail_url": "https://comicvine.gamespot.com/x-force/4060-15595/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-15625/",
+      "deck": "The Gods of the Elder Night",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/77/1528122-attachment.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/1528122-attachment.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/77/1528122-attachment.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/77/1528122-attachment.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/77/1528122-attachment.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/77/1528122-attachment.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/77/1528122-attachment.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/77/1528122-attachment.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/77/1528122-attachment.jpg",
+        "image_tags": "All Images,Great Beasts"
+      },
+      "name": "Great Beasts",
+      "site_detail_url": "https://comicvine.gamespot.com/great-beasts/4060-15625/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-15929/",
+      "deck": "A group of teenagers who were brought together by an enigmatic military leader to help fight crime & keep peace in the Bronx.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/77/311171-179599-wolfpack.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/311171-179599-wolfpack.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/77/311171-179599-wolfpack.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/77/311171-179599-wolfpack.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/77/311171-179599-wolfpack.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/77/311171-179599-wolfpack.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/77/311171-179599-wolfpack.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/77/311171-179599-wolfpack.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/77/311171-179599-wolfpack.jpg",
+        "image_tags": "All Images,Wolfpack of Earth-58163 (House of M)"
+      },
+      "name": "Wolfpack",
+      "site_detail_url": "https://comicvine.gamespot.com/wolfpack/4060-15929/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-15971/",
+      "deck": "The New Mutants are a team of young mutants in training at Xavier's School For Gifted Youngsters.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11112/111123579/7432565-new_mutants_vol_4_1_textless.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11112/111123579/7432565-new_mutants_vol_4_1_textless.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11112/111123579/7432565-new_mutants_vol_4_1_textless.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11112/111123579/7432565-new_mutants_vol_4_1_textless.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11112/111123579/7432565-new_mutants_vol_4_1_textless.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11112/111123579/7432565-new_mutants_vol_4_1_textless.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11112/111123579/7432565-new_mutants_vol_4_1_textless.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11112/111123579/7432565-new_mutants_vol_4_1_textless.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11112/111123579/7432565-new_mutants_vol_4_1_textless.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "New Mutants",
+      "site_detail_url": "https://comicvine.gamespot.com/new-mutants/4060-15971/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-15972/",
+      "deck": "The Thundercats are a group of anthropomorphic felines who fight with The Mutants in the fictional Third Earth world. They are led by Lion-O. Recently they have had books published under Wildstorm.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/3133/123793-135823-brett-booth.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3133/123793-135823-brett-booth.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/3133/123793-135823-brett-booth.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/3133/123793-135823-brett-booth.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/3133/123793-135823-brett-booth.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/3133/123793-135823-brett-booth.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/3133/123793-135823-brett-booth.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/3133/123793-135823-brett-booth.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/3133/123793-135823-brett-booth.jpg",
+        "image_tags": "All Images,Art Gallery,Lion-O"
+      },
+      "name": "Thundercats",
+      "site_detail_url": "https://comicvine.gamespot.com/thundercats/4060-15972/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-16341/",
+      "deck": "The Challengers of the Unknown are a non-superhero group within the DC Universe created by Jack Kirby. The group mostly focuses on Sci-Fi storylines and is thought to be an inspiration for the Fantastic Four.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/31666/2164585-dcupre_cv8_sadjfhkgsdf792361.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/31666/2164585-dcupre_cv8_sadjfhkgsdf792361.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/31666/2164585-dcupre_cv8_sadjfhkgsdf792361.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/31666/2164585-dcupre_cv8_sadjfhkgsdf792361.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/31666/2164585-dcupre_cv8_sadjfhkgsdf792361.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/31666/2164585-dcupre_cv8_sadjfhkgsdf792361.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/31666/2164585-dcupre_cv8_sadjfhkgsdf792361.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/31666/2164585-dcupre_cv8_sadjfhkgsdf792361.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/31666/2164585-dcupre_cv8_sadjfhkgsdf792361.jpg",
+        "image_tags": "All Images,Challenging the Unknown"
+      },
+      "name": "Challengers of the Unknown",
+      "site_detail_url": "https://comicvine.gamespot.com/challengers-of-the-unknown/4060-16341/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-17647/",
+      "deck": "A-Next is the MC2 Universe version of the Avengers and consists of the sons, daughters, and proteges of the previous generation of heroes.",
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/117763/2458943-anext1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2458943-anext1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/117763/2458943-anext1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/117763/2458943-anext1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/117763/2458943-anext1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/117763/2458943-anext1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/117763/2458943-anext1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/117763/2458943-anext1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/117763/2458943-anext1.jpg",
+        "image_tags": "All Images,American Dream,Avengers Next,Bluestreak,Earth-982 J2,Earth-982 Spider-Girl,gallery"
+      },
+      "name": "A-Next",
+      "site_detail_url": "https://comicvine.gamespot.com/a-next/4060-17647/"
+    }
+  ],
+  "version": "1.0"
+}
