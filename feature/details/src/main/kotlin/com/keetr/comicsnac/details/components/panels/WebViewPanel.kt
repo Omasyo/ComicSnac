@@ -1,5 +1,6 @@
 package com.keetr.comicsnac.details.components.panels
 
+import androidx.activity.compose.BackHandler
 import androidx.compose.animation.animateContentSize
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -39,6 +40,10 @@ internal fun PanelLazyListScope.webViewPanel(
             if (expanded) Modifier.fillParentMaxHeight() else Modifier.height(400.dp)
         }
 
+        BackHandler(expanded) {
+            onToggleExpand(index)
+        }
+
         Box(
             Modifier
                 .animateContentSize()
@@ -47,7 +52,10 @@ internal fun PanelLazyListScope.webViewPanel(
         ) {
             ComicWebView(
                 annotatedString = description,
-                contentPadding = PaddingValues(16f.dp),
+                contentPadding = PaddingValues(
+                    vertical = 40f.dp,
+                    horizontal = 16f.dp
+                ),
                 scrollable = expanded,
                 onLinkClick = onItemClicked
             )

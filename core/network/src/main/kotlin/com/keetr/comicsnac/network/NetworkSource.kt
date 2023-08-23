@@ -5,6 +5,7 @@ import com.keetr.comicsnac.network.common.models.ResponseApiModel
 import io.ktor.client.call.body
 import io.ktor.client.statement.HttpResponse
 import io.ktor.client.statement.bodyAsText
+import io.ktor.client.statement.request
 import io.ktor.http.HttpStatusCode
 
 object InvalidApiException : Throwable()
@@ -28,6 +29,9 @@ internal suspend inline fun <reified T> NetworkSource.makeRequest(
         when (response.status) {
             HttpStatusCode.OK -> {
                 val content: ResponseApiModel<T> = response.body()
+
+                Log.i(tag, "makeRequest: Made request ${response.request.url}")
+                Log.i(tag, "makeRequest: Got content $content")
 
                 when (content.statusCode) {
                     1 -> Result.success(content)
