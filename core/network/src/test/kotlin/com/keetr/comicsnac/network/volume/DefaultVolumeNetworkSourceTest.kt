@@ -1,11 +1,8 @@
 package com.keetr.comicsnac.network.volume
 
 import com.keetr.comicsnac.network.NetworkSourceTest
-import com.keetr.comicsnac.network.team.fake.NewMutantsResponse
-import com.keetr.comicsnac.network.team.fake.TeamsResponse
 import com.keetr.comicsnac.network.volume.fake.VolumeDetailsResponse
 import com.keetr.comicsnac.network.volume.fake.VolumesResponse
-import com.keetr.comicsnac.network.volume.models.VolumeDetailsResponse
 import io.ktor.client.request.HttpRequestData
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert.*

@@ -6,6 +6,7 @@ import kotlinx.serialization.descriptors.PrimitiveSerialDescriptor
 import kotlinx.serialization.descriptors.SerialDescriptor
 import kotlinx.serialization.encoding.Decoder
 import kotlinx.serialization.encoding.Encoder
+import java.text.ParsePosition
 import java.time.LocalDate
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
@@ -20,7 +21,7 @@ internal object DateAsStringSerializer : KSerializer<LocalDateTime> {
 
     override fun deserialize(decoder: Decoder): LocalDateTime {
         val string = decoder.decodeString()
-        return LocalDateTime.parse(string, formatter)
+        return LocalDateTime.from(formatter.parse(string, ParsePosition(0)))
     }
 
     override fun serialize(encoder: Encoder, value: LocalDateTime) {

@@ -14,12 +14,7 @@ class DefaultIssueNetworkSourceTest : NetworkSourceTest<IssueNetworkSource>() {
     override fun generateResponseBody(request: HttpRequestData): String =
         when (request.url.encodedPath) {
             "/api/issue/4000-369103" -> AmazingSpidermanIssueResponse
-            "/api/issues" -> with(request.url.parameters) {
-                when {
-                    contains("sort", "cover_date:desc") -> RecentIssuesResponse
-                    else -> IssuesResponse
-                }
-            }
+            "/api/issues" -> RecentIssuesResponse
 
             else -> throw NotImplementedError("Invalid Url Path: ${request.url.encodedPath}")
         }
@@ -49,7 +44,7 @@ class DefaultIssueNetworkSourceTest : NetworkSourceTest<IssueNetworkSource>() {
     fun getAllIssues() = runTest {
         val response = networkSource.getAllIssues(100, 0)
         assertEquals(
-            "https://comicvine.gamespot.com/api/issue/4000-6/",
+            "https://comicvine.gamespot.com/api/issue/4000-1000362/",
             response.getOrThrow().results.first().apiDetailUrl
         )
     }

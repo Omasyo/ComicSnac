@@ -1,0 +1,1911 @@
+{
+  "error": "OK",
+  "limit": 100,
+  "offset": 0,
+  "number_of_page_results": 100,
+  "number_of_total_results": 77599,
+  "status_code": 1,
+  "results": [
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130226/",
+      "deck": "a high-ranking agent brutally loyal to the ways of science and willing to do anything to keep the building blocks of creation in balance.",
+      "id": 130226,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569030/9070450-venom2021024_bazaldua_gods.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569030/9070450-venom2021024_bazaldua_gods.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569030/9070450-venom2021024_bazaldua_gods.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569030/9070450-venom2021024_bazaldua_gods.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569030/9070450-venom2021024_bazaldua_gods.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569030/9070450-venom2021024_bazaldua_gods.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569030/9070450-venom2021024_bazaldua_gods.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569030/9070450-venom2021024_bazaldua_gods.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569030/9070450-venom2021024_bazaldua_gods.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Aiko Maki",
+      "site_detail_url": "https://comicvine.gamespot.com/aiko-maki/4040-130226/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-56883/",
+      "deck": "Artist",
+      "id": 56883,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Julio Antonio Ramos Poquí",
+      "site_detail_url": "https://comicvine.gamespot.com/julio-antonio-ramos-poqui/4040-56883/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130225/",
+      "deck": "Translator.",
+      "id": 130225,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Agnès Pérez Massegú",
+      "site_detail_url": "https://comicvine.gamespot.com/agnes-perez-massegu/4040-130225/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-115248/",
+      "deck": "Mexican actress  who has some roles in American movies and series.",
+      "id": 115248,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15776/8894253-eizagonzalez.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/8894253-eizagonzalez.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15776/8894253-eizagonzalez.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15776/8894253-eizagonzalez.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15776/8894253-eizagonzalez.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/8894253-eizagonzalez.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/8894253-eizagonzalez.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15776/8894253-eizagonzalez.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15776/8894253-eizagonzalez.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Eiza González ",
+      "site_detail_url": "https://comicvine.gamespot.com/eiza-gonzalez/4040-115248/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130224/",
+      "deck": null,
+      "id": 130224,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Christian Weiser",
+      "site_detail_url": "https://comicvine.gamespot.com/christian-weiser/4040-130224/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-114458/",
+      "deck": null,
+      "id": 114458,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Makoto Iwamatsu",
+      "site_detail_url": "https://comicvine.gamespot.com/makoto-iwamatsu/4040-114458/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-88351/",
+      "deck": null,
+      "id": 88351,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Cesar Hernandez-Meraz",
+      "site_detail_url": "https://comicvine.gamespot.com/cesar-hernandez-meraz/4040-88351/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130201/",
+      "deck": null,
+      "id": 130201,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Iru",
+      "site_detail_url": "https://comicvine.gamespot.com/iru/4040-130201/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130200/",
+      "deck": null,
+      "id": 130200,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Mo9Rang",
+      "site_detail_url": "https://comicvine.gamespot.com/mo9rang/4040-130200/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130223/",
+      "deck": "Letterer.",
+      "id": 130223,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Nicolás Pruiti",
+      "site_detail_url": "https://comicvine.gamespot.com/nicolas-pruiti/4040-130223/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130222/",
+      "deck": "Translator.",
+      "id": 130222,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Martín Lee",
+      "site_detail_url": "https://comicvine.gamespot.com/martin-lee/4040-130222/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130221/",
+      "deck": "Letterer.",
+      "id": 130221,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Mercedes Lara",
+      "site_detail_url": "https://comicvine.gamespot.com/mercedes-lara/4040-130221/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130220/",
+      "deck": "Letterer.",
+      "id": 130220,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Tomás Deverill",
+      "site_detail_url": "https://comicvine.gamespot.com/tomas-deverill/4040-130220/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130219/",
+      "deck": "Translator.",
+      "id": 130219,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Augusto Kwun",
+      "site_detail_url": "https://comicvine.gamespot.com/augusto-kwun/4040-130219/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130218/",
+      "deck": "Artist.",
+      "id": 130218,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Orebalgum",
+      "site_detail_url": "https://comicvine.gamespot.com/orebalgum/4040-130218/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130217/",
+      "deck": "Writer.",
+      "id": 130217,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Noh-Eun Ahn",
+      "site_detail_url": "https://comicvine.gamespot.com/noh-eun-ahn/4040-130217/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130216/",
+      "deck": null,
+      "id": 130216,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Angel Manuel Soto",
+      "site_detail_url": "https://comicvine.gamespot.com/angel-manuel-soto/4040-130216/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-40996/",
+      "deck": "Scott Lobdell is an American writer best known for his work on Uncanny X-Men, Generation X and Red Hood and the Outlaws.",
+      "id": 40996,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/4/47635/2603970-tumblr_mapj54jxos1qjzyxso1_1280.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/4/47635/2603970-tumblr_mapj54jxos1qjzyxso1_1280.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/4/47635/2603970-tumblr_mapj54jxos1qjzyxso1_1280.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/4/47635/2603970-tumblr_mapj54jxos1qjzyxso1_1280.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/4/47635/2603970-tumblr_mapj54jxos1qjzyxso1_1280.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/4/47635/2603970-tumblr_mapj54jxos1qjzyxso1_1280.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/4/47635/2603970-tumblr_mapj54jxos1qjzyxso1_1280.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/4/47635/2603970-tumblr_mapj54jxos1qjzyxso1_1280.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/4/47635/2603970-tumblr_mapj54jxos1qjzyxso1_1280.jpg",
+        "image_tags": "All Images,Scott Lobdell"
+      },
+      "name": "Scott Lobdell",
+      "site_detail_url": "https://comicvine.gamespot.com/scott-lobdell/4040-40996/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130214/",
+      "deck": null,
+      "id": 130214,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Doreaux Zwetkow",
+      "site_detail_url": "https://comicvine.gamespot.com/doreaux-zwetkow/4040-130214/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130215/",
+      "deck": null,
+      "id": 130215,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Yuichiro Hiragi",
+      "site_detail_url": "https://comicvine.gamespot.com/yuichiro-hiragi/4040-130215/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130213/",
+      "deck": null,
+      "id": 130213,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Sunmi",
+      "site_detail_url": "https://comicvine.gamespot.com/sunmi/4040-130213/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130212/",
+      "deck": null,
+      "id": 130212,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "NJ Barna",
+      "site_detail_url": "https://comicvine.gamespot.com/nj-barna/4040-130212/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130210/",
+      "deck": null,
+      "id": 130210,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Eberl & Koesel Studio",
+      "site_detail_url": "https://comicvine.gamespot.com/eberl-and-koesel-studio/4040-130210/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130211/",
+      "deck": null,
+      "id": 130211,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Manuel Chillagano",
+      "site_detail_url": "https://comicvine.gamespot.com/manuel-chillagano/4040-130211/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130205/",
+      "deck": null,
+      "id": 130205,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Shinji Yamamoto",
+      "site_detail_url": "https://comicvine.gamespot.com/shinji-yamamoto/4040-130205/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130206/",
+      "deck": null,
+      "id": 130206,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Miki Iwata",
+      "site_detail_url": "https://comicvine.gamespot.com/miki-iwata/4040-130206/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130207/",
+      "deck": null,
+      "id": 130207,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Kenro Yokoyama",
+      "site_detail_url": "https://comicvine.gamespot.com/kenro-yokoyama/4040-130207/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130208/",
+      "deck": null,
+      "id": 130208,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Natalie Tonak",
+      "site_detail_url": "https://comicvine.gamespot.com/natalie-tonak/4040-130208/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130209/",
+      "deck": null,
+      "id": 130209,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Rita Geers",
+      "site_detail_url": "https://comicvine.gamespot.com/rita-geers/4040-130209/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130204/",
+      "deck": null,
+      "id": 130204,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Mary Downing Hahn",
+      "site_detail_url": "https://comicvine.gamespot.com/mary-downing-hahn/4040-130204/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-12171/",
+      "deck": "Inker, been in the business for decades.",
+      "id": 12171,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/6/64770/2128926-dan_green_inker.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/64770/2128926-dan_green_inker.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/6/64770/2128926-dan_green_inker.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/6/64770/2128926-dan_green_inker.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/6/64770/2128926-dan_green_inker.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/6/64770/2128926-dan_green_inker.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/6/64770/2128926-dan_green_inker.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/6/64770/2128926-dan_green_inker.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/6/64770/2128926-dan_green_inker.jpg",
+        "image_tags": "All Images,Inks"
+      },
+      "name": "Dan Green",
+      "site_detail_url": "https://comicvine.gamespot.com/dan-green/4040-12171/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-126886/",
+      "deck": null,
+      "id": 126886,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9068844-iku.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9068844-iku.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9068844-iku.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9068844-iku.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9068844-iku.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9068844-iku.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9068844-iku.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9068844-iku.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9068844-iku.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Kikuni Masahiko",
+      "site_detail_url": "https://comicvine.gamespot.com/kikuni-masahiko/4040-126886/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-127856/",
+      "deck": null,
+      "id": 127856,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "SUOL",
+      "site_detail_url": "https://comicvine.gamespot.com/suol/4040-127856/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130203/",
+      "deck": null,
+      "id": 130203,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "AH Cho",
+      "site_detail_url": "https://comicvine.gamespot.com/ah-cho/4040-130203/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130202/",
+      "deck": null,
+      "id": 130202,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Kakao Entertainment",
+      "site_detail_url": "https://comicvine.gamespot.com/kakao-entertainment/4040-130202/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-119693/",
+      "deck": null,
+      "id": 119693,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9068754-ntt.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9068754-ntt.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9068754-ntt.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9068754-ntt.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9068754-ntt.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9068754-ntt.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9068754-ntt.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9068754-ntt.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9068754-ntt.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Nishimizu Takahiro",
+      "site_detail_url": "https://comicvine.gamespot.com/nishimizu-takahiro/4040-119693/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-123128/",
+      "deck": null,
+      "id": 123128,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9068753-minegish.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9068753-minegish.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9068753-minegish.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9068753-minegish.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9068753-minegish.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9068753-minegish.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9068753-minegish.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9068753-minegish.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9068753-minegish.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Minegishi Toru",
+      "site_detail_url": "https://comicvine.gamespot.com/minegishi-toru/4040-123128/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-93610/",
+      "deck": null,
+      "id": 93610,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9068748-sakaguch.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9068748-sakaguch.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9068748-sakaguch.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9068748-sakaguch.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9068748-sakaguch.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9068748-sakaguch.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9068748-sakaguch.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9068748-sakaguch.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9068748-sakaguch.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Aki Sakaguchi",
+      "site_detail_url": "https://comicvine.gamespot.com/aki-sakaguchi/4040-93610/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-79109/",
+      "deck": "Artist and voice actor known for the 2002 Disney film Lilo & Stitch.",
+      "id": 79109,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Chris Sanders",
+      "site_detail_url": "https://comicvine.gamespot.com/chris-sanders/4040-79109/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-103578/",
+      "deck": "Joe Morton is an American actor.",
+      "id": 103578,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15776/9068377-joemorton.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/9068377-joemorton.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15776/9068377-joemorton.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15776/9068377-joemorton.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15776/9068377-joemorton.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/9068377-joemorton.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/9068377-joemorton.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15776/9068377-joemorton.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15776/9068377-joemorton.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Joe Morton",
+      "site_detail_url": "https://comicvine.gamespot.com/joe-morton/4040-103578/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-114062/",
+      "deck": "American actor.",
+      "id": 114062,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15776/8887157-owenwilson.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/8887157-owenwilson.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15776/8887157-owenwilson.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15776/8887157-owenwilson.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15776/8887157-owenwilson.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/8887157-owenwilson.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/8887157-owenwilson.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15776/8887157-owenwilson.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15776/8887157-owenwilson.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Owen Wilson",
+      "site_detail_url": "https://comicvine.gamespot.com/owen-wilson/4040-114062/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-96891/",
+      "deck": null,
+      "id": 96891,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9068326-oshima.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9068326-oshima.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9068326-oshima.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9068326-oshima.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9068326-oshima.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9068326-oshima.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9068326-oshima.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9068326-oshima.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9068326-oshima.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Ōshima Hiroyuki",
+      "site_detail_url": "https://comicvine.gamespot.com/oshima-hiroyuki/4040-96891/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-62649/",
+      "deck": "Artist",
+      "id": 62649,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/18154/9068324-9233110460-5768..jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/18154/9068324-9233110460-5768..jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/18154/9068324-9233110460-5768..jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/18154/9068324-9233110460-5768..jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/18154/9068324-9233110460-5768..jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/18154/9068324-9233110460-5768..jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/18154/9068324-9233110460-5768..jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/18154/9068324-9233110460-5768..jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/18154/9068324-9233110460-5768..jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Dennis Culver",
+      "site_detail_url": "https://comicvine.gamespot.com/dennis-culver/4040-62649/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130192/",
+      "deck": null,
+      "id": 130192,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9068256-2704227252-W2IrI.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9068256-2704227252-W2IrI.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9068256-2704227252-W2IrI.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9068256-2704227252-W2IrI.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9068256-2704227252-W2IrI.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9068256-2704227252-W2IrI.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9068256-2704227252-W2IrI.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9068256-2704227252-W2IrI.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9068256-2704227252-W2IrI.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Gohobi",
+      "site_detail_url": "https://comicvine.gamespot.com/gohobi/4040-130192/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130199/",
+      "deck": null,
+      "id": 130199,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Edward Hong",
+      "site_detail_url": "https://comicvine.gamespot.com/edward-hong/4040-130199/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130194/",
+      "deck": null,
+      "id": 130194,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9068212-nishiu.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9068212-nishiu.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9068212-nishiu.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9068212-nishiu.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9068212-nishiu.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9068212-nishiu.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9068212-nishiu.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9068212-nishiu.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9068212-nishiu.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Nishiuri Tsukasa",
+      "site_detail_url": "https://comicvine.gamespot.com/nishiuri-tsukasa/4040-130194/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-106102/",
+      "deck": "Mangaka.",
+      "id": 106102,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Jirou Oimoto",
+      "site_detail_url": "https://comicvine.gamespot.com/jirou-oimoto/4040-106102/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130195/",
+      "deck": null,
+      "id": 130195,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9068211-oimoto.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9068211-oimoto.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9068211-oimoto.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9068211-oimoto.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9068211-oimoto.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9068211-oimoto.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9068211-oimoto.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9068211-oimoto.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9068211-oimoto.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Oimoto",
+      "site_detail_url": "https://comicvine.gamespot.com/oimoto/4040-130195/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130196/",
+      "deck": null,
+      "id": 130196,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9068210-jun.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9068210-jun.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9068210-jun.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9068210-jun.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9068210-jun.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9068210-jun.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9068210-jun.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9068210-jun.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9068210-jun.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Wakatsuki Jun",
+      "site_detail_url": "https://comicvine.gamespot.com/wakatsuki-jun/4040-130196/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130197/",
+      "deck": null,
+      "id": 130197,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9068209-kuda.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9068209-kuda.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9068209-kuda.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9068209-kuda.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9068209-kuda.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9068209-kuda.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9068209-kuda.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9068209-kuda.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9068209-kuda.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Kuda Shota",
+      "site_detail_url": "https://comicvine.gamespot.com/kuda-shota/4040-130197/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130198/",
+      "deck": null,
+      "id": 130198,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9068205-nakajima.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9068205-nakajima.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9068205-nakajima.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9068205-nakajima.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9068205-nakajima.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9068205-nakajima.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9068205-nakajima.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9068205-nakajima.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9068205-nakajima.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Nakajima Yutaka",
+      "site_detail_url": "https://comicvine.gamespot.com/nakajima-yutaka/4040-130198/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-65758/",
+      "deck": "Mangaka.",
+      "id": 65758,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/6/67663/4186557-3293557414-12601.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/4186557-3293557414-12601.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/6/67663/4186557-3293557414-12601.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/6/67663/4186557-3293557414-12601.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/6/67663/4186557-3293557414-12601.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/6/67663/4186557-3293557414-12601.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/6/67663/4186557-3293557414-12601.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/6/67663/4186557-3293557414-12601.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/6/67663/4186557-3293557414-12601.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Makoto Shinkai",
+      "site_detail_url": "https://comicvine.gamespot.com/makoto-shinkai/4040-65758/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130193/",
+      "deck": null,
+      "id": 130193,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Amee Wilson",
+      "site_detail_url": "https://comicvine.gamespot.com/amee-wilson/4040-130193/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-63553/",
+      "deck": "Mangaka.",
+      "id": 63553,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/8928737-sabe.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/8928737-sabe.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/8928737-sabe.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/8928737-sabe.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/8928737-sabe.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/8928737-sabe.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/8928737-sabe.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/8928737-sabe.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/8928737-sabe.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Sabe",
+      "site_detail_url": "https://comicvine.gamespot.com/sabe/4040-63553/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-64526/",
+      "deck": "Mangaka.",
+      "id": 64526,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/6/67663/4338608-4843118883-5923..jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/4338608-4843118883-5923..jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/6/67663/4338608-4843118883-5923..jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/6/67663/4338608-4843118883-5923..jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/6/67663/4338608-4843118883-5923..jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/6/67663/4338608-4843118883-5923..jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/6/67663/4338608-4843118883-5923..jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/6/67663/4338608-4843118883-5923..jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/6/67663/4338608-4843118883-5923..jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Double-S",
+      "site_detail_url": "https://comicvine.gamespot.com/double-s/4040-64526/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-57202/",
+      "deck": "Artist",
+      "id": 57202,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/77/980486-carlosherrero.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/980486-carlosherrero.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/77/980486-carlosherrero.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/77/980486-carlosherrero.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/77/980486-carlosherrero.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/77/980486-carlosherrero.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/77/980486-carlosherrero.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/77/980486-carlosherrero.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/77/980486-carlosherrero.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Carlos Edgard Herrero",
+      "site_detail_url": "https://comicvine.gamespot.com/carlos-edgard-herrero/4040-57202/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130191/",
+      "deck": null,
+      "id": 130191,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Larry Hodges",
+      "site_detail_url": "https://comicvine.gamespot.com/larry-hodges/4040-130191/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130190/",
+      "deck": null,
+      "id": 130190,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Santiago Tapia Jr.",
+      "site_detail_url": "https://comicvine.gamespot.com/santiago-tapia-jr/4040-130190/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130189/",
+      "deck": null,
+      "id": 130189,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Taigami",
+      "site_detail_url": "https://comicvine.gamespot.com/taigami/4040-130189/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130188/",
+      "deck": null,
+      "id": 130188,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Andrew J. Seles",
+      "site_detail_url": "https://comicvine.gamespot.com/andrew-j-seles/4040-130188/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-57283/",
+      "deck": "Artist",
+      "id": 57283,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Enrique Cerdan Fuentes",
+      "site_detail_url": "https://comicvine.gamespot.com/enrique-cerdan-fuentes/4040-57283/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-60970/",
+      "deck": "Italian artist and colorist. Also publishes as Giwa.",
+      "id": 60970,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/12/128795/8990725-giampierowallnofer.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/12/128795/8990725-giampierowallnofer.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/12/128795/8990725-giampierowallnofer.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/12/128795/8990725-giampierowallnofer.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/12/128795/8990725-giampierowallnofer.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/12/128795/8990725-giampierowallnofer.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/128795/8990725-giampierowallnofer.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/12/128795/8990725-giampierowallnofer.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/12/128795/8990725-giampierowallnofer.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Giampiero Wallnofer",
+      "site_detail_url": "https://comicvine.gamespot.com/giampiero-wallnofer/4040-60970/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-119163/",
+      "deck": "Writer.",
+      "id": 119163,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Jay Jurden",
+      "site_detail_url": "https://comicvine.gamespot.com/jay-jurden/4040-119163/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-123927/",
+      "deck": null,
+      "id": 123927,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9066608-5387071361-xNKpU.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9066608-5387071361-xNKpU.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9066608-5387071361-xNKpU.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9066608-5387071361-xNKpU.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9066608-5387071361-xNKpU.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9066608-5387071361-xNKpU.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9066608-5387071361-xNKpU.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9066608-5387071361-xNKpU.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9066608-5387071361-xNKpU.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Sakanoichi Kubaru",
+      "site_detail_url": "https://comicvine.gamespot.com/sakanoichi-kubaru/4040-123927/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-98233/",
+      "deck": null,
+      "id": 98233,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11142/111429705/7569967-motoki.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11142/111429705/7569967-motoki.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11142/111429705/7569967-motoki.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11142/111429705/7569967-motoki.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11142/111429705/7569967-motoki.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11142/111429705/7569967-motoki.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11142/111429705/7569967-motoki.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11142/111429705/7569967-motoki.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11142/111429705/7569967-motoki.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Motoki Yoshihara",
+      "site_detail_url": "https://comicvine.gamespot.com/motoki-yoshihara/4040-98233/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-112038/",
+      "deck": null,
+      "id": 112038,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9066658-ishizeki.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9066658-ishizeki.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9066658-ishizeki.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9066658-ishizeki.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9066658-ishizeki.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9066658-ishizeki.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9066658-ishizeki.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9066658-ishizeki.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9066658-ishizeki.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Ishizeki Hideyuki",
+      "site_detail_url": "https://comicvine.gamespot.com/ishizeki-hideyuki/4040-112038/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-94376/",
+      "deck": "Mangaka.",
+      "id": 94376,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9066655-kuwayosh.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9066655-kuwayosh.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9066655-kuwayosh.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9066655-kuwayosh.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9066655-kuwayosh.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9066655-kuwayosh.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9066655-kuwayosh.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9066655-kuwayosh.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9066655-kuwayosh.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Kuwayoshi Asa",
+      "site_detail_url": "https://comicvine.gamespot.com/kuwayoshi-asa/4040-94376/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-91198/",
+      "deck": null,
+      "id": 91198,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9066654-keita.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9066654-keita.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9066654-keita.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9066654-keita.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9066654-keita.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9066654-keita.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9066654-keita.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9066654-keita.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9066654-keita.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Iizuka Keita",
+      "site_detail_url": "https://comicvine.gamespot.com/iizuka-keita/4040-91198/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-97109/",
+      "deck": "Mangaka.",
+      "id": 97109,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9066653-sato.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9066653-sato.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9066653-sato.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9066653-sato.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9066653-sato.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9066653-sato.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9066653-sato.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9066653-sato.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9066653-sato.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Sato Hirohisa",
+      "site_detail_url": "https://comicvine.gamespot.com/sato-hirohisa/4040-97109/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-121901/",
+      "deck": null,
+      "id": 121901,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9066651-4262284423-t2UX-.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9066651-4262284423-t2UX-.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9066651-4262284423-t2UX-.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9066651-4262284423-t2UX-.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9066651-4262284423-t2UX-.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9066651-4262284423-t2UX-.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9066651-4262284423-t2UX-.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9066651-4262284423-t2UX-.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9066651-4262284423-t2UX-.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Izumi Sera",
+      "site_detail_url": "https://comicvine.gamespot.com/izumi-sera/4040-121901/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-112675/",
+      "deck": "Mangaka.",
+      "id": 112675,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Subaru Aokage",
+      "site_detail_url": "https://comicvine.gamespot.com/subaru-aokage/4040-112675/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-83911/",
+      "deck": "Mangaka.",
+      "id": 83911,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9066648-subaru.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9066648-subaru.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9066648-subaru.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9066648-subaru.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9066648-subaru.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9066648-subaru.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9066648-subaru.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9066648-subaru.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9066648-subaru.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Subaru",
+      "site_detail_url": "https://comicvine.gamespot.com/subaru/4040-83911/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-86936/",
+      "deck": "Mangaka.",
+      "id": 86936,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9066646-6629905249-aHAzkF.jpeg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9066646-6629905249-aHAzkF.jpeg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9066646-6629905249-aHAzkF.jpeg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9066646-6629905249-aHAzkF.jpeg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9066646-6629905249-aHAzkF.jpeg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9066646-6629905249-aHAzkF.jpeg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9066646-6629905249-aHAzkF.jpeg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9066646-6629905249-aHAzkF.jpeg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9066646-6629905249-aHAzkF.jpeg",
+        "image_tags": "All Images"
+      },
+      "name": "Chie Shinkyu",
+      "site_detail_url": "https://comicvine.gamespot.com/chie-shinkyu/4040-86936/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-92088/",
+      "deck": null,
+      "id": 92088,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9066645-kawata.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9066645-kawata.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9066645-kawata.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9066645-kawata.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9066645-kawata.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9066645-kawata.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9066645-kawata.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9066645-kawata.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9066645-kawata.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Yushi Kawata",
+      "site_detail_url": "https://comicvine.gamespot.com/yushi-kawata/4040-92088/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-92650/",
+      "deck": "Mangaka.",
+      "id": 92650,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9066644-4305426736-sD2ECb.jpeg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9066644-4305426736-sD2ECb.jpeg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9066644-4305426736-sD2ECb.jpeg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9066644-4305426736-sD2ECb.jpeg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9066644-4305426736-sD2ECb.jpeg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9066644-4305426736-sD2ECb.jpeg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9066644-4305426736-sD2ECb.jpeg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9066644-4305426736-sD2ECb.jpeg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9066644-4305426736-sD2ECb.jpeg",
+        "image_tags": "All Images"
+      },
+      "name": "Una Megurogawa",
+      "site_detail_url": "https://comicvine.gamespot.com/una-megurogawa/4040-92650/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-94107/",
+      "deck": "Mangaka.",
+      "id": 94107,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9066643-0288913736-3fgh7.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9066643-0288913736-3fgh7.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9066643-0288913736-3fgh7.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9066643-0288913736-3fgh7.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9066643-0288913736-3fgh7.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9066643-0288913736-3fgh7.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9066643-0288913736-3fgh7.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9066643-0288913736-3fgh7.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9066643-0288913736-3fgh7.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Molicoross",
+      "site_detail_url": "https://comicvine.gamespot.com/molicoross/4040-94107/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-96586/",
+      "deck": "Mangaka.",
+      "id": 96586,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9066641-ringo.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9066641-ringo.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9066641-ringo.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9066641-ringo.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9066641-ringo.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9066641-ringo.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9066641-ringo.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9066641-ringo.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9066641-ringo.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Yuki Ringo",
+      "site_detail_url": "https://comicvine.gamespot.com/yuki-ringo/4040-96586/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-98337/",
+      "deck": null,
+      "id": 98337,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9066640-yukito.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9066640-yukito.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9066640-yukito.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9066640-yukito.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9066640-yukito.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9066640-yukito.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9066640-yukito.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9066640-yukito.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9066640-yukito.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Imouto Yukito",
+      "site_detail_url": "https://comicvine.gamespot.com/imouto-yukito/4040-98337/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-102814/",
+      "deck": "Mangaka.",
+      "id": 102814,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9066636-0202746876-hBE8u.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9066636-0202746876-hBE8u.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9066636-0202746876-hBE8u.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9066636-0202746876-hBE8u.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9066636-0202746876-hBE8u.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9066636-0202746876-hBE8u.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9066636-0202746876-hBE8u.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9066636-0202746876-hBE8u.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9066636-0202746876-hBE8u.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Oomi Suzu",
+      "site_detail_url": "https://comicvine.gamespot.com/oomi-suzu/4040-102814/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-108534/",
+      "deck": null,
+      "id": 108534,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9066635-akane.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9066635-akane.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9066635-akane.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9066635-akane.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9066635-akane.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9066635-akane.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9066635-akane.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9066635-akane.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9066635-akane.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Akane Tamura",
+      "site_detail_url": "https://comicvine.gamespot.com/akane-tamura/4040-108534/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-121024/",
+      "deck": null,
+      "id": 121024,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9066633-mori.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9066633-mori.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9066633-mori.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9066633-mori.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9066633-mori.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9066633-mori.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9066633-mori.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9066633-mori.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9066633-mori.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Mori Takuya",
+      "site_detail_url": "https://comicvine.gamespot.com/mori-takuya/4040-121024/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-121443/",
+      "deck": null,
+      "id": 121443,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9066631-keiy.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9066631-keiy.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9066631-keiy.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9066631-keiy.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9066631-keiy.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9066631-keiy.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9066631-keiy.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9066631-keiy.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9066631-keiy.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Kei Yu",
+      "site_detail_url": "https://comicvine.gamespot.com/kei-yu/4040-121443/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-121899/",
+      "deck": null,
+      "id": 121899,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9066627-0695102584-8L09n.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9066627-0695102584-8L09n.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9066627-0695102584-8L09n.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9066627-0695102584-8L09n.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9066627-0695102584-8L09n.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9066627-0695102584-8L09n.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9066627-0695102584-8L09n.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9066627-0695102584-8L09n.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9066627-0695102584-8L09n.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Inai Yuto",
+      "site_detail_url": "https://comicvine.gamespot.com/inai-yuto/4040-121899/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-121900/",
+      "deck": null,
+      "id": 121900,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9066626-7257953095-P_mro.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9066626-7257953095-P_mro.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9066626-7257953095-P_mro.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9066626-7257953095-P_mro.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9066626-7257953095-P_mro.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9066626-7257953095-P_mro.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9066626-7257953095-P_mro.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9066626-7257953095-P_mro.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9066626-7257953095-P_mro.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Osada Kana",
+      "site_detail_url": "https://comicvine.gamespot.com/osada-kana/4040-121900/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-121902/",
+      "deck": null,
+      "id": 121902,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9066614-sakan.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9066614-sakan.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9066614-sakan.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9066614-sakan.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9066614-sakan.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9066614-sakan.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9066614-sakan.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9066614-sakan.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9066614-sakan.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Uozumi Sakana",
+      "site_detail_url": "https://comicvine.gamespot.com/uozumi-sakana/4040-121902/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-121903/",
+      "deck": null,
+      "id": 121903,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9066611-5777747416-A1i9F.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9066611-5777747416-A1i9F.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9066611-5777747416-A1i9F.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9066611-5777747416-A1i9F.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9066611-5777747416-A1i9F.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9066611-5777747416-A1i9F.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9066611-5777747416-A1i9F.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9066611-5777747416-A1i9F.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9066611-5777747416-A1i9F.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Ono Takeo",
+      "site_detail_url": "https://comicvine.gamespot.com/ono-takeo/4040-121903/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-63261/",
+      "deck": "Japanese novelist.",
+      "id": 63261,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/13/136525/6162654-osamu_dazai.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/13/136525/6162654-osamu_dazai.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/13/136525/6162654-osamu_dazai.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/13/136525/6162654-osamu_dazai.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/13/136525/6162654-osamu_dazai.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/13/136525/6162654-osamu_dazai.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/13/136525/6162654-osamu_dazai.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/13/136525/6162654-osamu_dazai.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/13/136525/6162654-osamu_dazai.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Osamu Dazai",
+      "site_detail_url": "https://comicvine.gamespot.com/osamu-dazai/4040-63261/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-96382/",
+      "deck": null,
+      "id": 96382,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Kesamaru Shūzō",
+      "site_detail_url": "https://comicvine.gamespot.com/kesamaru-shuzo/4040-96382/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-96691/",
+      "deck": null,
+      "id": 96691,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "T-Chō",
+      "site_detail_url": "https://comicvine.gamespot.com/t-cho/4040-96691/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-96810/",
+      "deck": null,
+      "id": 96810,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Yayomi Yuchi",
+      "site_detail_url": "https://comicvine.gamespot.com/yayomi-yuchi/4040-96810/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-93151/",
+      "deck": null,
+      "id": 93151,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Jun Kotobuki",
+      "site_detail_url": "https://comicvine.gamespot.com/jun-kotobuki/4040-93151/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130187/",
+      "deck": null,
+      "id": 130187,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Bradley Clayton",
+      "site_detail_url": "https://comicvine.gamespot.com/bradley-clayton/4040-130187/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130186/",
+      "deck": null,
+      "id": 130186,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9066531-3384234348-profi.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9066531-3384234348-profi.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9066531-3384234348-profi.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9066531-3384234348-profi.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9066531-3384234348-profi.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9066531-3384234348-profi.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9066531-3384234348-profi.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9066531-3384234348-profi.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9066531-3384234348-profi.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Ueda Hideto",
+      "site_detail_url": "https://comicvine.gamespot.com/ueda-hideto/4040-130186/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130185/",
+      "deck": null,
+      "id": 130185,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9066529-toba.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9066529-toba.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9066529-toba.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9066529-toba.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9066529-toba.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9066529-toba.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9066529-toba.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9066529-toba.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9066529-toba.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Toba Ryō",
+      "site_detail_url": "https://comicvine.gamespot.com/toba-ryo/4040-130185/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130184/",
+      "deck": null,
+      "id": 130184,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9066523-8972542099-92954.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9066523-8972542099-92954.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9066523-8972542099-92954.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9066523-8972542099-92954.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9066523-8972542099-92954.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9066523-8972542099-92954.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9066523-8972542099-92954.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9066523-8972542099-92954.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9066523-8972542099-92954.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Sakaoka Shin",
+      "site_detail_url": "https://comicvine.gamespot.com/sakaoka-shin/4040-130184/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130183/",
+      "deck": null,
+      "id": 130183,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9066520-0236216344-v8vCi.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9066520-0236216344-v8vCi.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9066520-0236216344-v8vCi.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9066520-0236216344-v8vCi.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9066520-0236216344-v8vCi.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9066520-0236216344-v8vCi.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9066520-0236216344-v8vCi.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9066520-0236216344-v8vCi.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9066520-0236216344-v8vCi.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Kyozuka Maruo",
+      "site_detail_url": "https://comicvine.gamespot.com/kyozuka-maruo/4040-130183/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130182/",
+      "deck": null,
+      "id": 130182,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9066517-mrta.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9066517-mrta.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9066517-mrta.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9066517-mrta.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9066517-mrta.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9066517-mrta.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9066517-mrta.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9066517-mrta.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9066517-mrta.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Morita Kenji",
+      "site_detail_url": "https://comicvine.gamespot.com/morita-kenji/4040-130182/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130181/",
+      "deck": null,
+      "id": 130181,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11156/111569227/9066512-8564815794-q1R2r.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9066512-8564815794-q1R2r.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11156/111569227/9066512-8564815794-q1R2r.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11156/111569227/9066512-8564815794-q1R2r.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11156/111569227/9066512-8564815794-q1R2r.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111569227/9066512-8564815794-q1R2r.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111569227/9066512-8564815794-q1R2r.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11156/111569227/9066512-8564815794-q1R2r.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11156/111569227/9066512-8564815794-q1R2r.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Amasawa Akira",
+      "site_detail_url": "https://comicvine.gamespot.com/amasawa-akira/4040-130181/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-125482/",
+      "deck": null,
+      "id": 125482,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11141/111414280/8684035-6612214116-jrbpi.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11141/111414280/8684035-6612214116-jrbpi.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11141/111414280/8684035-6612214116-jrbpi.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11141/111414280/8684035-6612214116-jrbpi.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11141/111414280/8684035-6612214116-jrbpi.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11141/111414280/8684035-6612214116-jrbpi.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11141/111414280/8684035-6612214116-jrbpi.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11141/111414280/8684035-6612214116-jrbpi.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11141/111414280/8684035-6612214116-jrbpi.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Jane Ralston Burroughs",
+      "site_detail_url": "https://comicvine.gamespot.com/jane-ralston-burroughs/4040-125482/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-130170/",
+      "deck": null,
+      "id": 130170,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Sabamizore",
+      "site_detail_url": "https://comicvine.gamespot.com/sabamizore/4040-130170/"
+    }
+  ],
+  "version": "1.0"
+}

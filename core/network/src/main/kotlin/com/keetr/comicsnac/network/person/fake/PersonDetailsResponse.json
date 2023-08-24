@@ -1,0 +1,41 @@
+{
+  "error": "OK",
+  "limit": 1,
+  "offset": 0,
+  "number_of_page_results": 1,
+  "number_of_total_results": 1,
+  "status_code": 1,
+  "results": {
+    "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-114458/",
+    "birth": "1933-12-10 00:00:00",
+    "created_characters": [],
+    "death": {
+      "date": "2006-07-21 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "America/Los_Angeles"
+    },
+    "deck": null,
+    "description": "<p>Makoto Iwamatsu or Mako (December 10, 1933 – July 21, 2006) was a Japanese-American actor.</p><h3>Comic Related Roles</h3><p>Mako plays Akiro the Wizard in <a href=\"/conan-the-barbarian/4025-59/\" data-ref-id=\"4025-59\">Conan the Barbarian</a> (1982) and <a href=\"/conan-the-destroyer/4025-161/\" data-ref-id=\"4025-161\">Conan the Destroyer</a> (1984)</p><p>He plays Low Sing in <a href=\"/the-green-hornet/4075-29/\" data-ref-id=\"4075-29\">The Green Hornet</a> episode \"<a href=\"/the-green-hornet-110-the-preying-mantis/4070-342/\" data-ref-id=\"4070-342\">The Preying Mantis</a>\" (1966)</p><p>He voices <a href=\"/aku/4005-44136/\" data-ref-id=\"4005-44136\">Aku</a> in <a href=\"/samurai-jack/4075-82/\" data-ref-id=\"4075-82\">Samurai Jack</a> (2001-2004).</p><p>He voices <a href=\"/uncle-iroh/4005-47559/\" data-ref-id=\"4005-47559\">Uncle Iroh</a> in <a href=\"/avatar-the-last-airbender/4075-93/\" data-ref-id=\"4075-93\">Avatar: The Last Airbender</a> (2005-2006).</p><p>He voices <a href=\"/master-splinter/4005-42407/\" data-ref-id=\"4005-42407\">Master Splinter</a> in <a href=\"https://comicvine.gamespot.com/teenage-mutant-ninja-turtles/4075-126/\" data-ref-id=\"4075-126\">Teenage Mutant Ninja Turtles</a> (2012).</p>",
+    "email": null,
+    "gender": 1,
+    "hometown": "Mikage",
+    "id": 114458,
+    "image": {
+      "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+      "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+      "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+      "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+      "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+      "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+      "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+      "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+      "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+      "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+    },
+    "name": "Makoto Iwamatsu",
+    "site_detail_url": "https://comicvine.gamespot.com/makoto-iwamatsu/4040-114458/",
+    "volume_credits": [],
+    "website": null
+  },
+  "version": "1.0"
+}
