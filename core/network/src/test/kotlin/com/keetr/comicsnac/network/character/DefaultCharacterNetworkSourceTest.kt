@@ -46,7 +46,7 @@ class DefaultCharacterNetworkSourceTest : NetworkSourceTest<CharacterNetworkSour
         val issue = IssueApiModel(
             apiDetailUrl = "https://comicvine.gamespot.com/api/first_appeared_in_issue/4000-1006449/",
             id = 1006449,
-            issueNumber = "1",
+//            issueNumber = "1",
             name = "The Max Rebo Band"
         )
         assertEquals(issue, response.getOrNull()?.results?.firstAppearedInIssue)

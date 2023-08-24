@@ -13,7 +13,7 @@ data class StoryArcDetailsApiModel(
     @SerialName("api_detail_url") val apiDetailUrl: String,
     @SerialName("deck") val deck: String?,
     @SerialName("description") val description: String?,
-    @SerialName("episodes") val episodes: List<EpisodeApiModel>,
+    @SerialName("episodes") val episodes: List<EpisodeApiModel>?,
     @SerialName("first_appeared_in_episode") val firstAppearedInEpisode: EpisodeApiModel?,
     @SerialName("first_appeared_in_issue") val firstAppearedInIssue: IssueApiModel,
     @SerialName("id") val id: Int,
