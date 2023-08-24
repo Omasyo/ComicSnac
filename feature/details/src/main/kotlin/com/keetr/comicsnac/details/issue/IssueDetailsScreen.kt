@@ -16,6 +16,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
@@ -58,12 +59,11 @@ internal fun IssueDetailsScreen(
     onItemClicked: (fullId: String) -> Unit,
     onBackPressed: () -> Unit,
     detailsUiState: IssueDetailsUiState,
-    character: LazyPagingItems<Character>,
+    characters: LazyPagingItems<Character>,
     locations: LazyPagingItems<LocationBasic>, //TODO
     objects: LazyPagingItems<ObjectBasic>,
     storyArcs: LazyPagingItems<StoryArcBasic>,
     teams: LazyPagingItems<Team>,
-    volume: VolumeBasic
 ) {
     when (detailsUiState) {
         is Error -> {
@@ -199,7 +199,10 @@ internal fun IssueDetailsScreen(
                             DetailsFlow(
                                 name = stringResource(R.string.credits), items = credits
                             ) { credit ->
-                                Column(Modifier.padding(horizontal = 16f.dp)) {
+                                Column(
+                                    Modifier.padding(horizontal = 16f.dp),
+                                    horizontalAlignment = Alignment.CenterHorizontally
+                                ) {
                                     Text(credit.name,
                                         Modifier
                                             .clickable { onItemClicked(apiDetailUrl) }

@@ -1,6 +1,7 @@
 package com.keetr.comicsnac
 
 import android.net.Uri
+import android.util.Log
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.spring
 import androidx.compose.animation.fadeIn
@@ -27,6 +28,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.keetr.comicsnac.details.character.characterRoute
+import com.keetr.comicsnac.details.issue.issueRoute
 import com.keetr.comicsnac.home.HomeRoute
 import com.keetr.comicsnac.home.homeRoute
 import com.keetr.comicsnac.ui.components.placeholders.InDevelopmentPlaceholder
@@ -41,12 +43,14 @@ fun AppNavHost(
         navController = navController,
         startDestination = HomeRoute.route
     ) {
+        val onBackPressed: () -> Unit = { navController.popBackStack() }
         val onItemClicked = { guid: String ->
             try {
                 navController.navigate(
                     Uri.parse(guid)
                 )
-            } catch (_: IllegalArgumentException) {
+            } catch (e: IllegalArgumentException) {
+                Log.e("AppNavHost", "AppNavHost: ${e.message}", )
                 navController.navigate("error")
             }
         }
@@ -62,9 +66,12 @@ fun AppNavHost(
 
         characterRoute(
             onItemClicked = onItemClicked,
-            onBackPressed = {
-                navController.popBackStack()
-            }
+            onBackPressed = onBackPressed
+        )
+
+        issueRoute(
+            onItemClicked = onItemClicked,
+            onBackPressed = onBackPressed
         )
 
         composable(

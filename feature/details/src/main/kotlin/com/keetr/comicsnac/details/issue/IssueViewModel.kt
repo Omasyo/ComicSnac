@@ -1,21 +1,24 @@
-package com.keetr.comicsnac.details.character
+package com.keetr.comicsnac.details.issue
 
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.PagingData
 import androidx.paging.cachedIn
-import com.keetr.comicsnac.data.RepositoryResponse
 import com.keetr.comicsnac.data.character.CharacterRepository
+import com.keetr.comicsnac.data.issue.IssueRepository
 import com.keetr.comicsnac.data.team.TeamRepository
 import com.keetr.comicsnac.details.Arg
 import com.keetr.comicsnac.details.DetailsUiState
 import com.keetr.comicsnac.details.Error
 import com.keetr.comicsnac.details.Loading
 import com.keetr.comicsnac.details.Success
+import com.keetr.comicsnac.details.character.getState
 import com.keetr.comicsnac.model.character.Character
-import com.keetr.comicsnac.model.character.CharacterDetails
-import com.keetr.comicsnac.model.movie.Movie
+import com.keetr.comicsnac.model.issue.IssueDetails
+import com.keetr.comicsnac.model.location.LocationBasic
+import com.keetr.comicsnac.model.`object`.ObjectBasic
+import com.keetr.comicsnac.model.storyarc.StoryArcBasic
 import com.keetr.comicsnac.model.team.Team
 import com.keetr.comicsnac.model.volume.Volume
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -29,7 +32,8 @@ import kotlinx.coroutines.flow.stateIn
 import javax.inject.Inject
 
 @HiltViewModel
-internal class CharacterViewModel @Inject constructor(
+internal class IssueViewModel @Inject constructor(
+    private val issueRepository: IssueRepository,
     private val characterRepository: CharacterRepository,
     private val teamRepository: TeamRepository,
     savedStateHandle: SavedStateHandle,
@@ -38,42 +42,34 @@ internal class CharacterViewModel @Inject constructor(
     private val id = checkNotNull(savedStateHandle.get<String>(Arg))
 
     val detailsUiState =
-        characterRepository.getCharacterDetails(id).map(::getState).stateInCurrentScope()
+        issueRepository.getIssueDetails(id).map(::getState).stateInCurrentScope()
 
 
-    val enemies: Flow<PagingData<Character>> = getPagingData {
-        characterRepository.getCharactersWithId(enemiesId)
+    val characters: Flow<PagingData<Character>> = getPagingData {
+        characterRepository.getCharactersWithId(charactersId)
     }
 
-    val friends: Flow<PagingData<Character>> = getPagingData {
-        characterRepository.getCharactersWithId(friendsId)
-    }
-
-    val movies: Flow<PagingData<Movie>> = getPagingData {
+    val locations: Flow<PagingData<LocationBasic>> = getPagingData {
         flow {  }
+    }
+
+    val objects: Flow<PagingData<ObjectBasic>> = getPagingData {
+        flow { }
+    }
+
+    val storyArcs: Flow<PagingData<StoryArcBasic>> = getPagingData {
+        flow { }
     }
 
     val teams: Flow<PagingData<Team>> = getPagingData {
         teamRepository.getTeamsWithId(teamsId)
     }
 
-    val teamEnemies: Flow<PagingData<Team>> = getPagingData {
-        teamRepository.getTeamsWithId(teamEnemiesId)
-    }
-
-    val teamFriends: Flow<PagingData<Team>> = getPagingData {
-        teamRepository.getTeamsWithId(teamFriendsId)
-    }
-
-    val volumes: Flow<PagingData<Volume>> = getPagingData {
-        flow {  }
-    }
-
     private fun <T> Flow<DetailsUiState<T>>.stateInCurrentScope() =
         stateIn(viewModelScope, SharingStarted.WhileSubscribed(), Loading)
 
     @OptIn(ExperimentalCoroutinesApi::class)
-    private fun <T : Any> getPagingData(init: CharacterDetails.() -> Flow<PagingData<T>>) =
+    private fun <T : Any> getPagingData(init: IssueDetails.() -> Flow<PagingData<T>>) =
         detailsUiState.flatMapLatest {
             when (it) {
                 is Error -> flow { }
@@ -84,10 +80,3 @@ internal class CharacterViewModel @Inject constructor(
             }
         }.cachedIn(viewModelScope)
 }
-
-
-internal fun <T> getState(response: RepositoryResponse<T>) =
-    when (response) {
-        is RepositoryResponse.Error -> Error(response)
-        is RepositoryResponse.Success -> Success(response.content)
-    }

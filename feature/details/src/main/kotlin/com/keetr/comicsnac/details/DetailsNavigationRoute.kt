@@ -23,6 +23,8 @@ import com.keetr.comicsnac.model.NavigationRoute
 const val Domain = "https://comicvine.gamespot.com"
 const val ApiBaseUrl = "$Domain/api/"
 
+const val Arg = "id"
+
 abstract class DetailsNavigationRoute(path: String, private val categoryId: String = "") :
     NavigationRoute("$path/$categoryId-%s/") {
     protected open val format = "$path/$categoryId-%s/"
@@ -31,7 +33,7 @@ abstract class DetailsNavigationRoute(path: String, private val categoryId: Stri
 
     private val webDeepLinkPattern get() = "$Domain/{_}/$categoryId-{${requiredArguments.first()}}/"
 
-    val deepLinks
+    open val deepLinks
         get() = listOf(
             navDeepLink {
                 uriPattern = apiDeepLinkPattern
