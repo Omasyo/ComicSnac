@@ -9,4 +9,7 @@
     <string name="publisher">Publisher</string>
     <string name="team_friends">Team Friends</string>
     <string name="team_enemies">Team Enemies</string>
+    <string name="cover_date">Cover Date</string>
+    <string name="store_date">Store Date</string>
+    <string name="credits">Credits</string>
 </resources>

@@ -218,7 +218,7 @@ internal fun CharacterDetailsScreen(
                             ) { power ->
                                 Text(power.name,
                                     Modifier
-                                        .clickable { onItemClicked(apiDetailUrl) }
+                                        .clickable { onItemClicked(power.apiDetailUrl) }
                                         .padding(horizontal = 8f.dp),
                                     style = MaterialTheme.typography.titleMedium)
                             }
@@ -321,7 +321,7 @@ internal fun CharacterDetailsScreen(
                             ) { person ->
                                 Text(person.name,
                                     Modifier
-                                        .clickable { onItemClicked(apiDetailUrl) }
+                                        .clickable { onItemClicked(person.apiDetailUrl) }
                                         .padding(horizontal = 16f.dp),
                                     style = MaterialTheme.typography.titleLarge)
                             }

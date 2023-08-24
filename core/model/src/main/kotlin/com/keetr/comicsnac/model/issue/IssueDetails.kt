@@ -2,6 +2,7 @@ package com.keetr.comicsnac.model.issue
 
 import com.keetr.comicsnac.model.concept.ConceptBasic
 import com.keetr.comicsnac.model.people.PersonCredit
+import com.keetr.comicsnac.model.volume.VolumeBasic
 import java.time.LocalDate
 
 data class IssueDetails(
@@ -22,6 +23,6 @@ data class IssueDetails(
     val siteDetailUrl: String,
     val storeDate: LocalDate?,
     val storyArcsId: List<Int>,
-    val teamIds: List<Int>,
-    val volumeId: Int
+    val teamsId: List<Int>,
+    val volume: VolumeBasic
 )

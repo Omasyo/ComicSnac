@@ -2,6 +2,7 @@ package com.keetr.comicsnac.data.issue
 
 import com.keetr.comicsnac.data.concept.toBasic
 import com.keetr.comicsnac.data.people.toCredits
+import com.keetr.comicsnac.data.volume.toBasic
 import com.keetr.comicsnac.model.issue.Issue
 import com.keetr.comicsnac.model.issue.IssueBasic
 import com.keetr.comicsnac.model.issue.IssueDetails
@@ -44,7 +45,7 @@ internal fun IssueDetailsApiModel.toIssueDetails() = IssueDetails(
     siteDetailUrl = siteDetailUrl,
     storeDate = storeDate,
     storyArcsId = storyArcCredits.map { it.id },
-    teamIds = teamCredits.map { it.id },
-    volumeId = volume.id
+    teamsId = teamCredits.map { it.id },
+    volume = volume.toBasic()
 
 )

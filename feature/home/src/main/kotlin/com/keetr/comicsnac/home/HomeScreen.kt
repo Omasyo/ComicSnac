@@ -45,12 +45,6 @@ internal fun HomeScreen(
     onSeriesCategoryClicked: () -> Unit,
     homeUiState: HomeUiState
 ) {
-    val panelColors = with(MaterialTheme.colorScheme) {
-        PanelColors(
-            strokeColor = outline, surface1 = primary, surface2 = tertiary, surface3 = secondary
-        )
-    }
-
     Scaffold(modifier) { padding ->
         CompositionLocalProvider(LocalContentColor provides MaterialTheme.colorScheme.onSurface) {
             PanelList(contentPadding = padding) {
@@ -68,7 +62,6 @@ internal fun HomeScreen(
                 panel {
                     Column(
                         Modifier.fillMaxWidth(),
-//                                .height(376f.dp),
                         horizontalAlignment = Alignment.CenterHorizontally,
                     ) {
                         Text(
@@ -82,9 +75,9 @@ internal fun HomeScreen(
                             label = "New Issues Carousel"
                         ) { uiState ->
                             when (uiState) {
-                                is Error -> ErrorPlaceholder(Modifier.height(360f.dp))
-                                InDevelopment -> InDevelopmentPlaceholder(Modifier.height(360f.dp))
-                                Loading -> LoadingPlaceholder(Modifier.height(360f.dp))
+                                is Error -> ErrorPlaceholder(Modifier.height(336f.dp))
+                                InDevelopment -> InDevelopmentPlaceholder(Modifier.height(336f.dp))
+                                Loading -> LoadingPlaceholder(Modifier.height(336f.dp))
                                 is Success -> {
                                     IssueCarousel(
                                         issues = uiState.contents, onIssueClick = onItemClicked

@@ -62,9 +62,9 @@ internal fun <T> CategoryCarousel(
             label = "Category Carousel"
         ) { uiState ->
             when (uiState) {
-                is Error -> ErrorPlaceholder(Modifier.height(300f.dp))
-                InDevelopment -> InDevelopmentPlaceholder(Modifier.height(300f.dp))
-                Loading -> LoadingPlaceholder(Modifier.height(300f.dp))
+                is Error -> ErrorPlaceholder(Modifier.height(264f.dp))
+                InDevelopment -> InDevelopmentPlaceholder(Modifier.height(264f.dp))
+                Loading -> LoadingPlaceholder(Modifier.height(264f.dp))
 
                 is Success -> {
                     LazyRow(
