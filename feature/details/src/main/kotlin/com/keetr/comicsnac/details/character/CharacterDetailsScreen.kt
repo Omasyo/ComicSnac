@@ -70,15 +70,11 @@ internal fun CharacterDetailsScreen(
 ) {
     when (detailsUiState) {
         is Error -> {
-            DetailsErrorPlaceholder {
-
-            }
+            DetailsErrorPlaceholder(onBackPressed = onBackPressed)
         }
 
         Loading -> {
-            DetailsLoadingPlaceholder {
-
-            }
+            DetailsLoadingPlaceholder(onBackPressed = onBackPressed)
         }
 
         is Success -> {

@@ -32,46 +32,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             ComicSnacTheme {
-
-                val navController = rememberNavController()
-
-                NavHost(
-                    navController = navController,
-                    startDestination = HomeRoute.route
-                ) {
-                    val onItemClicked = { guid: String ->
-                        try {
-                            navController.navigate(
-                                Uri.parse(guid)
-                            )
-                        } catch (_: IllegalArgumentException) {
-                            navController.navigate("error")
-                        }
-
-                    }
-
-                    homeRoute(
-                        onItemClicked = onItemClicked,
-                        onMoreCategoriesClicked = {},
-                        onCharacterCategoryClicked = {},
-                        onVolumeCategoryClicked = {},
-                        onMovieCategoryClicked = {},
-                        onSeriesCategoryClicked = {}
-                    )
-
-                    characterRoute(
-                        onItemClicked = onItemClicked,
-                        onBackPressed = {
-                            navController.popBackStack()
-                        }
-                    )
-
-                    composable("error") {
-                        Surface {
-                            InDevelopmentPlaceholder(Modifier.fillMaxSize())
-                        }
-                    }
-                }
+                AppNavHost()
             }
         }
     }
