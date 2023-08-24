@@ -1,5 +1,11 @@
 package com.keetr.comicsnac.home
 
+import androidx.compose.animation.AnimatedContentTransitionScope
+import androidx.compose.animation.expandIn
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.scaleIn
+import androidx.compose.animation.scaleOut
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
@@ -21,7 +27,9 @@ fun NavGraphBuilder.homeRoute(
     onMovieCategoryClicked: () -> Unit,
     onSeriesCategoryClicked: () -> Unit,
 ) = composable(
-    route = HomeRoute.route
+    route = HomeRoute.route,
+    exitTransition = { fadeOut() + scaleOut(targetScale = 0.9f) },
+    popEnterTransition = { fadeIn() + scaleIn(initialScale = 0.9f) }
 ) {
     HomeRoute(
         modifier = modifier,

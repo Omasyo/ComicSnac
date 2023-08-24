@@ -20,6 +20,7 @@ import androidx.navigation.navDeepLink
 import com.keetr.comicsnac.details.character.characterRoute
 import com.keetr.comicsnac.home.HomeRoute
 import com.keetr.comicsnac.home.homeRoute
+import com.keetr.comicsnac.ui.components.placeholders.InDevelopmentPlaceholder
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -39,9 +40,14 @@ class MainActivity : ComponentActivity() {
                     startDestination = HomeRoute.route
                 ) {
                     val onItemClicked = { guid: String ->
-                        navController.navigate(
-                            Uri.parse(guid)
-                        )
+                        try {
+                            navController.navigate(
+                                Uri.parse(guid)
+                            )
+                        } catch (_: IllegalArgumentException) {
+                            navController.navigate("error")
+                        }
+
                     }
 
                     homeRoute(
@@ -59,6 +65,12 @@ class MainActivity : ComponentActivity() {
                             navController.popBackStack()
                         }
                     )
+
+                    composable("error") {
+                        Surface {
+                            InDevelopmentPlaceholder(Modifier.fillMaxSize())
+                        }
+                    }
                 }
             }
         }

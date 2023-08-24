@@ -1,5 +1,17 @@
 package com.keetr.comicsnac.details.character
 
+import androidx.compose.animation.AnimatedContentScope
+import androidx.compose.animation.AnimatedContentTransitionScope
+import androidx.compose.animation.EnterTransition
+import androidx.compose.animation.ExitTransition
+import androidx.compose.animation.core.Spring
+import androidx.compose.animation.core.spring
+import androidx.compose.animation.core.tween
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.scaleIn
+import androidx.compose.animation.scaleOut
+import androidx.compose.animation.slideIn
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
@@ -8,11 +20,12 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
 import androidx.navigation.navDeepLink
 import androidx.paging.compose.collectAsLazyPagingItems
-import com.keetr.comicsnac.model.NavigationRoute
+import com.keetr.comicsnac.details.DetailsNavigationRoute
+import com.keetr.comicsnac.details.detailsComposable
 
 const val Arg = "id"
 
-private object CharacterRoute : NavigationRoute("character/4005-%s/") {
+private object CharacterRoute : DetailsNavigationRoute("character", "4005") {
     override val requiredArguments: List<String> = listOf(Arg)
 }
 
@@ -20,16 +33,9 @@ fun NavGraphBuilder.characterRoute(
     modifier: Modifier = Modifier,
     onItemClicked: (fullId: String) -> Unit,
     onBackPressed: () -> Unit,
-) = composable(
+) = detailsComposable(
     route = CharacterRoute.route,
-    deepLinks = listOf(
-        navDeepLink {
-            uriPattern = "https://comicvine.gamespot.com/api/${CharacterRoute.route}"
-        },
-        navDeepLink {
-            uriPattern = "https://comicvine.gamespot.com/{_}/4005-{$Arg}/"
-        }
-    )
+    deepLinks = CharacterRoute.deepLinks
 ) {
     CharacterRoute(
         modifier = modifier,
