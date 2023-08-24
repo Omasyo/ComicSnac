@@ -15,7 +15,6 @@ import org.junit.Test
 
 class DefaultVolumeNetworkSourceTest : NetworkSourceTest<VolumeNetworkSource>() {
 
-
     override fun generateResponseBody(request: HttpRequestData): String =
         when (request.url.encodedPath) {
             "/api/volume/4050-153158" -> VolumeDetailsResponse

@@ -32,7 +32,18 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <data android:host="comicvine.gamespot.com" android:scheme="https" />
+                <data android:host="comicvine.gamespot.com" android:pathPrefix="/api"
+                    android:scheme="https" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:host="comicvine.gamespot.com" android:pathPattern=".*/..*"
+                    android:scheme="https" />
             </intent-filter>
 
         </activity>
