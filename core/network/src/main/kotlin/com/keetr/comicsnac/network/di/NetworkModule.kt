@@ -8,6 +8,12 @@ import com.keetr.comicsnac.network.concept.DefaultConceptNetworkSource
 import com.keetr.comicsnac.network.createClient
 import com.keetr.comicsnac.network.issue.DefaultIssueNetworkSource
 import com.keetr.comicsnac.network.issue.IssueNetworkSource
+import com.keetr.comicsnac.network.person.DefaultPersonNetworkSource
+import com.keetr.comicsnac.network.person.PersonNetworkSource
+import com.keetr.comicsnac.network.power.DefaultPowerNetworkSource
+import com.keetr.comicsnac.network.power.PowerNetworkSource
+import com.keetr.comicsnac.network.storyarc.DefaultStoryArcNetworkSource
+import com.keetr.comicsnac.network.storyarc.StoryArcNetworkSource
 import com.keetr.comicsnac.network.team.DefaultTeamNetworkSource
 import com.keetr.comicsnac.network.team.TeamNetworkSource
 import com.keetr.comicsnac.network.volume.DefaultVolumeNetworkSource
@@ -54,6 +60,21 @@ private object NetworkModule {
     @Singleton
     fun provideIssueNetworkSource(client: HttpClient): IssueNetworkSource =
         DefaultIssueNetworkSource(client)
+
+    @Provides
+    @Singleton
+    fun providePersonNetworkSource(client: HttpClient): PersonNetworkSource =
+        DefaultPersonNetworkSource(client)
+
+    @Provides
+    @Singleton
+    fun providePowerNetworkSource(client: HttpClient): PowerNetworkSource =
+        DefaultPowerNetworkSource(client)
+
+    @Provides
+    @Singleton
+    fun provideStoryArcNetworkSource(client: HttpClient): StoryArcNetworkSource =
+        DefaultStoryArcNetworkSource(client)
 
     @Provides
     @Singleton

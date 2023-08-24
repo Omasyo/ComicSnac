@@ -4,6 +4,8 @@ import com.keetr.comicsnac.data.character.CharacterRepository
 import com.keetr.comicsnac.data.character.DefaultCharacterRepository
 import com.keetr.comicsnac.data.issue.DefaultIssueRepository
 import com.keetr.comicsnac.data.issue.IssueRepository
+import com.keetr.comicsnac.data.power.DefaultPowerRepository
+import com.keetr.comicsnac.data.power.PowerRepository
 import com.keetr.comicsnac.data.team.DefaultTeamRepository
 import com.keetr.comicsnac.data.team.TeamRepository
 import dagger.Binds
@@ -20,6 +22,9 @@ private interface RepositoryModule {
 
     @Binds
     fun bindIssueRepository(issueRepository: DefaultIssueRepository): IssueRepository
+
+    @Binds
+    fun bindPowerRepository(powerRepository: DefaultPowerRepository): PowerRepository
 
     @Binds
     fun bindTeamRepository(teamRepository: DefaultTeamRepository): TeamRepository

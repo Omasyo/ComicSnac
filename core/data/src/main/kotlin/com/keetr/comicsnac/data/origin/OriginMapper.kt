@@ -5,5 +5,4 @@ import com.keetr.comicsnac.network.common.models.OriginApiModel
 
 internal fun OriginApiModel.toOriginBasic() = OriginBasic(
     apiDetailUrl = apiDetailUrl, id = id, name = name
-
 )
