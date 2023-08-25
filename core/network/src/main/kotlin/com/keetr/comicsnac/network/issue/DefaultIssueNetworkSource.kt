@@ -9,9 +9,7 @@ import io.ktor.client.request.get
 import io.ktor.client.request.parameter
 import javax.inject.Inject
 
-const val TAG = "DefaultIssueNetworkSource"
-
-class DefaultIssueNetworkSource @Inject constructor(
+internal class DefaultIssueNetworkSource @Inject constructor(
     private val client: HttpClient
 ) : IssueNetworkSource {
     override suspend fun getIssueDetails(id: String): Result<IssueDetailsResponse> =

@@ -1,0 +1,1911 @@
+{
+  "error": "OK",
+  "limit": 100,
+  "offset": 0,
+  "number_of_page_results": 100,
+  "number_of_total_results": 2686,
+  "status_code": 1,
+  "results": [
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-1/",
+      "deck": "Adaptation of Moore and Gibbons' seminal miniseries.",
+      "id": 1,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/42/868515-watchmen_final_poster.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/42/868515-watchmen_final_poster.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/42/868515-watchmen_final_poster.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/42/868515-watchmen_final_poster.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/42/868515-watchmen_final_poster.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/42/868515-watchmen_final_poster.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/42/868515-watchmen_final_poster.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/42/868515-watchmen_final_poster.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/42/868515-watchmen_final_poster.jpg",
+        "image_tags": "All Images,Watchmen"
+      },
+      "name": "Watchmen",
+      "site_detail_url": "https://comicvine.gamespot.com/watchmen/4025-1/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-2/",
+      "deck": "The 1978 film released by Warner Brothers was the first big-budget comic-to-film adaptation and became a blockbuster around the world, following in the footsteps of Star Wars.",
+      "id": 2,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/2/868526-superman.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/2/868526-superman.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/2/868526-superman.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/2/868526-superman.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/2/868526-superman.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/2/868526-superman.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/2/868526-superman.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/2/868526-superman.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/2/868526-superman.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Superman",
+      "site_detail_url": "https://comicvine.gamespot.com/superman/4025-2/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-3/",
+      "deck": "Daredevil is a film adaptation of the Daredevil comic book series. It features Kingpin as the main villain, alongside Bullseye, and has Elektra, Foggy Nelson, Ben Urich and Father Everett as supporting characters.",
+      "id": 3,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/42/868557-daredevil_ver2.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/42/868557-daredevil_ver2.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/42/868557-daredevil_ver2.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/42/868557-daredevil_ver2.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/42/868557-daredevil_ver2.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/42/868557-daredevil_ver2.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/42/868557-daredevil_ver2.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/42/868557-daredevil_ver2.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/42/868557-daredevil_ver2.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Daredevil",
+      "site_detail_url": "https://comicvine.gamespot.com/daredevil/4025-3/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-4/",
+      "deck": "The first film in the Batman universe. Featuring Michael Keaton as Batman and Jack Nicholson as the Joker.",
+      "id": 4,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/38826/1152186-0abbatman.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/38826/1152186-0abbatman.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/38826/1152186-0abbatman.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/38826/1152186-0abbatman.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/38826/1152186-0abbatman.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/38826/1152186-0abbatman.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/38826/1152186-0abbatman.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/38826/1152186-0abbatman.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/38826/1152186-0abbatman.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Batman",
+      "site_detail_url": "https://comicvine.gamespot.com/batman/4025-4/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-5/",
+      "deck": "Although Superman II was shot partially in step with the first movie, director Richard Lester replaced Donner behind the camera. The film's plot picks up immediately after the original film. Despite the behind the scenes drama, the film was a box office smash.",
+      "id": 5,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/6/62070/2725437-superman_ii.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/62070/2725437-superman_ii.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/6/62070/2725437-superman_ii.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/6/62070/2725437-superman_ii.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/6/62070/2725437-superman_ii.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/6/62070/2725437-superman_ii.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/6/62070/2725437-superman_ii.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/6/62070/2725437-superman_ii.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/6/62070/2725437-superman_ii.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Superman II",
+      "site_detail_url": "https://comicvine.gamespot.com/superman-ii/4025-5/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-6/",
+      "deck": "Superman takes on tycoon Ross Webster and his Ultimate Computer. Webscoe and its CEO ended up influencing DC to create the LexCorp characterization of Luthor a decade later. ",
+      "id": 6,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/2/868571-superman_iii.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/2/868571-superman_iii.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/2/868571-superman_iii.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/2/868571-superman_iii.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/2/868571-superman_iii.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/2/868571-superman_iii.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/2/868571-superman_iii.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/2/868571-superman_iii.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/2/868571-superman_iii.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Superman III",
+      "site_detail_url": "https://comicvine.gamespot.com/superman-iii/4025-6/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-7/",
+      "deck": "Michael Keaton returns as Batman who must now contend with the Penguin and Catwoman.",
+      "id": 7,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/42/868574-batmanreturns_poster.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/42/868574-batmanreturns_poster.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/42/868574-batmanreturns_poster.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/42/868574-batmanreturns_poster.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/42/868574-batmanreturns_poster.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/42/868574-batmanreturns_poster.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/42/868574-batmanreturns_poster.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/42/868574-batmanreturns_poster.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/42/868574-batmanreturns_poster.jpg",
+        "image_tags": "All Images,Batman Returns"
+      },
+      "name": "Batman Returns",
+      "site_detail_url": "https://comicvine.gamespot.com/batman-returns/4025-7/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-8/",
+      "deck": "The third Batman film. The first and only to star Val Kilmer as Batman, going up against Two-Face and the Riddler. It also features Chris O'Donnell's debut as Dick Grayson/Robin.",
+      "id": 8,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/6/62070/8254533-foreverposter.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/62070/8254533-foreverposter.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/6/62070/8254533-foreverposter.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/6/62070/8254533-foreverposter.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/6/62070/8254533-foreverposter.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/6/62070/8254533-foreverposter.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/6/62070/8254533-foreverposter.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/6/62070/8254533-foreverposter.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/6/62070/8254533-foreverposter.png",
+        "image_tags": "All Images"
+      },
+      "name": "Batman Forever",
+      "site_detail_url": "https://comicvine.gamespot.com/batman-forever/4025-8/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-9/",
+      "deck": "Superman battles the Russians and the threat of nuclear holocaust in this cold-war inspired film. In addition, Lex Luthor cooks up a scheme to finish Superman once and for all... the creation of Nuclear Man, an evil being spawned from Superman's own genetic material. Christopher Reeve's final film appearance as Superman. This was a box-office and critical bomb and was panned by many. It would be almost 20 years until another Superman movie would be made.",
+      "id": 9,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/2/868592-superman_4.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/2/868592-superman_4.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/2/868592-superman_4.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/2/868592-superman_4.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/2/868592-superman_4.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/2/868592-superman_4.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/2/868592-superman_4.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/2/868592-superman_4.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/2/868592-superman_4.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Superman IV: The Quest For Peace",
+      "site_detail_url": "https://comicvine.gamespot.com/superman-iv-the-quest-for-peace/4025-9/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-10/",
+      "deck": "In the fourth Batman major motion picture Poison Ivy puts a strain Batman and Robin's relationship while they try to stop Mr. Freeze from icing Gotham City.",
+      "id": 10,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/42/868593-batmanandrobinposter.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/42/868593-batmanandrobinposter.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/42/868593-batmanandrobinposter.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/42/868593-batmanandrobinposter.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/42/868593-batmanandrobinposter.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/42/868593-batmanandrobinposter.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/42/868593-batmanandrobinposter.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/42/868593-batmanandrobinposter.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/42/868593-batmanandrobinposter.jpg",
+        "image_tags": "All Images,Movie Posters"
+      },
+      "name": "Batman & Robin",
+      "site_detail_url": "https://comicvine.gamespot.com/batman-robin/4025-10/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-11/",
+      "deck": "Superman Returns brought the franchise back to the big screen after a 20 year absence with newcomer Brandon Routh putting on the cape. The continuity of the film is set just after Superman II (1980), where Superman had a romantic relationship with Lois Lane.",
+      "id": 11,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/2/868612-superman_returns_ver2.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/2/868612-superman_returns_ver2.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/2/868612-superman_returns_ver2.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/2/868612-superman_returns_ver2.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/2/868612-superman_returns_ver2.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/2/868612-superman_returns_ver2.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/2/868612-superman_returns_ver2.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/2/868612-superman_returns_ver2.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/2/868612-superman_returns_ver2.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Superman Returns",
+      "site_detail_url": "https://comicvine.gamespot.com/superman-returns/4025-11/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-12/",
+      "deck": "The first Batman film to star Christian Bale as the Dark Knight. This film kickstarted a trend in hollywood now known as the \"franchise reboot\" ignoring past movies, inviting a bigger potential audience with a fresh start. ",
+      "id": 12,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/42/868618-movieposter.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/42/868618-movieposter.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/42/868618-movieposter.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/42/868618-movieposter.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/42/868618-movieposter.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/42/868618-movieposter.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/42/868618-movieposter.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/42/868618-movieposter.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/42/868618-movieposter.jpg",
+        "image_tags": "All Images,Movie Posters"
+      },
+      "name": "Batman Begins",
+      "site_detail_url": "https://comicvine.gamespot.com/batman-begins/4025-12/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-13/",
+      "deck": "A film adaption of Alan Moore's famed comic. Unsurprisingly, he wasn't thrilled about it.",
+      "id": 13,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/38826/1076585-0v4.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/38826/1076585-0v4.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/38826/1076585-0v4.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/38826/1076585-0v4.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/38826/1076585-0v4.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/38826/1076585-0v4.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/38826/1076585-0v4.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/38826/1076585-0v4.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/38826/1076585-0v4.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "V for Vendetta",
+      "site_detail_url": "https://comicvine.gamespot.com/v-for-vendetta/4025-13/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-14/",
+      "deck": "Based on the graphic novels Sin City: The Hard Good-Bye, The Big Fat Kill and That Yellow Bastard by Frank Miller.\n\nIntro short is The Customer is Always Right from The Babe Wore Red. \n\nDirected by Robert Rodriguez",
+      "id": 14,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/77/868722-sin_city.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/868722-sin_city.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/77/868722-sin_city.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/77/868722-sin_city.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/77/868722-sin_city.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/77/868722-sin_city.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/77/868722-sin_city.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/77/868722-sin_city.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/77/868722-sin_city.jpg",
+        "image_tags": "All Images,Sin city"
+      },
+      "name": "Sin City",
+      "site_detail_url": "https://comicvine.gamespot.com/sin-city/4025-14/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-15/",
+      "deck": "A year after the events of Batman Begins, a new era begins for Batman, as he settles in as Gotham's Caped Crusader, a new threat reveals itself, The Joker, a Clown Prince of Crime raiding banks in Gotham. The Batman must join forces with Commissioner Gordon and Harvey Dent to bring the Joker down before anyone suffers from the his plans. But they are not ready for what the Joker has in store for The People of Gotham. The movie serves as the second part of The Dark Knight Trilogy.",
+      "id": 15,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/42/868727-hr_the_dark_knight_51.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/42/868727-hr_the_dark_knight_51.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/42/868727-hr_the_dark_knight_51.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/42/868727-hr_the_dark_knight_51.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/42/868727-hr_the_dark_knight_51.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/42/868727-hr_the_dark_knight_51.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/42/868727-hr_the_dark_knight_51.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/42/868727-hr_the_dark_knight_51.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/42/868727-hr_the_dark_knight_51.jpg",
+        "image_tags": "All Images,Dark Knight,Good Pics"
+      },
+      "name": "The Dark Knight",
+      "site_detail_url": "https://comicvine.gamespot.com/the-dark-knight/4025-15/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-16/",
+      "deck": "Based on the graphic novel 300 by Frank Miller. Directed by Zack Snyder.",
+      "id": 16,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/77/868742-300_poster_premiere_425.jpeg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/868742-300_poster_premiere_425.jpeg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/77/868742-300_poster_premiere_425.jpeg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/77/868742-300_poster_premiere_425.jpeg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/77/868742-300_poster_premiere_425.jpeg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/77/868742-300_poster_premiere_425.jpeg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/77/868742-300_poster_premiere_425.jpeg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/77/868742-300_poster_premiere_425.jpeg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/77/868742-300_poster_premiere_425.jpeg",
+        "image_tags": "All Images"
+      },
+      "name": "300",
+      "site_detail_url": "https://comicvine.gamespot.com/300/4025-16/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-17/",
+      "deck": "Feature-length live action film based around the Marvel character Iron Man. Released in 2008 and starring Robert Downey Jr, it serves as the productive beginning of the Marvel Cinematic Universe, but comes third, chronologically.",
+      "id": 17,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/77/868768-ironmanposter3.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/868768-ironmanposter3.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/77/868768-ironmanposter3.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/77/868768-ironmanposter3.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/77/868768-ironmanposter3.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/77/868768-ironmanposter3.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/77/868768-ironmanposter3.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/77/868768-ironmanposter3.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/77/868768-ironmanposter3.jpg",
+        "image_tags": "All Images,Iron Man"
+      },
+      "name": "Iron Man",
+      "site_detail_url": "https://comicvine.gamespot.com/iron-man/4025-17/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-18/",
+      "deck": "Nicolas Cage stars in this feature film based on the comic Ghost Rider.",
+      "id": 18,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/42/868846-ghostriderposter.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/42/868846-ghostriderposter.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/42/868846-ghostriderposter.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/42/868846-ghostriderposter.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/42/868846-ghostriderposter.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/42/868846-ghostriderposter.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/42/868846-ghostriderposter.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/42/868846-ghostriderposter.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/42/868846-ghostriderposter.jpg",
+        "image_tags": "All Images,Movie Posters"
+      },
+      "name": "Ghost Rider",
+      "site_detail_url": "https://comicvine.gamespot.com/ghost-rider/4025-18/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-19/",
+      "deck": "A film rendition of the Rocketeer comics.",
+      "id": 19,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/38826/871231-rocketeer.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/38826/871231-rocketeer.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/38826/871231-rocketeer.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/38826/871231-rocketeer.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/38826/871231-rocketeer.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/38826/871231-rocketeer.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/38826/871231-rocketeer.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/38826/871231-rocketeer.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/38826/871231-rocketeer.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Rocketeer",
+      "site_detail_url": "https://comicvine.gamespot.com/the-rocketeer/4025-19/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-20/",
+      "deck": "Josh Harnett stars in this Vampire saga set in a sleepy little town in Alaska.",
+      "id": 20,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/2/868866-30.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/2/868866-30.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/2/868866-30.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/2/868866-30.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/2/868866-30.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/2/868866-30.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/2/868866-30.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/2/868866-30.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/2/868866-30.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "30 Days of Night",
+      "site_detail_url": "https://comicvine.gamespot.com/30-days-of-night/4025-20/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-21/",
+      "deck": "Viggo Mortenson stars in David Cronenberg's adaptation of the graphic novel about a man trying to escape his violence-riddled past in a small town.",
+      "id": 21,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/2/868882-history_of_violence.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/2/868882-history_of_violence.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/2/868882-history_of_violence.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/2/868882-history_of_violence.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/2/868882-history_of_violence.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/2/868882-history_of_violence.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/2/868882-history_of_violence.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/2/868882-history_of_violence.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/2/868882-history_of_violence.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "A History of Violence",
+      "site_detail_url": "https://comicvine.gamespot.com/a-history-of-violence/4025-21/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-22/",
+      "deck": "The original X-Men movie, Where Professor X leads his group of mutants, and teaches them to use their superhuman abilities.",
+      "id": 22,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/38826/871237-xmen.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/38826/871237-xmen.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/38826/871237-xmen.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/38826/871237-xmen.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/38826/871237-xmen.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/38826/871237-xmen.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/38826/871237-xmen.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/38826/871237-xmen.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/38826/871237-xmen.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "X-Men",
+      "site_detail_url": "https://comicvine.gamespot.com/x-men/4025-22/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-23/",
+      "deck": "X2: X-Men United is the sequel to the original film \"X-Men\". The mutants must work together to stop a mutant assassin who has made an attempt on the President's life.",
+      "id": 23,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/2/29350/932575-x_men_two_ver3_xlg.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/2/29350/932575-x_men_two_ver3_xlg.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/2/29350/932575-x_men_two_ver3_xlg.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/2/29350/932575-x_men_two_ver3_xlg.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/2/29350/932575-x_men_two_ver3_xlg.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/2/29350/932575-x_men_two_ver3_xlg.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/2/29350/932575-x_men_two_ver3_xlg.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/2/29350/932575-x_men_two_ver3_xlg.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/2/29350/932575-x_men_two_ver3_xlg.jpg",
+        "image_tags": "All Images,X Men"
+      },
+      "name": "X2: X-Men United",
+      "site_detail_url": "https://comicvine.gamespot.com/x2-x-men-united/4025-23/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-24/",
+      "deck": "The third and (at the time) final instalment in the X-Men trilogy.  Loosely based upon the Dark Phoenix Saga/Gifted storyline, new director Brett Ratner directs the epic, containing a vast array of characters from the X-Universe.",
+      "id": 24,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/868931-x3p_003.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/868931-x3p_003.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/868931-x3p_003.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/868931-x3p_003.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/868931-x3p_003.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/868931-x3p_003.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/868931-x3p_003.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/868931-x3p_003.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/868931-x3p_003.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "X-Men: The Last Stand",
+      "site_detail_url": "https://comicvine.gamespot.com/x-men-the-last-stand/4025-24/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-25/",
+      "deck": "The fourth X-Men movie, and a prequel to the original trilogy that tells the origins of Wolverine.",
+      "id": 25,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/868942-wolverinetheatricalposter_a.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/868942-wolverinetheatricalposter_a.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/868942-wolverinetheatricalposter_a.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/868942-wolverinetheatricalposter_a.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/868942-wolverinetheatricalposter_a.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/868942-wolverinetheatricalposter_a.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/868942-wolverinetheatricalposter_a.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/868942-wolverinetheatricalposter_a.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/868942-wolverinetheatricalposter_a.jpg",
+        "image_tags": "All Images,Posters"
+      },
+      "name": "X-Men Origins: Wolverine",
+      "site_detail_url": "https://comicvine.gamespot.com/x-men-origins-wolverine/4025-25/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-26/",
+      "deck": "A Hellblazer adaption based off of Garth Ennis' Dangerous Habits storyline and Jamie Delano's early Hellblazer stories. Keanu Reeves stars as John Constantine, a demon exorcist. ",
+      "id": 26,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/868950-constantine_poster.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/868950-constantine_poster.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/868950-constantine_poster.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/868950-constantine_poster.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/868950-constantine_poster.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/868950-constantine_poster.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/868950-constantine_poster.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/868950-constantine_poster.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/868950-constantine_poster.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Constantine",
+      "site_detail_url": "https://comicvine.gamespot.com/constantine/4025-26/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-27/",
+      "deck": "A fictionalized documentary about the life of Harvey Pekar, the down-on-his-luck writer responsible for the American Splendor comic book.",
+      "id": 27,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/2/869048-american_splendor.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/2/869048-american_splendor.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/2/869048-american_splendor.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/2/869048-american_splendor.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/2/869048-american_splendor.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/2/869048-american_splendor.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/2/869048-american_splendor.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/2/869048-american_splendor.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/2/869048-american_splendor.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "American Splendor",
+      "site_detail_url": "https://comicvine.gamespot.com/american-splendor/4025-27/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-28/",
+      "deck": "Loosely based on Alan Moore's graphic novel of the same name, The League of Extraordinary Gentleman stars Sean Connery as Allan Quartermain.",
+      "id": 28,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/2/869051-league.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/2/869051-league.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/2/869051-league.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/2/869051-league.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/2/869051-league.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/2/869051-league.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/2/869051-league.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/2/869051-league.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/2/869051-league.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "League of Extraordinary Gentlemen",
+      "site_detail_url": "https://comicvine.gamespot.com/league-of-extraordinary-gentlemen/4025-28/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-29/",
+      "deck": "Film based on the Dark Horse comic of the same name, starring the buxom Pamela Andersen. Whether or not that's a good thing is for you to decide.",
+      "id": 29,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/869052-barbwireposter.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/869052-barbwireposter.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/869052-barbwireposter.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/869052-barbwireposter.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/869052-barbwireposter.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/869052-barbwireposter.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/869052-barbwireposter.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/869052-barbwireposter.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/869052-barbwireposter.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Barb Wire",
+      "site_detail_url": "https://comicvine.gamespot.com/barb-wire/4025-29/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-30/",
+      "deck": "First film in the Blade trilogy.",
+      "id": 30,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/6/62070/2615005-bladeposter.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/62070/2615005-bladeposter.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/6/62070/2615005-bladeposter.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/6/62070/2615005-bladeposter.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/6/62070/2615005-bladeposter.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/6/62070/2615005-bladeposter.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/6/62070/2615005-bladeposter.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/6/62070/2615005-bladeposter.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/6/62070/2615005-bladeposter.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Blade",
+      "site_detail_url": "https://comicvine.gamespot.com/blade/4025-30/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-31/",
+      "deck": "Tom Hanks stars in this adaptation of the graphic novel that focuses on a small boy's reaction to his hit-man father's profession.",
+      "id": 31,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/2/869074-road_to_perdition.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/2/869074-road_to_perdition.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/2/869074-road_to_perdition.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/2/869074-road_to_perdition.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/2/869074-road_to_perdition.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/2/869074-road_to_perdition.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/2/869074-road_to_perdition.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/2/869074-road_to_perdition.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/2/869074-road_to_perdition.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Road to Perdition",
+      "site_detail_url": "https://comicvine.gamespot.com/road-to-perdition/4025-31/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-32/",
+      "deck": "The second film in the Blade trilogy.",
+      "id": 32,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/869075-blade_ii_movie.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/869075-blade_ii_movie.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/869075-blade_ii_movie.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/869075-blade_ii_movie.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/869075-blade_ii_movie.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/869075-blade_ii_movie.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/869075-blade_ii_movie.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/869075-blade_ii_movie.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/869075-blade_ii_movie.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Blade II",
+      "site_detail_url": "https://comicvine.gamespot.com/blade-ii/4025-32/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-33/",
+      "deck": "The final film in the Blade trilogy.",
+      "id": 33,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/869077-blade_trinity_poster.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/869077-blade_trinity_poster.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/869077-blade_trinity_poster.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/869077-blade_trinity_poster.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/869077-blade_trinity_poster.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/869077-blade_trinity_poster.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/869077-blade_trinity_poster.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/869077-blade_trinity_poster.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/869077-blade_trinity_poster.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Blade: Trinity",
+      "site_detail_url": "https://comicvine.gamespot.com/blade-trinity/4025-33/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-34/",
+      "deck": "The first Spider-Man movie directed by Sam Raimi and starring Tobey Maguire as Peter Parker/Spider-Man.",
+      "id": 34,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/40/869105-spiderman_the_movie_poster_starring_tobey_maguire.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/40/869105-spiderman_the_movie_poster_starring_tobey_maguire.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/40/869105-spiderman_the_movie_poster_starring_tobey_maguire.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/40/869105-spiderman_the_movie_poster_starring_tobey_maguire.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/40/869105-spiderman_the_movie_poster_starring_tobey_maguire.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/40/869105-spiderman_the_movie_poster_starring_tobey_maguire.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/40/869105-spiderman_the_movie_poster_starring_tobey_maguire.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/40/869105-spiderman_the_movie_poster_starring_tobey_maguire.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/40/869105-spiderman_the_movie_poster_starring_tobey_maguire.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Spider-Man",
+      "site_detail_url": "https://comicvine.gamespot.com/spider-man/4025-34/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-35/",
+      "deck": "Frank Miller returned to the director's chair to tackle Eisner's Spirit comic.",
+      "id": 35,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/2/869090-spirit_ver14.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/2/869090-spirit_ver14.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/2/869090-spirit_ver14.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/2/869090-spirit_ver14.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/2/869090-spirit_ver14.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/2/869090-spirit_ver14.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/2/869090-spirit_ver14.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/2/869090-spirit_ver14.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/2/869090-spirit_ver14.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Spirit",
+      "site_detail_url": "https://comicvine.gamespot.com/the-spirit/4025-35/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-36/",
+      "deck": "A movie that had a comic book tie-in of the same name, published by Dark Horse.",
+      "id": 36,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/869093-aeon_flux_poster.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/869093-aeon_flux_poster.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/869093-aeon_flux_poster.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/869093-aeon_flux_poster.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/869093-aeon_flux_poster.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/869093-aeon_flux_poster.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/869093-aeon_flux_poster.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/869093-aeon_flux_poster.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/869093-aeon_flux_poster.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Æon Flux",
+      "site_detail_url": "https://comicvine.gamespot.com/on-flux/4025-36/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-37/",
+      "deck": "Film based on one of Britain's most popular comic characters, the star of 2000 AD, Judge Dredd.",
+      "id": 37,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/38826/871186-dread.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/38826/871186-dread.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/38826/871186-dread.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/38826/871186-dread.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/38826/871186-dread.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/38826/871186-dread.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/38826/871186-dread.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/38826/871186-dread.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/38826/871186-dread.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Judge Dredd",
+      "site_detail_url": "https://comicvine.gamespot.com/judge-dredd/4025-37/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-38/",
+      "deck": "The film featuring Image Comics most renowned character, good ol' Al Simmons.",
+      "id": 38,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/38826/872151-spawn.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/38826/872151-spawn.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/38826/872151-spawn.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/38826/872151-spawn.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/38826/872151-spawn.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/38826/872151-spawn.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/38826/872151-spawn.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/38826/872151-spawn.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/38826/872151-spawn.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Spawn",
+      "site_detail_url": "https://comicvine.gamespot.com/spawn/4025-38/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-39/",
+      "deck": "George Lucas produced this Howard the Duck adaptation, widely considered to be the largest mis-step in his career.",
+      "id": 39,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/2/869101-howard_the_duck_ver1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/2/869101-howard_the_duck_ver1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/2/869101-howard_the_duck_ver1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/2/869101-howard_the_duck_ver1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/2/869101-howard_the_duck_ver1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/2/869101-howard_the_duck_ver1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/2/869101-howard_the_duck_ver1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/2/869101-howard_the_duck_ver1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/2/869101-howard_the_duck_ver1.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Howard the Duck",
+      "site_detail_url": "https://comicvine.gamespot.com/howard-the-duck/4025-39/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-40/",
+      "deck": "The first [official] Fantastic Four movie to receive a cinema release.",
+      "id": 40,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/869104-fantastic_four_poster.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/869104-fantastic_four_poster.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/869104-fantastic_four_poster.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/869104-fantastic_four_poster.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/869104-fantastic_four_poster.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/869104-fantastic_four_poster.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/869104-fantastic_four_poster.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/869104-fantastic_four_poster.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/869104-fantastic_four_poster.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Fantastic Four",
+      "site_detail_url": "https://comicvine.gamespot.com/fantastic-four/4025-40/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-41/",
+      "deck": "Galactus is coming and he sends his trusted herald to find a suitable planet to consume. Sequel to the 2005 Tim Story Fantastic Four movie.",
+      "id": 41,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/869109-fanfour2_newposter.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/869109-fanfour2_newposter.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/869109-fanfour2_newposter.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/869109-fanfour2_newposter.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/869109-fanfour2_newposter.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/869109-fanfour2_newposter.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/869109-fanfour2_newposter.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/869109-fanfour2_newposter.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/869109-fanfour2_newposter.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Fantastic Four: Rise of the Silver Surfer",
+      "site_detail_url": "https://comicvine.gamespot.com/fantastic-four-rise-of-the-silver-surfer/4025-41/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-42/",
+      "deck": "Spider-Man returns in this smash hit sequel and has to face off against the deadly genius Doc Ock as well as his own sense of morality and responsibility.",
+      "id": 42,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/40/869113-spiderman2_2.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/40/869113-spiderman2_2.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/40/869113-spiderman2_2.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/40/869113-spiderman2_2.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/40/869113-spiderman2_2.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/40/869113-spiderman2_2.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/40/869113-spiderman2_2.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/40/869113-spiderman2_2.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/40/869113-spiderman2_2.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Spider-Man 2",
+      "site_detail_url": "https://comicvine.gamespot.com/spider-man-2/4025-42/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-43/",
+      "deck": "Animated film based on Brian Pulido's Lady Death.",
+      "id": 43,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/869114-photo1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/869114-photo1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/869114-photo1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/869114-photo1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/869114-photo1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/869114-photo1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/869114-photo1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/869114-photo1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/869114-photo1.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Lady Death",
+      "site_detail_url": "https://comicvine.gamespot.com/lady-death/4025-43/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-44/",
+      "deck": "Dr. Bruce Krenzler, working on a way to help heal and advance frogs, accidentally, while attempting to save someone's life, gets an overdose of gamma radiation. This radiation infused with nanomeds, turns him into a being of psychological trauma known as the Hulk.",
+      "id": 44,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/869115-hulk_movie.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/869115-hulk_movie.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/869115-hulk_movie.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/869115-hulk_movie.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/869115-hulk_movie.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/869115-hulk_movie.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/869115-hulk_movie.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/869115-hulk_movie.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/869115-hulk_movie.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Hulk",
+      "site_detail_url": "https://comicvine.gamespot.com/hulk/4025-44/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-45/",
+      "deck": "The reboot of the HULK movie. This film takes place 5 years after Banner was irradiated and became the Hulk. It's the second Marvel Cinematic Universe movie.",
+      "id": 45,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/869116-hulk_poster.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/869116-hulk_poster.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/869116-hulk_poster.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/869116-hulk_poster.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/869116-hulk_poster.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/869116-hulk_poster.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/869116-hulk_poster.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/869116-hulk_poster.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/869116-hulk_poster.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Incredible Hulk",
+      "site_detail_url": "https://comicvine.gamespot.com/the-incredible-hulk/4025-45/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-46/",
+      "deck": "An adaptation of DC's Catwoman, abandoning much of the character's history and abilities.  The movie was poorly reviewed by critics.",
+      "id": 46,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/869129-catwoman_poster.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/869129-catwoman_poster.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/869129-catwoman_poster.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/869129-catwoman_poster.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/869129-catwoman_poster.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/869129-catwoman_poster.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/869129-catwoman_poster.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/869129-catwoman_poster.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/869129-catwoman_poster.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Catwoman",
+      "site_detail_url": "https://comicvine.gamespot.com/catwoman/4025-46/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-47/",
+      "deck": "Another one of those \"are you seriously trying to tell me this was based on the comic of the same name?!\" films. A nice comedic film whereas the comic is a horror story.",
+      "id": 47,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/869167-the_mask.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/869167-the_mask.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/869167-the_mask.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/869167-the_mask.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/869167-the_mask.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/869167-the_mask.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/869167-the_mask.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/869167-the_mask.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/869167-the_mask.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Mask",
+      "site_detail_url": "https://comicvine.gamespot.com/the-mask/4025-47/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-48/",
+      "deck": "The first film based on the Dark Horse character Hellboy.",
+      "id": 48,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/869172-hellboy_poster.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/869172-hellboy_poster.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/869172-hellboy_poster.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/869172-hellboy_poster.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/869172-hellboy_poster.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/869172-hellboy_poster.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/869172-hellboy_poster.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/869172-hellboy_poster.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/869172-hellboy_poster.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Hellboy",
+      "site_detail_url": "https://comicvine.gamespot.com/hellboy/4025-48/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-49/",
+      "deck": "The second film based on the Dark Horse character Hellboy.",
+      "id": 49,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/869189-hellboy_2_poster.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/869189-hellboy_2_poster.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/869189-hellboy_2_poster.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/869189-hellboy_2_poster.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/869189-hellboy_2_poster.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/869189-hellboy_2_poster.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/869189-hellboy_2_poster.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/869189-hellboy_2_poster.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/869189-hellboy_2_poster.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Hellboy II: The Golden Army",
+      "site_detail_url": "https://comicvine.gamespot.com/hellboy-ii-the-golden-army/4025-49/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-50/",
+      "deck": "Movie by Mario Bava based on Italian anti-hero Diabolik.",
+      "id": 50,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/77/869461-dangerdiabolik.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/869461-dangerdiabolik.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/77/869461-dangerdiabolik.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/77/869461-dangerdiabolik.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/77/869461-dangerdiabolik.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/77/869461-dangerdiabolik.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/77/869461-dangerdiabolik.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/77/869461-dangerdiabolik.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/77/869461-dangerdiabolik.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Danger: Diabolik",
+      "site_detail_url": "https://comicvine.gamespot.com/danger-diabolik/4025-50/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-51/",
+      "deck": null,
+      "id": 51,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/77/869478-barbarella_ver2.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/869478-barbarella_ver2.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/77/869478-barbarella_ver2.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/77/869478-barbarella_ver2.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/77/869478-barbarella_ver2.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/77/869478-barbarella_ver2.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/77/869478-barbarella_ver2.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/77/869478-barbarella_ver2.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/77/869478-barbarella_ver2.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Barbarella",
+      "site_detail_url": "https://comicvine.gamespot.com/barbarella/4025-51/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-52/",
+      "deck": "Eric Draven and his new wife Shelley Webster are murdered in a random act of violence. A year later Eric returns to get revenge on his killers as the Crow.",
+      "id": 52,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/77/869486-crow_ver2.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/869486-crow_ver2.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/77/869486-crow_ver2.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/77/869486-crow_ver2.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/77/869486-crow_ver2.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/77/869486-crow_ver2.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/77/869486-crow_ver2.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/77/869486-crow_ver2.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/77/869486-crow_ver2.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Crow",
+      "site_detail_url": "https://comicvine.gamespot.com/the-crow/4025-52/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-53/",
+      "deck": null,
+      "id": 53,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11146/111464511/8241814-mv5bn2y4zdbjmjetzwq0os00nzyyltg0m2itmmuzytewn2rmmgvlxkeyxkfqcgdeqxvymjgyoti1ody%40._v1_sy1000_cr0%2C0%2C650%2C1000_al_.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11146/111464511/8241814-mv5bn2y4zdbjmjetzwq0os00nzyyltg0m2itmmuzytewn2rmmgvlxkeyxkfqcgdeqxvymjgyoti1ody%40._v1_sy1000_cr0%2C0%2C650%2C1000_al_.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11146/111464511/8241814-mv5bn2y4zdbjmjetzwq0os00nzyyltg0m2itmmuzytewn2rmmgvlxkeyxkfqcgdeqxvymjgyoti1ody%40._v1_sy1000_cr0%2C0%2C650%2C1000_al_.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11146/111464511/8241814-mv5bn2y4zdbjmjetzwq0os00nzyyltg0m2itmmuzytewn2rmmgvlxkeyxkfqcgdeqxvymjgyoti1ody%40._v1_sy1000_cr0%2C0%2C650%2C1000_al_.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11146/111464511/8241814-mv5bn2y4zdbjmjetzwq0os00nzyyltg0m2itmmuzytewn2rmmgvlxkeyxkfqcgdeqxvymjgyoti1ody%40._v1_sy1000_cr0%2C0%2C650%2C1000_al_.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11146/111464511/8241814-mv5bn2y4zdbjmjetzwq0os00nzyyltg0m2itmmuzytewn2rmmgvlxkeyxkfqcgdeqxvymjgyoti1ody%40._v1_sy1000_cr0%2C0%2C650%2C1000_al_.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11146/111464511/8241814-mv5bn2y4zdbjmjetzwq0os00nzyyltg0m2itmmuzytewn2rmmgvlxkeyxkfqcgdeqxvymjgyoti1ody%40._v1_sy1000_cr0%2C0%2C650%2C1000_al_.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11146/111464511/8241814-mv5bn2y4zdbjmjetzwq0os00nzyyltg0m2itmmuzytewn2rmmgvlxkeyxkfqcgdeqxvymjgyoti1ody%40._v1_sy1000_cr0%2C0%2C650%2C1000_al_.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11146/111464511/8241814-mv5bn2y4zdbjmjetzwq0os00nzyyltg0m2itmmuzytewn2rmmgvlxkeyxkfqcgdeqxvymjgyoti1ody%40._v1_sy1000_cr0%2C0%2C650%2C1000_al_.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Flash Gordon",
+      "site_detail_url": "https://comicvine.gamespot.com/flash-gordon/4025-53/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-54/",
+      "deck": "The third installment of the Spider-Man franchise. Spider-Man battles Harry Osborn as the New Green Goblin, Flint Marko as the Sandman, and the infamous Eddie Brock as Venom.",
+      "id": 54,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/77/869559-sm3_int_poster.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/869559-sm3_int_poster.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/77/869559-sm3_int_poster.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/77/869559-sm3_int_poster.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/77/869559-sm3_int_poster.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/77/869559-sm3_int_poster.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/77/869559-sm3_int_poster.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/77/869559-sm3_int_poster.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/77/869559-sm3_int_poster.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Spider-Man 3",
+      "site_detail_url": "https://comicvine.gamespot.com/spider-man-3/4025-54/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-55/",
+      "deck": "Based on the lampoon comedy 1960s television series that saved the character from folding. Batman and Robin team up against four of their greatest enemies, who have taken the United World Security Council hostage.",
+      "id": 55,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/38826/871194-batman.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/38826/871194-batman.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/38826/871194-batman.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/38826/871194-batman.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/38826/871194-batman.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/38826/871194-batman.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/38826/871194-batman.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/38826/871194-batman.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/38826/871194-batman.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Batman: The Movie",
+      "site_detail_url": "https://comicvine.gamespot.com/batman-the-movie/4025-55/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-56/",
+      "deck": "The first of the Punisher films, Dolph Lundgren takes the roll of Frank Castle, hellbent on \"punishing\" the mobsters who murdered his family.",
+      "id": 56,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/6063/870065-punisher_dolph_lundgren.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/6063/870065-punisher_dolph_lundgren.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/6063/870065-punisher_dolph_lundgren.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/6063/870065-punisher_dolph_lundgren.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/6063/870065-punisher_dolph_lundgren.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/6063/870065-punisher_dolph_lundgren.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/6063/870065-punisher_dolph_lundgren.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/6063/870065-punisher_dolph_lundgren.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/6063/870065-punisher_dolph_lundgren.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Punisher",
+      "site_detail_url": "https://comicvine.gamespot.com/the-punisher/4025-56/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-57/",
+      "deck": "The 2008 adaptation of \"The Punisher\" from martial artist director Lexi Alexander. The Punisher is portayed here as he is known in the comics.",
+      "id": 57,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/870463-punisherwarzoneteaser.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/870463-punisherwarzoneteaser.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/870463-punisherwarzoneteaser.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/870463-punisherwarzoneteaser.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/870463-punisherwarzoneteaser.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/870463-punisherwarzoneteaser.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/870463-punisherwarzoneteaser.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/870463-punisherwarzoneteaser.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/870463-punisherwarzoneteaser.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Punisher: War Zone",
+      "site_detail_url": "https://comicvine.gamespot.com/punisher-war-zone/4025-57/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-58/",
+      "deck": "An undercover FBI agent becomes a vigilante assassin and sets out to unleash his wrath upon the corrupt businessman who slaughtered his entire family at a reunion.",
+      "id": 58,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/870471-punisher_ver2.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/870471-punisher_ver2.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/870471-punisher_ver2.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/870471-punisher_ver2.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/870471-punisher_ver2.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/870471-punisher_ver2.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/870471-punisher_ver2.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/870471-punisher_ver2.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/870471-punisher_ver2.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Punisher",
+      "site_detail_url": "https://comicvine.gamespot.com/the-punisher/4025-58/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-59/",
+      "deck": "The classic fantasy hero Conan The Barbarian makes his feature film debut.",
+      "id": 59,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/6827/870646-cbc.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/6827/870646-cbc.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/6827/870646-cbc.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/6827/870646-cbc.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/6827/870646-cbc.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/6827/870646-cbc.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/6827/870646-cbc.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/6827/870646-cbc.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/6827/870646-cbc.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Conan The Barbarian",
+      "site_detail_url": "https://comicvine.gamespot.com/conan-the-barbarian/4025-59/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-60/",
+      "deck": "Frozen in the ice for decades, Captain America is freed to battle against arch-criminal, The Red Skull",
+      "id": 60,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/37908/870651-captain_america_1_.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/37908/870651-captain_america_1_.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/37908/870651-captain_america_1_.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/37908/870651-captain_america_1_.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/37908/870651-captain_america_1_.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/37908/870651-captain_america_1_.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/37908/870651-captain_america_1_.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/37908/870651-captain_america_1_.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/37908/870651-captain_america_1_.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Captain America",
+      "site_detail_url": "https://comicvine.gamespot.com/captain-america/4025-60/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-61/",
+      "deck": "Two of the greatest horror monsters ever come to clash. Whoever wins, we lose.",
+      "id": 61,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/6827/870682-avpp.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/6827/870682-avpp.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/6827/870682-avpp.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/6827/870682-avpp.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/6827/870682-avpp.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/6827/870682-avpp.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/6827/870682-avpp.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/6827/870682-avpp.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/6827/870682-avpp.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Alien Vs. Predator",
+      "site_detail_url": "https://comicvine.gamespot.com/alien-vs-predator/4025-61/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-63/",
+      "deck": "The special effects extravaganza that kick-started the famous franchise.",
+      "id": 63,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/38826/872572-alien2.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/38826/872572-alien2.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/38826/872572-alien2.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/38826/872572-alien2.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/38826/872572-alien2.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/38826/872572-alien2.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/38826/872572-alien2.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/38826/872572-alien2.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/38826/872572-alien2.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Alien",
+      "site_detail_url": "https://comicvine.gamespot.com/alien/4025-63/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-64/",
+      "deck": "The first of the prequel trilogy of Star Wars films.",
+      "id": 64,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/870715-star_wars_phantom_menace_poster.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/870715-star_wars_phantom_menace_poster.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/870715-star_wars_phantom_menace_poster.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/870715-star_wars_phantom_menace_poster.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/870715-star_wars_phantom_menace_poster.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/870715-star_wars_phantom_menace_poster.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/870715-star_wars_phantom_menace_poster.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/870715-star_wars_phantom_menace_poster.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/870715-star_wars_phantom_menace_poster.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Star Wars Episode I: The Phantom Menace",
+      "site_detail_url": "https://comicvine.gamespot.com/star-wars-episode-i-the-phantom-menace/4025-64/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-65/",
+      "deck": "An ancient struggle re-erupts on Earth between two extraterrestrial clans, the heroic Autobots and the evil Decepticons, with a clue to the ultimate power held by a young teenager.",
+      "id": 65,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/37908/870721-transformersmovieposter325_1_.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/37908/870721-transformersmovieposter325_1_.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/37908/870721-transformersmovieposter325_1_.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/37908/870721-transformersmovieposter325_1_.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/37908/870721-transformersmovieposter325_1_.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/37908/870721-transformersmovieposter325_1_.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/37908/870721-transformersmovieposter325_1_.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/37908/870721-transformersmovieposter325_1_.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/37908/870721-transformersmovieposter325_1_.jpg",
+        "image_tags": "All Images,Transformers"
+      },
+      "name": "Transformers",
+      "site_detail_url": "https://comicvine.gamespot.com/transformers/4025-65/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-66/",
+      "deck": "One of the most famous and critically acclaimed sci-fi action movies of all time.",
+      "id": 66,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/6827/870722-terminator.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/6827/870722-terminator.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/6827/870722-terminator.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/6827/870722-terminator.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/6827/870722-terminator.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/6827/870722-terminator.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/6827/870722-terminator.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/6827/870722-terminator.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/6827/870722-terminator.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Terminator",
+      "site_detail_url": "https://comicvine.gamespot.com/the-terminator/4025-66/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-67/",
+      "deck": "Decepticon forces return to Earth on a mission to take Sam Witwicky prisoner, after the young hero learns the truth about the ancient origins of the Transformers. Joining the mission to protect humankind is Optimus Prime, who forms an alliance with international armies for a second epic battle.",
+      "id": 67,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/38826/873357-revenge.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/38826/873357-revenge.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/38826/873357-revenge.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/38826/873357-revenge.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/38826/873357-revenge.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/38826/873357-revenge.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/38826/873357-revenge.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/38826/873357-revenge.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/38826/873357-revenge.jpg",
+        "image_tags": "All Images,Revenge of the fallen"
+      },
+      "name": "Transformers: Revenge of the Fallen",
+      "site_detail_url": "https://comicvine.gamespot.com/transformers-revenge-of-the-fallen/4025-67/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-68/",
+      "deck": "This movie was an utter failure but based on a comic strip, so unfortunately, it has a place here.",
+      "id": 68,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/870743-brendastarrposter.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/870743-brendastarrposter.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/870743-brendastarrposter.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/870743-brendastarrposter.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/870743-brendastarrposter.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/870743-brendastarrposter.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/870743-brendastarrposter.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/870743-brendastarrposter.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/870743-brendastarrposter.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Brenda Starr",
+      "site_detail_url": "https://comicvine.gamespot.com/brenda-starr/4025-68/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-69/",
+      "deck": "A movie released in the 1940s.",
+      "id": 69,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/870748-brenda_starr__reporter.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/870748-brenda_starr__reporter.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/870748-brenda_starr__reporter.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/870748-brenda_starr__reporter.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/870748-brenda_starr__reporter.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/870748-brenda_starr__reporter.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/870748-brenda_starr__reporter.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/870748-brenda_starr__reporter.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/870748-brenda_starr__reporter.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Brenda Starr, Reporter",
+      "site_detail_url": "https://comicvine.gamespot.com/brenda-starr-reporter/4025-69/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-70/",
+      "deck": "The sequel to The Terminator, this is the continued story of humanity's last hope in a teenage John Connor.",
+      "id": 70,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/6827/870750-terminator2.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/6827/870750-terminator2.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/6827/870750-terminator2.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/6827/870750-terminator2.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/6827/870750-terminator2.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/6827/870750-terminator2.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/6827/870750-terminator2.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/6827/870750-terminator2.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/6827/870750-terminator2.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Terminator 2: Judgment Day",
+      "site_detail_url": "https://comicvine.gamespot.com/terminator-2-judgment-day/4025-70/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-71/",
+      "deck": "The second movie in the prequel trilogy of Star Wars films.",
+      "id": 71,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/870756-aotc.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/870756-aotc.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/870756-aotc.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/870756-aotc.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/870756-aotc.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/870756-aotc.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/870756-aotc.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/870756-aotc.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/870756-aotc.jpg",
+        "image_tags": "All Images,Attack of the Clones"
+      },
+      "name": "Star Wars Episode II: Attack of the Clones",
+      "site_detail_url": "https://comicvine.gamespot.com/star-wars-episode-ii-attack-of-the-clones/4025-71/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-72/",
+      "deck": "Hellboy delves into Japanese mythology.",
+      "id": 72,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/34588/870812-storm.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/34588/870812-storm.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/34588/870812-storm.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/34588/870812-storm.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/34588/870812-storm.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/34588/870812-storm.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/34588/870812-storm.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/34588/870812-storm.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/34588/870812-storm.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Hellboy: Sword of Storms",
+      "site_detail_url": "https://comicvine.gamespot.com/hellboy-sword-of-storms/4025-72/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-73/",
+      "deck": "The comic strip character battles crime-lords.",
+      "id": 73,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/42/870856-mov366510.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/42/870856-mov366510.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/42/870856-mov366510.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/42/870856-mov366510.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/42/870856-mov366510.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/42/870856-mov366510.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/42/870856-mov366510.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/42/870856-mov366510.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/42/870856-mov366510.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Dick Tracy",
+      "site_detail_url": "https://comicvine.gamespot.com/dick-tracy/4025-73/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-74/",
+      "deck": "The second sequel to the groundbreaking action film The Terminator. This time, an adult John Connor must attempt to stop SkyNet from initiating Judgment Day with an even more advanced Terminator hunting him.",
+      "id": 74,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/6827/870766-terminator3.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/6827/870766-terminator3.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/6827/870766-terminator3.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/6827/870766-terminator3.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/6827/870766-terminator3.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/6827/870766-terminator3.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/6827/870766-terminator3.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/6827/870766-terminator3.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/6827/870766-terminator3.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Terminator 3: Rise of The Machines",
+      "site_detail_url": "https://comicvine.gamespot.com/terminator-3-rise-of-the-machines/4025-74/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-75/",
+      "deck": "The final movie in the prequel trilogy of Star Wars films.",
+      "id": 75,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/870771-ep3_poster.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/870771-ep3_poster.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/870771-ep3_poster.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/870771-ep3_poster.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/870771-ep3_poster.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/870771-ep3_poster.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/870771-ep3_poster.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/870771-ep3_poster.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/870771-ep3_poster.jpg",
+        "image_tags": "All Images,Revenge of the Sith"
+      },
+      "name": "Star Wars Episode III: Revenge of the Sith",
+      "site_detail_url": "https://comicvine.gamespot.com/star-wars-episode-iii-revenge-of-the-sith/4025-75/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-76/",
+      "deck": "Connor Macleod is an immortal born in Scotland circa 1518. Shortly after being cast out of his village, he meets another immortal named Ramirez. Ramirez teaches Connor in the ways of the immortals in order so that he can prepare himself for \"The Gathering,\" a battle of the few remaining  immortals who compete to the end for \"The Prize.\"",
+      "id": 76,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/38826/871278-highlander.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/38826/871278-highlander.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/38826/871278-highlander.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/38826/871278-highlander.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/38826/871278-highlander.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/38826/871278-highlander.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/38826/871278-highlander.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/38826/871278-highlander.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/38826/871278-highlander.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Highlander",
+      "site_detail_url": "https://comicvine.gamespot.com/highlander/4025-76/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-77/",
+      "deck": "The original Star Wars film.",
+      "id": 77,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/870776-starwarsmovieposter1977.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/870776-starwarsmovieposter1977.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/870776-starwarsmovieposter1977.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/870776-starwarsmovieposter1977.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/870776-starwarsmovieposter1977.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/870776-starwarsmovieposter1977.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/870776-starwarsmovieposter1977.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/870776-starwarsmovieposter1977.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/870776-starwarsmovieposter1977.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Star Wars Episode IV: A New Hope",
+      "site_detail_url": "https://comicvine.gamespot.com/star-wars-episode-iv-a-new-hope/4025-77/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-78/",
+      "deck": "The second movie in the original Star Wars trilogy.",
+      "id": 78,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/870778-sw___empire_strikes_back.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/870778-sw___empire_strikes_back.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/870778-sw___empire_strikes_back.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/870778-sw___empire_strikes_back.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/870778-sw___empire_strikes_back.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/870778-sw___empire_strikes_back.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/870778-sw___empire_strikes_back.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/870778-sw___empire_strikes_back.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/870778-sw___empire_strikes_back.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Star Wars Episode V: The Empire Strikes Back",
+      "site_detail_url": "https://comicvine.gamespot.com/star-wars-episode-v-the-empire-strikes-back/4025-78/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-79/",
+      "deck": "The final movie in the original trilogy of Star Wars.",
+      "id": 79,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/870779-returnofthejediposter1983.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/870779-returnofthejediposter1983.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/870779-returnofthejediposter1983.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/870779-returnofthejediposter1983.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/870779-returnofthejediposter1983.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/870779-returnofthejediposter1983.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/870779-returnofthejediposter1983.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/870779-returnofthejediposter1983.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/870779-returnofthejediposter1983.jpg",
+        "image_tags": "All Images,Return of the Jedi"
+      },
+      "name": "Star Wars Episode VI: Return of the Jedi",
+      "site_detail_url": "https://comicvine.gamespot.com/star-wars-episode-vi-return-of-the-jedi/4025-79/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-80/",
+      "deck": "The sequel to the Academy Award winning horror film. Aliens adds more action, more characters, and many, many more Aliens.",
+      "id": 80,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/38826/1152181-0abryo.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/38826/1152181-0abryo.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/38826/1152181-0abryo.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/38826/1152181-0abryo.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/38826/1152181-0abryo.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/38826/1152181-0abryo.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/38826/1152181-0abryo.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/38826/1152181-0abryo.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/38826/1152181-0abryo.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Aliens",
+      "site_detail_url": "https://comicvine.gamespot.com/aliens/4025-80/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-81/",
+      "deck": "Indy's finally back and proving that you can still have fun even at an older age!",
+      "id": 81,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/870808-kingdomofthecrystalskull.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/870808-kingdomofthecrystalskull.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/870808-kingdomofthecrystalskull.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/870808-kingdomofthecrystalskull.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/870808-kingdomofthecrystalskull.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/870808-kingdomofthecrystalskull.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/870808-kingdomofthecrystalskull.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/870808-kingdomofthecrystalskull.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/870808-kingdomofthecrystalskull.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Indiana Jones and the Kingdom of the Crystal Skull",
+      "site_detail_url": "https://comicvine.gamespot.com/indiana-jones-and-the-kingdom-of-the-crystal-skull/4025-81/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-82/",
+      "deck": "Batman: Mask of the Phantasm is a tie-in film to Batman: The Animated Series and the only animated Batman film to get a theatrical release. It premiered in theaters on Christmas Day, 1993. It follows Batman as he investigates a mysterious gangster murderer, the Phantasm while also showing his life and relationship with Andrea Beaumont shortly before his time as Batman.",
+      "id": 82,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/38826/870817-phantasm.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/38826/870817-phantasm.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/38826/870817-phantasm.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/38826/870817-phantasm.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/38826/870817-phantasm.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/38826/870817-phantasm.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/38826/870817-phantasm.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/38826/870817-phantasm.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/38826/870817-phantasm.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Batman: Mask of the Phantasm",
+      "site_detail_url": "https://comicvine.gamespot.com/batman-mask-of-the-phantasm/4025-82/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-84/",
+      "deck": "Buckaroo Banzai battles Lord John Worfin for control of a device that can travel through dimensions",
+      "id": 84,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/34588/870822-adventures_of_buckaroo_banzai.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/34588/870822-adventures_of_buckaroo_banzai.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/34588/870822-adventures_of_buckaroo_banzai.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/34588/870822-adventures_of_buckaroo_banzai.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/34588/870822-adventures_of_buckaroo_banzai.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/34588/870822-adventures_of_buckaroo_banzai.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/34588/870822-adventures_of_buckaroo_banzai.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/34588/870822-adventures_of_buckaroo_banzai.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/34588/870822-adventures_of_buckaroo_banzai.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Adventures of Buckaroo Banzai Across the 8th Dimension",
+      "site_detail_url": "https://comicvine.gamespot.com/the-adventures-of-buckaroo-banzai-across-the-8th-d/4025-84/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-85/",
+      "deck": "The first full length wonder Woman movie. Partially based off of the Gods and Mortals story by George Perez.",
+      "id": 85,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/34588/870824-wwposter.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/34588/870824-wwposter.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/34588/870824-wwposter.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/34588/870824-wwposter.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/34588/870824-wwposter.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/34588/870824-wwposter.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/34588/870824-wwposter.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/34588/870824-wwposter.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/34588/870824-wwposter.jpg",
+        "image_tags": "All Images,Wonder Woman"
+      },
+      "name": "Wonder Woman",
+      "site_detail_url": "https://comicvine.gamespot.com/wonder-woman/4025-85/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-86/",
+      "deck": "An alternate history of the Justice League of America which imagines Superman, Wonder Woman, Batman and other iconic DC Comics heroes pulling together to battle an alien menace during the Cold War, taking place from 1953 to 1961.",
+      "id": 86,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/34588/870848-newfrontier2.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/34588/870848-newfrontier2.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/34588/870848-newfrontier2.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/34588/870848-newfrontier2.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/34588/870848-newfrontier2.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/34588/870848-newfrontier2.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/34588/870848-newfrontier2.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/34588/870848-newfrontier2.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/34588/870848-newfrontier2.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Justice League : The New Frontier",
+      "site_detail_url": "https://comicvine.gamespot.com/justice-league-the-new-frontier/4025-86/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-87/",
+      "deck": "The first movie in the Predator franchise. One of them is the hunter, and one the prey-but which one?",
+      "id": 87,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/6827/870823-predator.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/6827/870823-predator.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/6827/870823-predator.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/6827/870823-predator.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/6827/870823-predator.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/6827/870823-predator.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/6827/870823-predator.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/6827/870823-predator.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/6827/870823-predator.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Predator",
+      "site_detail_url": "https://comicvine.gamespot.com/predator/4025-87/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-88/",
+      "deck": "The first release of the Underworld saga, this film acquaints viewers with the immortal war between vampires and lycans.",
+      "id": 88,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/870825-underworld_poster.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/870825-underworld_poster.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/870825-underworld_poster.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/870825-underworld_poster.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/870825-underworld_poster.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/870825-underworld_poster.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/870825-underworld_poster.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/870825-underworld_poster.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/870825-underworld_poster.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Underworld",
+      "site_detail_url": "https://comicvine.gamespot.com/underworld/4025-88/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-89/",
+      "deck": "The second movie of the Underworld Franchise, this story concentrates primarily on William and Markus Corvinus.",
+      "id": 89,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/870828-underworld2evolution.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/870828-underworld2evolution.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/870828-underworld2evolution.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/870828-underworld2evolution.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/870828-underworld2evolution.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/870828-underworld2evolution.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/870828-underworld2evolution.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/870828-underworld2evolution.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/870828-underworld2evolution.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Underworld: Evolution",
+      "site_detail_url": "https://comicvine.gamespot.com/underworld-evolution/4025-89/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-90/",
+      "deck": "This prequel of the Underworld saga centers around the story of Lucian.  It tells of his love for Sonja, his dream of freedom, and his struggle to attain that freedom.",
+      "id": 90,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/9116/870829-underworld_rise_of_the_lycans_poster.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/870829-underworld_rise_of_the_lycans_poster.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/9116/870829-underworld_rise_of_the_lycans_poster.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/9116/870829-underworld_rise_of_the_lycans_poster.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/9116/870829-underworld_rise_of_the_lycans_poster.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/9116/870829-underworld_rise_of_the_lycans_poster.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/9116/870829-underworld_rise_of_the_lycans_poster.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/9116/870829-underworld_rise_of_the_lycans_poster.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/9116/870829-underworld_rise_of_the_lycans_poster.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Underworld: Rise of the Lycans",
+      "site_detail_url": "https://comicvine.gamespot.com/underworld-rise-of-the-lycans/4025-90/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-91/",
+      "deck": "The sequel to Predator, Predator 2 changes the setting to Los Angeles 1997, the near future.",
+      "id": 91,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/38826/871203-pred2.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/38826/871203-pred2.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/38826/871203-pred2.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/38826/871203-pred2.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/38826/871203-pred2.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/38826/871203-pred2.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/38826/871203-pred2.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/38826/871203-pred2.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/38826/871203-pred2.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Predator 2",
+      "site_detail_url": "https://comicvine.gamespot.com/predator-2/4025-91/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-92/",
+      "deck": "A loose adaption of the Wake the Devil storyline from the Hellboy series by Mike Mignola.",
+      "id": 92,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/34588/870853-hbbloodiron_3.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/34588/870853-hbbloodiron_3.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/34588/870853-hbbloodiron_3.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/34588/870853-hbbloodiron_3.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/34588/870853-hbbloodiron_3.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/34588/870853-hbbloodiron_3.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/34588/870853-hbbloodiron_3.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/34588/870853-hbbloodiron_3.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/34588/870853-hbbloodiron_3.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Hellboy: Blood and Iron",
+      "site_detail_url": "https://comicvine.gamespot.com/hellboy-blood-and-iron/4025-92/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-93/",
+      "deck": "Once again, the forces of Aliens and Predators clash on Earth.",
+      "id": 93,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/6827/870854-avpr.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/6827/870854-avpr.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/6827/870854-avpr.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/6827/870854-avpr.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/6827/870854-avpr.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/6827/870854-avpr.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/6827/870854-avpr.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/6827/870854-avpr.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/6827/870854-avpr.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Alien Vs. Predator-Requiem",
+      "site_detail_url": "https://comicvine.gamespot.com/alien-vs-predator-requiem/4025-93/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-94/",
+      "deck": "Murphy is reborn as RoboCop, part man, part machine, all cop.",
+      "id": 94,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/38826/870855-robocopposter.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/38826/870855-robocopposter.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/38826/870855-robocopposter.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/38826/870855-robocopposter.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/38826/870855-robocopposter.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/38826/870855-robocopposter.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/38826/870855-robocopposter.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/38826/870855-robocopposter.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/38826/870855-robocopposter.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "RoboCop",
+      "site_detail_url": "https://comicvine.gamespot.com/robocop/4025-94/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-95/",
+      "deck": "One of the most famous heroes of cinema makes his debut in Raiders of the Lost Ark.",
+      "id": 95,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/6827/870867-raiders.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/6827/870867-raiders.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/6827/870867-raiders.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/6827/870867-raiders.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/6827/870867-raiders.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/6827/870867-raiders.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/6827/870867-raiders.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/6827/870867-raiders.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/6827/870867-raiders.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Indiana Jones and The Raiders of The Lost Ark",
+      "site_detail_url": "https://comicvine.gamespot.com/indiana-jones-and-the-raiders-of-the-lost-ark/4025-95/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-96/",
+      "deck": "The continued adventures of the tomb raiding Indiana Jones.",
+      "id": 96,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/6827/870875-temple_of_doom.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/6827/870875-temple_of_doom.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/6827/870875-temple_of_doom.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/6827/870875-temple_of_doom.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/6827/870875-temple_of_doom.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/6827/870875-temple_of_doom.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/6827/870875-temple_of_doom.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/6827/870875-temple_of_doom.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/6827/870875-temple_of_doom.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Indiana Jones and the Temple of Doom",
+      "site_detail_url": "https://comicvine.gamespot.com/indiana-jones-and-the-temple-of-doom/4025-96/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-97/",
+      "deck": "The one that started it all. Freddy Krueger  terrorizes children while they sleep.",
+      "id": 97,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/34588/870878-nightmare01.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/34588/870878-nightmare01.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/34588/870878-nightmare01.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/34588/870878-nightmare01.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/34588/870878-nightmare01.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/34588/870878-nightmare01.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/34588/870878-nightmare01.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/34588/870878-nightmare01.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/34588/870878-nightmare01.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Nightmare on Elm Street",
+      "site_detail_url": "https://comicvine.gamespot.com/nightmare-on-elm-street/4025-97/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-98/",
+      "deck": "Ash fights medival Deadites and his own doppelganger to get back to his own time.",
+      "id": 98,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/38826/871235-poster.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/38826/871235-poster.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/38826/871235-poster.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/38826/871235-poster.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/38826/871235-poster.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/38826/871235-poster.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/38826/871235-poster.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/38826/871235-poster.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/38826/871235-poster.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Army of Darkness",
+      "site_detail_url": "https://comicvine.gamespot.com/army-of-darkness/4025-98/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-99/",
+      "deck": "A disfigured scientist gets revenge on the people that ruined his life.",
+      "id": 99,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/38826/871201-darkman.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/38826/871201-darkman.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/38826/871201-darkman.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/38826/871201-darkman.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/38826/871201-darkman.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/38826/871201-darkman.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/38826/871201-darkman.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/38826/871201-darkman.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/38826/871201-darkman.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Darkman",
+      "site_detail_url": "https://comicvine.gamespot.com/darkman/4025-99/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-100/",
+      "deck": "The third installment of the Indiana Jones series. This time, Indiana Jones must team up with his father to prevent the Nazis from discovering perhaps the most sacred artifact of all: the Holy Grail.",
+      "id": 100,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/6827/870891-last_crusade.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/6827/870891-last_crusade.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/6827/870891-last_crusade.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/6827/870891-last_crusade.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/6827/870891-last_crusade.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/6827/870891-last_crusade.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/6827/870891-last_crusade.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/6827/870891-last_crusade.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/6827/870891-last_crusade.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Indiana Jones and the Last Crusade",
+      "site_detail_url": "https://comicvine.gamespot.com/indiana-jones-and-the-last-crusade/4025-100/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-101/",
+      "deck": "A street gang fight off an army to get back to their turf. The movie was adapted into a comic and Dabel/Dynamite produced a sequel volume called \"Jailbreak.\"",
+      "id": 101,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/34588/870896-thewarriors_1979_movie_poster.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/34588/870896-thewarriors_1979_movie_poster.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/34588/870896-thewarriors_1979_movie_poster.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/34588/870896-thewarriors_1979_movie_poster.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/34588/870896-thewarriors_1979_movie_poster.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/34588/870896-thewarriors_1979_movie_poster.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/34588/870896-thewarriors_1979_movie_poster.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/34588/870896-thewarriors_1979_movie_poster.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/34588/870896-thewarriors_1979_movie_poster.jpg",
+        "image_tags": "All Images,Posters"
+      },
+      "name": "The Warriors",
+      "site_detail_url": "https://comicvine.gamespot.com/the-warriors/4025-101/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/movie/4025-102/",
+      "deck": "James Bond is out for revenge against Quantum, the vast criminal organization that caused the death of his lover, Vesper.",
+      "id": 102,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/6827/870904-quantum_of_solace.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/6827/870904-quantum_of_solace.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/6827/870904-quantum_of_solace.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/6827/870904-quantum_of_solace.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/6827/870904-quantum_of_solace.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/6827/870904-quantum_of_solace.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/6827/870904-quantum_of_solace.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/6827/870904-quantum_of_solace.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/6827/870904-quantum_of_solace.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Quantum of Solace",
+      "site_detail_url": "https://comicvine.gamespot.com/quantum-of-solace/4025-102/"
+    }
+  ],
+  "version": "1.0"
+}

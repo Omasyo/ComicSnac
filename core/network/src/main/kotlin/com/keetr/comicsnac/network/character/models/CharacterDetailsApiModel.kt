@@ -2,7 +2,7 @@ package com.keetr.comicsnac.network.character.models
 
 
 import com.keetr.comicsnac.network.common.models.CharacterApiModel
-import com.keetr.comicsnac.network.common.models.CreatorApiModel
+import com.keetr.comicsnac.network.common.models.PersonApiModel
 import com.keetr.comicsnac.network.common.models.GenderApiModel
 import com.keetr.comicsnac.network.common.models.ImageApiModel
 import com.keetr.comicsnac.network.common.models.IssueApiModel
@@ -22,7 +22,7 @@ data class CharacterDetailsApiModel(
     @SerialName("character_enemies") val characterEnemies: List<CharacterApiModel>,
     @SerialName("character_friends") val characterFriends: List<CharacterApiModel>,
     @SerialName("count_of_issue_appearances") val countOfIssueAppearances: Int,
-    @SerialName("creators") val creators: List<CreatorApiModel>,
+    @SerialName("creators") val creators: List<PersonApiModel>,
     @SerialName("deck") val deck: String?,
     @SerialName("description") val description: String?,
     @SerialName("first_appeared_in_issue") val firstAppearedInIssue: IssueApiModel,
