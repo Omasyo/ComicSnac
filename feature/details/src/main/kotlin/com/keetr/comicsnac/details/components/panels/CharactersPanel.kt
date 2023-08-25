@@ -38,7 +38,7 @@ internal fun PanelLazyListScope.enemiesPanel(
     onItemClicked
 )
 
-private fun PanelLazyListScope.charactersPanel(
+internal fun PanelLazyListScope.charactersPanel(
     @StringRes nameResId: Int,
     items: LazyPagingItems<Character>,
     expandedProvider: (Int) -> Boolean,

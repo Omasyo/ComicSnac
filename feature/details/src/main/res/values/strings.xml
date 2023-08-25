@@ -12,4 +12,6 @@
     <string name="cover_date">Cover Date</string>
     <string name="store_date">Store Date</string>
     <string name="credits">Credits</string>
+    <string name="no_of_members">Number of Members</string>
+    <string name="members">members</string>
 </resources>

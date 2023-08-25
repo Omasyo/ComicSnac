@@ -29,6 +29,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.keetr.comicsnac.details.character.characterRoute
 import com.keetr.comicsnac.details.issue.issueRoute
+import com.keetr.comicsnac.details.team.teamRoute
 import com.keetr.comicsnac.home.HomeRoute
 import com.keetr.comicsnac.home.homeRoute
 import com.keetr.comicsnac.ui.components.placeholders.InDevelopmentPlaceholder
@@ -70,6 +71,11 @@ fun AppNavHost(
         )
 
         issueRoute(
+            onItemClicked = onItemClicked,
+            onBackPressed = onBackPressed
+        )
+
+        teamRoute(
             onItemClicked = onItemClicked,
             onBackPressed = onBackPressed
         )

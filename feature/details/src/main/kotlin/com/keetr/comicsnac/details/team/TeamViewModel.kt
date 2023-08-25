@@ -1,0 +1,80 @@
+package com.keetr.comicsnac.details.team
+
+import androidx.lifecycle.SavedStateHandle
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import androidx.paging.PagingData
+import androidx.paging.cachedIn
+import com.keetr.comicsnac.data.RepositoryResponse
+import com.keetr.comicsnac.data.character.CharacterRepository
+import com.keetr.comicsnac.data.team.TeamRepository
+import com.keetr.comicsnac.details.Arg
+import com.keetr.comicsnac.details.DetailsUiState
+import com.keetr.comicsnac.details.Error
+import com.keetr.comicsnac.details.Loading
+import com.keetr.comicsnac.details.Success
+import com.keetr.comicsnac.details.character.getState
+import com.keetr.comicsnac.model.character.Character
+import com.keetr.comicsnac.model.character.CharacterDetails
+import com.keetr.comicsnac.model.movie.Movie
+import com.keetr.comicsnac.model.team.Team
+import com.keetr.comicsnac.model.team.TeamDetails
+import com.keetr.comicsnac.model.volume.Volume
+import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.SharingStarted
+import kotlinx.coroutines.flow.flatMapLatest
+import kotlinx.coroutines.flow.flow
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.stateIn
+import javax.inject.Inject
+
+@HiltViewModel
+internal class TeamViewModel @Inject constructor(
+    private val characterRepository: CharacterRepository,
+    private val teamRepository: TeamRepository,
+    savedStateHandle: SavedStateHandle,
+) : ViewModel() {
+
+    private val id = checkNotNull(savedStateHandle.get<String>(Arg))
+
+    val detailsUiState =
+        teamRepository.getTeamDetails(id).map(::getState).stateInCurrentScope()
+
+
+    val characters: Flow<PagingData<Character>> = getPagingData {
+        characterRepository.getCharactersWithId(charactersId)
+    }
+
+    val characterEnemies: Flow<PagingData<Character>> = getPagingData {
+        characterRepository.getCharactersWithId(characterEnemiesId)
+    }
+
+    val characterFriends: Flow<PagingData<Character>> = getPagingData {
+        characterRepository.getCharactersWithId(characterFriendsId)
+    }
+
+    val movies: Flow<PagingData<Movie>> = getPagingData {
+        flow { }
+    }
+
+    val volumes: Flow<PagingData<Volume>> = getPagingData {
+        flow { }
+    }
+
+    private fun <T> Flow<DetailsUiState<T>>.stateInCurrentScope() =
+        stateIn(viewModelScope, SharingStarted.WhileSubscribed(), Loading)
+
+    @OptIn(ExperimentalCoroutinesApi::class)
+    private fun <T : Any> getPagingData(init: TeamDetails.() -> Flow<PagingData<T>>) =
+        detailsUiState.flatMapLatest {
+            when (it) {
+                is Error -> flow { }
+                Loading -> flow { }
+                is Success -> {
+                    init(it.content)
+                }
+            }
+        }.cachedIn(viewModelScope)
+}
