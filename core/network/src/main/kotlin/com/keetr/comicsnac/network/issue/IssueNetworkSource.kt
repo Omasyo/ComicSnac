@@ -15,4 +15,11 @@ interface IssueNetworkSource : NetworkSource {
         offset: Int,
         sortCoverDate: Sort = Sort.Descending
     ): Result<IssueListResponse>
+
+    suspend fun getIssuesWithId(
+        pageSize: Int,
+        offset: Int,
+        sortCoverDate: Sort = Sort.Descending,
+        issuesId: List<Int>
+    ): Result<IssueListResponse>
 }

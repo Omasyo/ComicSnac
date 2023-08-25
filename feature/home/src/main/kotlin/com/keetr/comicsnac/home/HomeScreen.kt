@@ -43,7 +43,12 @@ internal fun HomeScreen(
     onVolumeCategoryClicked: () -> Unit,
     onMovieCategoryClicked: () -> Unit,
     onSeriesCategoryClicked: () -> Unit,
-    homeUiState: HomeUiState
+    issuesUiState: IssuesUiState,
+    charactersUiState: CharactersUiState,
+    volumesUiState: VolumesUiState,
+    moviesUiState: MoviesUiState,
+    seriesUiState: SeriesUiState,
+    publishersUiState: PublishersUiState
 ) {
     Scaffold(modifier) { padding ->
         CompositionLocalProvider(LocalContentColor provides MaterialTheme.colorScheme.onSurface) {
@@ -70,7 +75,7 @@ internal fun HomeScreen(
                             modifier = Modifier.padding(top = 4f.dp)
                         )
                         AnimatedContent(
-                            targetState = homeUiState.issuesUiState,
+                            targetState = issuesUiState,
                             modifier = Modifier.animateContentSize(),
                             label = "New Issues Carousel"
                         ) { uiState ->
@@ -94,7 +99,7 @@ internal fun HomeScreen(
                     CategoryCarousel(
                         name = stringResource(R.string.characters),
                         key = { it.id },
-                        uiState = homeUiState.charactersUiState,
+                        uiState = charactersUiState,
                         onExpand = onCharacterCategoryClicked
                     ) { character ->
                         ComicCard(modifier = Modifier
@@ -114,10 +119,19 @@ internal fun HomeScreen(
                 panel {
                     CategoryCarousel(
                         name = stringResource(R.string.popular_volumes),
-                        uiState = homeUiState.volumesUiState,
+                        uiState = volumesUiState,
                         key = { it.id },
                         onExpand = onVolumeCategoryClicked
-                    ) {
+                    ) {volume ->
+                        ComicCard(modifier = Modifier
+                            .size(136f.dp, 224.dp)
+                            .padding(horizontal = 4f.dp),
+                            name = volume.name,
+                            imageUrl = volume.imageUrl,
+                            contentDescription = stringResource(
+                                R.string.volume_image_desc, volume.name
+                            ),
+                            onClick = { onItemClicked(volume.apiDetailUrl) })
                     }
                 }
 
@@ -126,7 +140,7 @@ internal fun HomeScreen(
                 panel {
                     CategoryCarousel(
                         name = stringResource(R.string.movies),
-                        uiState = homeUiState.moviesUiState,
+                        uiState = moviesUiState,
                         key = { it.id },
                         onExpand = onMovieCategoryClicked
                     ) {
@@ -139,7 +153,7 @@ internal fun HomeScreen(
                 panel {
                     CategoryCarousel(
                         name = stringResource(R.string.series),
-                        uiState = homeUiState.seriesUiState,
+                        uiState = seriesUiState,
                         key = { it.id },
                         onExpand = onSeriesCategoryClicked
                     ) {
@@ -186,15 +200,13 @@ private fun Preview() {
                 onVolumeCategoryClicked = { },
                 onMovieCategoryClicked = { },
                 onSeriesCategoryClicked = { },
-                homeUiState = HomeUiState(
-                    issuesUiState = Success(Issues),
-                    charactersUiState = Success(Characters),
-                    volumesUiState = InDevelopment,
-                    moviesUiState = InDevelopment,
-                    seriesUiState = InDevelopment,
-                    publishersUiState = InDevelopment
+                issuesUiState = Success(Issues),
+                charactersUiState = Success(Characters),
+                volumesUiState = InDevelopment,
+                moviesUiState = InDevelopment,
+                seriesUiState = InDevelopment,
+                publishersUiState = InDevelopment
 
-                )
             )
         }
     }

@@ -24,7 +24,7 @@ import com.keetr.comicsnac.details.Arg
 import com.keetr.comicsnac.details.DetailsNavigationRoute
 import com.keetr.comicsnac.details.detailsComposable
 
-private object TeamRoute : DetailsNavigationRoute("Team", "4005") {
+private object TeamRoute : DetailsNavigationRoute("team", "4060") {
     override val requiredArguments: List<String> = listOf(Arg)
 }
 

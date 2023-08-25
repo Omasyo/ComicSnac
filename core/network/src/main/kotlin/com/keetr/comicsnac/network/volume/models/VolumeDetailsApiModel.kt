@@ -11,11 +11,12 @@ import kotlinx.serialization.Serializable
 data class VolumeDetailsApiModel(
     @SerialName("api_detail_url") val apiDetailUrl: String,
     @SerialName("count_of_issues") val countOfIssues: Int,
-    @SerialName("deck") val deck: String,
+    @SerialName("deck") val deck: String?,
     @SerialName("description") val description: String?,
     @SerialName("first_issue") val firstIssue: IssueApiModel?,
     @SerialName("id") val id: Int,
     @SerialName("image") val image: ImageApiModel,
+    @SerialName("issues") val issues: List<IssueApiModel>,
     @SerialName("last_issue") val lastIssue: IssueApiModel?,
     @SerialName("name") val name: String,
     @SerialName("publisher") val publisher: PublisherApiModel?,

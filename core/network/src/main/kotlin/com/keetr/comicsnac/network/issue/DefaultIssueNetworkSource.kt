@@ -31,10 +31,18 @@ class DefaultIssueNetworkSource @Inject constructor(
     ): Result<IssueListResponse> =
         getIssues(pageSize, offset, sortCoverDate)
 
+    override suspend fun getIssuesWithId(
+        pageSize: Int,
+        offset: Int,
+        sortCoverDate: Sort,
+        issuesId: List<Int>
+    ): Result<IssueListResponse> = getIssues(pageSize, offset, sortCoverDate, issuesId)
+
     private suspend fun getIssues(
         pageSize: Int,
         offset: Int,
-        sortCoverDate: Sort = Sort.None
+        sortCoverDate: Sort = Sort.None,
+        issuesId: List<Int> = emptyList()
     ): Result<IssueListResponse> = makeRequest {
         client.get("issues") {
             parameter("field_list", ListFieldList)
@@ -42,6 +50,9 @@ class DefaultIssueNetworkSource @Inject constructor(
             parameter("offset", offset)
             if (sortCoverDate != Sort.None) parameter(
                 "sort", "cover_date:${sortCoverDate.format}"
+            )
+            if (issuesId.isNotEmpty()) parameter(
+                "filter", "id:${issuesId.joinToString("|")}"
             )
         }
     }

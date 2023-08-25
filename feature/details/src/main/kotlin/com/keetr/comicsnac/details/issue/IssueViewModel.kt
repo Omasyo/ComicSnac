@@ -25,6 +25,7 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.SharingStarted
+import kotlinx.coroutines.flow.emptyFlow
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.map
@@ -50,15 +51,15 @@ internal class IssueViewModel @Inject constructor(
     }
 
     val locations: Flow<PagingData<LocationBasic>> = getPagingData {
-        flow {  }
+        emptyFlow()
     }
 
     val objects: Flow<PagingData<ObjectBasic>> = getPagingData {
-        flow { }
+        emptyFlow()
     }
 
     val storyArcs: Flow<PagingData<StoryArcBasic>> = getPagingData {
-        flow { }
+        emptyFlow()
     }
 
     val teams: Flow<PagingData<Team>> = getPagingData {
@@ -72,8 +73,8 @@ internal class IssueViewModel @Inject constructor(
     private fun <T : Any> getPagingData(init: IssueDetails.() -> Flow<PagingData<T>>) =
         detailsUiState.flatMapLatest {
             when (it) {
-                is Error -> flow { }
-                Loading -> flow { }
+                is Error -> emptyFlow()
+                Loading -> emptyFlow()
                 is Success -> {
                     init(it.content)
                 }

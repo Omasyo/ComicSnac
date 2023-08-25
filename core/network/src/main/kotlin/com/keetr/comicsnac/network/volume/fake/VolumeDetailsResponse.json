@@ -7,28 +7,51 @@
   "status_code": 1,
   "results": {
     "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-153158/",
-    "count_of_issues": 0,
+    "count_of_issues": 1,
     "deck": " ",
     "description": null,
-    "first_issue": null,
+    "first_issue": {
+      "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-1010357/",
+      "id": 1010357,
+      "name": null,
+      "issue_number": "1"
+    },
     "id": 153158,
     "image": {
-      "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11154/111543045/9069502-1645195.jpg",
-      "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11154/111543045/9069502-1645195.jpg",
-      "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11154/111543045/9069502-1645195.jpg",
-      "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11154/111543045/9069502-1645195.jpg",
-      "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11154/111543045/9069502-1645195.jpg",
-      "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11154/111543045/9069502-1645195.jpg",
-      "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11154/111543045/9069502-1645195.jpg",
-      "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11154/111543045/9069502-1645195.jpg",
-      "original_url": "https://comicvine.gamespot.com/a/uploads/original/11154/111543045/9069502-1645195.jpg",
+      "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15776/9071442-nhs-gd.jpg",
+      "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/9071442-nhs-gd.jpg",
+      "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15776/9071442-nhs-gd.jpg",
+      "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15776/9071442-nhs-gd.jpg",
+      "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15776/9071442-nhs-gd.jpg",
+      "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/9071442-nhs-gd.jpg",
+      "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/9071442-nhs-gd.jpg",
+      "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15776/9071442-nhs-gd.jpg",
+      "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15776/9071442-nhs-gd.jpg",
       "image_tags": "All Images"
     },
-    "last_issue": null,
+    "issues": [
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-1010357/",
+        "id": 1010357,
+        "name": null,
+        "site_detail_url": "https://comicvine.gamespot.com/ninja-high-school-gold-digger-crossover-collection/4000-1010357/",
+        "issue_number": "1"
+      }
+    ],
+    "last_issue": {
+      "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-1010357/",
+      "id": 1010357,
+      "name": null,
+      "issue_number": "1"
+    },
     "name": "Ninja High School / Gold Digger Crossover Collection",
-    "publisher": null,
+    "publisher": {
+      "api_detail_url": "https://comicvine.gamespot.com/api/publisher/4010-488/",
+      "id": 488,
+      "name": "Antarctic Press"
+    },
     "site_detail_url": "https://comicvine.gamespot.com/ninja-high-school-gold-digger-crossover-collection/4050-153158/",
-    "start_year": null
+    "start_year": "2023"
   },
   "version": "1.0"
 }

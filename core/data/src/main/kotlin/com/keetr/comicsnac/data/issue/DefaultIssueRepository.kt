@@ -51,6 +51,21 @@ internal class DefaultIssueRepository @Inject constructor(
         )
     }.flow.flowOn(dispatcher)
 
+    override fun getIssuesWithId(issuesId: List<Int>, sort: Sort): Flow<PagingData<Issue>> = Pager(
+        config = pagingConfig,
+    ) {
+        CustomPagingSource(
+            provider = { page ->
+                networkSource.getIssuesWithId(
+                    PageSize,
+                    PageSize * page,
+                    NetworkSort.valueOf(sort.name),
+                    issuesId
+                ).getOrThrow().results
+            }, mapper = List<IssueListApiModel>::toIssues
+        )
+    }.flow.flowOn(dispatcher)
+
     companion object {
         const val PageSize = 100
 

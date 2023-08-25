@@ -56,8 +56,6 @@ private fun HomeRoute(
     onSeriesCategoryClicked: () -> Unit,
     viewModel: HomeViewModel = hiltViewModel()
 ) {
-    val charactersUiState by viewModel.charactersUiState.collectAsState()
-    val issueUiState by viewModel.issueUiState.collectAsState()
     HomeScreen(
         modifier = modifier,
         onItemClicked = onItemClicked,
@@ -66,14 +64,11 @@ private fun HomeRoute(
         onVolumeCategoryClicked = onVolumeCategoryClicked,
         onMovieCategoryClicked = onMovieCategoryClicked,
         onSeriesCategoryClicked = onSeriesCategoryClicked,
-        homeUiState = HomeUiState(
-            issuesUiState = issueUiState,
-            charactersUiState = charactersUiState,
-            volumesUiState = InDevelopment,
-            moviesUiState = InDevelopment,
-            seriesUiState = InDevelopment,
-            publishersUiState = InDevelopment
-
-        )
+        issuesUiState = viewModel.issueUiState.collectAsState().value,
+        charactersUiState = viewModel.charactersUiState.collectAsState().value,
+        volumesUiState = viewModel.volumeUiState.collectAsState().value,
+        moviesUiState = InDevelopment,
+        seriesUiState = InDevelopment,
+        publishersUiState = InDevelopment
     )
 }

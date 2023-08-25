@@ -8,6 +8,8 @@ import com.keetr.comicsnac.data.power.DefaultPowerRepository
 import com.keetr.comicsnac.data.power.PowerRepository
 import com.keetr.comicsnac.data.team.DefaultTeamRepository
 import com.keetr.comicsnac.data.team.TeamRepository
+import com.keetr.comicsnac.data.volume.DefaultVolumeRepository
+import com.keetr.comicsnac.data.volume.VolumeRepository
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
@@ -28,4 +30,7 @@ private interface RepositoryModule {
 
     @Binds
     fun bindTeamRepository(teamRepository: DefaultTeamRepository): TeamRepository
+
+    @Binds
+    fun bindVolumeRepository(volumeRepository: DefaultVolumeRepository): VolumeRepository
 }

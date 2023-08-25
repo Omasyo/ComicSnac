@@ -13,4 +13,6 @@ interface IssueRepository {
     fun getRecentIssues(): Flow<RepositoryResponse<List<Issue>>>
 
     fun getAllIssues(sort: Sort): Flow<PagingData<Issue>>
+
+    fun getIssuesWithId(issuesId: List<Int>, sort: Sort): Flow<PagingData<Issue>>
 }

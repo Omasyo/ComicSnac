@@ -8,6 +8,7 @@ import androidx.paging.cachedIn
 import com.keetr.comicsnac.data.RepositoryResponse
 import com.keetr.comicsnac.data.character.CharacterRepository
 import com.keetr.comicsnac.data.team.TeamRepository
+import com.keetr.comicsnac.data.volume.VolumeRepository
 import com.keetr.comicsnac.details.Arg
 import com.keetr.comicsnac.details.DetailsUiState
 import com.keetr.comicsnac.details.Error
@@ -22,8 +23,10 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.SharingStarted
+import kotlinx.coroutines.flow.emptyFlow
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.flow
+import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import javax.inject.Inject
@@ -32,6 +35,7 @@ import javax.inject.Inject
 internal class CharacterViewModel @Inject constructor(
     private val characterRepository: CharacterRepository,
     private val teamRepository: TeamRepository,
+    private val volumeRepository: VolumeRepository,
     savedStateHandle: SavedStateHandle,
 ) : ViewModel() {
 
@@ -50,7 +54,7 @@ internal class CharacterViewModel @Inject constructor(
     }
 
     val movies: Flow<PagingData<Movie>> = getPagingData {
-        flow {  }
+        emptyFlow()
     }
 
     val teams: Flow<PagingData<Team>> = getPagingData {
@@ -66,7 +70,7 @@ internal class CharacterViewModel @Inject constructor(
     }
 
     val volumes: Flow<PagingData<Volume>> = getPagingData {
-        flow {  }
+        volumeRepository.getVolumesWithId(volumeCreditsId)
     }
 
     private fun <T> Flow<DetailsUiState<T>>.stateInCurrentScope() =
@@ -76,8 +80,8 @@ internal class CharacterViewModel @Inject constructor(
     private fun <T : Any> getPagingData(init: CharacterDetails.() -> Flow<PagingData<T>>) =
         detailsUiState.flatMapLatest {
             when (it) {
-                is Error -> flow { }
-                Loading -> flow { }
+                is Error -> emptyFlow()
+                Loading -> emptyFlow()
                 is Success -> {
                     init(it.content)
                 }
