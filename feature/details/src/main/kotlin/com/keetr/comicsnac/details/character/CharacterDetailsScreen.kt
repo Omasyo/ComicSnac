@@ -22,6 +22,7 @@ import androidx.compose.ui.unit.dp
 import androidx.core.text.HtmlCompat
 import androidx.paging.compose.LazyPagingItems
 import com.keetr.comicsnac.details.CharacterDetailsUiState
+import com.keetr.comicsnac.details.Domain
 import com.keetr.comicsnac.details.Error
 import com.keetr.comicsnac.details.Loading
 import com.keetr.comicsnac.details.R
@@ -50,6 +51,7 @@ import com.keetr.comicsnac.model.power.PowerBasic
 import com.keetr.comicsnac.model.team.Team
 import com.keetr.comicsnac.model.volume.Volume
 import com.keetr.comicsnac.ui.components.lazylist.animateScrollAndAlignItem
+import com.keetr.comicsnac.ui.components.webview.rememberAnnotatedString
 import com.keetr.comicsnac.ui.components.webview.toAnnotatedString
 import kotlinx.coroutines.launch
 import com.keetr.comicsnac.ui.R.string as CommonString
@@ -115,28 +117,8 @@ internal fun CharacterDetailsScreen(
             }
 
             with(detailsUiState.content) {
-
-                val body =
-                    MaterialTheme.typography.bodyLarge.copy(MaterialTheme.colorScheme.tertiary)
-                val title =
-                    MaterialTheme.typography.titleLarge.copy(MaterialTheme.colorScheme.tertiary)
-                val headline =
-                    MaterialTheme.typography.headlineSmall.copy(MaterialTheme.colorScheme.tertiary)
-                val link =
-                    MaterialTheme.typography.bodyLarge.copy(MaterialTheme.colorScheme.secondary)
-
-
-                val annotatedString =
-                    remember(body, title, headline, link) {
-                        HtmlCompat.fromHtml(description, HtmlCompat.FROM_HTML_MODE_LEGACY)
-                            .toAnnotatedString(
-                                "https://comicvine.gamespot.com",
-                                body,
-                                title,
-                                headline,
-                                link
-                            )
-                    }
+                
+                val annotatedString = rememberAnnotatedString(description, Domain)
 
                 DetailsScreen(
                     modifier = modifier,

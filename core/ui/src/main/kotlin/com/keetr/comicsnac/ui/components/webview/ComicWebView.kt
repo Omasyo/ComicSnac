@@ -14,6 +14,8 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.text.ClickableText
 import androidx.compose.foundation.text.InlineTextContent
@@ -37,6 +39,7 @@ import androidx.compose.ui.text.ExperimentalTextApi
 import androidx.compose.ui.text.Placeholder
 import androidx.compose.ui.text.PlaceholderVerticalAlign
 import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.TextRange
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.UrlAnnotation
 import androidx.compose.ui.text.buildAnnotatedString
@@ -65,48 +68,63 @@ fun ComicWebView(
     scrollable: Boolean = true,
     onLinkClick: (String) -> Unit,
 ) {
-    ClickableText(
-        text = annotatedString,
-        style = MaterialTheme.typography.bodyLarge.copy(MaterialTheme.colorScheme.primary),
-        modifier = modifier
-            .verticalScroll(
-                rememberScrollState(),
-                scrollable
-            )
-            .padding(contentPadding)
-    ) { offset ->
-        annotatedString.getUrlAnnotations(offset, offset).firstOrNull()?.let {
-            onLinkClick(it.item.url)
+    val strings = remember {
+        buildList {
+            var start = 0
+            var end = annotatedString.indexOf('\n', start + 400)
+
+            while (end >= 0) {
+                add(annotatedString.subSequence(TextRange(start, end)))
+                start = end
+                end = annotatedString.indexOf('\n', start + 400)
+//                Log.i(TAG, "ComicWebView: start is $start end is $end ${annotatedString.length}")
+            }
+            add(annotatedString.subSequence(start, annotatedString.length))
+        }
+    }
+
+    LazyColumn(
+        modifier = modifier,
+        contentPadding = contentPadding,
+        userScrollEnabled = scrollable
+    ) {
+        items(strings) { string ->
+            ClickableText(
+                text = string,
+                style = MaterialTheme.typography.bodyLarge.copy(MaterialTheme.colorScheme.primary),
+            ) { offset ->
+                string.getUrlAnnotations(offset, offset).firstOrNull()?.let {
+                    onLinkClick(it.item.url)
+                }
+            }
         }
     }
 }
 
-//@Preview
-//@Composable
-//private fun Preview() {
-//    ComicSnacTheme {
-//        Box(
-//            Modifier
-//                .background(MaterialTheme.colorScheme.onSurface)
-//                .fillMaxSize()
-//                .padding(24f.dp)
-//        ) {
-//            ComicWebView(
-//                Modifier.fillMaxSize(),
-//                data = SampleHtmlText, baseUrl =
-//                "https://comicvine.gamespot.com/lightning-lad/4005-1253/"
-//            )
-//            { Log.d("TAG", "ComicWebView: $it") }
-//
-////            Column {
-////                Text(Color.Red.value.toString())
-////                Text(Color.Black.toArgb().toString())
-////                Text(Color.Black.format())
-////                Text(0x000000.toString())
-////            }
-//        }
-//    }
-//}
+
+@Composable
+fun rememberAnnotatedString(content: String, baseUrl: String): AnnotatedString {
+    val body =
+        MaterialTheme.typography.bodyLarge.copy(MaterialTheme.colorScheme.tertiary)
+    val title =
+        MaterialTheme.typography.titleLarge.copy(MaterialTheme.colorScheme.tertiary)
+    val headline =
+        MaterialTheme.typography.headlineSmall.copy(MaterialTheme.colorScheme.tertiary)
+    val link =
+        MaterialTheme.typography.bodyLarge.copy(MaterialTheme.colorScheme.secondary)
+
+
+    return remember(body, title, headline, link) {
+        HtmlCompat.fromHtml(content, HtmlCompat.FROM_HTML_MODE_LEGACY)
+            .toAnnotatedString(
+                baseUrl,
+                body,
+                title,
+                headline,
+                link
+            )
+    }
+}
 
 @OptIn(ExperimentalTextApi::class)
 fun Spanned.toAnnotatedString(
@@ -179,7 +197,7 @@ fun Spanned.toAnnotatedString(
 
                     is RelativeSizeSpan -> {
                         addStyle(
-                            when (val size = span.sizeChange) {
+                            when (span.sizeChange) {
                                 1.2f -> body.toSpanStyle()
                                 1.3f -> title.toSpanStyle()
                                 1.4f -> headline.toSpanStyle()
@@ -194,34 +212,3 @@ fun Spanned.toAnnotatedString(
             index = end
         }
     }
-
-
-@Preview
-@Composable
-fun InlinePreview() {
-    MaterialTheme {
-        Surface {
-            val inlineContent = mapOf(
-                "boxId" to InlineTextContent(
-                    Placeholder(
-                        16f.em,
-                        16f.em,
-                        PlaceholderVerticalAlign.Center
-                    )
-                ) {
-                    Box(
-                        Modifier
-                            .background(Color.Red.copy(0.2f))
-                            .fillMaxSize()
-                    )
-                }
-            )
-            val annotatedString = buildAnnotatedString {
-                append(List(100) { "String" }.joinToString(" "))
-                appendInlineContent("boxId")
-                append(List(100) { "String" }.joinToString(" "))
-            }
-            Text(text = annotatedString, inlineContent = inlineContent)
-        }
-    }
-}
