@@ -22,6 +22,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.core.text.HtmlCompat
 import androidx.paging.compose.LazyPagingItems
+import com.keetr.comicsnac.details.Domain
 import com.keetr.comicsnac.details.Error
 import com.keetr.comicsnac.details.IssueDetailsUiState
 import com.keetr.comicsnac.details.Loading
@@ -33,6 +34,7 @@ import com.keetr.comicsnac.details.components.DetailsLoadingPlaceholder
 import com.keetr.comicsnac.details.components.DetailsScreen
 import com.keetr.comicsnac.details.components.Image
 import com.keetr.comicsnac.details.components.Info
+import com.keetr.comicsnac.details.components.panels.charactersPanel
 import com.keetr.comicsnac.details.components.panels.enemiesPanel
 import com.keetr.comicsnac.details.components.panels.friendsPanel
 import com.keetr.comicsnac.details.components.panels.moviesPanel
@@ -49,6 +51,7 @@ import com.keetr.comicsnac.model.storyarc.StoryArcBasic
 import com.keetr.comicsnac.model.team.Team
 import com.keetr.comicsnac.model.volume.VolumeBasic
 import com.keetr.comicsnac.ui.components.lazylist.animateScrollAndAlignItem
+import com.keetr.comicsnac.ui.components.webview.rememberAnnotatedString
 import com.keetr.comicsnac.ui.components.webview.toAnnotatedString
 import kotlinx.coroutines.launch
 import com.keetr.comicsnac.ui.R.string as CommonString
@@ -112,27 +115,7 @@ internal fun IssueDetailsScreen(
 
             with(detailsUiState.content) {
 
-                val body =
-                    MaterialTheme.typography.bodyLarge.copy(MaterialTheme.colorScheme.tertiary)
-                val title =
-                    MaterialTheme.typography.titleLarge.copy(MaterialTheme.colorScheme.tertiary)
-                val headline =
-                    MaterialTheme.typography.headlineSmall.copy(MaterialTheme.colorScheme.tertiary)
-                val link =
-                    MaterialTheme.typography.bodyLarge.copy(MaterialTheme.colorScheme.secondary)
-
-
-                val annotatedString =
-                    remember(body, title, headline, link) {
-                        HtmlCompat.fromHtml(description, HtmlCompat.FROM_HTML_MODE_LEGACY)
-                            .toAnnotatedString(
-                                "https://comicvine.gamespot.com",
-                                body,
-                                title,
-                                headline,
-                                link
-                            )
-                    }
+                val annotatedString = rememberAnnotatedString(description, Domain)
 
                 DetailsScreen(
                     modifier = modifier,
@@ -179,13 +162,13 @@ internal fun IssueDetailsScreen(
                         ) {
                             coverDate?.let {
                                 Info(
-                                    name = stringResource(R.string.origin),
+                                    name = stringResource(R.string.cover_date),
                                     content = it.formatDate()
                                 )
                             }
                             storeDate?.let {
                                 Info(
-                                    name = stringResource(R.string.origin),
+                                    name = stringResource(R.string.store_date),
                                     content = it.formatDate()
                                 )
                             }
@@ -205,7 +188,7 @@ internal fun IssueDetailsScreen(
                                 ) {
                                     Text(credit.name,
                                         Modifier
-                                            .clickable { onItemClicked(apiDetailUrl) }
+                                            .clickable { onItemClicked(credit.apiDetailUrl) }
                                             .padding(horizontal = 16f.dp),
                                         style = MaterialTheme.typography.titleLarge)
                                     Text(
@@ -217,6 +200,18 @@ internal fun IssueDetailsScreen(
                                 }
                             }
                         }
+                    }
+
+                    if (charactersId.isNotEmpty()) {
+                        panelSeparator()
+
+                        charactersPanel(
+                            CommonString.characters,
+                            characters,
+                            ::expandedProviderCallback,
+                            ::onExpand,
+                            onItemClicked
+                        )
                     }
 
                     if (teamsId.isNotEmpty()) {
@@ -245,7 +240,7 @@ internal fun IssueDetailsScreen(
 
                         panel {
                             DetailsFlow(
-                                name = stringResource(CommonString.powers), items = concepts
+                                name = stringResource(CommonString.concepts), items = concepts
                             ) { concept ->
                                 Text(concept.name,
                                     Modifier

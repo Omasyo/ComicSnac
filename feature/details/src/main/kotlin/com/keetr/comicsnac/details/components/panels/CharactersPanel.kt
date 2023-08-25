@@ -7,8 +7,9 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.paging.compose.LazyPagingItems
 import com.keetr.comicsnac.details.components.DetailsGrid
+import com.keetr.comicsnac.details.R
 import com.keetr.comicsnac.model.character.Character
-import com.keetr.comicsnac.ui.R
+import com.keetr.comicsnac.ui.R.string as CommonString
 import com.keetr.comicsnac.ui.components.cards.ComicCard
 import com.keetr.comicsnac.ui.components.lazylist.PanelLazyListScope
 
@@ -57,7 +58,7 @@ internal fun PanelLazyListScope.charactersPanel(
                 name = character.name,
                 imageUrl = character.imageUrl,
                 contentDescription = stringResource(
-                    R.string.character_image_desc, character.name
+                    CommonString.character_image_desc, character.name
                 ),
                 onClick = { onItemClicked(character.apiDetailUrl) })
         }

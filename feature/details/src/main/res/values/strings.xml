@@ -7,11 +7,13 @@
     <string name="first_appeared_in_issue">First Appeared in Issue</string>
     <string name="issue_appearances">Issue Appearances</string>
     <string name="publisher">Publisher</string>
+    <string name="friends">Friends</string>
+    <string name="enemies">Enemies</string>
     <string name="team_friends">Team Friends</string>
     <string name="team_enemies">Team Enemies</string>
     <string name="cover_date">Cover Date</string>
     <string name="store_date">Store Date</string>
     <string name="credits">Credits</string>
     <string name="no_of_members">Number of Members</string>
-    <string name="members">members</string>
+    <string name="members">Members</string>
 </resources>

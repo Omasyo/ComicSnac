@@ -10,8 +10,6 @@
     <string name="gender">Gender</string>
     <string name="aliases">Aliases</string>
     <string name="powers">Powers</string>
-    <string name="friends">Friends</string>
-    <string name="enemies">Enemies</string>
     <string name="teams">Teams</string>
     <string name="volumes">Volumes</string>
     <string name="creators">Creators</string>
@@ -20,4 +18,5 @@
     <string name="share_button_desc">Share Button</string>
     <string name="team_image_desc">Team image for %1$s</string>
     <string name="volume_image_desc">Cover image for %1$s</string>
+    <string name="concepts">Concepts</string>
 </resources>
