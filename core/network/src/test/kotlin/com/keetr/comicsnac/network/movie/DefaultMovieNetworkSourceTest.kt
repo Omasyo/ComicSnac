@@ -29,7 +29,6 @@ class DefaultMovieNetworkSourceTest : NetworkSourceTest<MovieNetworkSource>() {
         networkSource = DefaultMovieNetworkSource(client)
     }
 
-
     @Test
     fun getMovieDetails() = runTest {
         val response = networkSource.getMovieDetails("2232").getOrThrow().results

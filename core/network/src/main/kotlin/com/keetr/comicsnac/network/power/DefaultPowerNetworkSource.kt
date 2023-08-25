@@ -13,14 +13,14 @@ class DefaultPowerNetworkSource @Inject constructor(
     private val client: HttpClient
 ) : PowerNetworkSource {
     override suspend fun getPowerDetails(id: String): Result<PowerDetailsResponse> = makeRequest {
-        client.get("issue/4000-$id") {
+        client.get("power/4035-$id") {
             parameter("field_list", DetailsFieldList)
         }
     }
 
     override suspend fun getAllPowers(pageSize: Int, offset: Int): Result<PowerListResponse> =
         makeRequest {
-            client.get("issues") {
+            client.get("powers") {
                 parameter("field_list", ListFieldList)
                 parameter("limit", pageSize)
                 parameter("offset", offset)

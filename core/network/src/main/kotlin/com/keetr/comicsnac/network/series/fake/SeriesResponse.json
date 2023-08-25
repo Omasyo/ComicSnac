@@ -1,0 +1,1911 @@
+{
+  "error": "OK",
+  "limit": 100,
+  "offset": 0,
+  "number_of_page_results": 100,
+  "number_of_total_results": 1076,
+  "status_code": 1,
+  "results": [
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-1/",
+      "deck": null,
+      "id": 1,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/6/67663/6238345-3060875932-35677.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/6238345-3060875932-35677.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/6/67663/6238345-3060875932-35677.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/6/67663/6238345-3060875932-35677.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/6/67663/6238345-3060875932-35677.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/6/67663/6238345-3060875932-35677.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/6/67663/6238345-3060875932-35677.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/6/67663/6238345-3060875932-35677.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/6/67663/6238345-3060875932-35677.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Agents of S.H.I.E.L.D.",
+      "site_detail_url": "https://comicvine.gamespot.com/agents-of-s-h-i-e-l-d/4075-1/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-3/",
+      "deck": "Thought to be dead after a catastrophe at sea, Oliver Queen returns to Starling City a changed man, determined to fight injustice as a hooded vigilante who comes to be known as The Arrow. Based on DC Comics' Green Arrow franchise.",
+      "id": 3,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/10/103530/3332003-6337447359-25765.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/10/103530/3332003-6337447359-25765.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/10/103530/3332003-6337447359-25765.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/10/103530/3332003-6337447359-25765.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/10/103530/3332003-6337447359-25765.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/10/103530/3332003-6337447359-25765.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/10/103530/3332003-6337447359-25765.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/10/103530/3332003-6337447359-25765.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/10/103530/3332003-6337447359-25765.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Arrow",
+      "site_detail_url": "https://comicvine.gamespot.com/arrow/4075-3/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-4/",
+      "deck": "TV series based on the UK comic strip.",
+      "id": 4,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/13/132162/3332016-tit.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/13/132162/3332016-tit.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/13/132162/3332016-tit.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/13/132162/3332016-tit.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/13/132162/3332016-tit.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/13/132162/3332016-tit.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/13/132162/3332016-tit.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/13/132162/3332016-tit.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/13/132162/3332016-tit.png",
+        "image_tags": "All Images"
+      },
+      "name": "Bananaman",
+      "site_detail_url": "https://comicvine.gamespot.com/bananaman/4075-4/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-6/",
+      "deck": null,
+      "id": 6,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/8/83918/3332039-wolverinex-men1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/83918/3332039-wolverinex-men1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/8/83918/3332039-wolverinex-men1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/8/83918/3332039-wolverinex-men1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/8/83918/3332039-wolverinex-men1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/8/83918/3332039-wolverinex-men1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/8/83918/3332039-wolverinex-men1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/8/83918/3332039-wolverinex-men1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/8/83918/3332039-wolverinex-men1.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Wolverine and the X-Men",
+      "site_detail_url": "https://comicvine.gamespot.com/wolverine-and-the-xmen/4075-6/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-8/",
+      "deck": "Two FBI agents fight to uncover the truth behind the existence of extraterrestrial beings.",
+      "id": 8,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/13/132162/3332057-x-files-season-7.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/13/132162/3332057-x-files-season-7.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/13/132162/3332057-x-files-season-7.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/13/132162/3332057-x-files-season-7.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/13/132162/3332057-x-files-season-7.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/13/132162/3332057-x-files-season-7.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/13/132162/3332057-x-files-season-7.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/13/132162/3332057-x-files-season-7.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/13/132162/3332057-x-files-season-7.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The X-Files",
+      "site_detail_url": "https://comicvine.gamespot.com/the-xfiles/4075-8/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-9/",
+      "deck": "Created by Stan Lee, Steve Ditko and Ralph Bakshi. Airing from September 9, 1967 - June 14, 1970 on ABC.",
+      "id": 9,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/40/3332062-5tsybgegoly.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/40/3332062-5tsybgegoly.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/40/3332062-5tsybgegoly.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/40/3332062-5tsybgegoly.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/40/3332062-5tsybgegoly.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/40/3332062-5tsybgegoly.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/40/3332062-5tsybgegoly.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/40/3332062-5tsybgegoly.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/40/3332062-5tsybgegoly.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Spider-Man",
+      "site_detail_url": "https://comicvine.gamespot.com/spider-man/4075-9/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-10/",
+      "deck": "The Adventures of Darkwing Duck!",
+      "id": 10,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15776/7952757-darkwingduck.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/7952757-darkwingduck.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15776/7952757-darkwingduck.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15776/7952757-darkwingduck.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15776/7952757-darkwingduck.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/7952757-darkwingduck.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/7952757-darkwingduck.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15776/7952757-darkwingduck.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15776/7952757-darkwingduck.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Darkwing Duck",
+      "site_detail_url": "https://comicvine.gamespot.com/darkwing-duck/4075-10/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-11/",
+      "deck": "Think relationships, school, friends and doting parents are enough for a kid to deal with? Try living Peter Parker's life as the Spectacular Spider-Man, a teenage hero with a part-time job and a host of evil, super-powered enemies.",
+      "id": 11,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/14787/3332158-6730999621-46769.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/14787/3332158-6730999621-46769.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/14787/3332158-6730999621-46769.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/14787/3332158-6730999621-46769.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/14787/3332158-6730999621-46769.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/14787/3332158-6730999621-46769.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/14787/3332158-6730999621-46769.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/14787/3332158-6730999621-46769.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/14787/3332158-6730999621-46769.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Spectacular Spider-Man",
+      "site_detail_url": "https://comicvine.gamespot.com/spectacular-spiderman/4075-11/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-12/",
+      "deck": "The animated adventures of Superman.",
+      "id": 12,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/119711/3332159-5928547769-super.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/119711/3332159-5928547769-super.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/119711/3332159-5928547769-super.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/119711/3332159-5928547769-super.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/119711/3332159-5928547769-super.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/119711/3332159-5928547769-super.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/119711/3332159-5928547769-super.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/119711/3332159-5928547769-super.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/119711/3332159-5928547769-super.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Superman: The Animated Series",
+      "site_detail_url": "https://comicvine.gamespot.com/superman-the-animated-series/4075-12/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-13/",
+      "deck": null,
+      "id": 13,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/6/67663/6608400-default.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/6608400-default.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/6/67663/6608400-default.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/6/67663/6608400-default.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/6/67663/6608400-default.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/6/67663/6608400-default.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/6/67663/6608400-default.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/6/67663/6608400-default.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/6/67663/6608400-default.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Ultimate Spider-Man",
+      "site_detail_url": "https://comicvine.gamespot.com/ultimate-spiderman/4075-13/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-14/",
+      "deck": "Before he becomes Superman, a young Clark Kent struggles to find his place in the world as he learns to harness his alien powers for good and deals with the typical troubles of teenage life in Smallville.",
+      "id": 14,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/14787/3332174-7526015225-s10po.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/14787/3332174-7526015225-s10po.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/14787/3332174-7526015225-s10po.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/14787/3332174-7526015225-s10po.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/14787/3332174-7526015225-s10po.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/14787/3332174-7526015225-s10po.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/14787/3332174-7526015225-s10po.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/14787/3332174-7526015225-s10po.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/14787/3332174-7526015225-s10po.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Smallville",
+      "site_detail_url": "https://comicvine.gamespot.com/smallville/4075-14/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-15/",
+      "deck": "The original 1963-1989 adventures of everyone's favorite time lord",
+      "id": 15,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/5/58127/3332915-2011-01-04_doctor_who_classic_logo.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/58127/3332915-2011-01-04_doctor_who_classic_logo.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/5/58127/3332915-2011-01-04_doctor_who_classic_logo.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/5/58127/3332915-2011-01-04_doctor_who_classic_logo.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/5/58127/3332915-2011-01-04_doctor_who_classic_logo.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/5/58127/3332915-2011-01-04_doctor_who_classic_logo.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/5/58127/3332915-2011-01-04_doctor_who_classic_logo.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/5/58127/3332915-2011-01-04_doctor_who_classic_logo.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/5/58127/3332915-2011-01-04_doctor_who_classic_logo.png",
+        "image_tags": "All Images"
+      },
+      "name": "Doctor Who",
+      "site_detail_url": "https://comicvine.gamespot.com/doctor-who/4075-15/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-16/",
+      "deck": "The TV show starring Bill Bixby as David Banner and Lou Ferrigno as the Hulk.  Also starring Jack Colvin as Jack McGee, obsessive and troublesome reporter from Chicago's \"National Register\".",
+      "id": 16,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/119711/3332228-4259954487-the-i.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/119711/3332228-4259954487-the-i.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/119711/3332228-4259954487-the-i.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/119711/3332228-4259954487-the-i.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/119711/3332228-4259954487-the-i.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/119711/3332228-4259954487-the-i.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/119711/3332228-4259954487-the-i.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/119711/3332228-4259954487-the-i.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/119711/3332228-4259954487-the-i.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Incredible Hulk",
+      "site_detail_url": "https://comicvine.gamespot.com/the-incredible-hulk/4075-16/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-17/",
+      "deck": "Considered by many to be the best Batman TV show, this show started the famous DCAU and recreates characters and creates new characters in ways that were later picked up by the mainstream DCU.",
+      "id": 17,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/6/66303/3332249-batman_the_animated_series_logo.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/66303/3332249-batman_the_animated_series_logo.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/6/66303/3332249-batman_the_animated_series_logo.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/6/66303/3332249-batman_the_animated_series_logo.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/6/66303/3332249-batman_the_animated_series_logo.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/6/66303/3332249-batman_the_animated_series_logo.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/6/66303/3332249-batman_the_animated_series_logo.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/6/66303/3332249-batman_the_animated_series_logo.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/6/66303/3332249-batman_the_animated_series_logo.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Batman: The Animated Series",
+      "site_detail_url": "https://comicvine.gamespot.com/batman-the-animated-series/4075-17/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-18/",
+      "deck": null,
+      "id": 18,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/14787/3332209-6230092393-AVENG.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/14787/3332209-6230092393-AVENG.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/14787/3332209-6230092393-AVENG.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/14787/3332209-6230092393-AVENG.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/14787/3332209-6230092393-AVENG.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/14787/3332209-6230092393-AVENG.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/14787/3332209-6230092393-AVENG.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/14787/3332209-6230092393-AVENG.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/14787/3332209-6230092393-AVENG.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Avengers: Earth's Mightiest Heroes",
+      "site_detail_url": "https://comicvine.gamespot.com/the-avengers-earths-mightiest-heroes/4075-18/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-19/",
+      "deck": null,
+      "id": 19,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/14787/3332265-0183381462-Marve.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/14787/3332265-0183381462-Marve.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/14787/3332265-0183381462-Marve.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/14787/3332265-0183381462-Marve.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/14787/3332265-0183381462-Marve.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/14787/3332265-0183381462-Marve.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/14787/3332265-0183381462-Marve.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/14787/3332265-0183381462-Marve.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/14787/3332265-0183381462-Marve.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Avengers Assemble",
+      "site_detail_url": "https://comicvine.gamespot.com/avengers-assemble/4075-19/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-20/",
+      "deck": null,
+      "id": 20,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/117930/3332280-2piscllutfxcxds.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117930/3332280-2piscllutfxcxds.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/117930/3332280-2piscllutfxcxds.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/117930/3332280-2piscllutfxcxds.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/117930/3332280-2piscllutfxcxds.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/117930/3332280-2piscllutfxcxds.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/117930/3332280-2piscllutfxcxds.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/117930/3332280-2piscllutfxcxds.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/117930/3332280-2piscllutfxcxds.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Spider-Man: The Animated Series",
+      "site_detail_url": "https://comicvine.gamespot.com/spider-man-the-animated-series/4075-20/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-21/",
+      "deck": "One Piece is an anime adaptation of Eiichiro Oda's manga. Following the adventures of Luffy and his mischievous friends out to find One Piece, and in their adventure they will find many enemies and friends that will help them in their journey.",
+      "id": 21,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/4/47703/3332282-5549479837-45188.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/4/47703/3332282-5549479837-45188.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/4/47703/3332282-5549479837-45188.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/4/47703/3332282-5549479837-45188.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/4/47703/3332282-5549479837-45188.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/4/47703/3332282-5549479837-45188.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/4/47703/3332282-5549479837-45188.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/4/47703/3332282-5549479837-45188.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/4/47703/3332282-5549479837-45188.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "One Piece",
+      "site_detail_url": "https://comicvine.gamespot.com/one-piece/4075-21/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-22/",
+      "deck": "Naruto is the anime adaptation of the Naruto manga series. Naruto Uzumaki is a misfit ninja who dreams to become the greatest ninja of them all.",
+      "id": 22,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/4/47703/3332376-3669668489-2175-.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/4/47703/3332376-3669668489-2175-.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/4/47703/3332376-3669668489-2175-.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/4/47703/3332376-3669668489-2175-.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/4/47703/3332376-3669668489-2175-.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/4/47703/3332376-3669668489-2175-.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/4/47703/3332376-3669668489-2175-.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/4/47703/3332376-3669668489-2175-.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/4/47703/3332376-3669668489-2175-.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Naruto",
+      "site_detail_url": "https://comicvine.gamespot.com/naruto/4075-22/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-23/",
+      "deck": "Naruto Shippuuden is the continuation of the series Naruto, taking place two and a half years after the end of the original series.",
+      "id": 23,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/4/47703/3332399-6298950321-42814.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/4/47703/3332399-6298950321-42814.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/4/47703/3332399-6298950321-42814.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/4/47703/3332399-6298950321-42814.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/4/47703/3332399-6298950321-42814.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/4/47703/3332399-6298950321-42814.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/4/47703/3332399-6298950321-42814.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/4/47703/3332399-6298950321-42814.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/4/47703/3332399-6298950321-42814.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Naruto Shippuden",
+      "site_detail_url": "https://comicvine.gamespot.com/naruto-shippuden/4075-23/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-24/",
+      "deck": "BLEACH is the anime adaptation of the Bleach manga series that ran from 2004-2012. Ichigo Kurosaki has been able to see ghosts his whole life. Now, the Hollows are coming after him.",
+      "id": 24,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/4/47703/3332450-4018930770-2174-.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/4/47703/3332450-4018930770-2174-.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/4/47703/3332450-4018930770-2174-.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/4/47703/3332450-4018930770-2174-.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/4/47703/3332450-4018930770-2174-.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/4/47703/3332450-4018930770-2174-.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/4/47703/3332450-4018930770-2174-.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/4/47703/3332450-4018930770-2174-.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/4/47703/3332450-4018930770-2174-.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "BLEACH",
+      "site_detail_url": "https://comicvine.gamespot.com/b-l-e-a-c-h/4075-24/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-25/",
+      "deck": "X-Men: Evolution was an animated series based on the X-Men comic books. It aired on Kids' WB and ran between 2000 and 2003.",
+      "id": 25,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/4/41224/5280818-x-men%20evolution%20logo.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/4/41224/5280818-x-men%20evolution%20logo.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/4/41224/5280818-x-men%20evolution%20logo.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/4/41224/5280818-x-men%20evolution%20logo.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/4/41224/5280818-x-men%20evolution%20logo.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/4/41224/5280818-x-men%20evolution%20logo.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/4/41224/5280818-x-men%20evolution%20logo.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/4/41224/5280818-x-men%20evolution%20logo.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/4/41224/5280818-x-men%20evolution%20logo.jpg",
+        "image_tags": "All Images,Wiki - X-Men Evolution Title Cards"
+      },
+      "name": "X-Men: Evolution",
+      "site_detail_url": "https://comicvine.gamespot.com/xmen-evolution/4075-25/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-26/",
+      "deck": null,
+      "id": 26,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/9/92932/3334060-x-men%20animated.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/9/92932/3334060-x-men%20animated.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/9/92932/3334060-x-men%20animated.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/9/92932/3334060-x-men%20animated.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/9/92932/3334060-x-men%20animated.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/9/92932/3334060-x-men%20animated.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/9/92932/3334060-x-men%20animated.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/9/92932/3334060-x-men%20animated.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/9/92932/3334060-x-men%20animated.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "X-Men: The Animated Series",
+      "site_detail_url": "https://comicvine.gamespot.com/xmen-the-animated-series/4075-26/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-27/",
+      "deck": "Police officer Rick Grimes leads a group of survivors in a world overrun by zombies. Fighting for their lives each day and trying to find and establish a new home in a world riddled with not just zombies, but also something more dangerous, human beings.",
+      "id": 27,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/14/142800/3332217-430540-the_walking_dead_04.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/14/142800/3332217-430540-the_walking_dead_04.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/14/142800/3332217-430540-the_walking_dead_04.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/14/142800/3332217-430540-the_walking_dead_04.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/14/142800/3332217-430540-the_walking_dead_04.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/14/142800/3332217-430540-the_walking_dead_04.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/14/142800/3332217-430540-the_walking_dead_04.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/14/142800/3332217-430540-the_walking_dead_04.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/14/142800/3332217-430540-the_walking_dead_04.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Walking Dead",
+      "site_detail_url": "https://comicvine.gamespot.com/the-walking-dead/4075-27/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-28/",
+      "deck": "Code Geass is an anime that was released at the same time as the manga in 2006 and ended in 2008.",
+      "id": 28,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/4/41224/3332575-code%20geass%20logo.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/4/41224/3332575-code%20geass%20logo.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/4/41224/3332575-code%20geass%20logo.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/4/41224/3332575-code%20geass%20logo.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/4/41224/3332575-code%20geass%20logo.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/4/41224/3332575-code%20geass%20logo.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/4/41224/3332575-code%20geass%20logo.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/4/41224/3332575-code%20geass%20logo.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/4/41224/3332575-code%20geass%20logo.jpg",
+        "image_tags": "All Images,Wiki"
+      },
+      "name": "Code Geass: Lelouch of the Rebellion",
+      "site_detail_url": "https://comicvine.gamespot.com/code-geass-lelouch-of-the-rebellion/4075-28/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-29/",
+      "deck": "A television series staring Van Williams as the Green Hornet and Bruce Lee as Kato.",
+      "id": 29,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15776/7929170-greenhornet1966.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/7929170-greenhornet1966.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15776/7929170-greenhornet1966.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15776/7929170-greenhornet1966.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15776/7929170-greenhornet1966.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/7929170-greenhornet1966.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/7929170-greenhornet1966.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15776/7929170-greenhornet1966.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15776/7929170-greenhornet1966.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Green Hornet",
+      "site_detail_url": "https://comicvine.gamespot.com/the-green-hornet/4075-29/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-30/",
+      "deck": null,
+      "id": 30,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11111/111112793/3332841-1274320491-High_.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11111/111112793/3332841-1274320491-High_.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11111/111112793/3332841-1274320491-High_.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11111/111112793/3332841-1274320491-High_.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11111/111112793/3332841-1274320491-High_.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11111/111112793/3332841-1274320491-High_.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11111/111112793/3332841-1274320491-High_.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11111/111112793/3332841-1274320491-High_.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11111/111112793/3332841-1274320491-High_.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "High School DXD",
+      "site_detail_url": "https://comicvine.gamespot.com/high-school-dxd/4075-30/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-31/",
+      "deck": null,
+      "id": 31,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/112241/3332624-2930190488-1966_.JPG",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/112241/3332624-2930190488-1966_.JPG",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/112241/3332624-2930190488-1966_.JPG",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/112241/3332624-2930190488-1966_.JPG",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/112241/3332624-2930190488-1966_.JPG",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/112241/3332624-2930190488-1966_.JPG",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/112241/3332624-2930190488-1966_.JPG",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/112241/3332624-2930190488-1966_.JPG",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/112241/3332624-2930190488-1966_.JPG",
+        "image_tags": "All Images"
+      },
+      "name": "Batman",
+      "site_detail_url": "https://comicvine.gamespot.com/batman/4075-31/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-32/",
+      "deck": "Beware the Batman is a computer animated TV show focusing on the early exploits of the Caped Crusader.",
+      "id": 32,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/6/64675/3332701-bat.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/64675/3332701-bat.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/6/64675/3332701-bat.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/6/64675/3332701-bat.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/6/64675/3332701-bat.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/6/64675/3332701-bat.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/6/64675/3332701-bat.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/6/64675/3332701-bat.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/6/64675/3332701-bat.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Beware the Batman",
+      "site_detail_url": "https://comicvine.gamespot.com/beware-the-batman/4075-32/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-33/",
+      "deck": null,
+      "id": 33,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/6/64675/3332718-yj.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/64675/3332718-yj.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/6/64675/3332718-yj.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/6/64675/3332718-yj.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/6/64675/3332718-yj.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/6/64675/3332718-yj.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/6/64675/3332718-yj.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/6/64675/3332718-yj.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/6/64675/3332718-yj.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Young Justice",
+      "site_detail_url": "https://comicvine.gamespot.com/young-justice/4075-33/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-34/",
+      "deck": "Hulk and the Agents of S.M.A.S.H. is an American cartoon series based on the superhero character by Marvel Comics.",
+      "id": 34,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11111/111119888/3332778-image.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11111/111119888/3332778-image.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11111/111119888/3332778-image.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11111/111119888/3332778-image.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11111/111119888/3332778-image.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11111/111119888/3332778-image.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11111/111119888/3332778-image.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11111/111119888/3332778-image.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11111/111119888/3332778-image.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Hulk and the Agents of S.M.A.S.H.",
+      "site_detail_url": "https://comicvine.gamespot.com/hulk-and-the-agents-of-s-m-a-s-h/4075-34/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-35/",
+      "deck": null,
+      "id": 35,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/8/83918/3332917-the%20tick%20title.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/83918/3332917-the%20tick%20title.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/8/83918/3332917-the%20tick%20title.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/8/83918/3332917-the%20tick%20title.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/8/83918/3332917-the%20tick%20title.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/8/83918/3332917-the%20tick%20title.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/8/83918/3332917-the%20tick%20title.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/8/83918/3332917-the%20tick%20title.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/8/83918/3332917-the%20tick%20title.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Tick",
+      "site_detail_url": "https://comicvine.gamespot.com/the-tick/4075-35/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-36/",
+      "deck": null,
+      "id": 36,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/5/58127/3332936-ecclestonalt.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/58127/3332936-ecclestonalt.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/5/58127/3332936-ecclestonalt.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/5/58127/3332936-ecclestonalt.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/5/58127/3332936-ecclestonalt.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/5/58127/3332936-ecclestonalt.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/5/58127/3332936-ecclestonalt.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/5/58127/3332936-ecclestonalt.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/5/58127/3332936-ecclestonalt.png",
+        "image_tags": "All Images"
+      },
+      "name": "Doctor Who",
+      "site_detail_url": "https://comicvine.gamespot.com/doctor-who/4075-36/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-37/",
+      "deck": "The third live action TV series in the star trek universe and the first not to be based on a starship.",
+      "id": 37,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/13/134028/3332979-ds9logo.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/13/134028/3332979-ds9logo.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/13/134028/3332979-ds9logo.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/13/134028/3332979-ds9logo.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/13/134028/3332979-ds9logo.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/13/134028/3332979-ds9logo.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/13/134028/3332979-ds9logo.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/13/134028/3332979-ds9logo.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/13/134028/3332979-ds9logo.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Star Trek: Deep Space Nine",
+      "site_detail_url": "https://comicvine.gamespot.com/star-trek-deep-space-nine/4075-37/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-38/",
+      "deck": "A Batman animated series that aired on Kid's WB from 2004-2008 following a younger, more inexperienced Batman in his third year as he encounters his classic Rogues' Gallery for the first time in Gotham; as well as familiar characters from the comics, and some unique to the show.",
+      "id": 38,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/6/64675/3332981-thebatman.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/64675/3332981-thebatman.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/6/64675/3332981-thebatman.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/6/64675/3332981-thebatman.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/6/64675/3332981-thebatman.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/6/64675/3332981-thebatman.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/6/64675/3332981-thebatman.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/6/64675/3332981-thebatman.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/6/64675/3332981-thebatman.png",
+        "image_tags": "All Images"
+      },
+      "name": "The Batman",
+      "site_detail_url": "https://comicvine.gamespot.com/the-batman/4075-38/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-40/",
+      "deck": "2003 Emmy-award winning series that chronicles events from the Clone Wars.",
+      "id": 40,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/13/132327/3333118-cwclonewarsposter.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/13/132327/3333118-cwclonewarsposter.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/13/132327/3333118-cwclonewarsposter.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/13/132327/3333118-cwclonewarsposter.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/13/132327/3333118-cwclonewarsposter.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/13/132327/3333118-cwclonewarsposter.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/13/132327/3333118-cwclonewarsposter.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/13/132327/3333118-cwclonewarsposter.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/13/132327/3333118-cwclonewarsposter.jpg",
+        "image_tags": "All Images,Star Wars"
+      },
+      "name": "Star Wars: Clone Wars",
+      "site_detail_url": "https://comicvine.gamespot.com/star-wars-clone-wars/4075-40/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-41/",
+      "deck": "The one, the only 'Star Trek'",
+      "id": 41,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15776/9017010-trek.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/9017010-trek.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15776/9017010-trek.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15776/9017010-trek.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15776/9017010-trek.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/9017010-trek.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/9017010-trek.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15776/9017010-trek.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15776/9017010-trek.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Star Trek",
+      "site_detail_url": "https://comicvine.gamespot.com/star-trek/4075-41/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-42/",
+      "deck": "The first Star Trek spin off, 'Star Trek The Animated Series'.\nThis series finishes off the the enterprise's 5 year mission.",
+      "id": 42,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/13/134028/3333223-tas%20logo.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/13/134028/3333223-tas%20logo.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/13/134028/3333223-tas%20logo.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/13/134028/3333223-tas%20logo.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/13/134028/3333223-tas%20logo.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/13/134028/3333223-tas%20logo.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/13/134028/3333223-tas%20logo.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/13/134028/3333223-tas%20logo.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/13/134028/3333223-tas%20logo.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Star Trek: The Animated Series",
+      "site_detail_url": "https://comicvine.gamespot.com/star-trek-the-animated-series/4075-42/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-43/",
+      "deck": "A new crew, a new enterprise and a new time period.",
+      "id": 43,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/13/134028/3333227-tng%20logo.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/13/134028/3333227-tng%20logo.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/13/134028/3333227-tng%20logo.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/13/134028/3333227-tng%20logo.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/13/134028/3333227-tng%20logo.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/13/134028/3333227-tng%20logo.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/13/134028/3333227-tng%20logo.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/13/134028/3333227-tng%20logo.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/13/134028/3333227-tng%20logo.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Star Trek: The Next Generation",
+      "site_detail_url": "https://comicvine.gamespot.com/star-trek-the-next-generation/4075-43/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-44/",
+      "deck": "Stuck 70,000 light years away from earth in the gamma quadrant, the crew of the USS Voyager have to get home.",
+      "id": 44,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/13/134028/3333228-voy%20logo.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/13/134028/3333228-voy%20logo.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/13/134028/3333228-voy%20logo.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/13/134028/3333228-voy%20logo.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/13/134028/3333228-voy%20logo.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/13/134028/3333228-voy%20logo.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/13/134028/3333228-voy%20logo.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/13/134028/3333228-voy%20logo.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/13/134028/3333228-voy%20logo.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Star Trek: Voyager",
+      "site_detail_url": "https://comicvine.gamespot.com/star-trek-voyager/4075-44/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-45/",
+      "deck": "The prequel to Star Trek, 'Star Trek Enterprise'!",
+      "id": 45,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15776/8544460-enterprise.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/8544460-enterprise.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15776/8544460-enterprise.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15776/8544460-enterprise.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15776/8544460-enterprise.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/8544460-enterprise.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/8544460-enterprise.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15776/8544460-enterprise.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15776/8544460-enterprise.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Star Trek: Enterprise",
+      "site_detail_url": "https://comicvine.gamespot.com/star-trek-enterprise/4075-45/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-46/",
+      "deck": "A forensic technician for the Miami Police Department lives a double life as a serial killer who hunts other killers, working by a code that his father created for him. Based on Jeff Lindsay's Dexter novels, which have been adapted into a Marvel comic book.",
+      "id": 46,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/10/103530/3333333-6097371986-79349.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/10/103530/3333333-6097371986-79349.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/10/103530/3333333-6097371986-79349.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/10/103530/3333333-6097371986-79349.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/10/103530/3333333-6097371986-79349.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/10/103530/3333333-6097371986-79349.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/10/103530/3333333-6097371986-79349.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/10/103530/3333333-6097371986-79349.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/10/103530/3333333-6097371986-79349.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Dexter",
+      "site_detail_url": "https://comicvine.gamespot.com/dexter/4075-46/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-47/",
+      "deck": "Brought together by a common threat, seven of Earth's superheroes band together as the Justice League.",
+      "id": 47,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/7/70204/3333336-275px-justiceleague-intro.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/7/70204/3333336-275px-justiceleague-intro.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/7/70204/3333336-275px-justiceleague-intro.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/7/70204/3333336-275px-justiceleague-intro.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/7/70204/3333336-275px-justiceleague-intro.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/7/70204/3333336-275px-justiceleague-intro.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/7/70204/3333336-275px-justiceleague-intro.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/7/70204/3333336-275px-justiceleague-intro.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/7/70204/3333336-275px-justiceleague-intro.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Justice League",
+      "site_detail_url": "https://comicvine.gamespot.com/justice-league/4075-47/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-48/",
+      "deck": "A New York City police detective comes into contact with an ancient weapon called the Witchblade, and must become its master in order to fight the looming darkness. Based on Top Cow's Witchblade comics.",
+      "id": 48,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/10/103530/3333416-2660578621-79072.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/10/103530/3333416-2660578621-79072.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/10/103530/3333416-2660578621-79072.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/10/103530/3333416-2660578621-79072.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/10/103530/3333416-2660578621-79072.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/10/103530/3333416-2660578621-79072.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/10/103530/3333416-2660578621-79072.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/10/103530/3333416-2660578621-79072.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/10/103530/3333416-2660578621-79072.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Witchblade",
+      "site_detail_url": "https://comicvine.gamespot.com/witchblade/4075-48/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-49/",
+      "deck": "Live action series featuring Wonder Woman and Steve Trevor.",
+      "id": 49,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/9/92932/3333527-wonder%20woman%20intro.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/9/92932/3333527-wonder%20woman%20intro.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/9/92932/3333527-wonder%20woman%20intro.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/9/92932/3333527-wonder%20woman%20intro.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/9/92932/3333527-wonder%20woman%20intro.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/9/92932/3333527-wonder%20woman%20intro.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/9/92932/3333527-wonder%20woman%20intro.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/9/92932/3333527-wonder%20woman%20intro.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/9/92932/3333527-wonder%20woman%20intro.png",
+        "image_tags": "All Images"
+      },
+      "name": "Wonder Woman",
+      "site_detail_url": "https://comicvine.gamespot.com/wonder-woman/4075-49/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-50/",
+      "deck": null,
+      "id": 50,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/2/20814/381776-138335-the-simpsons.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/2/20814/381776-138335-the-simpsons.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/2/20814/381776-138335-the-simpsons.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/2/20814/381776-138335-the-simpsons.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/2/20814/381776-138335-the-simpsons.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/2/20814/381776-138335-the-simpsons.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/2/20814/381776-138335-the-simpsons.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/2/20814/381776-138335-the-simpsons.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/2/20814/381776-138335-the-simpsons.jpg",
+        "image_tags": "All Images,The Family"
+      },
+      "name": "The Simpsons",
+      "site_detail_url": "https://comicvine.gamespot.com/the-simpsons/4075-50/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-51/",
+      "deck": "Persona 4: The Animation is an anime based upon the popular PlayStation 2 game.",
+      "id": 51,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/4/47703/3034693-2678357066-40008.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/4/47703/3034693-2678357066-40008.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/4/47703/3034693-2678357066-40008.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/4/47703/3034693-2678357066-40008.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/4/47703/3034693-2678357066-40008.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/4/47703/3034693-2678357066-40008.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/4/47703/3034693-2678357066-40008.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/4/47703/3034693-2678357066-40008.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/4/47703/3034693-2678357066-40008.jpg",
+        "image_tags": "All Images,Others"
+      },
+      "name": "Persona 4: The Animation",
+      "site_detail_url": "https://comicvine.gamespot.com/persona-4-the-animation/4075-51/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-52/",
+      "deck": "The acclaimed manga series by legendary Dr. Slump creator Akira Toriyama takes its first humble steps to greatness in the action-adventure anime adaptation of Dragon Ball! Join Goku, a young kid living in complete solitude in the mountains, as his life takes an exciting turn after encountering the energetic Bulma, a fiesty young girl who is on a quest to find the seven \"Dragon Balls\" -- mysterious star-studded marbles rumoured that, when gathered together, have the power to grant any wish!",
+      "id": 52,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/10/104752/3334272-image35.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/10/104752/3334272-image35.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/10/104752/3334272-image35.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/10/104752/3334272-image35.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/10/104752/3334272-image35.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/10/104752/3334272-image35.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/10/104752/3334272-image35.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/10/104752/3334272-image35.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/10/104752/3334272-image35.png",
+        "image_tags": "All Images"
+      },
+      "name": "Dragon Ball",
+      "site_detail_url": "https://comicvine.gamespot.com/dragon-ball/4075-52/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-53/",
+      "deck": "Black Lagoon is the anime adaptation of the seinen manga series from Rei Hiroe.",
+      "id": 53,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/4/47703/3334428-7646102968-2346-.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/4/47703/3334428-7646102968-2346-.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/4/47703/3334428-7646102968-2346-.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/4/47703/3334428-7646102968-2346-.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/4/47703/3334428-7646102968-2346-.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/4/47703/3334428-7646102968-2346-.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/4/47703/3334428-7646102968-2346-.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/4/47703/3334428-7646102968-2346-.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/4/47703/3334428-7646102968-2346-.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Black Lagoon",
+      "site_detail_url": "https://comicvine.gamespot.com/black-lagoon/4075-53/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-54/",
+      "deck": "Black Lagoon: The Second Barrage is the sequel series to the Black Lagoon anime.",
+      "id": 54,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/4/47703/3334438-6055448171-43503.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/4/47703/3334438-6055448171-43503.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/4/47703/3334438-6055448171-43503.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/4/47703/3334438-6055448171-43503.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/4/47703/3334438-6055448171-43503.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/4/47703/3334438-6055448171-43503.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/4/47703/3334438-6055448171-43503.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/4/47703/3334438-6055448171-43503.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/4/47703/3334438-6055448171-43503.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Black Lagoon: The Second Barrage",
+      "site_detail_url": "https://comicvine.gamespot.com/black-lagoon-the-second-barrage/4075-54/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-55/",
+      "deck": null,
+      "id": 55,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/110802/3334449-spiderman%20and%20his%20amazing%20friends%20-%201x01%20-%20triumph%20of%20the%20green%20goblin%20dvdrip.avi_000019480.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/110802/3334449-spiderman%20and%20his%20amazing%20friends%20-%201x01%20-%20triumph%20of%20the%20green%20goblin%20dvdrip.avi_000019480.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/110802/3334449-spiderman%20and%20his%20amazing%20friends%20-%201x01%20-%20triumph%20of%20the%20green%20goblin%20dvdrip.avi_000019480.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/110802/3334449-spiderman%20and%20his%20amazing%20friends%20-%201x01%20-%20triumph%20of%20the%20green%20goblin%20dvdrip.avi_000019480.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/110802/3334449-spiderman%20and%20his%20amazing%20friends%20-%201x01%20-%20triumph%20of%20the%20green%20goblin%20dvdrip.avi_000019480.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/110802/3334449-spiderman%20and%20his%20amazing%20friends%20-%201x01%20-%20triumph%20of%20the%20green%20goblin%20dvdrip.avi_000019480.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/110802/3334449-spiderman%20and%20his%20amazing%20friends%20-%201x01%20-%20triumph%20of%20the%20green%20goblin%20dvdrip.avi_000019480.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/110802/3334449-spiderman%20and%20his%20amazing%20friends%20-%201x01%20-%20triumph%20of%20the%20green%20goblin%20dvdrip.avi_000019480.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/110802/3334449-spiderman%20and%20his%20amazing%20friends%20-%201x01%20-%20triumph%20of%20the%20green%20goblin%20dvdrip.avi_000019480.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Spider-Man And His Amazing Friends",
+      "site_detail_url": "https://comicvine.gamespot.com/spiderman-and-his-amazing-friends/4075-55/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-56/",
+      "deck": "Black Lagoon: Roberta's Blood Trail is the third season of the Black Lagoon anime that was sold as direct to market OVAs.",
+      "id": 56,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/4/47703/3334477-7570646113-42467.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/4/47703/3334477-7570646113-42467.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/4/47703/3334477-7570646113-42467.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/4/47703/3334477-7570646113-42467.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/4/47703/3334477-7570646113-42467.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/4/47703/3334477-7570646113-42467.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/4/47703/3334477-7570646113-42467.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/4/47703/3334477-7570646113-42467.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/4/47703/3334477-7570646113-42467.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Black Lagoon: Roberta's Blood Trail",
+      "site_detail_url": "https://comicvine.gamespot.com/black-lagoon-robertas-blood-trail/4075-56/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-57/",
+      "deck": "Picks up where the Justice League series ended and focuses on a wider array of Justice League members.",
+      "id": 57,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/5/58820/3334469-justice_league_unlimited_title_card.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/58820/3334469-justice_league_unlimited_title_card.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/5/58820/3334469-justice_league_unlimited_title_card.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/5/58820/3334469-justice_league_unlimited_title_card.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/5/58820/3334469-justice_league_unlimited_title_card.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/5/58820/3334469-justice_league_unlimited_title_card.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/5/58820/3334469-justice_league_unlimited_title_card.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/5/58820/3334469-justice_league_unlimited_title_card.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/5/58820/3334469-justice_league_unlimited_title_card.png",
+        "image_tags": "All Images"
+      },
+      "name": "Justice League Unlimited",
+      "site_detail_url": "https://comicvine.gamespot.com/justice-league-unlimited/4075-57/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-58/",
+      "deck": "Panty &amp; Stocking with Garterbelt is a GAINAX comedy anime series. Panty and Stocking are angels cast down to Earth for their sins to wipe out the ghosts terrorizing humanity.",
+      "id": 58,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/4/47703/3334513-4929869082-33597.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/4/47703/3334513-4929869082-33597.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/4/47703/3334513-4929869082-33597.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/4/47703/3334513-4929869082-33597.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/4/47703/3334513-4929869082-33597.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/4/47703/3334513-4929869082-33597.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/4/47703/3334513-4929869082-33597.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/4/47703/3334513-4929869082-33597.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/4/47703/3334513-4929869082-33597.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Panty & Stocking with Garterbelt",
+      "site_detail_url": "https://comicvine.gamespot.com/panty-stocking-with-garterbelt/4075-58/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-59/",
+      "deck": "NARUTO Spin-Off: Rock Lee &amp; His Ninja Pals is a comedy spin-off of the Naruto series that focuses on Rock Lee and his team.",
+      "id": 59,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/4/47703/3082616-naruto%20sd.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/4/47703/3082616-naruto%20sd.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/4/47703/3082616-naruto%20sd.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/4/47703/3082616-naruto%20sd.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/4/47703/3082616-naruto%20sd.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/4/47703/3082616-naruto%20sd.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/4/47703/3082616-naruto%20sd.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/4/47703/3082616-naruto%20sd.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/4/47703/3082616-naruto%20sd.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "NARUTO Spin-Off: Rock Lee & His Ninja Pals",
+      "site_detail_url": "https://comicvine.gamespot.com/naruto-spinoff-rock-lee-his-ninja-pals/4075-59/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-60/",
+      "deck": "Highschool of the Dead is the anime adaptation of of the Highschool of the Dead anime created by Daisuke Sato and Shoji Sato.",
+      "id": 60,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/4/47703/2968062-5976860586-27471.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/4/47703/2968062-5976860586-27471.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/4/47703/2968062-5976860586-27471.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/4/47703/2968062-5976860586-27471.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/4/47703/2968062-5976860586-27471.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/4/47703/2968062-5976860586-27471.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/4/47703/2968062-5976860586-27471.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/4/47703/2968062-5976860586-27471.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/4/47703/2968062-5976860586-27471.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Highschool of the Dead",
+      "site_detail_url": "https://comicvine.gamespot.com/highschool-of-the-dead/4075-60/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-61/",
+      "deck": "A live action sitcom based on the Archie Comics character Sabrina Spellman.",
+      "id": 61,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/111746/3334610-8461473412-Sabri.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/111746/3334610-8461473412-Sabri.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/111746/3334610-8461473412-Sabri.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/111746/3334610-8461473412-Sabri.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/111746/3334610-8461473412-Sabri.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/111746/3334610-8461473412-Sabri.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/111746/3334610-8461473412-Sabri.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/111746/3334610-8461473412-Sabri.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/111746/3334610-8461473412-Sabri.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Sabrina, the Teenage Witch",
+      "site_detail_url": "https://comicvine.gamespot.com/sabrina-the-teenage-witch/4075-61/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-62/",
+      "deck": null,
+      "id": 62,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/13/132162/3335265-77996-4.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/13/132162/3335265-77996-4.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/13/132162/3335265-77996-4.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/13/132162/3335265-77996-4.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/13/132162/3335265-77996-4.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/13/132162/3335265-77996-4.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/13/132162/3335265-77996-4.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/13/132162/3335265-77996-4.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/13/132162/3335265-77996-4.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Daria",
+      "site_detail_url": "https://comicvine.gamespot.com/daria/4075-62/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-63/",
+      "deck": "The cartoon adventures of a cat and dog.",
+      "id": 63,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/13/132162/3335266-tumblr_lps5bsdu5g1qd9jlto1_500.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/13/132162/3335266-tumblr_lps5bsdu5g1qd9jlto1_500.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/13/132162/3335266-tumblr_lps5bsdu5g1qd9jlto1_500.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/13/132162/3335266-tumblr_lps5bsdu5g1qd9jlto1_500.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/13/132162/3335266-tumblr_lps5bsdu5g1qd9jlto1_500.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/13/132162/3335266-tumblr_lps5bsdu5g1qd9jlto1_500.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/13/132162/3335266-tumblr_lps5bsdu5g1qd9jlto1_500.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/13/132162/3335266-tumblr_lps5bsdu5g1qd9jlto1_500.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/13/132162/3335266-tumblr_lps5bsdu5g1qd9jlto1_500.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Ren & Stimpy Show",
+      "site_detail_url": "https://comicvine.gamespot.com/the-ren-stimpy-show/4075-63/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-64/",
+      "deck": "Cartoon based on the comic strip by Scott Adams.",
+      "id": 64,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/13/132162/3335902-dilbert_season_01.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/13/132162/3335902-dilbert_season_01.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/13/132162/3335902-dilbert_season_01.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/13/132162/3335902-dilbert_season_01.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/13/132162/3335902-dilbert_season_01.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/13/132162/3335902-dilbert_season_01.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/13/132162/3335902-dilbert_season_01.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/13/132162/3335902-dilbert_season_01.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/13/132162/3335902-dilbert_season_01.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Dilbert",
+      "site_detail_url": "https://comicvine.gamespot.com/dilbert/4075-64/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-65/",
+      "deck": null,
+      "id": 65,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/13/132162/3336013-beavis-butthead-mtv.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/13/132162/3336013-beavis-butthead-mtv.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/13/132162/3336013-beavis-butthead-mtv.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/13/132162/3336013-beavis-butthead-mtv.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/13/132162/3336013-beavis-butthead-mtv.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/13/132162/3336013-beavis-butthead-mtv.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/13/132162/3336013-beavis-butthead-mtv.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/13/132162/3336013-beavis-butthead-mtv.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/13/132162/3336013-beavis-butthead-mtv.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Beavis and Butt-Head",
+      "site_detail_url": "https://comicvine.gamespot.com/beavis-and-butthead/4075-65/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-67/",
+      "deck": null,
+      "id": 67,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11151/111513412/8364709-1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11151/111513412/8364709-1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11151/111513412/8364709-1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11151/111513412/8364709-1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11151/111513412/8364709-1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11151/111513412/8364709-1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11151/111513412/8364709-1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11151/111513412/8364709-1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11151/111513412/8364709-1.jpg",
+        "image_tags": "All Images,DVD Cover,Season 1"
+      },
+      "name": "Buffy the Vampire Slayer",
+      "site_detail_url": "https://comicvine.gamespot.com/buffy-the-vampire-slayer/4075-67/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-68/",
+      "deck": "Raised in the supernatural hunter's lifestyle, two brothers follow in their father's footsteps as they crisscross the country, saving people from the dark side of the occult and paranormal.",
+      "id": 68,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/10/103530/3336397-6621085636-78901.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/10/103530/3336397-6621085636-78901.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/10/103530/3336397-6621085636-78901.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/10/103530/3336397-6621085636-78901.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/10/103530/3336397-6621085636-78901.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/10/103530/3336397-6621085636-78901.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/10/103530/3336397-6621085636-78901.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/10/103530/3336397-6621085636-78901.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/10/103530/3336397-6621085636-78901.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Supernatural",
+      "site_detail_url": "https://comicvine.gamespot.com/supernatural/4075-68/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-69/",
+      "deck": "A cartoon about three little girls with superpowers.",
+      "id": 69,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/13/132162/3336660-the-powerpuff-girls-movie-poster-2002-1020478094.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/13/132162/3336660-the-powerpuff-girls-movie-poster-2002-1020478094.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/13/132162/3336660-the-powerpuff-girls-movie-poster-2002-1020478094.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/13/132162/3336660-the-powerpuff-girls-movie-poster-2002-1020478094.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/13/132162/3336660-the-powerpuff-girls-movie-poster-2002-1020478094.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/13/132162/3336660-the-powerpuff-girls-movie-poster-2002-1020478094.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/13/132162/3336660-the-powerpuff-girls-movie-poster-2002-1020478094.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/13/132162/3336660-the-powerpuff-girls-movie-poster-2002-1020478094.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/13/132162/3336660-the-powerpuff-girls-movie-poster-2002-1020478094.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Powerpuff Girls",
+      "site_detail_url": "https://comicvine.gamespot.com/the-powerpuff-girls/4075-69/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-70/",
+      "deck": "Charmed is a series that focuses on three powerful witches. Who protect the innocent from demons.",
+      "id": 70,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/2/26147/3336582-charmed-charmed-665446_1024_768.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/2/26147/3336582-charmed-charmed-665446_1024_768.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/2/26147/3336582-charmed-charmed-665446_1024_768.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/2/26147/3336582-charmed-charmed-665446_1024_768.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/2/26147/3336582-charmed-charmed-665446_1024_768.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/2/26147/3336582-charmed-charmed-665446_1024_768.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/2/26147/3336582-charmed-charmed-665446_1024_768.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/2/26147/3336582-charmed-charmed-665446_1024_768.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/2/26147/3336582-charmed-charmed-665446_1024_768.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Charmed",
+      "site_detail_url": "https://comicvine.gamespot.com/charmed/4075-70/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-71/",
+      "deck": null,
+      "id": 71,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/9/93477/3336761-2419806053-15-yu.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/9/93477/3336761-2419806053-15-yu.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/9/93477/3336761-2419806053-15-yu.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/9/93477/3336761-2419806053-15-yu.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/9/93477/3336761-2419806053-15-yu.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/9/93477/3336761-2419806053-15-yu.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/9/93477/3336761-2419806053-15-yu.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/9/93477/3336761-2419806053-15-yu.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/9/93477/3336761-2419806053-15-yu.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Yu-Gi-Oh! Zexal",
+      "site_detail_url": "https://comicvine.gamespot.com/yugioh-zexal/4075-71/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-72/",
+      "deck": null,
+      "id": 72,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/6/67663/3338075-toriko.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/3338075-toriko.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/6/67663/3338075-toriko.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/6/67663/3338075-toriko.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/6/67663/3338075-toriko.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/6/67663/3338075-toriko.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/6/67663/3338075-toriko.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/6/67663/3338075-toriko.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/6/67663/3338075-toriko.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Toriko",
+      "site_detail_url": "https://comicvine.gamespot.com/toriko/4075-72/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-74/",
+      "deck": "Hellsing Ultimate is an anime OVA adaptation of the manga series, \"Hellsing.\"",
+      "id": 74,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/4/41224/3338996-hellsing%20logo.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/4/41224/3338996-hellsing%20logo.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/4/41224/3338996-hellsing%20logo.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/4/41224/3338996-hellsing%20logo.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/4/41224/3338996-hellsing%20logo.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/4/41224/3338996-hellsing%20logo.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/4/41224/3338996-hellsing%20logo.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/4/41224/3338996-hellsing%20logo.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/4/41224/3338996-hellsing%20logo.jpg",
+        "image_tags": "All Images,Wiki"
+      },
+      "name": "Hellsing Ultimate",
+      "site_detail_url": "https://comicvine.gamespot.com/hellsing-ultimate/4075-74/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-75/",
+      "deck": "A loose anime adaptation of the manga of the same name, Hellsing began in 2001. However, because the manga was unfinished, the series came up with original content, which ended up telling a completely different story.",
+      "id": 75,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/4/41224/3339174-hellsing%20logo%202.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/4/41224/3339174-hellsing%20logo%202.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/4/41224/3339174-hellsing%20logo%202.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/4/41224/3339174-hellsing%20logo%202.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/4/41224/3339174-hellsing%20logo%202.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/4/41224/3339174-hellsing%20logo%202.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/4/41224/3339174-hellsing%20logo%202.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/4/41224/3339174-hellsing%20logo%202.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/4/41224/3339174-hellsing%20logo%202.jpg",
+        "image_tags": "All Images,Wiki"
+      },
+      "name": "Hellsing",
+      "site_detail_url": "https://comicvine.gamespot.com/hellsing/4075-75/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-76/",
+      "deck": "Saving the planet from aliens and you don't even know about it. A \"Doctor Who\" Spin-off",
+      "id": 76,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/10/103530/3341759-6308279151-33416.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/10/103530/3341759-6308279151-33416.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/10/103530/3341759-6308279151-33416.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/10/103530/3341759-6308279151-33416.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/10/103530/3341759-6308279151-33416.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/10/103530/3341759-6308279151-33416.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/10/103530/3341759-6308279151-33416.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/10/103530/3341759-6308279151-33416.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/10/103530/3341759-6308279151-33416.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Torchwood",
+      "site_detail_url": "https://comicvine.gamespot.com/torchwood/4075-76/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-77/",
+      "deck": "Two alien robot factions from the planet Cybertron, the heroic Autobots and the evil Decepticons, continue to wage war, but this time it's on a new battleground: Earth.",
+      "id": 77,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/10/108875/3339799-4997875766-350px.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/10/108875/3339799-4997875766-350px.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/10/108875/3339799-4997875766-350px.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/10/108875/3339799-4997875766-350px.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/10/108875/3339799-4997875766-350px.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/10/108875/3339799-4997875766-350px.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/10/108875/3339799-4997875766-350px.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/10/108875/3339799-4997875766-350px.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/10/108875/3339799-4997875766-350px.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Transformers",
+      "site_detail_url": "https://comicvine.gamespot.com/the-transformers/4075-77/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-78/",
+      "deck": "A mix of animation and CGI, the Silver Surfer series tells the cosmic tale of Norrin Radd - forever changed to save the ones he loves.",
+      "id": 78,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/38919/3340237-silver%20surfer%20logo.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/38919/3340237-silver%20surfer%20logo.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/38919/3340237-silver%20surfer%20logo.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/38919/3340237-silver%20surfer%20logo.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/38919/3340237-silver%20surfer%20logo.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/38919/3340237-silver%20surfer%20logo.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/38919/3340237-silver%20surfer%20logo.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/38919/3340237-silver%20surfer%20logo.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/38919/3340237-silver%20surfer%20logo.jpg",
+        "image_tags": "All Images,Silver Surfer Animated (1998)"
+      },
+      "name": "Silver Surfer",
+      "site_detail_url": "https://comicvine.gamespot.com/silver-surfer/4075-78/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-79/",
+      "deck": "An animated cartoon show of the Fantastic Four on Cartoon Network.",
+      "id": 79,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/111746/3340245-7920862535-FF_Do.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/111746/3340245-7920862535-FF_Do.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/111746/3340245-7920862535-FF_Do.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/111746/3340245-7920862535-FF_Do.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/111746/3340245-7920862535-FF_Do.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/111746/3340245-7920862535-FF_Do.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/111746/3340245-7920862535-FF_Do.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/111746/3340245-7920862535-FF_Do.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/111746/3340245-7920862535-FF_Do.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Fantastic Four: World's Greatest Heroes",
+      "site_detail_url": "https://comicvine.gamespot.com/fantastic-four-worlds-greatest-heroes/4075-79/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-80/",
+      "deck": "A CG animated cartoon show centered around Autobots and Decepticons war on Earth.",
+      "id": 80,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/18154/3340313-2008996773-70234.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/18154/3340313-2008996773-70234.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/18154/3340313-2008996773-70234.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/18154/3340313-2008996773-70234.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/18154/3340313-2008996773-70234.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/18154/3340313-2008996773-70234.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/18154/3340313-2008996773-70234.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/18154/3340313-2008996773-70234.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/18154/3340313-2008996773-70234.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Transformers: Prime",
+      "site_detail_url": "https://comicvine.gamespot.com/transformers-prime/4075-80/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-81/",
+      "deck": "The 2011 revisioning of the 1980's series",
+      "id": 81,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/38919/3340960-thundercats%202011.jpeg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/38919/3340960-thundercats%202011.jpeg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/38919/3340960-thundercats%202011.jpeg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/38919/3340960-thundercats%202011.jpeg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/38919/3340960-thundercats%202011.jpeg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/38919/3340960-thundercats%202011.jpeg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/38919/3340960-thundercats%202011.jpeg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/38919/3340960-thundercats%202011.jpeg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/38919/3340960-thundercats%202011.jpeg",
+        "image_tags": "All Images"
+      },
+      "name": "Thundercats",
+      "site_detail_url": "https://comicvine.gamespot.com/thundercats/4075-81/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-82/",
+      "deck": "A Samurai prince is trapped in the future ruled by Aku.",
+      "id": 82,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/18154/3341145-tantutotem.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/18154/3341145-tantutotem.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/18154/3341145-tantutotem.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/18154/3341145-tantutotem.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/18154/3341145-tantutotem.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/18154/3341145-tantutotem.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/18154/3341145-tantutotem.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/18154/3341145-tantutotem.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/18154/3341145-tantutotem.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Samurai Jack",
+      "site_detail_url": "https://comicvine.gamespot.com/samurai-jack/4075-82/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-83/",
+      "deck": "An animated series based on characters from Archie Comics.",
+      "id": 83,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/111746/3342262-2461863841-post-.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/111746/3342262-2461863841-post-.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/111746/3342262-2461863841-post-.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/111746/3342262-2461863841-post-.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/111746/3342262-2461863841-post-.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/111746/3342262-2461863841-post-.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/111746/3342262-2461863841-post-.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/111746/3342262-2461863841-post-.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/111746/3342262-2461863841-post-.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Josie and the Pussycats",
+      "site_detail_url": "https://comicvine.gamespot.com/josie-and-the-pussycats/4075-83/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-84/",
+      "deck": "Fullmetal Alchemist: Brotherhood is an anime adaptation based on the manga, Fullmetal Alchemist. Unlike the first FMA anime, Brotherhood is more faithful to the source material. This series ran from 2009 to 2010",
+      "id": 84,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15776/8310123-fmabrotherhood.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/8310123-fmabrotherhood.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15776/8310123-fmabrotherhood.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15776/8310123-fmabrotherhood.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15776/8310123-fmabrotherhood.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/8310123-fmabrotherhood.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/8310123-fmabrotherhood.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15776/8310123-fmabrotherhood.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15776/8310123-fmabrotherhood.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Fullmetal Alchemist: Brotherhood",
+      "site_detail_url": "https://comicvine.gamespot.com/fullmetal-alchemist-brotherhood/4075-84/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-86/",
+      "deck": "CGI animated series chronicling the adventures of Hal Jordan and his fellow Lanterns.",
+      "id": 86,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/110531/3344255-green-lantern-the-animated-series-season-2-episode-3-steam-lantern.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/110531/3344255-green-lantern-the-animated-series-season-2-episode-3-steam-lantern.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/110531/3344255-green-lantern-the-animated-series-season-2-episode-3-steam-lantern.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/110531/3344255-green-lantern-the-animated-series-season-2-episode-3-steam-lantern.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/110531/3344255-green-lantern-the-animated-series-season-2-episode-3-steam-lantern.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/110531/3344255-green-lantern-the-animated-series-season-2-episode-3-steam-lantern.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/110531/3344255-green-lantern-the-animated-series-season-2-episode-3-steam-lantern.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/110531/3344255-green-lantern-the-animated-series-season-2-episode-3-steam-lantern.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/110531/3344255-green-lantern-the-animated-series-season-2-episode-3-steam-lantern.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Green Lantern: The Animated Series",
+      "site_detail_url": "https://comicvine.gamespot.com/green-lantern-the-animated-series/4075-86/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-87/",
+      "deck": null,
+      "id": 87,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/4/47703/3346543-klk.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/4/47703/3346543-klk.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/4/47703/3346543-klk.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/4/47703/3346543-klk.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/4/47703/3346543-klk.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/4/47703/3346543-klk.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/4/47703/3346543-klk.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/4/47703/3346543-klk.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/4/47703/3346543-klk.jpg",
+        "image_tags": "All Images,Official Series Art"
+      },
+      "name": "Kill la Kill",
+      "site_detail_url": "https://comicvine.gamespot.com/kill-la-kill/4075-87/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-89/",
+      "deck": null,
+      "id": 89,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11113/111132725/3345938-3828614217-x240-.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11113/111132725/3345938-3828614217-x240-.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11113/111132725/3345938-3828614217-x240-.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11113/111132725/3345938-3828614217-x240-.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11113/111132725/3345938-3828614217-x240-.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11113/111132725/3345938-3828614217-x240-.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11113/111132725/3345938-3828614217-x240-.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11113/111132725/3345938-3828614217-x240-.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11113/111132725/3345938-3828614217-x240-.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "RoboCop: The Animated Series",
+      "site_detail_url": "https://comicvine.gamespot.com/robocop-the-animated-series/4075-89/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-90/",
+      "deck": null,
+      "id": 90,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/14/142972/3348819-defenders%20title%20card.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/14/142972/3348819-defenders%20title%20card.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/14/142972/3348819-defenders%20title%20card.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/14/142972/3348819-defenders%20title%20card.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/14/142972/3348819-defenders%20title%20card.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/14/142972/3348819-defenders%20title%20card.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/14/142972/3348819-defenders%20title%20card.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/14/142972/3348819-defenders%20title%20card.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/14/142972/3348819-defenders%20title%20card.png",
+        "image_tags": "All Images"
+      },
+      "name": "Defenders of the Earth",
+      "site_detail_url": "https://comicvine.gamespot.com/defenders-of-the-earth/4075-90/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-91/",
+      "deck": "Animated series about Flash Gordon.",
+      "id": 91,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/14/142972/3348966-mv5bmtiynzazmjk5mf5bml5banbnxkftztcwndi2nzmzmq%40%40._v1_sy317_cr10%2C0%2C214%2C317_.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/14/142972/3348966-mv5bmtiynzazmjk5mf5bml5banbnxkftztcwndi2nzmzmq%40%40._v1_sy317_cr10%2C0%2C214%2C317_.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/14/142972/3348966-mv5bmtiynzazmjk5mf5bml5banbnxkftztcwndi2nzmzmq%40%40._v1_sy317_cr10%2C0%2C214%2C317_.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/14/142972/3348966-mv5bmtiynzazmjk5mf5bml5banbnxkftztcwndi2nzmzmq%40%40._v1_sy317_cr10%2C0%2C214%2C317_.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/14/142972/3348966-mv5bmtiynzazmjk5mf5bml5banbnxkftztcwndi2nzmzmq%40%40._v1_sy317_cr10%2C0%2C214%2C317_.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/14/142972/3348966-mv5bmtiynzazmjk5mf5bml5banbnxkftztcwndi2nzmzmq%40%40._v1_sy317_cr10%2C0%2C214%2C317_.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/14/142972/3348966-mv5bmtiynzazmjk5mf5bml5banbnxkftztcwndi2nzmzmq%40%40._v1_sy317_cr10%2C0%2C214%2C317_.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/14/142972/3348966-mv5bmtiynzazmjk5mf5bml5banbnxkftztcwndi2nzmzmq%40%40._v1_sy317_cr10%2C0%2C214%2C317_.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/14/142972/3348966-mv5bmtiynzazmjk5mf5bml5banbnxkftztcwndi2nzmzmq%40%40._v1_sy317_cr10%2C0%2C214%2C317_.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The New Adventures of Flash Gordon",
+      "site_detail_url": "https://comicvine.gamespot.com/the-new-adventures-of-flash-gordon/4075-91/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-92/",
+      "deck": "Two laboratory mice attempt to take over the world.",
+      "id": 92,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/13/132162/3350055-pinky_and_the_brain_vol1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/13/132162/3350055-pinky_and_the_brain_vol1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/13/132162/3350055-pinky_and_the_brain_vol1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/13/132162/3350055-pinky_and_the_brain_vol1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/13/132162/3350055-pinky_and_the_brain_vol1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/13/132162/3350055-pinky_and_the_brain_vol1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/13/132162/3350055-pinky_and_the_brain_vol1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/13/132162/3350055-pinky_and_the_brain_vol1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/13/132162/3350055-pinky_and_the_brain_vol1.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Pinky and the Brain",
+      "site_detail_url": "https://comicvine.gamespot.com/pinky-and-the-brain/4075-92/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-93/",
+      "deck": "A Nickelodeon series that ran from 2005 to 2008.",
+      "id": 93,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11111/111116916/3350839-avatar_the_last_airbender_logo.svg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11111/111116916/3350839-avatar_the_last_airbender_logo.svg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11111/111116916/3350839-avatar_the_last_airbender_logo.svg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11111/111116916/3350839-avatar_the_last_airbender_logo.svg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11111/111116916/3350839-avatar_the_last_airbender_logo.svg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11111/111116916/3350839-avatar_the_last_airbender_logo.svg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11111/111116916/3350839-avatar_the_last_airbender_logo.svg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11111/111116916/3350839-avatar_the_last_airbender_logo.svg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11111/111116916/3350839-avatar_the_last_airbender_logo.svg",
+        "image_tags": "All Images"
+      },
+      "name": "Avatar: The Last Airbender",
+      "site_detail_url": "https://comicvine.gamespot.com/avatar-the-last-airbender/4075-93/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-94/",
+      "deck": null,
+      "id": 94,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11111/111116916/3350846-masthead_korra.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11111/111116916/3350846-masthead_korra.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11111/111116916/3350846-masthead_korra.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11111/111116916/3350846-masthead_korra.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11111/111116916/3350846-masthead_korra.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11111/111116916/3350846-masthead_korra.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11111/111116916/3350846-masthead_korra.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11111/111116916/3350846-masthead_korra.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11111/111116916/3350846-masthead_korra.png",
+        "image_tags": "All Images"
+      },
+      "name": "The Legend of Korra",
+      "site_detail_url": "https://comicvine.gamespot.com/the-legend-of-korra/4075-94/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-95/",
+      "deck": "A Cartoon Network show from 1996 to 2003 by Genndy Tartakovsky, the creator of Samurai Jack.",
+      "id": 95,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11111/111116916/3351209-dexter%27s_laboratory_title.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11111/111116916/3351209-dexter%27s_laboratory_title.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11111/111116916/3351209-dexter%27s_laboratory_title.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11111/111116916/3351209-dexter%27s_laboratory_title.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11111/111116916/3351209-dexter%27s_laboratory_title.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11111/111116916/3351209-dexter%27s_laboratory_title.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11111/111116916/3351209-dexter%27s_laboratory_title.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11111/111116916/3351209-dexter%27s_laboratory_title.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11111/111116916/3351209-dexter%27s_laboratory_title.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Dexter's Laboratory",
+      "site_detail_url": "https://comicvine.gamespot.com/dexters-laboratory/4075-95/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-96/",
+      "deck": "Marvel Anime: X-Men is the third series in the Marvel Anime Universe.",
+      "id": 96,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/12/120730/3352165-x-men-anime-english%5B1%5D.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/12/120730/3352165-x-men-anime-english%5B1%5D.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/12/120730/3352165-x-men-anime-english%5B1%5D.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/12/120730/3352165-x-men-anime-english%5B1%5D.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/12/120730/3352165-x-men-anime-english%5B1%5D.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/12/120730/3352165-x-men-anime-english%5B1%5D.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/120730/3352165-x-men-anime-english%5B1%5D.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/12/120730/3352165-x-men-anime-english%5B1%5D.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/12/120730/3352165-x-men-anime-english%5B1%5D.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "X-Men",
+      "site_detail_url": "https://comicvine.gamespot.com/x-men/4075-96/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-97/",
+      "deck": "The Incredible Hulk is an American animated television series starring the Marvel Comics character the Hulk. In this dark take on the Green Goliath's life, Bruce Banner attempts to cure his condition permanently while he tries to escape from enemies who are following him, every step of the way.",
+      "id": 97,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/12/120730/3352220-incredible_hulk_tas%5B1%5D.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/12/120730/3352220-incredible_hulk_tas%5B1%5D.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/12/120730/3352220-incredible_hulk_tas%5B1%5D.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/12/120730/3352220-incredible_hulk_tas%5B1%5D.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/12/120730/3352220-incredible_hulk_tas%5B1%5D.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/12/120730/3352220-incredible_hulk_tas%5B1%5D.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/120730/3352220-incredible_hulk_tas%5B1%5D.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/12/120730/3352220-incredible_hulk_tas%5B1%5D.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/12/120730/3352220-incredible_hulk_tas%5B1%5D.png",
+        "image_tags": "All Images"
+      },
+      "name": "The Incredible Hulk",
+      "site_detail_url": "https://comicvine.gamespot.com/the-incredible-hulk/4075-97/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-98/",
+      "deck": "An anime based on the light novel series by Izuru Yumizuru. Infinite Stratos or \"IS\" are exoskeleton frame that are considered as powerful weapons and it seems like only females can use it.",
+      "id": 98,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11111/111112793/3352298-0841787429-infin.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11111/111112793/3352298-0841787429-infin.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11111/111112793/3352298-0841787429-infin.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11111/111112793/3352298-0841787429-infin.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11111/111112793/3352298-0841787429-infin.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11111/111112793/3352298-0841787429-infin.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11111/111112793/3352298-0841787429-infin.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11111/111112793/3352298-0841787429-infin.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11111/111112793/3352298-0841787429-infin.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Infinite Stratos",
+      "site_detail_url": "https://comicvine.gamespot.com/infinite-stratos/4075-98/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-99/",
+      "deck": "The animated adventures of Finn the Human and Jake the Dog.",
+      "id": 99,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/13/132162/3352367-4070%20adventure%20time%20iceking%20lg_3.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/13/132162/3352367-4070%20adventure%20time%20iceking%20lg_3.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/13/132162/3352367-4070%20adventure%20time%20iceking%20lg_3.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/13/132162/3352367-4070%20adventure%20time%20iceking%20lg_3.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/13/132162/3352367-4070%20adventure%20time%20iceking%20lg_3.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/13/132162/3352367-4070%20adventure%20time%20iceking%20lg_3.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/13/132162/3352367-4070%20adventure%20time%20iceking%20lg_3.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/13/132162/3352367-4070%20adventure%20time%20iceking%20lg_3.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/13/132162/3352367-4070%20adventure%20time%20iceking%20lg_3.png",
+        "image_tags": "All Images"
+      },
+      "name": "Adventure Time",
+      "site_detail_url": "https://comicvine.gamespot.com/adventure-time/4075-99/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-100/",
+      "deck": "One of the most beloved Romance Comedy by Ken Akamatsu.",
+      "id": 100,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11111/111112793/3352393-0297631783--Love.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11111/111112793/3352393-0297631783--Love.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11111/111112793/3352393-0297631783--Love.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11111/111112793/3352393-0297631783--Love.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11111/111112793/3352393-0297631783--Love.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11111/111112793/3352393-0297631783--Love.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11111/111112793/3352393-0297631783--Love.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11111/111112793/3352393-0297631783--Love.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11111/111112793/3352393-0297631783--Love.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Love Hina",
+      "site_detail_url": "https://comicvine.gamespot.com/love-hina/4075-100/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-101/",
+      "deck": null,
+      "id": 101,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/111746/3353024-4436804208-Scoob.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/111746/3353024-4436804208-Scoob.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/111746/3353024-4436804208-Scoob.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/111746/3353024-4436804208-Scoob.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/111746/3353024-4436804208-Scoob.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/111746/3353024-4436804208-Scoob.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/111746/3353024-4436804208-Scoob.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/111746/3353024-4436804208-Scoob.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/111746/3353024-4436804208-Scoob.png",
+        "image_tags": "All Images"
+      },
+      "name": "Scooby-Doo, Where Are You!",
+      "site_detail_url": "https://comicvine.gamespot.com/scoobydoo-where-are-you/4075-101/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-102/",
+      "deck": "The second show featuring Scooby and the gang along with special guest.",
+      "id": 102,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/111746/3353045-2565796041-The_N.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/111746/3353045-2565796041-The_N.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/111746/3353045-2565796041-The_N.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/111746/3353045-2565796041-The_N.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/111746/3353045-2565796041-The_N.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/111746/3353045-2565796041-The_N.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/111746/3353045-2565796041-The_N.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/111746/3353045-2565796041-The_N.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/111746/3353045-2565796041-The_N.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The New Scooby-Doo Movies",
+      "site_detail_url": "https://comicvine.gamespot.com/the-new-scoobydoo-movies/4075-102/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-103/",
+      "deck": null,
+      "id": 103,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/8/83918/3355717-gi%20joe%20title.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/83918/3355717-gi%20joe%20title.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/8/83918/3355717-gi%20joe%20title.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/8/83918/3355717-gi%20joe%20title.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/8/83918/3355717-gi%20joe%20title.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/8/83918/3355717-gi%20joe%20title.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/8/83918/3355717-gi%20joe%20title.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/8/83918/3355717-gi%20joe%20title.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/8/83918/3355717-gi%20joe%20title.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "G.I. Joe: A Real American Hero",
+      "site_detail_url": "https://comicvine.gamespot.com/gi-joe-a-real-american-hero/4075-103/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-104/",
+      "deck": "Original 1973 animated series based on the strips by Charles Addams.",
+      "id": 104,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/13/132162/3356968-1320641706.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/13/132162/3356968-1320641706.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/13/132162/3356968-1320641706.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/13/132162/3356968-1320641706.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/13/132162/3356968-1320641706.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/13/132162/3356968-1320641706.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/13/132162/3356968-1320641706.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/13/132162/3356968-1320641706.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/13/132162/3356968-1320641706.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Addams Family",
+      "site_detail_url": "https://comicvine.gamespot.com/the-addams-family/4075-104/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-105/",
+      "deck": "1992 animated series.",
+      "id": 105,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/13/132162/3356969-addams_family_1992.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/13/132162/3356969-addams_family_1992.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/13/132162/3356969-addams_family_1992.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/13/132162/3356969-addams_family_1992.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/13/132162/3356969-addams_family_1992.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/13/132162/3356969-addams_family_1992.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/13/132162/3356969-addams_family_1992.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/13/132162/3356969-addams_family_1992.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/13/132162/3356969-addams_family_1992.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Addams Family",
+      "site_detail_url": "https://comicvine.gamespot.com/the-addams-family/4075-105/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-106/",
+      "deck": "The first live action Addams Family television series.",
+      "id": 106,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/13/132162/3357658-mv5bmtkxmduwmdiyn15bml5banbnxkftztcwnzm1mjg4na%40%40._v1._sx400_sy600_.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/13/132162/3357658-mv5bmtkxmduwmdiyn15bml5banbnxkftztcwnzm1mjg4na%40%40._v1._sx400_sy600_.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/13/132162/3357658-mv5bmtkxmduwmdiyn15bml5banbnxkftztcwnzm1mjg4na%40%40._v1._sx400_sy600_.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/13/132162/3357658-mv5bmtkxmduwmdiyn15bml5banbnxkftztcwnzm1mjg4na%40%40._v1._sx400_sy600_.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/13/132162/3357658-mv5bmtkxmduwmdiyn15bml5banbnxkftztcwnzm1mjg4na%40%40._v1._sx400_sy600_.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/13/132162/3357658-mv5bmtkxmduwmdiyn15bml5banbnxkftztcwnzm1mjg4na%40%40._v1._sx400_sy600_.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/13/132162/3357658-mv5bmtkxmduwmdiyn15bml5banbnxkftztcwnzm1mjg4na%40%40._v1._sx400_sy600_.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/13/132162/3357658-mv5bmtkxmduwmdiyn15bml5banbnxkftztcwnzm1mjg4na%40%40._v1._sx400_sy600_.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/13/132162/3357658-mv5bmtkxmduwmdiyn15bml5banbnxkftztcwnzm1mjg4na%40%40._v1._sx400_sy600_.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Addams Family",
+      "site_detail_url": "https://comicvine.gamespot.com/the-addams-family/4075-106/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-107/",
+      "deck": "Nineties remake of the television series The Addams Family.",
+      "id": 107,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/13/132162/3358118-addams-family-1.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/13/132162/3358118-addams-family-1.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/13/132162/3358118-addams-family-1.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/13/132162/3358118-addams-family-1.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/13/132162/3358118-addams-family-1.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/13/132162/3358118-addams-family-1.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/13/132162/3358118-addams-family-1.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/13/132162/3358118-addams-family-1.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/13/132162/3358118-addams-family-1.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The New Addams Family",
+      "site_detail_url": "https://comicvine.gamespot.com/the-new-addams-family/4075-107/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-108/",
+      "deck": null,
+      "id": 108,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/5/55582/3358646-main_characters_and_celestia_around_logo.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/55582/3358646-main_characters_and_celestia_around_logo.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/5/55582/3358646-main_characters_and_celestia_around_logo.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/5/55582/3358646-main_characters_and_celestia_around_logo.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/5/55582/3358646-main_characters_and_celestia_around_logo.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/5/55582/3358646-main_characters_and_celestia_around_logo.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/5/55582/3358646-main_characters_and_celestia_around_logo.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/5/55582/3358646-main_characters_and_celestia_around_logo.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/5/55582/3358646-main_characters_and_celestia_around_logo.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "My Little Pony: Friendship is Magic",
+      "site_detail_url": "https://comicvine.gamespot.com/my-little-pony-friendship-is-magic/4075-108/"
+    }
+  ],
+  "version": "1.0"
+}
