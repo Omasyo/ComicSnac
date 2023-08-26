@@ -1,0 +1,1911 @@
+{
+  "error": "OK",
+  "limit": 100,
+  "offset": 0,
+  "number_of_page_results": 100,
+  "number_of_total_results": 5567,
+  "status_code": 1,
+  "results": [
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61131/",
+      "deck": null,
+      "id": 61131,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/18154/9066822-5694760430-61lap.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/18154/9066822-5694760430-61lap.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/18154/9066822-5694760430-61lap.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/18154/9066822-5694760430-61lap.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/18154/9066822-5694760430-61lap.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/18154/9066822-5694760430-61lap.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/18154/9066822-5694760430-61lap.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/18154/9066822-5694760430-61lap.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/18154/9066822-5694760430-61lap.png",
+        "image_tags": "All Images,Cover"
+      },
+      "name": "Time After Time",
+      "site_detail_url": "https://comicvine.gamespot.com/time-after-time/4045-61131/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-56223/",
+      "deck": "The Lightning Saga is a comic book crossover story arc that took place in DC Comics' two flagship team books: Justice League of America and Justice Society of America. It was written by Brad Meltzer and Geoff Johns, and illustrated by Ed Benes, Dale Eaglesham, and Shane Davis.",
+      "id": 56223,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15776/9064836-lightningsaga.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/9064836-lightningsaga.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15776/9064836-lightningsaga.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15776/9064836-lightningsaga.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15776/9064836-lightningsaga.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/9064836-lightningsaga.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/9064836-lightningsaga.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15776/9064836-lightningsaga.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15776/9064836-lightningsaga.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Lightning Saga",
+      "site_detail_url": "https://comicvine.gamespot.com/the-lightning-saga/4045-56223/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61130/",
+      "deck": null,
+      "id": 61130,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/18154/9063704-9307617425-latest.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/18154/9063704-9307617425-latest.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/18154/9063704-9307617425-latest.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/18154/9063704-9307617425-latest.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/18154/9063704-9307617425-latest.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/18154/9063704-9307617425-latest.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/18154/9063704-9307617425-latest.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/18154/9063704-9307617425-latest.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/18154/9063704-9307617425-latest.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Lords of Luck",
+      "site_detail_url": "https://comicvine.gamespot.com/the-lords-of-luck/4045-61130/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61129/",
+      "deck": null,
+      "id": 61129,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11159/111592040/9059537-img_2130.jpeg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11159/111592040/9059537-img_2130.jpeg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11159/111592040/9059537-img_2130.jpeg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11159/111592040/9059537-img_2130.jpeg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11159/111592040/9059537-img_2130.jpeg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11159/111592040/9059537-img_2130.jpeg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11159/111592040/9059537-img_2130.jpeg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11159/111592040/9059537-img_2130.jpeg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11159/111592040/9059537-img_2130.jpeg",
+        "image_tags": "All Images"
+      },
+      "name": "Weapons of Vengeance",
+      "site_detail_url": "https://comicvine.gamespot.com/weapons-of-vengeance/4045-61129/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61128/",
+      "deck": null,
+      "id": 61128,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11145/111457919/9054306-2331772142-.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11145/111457919/9054306-2331772142-.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11145/111457919/9054306-2331772142-.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11145/111457919/9054306-2331772142-.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11145/111457919/9054306-2331772142-.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11145/111457919/9054306-2331772142-.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11145/111457919/9054306-2331772142-.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11145/111457919/9054306-2331772142-.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11145/111457919/9054306-2331772142-.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Dark Droids",
+      "site_detail_url": "https://comicvine.gamespot.com/dark-droids/4045-61128/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61127/",
+      "deck": null,
+      "id": 61127,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/11352/456685-shang_chi_004.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/11352/456685-shang_chi_004.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/11352/456685-shang_chi_004.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/11352/456685-shang_chi_004.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/11352/456685-shang_chi_004.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/11352/456685-shang_chi_004.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/11352/456685-shang_chi_004.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/11352/456685-shang_chi_004.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/11352/456685-shang_chi_004.jpg",
+        "image_tags": "All Images,Earth-616 Shang-Chi,Paul Gulacy"
+      },
+      "name": "Hellfire Apocalypse",
+      "site_detail_url": "https://comicvine.gamespot.com/hellfire-apocalypse/4045-61127/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61126/",
+      "deck": null,
+      "id": 61126,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15776/9051125-fallofx.jpeg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/9051125-fallofx.jpeg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15776/9051125-fallofx.jpeg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15776/9051125-fallofx.jpeg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15776/9051125-fallofx.jpeg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/9051125-fallofx.jpeg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/9051125-fallofx.jpeg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15776/9051125-fallofx.jpeg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15776/9051125-fallofx.jpeg",
+        "image_tags": "All Images"
+      },
+      "name": "Fall of X",
+      "site_detail_url": "https://comicvine.gamespot.com/fall-of-x/4045-61126/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-40770/",
+      "deck": "Matthew Ryder is sent back to 1991 to try to prevent the evil dictator Monarch from ever achieving power.",
+      "id": 40770,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/14/148518/2950951-ad-armageddon-2001.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/14/148518/2950951-ad-armageddon-2001.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/14/148518/2950951-ad-armageddon-2001.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/14/148518/2950951-ad-armageddon-2001.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/14/148518/2950951-ad-armageddon-2001.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/14/148518/2950951-ad-armageddon-2001.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/14/148518/2950951-ad-armageddon-2001.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/14/148518/2950951-ad-armageddon-2001.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/14/148518/2950951-ad-armageddon-2001.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Armageddon 2001",
+      "site_detail_url": "https://comicvine.gamespot.com/armageddon-2001/4045-40770/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-42233/",
+      "deck": "Death resurrects Thanos who acquires the six infinity gems and kills half the life in the universe in her honor with the Infinity Gauntlet. Adam Warlock leads Earth's Mightiest Heroes against the Mad Titan.",
+      "id": 42233,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/10/101073/2021132-23957_342631188855_829193855_3541011_111802_n.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/10/101073/2021132-23957_342631188855_829193855_3541011_111802_n.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/10/101073/2021132-23957_342631188855_829193855_3541011_111802_n.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/10/101073/2021132-23957_342631188855_829193855_3541011_111802_n.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/10/101073/2021132-23957_342631188855_829193855_3541011_111802_n.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/10/101073/2021132-23957_342631188855_829193855_3541011_111802_n.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/10/101073/2021132-23957_342631188855_829193855_3541011_111802_n.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/10/101073/2021132-23957_342631188855_829193855_3541011_111802_n.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/10/101073/2021132-23957_342631188855_829193855_3541011_111802_n.jpg",
+        "image_tags": "All Images,Artwork,Earth-616 Avengers,Earth-616 Cloak,Earth-616 Cyclops,Earth-616 Doctor Doom,Earth-616 Doctor Strange,Earth-616 Drax,Earth-616 Firelord,Earth-616 Hulk,Earth-616 Iron Man,Earth-616 Namor,Earth-616 Nova,Earth-616 Quasar,Earth-616 Scarlet Witch,Earth-616 She-Hulk,Earth-616 Silver Surfer,Earth-616 Thor,Earth-616 Vision,Earth-616 Warlock,Earth-616 Wolverine,Infinity Gauntlet"
+      },
+      "name": "Infinity Gauntlet",
+      "site_detail_url": "https://comicvine.gamespot.com/infinity-gauntlet/4045-42233/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-56674/",
+      "deck": "Marvel Comics' 2012 event. As a repercussion from the events that took place in The Children's Crusade, Fear Itself, Schism, and X-Sanction, the Avengers and X-Men go to war over the return of the Phoenix Force.",
+      "id": 56674,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/14787/2174639-avx2012001_col_cov.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/14787/2174639-avx2012001_col_cov.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/14787/2174639-avx2012001_col_cov.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/14787/2174639-avx2012001_col_cov.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/14787/2174639-avx2012001_col_cov.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/14787/2174639-avx2012001_col_cov.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/14787/2174639-avx2012001_col_cov.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/14787/2174639-avx2012001_col_cov.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/14787/2174639-avx2012001_col_cov.jpg",
+        "image_tags": "All Images,Covers"
+      },
+      "name": "Avengers vs. X-Men",
+      "site_detail_url": "https://comicvine.gamespot.com/avengers-vs-x-men/4045-56674/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-40978/",
+      "deck": "The Secret Wars was a ground breaking mini-series from Marvel that brought all of Earth-616's greatest heroes together to battle with the worst villains under the watchful eye of the Beyonder.",
+      "id": 40978,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/35816/831663-secretwarsposterbyross.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/35816/831663-secretwarsposterbyross.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/35816/831663-secretwarsposterbyross.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/35816/831663-secretwarsposterbyross.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/35816/831663-secretwarsposterbyross.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/35816/831663-secretwarsposterbyross.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/35816/831663-secretwarsposterbyross.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/35816/831663-secretwarsposterbyross.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/35816/831663-secretwarsposterbyross.jpg",
+        "image_tags": "All Images,Earth-616 Iron Man"
+      },
+      "name": "Secret Wars",
+      "site_detail_url": "https://comicvine.gamespot.com/secret-wars/4045-40978/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61123/",
+      "deck": null,
+      "id": 61123,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/18154/9046191-9988665704-large.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/18154/9046191-9988665704-large.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/18154/9046191-9988665704-large.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/18154/9046191-9988665704-large.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/18154/9046191-9988665704-large.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/18154/9046191-9988665704-large.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/18154/9046191-9988665704-large.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/18154/9046191-9988665704-large.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/18154/9046191-9988665704-large.jpg",
+        "image_tags": "All Images,Comic,Cover"
+      },
+      "name": "Day of Blood",
+      "site_detail_url": "https://comicvine.gamespot.com/day-of-blood/4045-61123/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61125/",
+      "deck": "Peter Cannon aka Thunderbolt has just  helped the Meta-Agents to stop an alien invasion. The problem is he suspects the invasion is an hoax elaborated to force the world powers to unite against a fake enemy.   And he knows the only person capable to do such thing is himself. Now Who is Watching him?",
+      "id": 61125,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/6/67663/6819718-02e-ri-20zdarskyvirgin.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/6819718-02e-ri-20zdarskyvirgin.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/6/67663/6819718-02e-ri-20zdarskyvirgin.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/6/67663/6819718-02e-ri-20zdarskyvirgin.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/6/67663/6819718-02e-ri-20zdarskyvirgin.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/6/67663/6819718-02e-ri-20zdarskyvirgin.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/6/67663/6819718-02e-ri-20zdarskyvirgin.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/6/67663/6819718-02e-ri-20zdarskyvirgin.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/6/67663/6819718-02e-ri-20zdarskyvirgin.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Watch",
+      "site_detail_url": "https://comicvine.gamespot.com/watch/4045-61125/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61102/",
+      "deck": "Horror devastates the DC Universe as its greatest heroes confront their worst nightmare in this terrifying epic, perfect for all fans of Batman, Superman, and Wonder Woman!",
+      "id": 61102,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15776/8964941-knight_terrors.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/8964941-knight_terrors.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15776/8964941-knight_terrors.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15776/8964941-knight_terrors.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15776/8964941-knight_terrors.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/8964941-knight_terrors.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/8964941-knight_terrors.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15776/8964941-knight_terrors.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15776/8964941-knight_terrors.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Knight Terrors",
+      "site_detail_url": "https://comicvine.gamespot.com/knight-terrors/4045-61102/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-43725/",
+      "deck": "A cross-publisher event of a series of titles put out by both Marvel Comics and DC Comics under the name Amalgam Comics, it blended elements from the two publishers' catalogs.",
+      "id": 43725,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/11352/1054667-bro10cx7.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/11352/1054667-bro10cx7.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/11352/1054667-bro10cx7.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/11352/1054667-bro10cx7.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/11352/1054667-bro10cx7.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/11352/1054667-bro10cx7.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/11352/1054667-bro10cx7.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/11352/1054667-bro10cx7.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/11352/1054667-bro10cx7.jpg",
+        "image_tags": "All Images,Amalgam"
+      },
+      "name": "Amalgam",
+      "site_detail_url": "https://comicvine.gamespot.com/amalgam/4045-43725/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-43220/",
+      "deck": "One of the biggest shocks in the comic book industry, the death of Gwen Stacy.  The Green Goblin kidnaps Gwen and throws her off the Brooklyn Bridge. Spider-Man tries to save her but is unsuccessful.",
+      "id": 43220,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/77/108454-191425-the-death-of-gwen-st.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/108454-191425-the-death-of-gwen-st.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/77/108454-191425-the-death-of-gwen-st.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/77/108454-191425-the-death-of-gwen-st.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/77/108454-191425-the-death-of-gwen-st.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/77/108454-191425-the-death-of-gwen-st.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/77/108454-191425-the-death-of-gwen-st.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/77/108454-191425-the-death-of-gwen-st.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/77/108454-191425-the-death-of-gwen-st.jpg",
+        "image_tags": "All Images,Gwen's death"
+      },
+      "name": "The Death of Gwen Stacy",
+      "site_detail_url": "https://comicvine.gamespot.com/the-death-of-gwen-stacy/4045-43220/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-56073/",
+      "deck": "Being manipulated by the Time Trapper, Superboy-Prime goes on a rampage with the Legion of Super-Villains to destroy the Legion of Super-Heroes.",
+      "id": 56073,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/2/25838/492379-legion_3_worlds_fc_l3w1a.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/2/25838/492379-legion_3_worlds_fc_l3w1a.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/2/25838/492379-legion_3_worlds_fc_l3w1a.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/2/25838/492379-legion_3_worlds_fc_l3w1a.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/2/25838/492379-legion_3_worlds_fc_l3w1a.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/2/25838/492379-legion_3_worlds_fc_l3w1a.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/2/25838/492379-legion_3_worlds_fc_l3w1a.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/2/25838/492379-legion_3_worlds_fc_l3w1a.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/2/25838/492379-legion_3_worlds_fc_l3w1a.jpg",
+        "image_tags": "All Images,Legion of Earth-247,Legion of Earth-Prime,Legion of Three Worlds"
+      },
+      "name": "Final Crisis: Legion of Three Worlds",
+      "site_detail_url": "https://comicvine.gamespot.com/final-crisis-legion-of-three-worlds/4045-56073/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-59319/",
+      "deck": "The Justice League Europe must stop the Extremist from Angor before they destroy the earth in the same way they destroyed their own world.",
+      "id": 59319,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/7658/742944-extremist_01.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/7658/742944-extremist_01.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/7658/742944-extremist_01.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/7658/742944-extremist_01.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/7658/742944-extremist_01.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/7658/742944-extremist_01.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/7658/742944-extremist_01.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/7658/742944-extremist_01.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/7658/742944-extremist_01.jpg",
+        "image_tags": "All Images,angor,Extremists"
+      },
+      "name": "The Extremist Vector",
+      "site_detail_url": "https://comicvine.gamespot.com/the-extremist-vector/4045-59319/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61124/",
+      "deck": "Whatever happenend to Hop Harrigan, Golden age ace pilot? Discovering his fate is a work for Superman.",
+      "id": 61124,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Order of the Black Lamp",
+      "site_detail_url": "https://comicvine.gamespot.com/order-of-the-black-lamp/4045-61124/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-55956/",
+      "deck": "The 13 issue story arc by Barry Windsor Smith revealing the past of Wolverine's adamantuim skeleton and the shady past of Weapon X",
+      "id": 55956,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/3/31599/1847359-weapon_x_logan.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/31599/1847359-weapon_x_logan.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/3/31599/1847359-weapon_x_logan.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/3/31599/1847359-weapon_x_logan.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/3/31599/1847359-weapon_x_logan.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/3/31599/1847359-weapon_x_logan.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/31599/1847359-weapon_x_logan.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/3/31599/1847359-weapon_x_logan.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/3/31599/1847359-weapon_x_logan.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Weapon X",
+      "site_detail_url": "https://comicvine.gamespot.com/weapon-x/4045-55956/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61122/",
+      "deck": null,
+      "id": 61122,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "The Catalyst War",
+      "site_detail_url": "https://comicvine.gamespot.com/the-catalyst-war/4045-61122/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-41233/",
+      "deck": "When the alien monster Doomsday surfaces on Earth, Superman may be the only hero powerful enough to save the planet from Doomsday's wrath. But who will save Superman from Doomsday?",
+      "id": 41233,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/2532/158645-175940-death-and-return-of.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/2532/158645-175940-death-and-return-of.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/2532/158645-175940-death-and-return-of.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/2532/158645-175940-death-and-return-of.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/2532/158645-175940-death-and-return-of.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/2532/158645-175940-death-and-return-of.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/2532/158645-175940-death-and-return-of.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/2532/158645-175940-death-and-return-of.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/2532/158645-175940-death-and-return-of.jpg",
+        "image_tags": "All Images,Death of Superman"
+      },
+      "name": "Death of Superman",
+      "site_detail_url": "https://comicvine.gamespot.com/death-of-superman/4045-41233/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-52472/",
+      "deck": "The plot summary of the Butcher Knight series.",
+      "id": 52472,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15776/436114-butcher_knight.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/436114-butcher_knight.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15776/436114-butcher_knight.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15776/436114-butcher_knight.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15776/436114-butcher_knight.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/436114-butcher_knight.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/436114-butcher_knight.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15776/436114-butcher_knight.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15776/436114-butcher_knight.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Butcher Knight",
+      "site_detail_url": "https://comicvine.gamespot.com/butcher-knight/4045-52472/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-55658/",
+      "deck": "Superman & Batman decide to rid the Earth of all the Kryptonite. In doing so they discover a government conspiracy bent on destroying Superman.",
+      "id": 55658,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15776/8992668-k.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/8992668-k.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15776/8992668-k.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15776/8992668-k.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15776/8992668-k.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/8992668-k.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/8992668-k.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15776/8992668-k.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15776/8992668-k.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "K",
+      "site_detail_url": "https://comicvine.gamespot.com/k/4045-55658/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-60984/",
+      "deck": "Fourth phase of the X-Men’s Krakoan era. ",
+      "id": 60984,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11143/111437461/8622730-destiny-of-x-marvel-x-men-585x585-2536377106.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11143/111437461/8622730-destiny-of-x-marvel-x-men-585x585-2536377106.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11143/111437461/8622730-destiny-of-x-marvel-x-men-585x585-2536377106.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11143/111437461/8622730-destiny-of-x-marvel-x-men-585x585-2536377106.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11143/111437461/8622730-destiny-of-x-marvel-x-men-585x585-2536377106.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11143/111437461/8622730-destiny-of-x-marvel-x-men-585x585-2536377106.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11143/111437461/8622730-destiny-of-x-marvel-x-men-585x585-2536377106.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11143/111437461/8622730-destiny-of-x-marvel-x-men-585x585-2536377106.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11143/111437461/8622730-destiny-of-x-marvel-x-men-585x585-2536377106.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Destiny of X",
+      "site_detail_url": "https://comicvine.gamespot.com/destiny-of-x/4045-60984/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61118/",
+      "deck": "Third phase of the X-Men's Krakoan era.",
+      "id": 61118,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11172/111728331/8987923-trialofmagneto.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11172/111728331/8987923-trialofmagneto.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11172/111728331/8987923-trialofmagneto.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11172/111728331/8987923-trialofmagneto.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11172/111728331/8987923-trialofmagneto.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11172/111728331/8987923-trialofmagneto.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11172/111728331/8987923-trialofmagneto.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11172/111728331/8987923-trialofmagneto.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11172/111728331/8987923-trialofmagneto.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Trials of X",
+      "site_detail_url": "https://comicvine.gamespot.com/trials-of-x/4045-61118/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61053/",
+      "deck": null,
+      "id": 61053,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Sins of Sinister",
+      "site_detail_url": "https://comicvine.gamespot.com/sins-of-sinister/4045-61053/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61121/",
+      "deck": null,
+      "id": 61121,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11172/111728331/8989930-planches_77900.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11172/111728331/8989930-planches_77900.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11172/111728331/8989930-planches_77900.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11172/111728331/8989930-planches_77900.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11172/111728331/8989930-planches_77900.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11172/111728331/8989930-planches_77900.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11172/111728331/8989930-planches_77900.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11172/111728331/8989930-planches_77900.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11172/111728331/8989930-planches_77900.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "X Lives/Deaths of Wolverine",
+      "site_detail_url": "https://comicvine.gamespot.com/x-livesdeaths-of-wolverine/4045-61121/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61119/",
+      "deck": "Conclusion of Jonathan Hickamn's run on X-Men.",
+      "id": 61119,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11172/111728331/8987916-00-cover.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11172/111728331/8987916-00-cover.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11172/111728331/8987916-00-cover.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11172/111728331/8987916-00-cover.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11172/111728331/8987916-00-cover.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11172/111728331/8987916-00-cover.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11172/111728331/8987916-00-cover.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11172/111728331/8987916-00-cover.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11172/111728331/8987916-00-cover.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Inferno",
+      "site_detail_url": "https://comicvine.gamespot.com/inferno/4045-61119/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-60983/",
+      "deck": "Second phase of the X-Men’s Krakoan era. ",
+      "id": 60983,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Reign of X",
+      "site_detail_url": "https://comicvine.gamespot.com/reign-of-x/4045-60983/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-60653/",
+      "deck": "Crossover between the events Dawn of X and Reign of X.",
+      "id": 60653,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/12/124259/7616010-rco026_1602705588.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/12/124259/7616010-rco026_1602705588.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/12/124259/7616010-rco026_1602705588.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/12/124259/7616010-rco026_1602705588.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/7616010-rco026_1602705588.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/7616010-rco026_1602705588.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/7616010-rco026_1602705588.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/12/124259/7616010-rco026_1602705588.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/12/124259/7616010-rco026_1602705588.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "X of Swords",
+      "site_detail_url": "https://comicvine.gamespot.com/x-of-swords/4045-60653/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-60982/",
+      "deck": "First phase of the X-Men’s Krakoan era.",
+      "id": 60982,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11143/111437461/8618965-image.jpeg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11143/111437461/8618965-image.jpeg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11143/111437461/8618965-image.jpeg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11143/111437461/8618965-image.jpeg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11143/111437461/8618965-image.jpeg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11143/111437461/8618965-image.jpeg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11143/111437461/8618965-image.jpeg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11143/111437461/8618965-image.jpeg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11143/111437461/8618965-image.jpeg",
+        "image_tags": "All Images"
+      },
+      "name": "Dawn of X",
+      "site_detail_url": "https://comicvine.gamespot.com/dawn-of-x/4045-60982/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-60325/",
+      "deck": "Beginning of the X-Men’s Krakoan era ",
+      "id": 60325,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/6/67663/7017709-checklist.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/7017709-checklist.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/6/67663/7017709-checklist.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/6/67663/7017709-checklist.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/6/67663/7017709-checklist.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/6/67663/7017709-checklist.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/6/67663/7017709-checklist.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/6/67663/7017709-checklist.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/6/67663/7017709-checklist.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "House of X/Powers of X",
+      "site_detail_url": "https://comicvine.gamespot.com/house-of-xpowers-of-x/4045-60325/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61120/",
+      "deck": null,
+      "id": 61120,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15776/8989043-contentofchaos.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/8989043-contentofchaos.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15776/8989043-contentofchaos.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15776/8989043-contentofchaos.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15776/8989043-contentofchaos.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/8989043-contentofchaos.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/8989043-contentofchaos.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15776/8989043-contentofchaos.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15776/8989043-contentofchaos.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Contest of Chaos ",
+      "site_detail_url": "https://comicvine.gamespot.com/contest-of-chaos/4045-61120/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-60522/",
+      "deck": null,
+      "id": 60522,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15776/8988057-inferno-daredevil.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/8988057-inferno-daredevil.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15776/8988057-inferno-daredevil.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15776/8988057-inferno-daredevil.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15776/8988057-inferno-daredevil.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/8988057-inferno-daredevil.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/8988057-inferno-daredevil.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15776/8988057-inferno-daredevil.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15776/8988057-inferno-daredevil.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Inferno",
+      "site_detail_url": "https://comicvine.gamespot.com/inferno/4045-60522/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-60554/",
+      "deck": "Lucifer is on Earth running The Inferno casino.",
+      "id": 60554,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15776/8988056-inferno.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/8988056-inferno.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15776/8988056-inferno.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15776/8988056-inferno.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15776/8988056-inferno.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/8988056-inferno.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/8988056-inferno.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15776/8988056-inferno.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15776/8988056-inferno.png",
+        "image_tags": "All Images"
+      },
+      "name": "Inferno",
+      "site_detail_url": "https://comicvine.gamespot.com/inferno/4045-60554/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-56772/",
+      "deck": "Story arc (including the entire Inferno miniseries) which details Mercy Dante's quest for redemption.",
+      "id": 56772,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15776/1194563-dantemercy.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/1194563-dantemercy.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15776/1194563-dantemercy.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15776/1194563-dantemercy.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15776/1194563-dantemercy.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/1194563-dantemercy.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/1194563-dantemercy.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15776/1194563-dantemercy.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15776/1194563-dantemercy.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Inferno",
+      "site_detail_url": "https://comicvine.gamespot.com/inferno/4045-56772/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-60802/",
+      "deck": "Annual festive X-event in the style of the Met Gala",
+      "id": 60802,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/6/67663/8007610-5347708664-Hellf.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/8007610-5347708664-Hellf.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/6/67663/8007610-5347708664-Hellf.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/6/67663/8007610-5347708664-Hellf.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/6/67663/8007610-5347708664-Hellf.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/6/67663/8007610-5347708664-Hellf.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/6/67663/8007610-5347708664-Hellf.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/6/67663/8007610-5347708664-Hellf.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/6/67663/8007610-5347708664-Hellf.png",
+        "image_tags": "All Images"
+      },
+      "name": "Hellfire Gala",
+      "site_detail_url": "https://comicvine.gamespot.com/hellfire-gala/4045-60802/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61117/",
+      "deck": "This is untold tale of Lois and Clark returning with their super son-- to travel... ",
+      "id": 61117,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11172/111728331/8984511-24.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11172/111728331/8984511-24.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11172/111728331/8984511-24.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11172/111728331/8984511-24.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11172/111728331/8984511-24.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11172/111728331/8984511-24.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11172/111728331/8984511-24.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11172/111728331/8984511-24.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11172/111728331/8984511-24.jpg",
+        "image_tags": "All Images,Covers for wiki"
+      },
+      "name": "Lois & Clark 2",
+      "site_detail_url": "https://comicvine.gamespot.com/lois-and-clark-2/4045-61117/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61116/",
+      "deck": "As Metallo continues to evolve, a new enemy rises: the nightmarish threat of the Necrohive!",
+      "id": 61116,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11172/111728331/8984509-22.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11172/111728331/8984509-22.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11172/111728331/8984509-22.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11172/111728331/8984509-22.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11172/111728331/8984509-22.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11172/111728331/8984509-22.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11172/111728331/8984509-22.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11172/111728331/8984509-22.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11172/111728331/8984509-22.jpg",
+        "image_tags": "All Images,Covers for wiki"
+      },
+      "name": "Rise of Metallo",
+      "site_detail_url": "https://comicvine.gamespot.com/rise-of-metallo/4045-61116/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61041/",
+      "deck": null,
+      "id": 61041,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11172/111728331/8947620-91y1zyaeopl.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11172/111728331/8947620-91y1zyaeopl.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11172/111728331/8947620-91y1zyaeopl.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11172/111728331/8947620-91y1zyaeopl.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11172/111728331/8947620-91y1zyaeopl.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11172/111728331/8947620-91y1zyaeopl.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11172/111728331/8947620-91y1zyaeopl.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11172/111728331/8947620-91y1zyaeopl.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11172/111728331/8947620-91y1zyaeopl.jpg",
+        "image_tags": "All Images,Covers for wiki"
+      },
+      "name": "Gotham Nocturne",
+      "site_detail_url": "https://comicvine.gamespot.com/gotham-nocturne/4045-61041/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-60074/",
+      "deck": null,
+      "id": 60074,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15776/8964946-nightwingknightterrors.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/8964946-nightwingknightterrors.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15776/8964946-nightwingknightterrors.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15776/8964946-nightwingknightterrors.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15776/8964946-nightwingknightterrors.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/8964946-nightwingknightterrors.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/8964946-nightwingknightterrors.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15776/8964946-nightwingknightterrors.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15776/8964946-nightwingknightterrors.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Knight Terrors",
+      "site_detail_url": "https://comicvine.gamespot.com/knight-terrors/4045-60074/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-60278/",
+      "deck": null,
+      "id": 60278,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11146/111464511/8978498-dcs-year-of-the-villain-2.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11146/111464511/8978498-dcs-year-of-the-villain-2.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11146/111464511/8978498-dcs-year-of-the-villain-2.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11146/111464511/8978498-dcs-year-of-the-villain-2.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11146/111464511/8978498-dcs-year-of-the-villain-2.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11146/111464511/8978498-dcs-year-of-the-villain-2.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11146/111464511/8978498-dcs-year-of-the-villain-2.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11146/111464511/8978498-dcs-year-of-the-villain-2.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11146/111464511/8978498-dcs-year-of-the-villain-2.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Year of the Villain",
+      "site_detail_url": "https://comicvine.gamespot.com/year-of-the-villain/4045-60278/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61114/",
+      "deck": null,
+      "id": 61114,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Book One: Love in the Wasteland",
+      "site_detail_url": "https://comicvine.gamespot.com/book-one-love-in-the-wasteland/4045-61114/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61115/",
+      "deck": null,
+      "id": 61115,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Book Two: The Rise and Fall of Golgonooza",
+      "site_detail_url": "https://comicvine.gamespot.com/book-two-the-rise-and-fall-of-golgonooza/4045-61115/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61033/",
+      "deck": "The Rat King has gathered together his agents of evil for his deadliest gambit yet.",
+      "id": 61033,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "The Armageddon Game",
+      "site_detail_url": "https://comicvine.gamespot.com/the-armageddon-game/4045-61033/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-60951/",
+      "deck": null,
+      "id": 60951,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/5/58790/8974422-bannerofwar.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/58790/8974422-bannerofwar.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/5/58790/8974422-bannerofwar.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/5/58790/8974422-bannerofwar.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/5/58790/8974422-bannerofwar.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/5/58790/8974422-bannerofwar.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/5/58790/8974422-bannerofwar.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/5/58790/8974422-bannerofwar.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/5/58790/8974422-bannerofwar.png",
+        "image_tags": "All Images"
+      },
+      "name": "Banner of War",
+      "site_detail_url": "https://comicvine.gamespot.com/banner-of-war/4045-60951/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-56369/",
+      "deck": "Marvel's attempt to overhaul all X-books in 2000.",
+      "id": 56369,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/8/85507/1936735-nxm_100_01.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/85507/1936735-nxm_100_01.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/8/85507/1936735-nxm_100_01.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/8/85507/1936735-nxm_100_01.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/8/85507/1936735-nxm_100_01.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/8/85507/1936735-nxm_100_01.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/8/85507/1936735-nxm_100_01.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/8/85507/1936735-nxm_100_01.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/8/85507/1936735-nxm_100_01.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Revolution",
+      "site_detail_url": "https://comicvine.gamespot.com/revolution/4045-56369/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61113/",
+      "deck": "Part of the X-Men Revolution event.",
+      "id": 61113,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/5/58790/8974136-counter_x.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/58790/8974136-counter_x.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/5/58790/8974136-counter_x.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/5/58790/8974136-counter_x.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/5/58790/8974136-counter_x.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/5/58790/8974136-counter_x.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/5/58790/8974136-counter_x.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/5/58790/8974136-counter_x.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/5/58790/8974136-counter_x.png",
+        "image_tags": "All Images"
+      },
+      "name": "Counter X",
+      "site_detail_url": "https://comicvine.gamespot.com/counter-x/4045-61113/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61112/",
+      "deck": null,
+      "id": 61112,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Here In Manhattan",
+      "site_detail_url": "https://comicvine.gamespot.com/here-in-manhattan/4045-61112/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61106/",
+      "deck": null,
+      "id": 61106,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15776/8970951-carnagereigns.jpeg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/8970951-carnagereigns.jpeg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15776/8970951-carnagereigns.jpeg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15776/8970951-carnagereigns.jpeg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15776/8970951-carnagereigns.jpeg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/8970951-carnagereigns.jpeg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/8970951-carnagereigns.jpeg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15776/8970951-carnagereigns.jpeg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15776/8970951-carnagereigns.jpeg",
+        "image_tags": "All Images"
+      },
+      "name": "Carnage Reigns",
+      "site_detail_url": "https://comicvine.gamespot.com/carnage-reigns/4045-61106/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-49939/",
+      "deck": "As Peter Parker and as Spider-Man, Aunt May has always been there for Peter.  In the wake of the decisions made in the Civil War, Aunt May is now dying.  What will Peter give up to save his Aunt?",
+      "id": 49939,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/462/273325-56231-one-more-day.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/462/273325-56231-one-more-day.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/462/273325-56231-one-more-day.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/462/273325-56231-one-more-day.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/462/273325-56231-one-more-day.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/462/273325-56231-one-more-day.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/462/273325-56231-one-more-day.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/462/273325-56231-one-more-day.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/462/273325-56231-one-more-day.jpg",
+        "image_tags": "All Images,One More Day"
+      },
+      "name": "One More Day",
+      "site_detail_url": "https://comicvine.gamespot.com/one-more-day/4045-49939/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61111/",
+      "deck": null,
+      "id": 61111,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11160/111601030/8962535-6430730181-SS-Dr.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11160/111601030/8962535-6430730181-SS-Dr.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11160/111601030/8962535-6430730181-SS-Dr.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11160/111601030/8962535-6430730181-SS-Dr.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11160/111601030/8962535-6430730181-SS-Dr.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11160/111601030/8962535-6430730181-SS-Dr.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11160/111601030/8962535-6430730181-SS-Dr.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11160/111601030/8962535-6430730181-SS-Dr.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11160/111601030/8962535-6430730181-SS-Dr.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Dragon's Hoard",
+      "site_detail_url": "https://comicvine.gamespot.com/the-dragons-hoard/4045-61111/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61110/",
+      "deck": null,
+      "id": 61110,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "The Worlds of Aldebaran",
+      "site_detail_url": "https://comicvine.gamespot.com/the-worlds-of-aldebaran/4045-61110/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61109/",
+      "deck": "Amanda Waller and Batman form an unlikely alliance in order to bring the recently disbanded Suicide Squad back together",
+      "id": 61109,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11160/111601030/8957174-0227393201-91C0q.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11160/111601030/8957174-0227393201-91C0q.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11160/111601030/8957174-0227393201-91C0q.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11160/111601030/8957174-0227393201-91C0q.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11160/111601030/8957174-0227393201-91C0q.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11160/111601030/8957174-0227393201-91C0q.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11160/111601030/8957174-0227393201-91C0q.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11160/111601030/8957174-0227393201-91C0q.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11160/111601030/8957174-0227393201-91C0q.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Phoenix Gambit",
+      "site_detail_url": "https://comicvine.gamespot.com/the-phoenix-gambit/4045-61109/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-55864/",
+      "deck": "An Antarctic Press crossover. Story ran in alternate issues of Ninja High School and Gold Digger.",
+      "id": 55864,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11/110802/4335778-time%20warp.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/110802/4335778-time%20warp.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11/110802/4335778-time%20warp.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11/110802/4335778-time%20warp.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11/110802/4335778-time%20warp.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11/110802/4335778-time%20warp.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/110802/4335778-time%20warp.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11/110802/4335778-time%20warp.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/110802/4335778-time%20warp.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Time Warp",
+      "site_detail_url": "https://comicvine.gamespot.com/time-warp/4045-55864/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61108/",
+      "deck": null,
+      "id": 61108,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Book Two: Ice Age",
+      "site_detail_url": "https://comicvine.gamespot.com/book-two-ice-age/4045-61108/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61103/",
+      "deck": "Power Girl takes center stage!",
+      "id": 61103,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11172/111728331/8950198-large-4500902.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11172/111728331/8950198-large-4500902.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11172/111728331/8950198-large-4500902.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11172/111728331/8950198-large-4500902.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11172/111728331/8950198-large-4500902.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11172/111728331/8950198-large-4500902.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11172/111728331/8950198-large-4500902.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11172/111728331/8950198-large-4500902.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11172/111728331/8950198-large-4500902.jpg",
+        "image_tags": "All Images,Covers for wiki"
+      },
+      "name": "Power Girl Returns",
+      "site_detail_url": "https://comicvine.gamespot.com/power-girl-returns/4045-61103/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61105/",
+      "deck": null,
+      "id": 61105,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "L'adolescence",
+      "site_detail_url": "https://comicvine.gamespot.com/ladolescence/4045-61105/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61104/",
+      "deck": null,
+      "id": 61104,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Le tueur",
+      "site_detail_url": "https://comicvine.gamespot.com/le-tueur/4045-61104/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-60912/",
+      "deck": "After learning of an enslaved race with mysterious ties to Krypton, Superman and the Authority leave earth and travel across the galaxy to liberate Warworld.",
+      "id": 60912,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11172/111728331/8941481-81lohngbwll.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11172/111728331/8941481-81lohngbwll.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11172/111728331/8941481-81lohngbwll.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11172/111728331/8941481-81lohngbwll.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11172/111728331/8941481-81lohngbwll.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11172/111728331/8941481-81lohngbwll.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11172/111728331/8941481-81lohngbwll.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11172/111728331/8941481-81lohngbwll.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11172/111728331/8941481-81lohngbwll.jpg",
+        "image_tags": "All Images,Covers for wiki"
+      },
+      "name": "Warworld Saga",
+      "site_detail_url": "https://comicvine.gamespot.com/warworld-saga/4045-60912/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61100/",
+      "deck": null,
+      "id": 61100,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "L'enfance",
+      "site_detail_url": "https://comicvine.gamespot.com/lenfance/4045-61100/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61028/",
+      "deck": null,
+      "id": 61028,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15776/8696077-kal-elreturns.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/8696077-kal-elreturns.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15776/8696077-kal-elreturns.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15776/8696077-kal-elreturns.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15776/8696077-kal-elreturns.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/8696077-kal-elreturns.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/8696077-kal-elreturns.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15776/8696077-kal-elreturns.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15776/8696077-kal-elreturns.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Kal-El Returns",
+      "site_detail_url": "https://comicvine.gamespot.com/kal-el-returns/4045-61028/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61099/",
+      "deck": "Parody of heroic fantasy at several levels of reading, it is inspired in particular by the universe of the Dungeons and Dragons role-playing game, and it relates the adventures linked to the destiny of a dungeon, from its construction to its destruction.",
+      "id": 61099,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11119/111191703/8940526-donjon-crepuscule.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11119/111191703/8940526-donjon-crepuscule.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11119/111191703/8940526-donjon-crepuscule.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11119/111191703/8940526-donjon-crepuscule.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11119/111191703/8940526-donjon-crepuscule.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11119/111191703/8940526-donjon-crepuscule.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11119/111191703/8940526-donjon-crepuscule.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11119/111191703/8940526-donjon-crepuscule.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11119/111191703/8940526-donjon-crepuscule.png",
+        "image_tags": "All Images"
+      },
+      "name": "Donjon",
+      "site_detail_url": "https://comicvine.gamespot.com/donjon/4045-61099/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-60815/",
+      "deck": null,
+      "id": 60815,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/5/58790/8940344-yashida_saga.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/58790/8940344-yashida_saga.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/5/58790/8940344-yashida_saga.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/5/58790/8940344-yashida_saga.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/5/58790/8940344-yashida_saga.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/5/58790/8940344-yashida_saga.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/5/58790/8940344-yashida_saga.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/5/58790/8940344-yashida_saga.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/5/58790/8940344-yashida_saga.png",
+        "image_tags": "All Images"
+      },
+      "name": "The Yashida Saga",
+      "site_detail_url": "https://comicvine.gamespot.com/the-yashida-saga/4045-60815/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-60814/",
+      "deck": null,
+      "id": 60814,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/5/58790/8940320-demon_days.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/58790/8940320-demon_days.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/5/58790/8940320-demon_days.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/5/58790/8940320-demon_days.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/5/58790/8940320-demon_days.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/5/58790/8940320-demon_days.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/5/58790/8940320-demon_days.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/5/58790/8940320-demon_days.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/5/58790/8940320-demon_days.png",
+        "image_tags": "All Images"
+      },
+      "name": "Demon Days",
+      "site_detail_url": "https://comicvine.gamespot.com/demon-days/4045-60814/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61098/",
+      "deck": null,
+      "id": 61098,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Infiniti",
+      "site_detail_url": "https://comicvine.gamespot.com/infiniti/4045-61098/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61097/",
+      "deck": null,
+      "id": 61097,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Rite of Passage",
+      "site_detail_url": "https://comicvine.gamespot.com/rite-of-passage/4045-61097/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61096/",
+      "deck": null,
+      "id": 61096,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/6/67663/4945095-02.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/4945095-02.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/6/67663/4945095-02.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/6/67663/4945095-02.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/6/67663/4945095-02.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/6/67663/4945095-02.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/6/67663/4945095-02.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/6/67663/4945095-02.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/6/67663/4945095-02.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Nightshade Odyssey",
+      "site_detail_url": "https://comicvine.gamespot.com/nightshade-odyssey/4045-61096/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61095/",
+      "deck": null,
+      "id": 61095,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Casino Andromeda",
+      "site_detail_url": "https://comicvine.gamespot.com/casino-andromeda/4045-61095/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61094/",
+      "deck": "Young Yoko Tsuno faces the dangers of the planet Vinea and its surroundings. She always remains true to herself, favoring loyalty, friendship and respect for life.",
+      "id": 61094,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11119/111191703/8932855-bande-dessinee-yoko-tsuno-les-3-soleils-de-vinea-eo-1976.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11119/111191703/8932855-bande-dessinee-yoko-tsuno-les-3-soleils-de-vinea-eo-1976.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11119/111191703/8932855-bande-dessinee-yoko-tsuno-les-3-soleils-de-vinea-eo-1976.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11119/111191703/8932855-bande-dessinee-yoko-tsuno-les-3-soleils-de-vinea-eo-1976.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11119/111191703/8932855-bande-dessinee-yoko-tsuno-les-3-soleils-de-vinea-eo-1976.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11119/111191703/8932855-bande-dessinee-yoko-tsuno-les-3-soleils-de-vinea-eo-1976.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11119/111191703/8932855-bande-dessinee-yoko-tsuno-les-3-soleils-de-vinea-eo-1976.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11119/111191703/8932855-bande-dessinee-yoko-tsuno-les-3-soleils-de-vinea-eo-1976.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11119/111191703/8932855-bande-dessinee-yoko-tsuno-les-3-soleils-de-vinea-eo-1976.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Vinean Space Odyssey",
+      "site_detail_url": "https://comicvine.gamespot.com/vinean-space-odyssey/4045-61094/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-58469/",
+      "deck": null,
+      "id": 58469,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/15776/8928188-morriganwars.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/8928188-morriganwars.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/15776/8928188-morriganwars.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/15776/8928188-morriganwars.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15776/8928188-morriganwars.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/8928188-morriganwars.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/8928188-morriganwars.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/15776/8928188-morriganwars.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/15776/8928188-morriganwars.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "The Morrigan Wars",
+      "site_detail_url": "https://comicvine.gamespot.com/the-morrigan-wars/4045-58469/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61093/",
+      "deck": null,
+      "id": 61093,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Nagraj Vs Tausi",
+      "site_detail_url": "https://comicvine.gamespot.com/nagraj-vs-tausi/4045-61093/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61092/",
+      "deck": null,
+      "id": 61092,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Sarpsatra Series",
+      "site_detail_url": "https://comicvine.gamespot.com/sarpsatra-series/4045-61092/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61091/",
+      "deck": null,
+      "id": 61091,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11144/111442876/8900014-capacoldwara2023001_preview-page-001-scaled.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11144/111442876/8900014-capacoldwara2023001_preview-page-001-scaled.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11144/111442876/8900014-capacoldwara2023001_preview-page-001-scaled.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11144/111442876/8900014-capacoldwara2023001_preview-page-001-scaled.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11144/111442876/8900014-capacoldwara2023001_preview-page-001-scaled.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11144/111442876/8900014-capacoldwara2023001_preview-page-001-scaled.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11144/111442876/8900014-capacoldwara2023001_preview-page-001-scaled.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11144/111442876/8900014-capacoldwara2023001_preview-page-001-scaled.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11144/111442876/8900014-capacoldwara2023001_preview-page-001-scaled.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Cold War",
+      "site_detail_url": "https://comicvine.gamespot.com/cold-war/4045-61091/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61090/",
+      "deck": "Zack Kosinski is a prescient, able to see other realities beyond our own, able to live on other \"Earths\", perfectly similar to ours, but which have sometimes evolved in a subtly different way...",
+      "id": 61090,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11119/111191703/8902682-foldercover.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11119/111191703/8902682-foldercover.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11119/111191703/8902682-foldercover.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11119/111191703/8902682-foldercover.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11119/111191703/8902682-foldercover.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11119/111191703/8902682-foldercover.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11119/111191703/8902682-foldercover.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11119/111191703/8902682-foldercover.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11119/111191703/8902682-foldercover.png",
+        "image_tags": "All Images"
+      },
+      "name": "Uchronie(s)",
+      "site_detail_url": "https://comicvine.gamespot.com/uchronie-s/4045-61090/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61089/",
+      "deck": "The twelfth arc in the light novel and manga companion of The Rising of the Shield Hero series",
+      "id": 61089,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "New World Arc",
+      "site_detail_url": "https://comicvine.gamespot.com/new-world-arc/4045-61089/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61088/",
+      "deck": "The eleventh arc in the light novel, web novel, and manga companion of The Rising of the Shield Hero series",
+      "id": 61088,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Spirit Turtle Arc",
+      "site_detail_url": "https://comicvine.gamespot.com/spirit-turtle-arc/4045-61088/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61086/",
+      "deck": "The tenth arc in the light novel and manga companion, and the ninth arc in the web novel of The Rising of the Shield Hero series",
+      "id": 61086,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Cal Mira Island Arc",
+      "site_detail_url": "https://comicvine.gamespot.com/cal-mira-island-arc/4045-61086/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61087/",
+      "deck": "The ninth arc in the light novel and the tenth in the web novel of The Rising of the Shield Hero series",
+      "id": 61087,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Intermission Arc",
+      "site_detail_url": "https://comicvine.gamespot.com/intermission-arc/4045-61087/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61085/",
+      "deck": "The eighth arc in the web novel, light novel, and manga companion of The Rising of the Shield Hero series",
+      "id": 61085,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Punishment Arc",
+      "site_detail_url": "https://comicvine.gamespot.com/punishment-arc/4045-61085/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61084/",
+      "deck": "The seventh arc in the web novel, light novel, and manga companion of The Rising of the Shield Hero series",
+      "id": 61084,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Devil of the Shield Arc",
+      "site_detail_url": "https://comicvine.gamespot.com/devil-of-the-shield-arc/4045-61084/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61083/",
+      "deck": "The sixth arc in the web novel, light novel, and manga companion of The Rising of the Shield Hero series",
+      "id": 61083,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Third Wave Arc",
+      "site_detail_url": "https://comicvine.gamespot.com/third-wave-arc/4045-61083/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61082/",
+      "deck": "The fifth arc in the web novel, light novel, and manga companion of The Rising of the Shield Hero series",
+      "id": 61082,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Peddling Arc",
+      "site_detail_url": "https://comicvine.gamespot.com/peddling-arc/4045-61082/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61081/",
+      "deck": "The fourth arc in the web novel, light novel, and manga companion of The Rising of the Shield Hero series",
+      "id": 61081,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Filo Rial Arc",
+      "site_detail_url": "https://comicvine.gamespot.com/filo-rial-arc/4045-61081/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61080/",
+      "deck": "The third arc in the web novel, light novel, and manga companion of The Rising of the Shield Hero series",
+      "id": 61080,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Second Wave Arc",
+      "site_detail_url": "https://comicvine.gamespot.com/second-wave-arc/4045-61080/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61079/",
+      "deck": "The second arc in the web novel, light novel, and manga companion of The Rising of the Shield Hero series",
+      "id": 61079,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Slave Arc",
+      "site_detail_url": "https://comicvine.gamespot.com/slave-arc/4045-61079/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61078/",
+      "deck": "The first arc in the web novel, light novel, and manga companion of The Rising of the Shield Hero series",
+      "id": 61078,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Summoning Arc",
+      "site_detail_url": "https://comicvine.gamespot.com/summoning-arc/4045-61078/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-58072/",
+      "deck": "Story where all Spider-Men in the Marvel Multiverse fight Morlun.",
+      "id": 58072,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/0/77/4127161-spider-verse_vol_1_1_textless.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/4127161-spider-verse_vol_1_1_textless.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/0/77/4127161-spider-verse_vol_1_1_textless.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/0/77/4127161-spider-verse_vol_1_1_textless.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/0/77/4127161-spider-verse_vol_1_1_textless.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/0/77/4127161-spider-verse_vol_1_1_textless.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/77/4127161-spider-verse_vol_1_1_textless.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/0/77/4127161-spider-verse_vol_1_1_textless.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/0/77/4127161-spider-verse_vol_1_1_textless.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Spider-Verse",
+      "site_detail_url": "https://comicvine.gamespot.com/spider-verse/4045-58072/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-60856/",
+      "deck": null,
+      "id": 60856,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "What the #!$% Is Task Force Z",
+      "site_detail_url": "https://comicvine.gamespot.com/what-the-is-task-force-z/4045-60856/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61074/",
+      "deck": "After the events of the Year of the VIllain, Perpetua takes over the Multiverse in a story that crosses over through several major Crisis universes from DC history to one epic finish.",
+      "id": 61074,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Dark Nights: Death Metal",
+      "site_detail_url": "https://comicvine.gamespot.com/dark-nights-death-metal/4045-61074/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61077/",
+      "deck": null,
+      "id": 61077,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Code's Assault Arc",
+      "site_detail_url": "https://comicvine.gamespot.com/codes-assault-arc/4045-61077/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61076/",
+      "deck": null,
+      "id": 61076,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Sasuke Retsuden Arc",
+      "site_detail_url": "https://comicvine.gamespot.com/sasuke-retsuden-arc/4045-61076/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61075/",
+      "deck": null,
+      "id": 61075,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Labyrinth Game Arc",
+      "site_detail_url": "https://comicvine.gamespot.com/labyrinth-game-arc/4045-61075/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61044/",
+      "deck": null,
+      "id": 61044,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/12/124259/8826042-large-8156817.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/12/124259/8826042-large-8156817.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/12/124259/8826042-large-8156817.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/12/124259/8826042-large-8156817.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/8826042-large-8156817.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/8826042-large-8156817.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/8826042-large-8156817.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/12/124259/8826042-large-8156817.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/12/124259/8826042-large-8156817.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Lazarus Planet",
+      "site_detail_url": "https://comicvine.gamespot.com/lazarus-planet/4045-61044/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61073/",
+      "deck": "Green Lantern Hal Jordan leads a team of heroes seeking more proactive action and justice after the deaths of Batman and Martian Manhunter.",
+      "id": 61073,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Cry for Justice",
+      "site_detail_url": "https://comicvine.gamespot.com/cry-for-justice/4045-61073/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-60353/",
+      "deck": null,
+      "id": 60353,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/18154/7445518-4362365411-latest",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/18154/7445518-4362365411-latest",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/18154/7445518-4362365411-latest",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/18154/7445518-4362365411-latest",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/18154/7445518-4362365411-latest",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/18154/7445518-4362365411-latest",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/18154/7445518-4362365411-latest",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/18154/7445518-4362365411-latest",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/18154/7445518-4362365411-latest",
+        "image_tags": "All Images,Covers"
+      },
+      "name": "DCeased",
+      "site_detail_url": "https://comicvine.gamespot.com/dceased/4045-60353/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-61072/",
+      "deck": null,
+      "id": 61072,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11122/111222211/6373148-blank.png",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111222211/6373148-blank.png",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/11122/111222211/6373148-blank.png",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11122/111222211/6373148-blank.png",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11122/111222211/6373148-blank.png",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/11122/111222211/6373148-blank.png",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11122/111222211/6373148-blank.png",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11122/111222211/6373148-blank.png",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11122/111222211/6373148-blank.png",
+        "image_tags": ",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+      },
+      "name": "Revenge of the Brood",
+      "site_detail_url": "https://comicvine.gamespot.com/revenge-of-the-brood/4045-61072/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-60154/",
+      "deck": null,
+      "id": 60154,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/18154/8872718-0274944641-latest.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/18154/8872718-0274944641-latest.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/18154/8872718-0274944641-latest.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/18154/8872718-0274944641-latest.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/18154/8872718-0274944641-latest.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/18154/8872718-0274944641-latest.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/18154/8872718-0274944641-latest.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/18154/8872718-0274944641-latest.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/18154/8872718-0274944641-latest.jpg",
+        "image_tags": "All Images"
+      },
+      "name": "Cataclysm",
+      "site_detail_url": "https://comicvine.gamespot.com/cataclysm/4045-60154/"
+    },
+    {
+      "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-60632/",
+      "deck": null,
+      "id": 60632,
+      "image": {
+        "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/1/18154/8870669-3230135692-EdI8yz8WoAAmmf7.jpg",
+        "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/18154/8870669-3230135692-EdI8yz8WoAAmmf7.jpg",
+        "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/1/18154/8870669-3230135692-EdI8yz8WoAAmmf7.jpg",
+        "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/1/18154/8870669-3230135692-EdI8yz8WoAAmmf7.jpg",
+        "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/1/18154/8870669-3230135692-EdI8yz8WoAAmmf7.jpg",
+        "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/1/18154/8870669-3230135692-EdI8yz8WoAAmmf7.jpg",
+        "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/18154/8870669-3230135692-EdI8yz8WoAAmmf7.jpg",
+        "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/1/18154/8870669-3230135692-EdI8yz8WoAAmmf7.jpg",
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/1/18154/8870669-3230135692-EdI8yz8WoAAmmf7.jpg",
+        "image_tags": "All Images,Textless Covers"
+      },
+      "name": "Red Son Rising",
+      "site_detail_url": "https://comicvine.gamespot.com/red-son-rising/4045-60632/"
+    }
+  ],
+  "version": "1.0"
+}

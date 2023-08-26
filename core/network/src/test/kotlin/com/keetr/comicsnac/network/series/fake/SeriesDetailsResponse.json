@@ -1,0 +1,34 @@
+{
+  "error": "OK",
+  "limit": 1,
+  "offset": 0,
+  "number_of_page_results": 1,
+  "number_of_total_results": 1,
+  "status_code": 1,
+  "results": {
+    "api_detail_url": "https://comicvine.gamespot.com/api/series/4075-1217/",
+    "count_of_episodes": 0,
+    "deck": null,
+    "description": null,
+    "first_episode": null,
+    "id": 1217,
+    "image": {
+      "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/11141/111414280/9010375-5480142401-MV5BZ.jpg",
+      "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11141/111414280/9010375-5480142401-MV5BZ.jpg",
+      "screen_url": "https://comicvine.gamespot.com/a/uploads/original/11141/111414280/9010375-5480142401-MV5BZ.jpg",
+      "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/11141/111414280/9010375-5480142401-MV5BZ.jpg",
+      "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/11141/111414280/9010375-5480142401-MV5BZ.jpg",
+      "super_url": "https://comicvine.gamespot.com/a/uploads/scale_super/11141/111414280/9010375-5480142401-MV5BZ.jpg",
+      "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_super/11141/111414280/9010375-5480142401-MV5BZ.jpg",
+      "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/11141/111414280/9010375-5480142401-MV5BZ.jpg",
+      "original_url": "https://comicvine.gamespot.com/a/uploads/original/11141/111414280/9010375-5480142401-MV5BZ.jpg",
+      "image_tags": "All Images"
+    },
+    "last_episode": null,
+    "name": "The Young Indiana Jones Chronicles",
+    "publisher": null,
+    "site_detail_url": "https://comicvine.gamespot.com/the-young-indiana-jones-chronicles/4075-1217/",
+    "start_year": null
+  },
+  "version": "1.0"
+}

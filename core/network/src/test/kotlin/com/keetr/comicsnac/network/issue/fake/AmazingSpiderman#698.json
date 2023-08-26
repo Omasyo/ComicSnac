@@ -1,0 +1,323 @@
+{
+  "error": "OK",
+  "limit": 1,
+  "offset": 0,
+  "number_of_page_results": 1,
+  "number_of_total_results": 1,
+  "status_code": 1,
+  "results": {
+    "aliases": null,
+    "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-369103/",
+    "associated_images": [
+      {
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/6/67663/3586337-698-3rd-print.jpg",
+        "id": 3586337,
+        "caption": null,
+        "image_tags": "All Images"
+      },
+      {
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/9/91604/2800855-amazing_spider_man__698_variant_edition.jpg",
+        "id": 2800855,
+        "caption": "Amazing Spider-Man #698 Variant Edition",
+        "image_tags": "All Images"
+      },
+      {
+        "original_url": "https://comicvine.gamespot.com/a/uploads/original/11/117930/2715368-asm_698b.jpg",
+        "id": 2715368,
+        "caption": null,
+        "image_tags": "All Images"
+      }
+    ],
+    "character_credits": [
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-6292/",
+        "id": 6292,
+        "name": "Alistair Smythe",
+        "site_detail_url": "https://comicvine.gamespot.com/alistair-smythe/4005-6292/"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-33193/",
+        "id": 33193,
+        "name": "Anna May Watson",
+        "site_detail_url": "https://comicvine.gamespot.com/anna-may-watson/4005-33193/"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-1780/",
+        "id": 1780,
+        "name": "Aunt May",
+        "site_detail_url": "https://comicvine.gamespot.com/aunt-may/4005-1780/"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-1442/",
+        "id": 1442,
+        "name": "Captain America",
+        "site_detail_url": "https://comicvine.gamespot.com/captain-america/4005-1442/"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-1485/",
+        "id": 1485,
+        "name": "Doctor Octopus",
+        "site_detail_url": "https://comicvine.gamespot.com/doctor-octopus/4005-1485/"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-1475/",
+        "id": 1475,
+        "name": "Hawkeye",
+        "site_detail_url": "https://comicvine.gamespot.com/hawkeye/4005-1475/"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-7605/",
+        "id": 7605,
+        "name": "Hobgoblin (Kingsley)",
+        "site_detail_url": "https://comicvine.gamespot.com/hobgoblin-kingsley/4005-7605/"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-58595/",
+        "id": 58595,
+        "name": "J. Jonah Jameson, Sr.",
+        "site_detail_url": "https://comicvine.gamespot.com/j-jonah-jameson-sr/4005-58595/"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-1488/",
+        "id": 1488,
+        "name": "Lizard",
+        "site_detail_url": "https://comicvine.gamespot.com/lizard/4005-1488/"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-13380/",
+        "id": 13380,
+        "name": "Mary Jane",
+        "site_detail_url": "https://comicvine.gamespot.com/mary-jane/4005-13380/"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-74419/",
+        "id": 74419,
+        "name": "Max Modell",
+        "site_detail_url": "https://comicvine.gamespot.com/max-modell/4005-74419/"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-6722/",
+        "id": 6722,
+        "name": "Morbius",
+        "site_detail_url": "https://comicvine.gamespot.com/morbius/4005-6722/"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-17635/",
+        "id": 17635,
+        "name": "Sha Shan",
+        "site_detail_url": "https://comicvine.gamespot.com/sha-shan/4005-17635/"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-1443/",
+        "id": 1443,
+        "name": "Spider-Man",
+        "site_detail_url": "https://comicvine.gamespot.com/spider-man/4005-1443/"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-1453/",
+        "id": 1453,
+        "name": "Spider-Woman",
+        "site_detail_url": "https://comicvine.gamespot.com/spider-woman/4005-1453/"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-1440/",
+        "id": 1440,
+        "name": "Wolverine",
+        "site_detail_url": "https://comicvine.gamespot.com/wolverine/4005-1440/"
+      }
+    ],
+    "character_died_in": [],
+    "concept_credits": [
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/concept/4015-56421/",
+        "id": 56421,
+        "name": "Body Swap",
+        "site_detail_url": "https://comicvine.gamespot.com/body-swap/4015-56421/"
+      }
+    ],
+    "cover_date": "2013-01-01",
+    "date_added": "2012-11-20 01:40:18",
+    "date_last_updated": "2016-05-04 09:21:46",
+    "deck": null,
+    "description": "<p><i>The end of Spider-Man's world begins when Doctor Octopus discovers who Peter Parker really is.</i></p><p><i>(Fifty years goes by much...too...fast.)</i></p>",
+    "first_appearance_characters": null,
+    "first_appearance_concepts": null,
+    "first_appearance_locations": null,
+    "first_appearance_objects": null,
+    "first_appearance_storyarcs": null,
+    "first_appearance_teams": null,
+    "has_staff_review": {
+      "api_detail_url": "https://comicvine.gamespot.com/api/review/1900-1189/",
+      "id": 1189,
+      "name": "Amazing Spider-Man #698 Review",
+      "site_detail_url": "https://comicvine.gamespot.com/reviews/amazing-spider-man-698/1900-1189/"
+    },
+    "id": 369103,
+    "image": {
+      "icon_url": "https://comicvine.gamespot.com/a/uploads/square_avatar/6/67663/2710974-698.jpg",
+      "medium_url": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/2710974-698.jpg",
+      "screen_url": "https://comicvine.gamespot.com/a/uploads/screen_medium/6/67663/2710974-698.jpg",
+      "screen_large_url": "https://comicvine.gamespot.com/a/uploads/screen_kubrick/6/67663/2710974-698.jpg",
+      "small_url": "https://comicvine.gamespot.com/a/uploads/scale_small/6/67663/2710974-698.jpg",
+      "super_url": "https://comicvine.gamespot.com/a/uploads/scale_large/6/67663/2710974-698.jpg",
+      "thumb_url": "https://comicvine.gamespot.com/a/uploads/scale_avatar/6/67663/2710974-698.jpg",
+      "tiny_url": "https://comicvine.gamespot.com/a/uploads/square_mini/6/67663/2710974-698.jpg",
+      "original_url": "https://comicvine.gamespot.com/a/uploads/original/6/67663/2710974-698.jpg",
+      "image_tags": "All Images"
+    },
+    "issue_number": "698",
+    "location_credits": [
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/location/4020-57110/",
+        "id": 57110,
+        "name": "Horizon Labs",
+        "site_detail_url": "https://comicvine.gamespot.com/horizon-labs/4020-57110/"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/location/4020-41183/",
+        "id": 41183,
+        "name": "New York City",
+        "site_detail_url": "https://comicvine.gamespot.com/new-york-city/4020-41183/"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/location/4020-50736/",
+        "id": 50736,
+        "name": "The Raft",
+        "site_detail_url": "https://comicvine.gamespot.com/the-raft/4020-50736/"
+      }
+    ],
+    "name": "Dying Wish Prelude: Day in the Life",
+    "object_credits": [
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/object/4055-50737/",
+        "id": 50737,
+        "name": "Captain America's Shield",
+        "site_detail_url": "https://comicvine.gamespot.com/captain-americas-shield/4055-50737/"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/object/4055-57227/",
+        "id": 57227,
+        "name": "Octobot",
+        "site_detail_url": "https://comicvine.gamespot.com/octobot/4055-57227/"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/object/4055-59586/",
+        "id": 59586,
+        "name": "Spider-Armor MK III",
+        "site_detail_url": "https://comicvine.gamespot.com/spider-armor-mk-iii/4055-59586/"
+      }
+    ],
+    "person_credits": [
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-56587/",
+        "id": 56587,
+        "name": "Alan Fine",
+        "site_detail_url": "https://comicvine.gamespot.com/alan-fine/4040-56587/",
+        "role": "production"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-1828/",
+        "id": 1828,
+        "name": "Antonio Fabela",
+        "site_detail_url": "https://comicvine.gamespot.com/antonio-fabela/4040-1828/",
+        "role": "colorist"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-23115/",
+        "id": 23115,
+        "name": "Axel Alonso",
+        "site_detail_url": "https://comicvine.gamespot.com/axel-alonso/4040-23115/",
+        "role": "editor"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-10384/",
+        "id": 10384,
+        "name": "Chris Eliopoulos",
+        "site_detail_url": "https://comicvine.gamespot.com/chris-eliopoulos/4040-10384/",
+        "role": "letterer"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-41786/",
+        "id": 41786,
+        "name": "Dan Slott",
+        "site_detail_url": "https://comicvine.gamespot.com/dan-slott/4040-41786/",
+        "role": "writer"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-62532/",
+        "id": 62532,
+        "name": "Ellie Pyle",
+        "site_detail_url": "https://comicvine.gamespot.com/ellie-pyle/4040-62532/",
+        "role": "editor"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-1537/",
+        "id": 1537,
+        "name": "Joe Quesada",
+        "site_detail_url": "https://comicvine.gamespot.com/joe-quesada/4040-1537/",
+        "role": "other"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-45375/",
+        "id": 45375,
+        "name": "Marte Gracia",
+        "site_detail_url": "https://comicvine.gamespot.com/marte-gracia/4040-45375/",
+        "role": "colorist, cover"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-41655/",
+        "id": 41655,
+        "name": "Paolo Manuel Rivera",
+        "site_detail_url": "https://comicvine.gamespot.com/paolo-manuel-rivera/4040-41655/",
+        "role": "cover"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-41884/",
+        "id": 41884,
+        "name": "Pasqual Ferry",
+        "site_detail_url": "https://comicvine.gamespot.com/pasqual-ferry/4040-41884/",
+        "role": "cover"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-26863/",
+        "id": 26863,
+        "name": "Richard Elson",
+        "site_detail_url": "https://comicvine.gamespot.com/richard-elson/4040-26863/",
+        "role": "artist"
+      },
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-41929/",
+        "id": 41929,
+        "name": "Stephen Wacker",
+        "site_detail_url": "https://comicvine.gamespot.com/stephen-wacker/4040-41929/",
+        "role": "editor"
+      }
+    ],
+    "site_detail_url": "https://comicvine.gamespot.com/the-amazing-spider-man-698-dying-wish-prelude-day-/4000-369103/",
+    "store_date": "2012-11-21",
+    "story_arc_credits": [
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/story_arc/4045-56992/",
+        "id": 56992,
+        "name": "Dying Wish",
+        "site_detail_url": "https://comicvine.gamespot.com/dying-wish/4045-56992/"
+      }
+    ],
+    "team_credits": [
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/team/4060-3806/",
+        "id": 3806,
+        "name": "Avengers",
+        "site_detail_url": "https://comicvine.gamespot.com/avengers/4060-3806/"
+      }
+    ],
+    "team_disbanded_in": [],
+    "volume": {
+      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-2127/",
+      "id": 2127,
+      "name": "The Amazing Spider-Man",
+      "site_detail_url": "https://comicvine.gamespot.com/the-amazing-spider-man/4050-2127/"
+    }
+  },
+  "version": "1.0"
+}
