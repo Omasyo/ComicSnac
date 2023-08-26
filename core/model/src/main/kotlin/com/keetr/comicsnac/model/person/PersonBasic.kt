@@ -1,4 +1,4 @@
-package com.keetr.comicsnac.model.people
+package com.keetr.comicsnac.model.person
 
 data class PersonBasic(
     val apiDetailUrl: String,

@@ -1,7 +1,7 @@
 package com.keetr.comicsnac.model.issue
 
 import com.keetr.comicsnac.model.concept.ConceptBasic
-import com.keetr.comicsnac.model.people.PersonCredit
+import com.keetr.comicsnac.model.person.PersonCredit
 import com.keetr.comicsnac.model.volume.VolumeBasic
 import java.time.LocalDate
 

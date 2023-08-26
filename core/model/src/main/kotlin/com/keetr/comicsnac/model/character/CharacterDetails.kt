@@ -3,7 +3,7 @@ package com.keetr.comicsnac.model.character
 import com.keetr.comicsnac.model.issue.IssueBasic
 import com.keetr.comicsnac.model.origin.OriginBasic
 import com.keetr.comicsnac.model.other.Gender
-import com.keetr.comicsnac.model.people.PersonBasic
+import com.keetr.comicsnac.model.person.PersonBasic
 import com.keetr.comicsnac.model.power.PowerBasic
 import com.keetr.comicsnac.model.publisher.PublisherBasic
 

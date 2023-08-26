@@ -37,7 +37,7 @@ import com.keetr.comicsnac.details.components.panels.charactersPanel
 import com.keetr.comicsnac.details.components.panels.teamsPanel
 import com.keetr.comicsnac.details.components.panels.webViewPanel
 import com.keetr.comicsnac.model.character.Character
-import com.keetr.comicsnac.model.formatDate
+import com.keetr.comicsnac.details.formatDate
 import com.keetr.comicsnac.model.location.LocationBasic
 import com.keetr.comicsnac.model.`object`.ObjectBasic
 import com.keetr.comicsnac.model.storyarc.StoryArcBasic

@@ -1,7 +1,7 @@
 package com.keetr.comicsnac.data.people
 
-import com.keetr.comicsnac.model.people.PersonBasic
-import com.keetr.comicsnac.model.people.PersonCredit
+import com.keetr.comicsnac.model.person.PersonBasic
+import com.keetr.comicsnac.model.person.PersonCredit
 import com.keetr.comicsnac.network.common.models.PersonApiModel
 import com.keetr.comicsnac.network.common.models.PersonCreditApiModel
 
