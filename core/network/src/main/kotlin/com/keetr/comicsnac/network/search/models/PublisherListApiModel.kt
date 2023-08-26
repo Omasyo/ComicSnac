@@ -1,18 +1,17 @@
-package com.keetr.comicsnac.network.character.models
+package com.keetr.comicsnac.network.search.models
 
-import com.keetr.comicsnac.network.common.models.GenderApiModel
+
 import com.keetr.comicsnac.network.common.models.ImageApiModel
-import com.keetr.comicsnac.network.common.serializers.DateAsStringSerializer
+import com.keetr.comicsnac.network.search.models.SearchApiModel
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import java.time.LocalDateTime
 
 @Serializable
-data class CharacterListApiModel(
+@SerialName("publisher")
+data class PublisherListApiModel(
     @SerialName("api_detail_url") val apiDetailUrl: String,
     @SerialName("deck") val deck: String?,
     @SerialName("id") val id: Int,
     @SerialName("image") val image: ImageApiModel,
-    @SerialName("gender") val gender: GenderApiModel,
     @SerialName("name") val name: String
-)
+) : SearchApiModel

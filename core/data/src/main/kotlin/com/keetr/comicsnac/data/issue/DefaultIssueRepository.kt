@@ -12,7 +12,7 @@ import com.keetr.comicsnac.model.issue.Issue
 import com.keetr.comicsnac.model.issue.IssueDetails
 import com.keetr.comicsnac.network.common.Sort as NetworkSort
 import com.keetr.comicsnac.network.issue.IssueNetworkSource
-import com.keetr.comicsnac.network.issue.models.IssueListApiModel
+import com.keetr.comicsnac.network.search.models.IssueListApiModel
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

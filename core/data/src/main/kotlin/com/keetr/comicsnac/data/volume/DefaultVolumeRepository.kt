@@ -11,7 +11,7 @@ import com.keetr.comicsnac.data.fromNetworkError
 import com.keetr.comicsnac.model.volume.Volume
 import com.keetr.comicsnac.model.volume.VolumeDetails
 import com.keetr.comicsnac.network.volume.VolumeNetworkSource
-import com.keetr.comicsnac.network.volume.models.VolumeListApiModel
+import com.keetr.comicsnac.network.search.models.VolumeListApiModel
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

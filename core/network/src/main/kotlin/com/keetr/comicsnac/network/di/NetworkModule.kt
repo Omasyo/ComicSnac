@@ -20,6 +20,8 @@ import com.keetr.comicsnac.network.power.DefaultPowerNetworkSource
 import com.keetr.comicsnac.network.power.PowerNetworkSource
 import com.keetr.comicsnac.network.publisher.DefaultPublisherNetworkSource
 import com.keetr.comicsnac.network.publisher.PublisherNetworkSource
+import com.keetr.comicsnac.network.search.DefaultSearchNetworkSource
+import com.keetr.comicsnac.network.search.SearchNetworkSource
 import com.keetr.comicsnac.network.series.DefaultSeriesNetworkSource
 import com.keetr.comicsnac.network.series.SeriesNetworkSource
 import com.keetr.comicsnac.network.storyarc.DefaultStoryArcNetworkSource
@@ -100,6 +102,11 @@ private object NetworkModule {
     @Singleton
     fun providePublisherNetworkSource(client: HttpClient): PublisherNetworkSource =
         DefaultPublisherNetworkSource(client)
+
+    @Provides
+    @Singleton
+    fun provideSearchNetworkSource(client: HttpClient): SearchNetworkSource =
+        DefaultSearchNetworkSource(client)
 
     @Provides
     @Singleton

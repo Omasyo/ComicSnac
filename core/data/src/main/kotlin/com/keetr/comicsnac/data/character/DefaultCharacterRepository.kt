@@ -11,7 +11,7 @@ import com.keetr.comicsnac.model.character.Character
 import com.keetr.comicsnac.model.character.CharacterDetails
 import com.keetr.comicsnac.model.other.Gender
 import com.keetr.comicsnac.network.character.CharacterNetworkSource
-import com.keetr.comicsnac.network.character.models.CharacterListApiModel
+import com.keetr.comicsnac.network.search.models.CharacterListApiModel
 import com.keetr.comicsnac.network.common.models.GenderApiModel
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.flow.Flow

@@ -7,7 +7,7 @@ import com.keetr.comicsnac.model.volume.VolumeBasic
 import com.keetr.comicsnac.model.volume.VolumeDetails
 import com.keetr.comicsnac.network.common.models.VolumeApiModel
 import com.keetr.comicsnac.network.volume.models.VolumeDetailsApiModel
-import com.keetr.comicsnac.network.volume.models.VolumeListApiModel
+import com.keetr.comicsnac.network.search.models.VolumeListApiModel
 
 internal fun VolumeApiModel.toBasic() = VolumeBasic(
     apiDetailUrl = apiDetailUrl,

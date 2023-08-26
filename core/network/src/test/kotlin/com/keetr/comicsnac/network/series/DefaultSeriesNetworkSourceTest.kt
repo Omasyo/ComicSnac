@@ -9,7 +9,7 @@ import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Test
 
-class DefaultSeriesNetworkSourceTest: NetworkSourceTest<SeriesNetworkSource>() {
+class DefaultSeriesNetworkSourceTest : NetworkSourceTest<SeriesNetworkSource>() {
 
     override fun generateResponseBody(request: HttpRequestData): String =
         when (request.url.encodedPath) {

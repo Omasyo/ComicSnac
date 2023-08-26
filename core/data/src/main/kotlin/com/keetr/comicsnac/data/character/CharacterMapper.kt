@@ -10,7 +10,7 @@ import com.keetr.comicsnac.model.character.CharacterBasic
 import com.keetr.comicsnac.model.character.CharacterDetails
 import com.keetr.comicsnac.model.other.Gender
 import com.keetr.comicsnac.network.character.models.CharacterDetailsApiModel
-import com.keetr.comicsnac.network.character.models.CharacterListApiModel
+import com.keetr.comicsnac.network.search.models.CharacterListApiModel
 import com.keetr.comicsnac.network.common.models.CharacterApiModel
 
 internal fun CharacterApiModel.toCharacterBasic() = CharacterBasic(

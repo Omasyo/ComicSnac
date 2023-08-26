@@ -8,7 +8,7 @@ import com.keetr.comicsnac.model.issue.IssueBasic
 import com.keetr.comicsnac.model.issue.IssueDetails
 import com.keetr.comicsnac.network.common.models.IssueApiModel
 import com.keetr.comicsnac.network.issue.models.IssueDetailsApiModel
-import com.keetr.comicsnac.network.issue.models.IssueListApiModel
+import com.keetr.comicsnac.network.search.models.IssueListApiModel
 
 internal fun IssueApiModel.toIssueBasic() = IssueBasic(
     apiDetailUrl = apiDetailUrl, id = id, name = name ?: ""

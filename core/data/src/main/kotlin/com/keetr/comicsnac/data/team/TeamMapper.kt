@@ -5,7 +5,7 @@ import com.keetr.comicsnac.data.publisher.toPublisherBasic
 import com.keetr.comicsnac.model.team.Team
 import com.keetr.comicsnac.model.team.TeamDetails
 import com.keetr.comicsnac.network.team.models.TeamDetailsApiModel
-import com.keetr.comicsnac.network.team.models.TeamListApiModel
+import com.keetr.comicsnac.network.search.models.TeamListApiModel
 
 internal fun List<TeamListApiModel>.toTeams() = map { apiModel -> apiModel.toTeam() }
 
