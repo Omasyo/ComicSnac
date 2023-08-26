@@ -61,4 +61,4 @@ private const val DetailsFieldList = "api_detail_url,box_office_revenue,budget,c
         "site_detail_url,studios,teams,total_revenue,writers"
 
 private const val ListFieldList =
-    "api_detail_url,deck,id,image,name,site_detail_url"
+    "api_detail_url,deck,id,image,name"

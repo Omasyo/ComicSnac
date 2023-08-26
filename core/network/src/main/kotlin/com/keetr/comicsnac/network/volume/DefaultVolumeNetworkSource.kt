@@ -51,4 +51,4 @@ private const val DetailsFieldList =
     "api_detail_url,count_of_issues,deck,description,first_issue,id,image,issues,last_issue,name," +
             "publisher,site_detail_url,start_year"
 
-private const val ListFieldList = "api_detail_url,deck,id,image,name,site_detail_url"
+private const val ListFieldList = "api_detail_url,deck,id,image,name"

@@ -63,4 +63,4 @@ private const val DetailsFieldList = "aliases,api_detail_url,associated_images,c
         "volume"
 
 private const val ListFieldList =
-    "api_detail_url,cover_date,deck,id,image,issue_number,name,site_detail_url,volume"
+    "api_detail_url,deck,id,image,issue_number,name,volume"

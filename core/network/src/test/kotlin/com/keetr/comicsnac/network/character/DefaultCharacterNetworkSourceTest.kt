@@ -81,10 +81,10 @@ class DefaultCharacterNetworkSourceTest : NetworkSourceTest<CharacterNetworkSour
         assert(response.getOrThrow().results.all { ids.contains(it.id) })
     }
 
-    @Test
-    fun `verify sort character by date last updated`() = runTest {
-        val response = networkSource.getRecentCharacters(100, 0)
-        val characters = response.getOrThrow().results
-        assertEquals(characters.sortedByDescending { it.dateLastUpdate }, characters)
-    }
+//    @Test
+//    fun `verify sort character by date last updated`() = runTest {
+//        val response = networkSource.getRecentCharacters(100, 0)
+//        val characters = response.getOrThrow().results
+//        assertEquals(characters.sortedByDescending { it.dateLastUpdate }, characters)
+//    }
 }

@@ -15,8 +15,7 @@ internal fun TeamListApiModel.toTeam() =
         deck = deck ?: "",
         id = id,
         imageUrl = image.smallUrl,
-        name = name,
-        siteDetailUrl = siteDetailUrl
+        name = name
     )
 
 internal fun TeamDetailsApiModel.toTeamDetails() =

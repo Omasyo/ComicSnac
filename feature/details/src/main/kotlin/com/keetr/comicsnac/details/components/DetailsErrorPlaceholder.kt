@@ -126,7 +126,7 @@ internal fun DetailsErrorPlaceholder(
                             style = MaterialTheme.typography.headlineMedium
                         )
                         Text(
-                            PlaceholderDesc,
+                            "*".repeat(400),
                             color = MaterialTheme.colorScheme.onSurfaceVariant
                         )
                     }

@@ -8,9 +8,6 @@
   "results": {
     "aliases": "Odinforce\nThorforce\nThor Force",
     "api_detail_url": "https://comicvine.gamespot.com/api/concept/4015-35070/",
-    "count_of_isssue_appearances": 72,
-    "date_added": "2008-06-06 11:27:53",
-    "date_last_updated": "2018-06-14 19:51:41",
     "deck": "Ancient and vast Asgardian power wielded by Odin and later inherited by Thor.",
     "description": "<h2>Origin &amp; History</h2><p><a href=\"/odin/4005-3507/\" data-ref-id=\"4005-3507\">Odin</a> and his two brothers <a href=\"/vili/4005-31574/\" data-ref-id=\"4005-31574\">Vili</a> and <a href=\"/ve/4005-12910/\" data-ref-id=\"4005-12910\">Ve</a> tried to take down <a href=\"/surtur/4005-10967/\" data-ref-id=\"4005-10967\">Surtur</a> after they had finished taking down the frost giant, <a href=\"/ymir/4005-10267/\" data-ref-id=\"4005-10267\">Ymir</a>. When they go there, they tell the fire people that they have come to learn the undiscovered. <a href=\"/odin/4005-3507/\" data-ref-id=\"4005-3507\">Odin</a> asks Surtur if it's true that he would one day destroy the nine worlds. Surtur answers him yes and explains how he shall do it using his <a href=\"/sword-of-doom/4055-48502/\" data-ref-id=\"4055-48502\">Sword Of Doom</a> and the <a href=\"/eternal-flame/4055-56058/\" data-ref-id=\"4055-56058\">Eternal flame</a>. Odin remarks back \"Wouldn't it be better if the flame was taken out and the sword broken?\". Surtur then returns saying \"The flame cannot be extinguished but they could try to break his sword\". Surtur would then slam his fist on the ground as demons started to come from all corners. Then the brothers Vili and Ve would summon the raging storms of the arctic to stop the demons. It worked and started to freeze them.</p><p>Next the three brothers joined into one to battle Surtur. As the battle continued, they discovered they weren't able to best Surtur, so they made one final blow which broke Surtur's sword. Vili one of the brothers states it to be a victory while Odin simply says that he will come after them. Ve then would cut down the flame of destruction so that even if Surtur were to reforge his sword he could not kindle it with the flame so that the world wouldn't end. Odin then starts to run to the portal to the nine worlds then releases his brothers who aren't following. One of the brothers says that if they go Surtur shall follow, then suddenly as Surtur emerges from the brimstone lake, a blast would come knocking Odin out of the realm Muspelheim and knocked him out as well. When he had awoken, the entrance to the realm was gone and he had the combined powers of his two brothers, as well as his own, which created the Odin Force; however, he was aware that his brothers were dead.</p><h2>Fe<b>ats</b></h2><ol><li>Assisted <a href=\"/thor/4005-2268/\" data-ref-id=\"4005-2268\">Thor</a> in denting <a href=\"/captain-america/4005-1442/\" data-ref-id=\"4005-1442\">Captain America</a>'s virtually indestructible <a href=\"/captain-americas-shield/4055-50737/\" data-ref-id=\"4055-50737\">shield</a>.</li><li>Odin, wielding it, created a galaxy and then destroyed it.</li><li>With The Odin Force, Thor takes two nuclear warheads out of his chest without injury.</li><li>Killed Captain America whilst destroying his shield.</li><li>Kills <a href=\"/wolverine/4005-1440/\" data-ref-id=\"4005-1440\">Wolverine</a> while destroying him and his <a href=\"/adamantium/4055-40759/\" data-ref-id=\"4055-40759\">Adamantium</a> bones.</li><li>Thor has used the Odin Force to cure a man of his terminal cancer.</li><li>Thor has used the Odin Force to stop time itself.</li><li>Odin used it to cut out the heart of a star, which was used to forge and empower the legendary hammer Mjolnir.</li><li>Odin used it to bring back to life both Thor and Brunnhilde. (Valkyrie)</li><li>By channeling the Odin Force into his sacred hammer Mjolnir, Thor decapitated the nigh-invincible Destroyer Armor with one strike.</li><li>Thor used the Odin Force to not only become the supreme ruler of Earth itself, but also eliminate all of its heroes and villains that opposed him.</li><li>Odin used it to transform the cursed Nibelling rings into the gigantic Oversword of Asgard. (Now known as the Odinsword)</li><li>Thor used it to destroy the Blood Axe of Skurge the Executioner, stating that only the Odin Force was capable of doing so.</li><li>Thor used the Odin Force to restore not only the floating city of Asgard on Earth, but also restored the lives of all the Asgardians who were lost after Ragnarok.</li><li>Odin used it to create and empower Stormbreaker, the hammer of Beta Ray Bill.</li><li>Odin used it to create and empower the Uru mace Thunderstrike, as a gift to Eric Masterson for all his heroic efforts in Asgard's name.</li><li>Odin used it to trap Surtur within his own body, becoming a living prison for the fire Elemental.</li><li>Odin used it to save the life of Eric Masterson by merging his life force with that of Thor's.</li></ol>",
     "first_appeared_in_issue": {
@@ -33,6 +30,12 @@
       "image_tags": "All Images,Odin force as child"
     },
     "issue_credits": [
+      {
+        "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-1010047/",
+        "id": 1010047,
+        "name": "All Weather Turns to Storm",
+        "site_detail_url": "https://comicvine.gamespot.com/the-immortal-thor-1-all-weather-turns-to-storm/4000-1010047/"
+      },
       {
         "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-817470/",
         "id": 817470,
@@ -466,7 +469,6 @@
         "site_detail_url": "https://comicvine.gamespot.com/marvel-pocketbook-16-the-incredible-hulk-the-monst/4000-453257/"
       }
     ],
-    "movies": [],
     "name": "The Odin Force",
     "site_detail_url": "https://comicvine.gamespot.com/the-odin-force/4015-35070/",
     "start_year": "1965",

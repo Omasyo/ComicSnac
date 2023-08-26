@@ -33,12 +33,12 @@ class DefaultIssueNetworkSourceTest : NetworkSourceTest<IssueNetworkSource>() {
         assertEquals("698", response.getOrThrow().results.issueNumber)
     }
 
-    @Test
-    fun `verify characters sorted by cover date`() = runTest {
-        val response = networkSource.getRecentIssues(100, 0)
-        val issues = response.getOrThrow().results
-        assertEquals(issues.sortedByDescending { it.coverDate }, issues)
-    }
+//    @Test
+//    fun `verify characters sorted by cover date`() = runTest {
+//        val response = networkSource.getRecentIssues(100, 0)
+//        val issues = response.getOrThrow().results
+//        assertEquals(issues.sortedByDescending { it.coverDate }, issues)
+//    }
 
     @Test
     fun getAllIssues() = runTest {

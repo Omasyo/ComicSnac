@@ -25,8 +25,7 @@ fun CharacterListApiModel.toCharacter() =
         deck = deck ?: "",
         id = id,
         imageUrl = image.smallUrl,
-        name = name,
-        siteDetailUrl = siteDetailUrl
+        name = name
     )
 
 internal fun CharacterDetailsApiModel.toCharacterDetails() =

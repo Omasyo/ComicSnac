@@ -16,8 +16,8 @@ data class ConceptDetailsApiModel(
     @SerialName("first_appeared_in_issue") val firstAppearedInIssue: IssueApiModel,
     @SerialName("id") val id: Int,
     @SerialName("image") val image: ImageApiModel,
+    @SerialName("issue_credits") val issueCredits: List<IssueApiModel>,
     @SerialName("name") val name: String,
     @SerialName("site_detail_url") val siteDetailUrl: String,
-    @SerialName("start_year") val startYear: String,
     @SerialName("volume_credits") val volumeCredits: List<VolumeApiModel>,
 )

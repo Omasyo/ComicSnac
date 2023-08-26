@@ -32,4 +32,4 @@ class DefaultPowerNetworkSource @Inject constructor(
 private const val DetailsFieldList = "api_detail_url,characters,description,id,name,site_detail_url"
 
 private const val ListFieldList =
-    "api_detail_url,id,name,site_detail_url"
+    "api_detail_url,id,name"

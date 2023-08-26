@@ -22,8 +22,7 @@ internal fun VolumeListApiModel.toVolume() = Volume(
     deck = deck ?: "",
     id = id,
     imageUrl = image.smallUrl,
-    name = name,
-    siteDetailUrl = siteDetailUrl
+    name = name
 )
 
 internal fun VolumeDetailsApiModel.toVolumeDetails() =

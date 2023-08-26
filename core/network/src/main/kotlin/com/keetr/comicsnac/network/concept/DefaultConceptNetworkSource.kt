@@ -34,6 +34,7 @@ internal class DefaultConceptNetworkSource @Inject constructor(
 
 
 private const val DetailsFieldList = "aliases,api_detail_url,deck,description," +
-        "first_appeared_in_issue,id,image,name,site_detail_url,start_year,volume_credits"
+        "first_appeared_in_issue,id,image,issue_credits,name,site_detail_url,start_year," +
+        "volume_credits"
 
-private const val ListFieldList = "api_detail_url,deck,id,image,name,site_detail_url"
+private const val ListFieldList = "api_detail_url,deck,id,image,name"

@@ -37,4 +37,4 @@ private const val DetailsFieldList =
     "api_detail_url,birth,created_characters,death,deck,description,email,gender,hometown,id," +
             "image,name,site_detail_url,volume_credits,website"
 
-private const val ListFieldList = "api_detail_url,deck,id,image,name,site_detail_url"
+private const val ListFieldList = "api_detail_url,deck,id,image,name"

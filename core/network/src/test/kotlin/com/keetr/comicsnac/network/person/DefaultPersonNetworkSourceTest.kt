@@ -1,16 +1,12 @@
 package com.keetr.comicsnac.network.person
 
 import com.keetr.comicsnac.network.NetworkSourceTest
-import com.keetr.comicsnac.network.issue.DefaultIssueNetworkSource
-import com.keetr.comicsnac.network.issue.fake.AmazingSpidermanIssueResponse
-import com.keetr.comicsnac.network.issue.fake.RecentIssuesResponse
 import com.keetr.comicsnac.network.person.fake.PeopleResponse
 import com.keetr.comicsnac.network.person.fake.PersonResponse
 import io.ktor.client.request.HttpRequestData
 import kotlinx.coroutines.test.runTest
-import org.junit.Assert.*
+import org.junit.Assert.assertEquals
 import org.junit.Before
-
 import org.junit.Test
 import java.time.LocalDateTime
 

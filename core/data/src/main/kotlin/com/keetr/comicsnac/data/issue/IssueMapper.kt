@@ -23,7 +23,6 @@ internal fun IssueListApiModel.toIssue() = Issue(
     imageUrl = image.smallUrl,
     issueNumber = issueNumber,
     name = name ?: "",
-    siteDetailUrl = siteDetailUrl,
     volumeName = volume.name
 )
 

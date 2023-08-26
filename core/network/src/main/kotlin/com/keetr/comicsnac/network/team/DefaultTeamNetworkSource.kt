@@ -51,4 +51,4 @@ private const val DetailsFieldList =
     "aliases,api_detail_url,character_enemies,character_friends,characters,count_of_team_members,deck,description," +
             "first_appeared_in_issue,id,image,movies,name,publisher,site_detail_url,volume_credits"
 
-private const val ListFieldList = "api_detail_url,deck,id,image,name,site_detail_url"
+private const val ListFieldList = "api_detail_url,deck,id,image,name"

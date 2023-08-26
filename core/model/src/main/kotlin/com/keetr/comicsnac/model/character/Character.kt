@@ -5,6 +5,5 @@ data class Character(
     val deck: String,
     val id: Int,
     val imageUrl: String,
-    val name: String,
-    val siteDetailUrl: String
+    val name: String
 )

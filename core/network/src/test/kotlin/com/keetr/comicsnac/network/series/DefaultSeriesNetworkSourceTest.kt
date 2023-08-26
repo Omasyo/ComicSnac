@@ -1,16 +1,12 @@
 package com.keetr.comicsnac.network.series
 
 import com.keetr.comicsnac.network.NetworkSourceTest
-import com.keetr.comicsnac.network.movie.DefaultMovieNetworkSource
-import com.keetr.comicsnac.network.movie.fake.MovieDetailsResponse
-import com.keetr.comicsnac.network.movie.fake.MoviesResponse
 import com.keetr.comicsnac.network.series.fake.SeriesDetailsResponse
 import com.keetr.comicsnac.network.series.fake.SeriesResponse
 import io.ktor.client.request.HttpRequestData
 import kotlinx.coroutines.test.runTest
-import org.junit.Assert.*
+import org.junit.Assert.assertEquals
 import org.junit.Before
-
 import org.junit.Test
 
 class DefaultSeriesNetworkSourceTest: NetworkSourceTest<SeriesNetworkSource>() {

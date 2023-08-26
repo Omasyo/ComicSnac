@@ -7,6 +7,5 @@ data class Issue(
     val imageUrl: String,
     val issueNumber: String,
     val name: String,
-    val siteDetailUrl: String,
     val volumeName: String
 )

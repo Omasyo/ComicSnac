@@ -20,7 +20,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import androidx.core.text.HtmlCompat
 import androidx.paging.compose.LazyPagingItems
 import com.keetr.comicsnac.details.Domain
 import com.keetr.comicsnac.details.Error
@@ -35,24 +34,16 @@ import com.keetr.comicsnac.details.components.DetailsScreen
 import com.keetr.comicsnac.details.components.Image
 import com.keetr.comicsnac.details.components.Info
 import com.keetr.comicsnac.details.components.panels.charactersPanel
-import com.keetr.comicsnac.details.components.panels.enemiesPanel
-import com.keetr.comicsnac.details.components.panels.friendsPanel
-import com.keetr.comicsnac.details.components.panels.moviesPanel
-import com.keetr.comicsnac.details.components.panels.teamEnemiesPanel
-import com.keetr.comicsnac.details.components.panels.teamFriendsPanel
 import com.keetr.comicsnac.details.components.panels.teamsPanel
-import com.keetr.comicsnac.details.components.panels.volumesPanel
 import com.keetr.comicsnac.details.components.panels.webViewPanel
 import com.keetr.comicsnac.model.character.Character
-import com.keetr.comicsnac.model.issue.formatDate
+import com.keetr.comicsnac.model.formatDate
 import com.keetr.comicsnac.model.location.LocationBasic
 import com.keetr.comicsnac.model.`object`.ObjectBasic
 import com.keetr.comicsnac.model.storyarc.StoryArcBasic
 import com.keetr.comicsnac.model.team.Team
-import com.keetr.comicsnac.model.volume.VolumeBasic
 import com.keetr.comicsnac.ui.components.lazylist.animateScrollAndAlignItem
 import com.keetr.comicsnac.ui.components.webview.rememberAnnotatedString
-import com.keetr.comicsnac.ui.components.webview.toAnnotatedString
 import kotlinx.coroutines.launch
 import com.keetr.comicsnac.ui.R.string as CommonString
 

@@ -8,7 +8,6 @@ internal val Characters = List(30) {
         deck = "tation",
         id = it,
         imageUrl = "https://comicvine.gamespot.com/a/uploads/scale_small/11144/111442876/8759934-jrjrhr.jpg",
-        name = "Beatriz Coleman",
-        siteDetailUrl = "https://www.google.com/#q=fames"
+        name = "Beatriz Coleman"
     )
 }
