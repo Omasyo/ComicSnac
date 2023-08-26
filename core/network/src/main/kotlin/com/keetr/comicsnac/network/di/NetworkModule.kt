@@ -8,8 +8,12 @@ import com.keetr.comicsnac.network.concept.DefaultConceptNetworkSource
 import com.keetr.comicsnac.network.createClient
 import com.keetr.comicsnac.network.issue.DefaultIssueNetworkSource
 import com.keetr.comicsnac.network.issue.IssueNetworkSource
+import com.keetr.comicsnac.network.location.DefaultLocationNetworkSource
+import com.keetr.comicsnac.network.location.LocationNetworkSource
 import com.keetr.comicsnac.network.movie.DefaultMovieNetworkSource
 import com.keetr.comicsnac.network.movie.MovieNetworkSource
+import com.keetr.comicsnac.network.`object`.DefaultObjectNetworkSource
+import com.keetr.comicsnac.network.`object`.ObjectNetworkSource
 import com.keetr.comicsnac.network.person.DefaultPersonNetworkSource
 import com.keetr.comicsnac.network.person.PersonNetworkSource
 import com.keetr.comicsnac.network.power.DefaultPowerNetworkSource
@@ -67,8 +71,18 @@ private object NetworkModule {
 
     @Provides
     @Singleton
+    fun provideLocationNetworkSource(client: HttpClient): LocationNetworkSource =
+        DefaultLocationNetworkSource(client)
+
+    @Provides
+    @Singleton
     fun provideMovieNetworkSource(client: HttpClient): MovieNetworkSource =
         DefaultMovieNetworkSource(client)
+
+    @Provides
+    @Singleton
+    fun provideObjectNetworkSource(client: HttpClient): ObjectNetworkSource =
+        DefaultObjectNetworkSource(client)
 
     @Provides
     @Singleton
