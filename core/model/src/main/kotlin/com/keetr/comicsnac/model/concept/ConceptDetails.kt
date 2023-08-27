@@ -10,7 +10,7 @@ data class ConceptDetails(
     val firstAppearedInIssue: IssueBasic,
     val id: Int,
     val imageUrl: String,
-    val issuesId: String,
+    val issuesId: List<Int>,
     val name: String,
     val siteDetailUrl: String,
     val volumesId: List<Int>

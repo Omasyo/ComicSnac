@@ -1,7 +1,7 @@
 package com.keetr.comicsnac.data.issue
 
 import com.keetr.comicsnac.data.concept.toBasic
-import com.keetr.comicsnac.data.people.toCredits
+import com.keetr.comicsnac.data.person.toCredits
 import com.keetr.comicsnac.data.volume.toBasic
 import com.keetr.comicsnac.model.issue.Issue
 import com.keetr.comicsnac.model.issue.IssueBasic

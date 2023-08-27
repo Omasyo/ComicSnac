@@ -2,7 +2,7 @@ package com.keetr.comicsnac.data.character
 
 import com.keetr.comicsnac.data.issue.toIssueBasic
 import com.keetr.comicsnac.data.origin.toOriginBasic
-import com.keetr.comicsnac.data.people.toBasic
+import com.keetr.comicsnac.data.person.toBasic
 import com.keetr.comicsnac.data.power.toBasic
 import com.keetr.comicsnac.data.publisher.toPublisherBasic
 import com.keetr.comicsnac.model.character.Character
