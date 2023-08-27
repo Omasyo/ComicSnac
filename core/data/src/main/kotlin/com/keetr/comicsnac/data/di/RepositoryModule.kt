@@ -6,6 +6,8 @@ import com.keetr.comicsnac.data.issue.DefaultIssueRepository
 import com.keetr.comicsnac.data.issue.IssueRepository
 import com.keetr.comicsnac.data.power.DefaultPowerRepository
 import com.keetr.comicsnac.data.power.PowerRepository
+import com.keetr.comicsnac.data.search.DefaultSearchRepository
+import com.keetr.comicsnac.data.search.SearchRepository
 import com.keetr.comicsnac.data.team.DefaultTeamRepository
 import com.keetr.comicsnac.data.team.TeamRepository
 import com.keetr.comicsnac.data.volume.DefaultVolumeRepository
@@ -27,6 +29,9 @@ private interface RepositoryModule {
 
     @Binds
     fun bindPowerRepository(powerRepository: DefaultPowerRepository): PowerRepository
+
+    @Binds
+    fun bindSearchRepository(searchRepository: DefaultSearchRepository): SearchRepository
 
     @Binds
     fun bindTeamRepository(teamRepository: DefaultTeamRepository): TeamRepository
