@@ -20,6 +20,7 @@ val Typography = with(Typography()) {
         headlineSmall = headlineSmall.copy(fontFamily = Bangers),
         titleLarge = titleLarge.copy(fontFamily = Chewy),
         titleMedium = titleMedium.copy(fontFamily = Chewy),
-        bodyLarge = bodyLarge.copy(fontFamily = Chewy)
+        bodyLarge = bodyLarge.copy(fontFamily = Chewy),
+        labelMedium = labelMedium.copy(fontFamily = Bangers)
     )
 }

@@ -93,7 +93,7 @@ internal fun LazyItemScope.ImageCarousel(
                     model = ImageRequest.Builder(LocalContext.current)
                         .data(images[index].url).crossfade(true).build(),
                     contentDescription = images[index].description, //Add proper string resource
-                    contentScale = ContentScale.Crop,
+                    contentScale = if(imageExpanded) ContentScale.Fit else ContentScale.Crop,
                     modifier = Modifier
                         .shadow(
                             elevation = 16f.dp,

@@ -58,7 +58,7 @@ fun ComicCard(
         AsyncImage(
             model = ImageRequest.Builder(LocalContext.current)
                 .data(imageUrl).crossfade(true).build(),
-            contentDescription = contentDescription, //Add proper string resource
+            contentDescription = contentDescription,
             contentScale = ContentScale.Crop,
             modifier = Modifier.fillMaxSize()
         )

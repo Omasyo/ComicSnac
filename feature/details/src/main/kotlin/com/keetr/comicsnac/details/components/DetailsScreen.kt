@@ -40,6 +40,7 @@ import com.keetr.comicsnac.ui.components.lazylist.ComicListSeparator
 import com.keetr.comicsnac.ui.components.lazylist.PanelColors
 import com.keetr.comicsnac.ui.components.lazylist.PanelLazyListScope
 import com.keetr.comicsnac.ui.components.lazylist.PanelList
+import com.keetr.comicsnac.ui.theme.AppIcons
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
 import com.keetr.comicsnac.ui.R.string as CommonString
 
@@ -99,12 +100,12 @@ internal fun DetailsScreen(
                         ) { imageExpanded ->
                             if (imageExpanded) {
                                 Icon(
-                                    Icons.Default.Close,
+                                    AppIcons.Close,
                                     contentDescription = stringResource(CommonString.close_button_desc)
                                 )
                             } else {
                                 Icon(
-                                    Icons.Default.ArrowBack,
+                                    AppIcons.ArrowBack,
                                     contentDescription = stringResource(CommonString.back_button_desc)
                                 )
                             }
@@ -128,7 +129,7 @@ internal fun DetailsScreen(
                             contentAlignment = Alignment.Center
                         ) {
                             Icon(
-                                Icons.Default.Share,
+                                AppIcons.Share,
                                 contentDescription = stringResource(CommonString.share_button_desc)
                             )
                         }

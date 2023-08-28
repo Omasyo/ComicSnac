@@ -11,6 +11,7 @@ import androidx.compose.animation.scaleOut
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavGraphBuilder
@@ -30,6 +31,11 @@ fun NavGraphBuilder.homeRoute(
     onSeriesCategoryClicked: () -> Unit,
 ) = composable(
     route = HomeRoute.route,
+    enterTransition = {
+                      expandIn(
+                          expandFrom =Alignment.BottomCenter
+                      )
+    },
     exitTransition = { fadeOut() + scaleOut(targetScale = 0.9f) },
     popEnterTransition = { fadeIn() + scaleIn(initialScale = 0.9f) }
 ) {
