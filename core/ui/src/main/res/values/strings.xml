@@ -7,6 +7,10 @@
     <string name="series">Series</string>
     <string name="issue_image_desc">Cover image for issue %1$s of %2$s - %3$s</string>
     <string name="character_image_desc">Character image for %1$s</string>
+    <string name="concept_image_desc">Concept image for %1$s</string>
+    <string name="story_arc_image_desc">Story arc image for %1$s</string>
+    <string name="object_image_desc">Image of the %1$s</string>
+    <string name="location_image_desc">Image of the %1$s</string>
     <string name="gender">Gender</string>
     <string name="aliases">Aliases</string>
     <string name="powers">Powers</string>

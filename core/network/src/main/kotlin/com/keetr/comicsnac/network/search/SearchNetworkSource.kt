@@ -7,6 +7,7 @@ import com.keetr.comicsnac.network.search.models.SearchApiModel
 interface SearchNetworkSource : NetworkSource {
     suspend fun getSearchResults(
         query: String,
+        filter: String,
         pageSize: Int,
         offset: Int
     ): Result<ResponseApiModel<List<SearchApiModel>>>

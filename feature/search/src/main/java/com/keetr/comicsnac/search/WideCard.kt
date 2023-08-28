@@ -3,7 +3,6 @@ package com.keetr.comicsnac.search
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ColumnScope
@@ -24,13 +23,11 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
-import com.keetr.comicsnac.ui.R
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
 
 @Composable
@@ -41,10 +38,10 @@ fun WideCard(
     onClick: () -> Unit,
     imageUrl: String,
     type: String,
-    background: Color,
+    background: Color = MaterialTheme.colorScheme.secondary,
     imageDescription: String
 ) = WideCard(
-    modifier = modifier,
+    modifier = modifier.fillMaxWidth().height(200f.dp),
     name = name,
     onClick = onClick,
     imageUrl = imageUrl,
@@ -91,20 +88,10 @@ fun WideCard(
                 )
                 Spacer(Modifier.height(16f.dp))
                 Text(name, style = MaterialTheme.typography.titleLarge)
-//                    Info(name = stringResource(R.string.name), content = name)
-                //                    Info(name = stringResource(R.string.gender), content = )
                 content()
 
             }
         }
-    }
-}
-
-@Composable
-internal fun Info(name: String, content: String) {
-    Row(Modifier.fillMaxWidth()) {
-        Text("$name: ", style = MaterialTheme.typography.titleLarge)
-        Text(content, style = MaterialTheme.typography.titleLarge)
     }
 }
 

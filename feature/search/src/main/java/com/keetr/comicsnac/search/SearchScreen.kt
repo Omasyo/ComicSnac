@@ -1,9 +1,15 @@
 package com.keetr.comicsnac.search
 
+import android.util.Log
 import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.defaultMinSize
@@ -18,7 +24,7 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -27,24 +33,54 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.keetr.comicsnac.model.character.Character
+import com.keetr.comicsnac.model.concept.Concept
+import com.keetr.comicsnac.model.issue.Issue
+import com.keetr.comicsnac.model.location.Location
+import com.keetr.comicsnac.model.`object`.ObjectItem
+import com.keetr.comicsnac.model.search.SearchModel
+import com.keetr.comicsnac.model.search.SearchType
+import com.keetr.comicsnac.model.storyarc.StoryArc
+import com.keetr.comicsnac.model.volume.Volume
 import com.keetr.comicsnac.ui.theme.AppIcons
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
 
-@OptIn(ExperimentalMaterial3Api::class)
+@OptIn(ExperimentalMaterial3Api::class, ExperimentalLayoutApi::class)
 @Composable
 fun SearchScreen(
     modifier: Modifier = Modifier,
     query: String,
     onQueryChanged: (String) -> Unit,
     onItemClicked: (String) -> Unit,
+    filter: Set<SearchType>,
+    onFilterChange: (SearchType) -> Unit,
     onBackPressed: () -> Unit,
+    searchResults: List<SearchModel>
 ) {
     BottomSheetScaffold(
-        sheetContent = { },
+        sheetTonalElevation = 0f.dp,
+        sheetShadowElevation = 0f.dp,
+        sheetShape = RectangleShape,
+        sheetContent = {
+            FlowRow(
+                Modifier.padding(24f.dp),
+                verticalArrangement = Arrangement.spacedBy(8f.dp),
+                horizontalArrangement = Arrangement.spacedBy(8f.dp)
+            ) {
+                SearchType.entries.forEach { type ->
+                    SearchFilter(
+                        name = type.name,
+                        enabled = filter.contains(type),
+                        onStatusChange = { onFilterChange(type) }
+                    )
+                }
+            }
+        },
 //        sheetPeekHeight = 24f.dp,
         containerColor = MaterialTheme.colorScheme.tertiary,
     ) { innerPadding ->
@@ -83,22 +119,55 @@ fun SearchScreen(
                 contentPadding = PaddingValues(16f.dp),
                 verticalArrangement = Arrangement.spacedBy(16f.dp)
             ) {
-                items(20) {
-                    WideCard(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .height(200.dp),
-                        name = "Ernesto Crawford",
-                        description = "contentiones asdfsadf asdf asdfasd fasdf asdfas df asdf as df a sd fa sd fa sdg asdgsdfgdsg sdfg sdfgsdfg sdfgsdfgsd gfsdfg dsfgsdfgasdfgasdf sadfasdfasf ",
-                        imageUrl = "http://www.bing.com/search?q=aenean",
-                        imageDescription = "conclusionemque",
-                        type = "Character",
-                        background = MaterialTheme.colorScheme.secondary,
-                        onClick = {},
-                    )
+                items(searchResults.size) {
+                    when (val result = searchResults[it]) {
+                        is Character -> CharacterWideCard(
+                            character = result,
+                            onClick = onItemClicked
+                        )
+
+                        is Concept -> ConceptWideCard(concept = result, onClick = onItemClicked)
+                        is ObjectItem -> ObjectWideCard(
+                            objectItem = result,
+                            onClick = onItemClicked
+                        )
+
+                        is Location -> LocationWideCard(location = result, onClick = onItemClicked)
+                        is Issue -> IssueWideCard(issue = result, onClick = onItemClicked)
+                        is StoryArc -> StoryArcWideCard(storyArc = result, onClick = onItemClicked)
+                        is Volume -> VolumeWideCard(volume = result, onClick = onItemClicked)
+                        else -> throw NotImplementedError("Unknown type $result")
+                    }
                 }
             }
         }
+    }
+}
+
+@Composable
+private fun SearchFilter(
+    name: String,
+    enabled: Boolean,
+    onStatusChange: (Boolean) -> Unit
+) {
+    with(MaterialTheme.colorScheme) {
+        val containerColor by animateColorAsState(
+            if (enabled) onSurface else secondary,
+            label = "search_filter_container"
+        )
+        val contentColor by animateColorAsState(
+            if (enabled) secondary else onSurface,
+            label = "search_filter_content"
+        )
+        Text(
+            text = name,
+            color = contentColor,
+            modifier = Modifier
+                .clickable { onStatusChange(!enabled) }
+                .border(4f.dp, outline, RectangleShape)
+                .background(containerColor)
+                .padding(horizontal = 16f.dp, vertical = 8f.dp)
+        )
     }
 }
 
@@ -109,8 +178,28 @@ private fun Preview() {
         var query by remember {
             mutableStateOf("")
         }
-        SearchScreen(query = query, onQueryChanged = { query = it }, onItemClicked = {}) {
-
+        var filter by remember {
+            mutableStateOf(setOf(SearchType.Character, SearchType.Concept))
         }
+        SearchScreen(
+            query = query,
+            onQueryChanged = { query = it },
+            onItemClicked = {},
+            filter = filter,
+            onFilterChange = {
+                filter = if (filter.contains(it)) filter - it else filter + it
+            },
+            onBackPressed = {},
+            searchResults = List(30) {
+                Character(
+                    apiDetailUrl = "https://search.yahoo.com/search?p=solet",
+                    deck = "sententiae",
+                    id = 2909,
+                    imageUrl = "https://www.google.com/#q=nonumes",
+                    name = "Berta Shelton"
+                )
+            }
+
+        )
     }
 }

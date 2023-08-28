@@ -3,24 +3,24 @@ package com.keetr.comicsnac.search
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
-import com.keetr.comicsnac.model.character.Character
 import com.keetr.comicsnac.model.search.SearchType
+import com.keetr.comicsnac.model.storyarc.StoryArc
 import com.keetr.comicsnac.ui.R
 
 
 @Composable
-fun CharacterWideCard(
+fun StoryArcWideCard(
     modifier: Modifier = Modifier,
-    character: Character,
+    storyArc: StoryArc,
     onClick: (String) -> Unit
-) = with(character) {
+) = with(storyArc) {
     WideCard(
         modifier = modifier,
         name = name,
         description = deck,
         onClick = { onClick(apiDetailUrl) },
         imageUrl = imageUrl,
-        imageDescription = stringResource(R.string.character_image_desc, name),
-        type = SearchType.Character.name,
+        imageDescription = stringResource(R.string.story_arc_image_desc, name),
+        type = SearchType.StoryArc.name,
     )
 }
