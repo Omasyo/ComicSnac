@@ -1,17 +1,24 @@
 package com.keetr.comicsnac.home
 
 import androidx.compose.animation.AnimatedContent
+import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.animateContentSize
+import androidx.compose.animation.scaleIn
+import androidx.compose.animation.scaleOut
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.material3.Icon
 import androidx.compose.material3.LocalContentColor
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -20,6 +27,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -32,12 +41,14 @@ import com.keetr.comicsnac.ui.components.lazylist.PanelList
 import com.keetr.comicsnac.ui.components.placeholders.ErrorPlaceholder
 import com.keetr.comicsnac.ui.components.placeholders.InDevelopmentPlaceholder
 import com.keetr.comicsnac.ui.components.placeholders.LoadingPlaceholder
+import com.keetr.comicsnac.ui.theme.AppIcons
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
 
 @Composable
 internal fun HomeScreen(
     modifier: Modifier = Modifier,
     onItemClicked: (apiDetailUrl: String) -> Unit,
+    onSearchClicked: () -> Unit,
     onMoreCategoriesClicked: () -> Unit,
     onCharacterCategoryClicked: () -> Unit,
     onVolumeCategoryClicked: () -> Unit,
@@ -54,13 +65,33 @@ internal fun HomeScreen(
         CompositionLocalProvider(LocalContentColor provides MaterialTheme.colorScheme.onSurface) {
             PanelList(contentPadding = padding) {
                 panel {
-                    Text(
-                        "Comic Snac",
-                        style = MaterialTheme.typography.headlineLarge,
+                    Row(
                         modifier = Modifier
-                            .fillMaxWidth()
                             .padding(16f.dp, 8f.dp)
-                    )
+                            .fillMaxWidth(),
+                        horizontalArrangement = Arrangement.SpaceBetween,
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        Text(
+                            "Comic Snac",
+                            style = MaterialTheme.typography.headlineLarge,
+                        )
+                        Box(
+                            Modifier
+                                .shadow(elevation = 8f.dp)
+                                .size(48f.dp)
+                                .clip(CircleShape)
+                                .clickable { onSearchClicked() }
+                                .background(MaterialTheme.colorScheme.tertiary),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Icon(
+                                AppIcons.Share,
+                                contentDescription = stringResource(R.string.share_button_desc)
+                            )
+                        }
+
+                    }
                 }
                 panelSeparator()
 
@@ -122,7 +153,7 @@ internal fun HomeScreen(
                         uiState = volumesUiState,
                         key = { it.id },
                         onExpand = onVolumeCategoryClicked
-                    ) {volume ->
+                    ) { volume ->
                         ComicCard(modifier = Modifier
                             .size(136f.dp, 224.dp)
                             .padding(horizontal = 4f.dp),
@@ -195,6 +226,7 @@ private fun Preview() {
         ) {
             HomeScreen(
                 onItemClicked = {},
+                onSearchClicked = {},
                 onMoreCategoriesClicked = { },
                 onCharacterCategoryClicked = { },
                 onVolumeCategoryClicked = { },

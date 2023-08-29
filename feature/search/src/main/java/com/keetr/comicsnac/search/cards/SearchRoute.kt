@@ -1,6 +1,7 @@
 package com.keetr.comicsnac.search.cards
 
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
@@ -38,10 +39,12 @@ fun SearchRoute(
         modifier = modifier,
         query = viewModel.query,
         onQueryChanged = viewModel::onQueryChanged,
+        searchEmpty = viewModel.submittedQuery.collectAsState().value.isBlank(),
         filter = viewModel.filters,
         onFilterChange = viewModel::onFilterChange,
         onItemClicked = onItemClicked,
         onSearch = viewModel::onSearch,
+        onClear = viewModel::clearQuery,
         onBackPressed = onBackPressed,
         searchResults = viewModel.searchResults.collectAsLazyPagingItems()
     )

@@ -15,10 +15,9 @@ import com.keetr.comicsnac.model.search.SearchType
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.combine
-import kotlinx.coroutines.flow.flatMapConcat
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.emptyFlow
 import kotlinx.coroutines.flow.flatMapLatest
-import kotlinx.coroutines.flow.flattenConcat
 import javax.inject.Inject
 
 @HiltViewModel
@@ -33,11 +32,15 @@ class SearchViewModel @Inject constructor(
     fun onQueryChanged(newValue: String) {
         query = newValue
     }
+    fun clearQuery() {
+        query = ""
+    }
 
-    private val submittedQuery = MutableStateFlow("")
+    private val _submittedQuery = MutableStateFlow("")
+    val submittedQuery  = _submittedQuery.asStateFlow()
     fun onSearch(query: String) {
         Log.d("TAG", "SearchScreen: $query Search clicked")
-        submittedQuery.value = query
+        _submittedQuery.value = query
     }
 
     private val filtersFlow = MutableStateFlow(SearchType.entries.toSet())
@@ -48,9 +51,11 @@ class SearchViewModel @Inject constructor(
     }
 
     @OptIn(ExperimentalCoroutinesApi::class)
-    val searchResults = submittedQuery.flatMapLatest { searchQuery ->
-        filtersFlow.flatMapLatest { filter ->
-            searchRepository.getSearchResults(searchQuery, filter)
-        }.cachedIn(viewModelScope)
+    val searchResults = _submittedQuery.flatMapLatest { searchQuery ->
+        if (searchQuery.isEmpty()) emptyFlow()
+        else
+            filtersFlow.flatMapLatest { filter ->
+                searchRepository.getSearchResults(searchQuery, filter)
+            }.cachedIn(viewModelScope)
     }
 }

@@ -8,14 +8,19 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.defaultMinSize
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.imePadding
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyHorizontalGrid
@@ -70,15 +75,17 @@ fun SearchScreen(
     modifier: Modifier = Modifier,
     query: String,
     onQueryChanged: (String) -> Unit,
+    searchEmpty: Boolean,
     filter: Set<SearchType>,
     onFilterChange: (SearchType) -> Unit,
     onItemClicked: (String) -> Unit,
     onSearch: (String) -> Unit,
+    onClear: () -> Unit,
     onBackPressed: () -> Unit,
     searchResults: LazyPagingItems<SearchModel>
 ) {
     BottomSheetScaffold(
-        modifier = modifier,
+        modifier = modifier.imePadding(),
         sheetTonalElevation = 0f.dp,
         sheetShadowElevation = 0f.dp,
         sheetShape = RectangleShape,
@@ -104,6 +111,7 @@ fun SearchScreen(
             Row(
                 Modifier
                     .background(MaterialTheme.colorScheme.primary)
+                    .statusBarsPadding()
                     .fillMaxWidth()
                     .defaultMinSize(minHeight = 64f.dp)
                     .padding(horizontal = 12f.dp),
@@ -131,72 +139,88 @@ fun SearchScreen(
                     cursorBrush = SolidColor(MaterialTheme.colorScheme.onSurface),
                 )
                 AnimatedVisibility(query.isNotEmpty()) {
-                    IconButton(onClick = { /*TODO*/ }) {
+                    IconButton(onClick = onClear) {
                         Icon(AppIcons.Close, null)
                     }
                 }
             }
-            AnimatedContent(
-                targetState = searchResults.loadState.refresh,
-                label = "Category Carousel"
-            ) { refreshState ->
-                when (refreshState) {
-                    is LoadState.Error -> ErrorPlaceholder {
-                        searchResults.refresh()
-                    }
+            AnimatedContent(searchEmpty, label = "Search content", modifier = Modifier.weight(1f)) { searchEmpty ->
+                if (searchEmpty) Box(
+                    modifier
+                        .fillMaxSize()
+                ) {
+                    Text(
+                        "What would you like to know?",
+                        style = MaterialTheme.typography.headlineLarge,
+                        modifier = Modifier.align(Alignment.Center)
+                    )
+                }
+                else
+                    AnimatedContent(
+                        targetState = searchResults.loadState.refresh,
+                        label = "Search content"
+                    ) { refreshState ->
+                        when (refreshState) {
+                            is LoadState.Error -> ErrorPlaceholder {
+                                searchResults.refresh()
+                            }
 
-                    LoadState.Loading -> LoadingPlaceholder()
-                    is LoadState.NotLoading -> {
-                        LazyColumn(
-                            contentPadding = PaddingValues(16f.dp),
-                            verticalArrangement = Arrangement.spacedBy(16f.dp)
-                        ) {
-                            items(searchResults.itemCount /* TODO key = searchResults.itemKey {  }*/) {
-                                when (val result = searchResults[it]) {
-                                    is Character -> CharacterWideCard(
-                                        character = result,
-                                        onClick = onItemClicked
-                                    )
+                            LoadState.Loading -> LoadingPlaceholder()
+                            is LoadState.NotLoading -> {
+                                LazyColumn(
+                                    contentPadding = PaddingValues(16f.dp),
+                                    verticalArrangement = Arrangement.spacedBy(16f.dp)
+                                ) {
+                                    items(searchResults.itemCount /* TODO key = searchResults.itemKey {  }*/) {
+                                        when (val result = searchResults[it]) {
+                                            is Character -> CharacterWideCard(
+                                                character = result,
+                                                onClick = onItemClicked
+                                            )
 
-                                    is Concept -> ConceptWideCard(
-                                        concept = result,
-                                        onClick = onItemClicked
-                                    )
+                                            is Concept -> ConceptWideCard(
+                                                concept = result,
+                                                onClick = onItemClicked
+                                            )
 
-                                    is ObjectItem -> ObjectWideCard(
-                                        objectItem = result,
-                                        onClick = onItemClicked
-                                    )
+                                            is ObjectItem -> ObjectWideCard(
+                                                objectItem = result,
+                                                onClick = onItemClicked
+                                            )
 
-                                    is Location -> LocationWideCard(
-                                        location = result,
-                                        onClick = onItemClicked
-                                    )
+                                            is Location -> LocationWideCard(
+                                                location = result,
+                                                onClick = onItemClicked
+                                            )
 
-                                    is Issue -> IssueWideCard(
-                                        issue = result,
-                                        onClick = onItemClicked
-                                    )
+                                            is Issue -> IssueWideCard(
+                                                issue = result,
+                                                onClick = onItemClicked
+                                            )
 
-                                    is StoryArc -> StoryArcWideCard(
-                                        storyArc = result,
-                                        onClick = onItemClicked
-                                    )
+                                            is StoryArc -> StoryArcWideCard(
+                                                storyArc = result,
+                                                onClick = onItemClicked
+                                            )
 
-                                    is Volume -> VolumeWideCard(
-                                        volume = result,
-                                        onClick = onItemClicked
-                                    )
+                                            is Volume -> VolumeWideCard(
+                                                volume = result,
+                                                onClick = onItemClicked
+                                            )
 
-                                    else -> throw NotImplementedError("Unknown type $result")
+                                            else -> throw NotImplementedError("Unknown type $result")
+                                        }
+                                    }
+                                    if (searchResults.loadState.append == LoadState.Loading) {
+                                        item {
+                                            LoadingPlaceholder(Modifier.height(64f.dp))
+                                        }
+                                    }
                                 }
                             }
                         }
+
                     }
-                }
-//            if (items.loadState.append == LoadState.Loading) {
-//
-//            }
             }
         }
     }

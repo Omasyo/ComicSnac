@@ -32,6 +32,7 @@ import com.keetr.comicsnac.details.issue.issueRoute
 import com.keetr.comicsnac.details.team.teamRoute
 import com.keetr.comicsnac.home.HomeRoute
 import com.keetr.comicsnac.home.homeRoute
+import com.keetr.comicsnac.search.cards.navigateToSearch
 import com.keetr.comicsnac.search.cards.searchRoute
 import com.keetr.comicsnac.ui.components.placeholders.InDevelopmentPlaceholder
 
@@ -43,7 +44,7 @@ fun AppNavHost(
     NavHost(
         modifier = modifier,
         navController = navController,
-        startDestination = "search"
+        startDestination = HomeRoute.route
     ) {
         val onBackPressed: () -> Unit = { navController.popBackStack() }
         val onItemClicked = { guid: String ->
@@ -59,6 +60,7 @@ fun AppNavHost(
 
         homeRoute(
             onItemClicked = onItemClicked,
+            onSearchClicked = { navController.navigateToSearch() },
             onMoreCategoriesClicked = {},
             onCharacterCategoryClicked = {},
             onVolumeCategoryClicked = {},

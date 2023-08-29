@@ -24,6 +24,7 @@ object HomeRoute : NavigationRoute("/")
 fun NavGraphBuilder.homeRoute(
     modifier: Modifier = Modifier,
     onItemClicked: (apiDetailUrl: String) -> Unit,
+    onSearchClicked: () -> Unit,
     onMoreCategoriesClicked: () -> Unit,
     onCharacterCategoryClicked: () -> Unit,
     onVolumeCategoryClicked: () -> Unit,
@@ -42,6 +43,7 @@ fun NavGraphBuilder.homeRoute(
     HomeRoute(
         modifier = modifier,
         onItemClicked = onItemClicked,
+        onSearchClicked = onSearchClicked,
         onMoreCategoriesClicked = onMoreCategoriesClicked,
         onCharacterCategoryClicked = onCharacterCategoryClicked,
         onVolumeCategoryClicked = onVolumeCategoryClicked,
@@ -55,6 +57,7 @@ fun NavGraphBuilder.homeRoute(
 private fun HomeRoute(
     modifier: Modifier = Modifier,
     onItemClicked: (apiDetailUrl: String) -> Unit,
+    onSearchClicked: () -> Unit,
     onMoreCategoriesClicked: () -> Unit,
     onCharacterCategoryClicked: () -> Unit,
     onVolumeCategoryClicked: () -> Unit,
@@ -65,6 +68,7 @@ private fun HomeRoute(
     HomeScreen(
         modifier = modifier,
         onItemClicked = onItemClicked,
+        onSearchClicked = onSearchClicked,
         onMoreCategoriesClicked = onMoreCategoriesClicked,
         onCharacterCategoryClicked = onCharacterCategoryClicked,
         onVolumeCategoryClicked = onVolumeCategoryClicked,
