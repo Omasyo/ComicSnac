@@ -32,6 +32,7 @@ import com.keetr.comicsnac.details.issue.issueRoute
 import com.keetr.comicsnac.details.team.teamRoute
 import com.keetr.comicsnac.home.HomeRoute
 import com.keetr.comicsnac.home.homeRoute
+import com.keetr.comicsnac.search.cards.searchRoute
 import com.keetr.comicsnac.ui.components.placeholders.InDevelopmentPlaceholder
 
 @Composable
@@ -42,7 +43,7 @@ fun AppNavHost(
     NavHost(
         modifier = modifier,
         navController = navController,
-        startDestination = HomeRoute.route
+        startDestination = "search"
     ) {
         val onBackPressed: () -> Unit = { navController.popBackStack() }
         val onItemClicked = { guid: String ->
@@ -51,7 +52,7 @@ fun AppNavHost(
                     Uri.parse(guid)
                 )
             } catch (e: IllegalArgumentException) {
-                Log.e("AppNavHost", "AppNavHost: ${e.message}", )
+                Log.e("AppNavHost", "AppNavHost: ${e.message}")
                 navController.navigate("error")
             }
         }
@@ -63,6 +64,11 @@ fun AppNavHost(
             onVolumeCategoryClicked = {},
             onMovieCategoryClicked = {},
             onSeriesCategoryClicked = {}
+        )
+
+        searchRoute(
+            onItemClicked = onItemClicked,
+            onBackPressed = onBackPressed
         )
 
         characterRoute(

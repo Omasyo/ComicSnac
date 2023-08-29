@@ -1,4 +1,4 @@
-package com.keetr.comicsnac.search
+package com.keetr.comicsnac.search.cards
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border

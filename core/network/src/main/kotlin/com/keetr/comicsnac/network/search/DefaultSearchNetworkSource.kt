@@ -1,5 +1,6 @@
 package com.keetr.comicsnac.network.search
 
+import android.util.Log
 import com.keetr.comicsnac.network.common.models.ResponseApiModel
 import com.keetr.comicsnac.network.makeRequest
 import com.keetr.comicsnac.network.search.models.SearchApiModel
@@ -17,6 +18,7 @@ internal class DefaultSearchNetworkSource @Inject constructor(
         pageSize: Int,
         offset: Int
     ): Result<ResponseApiModel<List<SearchApiModel>>> = makeRequest {
+        Log.d("SearchSource", "getSearchResults: $offset")
         client.get("search") {
             parameter("resources", filter)
             parameter("query", query)

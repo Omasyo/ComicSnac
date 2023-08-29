@@ -58,8 +58,9 @@ dependencies {
     
     implementation(project(":core:model"))
     implementation(project(":core:ui"))
-    implementation(project(":feature:home"))
     implementation(project(":feature:details"))
+    implementation(project(":feature:home"))
+    implementation(project(":feature:search"))
 
     implementation(libs.accompanist.webview)
     implementation(libs.androidx.navigation.compose)

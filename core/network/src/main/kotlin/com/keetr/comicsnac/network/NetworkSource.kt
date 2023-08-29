@@ -8,11 +8,11 @@ import io.ktor.client.statement.bodyAsText
 import io.ktor.client.statement.request
 import io.ktor.http.HttpStatusCode
 
-object InvalidApiException : Throwable()
-object ObjectNotFoundException : Throwable()
-object InvalidUrlFormatException : Throwable()
-object InvalidFilterException : Throwable()
-object TimeoutException : Throwable()
+object InvalidApiException : Exception()
+object ObjectNotFoundException : Exception()
+object InvalidUrlFormatException : Exception()
+object InvalidFilterException : Exception()
+object TimeoutException : Exception()
 
 
 interface NetworkSource {

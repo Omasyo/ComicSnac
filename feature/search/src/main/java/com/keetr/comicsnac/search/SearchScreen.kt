@@ -1,6 +1,7 @@
 package com.keetr.comicsnac.search
 
 import android.util.Log
+import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.background
@@ -14,10 +15,12 @@ import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.defaultMinSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.grid.GridCells
+import androidx.compose.foundation.lazy.grid.LazyHorizontalGrid
 import androidx.compose.foundation.text.BasicTextField
+import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.BottomSheetScaffold
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -32,12 +35,14 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.paging.LoadState
+import androidx.paging.compose.LazyPagingItems
+import androidx.paging.compose.itemKey
 import com.keetr.comicsnac.model.character.Character
 import com.keetr.comicsnac.model.concept.Concept
 import com.keetr.comicsnac.model.issue.Issue
@@ -47,6 +52,15 @@ import com.keetr.comicsnac.model.search.SearchModel
 import com.keetr.comicsnac.model.search.SearchType
 import com.keetr.comicsnac.model.storyarc.StoryArc
 import com.keetr.comicsnac.model.volume.Volume
+import com.keetr.comicsnac.search.cards.CharacterWideCard
+import com.keetr.comicsnac.search.cards.ConceptWideCard
+import com.keetr.comicsnac.search.cards.IssueWideCard
+import com.keetr.comicsnac.search.cards.LocationWideCard
+import com.keetr.comicsnac.search.cards.ObjectWideCard
+import com.keetr.comicsnac.search.cards.StoryArcWideCard
+import com.keetr.comicsnac.search.cards.VolumeWideCard
+import com.keetr.comicsnac.ui.components.placeholders.ErrorPlaceholder
+import com.keetr.comicsnac.ui.components.placeholders.LoadingPlaceholder
 import com.keetr.comicsnac.ui.theme.AppIcons
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
 
@@ -56,13 +70,15 @@ fun SearchScreen(
     modifier: Modifier = Modifier,
     query: String,
     onQueryChanged: (String) -> Unit,
-    onItemClicked: (String) -> Unit,
     filter: Set<SearchType>,
     onFilterChange: (SearchType) -> Unit,
+    onItemClicked: (String) -> Unit,
+    onSearch: (String) -> Unit,
     onBackPressed: () -> Unit,
-    searchResults: List<SearchModel>
+    searchResults: LazyPagingItems<SearchModel>
 ) {
     BottomSheetScaffold(
+        modifier = modifier,
         sheetTonalElevation = 0f.dp,
         sheetShadowElevation = 0f.dp,
         sheetShape = RectangleShape,
@@ -106,6 +122,11 @@ fun SearchScreen(
                         .padding(horizontal = 8f.dp)
                         .weight(1f),
                     keyboardOptions = KeyboardOptions(imeAction = ImeAction.Search),
+                    keyboardActions = KeyboardActions(
+                        onSearch = {
+                            onSearch(query)
+                        }
+                    ),
                     singleLine = true,
                     cursorBrush = SolidColor(MaterialTheme.colorScheme.onSurface),
                 )
@@ -115,30 +136,67 @@ fun SearchScreen(
                     }
                 }
             }
-            LazyColumn(
-                contentPadding = PaddingValues(16f.dp),
-                verticalArrangement = Arrangement.spacedBy(16f.dp)
-            ) {
-                items(searchResults.size) {
-                    when (val result = searchResults[it]) {
-                        is Character -> CharacterWideCard(
-                            character = result,
-                            onClick = onItemClicked
-                        )
+            AnimatedContent(
+                targetState = searchResults.loadState.refresh,
+                label = "Category Carousel"
+            ) { refreshState ->
+                when (refreshState) {
+                    is LoadState.Error -> ErrorPlaceholder {
+                        searchResults.refresh()
+                    }
 
-                        is Concept -> ConceptWideCard(concept = result, onClick = onItemClicked)
-                        is ObjectItem -> ObjectWideCard(
-                            objectItem = result,
-                            onClick = onItemClicked
-                        )
+                    LoadState.Loading -> LoadingPlaceholder()
+                    is LoadState.NotLoading -> {
+                        LazyColumn(
+                            contentPadding = PaddingValues(16f.dp),
+                            verticalArrangement = Arrangement.spacedBy(16f.dp)
+                        ) {
+                            items(searchResults.itemCount /* TODO key = searchResults.itemKey {  }*/) {
+                                when (val result = searchResults[it]) {
+                                    is Character -> CharacterWideCard(
+                                        character = result,
+                                        onClick = onItemClicked
+                                    )
 
-                        is Location -> LocationWideCard(location = result, onClick = onItemClicked)
-                        is Issue -> IssueWideCard(issue = result, onClick = onItemClicked)
-                        is StoryArc -> StoryArcWideCard(storyArc = result, onClick = onItemClicked)
-                        is Volume -> VolumeWideCard(volume = result, onClick = onItemClicked)
-                        else -> throw NotImplementedError("Unknown type $result")
+                                    is Concept -> ConceptWideCard(
+                                        concept = result,
+                                        onClick = onItemClicked
+                                    )
+
+                                    is ObjectItem -> ObjectWideCard(
+                                        objectItem = result,
+                                        onClick = onItemClicked
+                                    )
+
+                                    is Location -> LocationWideCard(
+                                        location = result,
+                                        onClick = onItemClicked
+                                    )
+
+                                    is Issue -> IssueWideCard(
+                                        issue = result,
+                                        onClick = onItemClicked
+                                    )
+
+                                    is StoryArc -> StoryArcWideCard(
+                                        storyArc = result,
+                                        onClick = onItemClicked
+                                    )
+
+                                    is Volume -> VolumeWideCard(
+                                        volume = result,
+                                        onClick = onItemClicked
+                                    )
+
+                                    else -> throw NotImplementedError("Unknown type $result")
+                                }
+                            }
+                        }
                     }
                 }
+//            if (items.loadState.append == LoadState.Loading) {
+//
+//            }
             }
         }
     }
@@ -171,35 +229,36 @@ private fun SearchFilter(
     }
 }
 
-@Preview
-@Composable
-private fun Preview() {
-    ComicSnacTheme {
-        var query by remember {
-            mutableStateOf("")
-        }
-        var filter by remember {
-            mutableStateOf(setOf(SearchType.Character, SearchType.Concept))
-        }
-        SearchScreen(
-            query = query,
-            onQueryChanged = { query = it },
-            onItemClicked = {},
-            filter = filter,
-            onFilterChange = {
-                filter = if (filter.contains(it)) filter - it else filter + it
-            },
-            onBackPressed = {},
-            searchResults = List(30) {
-                Character(
-                    apiDetailUrl = "https://search.yahoo.com/search?p=solet",
-                    deck = "sententiae",
-                    id = 2909,
-                    imageUrl = "https://www.google.com/#q=nonumes",
-                    name = "Berta Shelton"
-                )
-            }
 
-        )
-    }
-}
+//@Preview
+//@Composable
+//private fun Preview() {
+//    ComicSnacTheme {
+//        var query by remember {
+//            mutableStateOf("")
+//        }
+//        var filter by remember {
+//            mutableStateOf(setOf(SearchType.Character, SearchType.Concept))
+//        }
+//        SearchScreen(
+//            query = query,
+//            onQueryChanged = { query = it },
+//            onItemClicked = {},
+//            filter = filter,
+//            onFilterChange = {
+//                filter = if (filter.contains(it)) filter - it else filter + it
+//            },
+//            onBackPressed = {},
+//            searchResults = List(30) {
+//                Character(
+//                    apiDetailUrl = "https://search.yahoo.com/search?p=solet",
+//                    deck = "sententiae",
+//                    id = 2909,
+//                    imageUrl = "https://www.google.com/#q=nonumes",
+//                    name = "Berta Shelton"
+//                )
+//            }
+//
+//        )
+//    }
+//}

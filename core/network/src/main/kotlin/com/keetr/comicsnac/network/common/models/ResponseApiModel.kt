@@ -12,6 +12,6 @@ data class ResponseApiModel<T>(
     @SerialName("number_of_total_results") val numberOfTotalResults: Int,
     @SerialName("offset") val offset: Int,
     @SerialName("results") val results: T,
-    @SerialName("status_code") val statusCode: Int,
-    @SerialName("version") val version: String
+    @SerialName("status_code") val statusCode: Int
+//    @SerialName("version") val version: String
 )

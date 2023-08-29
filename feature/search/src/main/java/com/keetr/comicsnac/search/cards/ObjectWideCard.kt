@@ -1,26 +1,26 @@
-package com.keetr.comicsnac.search
+package com.keetr.comicsnac.search.cards
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
-import com.keetr.comicsnac.model.concept.Concept
+import com.keetr.comicsnac.model.`object`.ObjectItem
 import com.keetr.comicsnac.model.search.SearchType
 import com.keetr.comicsnac.ui.R
 
 
 @Composable
-fun ConceptWideCard(
+fun ObjectWideCard(
     modifier: Modifier = Modifier,
-    concept: Concept,
+    objectItem: ObjectItem,
     onClick: (String) -> Unit
-) = with(concept) {
+) = with(objectItem) {
     WideCard(
         modifier = modifier,
         name = name,
         description = deck,
         onClick = { onClick(apiDetailUrl) },
         imageUrl = imageUrl,
-        imageDescription = stringResource(R.string.concept_image_desc, name),
-        type = SearchType.Concept.name,
+        imageDescription = stringResource(R.string.object_image_desc, name),
+        type = SearchType.Object.name,
     )
 }
