@@ -1,4 +1,4 @@
-package com.keetr.comicsnac.details.team
+package com.keetr.comicsnac.details.`object`
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.clickable
@@ -25,6 +25,7 @@ import com.keetr.comicsnac.details.CharacterDetailsUiState
 import com.keetr.comicsnac.details.Domain
 import com.keetr.comicsnac.details.Error
 import com.keetr.comicsnac.details.Loading
+import com.keetr.comicsnac.details.ObjectDetailsUiState
 import com.keetr.comicsnac.details.R
 import com.keetr.comicsnac.details.Success
 import com.keetr.comicsnac.details.TeamDetailsUiState
@@ -59,16 +60,11 @@ import kotlinx.coroutines.launch
 import com.keetr.comicsnac.ui.R.string as CommonString
 
 @Composable
-internal fun TeamDetailsScreen(
+internal fun ObjectDetailsScreen(
     modifier: Modifier = Modifier,
     onItemClicked: (fullId: String) -> Unit,
     onBackPressed: () -> Unit,
-    detailsUiState: TeamDetailsUiState,
-    characterFriends: LazyPagingItems<Character>,
-    characterEnemies: LazyPagingItems<Character>,
-    characters: LazyPagingItems<Character>,
-    movies: LazyPagingItems<Movie>,
-    volumes: LazyPagingItems<Volume>
+    detailsUiState: ObjectDetailsUiState
 ) {
     when (detailsUiState) {
         is Error -> {
@@ -124,7 +120,7 @@ internal fun TeamDetailsScreen(
                     modifier = modifier,
                     images = listOf(
                         Image(
-                            imageUrl, stringResource(CommonString.character_image_desc)
+                            imageUrl, stringResource(CommonString.object_image_desc)
                         ),
                     ),
                     lazyListState = state,
@@ -171,76 +167,15 @@ internal fun TeamDetailsScreen(
                                 onItemClicked(firstAppearedInIssue.apiDetailUrl)
                             }
                             Info(
-                                name = stringResource(R.string.no_of_members),
-                                content = countOfMembers.toString()
+                                name = stringResource(R.string.issue_appearances),
+                                content = countOfIssueAppearances.toString()
                             )
-                            publisher?.let {
-                                Info(name = stringResource(R.string.publisher), content = it.name) {
-                                    onItemClicked(it.apiDetailUrl)
-                                }
-                            }
                         }
-                    }
-
-                    if (charactersId.isNotEmpty()) {
-                        panelSeparator()
-
-                        charactersPanel(
-                            R.string.members,
-                            characters,
-                            ::expandedProviderCallback,
-                            ::onExpand,
-                            onItemClicked
-                        )
-                    }
-
-                    if (characterFriendsId.isNotEmpty()) {
-                        panelSeparator()
-
-                        friendsPanel(
-                            characterFriends,
-                            ::expandedProviderCallback,
-                            ::onExpand,
-                            onItemClicked
-                        )
-                    }
-
-                    if (characterEnemiesId.isNotEmpty()) {
-                        panelSeparator()
-
-                        enemiesPanel(
-                            characterEnemies,
-                            ::expandedProviderCallback,
-                            ::onExpand,
-                            onItemClicked
-                        )
                     }
 
                     if (description.isNotBlank()) {
                         webViewPanel(
                             annotatedString,
-                            ::expandedProviderCallback,
-                            ::onExpand,
-                            onItemClicked
-                        )
-                    } else if (volumeCreditsId.isNotEmpty()) {
-                        panelSeparator()
-                    }
-
-                    if (volumeCreditsId.isNotEmpty()) {
-                        volumesPanel(
-                            volumes,
-                            ::expandedProviderCallback,
-                            ::onExpand,
-                            onItemClicked
-                        )
-                    }
-
-                    if (moviesId.isNotEmpty()) {
-                        panelSeparator()
-
-                        moviesPanel(
-                            movies,
                             ::expandedProviderCallback,
                             ::onExpand,
                             onItemClicked

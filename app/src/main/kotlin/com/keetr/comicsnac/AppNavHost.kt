@@ -28,6 +28,7 @@ import com.keetr.comicsnac.categories.categoriesRoute
 import com.keetr.comicsnac.categories.navigateToCategories
 import com.keetr.comicsnac.details.character.characterRoute
 import com.keetr.comicsnac.details.issue.issueRoute
+import com.keetr.comicsnac.details.`object`.objectRoute
 import com.keetr.comicsnac.details.team.teamRoute
 import com.keetr.comicsnac.home.HomeRoute
 import com.keetr.comicsnac.home.homeRoute
@@ -83,6 +84,11 @@ fun AppNavHost(
         )
 
         teamRoute(
+            onItemClicked = onItemClicked,
+            onBackPressed = onBackPressed
+        )
+
+        objectRoute(
             onItemClicked = onItemClicked,
             onBackPressed = onBackPressed
         )
