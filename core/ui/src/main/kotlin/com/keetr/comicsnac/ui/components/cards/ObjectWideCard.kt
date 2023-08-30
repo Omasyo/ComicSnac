@@ -1,4 +1,4 @@
-package com.keetr.comicsnac.search.cards
+package com.keetr.comicsnac.ui.components.cards
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier

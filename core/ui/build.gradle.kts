@@ -8,5 +8,7 @@ android {
 }
 
 dependencies {
+    implementation(project(":core:model"))
+
     implementation(libs.accompanist.webview)
 }

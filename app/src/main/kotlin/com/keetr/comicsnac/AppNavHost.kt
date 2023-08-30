@@ -12,7 +12,6 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -20,9 +19,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.input.pointer.PointerIcon.Companion.Text
 import androidx.compose.ui.unit.dp
-import androidx.navigation.NavController
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -32,8 +29,8 @@ import com.keetr.comicsnac.details.issue.issueRoute
 import com.keetr.comicsnac.details.team.teamRoute
 import com.keetr.comicsnac.home.HomeRoute
 import com.keetr.comicsnac.home.homeRoute
-import com.keetr.comicsnac.search.cards.navigateToSearch
-import com.keetr.comicsnac.search.cards.searchRoute
+import com.keetr.comicsnac.search.navigateToSearch
+import com.keetr.comicsnac.search.searchRoute
 import com.keetr.comicsnac.ui.components.placeholders.InDevelopmentPlaceholder
 
 @Composable

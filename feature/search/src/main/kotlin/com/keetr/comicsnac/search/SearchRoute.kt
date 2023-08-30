@@ -1,4 +1,4 @@
-package com.keetr.comicsnac.search.cards
+package com.keetr.comicsnac.search
 
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.spring
@@ -15,8 +15,6 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
 import androidx.paging.compose.collectAsLazyPagingItems
 import com.keetr.comicsnac.model.NavigationRoute
-import com.keetr.comicsnac.search.SearchScreen
-import com.keetr.comicsnac.search.SearchViewModel
 
 private object SearchRoute : NavigationRoute("search")
 
