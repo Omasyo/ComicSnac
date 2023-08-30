@@ -15,6 +15,7 @@ import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
@@ -82,13 +83,13 @@ internal fun TeamDetailsScreen(
         is Success -> {
             val scope = rememberCoroutineScope()
 
-            var imageExpanded by remember {
+            var imageExpanded by rememberSaveable {
                 mutableStateOf(false)
             }
 
 
             val state = rememberLazyListState()
-            var expandedIndex by remember {
+            var expandedIndex by rememberSaveable {
                 mutableIntStateOf(-1)
             }
             val canScroll = expandedIndex < 0 && !imageExpanded

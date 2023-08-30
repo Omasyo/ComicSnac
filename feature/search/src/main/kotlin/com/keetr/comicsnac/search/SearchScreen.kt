@@ -85,7 +85,7 @@ fun SearchScreen(
     searchResults: LazyPagingItems<SearchModel>
 ) {
     BottomSheetScaffold(
-        modifier = modifier.imePadding(),
+        modifier = modifier,
         sheetTonalElevation = 0f.dp,
         sheetShadowElevation = 0f.dp,
         sheetShape = RectangleShape,
