@@ -16,10 +16,11 @@ dependencyResolutionManagement {
 
 rootProject.name = "Comic Snac"
 include(":app")
-include(":core:ui")
-include(":core:network")
-include(":core:model")
-include(":feature:home")
 include(":core:data")
+include(":core:model")
+include(":core:network")
+include(":core:ui")
+include(":feature:categories")
 include(":feature:details")
+include(":feature:home")
 include(":feature:search")

@@ -24,6 +24,8 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.keetr.comicsnac.categories.categoriesRoute
+import com.keetr.comicsnac.categories.navigateToCategories
 import com.keetr.comicsnac.details.character.characterRoute
 import com.keetr.comicsnac.details.issue.issueRoute
 import com.keetr.comicsnac.details.team.teamRoute
@@ -58,7 +60,7 @@ fun AppNavHost(
         homeRoute(
             onItemClicked = onItemClicked,
             onSearchClicked = { navController.navigateToSearch() },
-            onMoreCategoriesClicked = {},
+            onMoreCategoriesClicked = { navController.navigateToCategories() },
             onCharacterCategoryClicked = {},
             onVolumeCategoryClicked = {},
             onMovieCategoryClicked = {},
@@ -83,6 +85,25 @@ fun AppNavHost(
         teamRoute(
             onItemClicked = onItemClicked,
             onBackPressed = onBackPressed
+        )
+
+        categoriesRoute(
+            onCharactersClicked = {},
+            onConceptsClicked = {},
+            onEpisodesClicked = {},
+            onIssuesClicked = {},
+            onLocationsClicked = {},
+            onMoviesClicked = {},
+            onObjectsClicked = {},
+            onOriginsClicked = {},
+            onPeopleClicked = {},
+            onPowersClicked = {},
+            onPublishersClicked = {},
+            onSeriesClicked = {},
+            onStoryArcsClicked = {},
+            onTeamsClicked = {},
+            onVolumesClicked = {},
+            onBackPressed = {}
         )
 
         composable(
