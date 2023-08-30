@@ -1,4 +1,4 @@
-package com.keetr.comicsnac.details.`object`
+package com.keetr.comicsnac.details.volume
 
 import androidx.compose.animation.AnimatedContentScope
 import androidx.compose.animation.AnimatedContentTransitionScope
@@ -24,19 +24,19 @@ import com.keetr.comicsnac.details.Arg
 import com.keetr.comicsnac.details.DetailsNavigationRoute
 import com.keetr.comicsnac.details.detailsComposable
 
-private object ObjectRoute : DetailsNavigationRoute("object", "4055") {
+private object VolumeRoute : DetailsNavigationRoute("volume", "4050") {
     override val requiredArguments: List<String> = listOf(Arg)
 }
 
-fun NavGraphBuilder.objectRoute(
+fun NavGraphBuilder.volumeRoute(
     modifier: Modifier = Modifier,
     onItemClicked: (fullId: String) -> Unit,
     onBackPressed: () -> Unit,
 ) = detailsComposable(
-    route = ObjectRoute.route,
-    deepLinks = ObjectRoute.deepLinks
+    route = VolumeRoute.route,
+    deepLinks = VolumeRoute.deepLinks
 ) {
-    ObjectRoute(
+    VolumeRoute(
         modifier = modifier,
         onItemClicked = onItemClicked,
         onBackPressed = onBackPressed
@@ -44,16 +44,17 @@ fun NavGraphBuilder.objectRoute(
 }
 
 @Composable
-private fun ObjectRoute(
+private fun VolumeRoute(
     modifier: Modifier = Modifier,
     onItemClicked: (fullId: String) -> Unit,
     onBackPressed: () -> Unit,
-    viewModel: ObjectViewModel = hiltViewModel()
+    viewModel: VolumeViewModel = hiltViewModel()
 ) {
-    ObjectDetailsScreen(
+    VolumeDetailsScreen(
         modifier = modifier,
         onItemClicked = onItemClicked,
         onBackPressed = onBackPressed,
-        detailsUiState = viewModel.detailsUiState.collectAsState().value
+        detailsUiState = viewModel.detailsUiState.collectAsState().value,
+        issues = viewModel.issues.collectAsLazyPagingItems()
     )
 }

@@ -6,6 +6,7 @@ import com.keetr.comicsnac.model.character.CharacterDetails
 import com.keetr.comicsnac.model.issue.IssueDetails
 import com.keetr.comicsnac.model.`object`.ObjectDetails
 import com.keetr.comicsnac.model.team.TeamDetails
+import com.keetr.comicsnac.model.volume.VolumeDetails
 
 
 internal sealed interface DetailsUiState<out T>
@@ -24,3 +25,5 @@ internal typealias IssueDetailsUiState = DetailsUiState<IssueDetails>
 internal typealias ObjectDetailsUiState = DetailsUiState<ObjectDetails>
 
 internal typealias TeamDetailsUiState = DetailsUiState<TeamDetails>
+
+internal typealias VolumeDetailsUiState = DetailsUiState<VolumeDetails>

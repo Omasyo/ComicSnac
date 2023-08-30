@@ -6,13 +6,14 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.paging.compose.LazyPagingItems
 import com.keetr.comicsnac.details.components.DetailsGrid
+import com.keetr.comicsnac.model.issue.Issue
 import com.keetr.comicsnac.model.volume.Volume
 import com.keetr.comicsnac.ui.R
 import com.keetr.comicsnac.ui.components.cards.PlainCard
 import com.keetr.comicsnac.ui.components.lazylist.PanelLazyListScope
 
-internal fun PanelLazyListScope.volumesPanel(
-    items: LazyPagingItems<Volume>,
+internal fun PanelLazyListScope.issuesPanel(
+    items: LazyPagingItems<Issue>,
     expandedProvider: (Int) -> Boolean,
     onToggleExpand: (Int) -> Unit,
     onItemClicked: (String) -> Unit
@@ -27,15 +28,15 @@ internal fun PanelLazyListScope.volumesPanel(
                 onToggleExpand(index)
             },
             key = { it.id }
-        ) { volume ->
+        ) { issue ->
             PlainCard(
                 modifier = Modifier.width(136f.dp),
-                name = volume.name,
-                imageUrl = volume.imageUrl,
+                name = issue.name,
+                imageUrl = issue.imageUrl,
                 contentDescription = stringResource(
-                    R.string.volume_image_desc, volume.name
+                    R.string.volume_image_desc, issue.issueNumber, issue.volumeName, issue.name
                 ),
-                onClick = { onItemClicked(volume.apiDetailUrl) })
+                onClick = { onItemClicked(issue.apiDetailUrl) })
         }
     }
 }

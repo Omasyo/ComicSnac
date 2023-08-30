@@ -101,6 +101,7 @@ internal fun LazyItemScope.ImageCarousel(
                             spotColor = MaterialTheme.colorScheme.onSurface
                         )
                         .drawWithContent {
+                            drawRect(Color.Black)
                             drawContent()
                             drawRect(
                                 overlay.copy(

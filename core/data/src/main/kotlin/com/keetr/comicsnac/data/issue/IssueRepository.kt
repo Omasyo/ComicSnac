@@ -14,5 +14,5 @@ interface IssueRepository {
 
     fun getAllIssues(sort: Sort): Flow<PagingData<Issue>>
 
-    fun getIssuesWithId(issuesId: List<Int>, sort: Sort): Flow<PagingData<Issue>>
+    fun getIssuesWithId(issuesId: List<Int>, sort: Sort = Sort.Descending): Flow<PagingData<Issue>>
 }

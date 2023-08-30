@@ -1,7 +1,6 @@
-package com.keetr.comicsnac.details.`object`
+package com.keetr.comicsnac.details.volume
 
 import androidx.activity.compose.BackHandler
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -13,59 +12,39 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import androidx.core.text.HtmlCompat
 import androidx.paging.compose.LazyPagingItems
-import com.keetr.comicsnac.details.CharacterDetailsUiState
 import com.keetr.comicsnac.details.Domain
 import com.keetr.comicsnac.details.Error
 import com.keetr.comicsnac.details.Loading
-import com.keetr.comicsnac.details.ObjectDetailsUiState
 import com.keetr.comicsnac.details.R
 import com.keetr.comicsnac.details.Success
-import com.keetr.comicsnac.details.TeamDetailsUiState
+import com.keetr.comicsnac.details.VolumeDetailsUiState
 import com.keetr.comicsnac.details.components.DetailsErrorPlaceholder
-import com.keetr.comicsnac.details.components.DetailsFlow
 import com.keetr.comicsnac.details.components.DetailsLoadingPlaceholder
 import com.keetr.comicsnac.details.components.DetailsScreen
 import com.keetr.comicsnac.details.components.Image
 import com.keetr.comicsnac.details.components.Info
-import com.keetr.comicsnac.details.components.panels.charactersPanel
-import com.keetr.comicsnac.details.components.panels.enemiesPanel
-import com.keetr.comicsnac.details.components.panels.friendsPanel
-import com.keetr.comicsnac.details.components.panels.moviesPanel
-import com.keetr.comicsnac.details.components.panels.teamEnemiesPanel
-import com.keetr.comicsnac.details.components.panels.teamFriendsPanel
-import com.keetr.comicsnac.details.components.panels.teamsPanel
-import com.keetr.comicsnac.details.components.panels.volumesPanel
+import com.keetr.comicsnac.details.components.panels.issuesPanel
 import com.keetr.comicsnac.details.components.panels.webViewPanel
-import com.keetr.comicsnac.model.character.Character
-import com.keetr.comicsnac.model.character.CharacterDetails
-import com.keetr.comicsnac.model.issue.IssueBasic
-import com.keetr.comicsnac.model.movie.Movie
-import com.keetr.comicsnac.model.origin.OriginBasic
-import com.keetr.comicsnac.model.other.Gender
-import com.keetr.comicsnac.model.power.PowerBasic
-import com.keetr.comicsnac.model.team.Team
-import com.keetr.comicsnac.model.volume.Volume
+import com.keetr.comicsnac.model.issue.Issue
 import com.keetr.comicsnac.ui.components.lazylist.animateScrollAndAlignItem
 import com.keetr.comicsnac.ui.components.webview.rememberAnnotatedString
-import com.keetr.comicsnac.ui.components.webview.toAnnotatedString
 import kotlinx.coroutines.launch
 import com.keetr.comicsnac.ui.R.string as CommonString
 
 @Composable
-internal fun ObjectDetailsScreen(
+internal fun VolumeDetailsScreen(
     modifier: Modifier = Modifier,
     onItemClicked: (fullId: String) -> Unit,
     onBackPressed: () -> Unit,
-    detailsUiState: ObjectDetailsUiState
+    detailsUiState: VolumeDetailsUiState,
+    issues: LazyPagingItems<Issue>
 ) {
     when (detailsUiState) {
         is Error -> {
@@ -82,7 +61,6 @@ internal fun ObjectDetailsScreen(
             var imageExpanded by rememberSaveable {
                 mutableStateOf(false)
             }
-
 
             val state = rememberLazyListState()
             var expandedIndex by rememberSaveable {
@@ -120,9 +98,7 @@ internal fun ObjectDetailsScreen(
                 DetailsScreen(
                     modifier = modifier,
                     images = listOf(
-                        Image(
-                            imageUrl, stringResource(CommonString.object_image_desc)
-                        ),
+                        Image(imageUrl, stringResource(CommonString.issue_image_desc))
                     ),
                     lazyListState = state,
                     userScrollEnabled = canScroll,
@@ -155,25 +131,31 @@ internal fun ObjectDetailsScreen(
                                 .padding(horizontal = 16f.dp, vertical = 4f.dp),
                             verticalArrangement = Arrangement.spacedBy(4f.dp)
                         ) {
-                            if (aliases.isNotEmpty()) {
+                            if (startYear.isNotBlank()) Info(
+                                name = stringResource(R.string.start_year),
+                                content = startYear
+                            )
+                            Info(
+                                name = stringResource(R.string.no_of_issues),
+                                content = countOfIssues.toString()
+                            )
+                            lastIssue?.let {
                                 Info(
-                                    name = stringResource(CommonString.aliases),
-                                    content = aliases.joinToString(", ")
-                                )
+                                    name = stringResource(R.string.most_recent_issue),
+                                    content = it.name
+                                ) { onItemClicked(it.apiDetailUrl) }
                             }
-                            firstAppearedInIssue?.let {
+                            firstIssue?.let {
                                 Info(
                                     name = stringResource(R.string.first_appeared_in_issue),
-                                    content = it.name.ifBlank { "Unknown name" }
-                                ) {
-                                    onItemClicked(it.apiDetailUrl)
-                                }
+                                    content = it.name
+                                ) { onItemClicked(it.apiDetailUrl) }
                             }
-                            if (countOfIssueAppearances > 0) {
+                            publisher?.let {
                                 Info(
-                                    name = stringResource(R.string.issue_appearances),
-                                    content = countOfIssueAppearances.toString()
-                                )
+                                    name = stringResource(R.string.publisher),
+                                    content = it.name
+                                ) { onItemClicked(it.apiDetailUrl) }
                             }
                         }
                     }
@@ -181,6 +163,19 @@ internal fun ObjectDetailsScreen(
                     if (description.isNotBlank()) {
                         webViewPanel(
                             annotatedString,
+                            ::expandedProviderCallback,
+                            ::onExpand,
+                            onItemClicked
+                        )
+                    } else if (issuesId.isNotEmpty()) {
+                        panelSeparator()
+                    }
+
+                    if (issuesId.isNotEmpty()) {
+                        panelSeparator()
+
+                        issuesPanel(
+                            issues,
                             ::expandedProviderCallback,
                             ::onExpand,
                             onItemClicked

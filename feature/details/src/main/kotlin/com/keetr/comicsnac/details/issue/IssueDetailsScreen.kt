@@ -113,7 +113,13 @@ internal fun IssueDetailsScreen(
                     modifier = modifier,
                     images = (listOf(imageUrl) + associatedImagesUrl).map {
                         Image(
-                            it, stringResource(CommonString.issue_image_desc)
+                            it,
+                            stringResource(
+                                CommonString.issue_image_desc,
+                                issueNumber,
+                                volume.name,
+                                name
+                            )
                         )
                     },
                     lazyListState = state,

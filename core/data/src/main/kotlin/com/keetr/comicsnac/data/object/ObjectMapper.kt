@@ -19,12 +19,12 @@ internal fun ObjectListApiModel.toObjectItem() = ObjectItem(
 
 internal fun ObjectDetailsApiModel.toObjectDetails() =
     ObjectDetails(
-        aliases = aliases.split("\n"),
+        aliases = aliases?.split("\n") ?: emptyList(),
         apiDetailUrl = apiDetailUrl,
         countOfIssueAppearances = countOfIssueAppearances,
         deck = deck ?: "",
         description = description ?: "",
-        firstAppearedInIssue = firstAppearedInIssue.toIssueBasic(),
+        firstAppearedInIssue = firstAppearedInIssue?.toIssueBasic(),
         id = id,
         imageUrl = image.smallUrl,
         name = name,

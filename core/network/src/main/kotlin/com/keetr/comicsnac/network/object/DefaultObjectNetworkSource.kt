@@ -14,7 +14,7 @@ internal class DefaultObjectNetworkSource @Inject constructor(
 ) : ObjectNetworkSource {
     override suspend fun getObjectDetails(id: String): Result<ObjectDetailsResponse> =
         makeRequest {
-            client.get("object/4020-$id") {
+            client.get("object/4055-$id") {
                 parameter("field_list", DetailsFieldList)
             }
         }
@@ -53,8 +53,8 @@ internal class DefaultObjectNetworkSource @Inject constructor(
     }
 }
 
-private const val DetailsFieldList = "aliases,api_detail_url,count_of_object_appearances,deck," +
-        "description,first_appeared_in_object,id,image,name,site_detail_url"
+private const val DetailsFieldList = "aliases,api_detail_url,count_of_issue_appearances,deck," +
+        "description,first_appeared_in_issue,id,image,name,site_detail_url"
 
 private const val ListFieldList =
     "api_detail_url,deck,id,image,name"

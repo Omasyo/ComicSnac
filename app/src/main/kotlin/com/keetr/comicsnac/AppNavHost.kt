@@ -30,6 +30,7 @@ import com.keetr.comicsnac.details.character.characterRoute
 import com.keetr.comicsnac.details.issue.issueRoute
 import com.keetr.comicsnac.details.`object`.objectRoute
 import com.keetr.comicsnac.details.team.teamRoute
+import com.keetr.comicsnac.details.volume.volumeRoute
 import com.keetr.comicsnac.home.HomeRoute
 import com.keetr.comicsnac.home.homeRoute
 import com.keetr.comicsnac.search.navigateToSearch
@@ -83,12 +84,17 @@ fun AppNavHost(
             onBackPressed = onBackPressed
         )
 
+        objectRoute(
+            onItemClicked = onItemClicked,
+            onBackPressed = onBackPressed
+        )
+
         teamRoute(
             onItemClicked = onItemClicked,
             onBackPressed = onBackPressed
         )
 
-        objectRoute(
+        volumeRoute(
             onItemClicked = onItemClicked,
             onBackPressed = onBackPressed
         )

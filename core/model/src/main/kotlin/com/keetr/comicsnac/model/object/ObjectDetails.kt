@@ -8,7 +8,7 @@ data class ObjectDetails(
     val countOfIssueAppearances: Int,
     val deck: String,
     val description: String,
-    val firstAppearedInIssue: IssueBasic,
+    val firstAppearedInIssue: IssueBasic?,
     val id: Int,
     val imageUrl: String,
     val name: String,
