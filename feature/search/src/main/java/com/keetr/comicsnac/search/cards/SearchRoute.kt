@@ -1,5 +1,11 @@
 package com.keetr.comicsnac.search.cards
 
+import androidx.compose.animation.core.Spring
+import androidx.compose.animation.core.spring
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.scaleIn
+import androidx.compose.animation.scaleOut
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
@@ -20,7 +26,16 @@ fun NavGraphBuilder.searchRoute(
     modifier: Modifier = Modifier,
     onItemClicked: (String) -> Unit,
     onBackPressed: () -> Unit
-) = composable(SearchRoute.route) {
+) = composable(
+    SearchRoute.route,
+    enterTransition = { fadeIn(spring()) + scaleIn(initialScale = 1.2f) },
+    popExitTransition = {
+        fadeOut(spring(stiffness = Spring.StiffnessMedium)) + scaleOut(
+            spring(stiffness = Spring.StiffnessMedium),
+            targetScale = 1.2f
+        )
+    }
+) {
     SearchRoute(
         modifier = modifier,
         onItemClicked = onItemClicked,

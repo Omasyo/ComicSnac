@@ -33,9 +33,9 @@ fun NavGraphBuilder.homeRoute(
 ) = composable(
     route = HomeRoute.route,
     enterTransition = {
-                      expandIn(
-                          expandFrom =Alignment.BottomCenter
-                      )
+        expandIn(
+            expandFrom = Alignment.BottomCenter
+        )
     },
     exitTransition = { fadeOut() + scaleOut(targetScale = 0.9f) },
     popEnterTransition = { fadeIn() + scaleIn(initialScale = 0.9f) }

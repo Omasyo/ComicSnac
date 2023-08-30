@@ -7,6 +7,7 @@ import com.keetr.comicsnac.network.makeRequest
 import io.ktor.client.HttpClient
 import io.ktor.client.request.get
 import io.ktor.client.request.parameter
+import java.time.LocalDate
 import javax.inject.Inject
 
 internal class DefaultIssueNetworkSource @Inject constructor(
@@ -49,9 +50,12 @@ internal class DefaultIssueNetworkSource @Inject constructor(
             if (sortCoverDate != Sort.None) parameter(
                 "sort", "cover_date:${sortCoverDate.format}"
             )
-            if (issuesId.isNotEmpty()) parameter(
-                "filter", "id:${issuesId.joinToString("|")}"
-            )
+
+            var filter = "cover_date:${LocalDate.now().minusDays(14)}|${LocalDate.now()}"
+
+            if (issuesId.isNotEmpty()) filter += "id:${issuesId.joinToString("|")}"
+
+            parameter("filter", filter)
         }
     }
 }

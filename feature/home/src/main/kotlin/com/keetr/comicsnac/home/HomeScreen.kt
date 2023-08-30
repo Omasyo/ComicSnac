@@ -37,6 +37,7 @@ import com.keetr.comicsnac.home.fake.Issues
 import com.keetr.comicsnac.ui.R
 import com.keetr.comicsnac.ui.components.lazylist.PanelColors
 import com.keetr.comicsnac.ui.components.cards.ComicCard
+import com.keetr.comicsnac.ui.components.cards.PlainCard
 import com.keetr.comicsnac.ui.components.lazylist.PanelList
 import com.keetr.comicsnac.ui.components.placeholders.ErrorPlaceholder
 import com.keetr.comicsnac.ui.components.placeholders.InDevelopmentPlaceholder
@@ -78,7 +79,6 @@ internal fun HomeScreen(
                         )
                         Box(
                             Modifier
-                                .shadow(elevation = 8f.dp)
                                 .size(48f.dp)
                                 .clip(CircleShape)
                                 .clickable { onSearchClicked() }
@@ -86,7 +86,7 @@ internal fun HomeScreen(
                             contentAlignment = Alignment.Center
                         ) {
                             Icon(
-                                AppIcons.Share,
+                                AppIcons.Search,
                                 contentDescription = stringResource(R.string.share_button_desc)
                             )
                         }
@@ -154,7 +154,7 @@ internal fun HomeScreen(
                         key = { it.id },
                         onExpand = onVolumeCategoryClicked
                     ) { volume ->
-                        ComicCard(modifier = Modifier
+                        PlainCard(modifier = Modifier
                             .size(136f.dp, 224.dp)
                             .padding(horizontal = 4f.dp),
                             name = volume.name,
@@ -201,7 +201,7 @@ internal fun HomeScreen(
                             .padding(bottom = 24f.dp)
                     ) {
                         Text(
-                            "More Categories",
+                            stringResource(com.keetr.comicsnac.home.R.string.more_categories),
                             style = MaterialTheme.typography.headlineSmall,
                             color = MaterialTheme.colorScheme.primaryContainer,
                             modifier = Modifier

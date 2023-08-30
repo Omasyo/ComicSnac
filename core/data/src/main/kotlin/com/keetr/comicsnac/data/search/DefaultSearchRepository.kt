@@ -43,7 +43,7 @@ internal class DefaultSearchRepository @Inject constructor(
         const val PageSize = 10
 
         private val pagingConfig = PagingConfig(
-            pageSize = DefaultCharacterRepository.PageSize, enablePlaceholders = false
+            pageSize = PageSize, enablePlaceholders = false
         )
     }
 }
