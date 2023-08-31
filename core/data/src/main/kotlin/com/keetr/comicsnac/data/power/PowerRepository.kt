@@ -8,7 +8,7 @@ import com.keetr.comicsnac.model.power.PowerDetails
 import kotlinx.coroutines.flow.Flow
 
 interface PowerRepository {
-    fun getPowerDetails(fullId: String): Flow<RepositoryResponse<PowerDetails>>
+    fun getPowerDetails(id: String): Flow<RepositoryResponse<PowerDetails>>
 
     fun getAllPowers(sort: Sort): Flow<PagingData<PowerBasic>>
 }

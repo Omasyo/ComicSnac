@@ -22,8 +22,8 @@ internal class DefaultPowerRepository @Inject constructor(
     private val networkSource: PowerNetworkSource,
     @IODispatcher private val dispatcher: CoroutineDispatcher
 ) : PowerRepository {
-    override fun getPowerDetails(fullId: String): Flow<RepositoryResponse<PowerDetails>> = flow {
-        emit(networkSource.getPowerDetails(fullId)
+    override fun getPowerDetails(id: String): Flow<RepositoryResponse<PowerDetails>> = flow {
+        emit(networkSource.getPowerDetails(id)
             .fold(onSuccess = { RepositoryResponse.Success(it.results.toPowerDetails()) }) {
                 fromNetworkError(it)
             })

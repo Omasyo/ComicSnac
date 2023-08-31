@@ -15,21 +15,21 @@ internal class DefaultPublisherNetworkSource @Inject constructor(
     private val client: HttpClient
 ) : PublisherNetworkSource {
 
-    override suspend fun getPublisherDetails(id: Int): Result<PublisherDetailsResponse> =
+    override suspend fun getPublisherDetails(id: String): Result<PublisherDetailsResponse> =
         makeRequest {
             client.get("publisher/4010-$id") {
                 parameter("field_list", DetailsFieldList)
             }
         }
 
-    override suspend fun getPublisherCharacters(id: Int): Result<PublisherCharactersResponse> =
+    override suspend fun getPublisherCharacters(id: String): Result<PublisherCharactersResponse> =
         makeRequest {
             client.get("publisher/4010-$id") {
                 parameter("field_list", "characters")
             }
         }
 
-    override suspend fun getPublisherVolumes(id: Int): Result<PublisherVolumesResponse> =
+    override suspend fun getPublisherVolumes(id: String): Result<PublisherVolumesResponse> =
         makeRequest {
             client.get("publisher/4010-$id") {
                 parameter("field_list", "volumes")
