@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     id("comicsnac.android.hilt")
+    alias(libs.plugins.androidx.baselineprofile)
 }
 
 android {
@@ -54,6 +55,8 @@ android {
 }
 
 dependencies {
+    implementation(libs.profileinstaller)
+    "baselineProfile"(project(":baselineprofile"))
     coreLibraryDesugaring(libs.android.tools.desugar)
     
     implementation(project(":core:model"))
