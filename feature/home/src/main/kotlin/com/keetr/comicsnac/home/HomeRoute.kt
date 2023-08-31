@@ -79,6 +79,6 @@ private fun HomeRoute(
         volumesUiState = viewModel.volumeUiState.collectAsState().value,
         moviesUiState = InDevelopment,
         seriesUiState = InDevelopment,
-        publishersUiState = InDevelopment
+        publishersUiState = viewModel.publishersUiState.collectAsState().value
     )
 }

@@ -13,5 +13,7 @@ interface PublisherRepository {
 
     fun getPublisherVolumesId(id: String): Flow<RepositoryResponse<List<Int>>>
 
+    fun getPopularPublishers(): Flow<RepositoryResponse<List<Publisher>>>
+
     fun getAllPublishers(): Flow<PagingData<Publisher>>
 }

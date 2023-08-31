@@ -84,7 +84,7 @@ internal fun LazyItemScope.ImageCarousel(
                         }
                     }
                     .then(imageModifier)
-                    .clickable { onImageClicked() }
+                    .clickable(!imageExpanded) { onImageClicked() }
                     .align(Alignment.Center)
             ) {
                 val overlay = MaterialTheme.colorScheme.surfaceVariant

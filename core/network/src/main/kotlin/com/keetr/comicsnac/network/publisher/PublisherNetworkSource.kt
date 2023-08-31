@@ -13,6 +13,12 @@ interface PublisherNetworkSource : NetworkSource {
 
     suspend fun getPublisherVolumes(id: String): Result<PublisherVolumesResponse>
 
+    suspend fun getPublishersWithId(
+        pageSize: Int,
+        offset: Int,
+        publisherId: List<Int>,
+    ): Result<PublisherListResponse>
+
     suspend fun getAllPublishers(
         pageSize: Int,
         offset: Int

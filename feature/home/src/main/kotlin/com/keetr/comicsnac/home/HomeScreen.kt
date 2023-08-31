@@ -195,6 +195,37 @@ internal fun HomeScreen(
                 panelSeparator()
 
                 panel {
+                    Column(
+                        Modifier.fillMaxWidth(),
+                        horizontalAlignment = Alignment.CenterHorizontally,
+                    ) {
+                        Text(
+                            stringResource(com.keetr.comicsnac.home.R.string.popular_publishers),
+                            style = MaterialTheme.typography.titleLarge,
+                            modifier = Modifier.padding(top = 4f.dp)
+                        )
+                        AnimatedContent(
+                            targetState = publishersUiState,
+                            modifier = Modifier.animateContentSize(),
+                            label = "Publishers Carousel"
+                        ) { uiState ->
+                            when (uiState) {
+                                is Error -> ErrorPlaceholder(Modifier.height(336f.dp))
+                                InDevelopment -> InDevelopmentPlaceholder(Modifier.height(336f.dp))
+                                Loading -> LoadingPlaceholder(Modifier.height(336f.dp))
+                                is Success -> {
+                                    PublisherCarousel(
+                                        issues = uiState.contents, onIssueClick = onItemClicked
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+
+                panelSeparator()
+
+                panel {
                     Box(
                         Modifier
                             .fillMaxWidth()

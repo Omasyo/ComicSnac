@@ -11,7 +11,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.pager.HorizontalPager
-import androidx.compose.foundation.pager.PageSize
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -20,43 +19,31 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.draw.drawWithContent
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
-import androidx.compose.ui.graphics.painter.ColorPainter
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.unit.Density
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.util.lerp
 import androidx.compose.ui.zIndex
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
-import com.keetr.comicsnac.home.fake.Issues
-import com.keetr.comicsnac.model.issue.Issue
+import com.keetr.comicsnac.model.publisher.Publisher
 import com.keetr.comicsnac.ui.R
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
 import kotlinx.coroutines.launch
 import kotlin.math.absoluteValue
 
 @OptIn(ExperimentalFoundationApi::class)
-internal object CustomPageSize : PageSize {
-    override fun Density.calculateMainAxisPageSize(availableSpace: Int, pageSpacing: Int): Int {
-        return if (availableSpace > 2000) availableSpace / 5 else availableSpace / 3
-    }
-
-}
-
-@OptIn(ExperimentalFoundationApi::class)
 @Composable
-fun IssueCarousel(
-    modifier: Modifier = Modifier, issues: List<Issue>, onIssueClick: (apiUrl: String) -> Unit
+fun PublisherCarousel(
+    modifier: Modifier = Modifier, issues: List<Publisher>, onIssueClick: (apiUrl: String) -> Unit
 ) {
     val pagerState =
         rememberPagerState(issues.size * (Int.MAX_VALUE / (2 * issues.size)) - 1) { Int.MAX_VALUE }
@@ -88,7 +75,7 @@ fun IssueCarousel(
                         .padding(top = 48f.dp)
                         .shadow(lerp(2f, 6f, 1f - pageOffset).dp)
                         .fillMaxWidth(0.85f)
-                        .aspectRatio(11f / 17f)
+                        .aspectRatio(1f)
                 ) {
                     val overlay = MaterialTheme.colorScheme.surfaceVariant
                     AsyncImage(
@@ -96,16 +83,14 @@ fun IssueCarousel(
                             .crossfade(true).build(),
 
                         contentDescription = stringResource(
-                            R.string.issue_image_desc,
-                            issueNumber,
-                            volumeName,
+                            R.string.publisher_image_desc,
                             name
                         ),
-//                        placeholder = ,
-                        contentScale = ContentScale.Crop,
+                        contentScale = ContentScale.Fit,
                         modifier = Modifier
                             .padding(1f.dp)
                             .drawWithContent {
+                                drawRect(Color.Black, Offset.Zero, size)
                                 drawContent()
                                 drawRect(
                                     overlay.copy(
@@ -151,7 +136,15 @@ fun IssueCarousel(
 private fun Preview() {
     ComicSnacTheme {
         Surface(Modifier.fillMaxSize()) {
-            IssueCarousel(issues = Issues) { }
+            PublisherCarousel(issues = List(10) {
+                Publisher(
+                    apiDetailUrl = "http://www.bing.com/search?q=ne",
+                    deck = "petentium",
+                    id = 8235,
+                    imageUrl = "https://search.yahoo.com/search?p=alia",
+                    name = "Vonda Norris"
+                )
+            }) { }
         }
     }
 }

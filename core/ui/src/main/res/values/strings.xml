@@ -32,4 +32,5 @@
     <string name="people">People</string>
     <string name="publishers">Publishers</string>
     <string name="story_arcs">Story Arcs</string>
+    <string name="publisher_image_desc">Image of the %1$s logo</string>
 </resources>

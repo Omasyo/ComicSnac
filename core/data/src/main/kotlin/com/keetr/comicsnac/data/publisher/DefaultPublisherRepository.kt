@@ -29,21 +29,27 @@ internal class DefaultPublisherRepository @Inject constructor(
                 })
         }.flowOn(dispatcher)
 
-    override fun getPublisherCharactersId(id: String): Flow<RepositoryResponse<List<Int>>> =
-        flow {
-            emit(networkSource.getPublisherCharacters(id)
-                .fold(onSuccess = { RepositoryResponse.Success(it.results.characters.map { character -> character.id }) }) {
-                    fromNetworkError(it)
-                })
-        }.flowOn(dispatcher)
+    override fun getPublisherCharactersId(id: String): Flow<RepositoryResponse<List<Int>>> = flow {
+        emit(networkSource.getPublisherCharacters(id)
+            .fold(onSuccess = { RepositoryResponse.Success(it.results.characters.map { character -> character.id }) }) {
+                fromNetworkError(it)
+            })
+    }.flowOn(dispatcher)
 
-    override fun getPublisherVolumesId(id: String): Flow<RepositoryResponse<List<Int>>> =
-        flow {
-            emit(networkSource.getPublisherVolumes(id)
-                .fold(onSuccess = { RepositoryResponse.Success(it.results.volumes.map { volume -> volume.id }) }) {
-                    fromNetworkError(it)
-                })
-        }.flowOn(dispatcher)
+    override fun getPublisherVolumesId(id: String): Flow<RepositoryResponse<List<Int>>> = flow {
+        emit(networkSource.getPublisherVolumes(id)
+            .fold(onSuccess = { RepositoryResponse.Success(it.results.volumes.map { volume -> volume.id }) }) {
+                fromNetworkError(it)
+            })
+    }.flowOn(dispatcher)
+
+    override fun getPopularPublishers(): Flow<RepositoryResponse<List<Publisher>>> = flow {
+        emit(networkSource.getPublishersWithId(
+            100, 0, listOf(31, 10, 513, 364, 1190, 485, 1859, 6583, 1868, 101)
+        ).fold(onSuccess = { RepositoryResponse.Success(it.results.toPublishers()) }) {
+            fromNetworkError(it)
+        })
+    }.flowOn(dispatcher)
 
     override fun getAllPublishers(): Flow<PagingData<Publisher>> = Pager(
         config = pagingConfig
@@ -51,8 +57,7 @@ internal class DefaultPublisherRepository @Inject constructor(
         CustomPagingSource(
             provider = { page ->
                 networkSource.getAllPublishers(
-                    PageSize,
-                    PageSize * page
+                    PageSize, PageSize * page
                 ).getOrThrow().results
             }, mapper = List<PublisherListApiModel>::toPublishers
         )

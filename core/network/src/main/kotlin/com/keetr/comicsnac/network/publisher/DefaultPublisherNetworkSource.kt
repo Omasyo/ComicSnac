@@ -36,11 +36,25 @@ internal class DefaultPublisherNetworkSource @Inject constructor(
             }
         }
 
+    override suspend fun getPublishersWithId(
+        pageSize: Int,
+        offset: Int,
+        publisherId: List<Int>
+    ): Result<PublisherListResponse> = makeRequest {
+        client.get("publishers") {
+            parameter("field_list", ListFieldList)
+            parameter("limit", pageSize)
+            parameter("offset", offset)
+            parameter("sort", "date_last_updated:${Sort.Descending.format}")
+            parameter("filter", "id:${publisherId.joinToString("|")}")
+        }
+    }
+
     override suspend fun getAllPublishers(
         pageSize: Int,
         offset: Int
     ): Result<PublisherListResponse> = makeRequest {
-        client.get("issues") {
+        client.get("publishers") {
             parameter("field_list", ListFieldList)
             parameter("limit", pageSize)
             parameter("offset", offset)

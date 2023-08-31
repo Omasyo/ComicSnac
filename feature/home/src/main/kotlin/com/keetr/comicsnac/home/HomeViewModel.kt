@@ -5,6 +5,7 @@ import androidx.lifecycle.viewModelScope
 import com.keetr.comicsnac.data.character.CharacterRepository
 import com.keetr.comicsnac.data.RepositoryResponse
 import com.keetr.comicsnac.data.issue.IssueRepository
+import com.keetr.comicsnac.data.publisher.PublisherRepository
 import com.keetr.comicsnac.data.volume.VolumeRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.Flow
@@ -20,7 +21,8 @@ import javax.inject.Inject
 internal class HomeViewModel @Inject constructor(
     characterRepository: CharacterRepository,
     issueRepository: IssueRepository,
-    volumeRepository: VolumeRepository
+    volumeRepository: VolumeRepository,
+    publisherRepository: PublisherRepository
 ) : ViewModel() {
 
     val charactersUiState =
@@ -31,6 +33,9 @@ internal class HomeViewModel @Inject constructor(
 
     val volumeUiState =
         volumeRepository.getRecentVolumes().map(::getCategoryState).stateInCurrentScope()
+
+    val publishersUiState =
+        publisherRepository.getPopularPublishers().map(::getCategoryState).stateInCurrentScope()
 
     private fun <T> getCategoryState(response: RepositoryResponse<List<T>>) =
         when (response) {
