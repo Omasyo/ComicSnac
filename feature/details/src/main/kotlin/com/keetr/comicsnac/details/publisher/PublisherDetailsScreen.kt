@@ -150,28 +150,24 @@ internal fun PublisherDetailsScreen(
                         }
                     }
 
-//                    if (characters.itemSnapshotList.isNotEmpty()) {
-                        panelSeparator()
+                    panelSeparator()
 
-                        charactersPanel(
-                            CommonString.characters,
-                            characters,
-                            ::expandedProviderCallback,
-                            ::onExpand,
-                            onItemClicked
-                        )
-//                    }
+                    volumesPanel(
+                        volumes,
+                        ::expandedProviderCallback,
+                        ::onExpand,
+                        onItemClicked
+                    )
 
-//                    if (volumes.itemSnapshotList.isNotEmpty()) {
-                        panelSeparator()
+                    panelSeparator()
 
-                        volumesPanel(
-                            volumes,
-                            ::expandedProviderCallback,
-                            ::onExpand,
-                            onItemClicked
-                        )
-//                    }
+                    charactersPanel(
+                        CommonString.characters,
+                        characters,
+                        ::expandedProviderCallback,
+                        ::onExpand,
+                        onItemClicked
+                    )
 
                     if (description.isNotBlank()) {
                         webViewPanel(

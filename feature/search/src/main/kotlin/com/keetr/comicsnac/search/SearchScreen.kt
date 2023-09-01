@@ -40,6 +40,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.res.stringResource
@@ -122,11 +123,9 @@ fun SearchScreen(
                     Icon(AppIcons.ArrowBack, null)
                 }
                 BasicTextField(
-                    value = query.ifEmpty { stringResource(R.string.search_placeholder) },
+                    value = query,
                     onValueChange = onQueryChanged,
-                    textStyle = MaterialTheme.typography.titleLarge.copy(
-                        MaterialTheme.colorScheme.onSurface
-                    ),
+                    textStyle = MaterialTheme.typography.titleLarge,
                     modifier = Modifier
                         .padding(horizontal = 8f.dp)
                         .weight(1f),
@@ -138,7 +137,18 @@ fun SearchScreen(
                     ),
                     singleLine = true,
                     cursorBrush = SolidColor(MaterialTheme.colorScheme.onSurface),
-                )
+                ) { innerTextField ->
+                    if (query.isEmpty()) {
+                        Text(
+                            stringResource(R.string.search_placeholder),
+                            style = MaterialTheme.typography.titleLarge.copy(
+                                Color.Unspecified.copy(0.5f)
+                            )
+                        )
+                    } else {
+                        innerTextField()
+                    }
+                }
                 AnimatedVisibility(query.isNotEmpty()) {
                     IconButton(onClick = onClear) {
                         Icon(AppIcons.Close, null)

@@ -61,10 +61,14 @@ internal class DefaultCharacterRepository @Inject constructor(
         ) {
             CustomPagingSource(
                 provider = { page ->
+                    val offset = PageSize * page
                     networkSource.getCharactersWithId(
                         PageSize,
-                        PageSize * page,
-                        charactersId
+                        0,
+                        charactersId.subList(
+                            offset,
+                            charactersId.size.coerceAtMost(offset + PageSize)
+                        )
                     ).getOrThrow().results
                 },
                 mapper = List<CharacterListApiModel>::toCharacters

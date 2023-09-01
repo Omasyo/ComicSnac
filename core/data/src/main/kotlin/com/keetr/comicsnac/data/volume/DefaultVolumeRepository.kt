@@ -21,17 +21,17 @@ import javax.inject.Inject
 internal class DefaultVolumeRepository @Inject constructor(
     private val networkSource: VolumeNetworkSource,
     @IODispatcher private val dispatcher: CoroutineDispatcher
-) : VolumeRepository{
-    override fun getVolumeDetails(id: String): Flow<RepositoryResponse<VolumeDetails>> = flow{
+) : VolumeRepository {
+    override fun getVolumeDetails(id: String): Flow<RepositoryResponse<VolumeDetails>> = flow {
         emit(networkSource.getVolumeDetails(id)
-            .fold(onSuccess = {RepositoryResponse.Success(it.results.toVolumeDetails())}) {
+            .fold(onSuccess = { RepositoryResponse.Success(it.results.toVolumeDetails()) }) {
                 fromNetworkError(it)
             })
     }.flowOn(dispatcher)
 
     override fun getRecentVolumes(): Flow<RepositoryResponse<List<Volume>>> = flow {
         emit(networkSource.getAllVolumes(25, 0)
-            .fold(onSuccess = {RepositoryResponse.Success(it.results.toVolumes()) }){
+            .fold(onSuccess = { RepositoryResponse.Success(it.results.toVolumes()) }) {
                 fromNetworkError(it)
             })
     }.flowOn(dispatcher)
@@ -57,10 +57,14 @@ internal class DefaultVolumeRepository @Inject constructor(
         ) {
             CustomPagingSource(
                 provider = { page ->
+                    val offset = PageSize * page
                     networkSource.getVolumesWithId(
                         PageSize,
-                        PageSize * page,
-                        volumesId
+                        0,
+                        volumesId.subList(
+                            offset,
+                            volumesId.size.coerceAtMost(offset + PageSize)
+                        )
                     ).getOrThrow().results
                 },
                 mapper = List<VolumeListApiModel>::toVolumes

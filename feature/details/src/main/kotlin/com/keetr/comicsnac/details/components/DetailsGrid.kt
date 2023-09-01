@@ -18,6 +18,7 @@ import androidx.compose.foundation.lazy.grid.LazyHorizontalGrid
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
@@ -94,12 +95,19 @@ internal fun <T : Any> LazyItemScope.DetailsGrid(
                         items(items.itemCount, key = items.itemKey(key)) {
                             builder(items[it]!!)
                         }
+                        if(items.loadState.append == LoadState.Loading) {
+                            item {
+                                LoadingPlaceholder()
+                            }
+                        }
                     }
                 }
             }
-//            if (items.loadState.append == LoadState.Loading) {
-//
-//            }
+            LaunchedEffect(key1 = items.loadState.append) {
+                if(!items.loadState.append.endOfPaginationReached) {
+                    items.retry()
+                }
+            }
         }
     }
 }

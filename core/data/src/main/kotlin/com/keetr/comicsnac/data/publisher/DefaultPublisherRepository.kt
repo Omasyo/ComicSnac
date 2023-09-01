@@ -45,7 +45,7 @@ internal class DefaultPublisherRepository @Inject constructor(
 
     override fun getPopularPublishers(): Flow<RepositoryResponse<List<Publisher>>> = flow {
         emit(networkSource.getPublishersWithId(
-            100, 0, listOf(31, 10, 513, 364, 1190, 485, 1859, 6583, 1868, 101)
+            100, 0, listOf(31, 10, 513, 364, 1190, 485, 1859, 6583, 1868, 101,8)
         ).fold(onSuccess = { RepositoryResponse.Success(it.results.toPublishers()) }) {
             fromNetworkError(it)
         })
