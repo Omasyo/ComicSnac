@@ -58,14 +58,17 @@ internal class DefaultVolumeRepository @Inject constructor(
             CustomPagingSource(
                 provider = { page ->
                     val offset = PageSize * page
-                    networkSource.getVolumesWithId(
-                        PageSize,
-                        0,
-                        volumesId.subList(
-                            offset,
-                            volumesId.size.coerceAtMost(offset + PageSize)
-                        )
-                    ).getOrThrow().results
+                    val pageList = volumesId.subList(
+                        volumesId.size.coerceAtMost(offset),
+                        volumesId.size.coerceAtMost(offset + DefaultCharacterRepository.PageSize)
+                    )
+                    if (pageList.isNotEmpty()) {
+                        networkSource.getVolumesWithId(
+                            PageSize,
+                            0,
+                            emptyList()
+                        ).getOrThrow().results
+                    } else emptyList()
                 },
                 mapper = List<VolumeListApiModel>::toVolumes
             )

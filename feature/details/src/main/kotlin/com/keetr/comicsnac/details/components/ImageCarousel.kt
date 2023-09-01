@@ -93,15 +93,15 @@ internal fun LazyItemScope.ImageCarousel(
                     model = ImageRequest.Builder(LocalContext.current)
                         .data(images[index].url).crossfade(true).build(),
                     contentDescription = images[index].description, //Add proper string resource
-                    contentScale = if(imageExpanded) ContentScale.Fit else ContentScale.Crop,
+                    contentScale = if(imageExpanded) ContentScale.Fit else ContentScale.Fit,
                     modifier = Modifier
-                        .shadow(
-                            elevation = 16f.dp,
-                            ambientColor = MaterialTheme.colorScheme.onSurface,
-                            spotColor = MaterialTheme.colorScheme.onSurface
-                        )
+//                        .shadow(
+//                            elevation = 16f.dp,
+//                            ambientColor = MaterialTheme.colorScheme.onSurface,
+//                            spotColor = MaterialTheme.colorScheme.onSurface
+//                        )
                         .drawWithContent {
-                            drawRect(Color.Black)
+//                            drawRect(Color.Black)
                             drawContent()
                             drawRect(
                                 overlay.copy(

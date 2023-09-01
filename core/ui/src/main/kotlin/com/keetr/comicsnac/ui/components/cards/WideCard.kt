@@ -76,7 +76,7 @@ fun WideCard(
                 model = ImageRequest.Builder(LocalContext.current)
                     .data(imageUrl).crossfade(true).build(),
                 contentDescription = imageDescription,
-                contentScale = ContentScale.Crop,
+                contentScale = ContentScale.Fit,
                 modifier = Modifier.aspectRatio(11f / 17f)
             )
             Spacer(Modifier.width(8f.dp))

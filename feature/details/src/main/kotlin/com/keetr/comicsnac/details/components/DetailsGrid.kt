@@ -95,7 +95,7 @@ internal fun <T : Any> LazyItemScope.DetailsGrid(
                         items(items.itemCount, key = items.itemKey(key)) {
                             builder(items[it]!!)
                         }
-                        if(items.loadState.append == LoadState.Loading) {
+                        if (items.loadState.append == LoadState.Loading) {
                             item {
                                 LoadingPlaceholder()
                             }
@@ -104,7 +104,7 @@ internal fun <T : Any> LazyItemScope.DetailsGrid(
                 }
             }
             LaunchedEffect(key1 = items.loadState.append) {
-                if(!items.loadState.append.endOfPaginationReached) {
+                if (items.loadState.append is LoadState.Error) {
                     items.retry()
                 }
             }

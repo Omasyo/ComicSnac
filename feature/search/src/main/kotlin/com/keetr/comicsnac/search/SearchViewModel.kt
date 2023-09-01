@@ -32,12 +32,13 @@ class SearchViewModel @Inject constructor(
     fun onQueryChanged(newValue: String) {
         query = newValue
     }
+
     fun clearQuery() {
         query = ""
     }
 
     private val _submittedQuery = MutableStateFlow("")
-    val submittedQuery  = _submittedQuery.asStateFlow()
+    val submittedQuery = _submittedQuery.asStateFlow()
     fun onSearch(query: String) {
         Log.d("TAG", "SearchScreen: $query Search clicked")
         _submittedQuery.value = query
@@ -45,9 +46,14 @@ class SearchViewModel @Inject constructor(
 
     private val filtersFlow = MutableStateFlow(SearchType.entries.toSet())
     val filters @Composable get() = filtersFlow.collectAsState().value
-    fun onFilterChange(type: SearchType) {
+
+    fun toggleFilter(type: SearchType) {
         filtersFlow.value =
             (if (filtersFlow.value.contains(type)) filtersFlow.value - type else filtersFlow.value + type)
+    }
+
+    fun selectFilter(type: SearchType) {
+        filtersFlow.value = setOf(type)
     }
 
     @OptIn(ExperimentalCoroutinesApi::class)
@@ -56,6 +62,6 @@ class SearchViewModel @Inject constructor(
         else
             filtersFlow.flatMapLatest { filter ->
                 searchRepository.getSearchResults(searchQuery, filter)
-            }.cachedIn(viewModelScope)
-    }
+            }
+    }.cachedIn(viewModelScope)
 }

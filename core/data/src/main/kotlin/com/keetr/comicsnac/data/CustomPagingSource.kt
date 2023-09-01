@@ -1,5 +1,6 @@
 package com.keetr.comicsnac.data
 
+import android.util.Log
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
 
@@ -24,7 +25,10 @@ internal class CustomPagingSource<T, R : Any>(
                 nextKey = if (response.isEmpty()) null else page.plus(1),
             )
         } catch (e: Exception) {
+            Log.w(TAG, "load: $e")
             LoadResult.Error(e)
         }
     }
+
+    private val TAG get() = javaClass.simpleName
 }
