@@ -29,6 +29,7 @@ import com.keetr.comicsnac.categories.navigateToCategories
 import com.keetr.comicsnac.details.character.characterRoute
 import com.keetr.comicsnac.details.issue.issueRoute
 import com.keetr.comicsnac.details.`object`.objectRoute
+import com.keetr.comicsnac.details.publisher.publisherRoute
 import com.keetr.comicsnac.details.team.teamRoute
 import com.keetr.comicsnac.details.volume.volumeRoute
 import com.keetr.comicsnac.home.HomeRoute
@@ -85,6 +86,11 @@ fun AppNavHost(
         )
 
         objectRoute(
+            onItemClicked = onItemClicked,
+            onBackPressed = onBackPressed
+        )
+
+        publisherRoute(
             onItemClicked = onItemClicked,
             onBackPressed = onBackPressed
         )

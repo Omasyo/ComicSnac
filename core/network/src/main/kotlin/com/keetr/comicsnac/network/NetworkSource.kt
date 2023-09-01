@@ -26,12 +26,12 @@ internal suspend inline fun <reified T> NetworkSource.makeRequest(
 ): Result<ResponseApiModel<T>> =
     try {
         val response = exec()
+        Log.i(tag, "makeRequest: Made request ${response.request.url}")
+        Log.i(tag, "makeRequest: Got content ${response.bodyAsText()}")
         when (response.status) {
             HttpStatusCode.OK -> {
                 val content: ResponseApiModel<T> = response.body()
 
-                Log.i(tag, "makeRequest: Made request ${response.request.url}")
-                Log.i(tag, "makeRequest: Got content $content")
 
                 when (content.statusCode) {
                     1 -> Result.success(content)
@@ -49,16 +49,16 @@ internal suspend inline fun <reified T> NetworkSource.makeRequest(
             }
 
             HttpStatusCode.RequestTimeout -> {
-                Log.w(tag, "makeRequest: ${response.bodyAsText()}")
+                Log.w(tag, "makeRequest: Timeout - ${response.bodyAsText()}")
                 Result.failure(TimeoutException)
             }
 
             else -> {
-                Log.w(tag, "makeRequest: ${response.bodyAsText()}")
+                Log.w(tag, "makeRequest: Unknown - ${response.bodyAsText()}")
                 Result.failure(Exception(response.status.description))
             }
         }
     } catch (e: Exception) {
-        Log.w(tag, "makeRequest: ${e.message}")
+        Log.w(tag, "makeRequest: Exception - $e")
         Result.failure(e)
     }
