@@ -75,9 +75,9 @@ fun AppNavHost(
         )
 
         composable("settings") {
-            ThemeRoute {
-
-            }
+            ThemeRoute(
+                onBackPressed = onBackPressed
+            )
         }
 
         searchRoute(

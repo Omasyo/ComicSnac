@@ -12,6 +12,8 @@ import com.keetr.comicsnac.data.publisher.DefaultPublisherRepository
 import com.keetr.comicsnac.data.publisher.PublisherRepository
 import com.keetr.comicsnac.data.search.DefaultSearchRepository
 import com.keetr.comicsnac.data.search.SearchRepository
+import com.keetr.comicsnac.data.settings.DefaultSettingsRepository
+import com.keetr.comicsnac.data.settings.SettingsRepository
 import com.keetr.comicsnac.data.team.DefaultTeamRepository
 import com.keetr.comicsnac.data.team.TeamRepository
 import com.keetr.comicsnac.data.volume.DefaultVolumeRepository
@@ -48,4 +50,7 @@ private interface RepositoryModule {
 
     @Binds
     fun bindVolumeRepository(volumeRepository: DefaultVolumeRepository): VolumeRepository
+
+    @Binds
+    fun bindSettingsRepository(settingsRepository: DefaultSettingsRepository): SettingsRepository
 }
