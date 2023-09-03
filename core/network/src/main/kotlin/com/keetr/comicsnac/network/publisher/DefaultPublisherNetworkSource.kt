@@ -15,33 +15,47 @@ internal class DefaultPublisherNetworkSource @Inject constructor(
     private val client: HttpClient
 ) : PublisherNetworkSource {
 
-    override suspend fun getPublisherDetails(id: String): Result<PublisherDetailsResponse> =
+    override suspend fun getPublisherDetails(
+        apiKey: String,
+        id: String
+    ): Result<PublisherDetailsResponse> =
         makeRequest {
             client.get("publisher/4010-$id") {
+                parameter("api_key", apiKey)
                 parameter("field_list", DetailsFieldList)
             }
         }
 
-    override suspend fun getPublisherCharacters(id: String): Result<PublisherCharactersResponse> =
+    override suspend fun getPublisherCharacters(
+        apiKey: String,
+        id: String
+    ): Result<PublisherCharactersResponse> =
         makeRequest {
             client.get("publisher/4010-$id") {
+                parameter("api_key", apiKey)
                 parameter("field_list", "characters")
             }
         }
 
-    override suspend fun getPublisherVolumes(id: String): Result<PublisherVolumesResponse> =
+    override suspend fun getPublisherVolumes(
+        apiKey: String,
+        id: String
+    ): Result<PublisherVolumesResponse> =
         makeRequest {
             client.get("publisher/4010-$id") {
+                parameter("api_key", apiKey)
                 parameter("field_list", "volumes")
             }
         }
 
     override suspend fun getPublishersWithId(
+        apiKey: String,
         pageSize: Int,
         offset: Int,
         publisherId: List<Int>
     ): Result<PublisherListResponse> = makeRequest {
         client.get("publishers") {
+            parameter("api_key", apiKey)
             parameter("field_list", ListFieldList)
             parameter("limit", pageSize)
             parameter("offset", offset)
@@ -51,10 +65,12 @@ internal class DefaultPublisherNetworkSource @Inject constructor(
     }
 
     override suspend fun getAllPublishers(
+        apiKey: String,
         pageSize: Int,
         offset: Int
     ): Result<PublisherListResponse> = makeRequest {
         client.get("publishers") {
+            parameter("api_key", apiKey)
             parameter("field_list", ListFieldList)
             parameter("limit", pageSize)
             parameter("offset", offset)

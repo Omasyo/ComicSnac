@@ -12,23 +12,26 @@ import javax.inject.Inject
 class DefaultTeamNetworkSource @Inject constructor(
     private val client: HttpClient
 ) : TeamNetworkSource {
-    override suspend fun getTeamDetails(id: String): Result<TeamDetailsResponse> =
+    override suspend fun getTeamDetails(apiKey: String, id: String): Result<TeamDetailsResponse> =
         makeRequest {
             client.get("team/4060-$id") {
+                parameter("api_key", apiKey)
                 parameter("field_list", DetailsFieldList)
             }
         }
 
-    override suspend fun getAllTeams(pageSize: Int, offset: Int): Result<TeamListResponse> =
-        getTeams(pageSize, offset)
+    override suspend fun getAllTeams(apiKey: String, pageSize: Int, offset: Int): Result<TeamListResponse> =
+        getTeams(apiKey, pageSize, offset)
 
     override suspend fun getTeamsWithId(
+        apiKey: String,
         pageSize: Int,
         offset: Int,
         teamIds: List<Int>
-    ): Result<TeamListResponse> = getTeams(pageSize, offset, teamsId = teamIds)
+    ): Result<TeamListResponse> = getTeams(apiKey, pageSize, offset, teamsId = teamIds)
 
     private suspend fun getTeams(
+        apiKey: String,
         pageSize: Int,
         offset: Int,
         sort: Sort = Sort.Descending,
@@ -36,6 +39,7 @@ class DefaultTeamNetworkSource @Inject constructor(
     ): Result<TeamListResponse> =
         makeRequest {
             client.get("teams") {
+                parameter("api_key", apiKey)
                 parameter("field_list", ListFieldList)
                 parameter("limit", pageSize)
                 parameter("offset", offset)

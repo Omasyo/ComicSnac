@@ -42,7 +42,7 @@ class DefaultCharacterNetworkSourceTest : NetworkSourceTest<CharacterNetworkSour
     @Test
     fun `verify character first issue`() = runTest {
         val response =
-            networkSource.getCharacterDetails("184971")
+            networkSource.getCharacterDetails(apiKey, "184971")
         val issue = IssueApiModel(
             apiDetailUrl = "https://comicvine.gamespot.com/api/first_appeared_in_issue/4000-1006449/",
             id = 1006449,
@@ -55,14 +55,14 @@ class DefaultCharacterNetworkSourceTest : NetworkSourceTest<CharacterNetworkSour
     @Test
     fun `verify character name`() = runTest {
         val response =
-            networkSource.getCharacterDetails("1699")
+            networkSource.getCharacterDetails(apiKey, "1699")
         assertEquals("Batman", response.getOrNull()?.results?.name)
     }
 
 
     @Test
     fun `check result contains character name`() = runTest {
-        val response = networkSource.getAllCharacters(100, 0, GenderApiModel.All)
+        val response = networkSource.getAllCharacters(apiKey, 100, 0, GenderApiModel.All)
         val characters = response.getOrThrow().results
         assert(characters.any { it.name == "Hanazono Hakari" })
         assertEquals(100, characters.size)
@@ -70,14 +70,14 @@ class DefaultCharacterNetworkSourceTest : NetworkSourceTest<CharacterNetworkSour
 
     @Test
     fun `verify filter characters by gender`() = runTest {
-        val response = networkSource.getAllCharacters(100, 0, GenderApiModel.Male)
+        val response = networkSource.getAllCharacters(apiKey, 100, 0, GenderApiModel.Male)
         assert(response.getOrThrow().results.all { it.gender == GenderApiModel.Male })
     }
 
     @Test
     fun `verify filter characters by id`() = runTest {
         val ids = setOf(1443, 48499, 45927, 44135)
-        val response = networkSource.getCharactersWithId(100, 0, ids.toList())
+        val response = networkSource.getCharactersWithId(apiKey, 100, 0, ids.toList())
         assert(response.getOrThrow().results.all { ids.contains(it.id) })
     }
 

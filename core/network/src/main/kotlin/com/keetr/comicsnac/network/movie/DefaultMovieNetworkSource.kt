@@ -12,37 +12,46 @@ import javax.inject.Inject
 internal class DefaultMovieNetworkSource @Inject constructor(
     private val client: HttpClient
 ) : MovieNetworkSource {
-    override suspend fun getMovieDetails(id: String): Result<MovieDetailsResponse> =
+    override suspend fun getMovieDetails(apiKey: String, id: String): Result<MovieDetailsResponse> =
         makeRequest {
             client.get("movie/4025-$id") {
+                parameter("api_key", apiKey)
                 parameter("field_list", DetailsFieldList)
             }
         }
 
-    override suspend fun getRecentMovies(pageSize: Int, offset: Int): Result<MovieListResponse> =
-        getMovies(pageSize, offset, Sort.Descending)
+    override suspend fun getRecentMovies(
+        apiKey: String,
+        pageSize: Int,
+        offset: Int
+    ): Result<MovieListResponse> =
+        getMovies(apiKey, pageSize, offset, Sort.Descending)
 
     override suspend fun getAllMovies(
+        apiKey: String,
         pageSize: Int,
         offset: Int,
         sortReleaseDate: Sort
     ): Result<MovieListResponse> =
-        getMovies(pageSize, offset, sortReleaseDate)
+        getMovies(apiKey, pageSize, offset, sortReleaseDate)
 
     override suspend fun getMoviesWithId(
+        apiKey: String,
         pageSize: Int,
         offset: Int,
         sortReleaseDate: Sort,
         moviesId: List<Int>
-    ): Result<MovieListResponse> = getMovies(pageSize, offset, sortReleaseDate, moviesId)
+    ): Result<MovieListResponse> = getMovies(apiKey, pageSize, offset, sortReleaseDate, moviesId)
 
     private suspend fun getMovies(
+        apiKey: String,
         pageSize: Int,
         offset: Int,
         sortCoverDate: Sort = Sort.None,
         moviesId: List<Int> = emptyList()
     ): Result<MovieListResponse> = makeRequest {
         client.get("movies") {
+            parameter("api_key", apiKey)
             parameter("field_list", ListFieldList)
             parameter("limit", pageSize)
             parameter("offset", offset)

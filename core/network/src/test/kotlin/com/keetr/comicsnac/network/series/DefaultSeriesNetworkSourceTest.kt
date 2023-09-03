@@ -28,13 +28,13 @@ class DefaultSeriesNetworkSourceTest : NetworkSourceTest<SeriesNetworkSource>() 
 
     @Test
     fun getSeriesDetails() = runTest {
-        val response = networkSource.getSeriesDetails("1217").getOrThrow().results
+        val response = networkSource.getSeriesDetails(apiKey, "1217").getOrThrow().results
         assertEquals(1217, response.id)
     }
 
     @Test
     fun getAllSeries() = runTest {
-        val response = networkSource.getAllSeries(100, 0).getOrThrow().results
+        val response = networkSource.getAllSeries(apiKey, 100, 0).getOrThrow().results
         val series = response.find { it.id == 99 }
         assertEquals("Adventure Time", series?.name)
     }

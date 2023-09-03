@@ -26,13 +26,13 @@ class DefaultStoryArcNetworkSourceTest : NetworkSourceTest<StoryArcNetworkSource
 
     @Test
     fun getStoryArcDetails() = runTest {
-        val response = networkSource.getStoryArcDetails("61122").getOrThrow()
+        val response = networkSource.getStoryArcDetails(apiKey, "61122").getOrThrow()
         assertEquals("The Catalyst War", response.results.name)
     }
 
     @Test
     fun getAllStoryArcs() = runTest {
-        val response = networkSource.getAllStoryArcs(100, 0).getOrThrow()
+        val response = networkSource.getAllStoryArcs(apiKey, 100, 0).getOrThrow()
         assertEquals("Red Son Rising", response.results.last().name)
     }
 }

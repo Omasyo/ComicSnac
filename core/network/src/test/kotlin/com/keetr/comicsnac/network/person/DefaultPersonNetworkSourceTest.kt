@@ -27,13 +27,13 @@ class DefaultPersonNetworkSourceTest : NetworkSourceTest<PersonNetworkSource>() 
 
     @Test
     fun getPersonDetails() = runTest {
-        val response = networkSource.getPersonDetails("114458").getOrThrow()
+        val response = networkSource.getPersonDetails(apiKey, "114458").getOrThrow()
         assertEquals(LocalDateTime.of(1933, 12, 10, 0, 0), response.results.birth)
     }
 
     @Test
     fun getAllPeople() = runTest {
-        val response = networkSource.getAllPeople(100, 0).getOrThrow()
+        val response = networkSource.getAllPeople(apiKey, 100, 0).getOrThrow()
         assertEquals("Sabamizore", response.results.last().name)
     }
 }

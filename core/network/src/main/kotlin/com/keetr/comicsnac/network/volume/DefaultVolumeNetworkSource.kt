@@ -12,23 +12,33 @@ import javax.inject.Inject
 internal class DefaultVolumeNetworkSource @Inject constructor(
     private val client: HttpClient
 ) : VolumeNetworkSource {
-    override suspend fun getVolumeDetails(id: String): Result<VolumeDetailsResponse> =
+    override suspend fun getVolumeDetails(
+        apiKey: String,
+        id: String
+    ): Result<VolumeDetailsResponse> =
         makeRequest {
             client.get("volume/4050-$id") {
+                parameter("api_key", apiKey)
                 parameter("field_list", DetailsFieldList)
             }
         }
 
-    override suspend fun getAllVolumes(pageSize: Int, offset: Int): Result<VolumeListResponse> =
-        getVolumes(pageSize, offset)
+    override suspend fun getAllVolumes(
+        apiKey: String,
+        pageSize: Int,
+        offset: Int
+    ): Result<VolumeListResponse> =
+        getVolumes(apiKey, pageSize, offset)
 
     override suspend fun getVolumesWithId(
+        apiKey: String,
         pageSize: Int,
         offset: Int,
         volumeIds: List<Int>
-    ): Result<VolumeListResponse> = getVolumes(pageSize, offset, volumeIds = volumeIds)
+    ): Result<VolumeListResponse> = getVolumes(apiKey, pageSize, offset, volumeIds = volumeIds)
 
     private suspend fun getVolumes(
+        apiKey: String,
         pageSize: Int,
         offset: Int,
         sort: Sort = Sort.Descending,
@@ -36,6 +46,7 @@ internal class DefaultVolumeNetworkSource @Inject constructor(
     ): Result<VolumeListResponse> =
         makeRequest {
             client.get("volumes") {
+                parameter("api_key", apiKey)
                 parameter("field_list", ListFieldList)
                 parameter("limit", pageSize)
                 parameter("offset", offset)

@@ -12,23 +12,34 @@ import javax.inject.Inject
 class DefaultStoryArcNetworkSource @Inject constructor(
     private val client: HttpClient
 ) : StoryArcNetworkSource {
-    override suspend fun getStoryArcDetails(id: String): Result<StoryArcDetailsResponse> =
+    override suspend fun getStoryArcDetails(
+        apiKey: String,
+        id: String
+    ): Result<StoryArcDetailsResponse> =
         makeRequest {
             client.get("story_arc/4045-$id") {
+                parameter("api_key", apiKey)
                 parameter("field_list", DetailsFieldList)
             }
         }
 
-    override suspend fun getAllStoryArcs(pageSize: Int, offset: Int): Result<StoryArcListResponse> =
-        getStoryArcs(pageSize, offset)
+    override suspend fun getAllStoryArcs(
+        apiKey: String,
+        pageSize: Int,
+        offset: Int
+    ): Result<StoryArcListResponse> =
+        getStoryArcs(apiKey, pageSize, offset)
 
     override suspend fun getStoryArcsWithId(
+        apiKey: String,
         pageSize: Int,
         offset: Int,
         storyArcIds: List<Int>
-    ): Result<StoryArcListResponse> = getStoryArcs(pageSize, offset, storyArcIds = storyArcIds)
+    ): Result<StoryArcListResponse> =
+        getStoryArcs(apiKey, pageSize, offset, storyArcIds = storyArcIds)
 
     private suspend fun getStoryArcs(
+        apiKey: String,
         pageSize: Int,
         offset: Int,
         sort: Sort = Sort.Descending,
@@ -36,6 +47,7 @@ class DefaultStoryArcNetworkSource @Inject constructor(
     ): Result<StoryArcListResponse> =
         makeRequest {
             client.get("story_arcs") {
+                parameter("api_key", apiKey)
                 parameter("field_list", ListFieldList)
                 parameter("limit", pageSize)
                 parameter("offset", offset)

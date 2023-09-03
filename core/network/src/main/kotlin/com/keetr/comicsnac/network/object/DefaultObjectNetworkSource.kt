@@ -12,34 +12,42 @@ import javax.inject.Inject
 internal class DefaultObjectNetworkSource @Inject constructor(
     private val client: HttpClient
 ) : ObjectNetworkSource {
-    override suspend fun getObjectDetails(id: String): Result<ObjectDetailsResponse> =
+    override suspend fun getObjectDetails(
+        apiKey: String,
+        id: String
+    ): Result<ObjectDetailsResponse> =
         makeRequest {
             client.get("object/4055-$id") {
+                parameter("api_key", apiKey)
                 parameter("field_list", DetailsFieldList)
             }
         }
 
     override suspend fun getAllObjects(
+        apiKey: String,
         pageSize: Int,
         offset: Int,
         sortCoverDate: Sort
     ): Result<ObjectListResponse> =
-        getObjects(pageSize, offset, sortCoverDate)
+        getObjects(apiKey, pageSize, offset, sortCoverDate)
 
     override suspend fun getObjectsWithId(
+        apiKey: String,
         pageSize: Int,
         offset: Int,
         sort: Sort,
         objectsId: List<Int>
-    ): Result<ObjectListResponse> = getObjects(pageSize, offset, sort, objectsId)
+    ): Result<ObjectListResponse> = getObjects(apiKey, pageSize, offset, sort, objectsId)
 
     private suspend fun getObjects(
+        apiKey: String,
         pageSize: Int,
         offset: Int,
         sort: Sort = Sort.None,
         objectsId: List<Int> = emptyList()
     ): Result<ObjectListResponse> = makeRequest {
         client.get("objects") {
+            parameter("api_key", apiKey)
             parameter("field_list", ListFieldList)
             parameter("limit", pageSize)
             parameter("offset", offset)

@@ -26,7 +26,8 @@ class DefaultSearchNetworkSourceTest : NetworkSourceTest<SearchNetworkSource>() 
 
     @Test
     fun getSearchResults() = runTest {
-        val response = networkSource.getSearchResults("french", 100, 0).getOrThrow().results
+        val response =
+            networkSource.getSearchResults(apiKey, "french", "", 100, 0).getOrThrow().results
         assert(response.last() is IssueListApiModel)
     }
 }

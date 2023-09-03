@@ -7,9 +7,10 @@ import com.keetr.comicsnac.network.power.models.PowerListResponse
 
 interface PowerNetworkSource : NetworkSource {
 
-    suspend fun getPowerDetails(id: String): Result<PowerDetailsResponse>
+    suspend fun getPowerDetails(apiKey: String, id: String): Result<PowerDetailsResponse>
 
     suspend fun getAllPowers(
+        apiKey: String,
         pageSize: Int,
         offset: Int
     ): Result<PowerListResponse>

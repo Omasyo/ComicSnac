@@ -30,7 +30,6 @@ internal fun createClient(engine: HttpClientEngine, context: Context) =
                 protocol = URLProtocol.HTTPS
                 host = Api.Host
                 path(Api.DefaultPath)
-                parameters.append("api_key", ApiKey)
                 parameters.append("format", Api.ResponseFormat)
             }
         }

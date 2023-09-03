@@ -12,34 +12,42 @@ import javax.inject.Inject
 internal class DefaultLocationNetworkSource @Inject constructor(
     private val client: HttpClient
 ) : LocationNetworkSource {
-    override suspend fun getLocationDetails(id: String): Result<LocationDetailsResponse> =
+    override suspend fun getLocationDetails(
+        apiKey: String,
+        id: String
+    ): Result<LocationDetailsResponse> =
         makeRequest {
             client.get("location/4020-$id") {
+                parameter("api_key", apiKey)
                 parameter("field_list", DetailsFieldList)
             }
         }
 
     override suspend fun getAllLocations(
+        apiKey: String,
         pageSize: Int,
         offset: Int,
         sortCoverDate: Sort
     ): Result<LocationListResponse> =
-        getLocations(pageSize, offset, sortCoverDate)
+        getLocations(apiKey, pageSize, offset, sortCoverDate)
 
     override suspend fun getLocationsWithId(
+        apiKey: String,
         pageSize: Int,
         offset: Int,
         sort: Sort,
         locationsId: List<Int>
-    ): Result<LocationListResponse> = getLocations(pageSize, offset, sort, locationsId)
+    ): Result<LocationListResponse> = getLocations(apiKey, pageSize, offset, sort, locationsId)
 
     private suspend fun getLocations(
+        apiKey: String,
         pageSize: Int,
         offset: Int,
         sort: Sort = Sort.None,
         locationsId: List<Int> = emptyList()
     ): Result<LocationListResponse> = makeRequest {
         client.get("locations") {
+            parameter("api_key", apiKey)
             parameter("field_list", ListFieldList)
             parameter("limit", pageSize)
             parameter("offset", offset)

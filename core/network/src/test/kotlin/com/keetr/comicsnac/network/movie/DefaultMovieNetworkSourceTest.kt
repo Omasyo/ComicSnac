@@ -27,13 +27,13 @@ class DefaultMovieNetworkSourceTest : NetworkSourceTest<MovieNetworkSource>() {
 
     @Test
     fun getMovieDetails() = runTest {
-        val response = networkSource.getMovieDetails("2232").getOrThrow().results
+        val response = networkSource.getMovieDetails(apiKey, "2232").getOrThrow().results
         assertEquals("72", response.runtime)
     }
 
     @Test
     fun getRecentMovies() = runTest {
-        val response = networkSource.getAllMovies(100, 1).getOrThrow().results
+        val response = networkSource.getAllMovies(apiKey, 100, 1).getOrThrow().results
         assertEquals("Quantum of Solace", response.last().name)
     }
 }

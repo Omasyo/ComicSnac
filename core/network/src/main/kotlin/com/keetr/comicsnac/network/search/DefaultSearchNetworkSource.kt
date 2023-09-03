@@ -13,6 +13,7 @@ internal class DefaultSearchNetworkSource @Inject constructor(
     private val client: HttpClient
 ) : SearchNetworkSource {
     override suspend fun getSearchResults(
+        apiKey: String,
         query: String,
         filter: String,
         pageSize: Int,
@@ -20,6 +21,7 @@ internal class DefaultSearchNetworkSource @Inject constructor(
     ): Result<ResponseApiModel<List<SearchApiModel>>> = makeRequest {
         Log.d("SearchSource", "getSearchResults: $offset")
         client.get("search") {
+            parameter("api_key", apiKey)
             parameter("resources", filter)
             parameter("query", query)
             parameter("limit", pageSize)

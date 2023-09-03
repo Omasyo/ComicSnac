@@ -11,7 +11,7 @@ import org.junit.Test
 
 class DefaultConceptNetworkSourceTest : NetworkSourceTest<ConceptNetworkSource>() {
 
-    override fun generateResponseBody(request: HttpRequestData)  = when (request.url.encodedPath) {
+    override fun generateResponseBody(request: HttpRequestData) = when (request.url.encodedPath) {
         "/api/concept/4015-35070" -> com.keetr.comicsnac.network.concept.fake.OdinForceDetailsResponse
         "/api/concepts" -> com.keetr.comicsnac.network.concept.fake.ConceptsResponse
         else -> throw NotImplementedError("Invalid Url Path: ${request.url.encodedPath}")
@@ -25,14 +25,14 @@ class DefaultConceptNetworkSourceTest : NetworkSourceTest<ConceptNetworkSource>(
     @Test
     fun getConceptDetails() = runTest {
         val response =
-            networkSource.getConceptDetails("35070")
+            networkSource.getConceptDetails(apiKey, "35070")
         assertEquals("The Odin Force", response.getOrNull()?.results?.name)
     }
 
     @Test
-    fun getAllConcepts() = runTest{
+    fun getAllConcepts() = runTest {
         val response =
-            networkSource.getAllConcepts(100, 0)
+            networkSource.getAllConcepts(apiKey, 100, 0)
         val concepts = response.getOrThrow().results
         assert(concepts.any { it.name == "The Odin Force" })
         assertEquals(100, concepts.size)

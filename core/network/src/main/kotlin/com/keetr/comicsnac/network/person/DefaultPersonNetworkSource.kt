@@ -12,18 +12,21 @@ import javax.inject.Inject
 class DefaultPersonNetworkSource @Inject constructor (
     private val client: HttpClient
 ) : PersonNetworkSource {
-    override suspend fun getPersonDetails(id: String): Result<PersonDetailsResponse> =
+    override suspend fun getPersonDetails(apiKey: String, id: String): Result<PersonDetailsResponse> =
         makeRequest {
             client.get("person/4040-$id") {
+                parameter("api_key", apiKey)
                 parameter("field_list", DetailsFieldList)
             }
         }
 
     override suspend fun getAllPeople(
+        apiKey: String,
         pageSize: Int,
         offset: Int,
     ): Result<PersonListResponse> = makeRequest {
         client.get("people") {
+            parameter("api_key", apiKey)
             parameter("field_list", ListFieldList)
             parameter("limit", pageSize)
             parameter("offset", offset)
