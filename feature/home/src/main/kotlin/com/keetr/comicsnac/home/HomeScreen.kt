@@ -115,9 +115,9 @@ internal fun HomeScreen(
                             label = "New Issues Carousel"
                         ) { uiState ->
                             when (uiState) {
-                                is Error -> ErrorPlaceholder(Modifier.height(336f.dp))
-                                InDevelopment -> InDevelopmentPlaceholder(Modifier.height(336f.dp))
-                                Loading -> LoadingPlaceholder(Modifier.height(336f.dp))
+                                is Error -> ErrorPlaceholder(Modifier.height(336f.dp).fillMaxWidth())
+                                InDevelopment -> InDevelopmentPlaceholder(Modifier.height(336f.dp).fillMaxWidth())
+                                Loading -> LoadingPlaceholder(Modifier.height(336f.dp).fillMaxWidth())
                                 is Success -> {
                                     IssueCarousel(
                                         issues = uiState.contents, onIssueClick = onItemClicked
@@ -214,9 +214,9 @@ internal fun HomeScreen(
                             label = "Publishers Carousel"
                         ) { uiState ->
                             when (uiState) {
-                                is Error -> ErrorPlaceholder(Modifier.height(336f.dp))
-                                InDevelopment -> InDevelopmentPlaceholder(Modifier.height(336f.dp))
-                                Loading -> LoadingPlaceholder(Modifier.height(336f.dp))
+                                is Error -> ErrorPlaceholder(Modifier.height(336f.dp).fillMaxWidth())
+                                InDevelopment -> InDevelopmentPlaceholder(Modifier.height(336f.dp).fillMaxWidth())
+                                Loading -> LoadingPlaceholder(Modifier.height(336f.dp).fillMaxWidth())
                                 is Success -> {
                                     PublisherCarousel(
                                         issues = uiState.contents, onIssueClick = onItemClicked

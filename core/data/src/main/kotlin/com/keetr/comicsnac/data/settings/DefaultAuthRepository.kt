@@ -1,6 +1,7 @@
 package com.keetr.comicsnac.data.settings
 
 import android.content.Context
+import android.util.Log
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.edit
@@ -16,10 +17,6 @@ import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.flow.map
 import javax.inject.Inject
 
-
-//val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "settings")
-
-
 internal class DefaultAuthRepository @Inject constructor(
     private val settingsDataStore: DataStore<Preferences>,
     private val authKey: Preferences.Key<String>,
@@ -28,15 +25,20 @@ internal class DefaultAuthRepository @Inject constructor(
     override suspend fun verifyApiKey(key: String): RepositoryResponse<Unit> =
         randomNetworkSource.verifyApiKey(key)
             .fold(onSuccess = { RepositoryResponse.Success(Unit) }) {
+                Log.w("DefaultAuthRepository", "verifyApiKey: $it", )
                 fromNetworkError(it)
             }
 
 
     override suspend fun updateApiKey(key: String) {
-        TODO("Not yet implemented")
+        settingsDataStore.edit { preferences ->
+            preferences[authKey] = key
+        }
     }
 
     override fun getApiKey(): Flow<String> {
-        return flowOf("81ae8b1a284eaf1102e976c3d14a06ee72a3c5cc")
+        return settingsDataStore.data.map { preferences ->
+            preferences[authKey] ?: ""
+        }
     }
 }

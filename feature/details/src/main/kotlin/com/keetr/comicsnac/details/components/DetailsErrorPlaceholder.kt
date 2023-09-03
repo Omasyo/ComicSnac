@@ -69,7 +69,8 @@ internal fun DetailsErrorPlaceholder(
                     Box(
                         Modifier
                             .fillParentMaxHeight(0.75f)
-                            .fillMaxWidth()) {
+                            .fillMaxWidth()
+                    ) {
                         Box(
                             Modifier
                                 .align(Alignment.Center)
@@ -77,7 +78,7 @@ internal fun DetailsErrorPlaceholder(
                                 .aspectRatio(11f / 17f)
                                 .padding(32f.dp)
                         ) {
-                            ErrorPlaceholder(onRetry = onRetry)
+                            ErrorPlaceholder(modifier = Modifier.fillMaxSize(),onRetry = onRetry)
                         }
                     }
 

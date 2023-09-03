@@ -36,19 +36,20 @@ import com.keetr.comicsnac.home.HomeRoute
 import com.keetr.comicsnac.home.homeRoute
 import com.keetr.comicsnac.search.navigateToSearch
 import com.keetr.comicsnac.search.searchRoute
-import com.keetr.comicsnac.settings.ThemeRoute
-import com.keetr.comicsnac.settings.ThemeScreen
+import com.keetr.comicsnac.settings.authRoute
+import com.keetr.comicsnac.settings.themeRoute
 import com.keetr.comicsnac.ui.components.placeholders.InDevelopmentPlaceholder
 
 @Composable
 fun AppNavHost(
     modifier: Modifier = Modifier,
+    apiKeyPresent: Boolean,
     navController: NavHostController = rememberNavController()
 ) {
     NavHost(
         modifier = modifier,
         navController = navController,
-        startDestination = HomeRoute.route
+        startDestination = if(apiKeyPresent) HomeRoute.route else "auth"
     ) {
         val onBackPressed: () -> Unit = { navController.popBackStack() }
         val onItemClicked = { guid: String ->
@@ -74,11 +75,16 @@ fun AppNavHost(
             onSeriesCategoryClicked = {}
         )
 
-        composable("settings") {
-            ThemeRoute(
-                onBackPressed = onBackPressed
-            )
-        }
+        authRoute(
+            onVerificationComplete =  {
+                navController.popBackStack()
+                navController.navigate(HomeRoute.route)
+            }
+        )
+
+        themeRoute(
+            onBackPressed = onBackPressed
+        )
 
         searchRoute(
             onItemClicked = onItemClicked,

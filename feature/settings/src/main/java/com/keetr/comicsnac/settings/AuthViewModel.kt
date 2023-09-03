@@ -19,6 +19,7 @@ import javax.inject.Inject
 enum class AuthUiState {
     Initial, Verifying, InvalidKey, Verified, UnknownError
 }
+
 @HiltViewModel
 class AuthViewModel @Inject constructor(
     private val authRepository: AuthRepository
@@ -35,7 +36,7 @@ class AuthViewModel @Inject constructor(
     fun verify() {
         state = AuthUiState.Verifying
         viewModelScope.launch {
-            when(authRepository.verifyApiKey(key)) {
+            state = when (authRepository.verifyApiKey(key)) {
                 RepositoryResponse.InvalidApiKeyError -> AuthUiState.InvalidKey
                 RepositoryResponse.TimeoutError -> AuthUiState.UnknownError
                 is RepositoryResponse.UnknownNetworkError -> AuthUiState.UnknownError

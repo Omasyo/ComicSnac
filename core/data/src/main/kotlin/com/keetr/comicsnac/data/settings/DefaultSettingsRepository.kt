@@ -11,10 +11,6 @@ import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.flow.map
 import javax.inject.Inject
 
-
-//val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "settings")
-
-
 internal class DefaultSettingsRepository @Inject constructor(
     private val settingsDataStore: DataStore<Preferences>,
     private val colorSchemeKey: Preferences.Key<Int>,
@@ -31,13 +27,5 @@ internal class DefaultSettingsRepository @Inject constructor(
         return settingsDataStore.data.map { preferences ->
             preferences[colorSchemeKey] ?: 0
         }
-    }
-
-    override suspend fun updateApiKey(key: String) {
-        TODO("Not yet implemented")
-    }
-
-    override fun getApiKey(): Flow<String> {
-        return flowOf("81ae8b1a284eaf1102e976c3d14a06ee72a3c5cc")
     }
 }

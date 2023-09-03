@@ -21,7 +21,6 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.BottomSheetScaffold
@@ -35,7 +34,6 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.RectangleShape
-import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
@@ -66,14 +64,14 @@ import com.keetr.comicsnac.ui.theme.AppIcons
 @Composable
 fun SearchScreen(
     modifier: Modifier = Modifier,
-    query: String,
+    queryProvider: () -> String,
     onQueryChanged: (String) -> Unit,
     searchEmpty: Boolean,
     filter: Set<SearchType>,
     onClickFilter: (SearchType) -> Unit,
     onLongClickFilter: (SearchType) -> Unit,
     onItemClicked: (String) -> Unit,
-    onSearch: (String) -> Unit,
+    onSearch: () -> Unit,
     onClear: () -> Unit,
     onBackPressed: () -> Unit,
     searchResults: LazyPagingItems<SearchModel>
@@ -103,39 +101,20 @@ fun SearchScreen(
         containerColor = MaterialTheme.colorScheme.tertiary,
     ) { innerPadding ->
         Column(Modifier.padding(innerPadding)) {
-            Row(
+            TopBar(
+                modifier =
                 Modifier
                     .background(MaterialTheme.colorScheme.primary)
                     .statusBarsPadding()
                     .fillMaxWidth()
                     .defaultMinSize(minHeight = 64f.dp)
                     .padding(horizontal = 12f.dp),
-                verticalAlignment = Alignment.CenterVertically
-            ) {
-                IconButton(onClick = onBackPressed) {
-                    Icon(AppIcons.ArrowBack, null)
-                }
-                TextField(
-                    modifier = Modifier
-                        .padding(horizontal = 8f.dp)
-                        .weight(1f),
-                    value = query,
-                    onValueChange = onQueryChanged,
-                    textStyle = MaterialTheme.typography.titleLarge.copy(MaterialTheme.colorScheme.onSurface),
-                    placeholder = stringResource(R.string.search_placeholder),
-                    keyboardOptions = KeyboardOptions(imeAction = ImeAction.Search),
-                    keyboardActions = KeyboardActions(
-                        onSearch = {
-                            onSearch(query)
-                        }
-                    ),
-                )
-                AnimatedVisibility(query.isNotEmpty()) {
-                    IconButton(onClick = onClear) {
-                        Icon(AppIcons.Close, null)
-                    }
-                }
-            }
+                queryProvider = queryProvider,
+                onQueryChanged = onQueryChanged,
+                onSearch = onSearch,
+                onBackPressed = onBackPressed,
+                onClear = onClear
+            )
             AnimatedContent(
                 searchEmpty,
                 label = "Search content",
@@ -143,12 +122,12 @@ fun SearchScreen(
             ) { searchEmpty ->
                 if (searchEmpty) Box(
                     modifier
-                        .fillMaxSize()
+                        .fillMaxSize(),
+                    contentAlignment = Alignment.Center
                 ) {
                     Text(
                         "What would you like to know?",
                         style = MaterialTheme.typography.headlineLarge,
-                        modifier = Modifier.align(Alignment.Center)
                     )
                 }
                 else
@@ -157,17 +136,23 @@ fun SearchScreen(
                         label = "Search content"
                     ) { refreshState ->
                         when (refreshState) {
-                            is LoadState.Error -> ErrorPlaceholder {
+                            is LoadState.Error -> ErrorPlaceholder(Modifier.fillMaxSize()) {
                                 searchResults.refresh()
                             }
 
-                            LoadState.Loading -> LoadingPlaceholder()
+                            LoadState.Loading -> LoadingPlaceholder(Modifier.fillMaxSize())
                             is LoadState.NotLoading -> {
                                 if (searchResults.itemSnapshotList.isEmpty()) {
-                                    Text(
-                                        stringResource(R.string.no_results),
-                                        style = MaterialTheme.typography.headlineLarge
-                                    )
+                                    Box(
+                                        modifier
+                                            .fillMaxSize(),
+                                        contentAlignment = Alignment.Center
+                                    ) {
+                                        Text(
+                                            stringResource(R.string.no_results),
+                                            style = MaterialTheme.typography.headlineLarge,
+                                        )
+                                    }
                                 }
                                 LazyColumn(
                                     contentPadding = PaddingValues(16f.dp),
@@ -223,6 +208,46 @@ fun SearchScreen(
                         }
 
                     }
+            }
+        }
+    }
+}
+
+@Composable
+private fun TopBar(
+    modifier: Modifier,
+    queryProvider: () -> String,
+    onQueryChanged: (String) -> Unit,
+    onSearch: () -> Unit,
+    onBackPressed: () -> Unit,
+    onClear: () -> Unit
+) {
+    val query = queryProvider()
+    Row(
+        modifier,
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        IconButton(onClick = onBackPressed) {
+            Icon(AppIcons.ArrowBack, null)
+        }
+        TextField(
+            modifier = Modifier
+                .padding(horizontal = 8f.dp)
+                .weight(1f),
+            value = query,
+            onValueChange = onQueryChanged,
+            textStyle = MaterialTheme.typography.titleLarge.copy(MaterialTheme.colorScheme.onSurface),
+            placeholder = stringResource(R.string.search_placeholder),
+            keyboardOptions = KeyboardOptions(imeAction = ImeAction.Search),
+            keyboardActions = KeyboardActions(
+                onSearch = {
+                    onSearch()
+                }
+            ),
+        )
+        AnimatedVisibility(query.isNotEmpty()) {
+            IconButton(onClick = onClear) {
+                Icon(AppIcons.Close, null)
             }
         }
     }

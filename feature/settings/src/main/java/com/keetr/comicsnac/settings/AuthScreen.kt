@@ -65,7 +65,7 @@ fun AuthScreen(
                 value = key,
                 onValueChange = onKeyChange,
                 placeholder = "Enter API Key",
-                textStyle = MaterialTheme.typography.titleLarge.copy(MaterialTheme.colorScheme.onSurface)
+                textStyle = MaterialTheme.typography.titleLarge.copy(MaterialTheme.colorScheme.onSurface, textAlign = TextAlign.Center)
             )
             AnimatedContent(targetState = authUiState, label = "verify_button") { state ->
                 Column(

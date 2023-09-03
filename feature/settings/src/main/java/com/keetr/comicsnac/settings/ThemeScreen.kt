@@ -37,8 +37,6 @@ fun ThemeScreen(
     onBackPressed: () -> Unit,
     onClickScheme: (Int) -> Unit
 ) {
-
-
     Scaffold(modifier) { innerPadding ->
         Column(Modifier.padding(innerPadding)) {
             IconButton(onClick = onBackPressed, modifier = Modifier.padding(12f.dp)) {
@@ -55,7 +53,7 @@ fun ThemeScreen(
                         32f.dp,
                         Alignment.CenterHorizontally
                     ),
-                    verticalArrangement = Arrangement.spacedBy(32f.dp),
+                    verticalArrangement = Arrangement.spacedBy(40f.dp),
 //                    maxItemsInEachRow = 3
                 ) {
                     ColorSchemes.forEach { (id, scheme) ->

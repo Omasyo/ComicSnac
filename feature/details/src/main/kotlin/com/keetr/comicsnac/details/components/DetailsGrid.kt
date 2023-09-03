@@ -80,11 +80,11 @@ internal fun <T : Any> LazyItemScope.DetailsGrid(
             label = "Category Carousel"
         ) { refreshState ->
             when (refreshState) {
-                is LoadState.Error -> ErrorPlaceholder(heightModifier) {
+                is LoadState.Error -> ErrorPlaceholder(heightModifier.fillMaxWidth()) {
                     items.refresh()
                 }
 
-                LoadState.Loading -> LoadingPlaceholder(heightModifier)
+                LoadState.Loading -> LoadingPlaceholder(heightModifier.fillMaxWidth())
                 is LoadState.NotLoading -> {
                     LazyHorizontalGrid(
                         rows = GridCells.Adaptive(224f.dp),

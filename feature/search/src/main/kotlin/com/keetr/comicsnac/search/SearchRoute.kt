@@ -27,12 +27,9 @@ fun NavGraphBuilder.searchRoute(
 ) = composable(
     SearchRoute.route,
     enterTransition = { fadeIn(spring()) + scaleIn(initialScale = 1.2f) },
-    popExitTransition = {
-        fadeOut(spring(stiffness = Spring.StiffnessMedium)) + scaleOut(
-            spring(stiffness = Spring.StiffnessMedium),
-            targetScale = 1.2f
-        )
-    }
+    exitTransition = { fadeOut() + scaleOut(targetScale = 0.9f) },
+    popEnterTransition = {fadeIn() + scaleIn(initialScale = 0.9f) },
+    popExitTransition = { fadeOut() + scaleOut(targetScale = 1.2f) }
 ) {
     SearchRoute(
         modifier = modifier,
@@ -50,7 +47,7 @@ fun SearchRoute(
 ) {
     SearchScreen(
         modifier = modifier,
-        query = viewModel.query,
+        queryProvider = { viewModel.query },
         onQueryChanged = viewModel::onQueryChanged,
         searchEmpty = viewModel.submittedQuery.collectAsState().value.isBlank(),
         filter = viewModel.filters,

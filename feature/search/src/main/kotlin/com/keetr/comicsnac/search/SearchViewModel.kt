@@ -39,7 +39,7 @@ class SearchViewModel @Inject constructor(
 
     private val _submittedQuery = MutableStateFlow("")
     val submittedQuery = _submittedQuery.asStateFlow()
-    fun onSearch(query: String) {
+    fun onSearch() {
         Log.d("TAG", "SearchScreen: $query Search clicked")
         _submittedQuery.value = query
     }

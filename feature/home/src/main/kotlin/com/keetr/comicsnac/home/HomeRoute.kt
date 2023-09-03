@@ -33,13 +33,8 @@ fun NavGraphBuilder.homeRoute(
     onSeriesCategoryClicked: () -> Unit,
 ) = composable(
     route = HomeRoute.route,
-    enterTransition = {
-        expandIn(
-            expandFrom = Alignment.BottomCenter
-        )
-    },
+    enterTransition = { fadeIn() + scaleIn(initialScale = 0.9f) },
     exitTransition = { fadeOut() + scaleOut(targetScale = 0.9f) },
-    popEnterTransition = { fadeIn() + scaleIn(initialScale = 0.9f) }
 ) {
     HomeRoute(
         modifier = modifier,

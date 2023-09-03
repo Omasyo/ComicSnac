@@ -35,12 +35,13 @@ class MainActivity : ComponentActivity() {
         val colorScheme = viewModel.selectedSchemeId.map {
             ColorSchemes[it] ?: DefaultScheme
         }
+        val isPresent = viewModel.apiKeyPresent
 
         setContent {
             ComicSnacTheme(
                 colorScheme.collectAsState(DefaultScheme, Dispatchers.Default).value
             ) {
-                AppNavHost()
+                AppNavHost(apiKeyPresent = isPresent)
             }
         }
     }
