@@ -1,11 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="EntryPointsManager">
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="dagger.Module" />
-      <item index="1" class="java.lang.String" itemvalue="dagger.Provides" />
-      <item index="2" class="java.lang.String" itemvalue="dagger.Provides" />
-      <item index="3" class="java.lang.String" itemvalue="dagger.Provides" />
-      <item index="4" class="java.lang.String" itemvalue="dagger.Provides" />
+    <list size="15">
+      <item index="0" class="java.lang.String" itemvalue="dagger.Binds" />
+      <item index="1" class="java.lang.String" itemvalue="dagger.Binds" />
+      <item index="2" class="java.lang.String" itemvalue="dagger.Binds" />
+      <item index="3" class="java.lang.String" itemvalue="dagger.Binds" />
+      <item index="4" class="java.lang.String" itemvalue="dagger.Binds" />
+      <item index="5" class="java.lang.String" itemvalue="dagger.Binds" />
+      <item index="6" class="java.lang.String" itemvalue="dagger.Binds" />
+      <item index="7" class="java.lang.String" itemvalue="dagger.Binds" />
+      <item index="8" class="java.lang.String" itemvalue="dagger.Binds" />
+      <item index="9" class="java.lang.String" itemvalue="dagger.Binds" />
+      <item index="10" class="java.lang.String" itemvalue="dagger.Module" />
+      <item index="11" class="java.lang.String" itemvalue="dagger.Provides" />
+      <item index="12" class="java.lang.String" itemvalue="dagger.Provides" />
+      <item index="13" class="java.lang.String" itemvalue="dagger.Provides" />
+      <item index="14" class="java.lang.String" itemvalue="dagger.Provides" />
     </list>
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
