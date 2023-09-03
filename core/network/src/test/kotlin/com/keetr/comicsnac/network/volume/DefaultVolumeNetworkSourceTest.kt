@@ -26,13 +26,13 @@ class DefaultVolumeNetworkSourceTest : NetworkSourceTest<VolumeNetworkSource>() 
 
     @Test
     fun getVolumeDetails() = runTest {
-        val response = networkSource.getVolumeDetails("153158").getOrThrow()
+        val response = networkSource.getVolumeDetails(apiKey, "153158").getOrThrow()
         assertEquals(153158, response.results.id)
     }
 
     @Test
     fun getAllVolumes() = runTest {
-        val response = networkSource.getAllVolumes(100,0).getOrThrow()
+        val response = networkSource.getAllVolumes(apiKey, 100, 0).getOrThrow()
         assertEquals("Single Series", response.results.first().name)
     }
 }

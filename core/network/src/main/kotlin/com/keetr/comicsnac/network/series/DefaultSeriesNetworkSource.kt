@@ -12,29 +12,40 @@ import javax.inject.Inject
 class DefaultSeriesNetworkSource @Inject constructor(
     private val client: HttpClient
 ) : SeriesNetworkSource {
-    override suspend fun getSeriesDetails(id: String): Result<SeriesDetailsResponse> =
+    override suspend fun getSeriesDetails(
+        apiKey: String,
+        id: String
+    ): Result<SeriesDetailsResponse> =
         makeRequest {
             client.get("series/4075-$id") {
+                parameter("api_key", apiKey)
                 parameter("field_list", DetailsFieldList)
             }
         }
 
-    override suspend fun getAllSeries(pageSize: Int, offset: Int): Result<SeriesListResponse> =
-        getSeries(pageSize, offset)
+    override suspend fun getAllSeries(
+        apiKey: String,
+        pageSize: Int,
+        offset: Int
+    ): Result<SeriesListResponse> =
+        getSeries(apiKey, pageSize, offset)
 
     override suspend fun getSeriesWithId(
+        apiKey: String,
         pageSize: Int,
         offset: Int,
         seriesId: List<Int>
-    ): Result<SeriesListResponse> = getSeries(pageSize, offset, seriesId = seriesId)
+    ): Result<SeriesListResponse> = getSeries(apiKey, pageSize, offset, seriesId = seriesId)
 
     private suspend fun getSeries(
+        apiKey: String,
         pageSize: Int,
         offset: Int,
         seriesId: List<Int> = emptyList()
     ): Result<SeriesListResponse> =
         makeRequest {
             client.get("series_list") {
+                parameter("api_key", apiKey)
                 parameter("field_list", ListFieldList)
                 parameter("limit", pageSize)
                 parameter("offset", offset)

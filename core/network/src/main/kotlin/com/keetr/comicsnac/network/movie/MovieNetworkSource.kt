@@ -6,17 +6,23 @@ import com.keetr.comicsnac.network.movie.models.MovieDetailsResponse
 import com.keetr.comicsnac.network.movie.models.MovieListResponse
 
 interface MovieNetworkSource : NetworkSource {
-    suspend fun getMovieDetails(id: String): Result<MovieDetailsResponse>
+    suspend fun getMovieDetails(apiKey: String, id: String): Result<MovieDetailsResponse>
 
-    suspend fun getRecentMovies(pageSize: Int, offset: Int): Result<MovieListResponse>
+    suspend fun getRecentMovies(
+        apiKey: String,
+        pageSize: Int,
+        offset: Int
+    ): Result<MovieListResponse>
 
     suspend fun getAllMovies(
+        apiKey: String,
         pageSize: Int,
         offset: Int,
         sortReleaseDate: Sort = Sort.Descending
     ): Result<MovieListResponse>
 
     suspend fun getMoviesWithId(
+        apiKey: String,
         pageSize: Int,
         offset: Int,
         sortReleaseDate: Sort = Sort.Descending,

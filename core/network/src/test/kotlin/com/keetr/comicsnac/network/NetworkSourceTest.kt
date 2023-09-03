@@ -16,9 +16,11 @@ import org.junit.Before
 import org.junit.Rule
 import org.junit.rules.TemporaryFolder
 
-abstract class NetworkSourceTest<T: NetworkSource> {
+abstract class NetworkSourceTest<T : NetworkSource> {
     protected lateinit var client: HttpClient
     protected lateinit var networkSource: T
+
+    protected val apiKey = "ApiKey"
 
     abstract fun generateResponseBody(request: HttpRequestData): String
 
@@ -29,6 +31,7 @@ abstract class NetworkSourceTest<T: NetworkSource> {
     @Before
     fun setUp() {
         val mockEngine = MockEngine { request ->
+            if (request.url.parameters["api_key"] != apiKey) throw InvalidApiException
             respond(
                 headers = headersOf(HttpHeaders.ContentType, "application/json"),
                 content = generateResponseBody(request)

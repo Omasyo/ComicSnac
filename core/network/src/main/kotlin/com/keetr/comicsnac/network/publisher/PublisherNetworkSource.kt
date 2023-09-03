@@ -7,19 +7,21 @@ import com.keetr.comicsnac.network.publisher.models.PublisherListResponse
 import com.keetr.comicsnac.network.publisher.models.PublisherVolumesResponse
 
 interface PublisherNetworkSource : NetworkSource {
-    suspend fun getPublisherDetails(id: String): Result<PublisherDetailsResponse>
+    suspend fun getPublisherDetails(apiKey: String, id: String): Result<PublisherDetailsResponse>
 
-    suspend fun getPublisherCharacters(id: String): Result<PublisherCharactersResponse>
+    suspend fun getPublisherCharacters(apiKey: String, id: String): Result<PublisherCharactersResponse>
 
-    suspend fun getPublisherVolumes(id: String): Result<PublisherVolumesResponse>
+    suspend fun getPublisherVolumes(apiKey: String, id: String): Result<PublisherVolumesResponse>
 
     suspend fun getPublishersWithId(
+        apiKey: String,
         pageSize: Int,
         offset: Int,
         publisherId: List<Int>,
     ): Result<PublisherListResponse>
 
     suspend fun getAllPublishers(
+        apiKey: String,
         pageSize: Int,
         offset: Int
     ): Result<PublisherListResponse>

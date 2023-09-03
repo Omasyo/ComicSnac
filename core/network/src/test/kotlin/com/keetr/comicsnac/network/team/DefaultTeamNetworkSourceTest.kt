@@ -25,13 +25,13 @@ class DefaultTeamNetworkSourceTest : NetworkSourceTest<TeamNetworkSource>() {
 
     @Test
     fun getTeamDetails() = runTest {
-        val response = networkSource.getTeamDetails("15971")
+        val response = networkSource.getTeamDetails(apiKey, "15971")
         assertEquals("New Mutants", response.getOrNull()?.results?.name)
     }
 
     @Test
     fun getAllTeams() = runTest {
-        val response = networkSource.getAllTeams(100, 0)
+        val response = networkSource.getAllTeams(apiKey, 100, 0)
         assertEquals("Metagen", response.getOrThrow().results.firstOrNull()?.name)
     }
 }

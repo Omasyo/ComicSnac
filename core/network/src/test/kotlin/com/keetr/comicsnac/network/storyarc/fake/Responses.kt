@@ -2,7 +2,7 @@ package com.keetr.comicsnac.network.storyarc.fake
 
 import java.io.File
 
-internal const val root = "src/main/kotlin/com/keetr/comicsnac/network/storyarc/fake/"
+internal const val root = "src/test/kotlin/com/keetr/comicsnac/network/storyarc/fake/"
 
 internal val StoryArcDetailsResponse = File(root, "StoryArcDetailsResponse.json").readText()
 

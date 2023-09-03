@@ -1,5 +1,6 @@
 package com.keetr.comicsnac.network.character
 
+import com.keetr.comicsnac.network.ApiKey
 import com.keetr.comicsnac.network.character.models.CharacterDetailsResponse
 import com.keetr.comicsnac.network.character.models.CharactersListResponse
 import com.keetr.comicsnac.network.common.Sort
@@ -14,29 +15,35 @@ internal class DefaultCharacterNetworkSource @Inject constructor(
     private val client: HttpClient
 ) : CharacterNetworkSource {
 
-    override suspend fun getCharacterDetails(id: String): Result<CharacterDetailsResponse> =
+    override suspend fun getCharacterDetails(
+        apiKey: String,
+        id: String
+    ): Result<CharacterDetailsResponse> =
         makeRequest {
             client.get("character/4005-$id") {
+                parameter("api_key", apiKey)
                 parameter("field_list", DetailsFieldList)
             }
         }
 
     override suspend fun getRecentCharacters(
-        pageSize: Int, offset: Int
+        apiKey: String, pageSize: Int, offset: Int
     ): Result<CharactersListResponse> =
-        getCharacters(pageSize, offset, sortRecentlyUpdated = Sort.Descending)
+        getCharacters(apiKey, pageSize, offset, sortRecentlyUpdated = Sort.Descending)
 
 
     override suspend fun getAllCharacters(
-        pageSize: Int, offset: Int, gender: GenderApiModel
+        apiKey: String, pageSize: Int, offset: Int, gender: GenderApiModel
     ): Result<CharactersListResponse> =
-        getCharacters(pageSize, offset, gender, sortRecentlyUpdated = Sort.Descending)
+        getCharacters(apiKey, pageSize, offset, gender, sortRecentlyUpdated = Sort.Descending)
 
     override suspend fun getCharactersWithId(
-        pageSize: Int, offset: Int, characterIds: List<Int>
-    ): Result<CharactersListResponse> = getCharacters(pageSize, offset, charactersId = characterIds)
+        apiKey: String, pageSize: Int, offset: Int, characterIds: List<Int>
+    ): Result<CharactersListResponse> =
+        getCharacters(apiKey, pageSize, offset, charactersId = characterIds)
 
     private suspend fun getCharacters(
+        apiKey: String,
         pageSize: Int,
         offset: Int,
         gender: GenderApiModel = GenderApiModel.All,
@@ -44,6 +51,7 @@ internal class DefaultCharacterNetworkSource @Inject constructor(
         sortRecentlyUpdated: Sort = Sort.None
     ): Result<CharactersListResponse> = makeRequest {
         client.get("characters") {
+            parameter("api_key", apiKey)
             parameter("field_list", ListFieldList)
             parameter("limit", pageSize)
             parameter("offset", offset)

@@ -29,7 +29,7 @@ class DefaultIssueNetworkSourceTest : NetworkSourceTest<IssueNetworkSource>() {
     @Test
     fun `verify issue number`() = runTest {
         val response =
-            networkSource.getIssueDetails("369103")
+            networkSource.getIssueDetails(apiKey, "369103")
         assertEquals("698", response.getOrThrow().results.issueNumber)
     }
 
@@ -42,7 +42,7 @@ class DefaultIssueNetworkSourceTest : NetworkSourceTest<IssueNetworkSource>() {
 
     @Test
     fun getAllIssues() = runTest {
-        val response = networkSource.getAllIssues(100, 0)
+        val response = networkSource.getAllIssues(apiKey, 100, 0)
         assertEquals(
             "https://comicvine.gamespot.com/api/issue/4000-1000362/",
             response.getOrThrow().results.first().apiDetailUrl

@@ -15,23 +15,10 @@ import javax.inject.Inject
 //val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "settings")
 
 
-internal class DefaultSettingsRepository @Inject constructor(
+internal class DefaultAuthRepository @Inject constructor(
     private val settingsDataStore: DataStore<Preferences>,
-    private val colorSchemeKey: Preferences.Key<Int>,
     private val authKey: Preferences.Key<String>
-) : SettingsRepository {
-
-    override suspend fun updateColorSchemeId(id: Int) {
-        settingsDataStore.edit { preferences ->
-            preferences[colorSchemeKey] = id
-        }
-    }
-
-    override fun getColorSchemeId(): Flow<Int> {
-        return settingsDataStore.data.map { preferences ->
-            preferences[colorSchemeKey] ?: 0
-        }
-    }
+) : AuthRepository {
 
     override suspend fun updateApiKey(key: String) {
         TODO("Not yet implemented")

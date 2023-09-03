@@ -2,7 +2,7 @@ package com.keetr.comicsnac.network.character.fake
 
 import java.io.File
 
-internal const val root = "src/main/kotlin/com/keetr/comicsnac/network/character/fake/"
+internal const val root = "src/test/kotlin/com/keetr/comicsnac/network/character/fake/"
 
 internal val BatmanDetailsResponse = File(root, "BatmanDetailsResponse.json").readText()
 

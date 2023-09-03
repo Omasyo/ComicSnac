@@ -14,16 +14,25 @@ const val TAG = "DefaultConceptNetworkSource"
 internal class DefaultConceptNetworkSource @Inject constructor(
     private val client: HttpClient
 ) : ConceptNetworkSource {
-    override suspend fun getConceptDetails(id: String): Result<ConceptDetailsResponse> =
+    override suspend fun getConceptDetails(
+        apiKey: String,
+        id: String
+    ): Result<ConceptDetailsResponse> =
         makeRequest {
             client.get("concept/4015-$id") {
+                parameter("api_key", apiKey)
                 parameter("field_list", DetailsFieldList)
             }
         }
 
-    override suspend fun getAllConcepts(pageSize: Int, offset: Int): Result<ConceptListResponse> =
+    override suspend fun getAllConcepts(
+        apiKey: String,
+        pageSize: Int,
+        offset: Int
+    ): Result<ConceptListResponse> =
         makeRequest {
             client.get("concepts") {
+                parameter("api_key", apiKey)
                 parameter("field_list", ListFieldList)
                 parameter("limit", pageSize)
                 parameter("offset", offset)

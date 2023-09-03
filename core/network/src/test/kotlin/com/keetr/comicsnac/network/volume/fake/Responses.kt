@@ -2,7 +2,7 @@ package com.keetr.comicsnac.network.volume.fake
 
 import java.io.File
 
-internal const val root = "src/main/kotlin/com/keetr/comicsnac/network/volume/fake/"
+internal const val root = "src/test/kotlin/com/keetr/comicsnac/network/volume/fake/"
 
 internal val VolumesResponse = File(root, "VolumesResponse.json").readText()
 

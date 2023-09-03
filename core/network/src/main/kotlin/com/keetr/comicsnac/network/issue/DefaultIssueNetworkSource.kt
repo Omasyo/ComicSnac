@@ -13,37 +13,46 @@ import javax.inject.Inject
 internal class DefaultIssueNetworkSource @Inject constructor(
     private val client: HttpClient
 ) : IssueNetworkSource {
-    override suspend fun getIssueDetails(id: String): Result<IssueDetailsResponse> =
+    override suspend fun getIssueDetails(apiKey: String, id: String): Result<IssueDetailsResponse> =
         makeRequest {
             client.get("issue/4000-$id") {
+                parameter("api_key", apiKey)
                 parameter("field_list", DetailsFieldList)
             }
         }
 
-    override suspend fun getRecentIssues(pageSize: Int, offset: Int): Result<IssueListResponse> =
-        getIssues(pageSize, offset, Sort.Descending)
+    override suspend fun getRecentIssues(
+        apiKey: String,
+        pageSize: Int,
+        offset: Int
+    ): Result<IssueListResponse> =
+        getIssues(apiKey, pageSize, offset, Sort.Descending)
 
     override suspend fun getAllIssues(
+        apiKey: String,
         pageSize: Int,
         offset: Int,
         sortCoverDate: Sort
     ): Result<IssueListResponse> =
-        getIssues(pageSize, offset, sortCoverDate)
+        getIssues(apiKey, pageSize, offset, sortCoverDate)
 
     override suspend fun getIssuesWithId(
+        apiKey: String,
         pageSize: Int,
         offset: Int,
         sortCoverDate: Sort,
         issuesId: List<Int>
-    ): Result<IssueListResponse> = getIssues(pageSize, offset, sortCoverDate, issuesId)
+    ): Result<IssueListResponse> = getIssues(apiKey, pageSize, offset, sortCoverDate, issuesId)
 
     private suspend fun getIssues(
+        apiKey: String,
         pageSize: Int,
         offset: Int,
         sortCoverDate: Sort = Sort.None,
         issuesId: List<Int> = emptyList()
     ): Result<IssueListResponse> = makeRequest {
         client.get("issues") {
+            parameter("api_key", apiKey)
             parameter("field_list", ListFieldList)
             parameter("limit", pageSize)
             parameter("offset", offset)
