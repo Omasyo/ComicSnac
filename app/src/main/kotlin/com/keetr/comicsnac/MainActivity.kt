@@ -23,6 +23,8 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
 //        WindowCompat.setDecorFitsSystemWindows(window, false)
         val ColorSchemeKey = intPreferencesKey("color_scheme")
+
+//        val t =
         val colorScheme: Flow<ColorScheme> = baseContext.dataStore.data.map { preferences ->
             ColorSchemes[preferences[ColorSchemeKey]] ?: DefaultScheme
         }

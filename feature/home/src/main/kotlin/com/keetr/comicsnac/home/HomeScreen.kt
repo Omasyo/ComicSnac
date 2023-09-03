@@ -14,6 +14,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.LocalContentColor
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -52,6 +53,7 @@ internal fun HomeScreen(
     modifier: Modifier = Modifier,
     onItemClicked: (apiDetailUrl: String) -> Unit,
     onSearchClicked: () -> Unit,
+    onSettingsClicked: () -> Unit,
     onMoreCategoriesClicked: () -> Unit,
     onCharacterCategoryClicked: () -> Unit,
     onVolumeCategoryClicked: () -> Unit,
@@ -77,7 +79,7 @@ internal fun HomeScreen(
                     ) {
                         Text(
                             "Comic Snac",
-                            style = MaterialTheme.typography.headlineLarge,
+                            style = MaterialTheme.typography.headlineLarge
                         )
                         Box(
                             Modifier
@@ -228,18 +230,23 @@ internal fun HomeScreen(
                 panelSeparator()
 
                 panel {
-                    Box(
+                    Row(
                         Modifier
                             .fillMaxWidth()
-                            .padding(bottom = 24f.dp)
+                            .padding(bottom = 24f.dp, top = 16f.dp),
+                        horizontalArrangement = Arrangement.SpaceBetween,
+                        verticalAlignment = Alignment.CenterVertically
                     ) {
+
+                        IconButton(onClick = onSettingsClicked, modifier = Modifier.padding(12f.dp).align(Alignment.CenterVertically)) {
+                            Icon(AppIcons.Settings, null, Modifier.size(32f.dp))
+                        }
                         Text(
                             stringResource(com.keetr.comicsnac.home.R.string.more_categories),
                             style = MaterialTheme.typography.headlineSmall,
                             color = MaterialTheme.colorScheme.primaryContainer,
                             modifier = Modifier
-                                .align(Alignment.CenterEnd)
-                                .padding(top = 16f.dp)
+//                                .align(Alignment.CenterEnd)
                                 .clickable { onMoreCategoriesClicked() }
                                 .background(MaterialTheme.colorScheme.onSurface)
                                 .padding(horizontal = 16f.dp, vertical = 4f.dp)
@@ -251,7 +258,7 @@ internal fun HomeScreen(
     }
 }
 
-@Preview
+@Preview()
 @Composable
 private fun Preview() {
     ComicSnacTheme(YetAnotherScheme) {
@@ -259,6 +266,7 @@ private fun Preview() {
             onItemClicked = {},
             onSearchClicked = {},
             onMoreCategoriesClicked = { },
+            onSettingsClicked = {},
             onCharacterCategoryClicked = { },
             onVolumeCategoryClicked = { },
             onMovieCategoryClicked = { },

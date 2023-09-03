@@ -13,22 +13,19 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
 import androidx.compose.material3.ColorScheme
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.datastore.preferences.core.edit
@@ -37,30 +34,20 @@ import com.keetr.comicsnac.data.settings.dataStore
 import com.keetr.comicsnac.ui.theme.AppIcons
 import com.keetr.comicsnac.ui.theme.ColorSchemes
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
-import com.keetr.comicsnac.ui.theme.DarkKnightScheme
-import com.keetr.comicsnac.ui.theme.IronManScheme
-import com.keetr.comicsnac.ui.theme.SpawnScheme
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun ThemeScreen(
     modifier: Modifier = Modifier,
-//    selectedSchemeId: Int,
+    selectedSchemeId: Int,
     onBackPressed: () -> Unit,
-//    onClickScheme: (Int) -> Unit
+    onClickScheme: (Int) -> Unit
 ) {
-    val context = LocalContext.current
-    suspend fun onClickScheme(id: Int) {
 
-        val ColorSchemeKey = intPreferencesKey("color_scheme")
-        context.dataStore.edit {preferences ->
-            preferences[ColorSchemeKey] = id
-        }
-    }
 
-    Surface(modifier) {
-        Column {
+    Scaffold(modifier) { innerPadding ->
+        Column(Modifier.padding(innerPadding)) {
             IconButton(onClick = onBackPressed, modifier = Modifier.padding(12f.dp)) {
                 Icon(AppIcons.ArrowBack, null)
             }
@@ -83,16 +70,13 @@ fun ThemeScreen(
                             Modifier
                                 .fillMaxWidth(0.35f)
                         ) {
-                            val scope = rememberCoroutineScope()
                             ThemeBox(
                                 scheme,
-                                if (false) Modifier.border(
+                                if (selectedSchemeId == id) Modifier.border(
                                     4f.dp,
                                     MaterialTheme.colorScheme.onSurface
                                 ) else Modifier.clickable {
-                                    scope.launch {
-                                        onClickScheme(id)
-                                    }
+                                    onClickScheme(id)
                                 }
                             )
 //                            Text(stringResource(id))
@@ -154,6 +138,6 @@ fun ThemeBox(
 @Composable
 private fun Preview() {
     ComicSnacTheme {
-        ThemeScreen( onBackPressed = {})
+        ThemeScreen( selectedSchemeId = 0, onBackPressed = {}, onClickScheme = {})
     }
 }
