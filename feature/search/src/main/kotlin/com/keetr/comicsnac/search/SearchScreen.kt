@@ -50,6 +50,7 @@ import com.keetr.comicsnac.model.search.SearchModel
 import com.keetr.comicsnac.model.search.SearchType
 import com.keetr.comicsnac.model.storyarc.StoryArc
 import com.keetr.comicsnac.model.volume.Volume
+import com.keetr.comicsnac.ui.components.TextField
 import com.keetr.comicsnac.ui.components.cards.CharacterWideCard
 import com.keetr.comicsnac.ui.components.cards.ConceptWideCard
 import com.keetr.comicsnac.ui.components.cards.IssueWideCard
@@ -114,32 +115,21 @@ fun SearchScreen(
                 IconButton(onClick = onBackPressed) {
                     Icon(AppIcons.ArrowBack, null)
                 }
-                BasicTextField(
-                    value = query,
-                    onValueChange = onQueryChanged,
-                    textStyle = MaterialTheme.typography.titleLarge.copy(MaterialTheme.colorScheme.onSurface),
+                TextField(
                     modifier = Modifier
                         .padding(horizontal = 8f.dp)
                         .weight(1f),
+                    value = query,
+                    onValueChange = onQueryChanged,
+                    textStyle = MaterialTheme.typography.titleLarge.copy(MaterialTheme.colorScheme.onSurface),
+                    placeholder = stringResource(R.string.search_placeholder),
                     keyboardOptions = KeyboardOptions(imeAction = ImeAction.Search),
                     keyboardActions = KeyboardActions(
                         onSearch = {
                             onSearch(query)
                         }
                     ),
-                    singleLine = true,
-                    cursorBrush = SolidColor(MaterialTheme.colorScheme.onSurface),
-                ) { innerTextField ->
-                    if (query.isEmpty()) {
-                        Text(
-                            stringResource(R.string.search_placeholder),
-                            style = MaterialTheme.typography.titleLarge.copy(
-                                MaterialTheme.colorScheme.onSurface.copy(0.7f)
-                            )
-                        )
-                    }
-                    innerTextField()
-                }
+                )
                 AnimatedVisibility(query.isNotEmpty()) {
                     IconButton(onClick = onClear) {
                         Icon(AppIcons.Close, null)

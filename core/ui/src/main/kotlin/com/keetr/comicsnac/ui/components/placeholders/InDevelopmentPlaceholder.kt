@@ -14,8 +14,8 @@ import androidx.compose.ui.unit.dp
 @Composable
 fun InDevelopmentPlaceholder(modifier: Modifier = Modifier) {
     Box(
-        modifier
-            .fillMaxSize()
+        modifier,
+//            .fillMaxSize()
     ) {
         Text(
             "In Development",

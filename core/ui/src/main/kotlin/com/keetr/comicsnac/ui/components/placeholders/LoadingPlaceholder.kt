@@ -16,11 +16,15 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import kotlinx.coroutines.delay
 
 @Composable
-fun LoadingPlaceholder(modifier: Modifier = Modifier) {
+fun LoadingPlaceholder(
+    modifier: Modifier = Modifier,
+    color: Color = Color.Unspecified
+) {
 
     var dotCount by remember {
         mutableIntStateOf(1)
@@ -36,12 +40,13 @@ fun LoadingPlaceholder(modifier: Modifier = Modifier) {
 
     Box(
         modifier
-            .fillMaxSize()
+//            .fillMaxSize()
     ) {
         Text(
             "Loading${".".repeat(dotCount)}",
             style = MaterialTheme.typography.headlineLarge,
-            modifier = Modifier.align(Alignment.Center)
+            modifier = Modifier.align(Alignment.Center),
+            color = color
         )
     }
 }

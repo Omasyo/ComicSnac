@@ -33,4 +33,7 @@
     <string name="publishers">Publishers</string>
     <string name="story_arcs">Story Arcs</string>
     <string name="publisher_image_desc">Image of the %1$s logo</string>
+    <string name="oops">Oops</string>
+    <string name="error">An Error Occured</string>
+    <string name="retry">Retry</string>
 </resources>

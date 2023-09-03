@@ -14,8 +14,10 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.keetr.comicsnac.ui.R
 import com.keetr.comicsnac.ui.components.cards.ComicCard
 import com.keetr.comicsnac.ui.theme.AnotherScheme
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
@@ -31,15 +33,15 @@ fun ErrorPlaceholder(
     onRetry: (() -> Unit)? = null
 ) {
     Column(
-        modifier
-            .fillMaxSize(),
+        modifier,
+//            .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
 
         ComicCard(backgroundColor = MaterialTheme.colorScheme.error) {
             Text(
-                "Oops",
+                stringResource(R.string.oops),
                 color = MaterialTheme.colorScheme.onError,
                 style = MaterialTheme.typography.headlineLarge,
                 modifier = Modifier.padding(20f.dp, 12f.dp)
@@ -51,7 +53,7 @@ fun ErrorPlaceholder(
             horizontalArrangement = Arrangement.Center
         ) {
             Text(
-                "An Error Occured",
+                stringResource(R.string.error),
                 color = MaterialTheme.colorScheme.onBackground,
                 style = MaterialTheme.typography.titleLarge,
                 modifier = Modifier
@@ -63,7 +65,7 @@ fun ErrorPlaceholder(
                     onClick = onRetry
                 ) {
                     Text(
-                        "Retry",
+                        stringResource(R.string.retry),
                         maxLines = 1,
                         color = MaterialTheme.colorScheme.error,
                         style = MaterialTheme.typography.titleLarge,
