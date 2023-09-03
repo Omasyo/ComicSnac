@@ -12,6 +12,8 @@ import com.keetr.comicsnac.data.publisher.DefaultPublisherRepository
 import com.keetr.comicsnac.data.publisher.PublisherRepository
 import com.keetr.comicsnac.data.search.DefaultSearchRepository
 import com.keetr.comicsnac.data.search.SearchRepository
+import com.keetr.comicsnac.data.settings.AuthRepository
+import com.keetr.comicsnac.data.settings.DefaultAuthRepository
 import com.keetr.comicsnac.data.settings.DefaultSettingsRepository
 import com.keetr.comicsnac.data.settings.SettingsRepository
 import com.keetr.comicsnac.data.team.DefaultTeamRepository
@@ -53,4 +55,7 @@ private interface RepositoryModule {
 
     @Binds
     fun bindSettingsRepository(settingsRepository: DefaultSettingsRepository): SettingsRepository
+
+    @Binds
+    fun bindAuthRepository(authRepository: DefaultAuthRepository): AuthRepository
 }
