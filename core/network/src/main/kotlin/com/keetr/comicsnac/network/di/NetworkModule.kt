@@ -3,6 +3,8 @@ package com.keetr.comicsnac.network.di
 import android.content.Context
 import com.keetr.comicsnac.network.character.CharacterNetworkSource
 import com.keetr.comicsnac.network.character.DefaultCharacterNetworkSource
+import com.keetr.comicsnac.network.common.DefaultRandomNetworkSource
+import com.keetr.comicsnac.network.common.RandomNetworkSource
 import com.keetr.comicsnac.network.concept.ConceptNetworkSource
 import com.keetr.comicsnac.network.concept.DefaultConceptNetworkSource
 import com.keetr.comicsnac.network.createClient
@@ -127,4 +129,9 @@ private object NetworkModule {
     @Singleton
     fun provideVolumeNetworkSource(client: HttpClient): VolumeNetworkSource =
         DefaultVolumeNetworkSource(client)
+
+    @Provides
+    @Singleton
+    fun provideRandomNetworkSource(client: HttpClient): RandomNetworkSource =
+        DefaultRandomNetworkSource(client)
 }
