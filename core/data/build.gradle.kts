@@ -18,5 +18,6 @@ dependencies {
     implementation(project(":core:model"))
     implementation(project(":core:network"))
 
+    implementation(libs.androidx.datastore.preferences)
     implementation(libs.androidx.paging.compose)
 }

@@ -59,18 +59,22 @@ dependencies {
     "baselineProfile"(project(":baselineprofile"))
     coreLibraryDesugaring(libs.android.tools.desugar)
     
+    implementation(project(":core:data"))
     implementation(project(":core:model"))
     implementation(project(":core:ui"))
     implementation(project(":feature:categories"))
     implementation(project(":feature:details"))
     implementation(project(":feature:home"))
     implementation(project(":feature:search"))
+    implementation(project(":feature:settings"))
 
     implementation(libs.accompanist.webview)
     implementation(libs.androidx.navigation.compose)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
+
+    implementation(libs.androidx.datastore.preferences)
 
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))

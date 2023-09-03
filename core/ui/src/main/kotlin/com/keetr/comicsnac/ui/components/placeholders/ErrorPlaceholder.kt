@@ -4,7 +4,6 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
-import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
@@ -18,7 +17,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.keetr.comicsnac.ui.components.cards.ComicCard
+import com.keetr.comicsnac.ui.theme.AnotherScheme
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
+import com.keetr.comicsnac.ui.theme.DoggyBagsScheme
+import com.keetr.comicsnac.ui.theme.LightScheme
+import com.keetr.comicsnac.ui.theme.SpawnScheme
+import com.keetr.comicsnac.ui.theme.YetAnotherScheme
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
@@ -74,7 +78,7 @@ fun ErrorPlaceholder(
 @Preview
 @Composable
 private fun Preview() {
-    ComicSnacTheme {
+    ComicSnacTheme(LightScheme) {
         ErrorPlaceholder() { }
     }
 }

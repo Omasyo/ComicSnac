@@ -36,6 +36,7 @@ import com.keetr.comicsnac.home.HomeRoute
 import com.keetr.comicsnac.home.homeRoute
 import com.keetr.comicsnac.search.navigateToSearch
 import com.keetr.comicsnac.search.searchRoute
+import com.keetr.comicsnac.settings.ThemeScreen
 import com.keetr.comicsnac.ui.components.placeholders.InDevelopmentPlaceholder
 
 @Composable
@@ -65,10 +66,18 @@ fun AppNavHost(
             onSearchClicked = { navController.navigateToSearch() },
             onMoreCategoriesClicked = { navController.navigateToCategories() },
             onCharacterCategoryClicked = {},
-            onVolumeCategoryClicked = {},
+            onVolumeCategoryClicked = {
+                                      navController.navigate("settings")
+            },
             onMovieCategoryClicked = {},
             onSeriesCategoryClicked = {}
         )
+
+        composable("settings") {
+            ThemeScreen {
+
+            }
+        }
 
         searchRoute(
             onItemClicked = onItemClicked,

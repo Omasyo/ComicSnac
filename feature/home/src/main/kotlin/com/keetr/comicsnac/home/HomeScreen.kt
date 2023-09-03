@@ -1,10 +1,7 @@
 package com.keetr.comicsnac.home
 
 import androidx.compose.animation.AnimatedContent
-import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.animateContentSize
-import androidx.compose.animation.scaleIn
-import androidx.compose.animation.scaleOut
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -15,8 +12,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.Icon
 import androidx.compose.material3.LocalContentColor
@@ -28,22 +23,29 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.keetr.comicsnac.data.RepositoryResponse
 import com.keetr.comicsnac.home.fake.Characters
 import com.keetr.comicsnac.home.fake.Issues
 import com.keetr.comicsnac.ui.R
-import com.keetr.comicsnac.ui.components.lazylist.PanelColors
 import com.keetr.comicsnac.ui.components.cards.ComicCard
 import com.keetr.comicsnac.ui.components.cards.PlainCard
 import com.keetr.comicsnac.ui.components.lazylist.PanelList
 import com.keetr.comicsnac.ui.components.placeholders.ErrorPlaceholder
 import com.keetr.comicsnac.ui.components.placeholders.InDevelopmentPlaceholder
 import com.keetr.comicsnac.ui.components.placeholders.LoadingPlaceholder
+import com.keetr.comicsnac.ui.theme.AnotherScheme
 import com.keetr.comicsnac.ui.theme.AppIcons
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
+import com.keetr.comicsnac.ui.theme.DarkKnightScheme
+import com.keetr.comicsnac.ui.theme.DefaultScheme
+import com.keetr.comicsnac.ui.theme.DoggyBagsScheme
+import com.keetr.comicsnac.ui.theme.IronManScheme
+import com.keetr.comicsnac.ui.theme.LightScheme
+import com.keetr.comicsnac.ui.theme.SpawnScheme
+import com.keetr.comicsnac.ui.theme.YetAnotherScheme
 
 @Composable
 internal fun HomeScreen(
@@ -252,25 +254,22 @@ internal fun HomeScreen(
 @Preview
 @Composable
 private fun Preview() {
-    ComicSnacTheme {
-        CompositionLocalProvider(
-        ) {
-            HomeScreen(
-                onItemClicked = {},
-                onSearchClicked = {},
-                onMoreCategoriesClicked = { },
-                onCharacterCategoryClicked = { },
-                onVolumeCategoryClicked = { },
-                onMovieCategoryClicked = { },
-                onSeriesCategoryClicked = { },
-                issuesUiState = Success(Issues),
-                charactersUiState = Success(Characters),
-                volumesUiState = InDevelopment,
-                moviesUiState = InDevelopment,
-                seriesUiState = InDevelopment,
-                publishersUiState = InDevelopment
+    ComicSnacTheme(YetAnotherScheme) {
+        HomeScreen(
+            onItemClicked = {},
+            onSearchClicked = {},
+            onMoreCategoriesClicked = { },
+            onCharacterCategoryClicked = { },
+            onVolumeCategoryClicked = { },
+            onMovieCategoryClicked = { },
+            onSeriesCategoryClicked = { },
+            issuesUiState = Success(Issues),
+            charactersUiState = Success(Characters),
+            volumesUiState = InDevelopment,
+            moviesUiState = Error(RepositoryResponse.TimeoutError),
+            seriesUiState = InDevelopment,
+            publishersUiState = InDevelopment
 
-            )
-        }
+        )
     }
 }
