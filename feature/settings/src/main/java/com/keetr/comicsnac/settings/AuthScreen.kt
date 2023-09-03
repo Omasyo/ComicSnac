@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -77,8 +78,14 @@ fun AuthScreen(
                             color = MaterialTheme.colorScheme.error
                         )
                     }
+                    if (state == AuthUiState.UnknownError) {
+                        Text(
+                            stringResource(com.keetr.comicsnac.ui.R.string.error),
+                            color = MaterialTheme.colorScheme.error
+                        )
+                    }
                     when (state) {
-                        AuthUiState.Initial, AuthUiState.InvalidKey -> {
+                        AuthUiState.Initial, AuthUiState.InvalidKey, AuthUiState.UnknownError -> {
                             ComicCard(
                                 backgroundColor = MaterialTheme.colorScheme.onError,
                                 onClick = onVerifyClick
