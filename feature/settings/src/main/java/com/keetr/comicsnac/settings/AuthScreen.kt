@@ -45,7 +45,7 @@ fun AuthScreen(
             verticalArrangement = Arrangement.spacedBy(32f.dp, Alignment.CenterVertically)
         ) {
             Text(
-                "ComicSnac works with the ComicVine API.\nTap the button below to get an API key",
+                stringResource(R.string.api_key_reason),
                 textAlign = TextAlign.Center
             )
             ComicCard(
@@ -53,18 +53,18 @@ fun AuthScreen(
                 onClick = {}
             ) {
                 Text(
-                    "Get API Key",
+                    stringResource(R.string.get_api_key),
                     maxLines = 1,
                     color = MaterialTheme.colorScheme.secondary,
                     style = MaterialTheme.typography.titleLarge,
                     modifier = Modifier.padding(12f.dp, 8f.dp)
                 )
             }
-            Text("Please enter your API key to continue")
+            Text(stringResource(R.string.request_enter_api_key))
             TextField(
                 value = key,
                 onValueChange = onKeyChange,
-                placeholder = "Enter API Key",
+                placeholder = stringResource(R.string.enter_api_key),
                 textStyle = MaterialTheme.typography.titleLarge.copy(MaterialTheme.colorScheme.onSurface, textAlign = TextAlign.Center)
             )
             AnimatedContent(targetState = authUiState, label = "verify_button") { state ->
@@ -74,7 +74,7 @@ fun AuthScreen(
                 ) {
                     if (state == AuthUiState.InvalidKey) {
                         Text(
-                            "The API Key entered is not valid",
+                            stringResource(R.string.invalid_api_key),
                             color = MaterialTheme.colorScheme.error
                         )
                     }
@@ -91,7 +91,7 @@ fun AuthScreen(
                                 onClick = onVerifyClick
                             ) {
                                 Text(
-                                    "Verify",
+                                    stringResource(R.string.verify),
                                     maxLines = 1,
                                     color = MaterialTheme.colorScheme.error,
                                     style = MaterialTheme.typography.titleLarge,

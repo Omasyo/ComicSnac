@@ -23,6 +23,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Path
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.keetr.comicsnac.ui.theme.AppIcons
@@ -75,7 +76,7 @@ fun ThemeScreen(
                     }
                 }
                 Spacer(Modifier.height(48f.dp))
-                Text("Select A Color Scheme", style = MaterialTheme.typography.titleLarge)
+                Text(stringResource(R.string.select_color_scheme), style = MaterialTheme.typography.titleLarge)
             }
         }
     }

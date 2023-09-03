@@ -36,7 +36,9 @@ import com.keetr.comicsnac.home.HomeRoute
 import com.keetr.comicsnac.home.homeRoute
 import com.keetr.comicsnac.search.navigateToSearch
 import com.keetr.comicsnac.search.searchRoute
+import com.keetr.comicsnac.settings.AuthRoute
 import com.keetr.comicsnac.settings.authRoute
+import com.keetr.comicsnac.settings.navigateToTheme
 import com.keetr.comicsnac.settings.themeRoute
 import com.keetr.comicsnac.ui.components.placeholders.InDevelopmentPlaceholder
 
@@ -49,7 +51,7 @@ fun AppNavHost(
     NavHost(
         modifier = modifier,
         navController = navController,
-        startDestination = if(apiKeyPresent) HomeRoute.route else "auth"
+        startDestination = if(apiKeyPresent) HomeRoute.route else AuthRoute.route
     ) {
         val onBackPressed: () -> Unit = { navController.popBackStack() }
         val onItemClicked = { guid: String ->
@@ -67,7 +69,7 @@ fun AppNavHost(
             onItemClicked = onItemClicked,
             onSearchClicked = { navController.navigateToSearch() },
             onMoreCategoriesClicked = { navController.navigateToCategories() },
-            onSettingsClicked = { navController.navigate("settings") },
+            onSettingsClicked = { navController.navigateToTheme() },
             onCharacterCategoryClicked = {},
             onVolumeCategoryClicked = {
             },

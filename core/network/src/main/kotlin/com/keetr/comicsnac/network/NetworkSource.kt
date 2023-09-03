@@ -47,7 +47,10 @@ internal suspend inline fun <reified T> NetworkSource.makeRequest(
                     }
                 }
             }
-
+            HttpStatusCode.Unauthorized -> {
+                Log.w(tag, "makeRequest: Timeout - ${response.bodyAsText()}")
+                Result.failure(InvalidApiException)
+            }
             HttpStatusCode.RequestTimeout -> {
                 Log.w(tag, "makeRequest: Timeout - ${response.bodyAsText()}")
                 Result.failure(TimeoutException)
