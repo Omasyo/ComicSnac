@@ -1,14 +1,10 @@
 package com.keetr.comicsnac.data.di
 
 import android.content.Context
-import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.PreferenceDataStoreFactory
 import androidx.datastore.preferences.core.intPreferencesKey
 import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.datastore.preferences.preferencesDataStoreFile
-import com.keetr.comicsnac.data.settings.DefaultSettingsRepository
-import com.keetr.comicsnac.data.settings.SettingsRepository
-import dagger.Binds
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

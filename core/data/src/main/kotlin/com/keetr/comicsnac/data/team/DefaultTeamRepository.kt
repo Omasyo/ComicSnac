@@ -11,13 +11,12 @@ import com.keetr.comicsnac.data.fromNetworkError
 import com.keetr.comicsnac.data.settings.AuthRepository
 import com.keetr.comicsnac.model.team.Team
 import com.keetr.comicsnac.model.team.TeamDetails
-import com.keetr.comicsnac.network.team.TeamNetworkSource
 import com.keetr.comicsnac.network.search.models.TeamListApiModel
+import com.keetr.comicsnac.network.team.TeamNetworkSource
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flatMapLatest
-import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.flow.map
 import javax.inject.Inject

@@ -31,7 +31,7 @@ fun AuthScreen(
     authUiState: AuthUiState,
 ) {
     LaunchedEffect(key1 = authUiState) {
-        if(authUiState == AuthUiState.Verified) {
+        if (authUiState == AuthUiState.Verified) {
             onVerificationComplete()
         }
     }
@@ -65,7 +65,10 @@ fun AuthScreen(
                 value = key,
                 onValueChange = onKeyChange,
                 placeholder = stringResource(R.string.enter_api_key),
-                textStyle = MaterialTheme.typography.titleLarge.copy(MaterialTheme.colorScheme.onSurface, textAlign = TextAlign.Center)
+                textStyle = MaterialTheme.typography.titleLarge.copy(
+                    MaterialTheme.colorScheme.onSurface,
+                    textAlign = TextAlign.Center
+                )
             )
             AnimatedContent(targetState = authUiState, label = "verify_button") { state ->
                 Column(
@@ -99,10 +102,12 @@ fun AuthScreen(
                                 )
                             }
                         }
+
                         AuthUiState.Verifying -> {
                             LoadingPlaceholder(color = MaterialTheme.colorScheme.error)
                         }
-                        AuthUiState.Verified -> { }
+
+                        AuthUiState.Verified -> {}
                     }
                 }
             }

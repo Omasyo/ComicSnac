@@ -20,7 +20,11 @@ class DefaultTeamNetworkSource @Inject constructor(
             }
         }
 
-    override suspend fun getAllTeams(apiKey: String, pageSize: Int, offset: Int): Result<TeamListResponse> =
+    override suspend fun getAllTeams(
+        apiKey: String,
+        pageSize: Int,
+        offset: Int
+    ): Result<TeamListResponse> =
         getTeams(apiKey, pageSize, offset)
 
     override suspend fun getTeamsWithId(

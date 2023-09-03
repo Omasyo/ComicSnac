@@ -20,21 +20,19 @@ import com.keetr.comicsnac.model.location.LocationBasic
 import com.keetr.comicsnac.model.`object`.ObjectBasic
 import com.keetr.comicsnac.model.storyarc.StoryArcBasic
 import com.keetr.comicsnac.model.team.Team
-import com.keetr.comicsnac.model.volume.Volume
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.emptyFlow
 import kotlinx.coroutines.flow.flatMapLatest
-import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import javax.inject.Inject
 
 @HiltViewModel
 internal class IssueViewModel @Inject constructor(
-    private val issueRepository: IssueRepository,
+    issueRepository: IssueRepository,
     private val characterRepository: CharacterRepository,
     private val teamRepository: TeamRepository,
     savedStateHandle: SavedStateHandle,

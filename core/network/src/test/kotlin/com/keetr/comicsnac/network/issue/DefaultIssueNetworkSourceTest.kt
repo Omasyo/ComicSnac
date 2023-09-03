@@ -2,7 +2,6 @@ package com.keetr.comicsnac.network.issue
 
 import com.keetr.comicsnac.network.NetworkSourceTest
 import com.keetr.comicsnac.network.issue.fake.AmazingSpidermanIssueResponse
-import com.keetr.comicsnac.network.issue.fake.IssuesResponse
 import com.keetr.comicsnac.network.issue.fake.RecentIssuesResponse
 import io.ktor.client.request.HttpRequestData
 import kotlinx.coroutines.test.runTest

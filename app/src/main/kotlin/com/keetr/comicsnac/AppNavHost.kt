@@ -51,7 +51,7 @@ fun AppNavHost(
     NavHost(
         modifier = modifier,
         navController = navController,
-        startDestination = if(apiKeyPresent) HomeRoute.route else AuthRoute.route
+        startDestination = if (apiKeyPresent) HomeRoute.route else AuthRoute.route
     ) {
         val onBackPressed: () -> Unit = { navController.popBackStack() }
         val onItemClicked = { guid: String ->
@@ -78,7 +78,7 @@ fun AppNavHost(
         )
 
         authRoute(
-            onVerificationComplete =  {
+            onVerificationComplete = {
                 navController.popBackStack()
                 navController.navigate(HomeRoute.route)
             }

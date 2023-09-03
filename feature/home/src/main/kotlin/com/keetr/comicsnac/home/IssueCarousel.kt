@@ -20,13 +20,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.draw.drawWithContent
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.geometry.Offset
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
-import androidx.compose.ui.graphics.painter.ColorPainter
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
@@ -145,7 +142,7 @@ fun IssueCarousel(
 }
 
 //device = "spec:width=412px,height=360px,dpi=440,orientation=portrait"
-@Preview()
+@Preview
 @Preview(device = "spec:parent=pixel_5,orientation=landscape")
 @Composable
 private fun Preview() {

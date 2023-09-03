@@ -2,7 +2,6 @@ package com.keetr.comicsnac.network.publisher.models
 
 
 import com.keetr.comicsnac.network.common.models.ImageApiModel
-import com.keetr.comicsnac.network.common.models.StoryArcApiModel
 import com.keetr.comicsnac.network.common.models.TeamApiModel
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

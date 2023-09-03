@@ -23,7 +23,6 @@
     <string name="team_image_desc">Team image for %1$s</string>
     <string name="volume_image_desc">Cover image for %1$s</string>
     <string name="concepts">Concepts</string>
-    <string name="name">Name</string>
     <string name="episodes">Episodes</string>
     <string name="issues">Issues</string>
     <string name="locations">Locations</string>

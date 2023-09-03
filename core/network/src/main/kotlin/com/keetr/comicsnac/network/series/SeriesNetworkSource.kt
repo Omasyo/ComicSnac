@@ -1,7 +1,6 @@
 package com.keetr.comicsnac.network.series
 
 import com.keetr.comicsnac.network.NetworkSource
-import com.keetr.comicsnac.network.common.Sort
 import com.keetr.comicsnac.network.series.models.SeriesDetailsResponse
 import com.keetr.comicsnac.network.series.models.SeriesListResponse
 

@@ -21,9 +21,10 @@ fun ComicListSeparator(
     flipped: Boolean,
     aspectRatio: Float = Random.nextDouble(12.0, 32.0).toFloat()
 ) {
-    Canvas(modifier = modifier
-        .scale(if(flipped) -1f else 1f, 1f)
-        .aspectRatio(aspectRatio)
+    Canvas(
+        modifier = modifier
+            .scale(if (flipped) -1f else 1f, 1f)
+            .aspectRatio(aspectRatio)
 //        .fillMaxWidth()
     ) {
         with(size) {

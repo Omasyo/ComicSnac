@@ -11,7 +11,7 @@ import androidx.compose.material.icons.filled.Share
 object AppIcons {
     val ArrowBack = Icons.Default.ArrowBack
     val Close = Icons.Default.Close
-    val Search  = Icons.Default.Search
+    val Search = Icons.Default.Search
     val Share = Icons.Default.Share
     val RightArrow = Icons.Default.KeyboardArrowRight
     val Settings = Icons.Default.Settings

@@ -21,7 +21,7 @@ sealed interface RepositoryResponse<out T> {
 }
 
 
- inline fun <R, T> RepositoryResponse<T>.fold(
+inline fun <R, T> RepositoryResponse<T>.fold(
     onSuccess: (value: T) -> R,
     onFailure: (error: RepositoryResponse.Error) -> R
 ): R {

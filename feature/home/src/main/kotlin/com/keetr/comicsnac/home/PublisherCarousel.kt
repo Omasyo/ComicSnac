@@ -130,7 +130,7 @@ fun PublisherCarousel(
 }
 
 //device = "spec:width=412px,height=360px,dpi=440,orientation=portrait"
-@Preview()
+@Preview
 @Preview(device = "spec:parent=pixel_5,orientation=landscape")
 @Composable
 private fun Preview() {

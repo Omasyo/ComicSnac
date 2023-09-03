@@ -4,7 +4,6 @@ import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.PagingData
 import com.keetr.comicsnac.data.CustomPagingSource
-import com.keetr.comicsnac.data.character.DefaultCharacterRepository
 import com.keetr.comicsnac.data.di.IODispatcher
 import com.keetr.comicsnac.data.settings.AuthRepository
 import com.keetr.comicsnac.model.search.SearchModel

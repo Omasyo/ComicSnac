@@ -115,9 +115,24 @@ internal fun HomeScreen(
                             label = "New Issues Carousel"
                         ) { uiState ->
                             when (uiState) {
-                                is Error -> ErrorPlaceholder(Modifier.height(336f.dp).fillMaxWidth())
-                                InDevelopment -> InDevelopmentPlaceholder(Modifier.height(336f.dp).fillMaxWidth())
-                                Loading -> LoadingPlaceholder(Modifier.height(336f.dp).fillMaxWidth())
+                                is Error -> ErrorPlaceholder(
+                                    Modifier
+                                        .height(336f.dp)
+                                        .fillMaxWidth()
+                                )
+
+                                InDevelopment -> InDevelopmentPlaceholder(
+                                    Modifier
+                                        .height(336f.dp)
+                                        .fillMaxWidth()
+                                )
+
+                                Loading -> LoadingPlaceholder(
+                                    Modifier
+                                        .height(336f.dp)
+                                        .fillMaxWidth()
+                                )
+
                                 is Success -> {
                                     IssueCarousel(
                                         issues = uiState.contents, onIssueClick = onItemClicked
@@ -214,9 +229,24 @@ internal fun HomeScreen(
                             label = "Publishers Carousel"
                         ) { uiState ->
                             when (uiState) {
-                                is Error -> ErrorPlaceholder(Modifier.height(336f.dp).fillMaxWidth())
-                                InDevelopment -> InDevelopmentPlaceholder(Modifier.height(336f.dp).fillMaxWidth())
-                                Loading -> LoadingPlaceholder(Modifier.height(336f.dp).fillMaxWidth())
+                                is Error -> ErrorPlaceholder(
+                                    Modifier
+                                        .height(336f.dp)
+                                        .fillMaxWidth()
+                                )
+
+                                InDevelopment -> InDevelopmentPlaceholder(
+                                    Modifier
+                                        .height(336f.dp)
+                                        .fillMaxWidth()
+                                )
+
+                                Loading -> LoadingPlaceholder(
+                                    Modifier
+                                        .height(336f.dp)
+                                        .fillMaxWidth()
+                                )
+
                                 is Success -> {
                                     PublisherCarousel(
                                         issues = uiState.contents, onIssueClick = onItemClicked
@@ -238,7 +268,12 @@ internal fun HomeScreen(
                         verticalAlignment = Alignment.CenterVertically
                     ) {
 
-                        IconButton(onClick = onSettingsClicked, modifier = Modifier.padding(12f.dp).align(Alignment.CenterVertically)) {
+                        IconButton(
+                            onClick = onSettingsClicked,
+                            modifier = Modifier
+                                .padding(12f.dp)
+                                .align(Alignment.CenterVertically)
+                        ) {
                             Icon(AppIcons.Settings, null, Modifier.size(32f.dp))
                         }
                         Text(
@@ -258,7 +293,7 @@ internal fun HomeScreen(
     }
 }
 
-@Preview()
+@Preview
 @Composable
 private fun Preview() {
     ComicSnacTheme(YetAnotherScheme) {

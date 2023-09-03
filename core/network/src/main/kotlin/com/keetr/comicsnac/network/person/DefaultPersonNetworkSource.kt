@@ -9,10 +9,13 @@ import io.ktor.client.request.get
 import io.ktor.client.request.parameter
 import javax.inject.Inject
 
-class DefaultPersonNetworkSource @Inject constructor (
+class DefaultPersonNetworkSource @Inject constructor(
     private val client: HttpClient
 ) : PersonNetworkSource {
-    override suspend fun getPersonDetails(apiKey: String, id: String): Result<PersonDetailsResponse> =
+    override suspend fun getPersonDetails(
+        apiKey: String,
+        id: String
+    ): Result<PersonDetailsResponse> =
         makeRequest {
             client.get("person/4040-$id") {
                 parameter("api_key", apiKey)

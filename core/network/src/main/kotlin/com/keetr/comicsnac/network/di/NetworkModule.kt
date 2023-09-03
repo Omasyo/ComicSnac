@@ -48,7 +48,7 @@ import javax.inject.Singleton
 private object NetworkModule {
     @Provides
     @Singleton
-    fun provideHttpClientEngine() : HttpClientEngine = CIO.create()
+    fun provideHttpClientEngine(): HttpClientEngine = CIO.create()
 
     @Provides
     @Singleton

@@ -1,6 +1,5 @@
 package com.keetr.comicsnac.network.character
 
-import com.keetr.comicsnac.network.ApiKey
 import com.keetr.comicsnac.network.character.models.CharacterDetailsResponse
 import com.keetr.comicsnac.network.character.models.CharactersListResponse
 import com.keetr.comicsnac.network.common.Sort

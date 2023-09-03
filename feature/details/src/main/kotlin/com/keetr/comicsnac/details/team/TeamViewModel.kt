@@ -5,7 +5,6 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.PagingData
 import androidx.paging.cachedIn
-import com.keetr.comicsnac.data.RepositoryResponse
 import com.keetr.comicsnac.data.character.CharacterRepository
 import com.keetr.comicsnac.data.team.TeamRepository
 import com.keetr.comicsnac.data.volume.VolumeRepository
@@ -16,9 +15,7 @@ import com.keetr.comicsnac.details.Loading
 import com.keetr.comicsnac.details.Success
 import com.keetr.comicsnac.details.character.getState
 import com.keetr.comicsnac.model.character.Character
-import com.keetr.comicsnac.model.character.CharacterDetails
 import com.keetr.comicsnac.model.movie.Movie
-import com.keetr.comicsnac.model.team.Team
 import com.keetr.comicsnac.model.team.TeamDetails
 import com.keetr.comicsnac.model.volume.Volume
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -27,7 +24,6 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.emptyFlow
 import kotlinx.coroutines.flow.flatMapLatest
-import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import javax.inject.Inject
@@ -35,7 +31,7 @@ import javax.inject.Inject
 @HiltViewModel
 internal class TeamViewModel @Inject constructor(
     private val characterRepository: CharacterRepository,
-    private val teamRepository: TeamRepository,
+    teamRepository: TeamRepository,
     private val volumeRepository: VolumeRepository,
     savedStateHandle: SavedStateHandle,
 ) : ViewModel() {

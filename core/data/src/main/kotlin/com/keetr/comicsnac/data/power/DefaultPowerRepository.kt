@@ -4,9 +4,9 @@ import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.PagingData
 import com.keetr.comicsnac.data.CustomPagingSource
+import com.keetr.comicsnac.data.RepositoryResponse
 import com.keetr.comicsnac.data.di.IODispatcher
 import com.keetr.comicsnac.data.fromNetworkError
-import com.keetr.comicsnac.data.RepositoryResponse
 import com.keetr.comicsnac.data.settings.AuthRepository
 import com.keetr.comicsnac.model.Sort
 import com.keetr.comicsnac.model.power.PowerBasic
@@ -17,7 +17,6 @@ import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flatMapLatest
-import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.flow.map
 import javax.inject.Inject

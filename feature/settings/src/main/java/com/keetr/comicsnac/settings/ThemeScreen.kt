@@ -76,7 +76,10 @@ fun ThemeScreen(
                     }
                 }
                 Spacer(Modifier.height(48f.dp))
-                Text(stringResource(R.string.select_color_scheme), style = MaterialTheme.typography.titleLarge)
+                Text(
+                    stringResource(R.string.select_color_scheme),
+                    style = MaterialTheme.typography.titleLarge
+                )
             }
         }
     }
@@ -130,6 +133,6 @@ fun ThemeBox(
 @Composable
 private fun Preview() {
     ComicSnacTheme {
-        ThemeScreen( selectedSchemeId = 0, onBackPressed = {}, onClickScheme = {})
+        ThemeScreen(selectedSchemeId = 0, onBackPressed = {}, onClickScheme = {})
     }
 }

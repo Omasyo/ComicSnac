@@ -16,7 +16,7 @@ data class VolumeDetailsApiModel(
     @SerialName("first_issue") val firstIssue: IssueApiModel?,
     @SerialName("id") val id: Int,
     @SerialName("image") val image: ImageApiModel,
-    @SerialName("issues") val issues: List<IssueApiModel>,
+    @SerialName("issues") val issues: List<IssueApiModel> = emptyList(),
     @SerialName("last_issue") val lastIssue: IssueApiModel?,
     @SerialName("name") val name: String,
     @SerialName("publisher") val publisher: PublisherApiModel?,

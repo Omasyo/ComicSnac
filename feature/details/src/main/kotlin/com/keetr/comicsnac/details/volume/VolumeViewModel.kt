@@ -25,7 +25,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 internal class VolumeViewModel @Inject constructor(
-    private val volumeRepository: VolumeRepository,
+    volumeRepository: VolumeRepository,
     private val issueRepository: IssueRepository,
     savedStateHandle: SavedStateHandle,
 ) : ViewModel() {

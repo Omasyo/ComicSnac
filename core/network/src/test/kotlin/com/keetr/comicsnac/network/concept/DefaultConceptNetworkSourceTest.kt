@@ -12,8 +12,8 @@ import org.junit.Test
 class DefaultConceptNetworkSourceTest : NetworkSourceTest<ConceptNetworkSource>() {
 
     override fun generateResponseBody(request: HttpRequestData) = when (request.url.encodedPath) {
-        "/api/concept/4015-35070" -> com.keetr.comicsnac.network.concept.fake.OdinForceDetailsResponse
-        "/api/concepts" -> com.keetr.comicsnac.network.concept.fake.ConceptsResponse
+        "/api/concept/4015-35070" -> OdinForceDetailsResponse
+        "/api/concepts" -> ConceptsResponse
         else -> throw NotImplementedError("Invalid Url Path: ${request.url.encodedPath}")
     }
 

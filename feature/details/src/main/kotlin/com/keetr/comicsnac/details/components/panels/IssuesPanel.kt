@@ -7,7 +7,6 @@ import androidx.compose.ui.unit.dp
 import androidx.paging.compose.LazyPagingItems
 import com.keetr.comicsnac.details.components.DetailsGrid
 import com.keetr.comicsnac.model.issue.Issue
-import com.keetr.comicsnac.model.volume.Volume
 import com.keetr.comicsnac.ui.R
 import com.keetr.comicsnac.ui.components.cards.PlainCard
 import com.keetr.comicsnac.ui.components.lazylist.PanelLazyListScope
@@ -21,7 +20,7 @@ internal fun PanelLazyListScope.issuesPanel(
 
     panel { index ->
         DetailsGrid(
-            name = stringResource(R.string.volumes),
+            name = stringResource(R.string.issues),
             items = items,
             expanded = expandedProvider(index),
             onToggleExpand = {

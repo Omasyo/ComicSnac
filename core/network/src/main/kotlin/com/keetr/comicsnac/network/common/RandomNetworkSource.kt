@@ -3,7 +3,6 @@ package com.keetr.comicsnac.network.common
 import com.keetr.comicsnac.network.NetworkSource
 import com.keetr.comicsnac.network.common.models.ResponseApiModel
 import com.keetr.comicsnac.network.makeRequest
-import com.keetr.comicsnac.network.search.models.CharacterListApiModel
 import io.ktor.client.HttpClient
 import io.ktor.client.request.get
 import io.ktor.client.request.parameter

@@ -16,10 +16,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.ArrowBack
-import androidx.compose.material.icons.filled.Close
-import androidx.compose.material.icons.filled.Share
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -173,7 +169,7 @@ private fun Preview() {
             images = List(5) { Image(it.toString(), null) },
             imageExpanded = expanded,
             onImageClicked = { expanded = true },
-            onImageClose = {expanded = false},
+            onImageClose = { expanded = false },
             onBackPressed = { expanded = false }
         ) {
             repeat(4) {

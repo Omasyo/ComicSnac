@@ -1,7 +1,6 @@
 package com.keetr.comicsnac.data.`object`
 
 import com.keetr.comicsnac.data.issue.toIssueBasic
-import com.keetr.comicsnac.model.issue.IssueBasic
 import com.keetr.comicsnac.model.`object`.ObjectDetails
 import com.keetr.comicsnac.model.`object`.ObjectItem
 import com.keetr.comicsnac.network.`object`.models.ObjectDetailsApiModel

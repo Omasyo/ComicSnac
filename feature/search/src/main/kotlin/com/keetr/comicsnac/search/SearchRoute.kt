@@ -1,6 +1,5 @@
 package com.keetr.comicsnac.search
 
-import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.spring
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
@@ -28,7 +27,7 @@ fun NavGraphBuilder.searchRoute(
     SearchRoute.route,
     enterTransition = { fadeIn(spring()) + scaleIn(initialScale = 1.2f) },
     exitTransition = { fadeOut() + scaleOut(targetScale = 0.9f) },
-    popEnterTransition = {fadeIn() + scaleIn(initialScale = 0.9f) },
+    popEnterTransition = { fadeIn() + scaleIn(initialScale = 0.9f) },
     popExitTransition = { fadeOut() + scaleOut(targetScale = 1.2f) }
 ) {
     SearchRoute(

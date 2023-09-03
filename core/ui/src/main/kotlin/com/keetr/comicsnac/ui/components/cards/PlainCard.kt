@@ -77,7 +77,9 @@ fun PlainCard(
         )
         Text(
             name,
-            modifier = Modifier.fillMaxWidth().padding(horizontal = 8f.dp),
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 8f.dp),
             textAlign = TextAlign.Center,
             minLines = 2,
             maxLines = 2
@@ -96,7 +98,8 @@ private fun Preview() {
         Box(
             Modifier
                 .background(Color.White)
-                .fillMaxSize()) {
+                .fillMaxSize()
+        ) {
             PlainCard(
                 Modifier
                     .fillMaxSize(0.6f)

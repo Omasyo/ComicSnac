@@ -2,7 +2,6 @@ package com.keetr.comicsnac.network.search.models
 
 
 import com.keetr.comicsnac.network.common.models.ImageApiModel
-import com.keetr.comicsnac.network.search.models.SearchApiModel
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 

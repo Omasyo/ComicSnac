@@ -60,9 +60,10 @@ internal class DefaultIssueNetworkSource @Inject constructor(
                 "sort", "cover_date:${sortCoverDate.format}"
             )
 
-            var filter = "cover_date:${LocalDate.now().minusDays(14)}|${LocalDate.now()}"
-
-            if (issuesId.isNotEmpty()) filter += "id:${issuesId.joinToString("|")}"
+            val filter = if (issuesId.isEmpty()) "cover_date:${
+                LocalDate.now().minusDays(14)
+            }|${LocalDate.now()}"
+            else "id:${issuesId.joinToString("|")}"
 
             parameter("filter", filter)
         }

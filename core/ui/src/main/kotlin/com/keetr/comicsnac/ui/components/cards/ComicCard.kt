@@ -82,7 +82,9 @@ fun ComicCard(
         )
         Text(
             name,
-            modifier = Modifier.fillMaxWidth().padding(horizontal = 8f.dp),
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 8f.dp),
             textAlign = TextAlign.Center,
             minLines = 2,
             maxLines = 2
@@ -105,6 +107,6 @@ private fun Preview() {
 //                    .background(Color.Gray)
 //            )
 //        }
-        ComicCard(name = "Hisdf" ,imageUrl = "", contentDescription = "") {}
+        ComicCard(name = "Hisdf", imageUrl = "", contentDescription = "") {}
     }
 }

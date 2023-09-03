@@ -1,19 +1,11 @@
 package com.keetr.comicsnac.network.common
 
 import com.keetr.comicsnac.network.NetworkSourceTest
-import com.keetr.comicsnac.network.character.DefaultCharacterNetworkSource
-import com.keetr.comicsnac.network.character.fake.BarquinDetailsResponse
-import com.keetr.comicsnac.network.character.fake.BatmanDetailsResponse
-import com.keetr.comicsnac.network.character.fake.CharactersResponse
-import com.keetr.comicsnac.network.character.fake.FilteredCharactersResponse
-import com.keetr.comicsnac.network.character.fake.MaleCharactersResponse
-import com.keetr.comicsnac.network.character.fake.RecentCharactersResponse
 import com.keetr.comicsnac.network.common.fake.EmptyResponse
 import io.ktor.client.request.HttpRequestData
 import kotlinx.coroutines.test.runTest
-import org.junit.Assert.*
+import org.junit.Assert.assertEquals
 import org.junit.Before
-
 import org.junit.Test
 
 class RandomNetworkSourceTest : NetworkSourceTest<RandomNetworkSource>() {

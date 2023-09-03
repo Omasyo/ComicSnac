@@ -3,7 +3,6 @@ package com.keetr.comicsnac.ui.theme
 import androidx.compose.material3.ColorScheme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.platform.LocalView
 
 //private val DarkColorScheme = darkColorScheme(
 //    primary = Purple80,

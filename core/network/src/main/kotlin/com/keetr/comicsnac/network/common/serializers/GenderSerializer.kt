@@ -13,7 +13,7 @@ internal object GenderAsIntSerializer : KSerializer<GenderApiModel> {
         PrimitiveSerialDescriptor("Gender", PrimitiveKind.INT)
 
     override fun deserialize(decoder: Decoder): GenderApiModel {
-        return when(decoder.decodeInt()) {
+        return when (decoder.decodeInt()) {
             0 -> GenderApiModel.Other
             1 -> GenderApiModel.Male
             2 -> GenderApiModel.Female

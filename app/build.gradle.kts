@@ -58,7 +58,7 @@ dependencies {
     implementation(libs.profileinstaller)
     "baselineProfile"(project(":baselineprofile"))
     coreLibraryDesugaring(libs.android.tools.desugar)
-    
+
     implementation(project(":core:data"))
     implementation(project(":core:model"))
     implementation(project(":core:ui"))

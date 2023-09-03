@@ -32,12 +32,3 @@ typealias SeriesUiState = HomeCategoryUiState<Series>
 
 typealias PublishersUiState = HomeCategoryUiState<Publisher>
 
-//@Stable // TODO: Necessary?
-data class HomeUiState(
-    val issuesUiState: IssuesUiState,
-    val charactersUiState: CharactersUiState,
-    val volumesUiState: VolumesUiState,
-    val moviesUiState: MoviesUiState,
-    val seriesUiState: SeriesUiState,
-    val publishersUiState: PublishersUiState,
-)

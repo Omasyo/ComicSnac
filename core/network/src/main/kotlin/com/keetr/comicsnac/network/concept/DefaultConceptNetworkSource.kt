@@ -9,8 +9,6 @@ import io.ktor.client.request.get
 import io.ktor.client.request.parameter
 import javax.inject.Inject
 
-const val TAG = "DefaultConceptNetworkSource"
-
 internal class DefaultConceptNetworkSource @Inject constructor(
     private val client: HttpClient
 ) : ConceptNetworkSource {

@@ -25,10 +25,10 @@ internal class CustomPagingSource<T, R : Any>(
                 nextKey = if (response.isEmpty()) null else page.plus(1),
             )
         } catch (e: Exception) {
-            Log.w(TAG, "load: $e")
+            Log.w(tag, "load: $e")
             LoadResult.Error(e)
         }
     }
 
-    private val TAG get() = javaClass.simpleName
+    private val tag get() = javaClass.simpleName
 }

@@ -11,8 +11,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -78,7 +76,7 @@ internal fun DetailsErrorPlaceholder(
                                 .aspectRatio(11f / 17f)
                                 .padding(32f.dp)
                         ) {
-                            ErrorPlaceholder(modifier = Modifier.fillMaxSize(),onRetry = onRetry)
+                            ErrorPlaceholder(modifier = Modifier.fillMaxSize(), onRetry = onRetry)
                         }
                     }
 

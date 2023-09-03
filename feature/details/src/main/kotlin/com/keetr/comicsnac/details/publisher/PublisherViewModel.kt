@@ -7,7 +7,6 @@ import androidx.paging.PagingData
 import androidx.paging.cachedIn
 import com.keetr.comicsnac.data.RepositoryResponse
 import com.keetr.comicsnac.data.character.CharacterRepository
-import com.keetr.comicsnac.data.issue.IssueRepository
 import com.keetr.comicsnac.data.publisher.PublisherRepository
 import com.keetr.comicsnac.data.volume.VolumeRepository
 import com.keetr.comicsnac.details.Arg
@@ -17,7 +16,6 @@ import com.keetr.comicsnac.details.Loading
 import com.keetr.comicsnac.details.Success
 import com.keetr.comicsnac.details.character.getState
 import com.keetr.comicsnac.model.character.Character
-import com.keetr.comicsnac.model.issue.Issue
 import com.keetr.comicsnac.model.volume.Volume
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
@@ -31,7 +29,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 internal class PublisherViewModel @Inject constructor(
-    private val publisherRepository: PublisherRepository,
+    publisherRepository: PublisherRepository,
     private val characterRepository: CharacterRepository,
     private val volumeRepository: VolumeRepository,
     savedStateHandle: SavedStateHandle,

@@ -8,8 +8,4 @@ internal object Api {
     const val DefaultPath = "api/"
 
     const val ResponseFormat = "json"
-    fun HttpRequestBuilder.appendDefaultParameters() {
-        parameter("api_key", ApiKey)
-        parameter("format", ResponseFormat)
-    }
 }

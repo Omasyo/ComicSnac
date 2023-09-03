@@ -4,10 +4,7 @@ import com.keetr.comicsnac.data.issue.toIssueBasic
 import com.keetr.comicsnac.model.concept.Concept
 import com.keetr.comicsnac.model.concept.ConceptBasic
 import com.keetr.comicsnac.model.concept.ConceptDetails
-import com.keetr.comicsnac.model.issue.IssueBasic
 import com.keetr.comicsnac.network.common.models.ConceptApiModel
-import com.keetr.comicsnac.network.common.models.ImageApiModel
-import com.keetr.comicsnac.network.common.models.IssueApiModel
 import com.keetr.comicsnac.network.concept.models.ConceptDetailsApiModel
 import com.keetr.comicsnac.network.search.models.ConceptListApiModel
 

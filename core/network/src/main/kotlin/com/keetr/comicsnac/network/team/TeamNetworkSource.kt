@@ -4,7 +4,7 @@ import com.keetr.comicsnac.network.NetworkSource
 import com.keetr.comicsnac.network.team.models.TeamDetailsResponse
 import com.keetr.comicsnac.network.team.models.TeamListResponse
 
-interface TeamNetworkSource: NetworkSource {
+interface TeamNetworkSource : NetworkSource {
     suspend fun getTeamDetails(apiKey: String, id: String): Result<TeamDetailsResponse>
 
     suspend fun getAllTeams(

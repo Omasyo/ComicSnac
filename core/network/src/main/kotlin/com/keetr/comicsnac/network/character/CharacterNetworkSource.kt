@@ -9,7 +9,11 @@ interface CharacterNetworkSource : NetworkSource {
 
     suspend fun getCharacterDetails(apiKey: String, id: String): Result<CharacterDetailsResponse>
 
-    suspend fun getRecentCharacters(apiKey: String, pageSize: Int, offset: Int): Result<CharactersListResponse>
+    suspend fun getRecentCharacters(
+        apiKey: String,
+        pageSize: Int,
+        offset: Int
+    ): Result<CharactersListResponse>
 
     suspend fun getAllCharacters(
         apiKey: String,

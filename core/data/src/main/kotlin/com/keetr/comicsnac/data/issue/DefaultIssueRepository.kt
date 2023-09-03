@@ -4,24 +4,23 @@ import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.PagingData
 import com.keetr.comicsnac.data.CustomPagingSource
+import com.keetr.comicsnac.data.RepositoryResponse
 import com.keetr.comicsnac.data.di.IODispatcher
 import com.keetr.comicsnac.data.fromNetworkError
-import com.keetr.comicsnac.data.RepositoryResponse
 import com.keetr.comicsnac.data.settings.AuthRepository
 import com.keetr.comicsnac.model.Sort
 import com.keetr.comicsnac.model.issue.Issue
 import com.keetr.comicsnac.model.issue.IssueDetails
-import com.keetr.comicsnac.network.common.Sort as NetworkSort
 import com.keetr.comicsnac.network.issue.IssueNetworkSource
 import com.keetr.comicsnac.network.search.models.IssueListApiModel
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flatMapLatest
-import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.flow.map
 import javax.inject.Inject
+import com.keetr.comicsnac.network.common.Sort as NetworkSort
 
 @OptIn(ExperimentalCoroutinesApi::class)
 internal class DefaultIssueRepository @Inject constructor(
