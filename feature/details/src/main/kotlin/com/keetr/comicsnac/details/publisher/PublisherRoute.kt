@@ -5,10 +5,10 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavGraphBuilder
+import androidx.navigation.compose.composable
 import androidx.paging.compose.collectAsLazyPagingItems
 import com.keetr.comicsnac.details.Arg
 import com.keetr.comicsnac.details.DetailsNavigationRoute
-import com.keetr.comicsnac.details.detailsComposable
 
 private object PublisherRoute : DetailsNavigationRoute("publisher", "4010") {
     override val requiredArguments: List<String> = listOf(Arg)
@@ -18,7 +18,7 @@ fun NavGraphBuilder.publisherRoute(
     modifier: Modifier = Modifier,
     onItemClicked: (fullId: String) -> Unit,
     onBackPressed: () -> Unit,
-) = detailsComposable(
+) = composable(
     route = PublisherRoute.route,
     deepLinks = PublisherRoute.deepLinks
 ) {

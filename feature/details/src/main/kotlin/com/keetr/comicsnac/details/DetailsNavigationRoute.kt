@@ -20,8 +20,8 @@ import androidx.navigation.navDeepLink
 import com.keetr.comicsnac.model.NavigationRoute
 
 
-const val Domain = "https://comicvine.gamespot.com"
-const val ApiBaseUrl = "$Domain/api/"
+const val Domain = "https://comicvine.gamespot.com/"
+const val ApiBaseUrl = "${Domain}api/"
 
 const val Arg = "id"
 
@@ -29,9 +29,9 @@ abstract class DetailsNavigationRoute(path: String, private val categoryId: Stri
     NavigationRoute("$path/$categoryId-%s/") {
     protected open val format = "$path/$categoryId-%s/"
 
-    protected val apiDeepLinkPattern get() = "$ApiBaseUrl$route"
+    private val apiDeepLinkPattern get() = "$ApiBaseUrl$route"
 
-    private val webDeepLinkPattern get() = "$Domain/{_}/$categoryId-{${requiredArguments.first()}}/"
+    protected val webDeepLinkPattern get() = "$Domain/{_}/$categoryId-{${requiredArguments.first()}}/"
 
     open val deepLinks
         get() = listOf(
@@ -43,35 +43,3 @@ abstract class DetailsNavigationRoute(path: String, private val categoryId: Stri
             }
         )
 }
-
-fun NavGraphBuilder.detailsComposable(
-    route: String,
-    arguments: List<NamedNavArgument> = emptyList(),
-    deepLinks: List<NavDeepLink> = emptyList(),
-    enterTransition: (AnimatedContentTransitionScope<NavBackStackEntry>.() -> EnterTransition?)? = {
-        slideIntoContainer(
-            AnimatedContentTransitionScope.SlideDirection.Left,
-            spring(stiffness = Spring.StiffnessMediumLow)
-        )
-    },
-    exitTransition: (AnimatedContentTransitionScope<NavBackStackEntry>.() -> ExitTransition?)? =
-        { fadeOut() + scaleOut(targetScale = 0.9f) },
-    popEnterTransition: (AnimatedContentTransitionScope<NavBackStackEntry>.() -> EnterTransition?)? =
-        { fadeIn() + scaleIn(initialScale = 0.9f) },
-    popExitTransition: (AnimatedContentTransitionScope<NavBackStackEntry>.() -> ExitTransition?)? = {
-        slideOutOfContainer(
-            AnimatedContentTransitionScope.SlideDirection.Right,
-            spring(stiffness = Spring.StiffnessMediumLow)
-        )
-    },
-    content: @Composable AnimatedContentScope.(NavBackStackEntry) -> Unit
-) = composable(
-    route = route,
-    arguments = arguments,
-    deepLinks = deepLinks,
-    enterTransition = enterTransition,
-    exitTransition = exitTransition,
-    popEnterTransition = popEnterTransition,
-    popExitTransition = popExitTransition,
-    content = content
-)

@@ -6,18 +6,18 @@ import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavDeepLink
 import androidx.navigation.NavGraphBuilder
+import androidx.navigation.compose.composable
 import androidx.navigation.navDeepLink
 import androidx.paging.compose.collectAsLazyPagingItems
 import com.keetr.comicsnac.details.Arg
 import com.keetr.comicsnac.details.DetailsNavigationRoute
-import com.keetr.comicsnac.details.detailsComposable
 
 private object CharacterRoute : DetailsNavigationRoute("character", "4005") {
     override val requiredArguments: List<String> = listOf(Arg)
 
     override val deepLinks: List<NavDeepLink>
         get() = super.deepLinks + navDeepLink {
-            uriPattern = apiDeepLinkPattern.replace("4005", "29")
+            uriPattern = webDeepLinkPattern.replace("4005", "29")
         }
 }
 
@@ -25,7 +25,7 @@ fun NavGraphBuilder.characterRoute(
     modifier: Modifier = Modifier,
     onItemClicked: (fullId: String) -> Unit,
     onBackPressed: () -> Unit,
-) = detailsComposable(
+) = composable(
     route = CharacterRoute.route,
     deepLinks = CharacterRoute.deepLinks
 ) {

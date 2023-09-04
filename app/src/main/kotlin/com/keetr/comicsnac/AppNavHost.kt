@@ -2,6 +2,7 @@ package com.keetr.comicsnac
 
 import android.net.Uri
 import android.util.Log
+import androidx.compose.animation.AnimatedContentTransitionScope
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.spring
 import androidx.compose.animation.fadeIn
@@ -20,6 +21,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavBackStackEntry
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -52,7 +54,23 @@ fun AppNavHost(
     NavHost(
         modifier = modifier,
         navController = navController,
-        startDestination = if (apiKeyPresent) HomeRoute.route else AuthRoute.route
+        startDestination = if (apiKeyPresent) HomeRoute.route else AuthRoute.route,
+        enterTransition = {
+            slideIntoContainer(
+                AnimatedContentTransitionScope.SlideDirection.Left,
+                spring(stiffness = Spring.StiffnessMediumLow)
+            )
+        },
+        exitTransition =
+        { fadeOut() + scaleOut(targetScale = 0.9f) },
+        popEnterTransition =
+        { fadeIn() + scaleIn(initialScale = 0.9f) },
+        popExitTransition = {
+            slideOutOfContainer(
+                AnimatedContentTransitionScope.SlideDirection.Right,
+                spring(stiffness = Spring.StiffnessMediumLow)
+            )
+        },
     ) {
         val onBackPressed: () -> Unit = { navController.popBackStack() }
         val onItemClicked = { guid: String ->

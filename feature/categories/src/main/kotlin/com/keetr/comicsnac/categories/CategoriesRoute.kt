@@ -43,7 +43,7 @@ fun NavGraphBuilder.categoriesRoute(
     onTeamsClicked: () -> Unit,
     onVolumesClicked: () -> Unit,
     onBackPressed: () -> Unit
-) = categoriesComposable(
+) = composable(
     "/"
 ) {
     CategoriesScreen(
@@ -66,36 +66,3 @@ fun NavGraphBuilder.categoriesRoute(
         onBackPressed = onBackPressed
     )
 }
-
-
-fun NavGraphBuilder.categoriesComposable(
-    route: String,
-    arguments: List<NamedNavArgument> = emptyList(),
-    deepLinks: List<NavDeepLink> = emptyList(),
-    enterTransition: (AnimatedContentTransitionScope<NavBackStackEntry>.() -> EnterTransition?)? = {
-        slideIntoContainer(
-            AnimatedContentTransitionScope.SlideDirection.Left,
-            spring(stiffness = Spring.StiffnessMediumLow)
-        )
-    },
-    exitTransition: (AnimatedContentTransitionScope<NavBackStackEntry>.() -> ExitTransition?)? =
-        { fadeOut() + scaleOut(targetScale = 0.9f) },
-    popEnterTransition: (AnimatedContentTransitionScope<NavBackStackEntry>.() -> EnterTransition?)? =
-        { fadeIn() + scaleIn(initialScale = 0.9f) },
-    popExitTransition: (AnimatedContentTransitionScope<NavBackStackEntry>.() -> ExitTransition?)? = {
-        slideOutOfContainer(
-            AnimatedContentTransitionScope.SlideDirection.Right,
-            spring(stiffness = Spring.StiffnessMediumLow)
-        )
-    },
-    content: @Composable AnimatedContentScope.(NavBackStackEntry) -> Unit
-) = composable(
-    route = route,
-    arguments = arguments,
-    deepLinks = deepLinks,
-    enterTransition = enterTransition,
-    exitTransition = exitTransition,
-    popEnterTransition = popEnterTransition,
-    popExitTransition = popExitTransition,
-    content = content
-)

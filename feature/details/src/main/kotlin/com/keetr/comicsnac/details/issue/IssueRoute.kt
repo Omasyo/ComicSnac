@@ -6,12 +6,12 @@ import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavDeepLink
 import androidx.navigation.NavGraphBuilder
+import androidx.navigation.compose.composable
 import androidx.navigation.navDeepLink
 import androidx.paging.compose.collectAsLazyPagingItems
 import com.keetr.comicsnac.details.ApiBaseUrl
 import com.keetr.comicsnac.details.Arg
 import com.keetr.comicsnac.details.DetailsNavigationRoute
-import com.keetr.comicsnac.details.detailsComposable
 
 
 private object IssueRoute : DetailsNavigationRoute("issue", "4000") {
@@ -27,7 +27,7 @@ fun NavGraphBuilder.issueRoute(
     modifier: Modifier = Modifier,
     onItemClicked: (fullId: String) -> Unit,
     onBackPressed: () -> Unit,
-) = detailsComposable(
+) = composable(
     route = IssueRoute.route,
     deepLinks = IssueRoute.deepLinks
 ) {

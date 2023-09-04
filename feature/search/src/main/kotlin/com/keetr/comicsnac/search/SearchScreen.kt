@@ -155,7 +155,7 @@ fun SearchScreen(
                                     }
                                     if (searchResults.loadState.append == LoadState.Loading) {
                                         item {
-                                            LoadingPlaceholder(Modifier.height(64f.dp))
+                                            LoadingPlaceholder(Modifier.height(64f.dp).fillMaxWidth())
                                         }
                                     }
                                 }

@@ -5,9 +5,9 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavGraphBuilder
+import androidx.navigation.compose.composable
 import com.keetr.comicsnac.details.Arg
 import com.keetr.comicsnac.details.DetailsNavigationRoute
-import com.keetr.comicsnac.details.detailsComposable
 
 private object ObjectRoute : DetailsNavigationRoute("object", "4055") {
     override val requiredArguments: List<String> = listOf(Arg)
@@ -17,7 +17,7 @@ fun NavGraphBuilder.objectRoute(
     modifier: Modifier = Modifier,
     onItemClicked: (fullId: String) -> Unit,
     onBackPressed: () -> Unit,
-) = detailsComposable(
+) = composable(
     route = ObjectRoute.route,
     deepLinks = ObjectRoute.deepLinks
 ) {

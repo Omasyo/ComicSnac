@@ -5,6 +5,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
@@ -106,7 +107,7 @@ internal fun <T : Any> CategoryScreen(
                         }
                         if (items.loadState.append == LoadState.Loading) {
                             item {
-                                LoadingPlaceholder(Modifier.height(64f.dp))
+                                LoadingPlaceholder(Modifier.height(64f.dp).fillMaxWidth())
                             }
                         }
                     }
