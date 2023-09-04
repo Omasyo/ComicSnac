@@ -3,9 +3,11 @@ package com.keetr.comicsnac.ui.components.cards
 import android.content.res.Configuration
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxScope
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -68,7 +70,7 @@ fun PlainCard(
     contentDescription: String?,
     onClick: () -> Unit
 ) {
-    Column(modifier) {
+    Column(modifier, verticalArrangement = Arrangement.spacedBy(8f.dp)) {
         PlainCard(
             Modifier.weight(1f),
             imageUrl = imageUrl,

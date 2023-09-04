@@ -39,23 +39,9 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
 import androidx.paging.LoadState
 import androidx.paging.compose.LazyPagingItems
-import com.keetr.comicsnac.model.character.Character
-import com.keetr.comicsnac.model.concept.Concept
-import com.keetr.comicsnac.model.issue.Issue
-import com.keetr.comicsnac.model.location.Location
-import com.keetr.comicsnac.model.`object`.ObjectItem
 import com.keetr.comicsnac.model.search.SearchModel
 import com.keetr.comicsnac.model.search.SearchType
-import com.keetr.comicsnac.model.storyarc.StoryArc
-import com.keetr.comicsnac.model.volume.Volume
 import com.keetr.comicsnac.ui.components.TextField
-import com.keetr.comicsnac.ui.components.cards.CharacterWideCard
-import com.keetr.comicsnac.ui.components.cards.ConceptWideCard
-import com.keetr.comicsnac.ui.components.cards.IssueWideCard
-import com.keetr.comicsnac.ui.components.cards.LocationWideCard
-import com.keetr.comicsnac.ui.components.cards.ObjectWideCard
-import com.keetr.comicsnac.ui.components.cards.StoryArcWideCard
-import com.keetr.comicsnac.ui.components.cards.VolumeWideCard
 import com.keetr.comicsnac.ui.components.placeholders.ErrorPlaceholder
 import com.keetr.comicsnac.ui.components.placeholders.LoadingPlaceholder
 import com.keetr.comicsnac.ui.theme.AppIcons
@@ -158,45 +144,14 @@ fun SearchScreen(
                                     contentPadding = PaddingValues(16f.dp),
                                     verticalArrangement = Arrangement.spacedBy(16f.dp)
                                 ) {
-                                    items(searchResults.itemCount /* TODO key = searchResults.itemKey {  }*/) {
-                                        when (val result = searchResults[it]) {
-                                            is Character -> CharacterWideCard(
-                                                character = result,
-                                                onClick = onItemClicked
-                                            )
-
-                                            is Concept -> ConceptWideCard(
-                                                concept = result,
-                                                onClick = onItemClicked
-                                            )
-
-                                            is ObjectItem -> ObjectWideCard(
-                                                objectItem = result,
-                                                onClick = onItemClicked
-                                            )
-
-                                            is Location -> LocationWideCard(
-                                                location = result,
-                                                onClick = onItemClicked
-                                            )
-
-                                            is Issue -> IssueWideCard(
-                                                issue = result,
-                                                onClick = onItemClicked
-                                            )
-
-                                            is StoryArc -> StoryArcWideCard(
-                                                storyArc = result,
-                                                onClick = onItemClicked
-                                            )
-
-                                            is Volume -> VolumeWideCard(
-                                                volume = result,
-                                                onClick = onItemClicked
-                                            )
-
-                                            else -> throw NotImplementedError("Unknown type $result")
-                                        }
+                                    items(
+                                        searchResults.itemCount,
+                                        key = { searchResults[it]!!.apiDetailUrl }
+                                    ) {
+                                        ItemWideCard(
+                                            item = searchResults[it]!!,
+                                            onItemClicked = onItemClicked
+                                        )
                                     }
                                     if (searchResults.loadState.append == LoadState.Loading) {
                                         item {

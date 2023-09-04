@@ -24,6 +24,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import androidx.navigation.navigation
 import com.keetr.comicsnac.categories.categoriesRoute
 import com.keetr.comicsnac.categories.navigateToCategories
 import com.keetr.comicsnac.details.character.characterRoute
@@ -123,24 +124,26 @@ fun AppNavHost(
             onBackPressed = onBackPressed
         )
 
-        categoriesRoute(
-            onCharactersClicked = {},
-            onConceptsClicked = {},
-            onEpisodesClicked = {},
-            onIssuesClicked = {},
-            onLocationsClicked = {},
-            onMoviesClicked = {},
-            onObjectsClicked = {},
-            onOriginsClicked = {},
-            onPeopleClicked = {},
-            onPowersClicked = {},
-            onPublishersClicked = {},
-            onSeriesClicked = {},
-            onStoryArcsClicked = {},
-            onTeamsClicked = {},
-            onVolumesClicked = {},
-            onBackPressed = {}
-        )
+        navigation("/", "categories") {
+            categoriesRoute(
+                onCharactersClicked = {},
+                onConceptsClicked = {},
+                onEpisodesClicked = {},
+                onIssuesClicked = {},
+                onLocationsClicked = {},
+                onMoviesClicked = {},
+                onObjectsClicked = {},
+                onOriginsClicked = {},
+                onPeopleClicked = {},
+                onPowersClicked = {},
+                onPublishersClicked = {},
+                onSeriesClicked = {},
+                onStoryArcsClicked = {},
+                onTeamsClicked = {},
+                onVolumesClicked = {},
+                onBackPressed = {}
+            )
+        }
 
         composable(
             "error",

@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="expand_category_desc">Expand %1$s category</string>
+    <string name="show_details">Show Details</string>
+    <string name="hide_details">Hide Details</string>
 </resources>

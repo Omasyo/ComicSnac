@@ -44,7 +44,7 @@ fun NavGraphBuilder.categoriesRoute(
     onVolumesClicked: () -> Unit,
     onBackPressed: () -> Unit
 ) = categoriesComposable(
-    CategoriesRoute.route
+    "/"
 ) {
     CategoriesScreen(
         modifier = modifier,
