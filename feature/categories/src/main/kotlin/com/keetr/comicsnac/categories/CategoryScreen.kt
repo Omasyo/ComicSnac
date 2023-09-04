@@ -32,7 +32,7 @@ enum class LayoutType { Grid, List }
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-internal fun <T: Any> CategoryScreen(
+internal fun <T : Any> CategoryScreen(
     modifier: Modifier = Modifier,
     title: String,
     onBackPressed: () -> Unit = {},
