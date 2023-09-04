@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.pager.HorizontalPager
+import androidx.compose.foundation.pager.PagerDefaults
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -54,7 +55,11 @@ fun PublisherCarousel(
         state = pagerState,
         pageSize = CustomPageSize,
         verticalAlignment = Alignment.CenterVertically,
-        pageSpacing = 8f.dp
+        pageSpacing = 8f.dp,
+        flingBehavior = PagerDefaults.flingBehavior(
+            state = pagerState,
+            pagerSnapDistance = CustomPagerSnapDistance
+        )
     ) { index ->
         val actualIndex = index % issues.size
         val pageOffset =

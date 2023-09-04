@@ -1,5 +1,8 @@
 package com.keetr.comicsnac.home
 
+import androidx.compose.animation.core.FastOutSlowInEasing
+import androidx.compose.animation.core.LinearEasing
+import androidx.compose.animation.core.tween
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
@@ -12,6 +15,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.PageSize
+import androidx.compose.foundation.pager.PagerDefaults
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -59,12 +63,18 @@ fun IssueCarousel(
         rememberPagerState(issues.size * (Int.MAX_VALUE / (2 * issues.size)) - 1) { Int.MAX_VALUE }
     val coroutineScope = rememberCoroutineScope()
 
+
+
     HorizontalPager(
         modifier = modifier.zIndex(1f),
         state = pagerState,
         pageSize = CustomPageSize,
         verticalAlignment = Alignment.CenterVertically,
-        pageSpacing = 8f.dp
+        pageSpacing = 8f.dp,
+        flingBehavior = PagerDefaults.flingBehavior(
+            state = pagerState,
+            pagerSnapDistance = CustomPagerSnapDistance
+        )
     ) { index ->
         val actualIndex = index % issues.size
         val pageOffset =
@@ -138,7 +148,6 @@ fun IssueCarousel(
             }
         }
     }
-
 }
 
 //device = "spec:width=412px,height=360px,dpi=440,orientation=portrait"
