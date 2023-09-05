@@ -1,8 +1,12 @@
 package com.keetr.comicsnac.baselineprofile
 
+import androidx.benchmark.macro.MacrobenchmarkScope
 import androidx.benchmark.macro.junit4.BaselineProfileRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.LargeTest
+import androidx.test.uiautomator.By
+import androidx.test.uiautomator.Direction
+import androidx.test.uiautomator.Until
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -55,3 +59,21 @@ class BaselineProfileGenerator {
         }
     }
 }
+
+fun MacrobenchmarkScope.waitForHomeContent() {
+    device.wait(Until.hasObject(By.res("home_list")), 10_000)
+}
+
+//fun MacrobenchmarkScope.scrollHomeScreen() {
+//    val homeList = device.findObject(By.res("home_list"))
+//    // Set gesture margin to avoid triggering gesture navigation
+//    homeList.setGestureMargin(device.displayWidth / 5)
+////    sectionList.scrollUntil(Direction.DOWN, Until.scrollFinished(Direction.DOWN))
+//    homeList.fling(Direction.DOWN)
+//
+////    homeList.setGestureMargin(device.displayWidth / 5)
+//////    sectionList.scrollUntil(Direction.UP, Until.scrollFinished(Direction.UP))
+////    homeList.fling(Direction.UP)
+//
+//    device.waitForIdle()
+//}

@@ -27,6 +27,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
@@ -44,10 +45,10 @@ import kotlin.math.absoluteValue
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
 fun PublisherCarousel(
-    modifier: Modifier = Modifier, issues: List<Publisher>, onIssueClick: (apiUrl: String) -> Unit
+    modifier: Modifier = Modifier, publishers: List<Publisher>, onIssueClick: (apiUrl: String) -> Unit
 ) {
     val pagerState =
-        rememberPagerState(issues.size * (Int.MAX_VALUE / (2 * issues.size)) - 1) { Int.MAX_VALUE }
+        rememberPagerState(publishers.size * (Int.MAX_VALUE / (2 * publishers.size)) - 1) { Int.MAX_VALUE }
     val coroutineScope = rememberCoroutineScope()
 
     HorizontalPager(
@@ -61,10 +62,10 @@ fun PublisherCarousel(
             pagerSnapDistance = CustomPagerSnapDistance
         )
     ) { index ->
-        val actualIndex = index % issues.size
+        val actualIndex = index % publishers.size
         val pageOffset =
             ((pagerState.currentPage + 1 - index) + pagerState.currentPageOffsetFraction).absoluteValue
-        with(issues[actualIndex]) {
+        with(publishers[actualIndex]) {
             Column(
                 modifier = Modifier.graphicsLayer {
                     val scaleFactor = lerp(
@@ -93,6 +94,7 @@ fun PublisherCarousel(
                         ),
                         contentScale = ContentScale.Fit,
                         modifier = Modifier
+                            .testTag(if(index - 1 == pagerState.currentPage) "centered" else "not_centered")
                             .padding(1f.dp)
                             .drawWithContent {
                                 drawRect(Color.Black, Offset.Zero, size)
@@ -141,7 +143,7 @@ fun PublisherCarousel(
 private fun Preview() {
     ComicSnacTheme {
         Surface(Modifier.fillMaxSize()) {
-            PublisherCarousel(issues = List(10) {
+            PublisherCarousel(publishers = List(10) {
                 Publisher(
                     apiDetailUrl = "http://www.bing.com/search?q=ne",
                     deck = "petentium",

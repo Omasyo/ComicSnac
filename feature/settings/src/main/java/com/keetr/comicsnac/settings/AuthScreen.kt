@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
@@ -39,7 +40,9 @@ fun AuthScreen(
     Scaffold(modifier) { innerPadding ->
         Column(
             Modifier
+                .testTag("auth_screen")
                 .padding(innerPadding)
+                .padding(16f.dp)
                 .fillMaxSize(),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.spacedBy(32f.dp, Alignment.CenterVertically)
@@ -62,6 +65,7 @@ fun AuthScreen(
             }
             Text(stringResource(R.string.request_enter_api_key))
             TextField(
+                modifier = Modifier.testTag("text_field"),
                 value = key,
                 onValueChange = onKeyChange,
                 placeholder = stringResource(R.string.enter_api_key),
@@ -90,6 +94,7 @@ fun AuthScreen(
                     when (state) {
                         AuthUiState.Initial, AuthUiState.InvalidKey, AuthUiState.UnknownError -> {
                             ComicCard(
+                                modifier = Modifier.testTag("verify_button"),
                                 backgroundColor = MaterialTheme.colorScheme.onError,
                                 onClick = onVerifyClick
                             ) {

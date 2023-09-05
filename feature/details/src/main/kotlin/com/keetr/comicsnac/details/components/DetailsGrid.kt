@@ -21,6 +21,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.paging.LoadState
@@ -68,6 +69,7 @@ internal fun <T : Any> LazyItemScope.DetailsGrid(
                 style = MaterialTheme.typography.titleMedium,
                 color = if (expanded) MaterialTheme.colorScheme.tertiary else MaterialTheme.colorScheme.primary,
                 modifier = Modifier
+                    .testTag("expand_button")
                     .padding(top = 8f.dp)
                     .clickable { onToggleExpand() }
                     .background(MaterialTheme.colorScheme.onSurface)
@@ -87,6 +89,7 @@ internal fun <T : Any> LazyItemScope.DetailsGrid(
                 LoadState.Loading -> LoadingPlaceholder(heightModifier.fillMaxWidth())
                 is LoadState.NotLoading -> {
                     LazyHorizontalGrid(
+                        modifier = Modifier.testTag("lazy_grid"),
                         rows = GridCells.Adaptive(224f.dp),
                         contentPadding = PaddingValues(16f.dp, 8f.dp),
                         horizontalArrangement = Arrangement.spacedBy(8f.dp),

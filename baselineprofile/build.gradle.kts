@@ -36,6 +36,10 @@ android {
             systemImageSource = "google"
         }
     }
+
+    experimentalProperties["android.experimental.art-profile-r8-rewriting"] = true
+    experimentalProperties["android.experimental.r8.dex-startup-optimization"] = true
+
 }
 
 // This is the configuration block for the Baseline Profile plugin.

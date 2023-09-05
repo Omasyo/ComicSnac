@@ -19,7 +19,10 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
+import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.testTagsAsResourceId
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavBackStackEntry
 import androidx.navigation.NavHostController
@@ -45,6 +48,7 @@ import com.keetr.comicsnac.settings.navigateToTheme
 import com.keetr.comicsnac.settings.themeRoute
 import com.keetr.comicsnac.ui.components.placeholders.InDevelopmentPlaceholder
 
+@OptIn(ExperimentalComposeUiApi::class)
 @Composable
 fun AppNavHost(
     modifier: Modifier = Modifier,
@@ -52,7 +56,10 @@ fun AppNavHost(
     navController: NavHostController = rememberNavController()
 ) {
     NavHost(
-        modifier = modifier,
+        modifier = modifier
+            .semantics {
+                testTagsAsResourceId = true
+            },
         navController = navController,
         startDestination = if (apiKeyPresent) HomeRoute.route else AuthRoute.route,
         enterTransition = {

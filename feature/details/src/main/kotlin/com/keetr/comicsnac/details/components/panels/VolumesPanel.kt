@@ -2,6 +2,7 @@ package com.keetr.comicsnac.details.components.panels
 
 import androidx.compose.foundation.layout.width
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.paging.compose.LazyPagingItems
@@ -20,6 +21,7 @@ internal fun PanelLazyListScope.volumesPanel(
 
     panel { index ->
         DetailsGrid(
+            modifier = Modifier.testTag("volumes_panel"),
             name = stringResource(R.string.volumes),
             items = items,
             expanded = expandedProvider(index),

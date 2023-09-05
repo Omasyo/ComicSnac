@@ -17,6 +17,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.unit.dp
 import com.keetr.comicsnac.ui.components.placeholders.ErrorPlaceholder
 import com.keetr.comicsnac.ui.components.placeholders.InDevelopmentPlaceholder
@@ -68,6 +69,7 @@ internal fun <T> CategoryCarousel(
 
                 is Success -> {
                     LazyRow(
+                        modifier = Modifier.testTag("category_row"),
                         contentPadding = PaddingValues(16f.dp, 8f.dp),
                         horizontalArrangement = Arrangement.spacedBy(4f.dp)
                     ) {

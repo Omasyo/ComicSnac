@@ -24,6 +24,7 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -37,15 +38,8 @@ import com.keetr.comicsnac.ui.components.lazylist.PanelList
 import com.keetr.comicsnac.ui.components.placeholders.ErrorPlaceholder
 import com.keetr.comicsnac.ui.components.placeholders.InDevelopmentPlaceholder
 import com.keetr.comicsnac.ui.components.placeholders.LoadingPlaceholder
-import com.keetr.comicsnac.ui.theme.AnotherScheme
 import com.keetr.comicsnac.ui.theme.AppIcons
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
-import com.keetr.comicsnac.ui.theme.DarkKnightScheme
-import com.keetr.comicsnac.ui.theme.DefaultScheme
-import com.keetr.comicsnac.ui.theme.DoggyBagsScheme
-import com.keetr.comicsnac.ui.theme.IronManScheme
-import com.keetr.comicsnac.ui.theme.LightScheme
-import com.keetr.comicsnac.ui.theme.SpawnScheme
 import com.keetr.comicsnac.ui.theme.YetAnotherScheme
 
 @Composable
@@ -68,7 +62,10 @@ internal fun HomeScreen(
 ) {
     Scaffold(modifier) { padding ->
         CompositionLocalProvider(LocalContentColor provides MaterialTheme.colorScheme.onSurface) {
-            PanelList(contentPadding = padding) {
+            PanelList(
+                modifier = Modifier.testTag("home_list"),
+                contentPadding = padding
+            ) {
                 panel {
                     Row(
                         modifier = Modifier
@@ -91,7 +88,8 @@ internal fun HomeScreen(
                         ) {
                             Icon(
                                 AppIcons.Search,
-                                contentDescription = stringResource(R.string.share_button_desc)
+                                contentDescription = stringResource(R.string.search_button_desc),
+                                modifier = Modifier.testTag("search_button")
                             )
                         }
 
@@ -111,7 +109,8 @@ internal fun HomeScreen(
                         )
                         AnimatedContent(
                             targetState = issuesUiState,
-                            modifier = Modifier.animateContentSize(),
+                            modifier = Modifier
+                                .animateContentSize(),
                             label = "New Issues Carousel"
                         ) { uiState ->
                             when (uiState) {
@@ -135,7 +134,9 @@ internal fun HomeScreen(
 
                                 is Success -> {
                                     IssueCarousel(
-                                        issues = uiState.contents, onIssueClick = onItemClicked
+                                        modifier = Modifier.testTag("issues_carousel"),
+                                        issues = uiState.contents,
+                                        onIssueClick = onItemClicked
                                     )
                                 }
                             }
@@ -249,7 +250,8 @@ internal fun HomeScreen(
 
                                 is Success -> {
                                     PublisherCarousel(
-                                        issues = uiState.contents, onIssueClick = onItemClicked
+                                        Modifier.testTag("publisher_carousel"),
+                                        publishers = uiState.contents, onIssueClick = onItemClicked
                                     )
                                 }
                             }

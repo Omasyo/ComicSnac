@@ -34,6 +34,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.RectangleShape
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
@@ -141,6 +142,7 @@ fun SearchScreen(
                                     }
                                 }
                                 LazyColumn(
+                                    modifier = Modifier.testTag("search_results"),
                                     contentPadding = PaddingValues(16f.dp),
                                     verticalArrangement = Arrangement.spacedBy(16f.dp)
                                 ) {
@@ -187,6 +189,7 @@ private fun TopBar(
         }
         TextField(
             modifier = Modifier
+                .testTag("search_field")
                 .padding(horizontal = 8f.dp)
                 .weight(1f),
             value = query,

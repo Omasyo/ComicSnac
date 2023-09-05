@@ -3,6 +3,7 @@ package com.keetr.comicsnac.details.components.panels
 import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.width
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.paging.compose.LazyPagingItems
@@ -47,7 +48,9 @@ internal fun PanelLazyListScope.charactersPanel(
     onItemClicked: (String) -> Unit
 ) {
     panel { index ->
-        DetailsGrid(name = stringResource(nameResId),
+        DetailsGrid(
+            modifier = Modifier.testTag("characters_panel"),
+            name = stringResource(nameResId),
             items = items,
             expanded = expandedProvider(index),
             onToggleExpand = {

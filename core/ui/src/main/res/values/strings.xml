@@ -35,4 +35,5 @@
     <string name="oops">Oops</string>
     <string name="error">An Error Occured</string>
     <string name="retry">Retry</string>
+    <string name="search_button_desc">Search Button</string>
 </resources>
