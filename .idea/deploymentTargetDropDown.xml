@@ -5,16 +5,32 @@
       <entry key="ApiKeyJourneyBenchmarks">
         <State />
       </entry>
-      <entry key="Preview">
+      <entry key="BaselineProfileGenerator">
         <State />
       </entry>
       <entry key="Preview (1)">
         <State />
       </entry>
       <entry key="PublisherJourneyBenchmarks">
-        <State />
+        <State>
+          <runningDeviceTargetSelectedWithDropDown>
+            <Target>
+              <type value="RUNNING_DEVICE_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="SERIAL_NUMBER" />
+                  <value value="10.28.177.235:5555" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </runningDeviceTargetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2023-09-05T16:23:04.332786658Z" />
+        </State>
       </entry>
       <entry key="app">
+        <State />
+      </entry>
+      <entry key="startupCompilationBaselineProfiles()">
         <State />
       </entry>
     </value>

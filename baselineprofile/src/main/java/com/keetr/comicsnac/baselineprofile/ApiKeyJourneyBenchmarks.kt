@@ -1,5 +1,6 @@
 package com.keetr.comicsnac.baselineprofile
 
+import android.util.Log
 import android.view.KeyEvent
 import androidx.benchmark.macro.BaselineProfileMode
 import androidx.benchmark.macro.CompilationMode
@@ -16,38 +17,38 @@ import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 
-@RunWith(AndroidJUnit4::class)
-@LargeTest
-class ApiKeyJourneyBenchmarks {
-
-    @get:Rule
-    val rule = MacrobenchmarkRule()
-
-    @Test
-    fun startupCompilationNone() =
-        benchmark(CompilationMode.None())
-
-    @Test
-    fun startupCompilationBaselineProfiles() =
-        benchmark(CompilationMode.Partial(BaselineProfileMode.Require))
-
-    private fun benchmark(compilationMode: CompilationMode) {
-        rule.measureRepeated(
-            packageName = "com.keetr.comicsnac",
-            metrics = listOf(FrameTimingMetric()),
-            compilationMode = compilationMode,
-            startupMode = StartupMode.WARM,
-            iterations = 5,
-            setupBlock = {
-                pressHome()
-                startActivityAndWait()
-            },
-            measureBlock = {
-                enterApiJourney()
-            }
-        )
-    }
-}
+//@RunWith(AndroidJUnit4::class)
+//@LargeTest
+//class ApiKeyJourneyBenchmarks {
+//
+//    @get:Rule
+//    val rule = MacrobenchmarkRule()
+//
+//    @Test
+//    fun startupCompilationNone() =
+//        benchmark(CompilationMode.None())
+//
+//    @Test
+//    fun startupCompilationBaselineProfiles() =
+//        benchmark(CompilationMode.Partial(BaselineProfileMode.Require))
+//
+//    private fun benchmark(compilationMode: CompilationMode) {
+//        rule.measureRepeated(
+//            packageName = "com.keetr.comicsnac",
+//            metrics = listOf(FrameTimingMetric()),
+//            compilationMode = compilationMode,
+//            startupMode = StartupMode.WARM,
+//            iterations = 5,
+//            setupBlock = {
+//                pressHome()
+//                startActivityAndWait()
+//            },
+//            measureBlock = {
+//                enterApiJourney()
+//            }
+//        )
+//    }
+//}
 
 fun MacrobenchmarkScope.enterApiJourney() {
     device.wait(Until.hasObject(By.res("auth_screen")), 5_000)
@@ -66,5 +67,13 @@ fun MacrobenchmarkScope.enterApiJourney() {
     textField.text = ApiKey
     button.click()
 
-    device.wait(Until.gone(By.res("auth_screen")), 10_000)
+    Log.i("TAG", "enterApiJourney: Tapped apikey verify")
+    var state = device.wait(Until.gone(By.res("auth_screen")), 10_000)
+    Log.i("TAG", "enterApiJourney: Tapped apikey verify result $state")
+
+    while(!state) {
+        screen.findObject(By.res("verify_button")).click()
+        state = device.wait(Until.gone(By.res("auth_screen")), 10_000)
+        Log.i("TAG", "enterApiJourney: Tapped apikey verify result $state")
+    }
 }

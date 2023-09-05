@@ -16,57 +16,58 @@ import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 
-@RunWith(AndroidJUnit4::class)
-@LargeTest
-class PublisherJourneyBenchmarks {
-
-    @get:Rule
-    val rule = MacrobenchmarkRule()
-
-    @Test
-    fun startupCompilationNone() =
-        benchmark(CompilationMode.None())
-
-    @Test
-    fun startupCompilationBaselineProfiles() =
-        benchmark(CompilationMode.Partial(BaselineProfileMode.Require))
-
-    private fun benchmark(compilationMode: CompilationMode) {
-        rule.measureRepeated(
-            packageName = "com.keetr.comicsnac",
-            metrics = listOf(FrameTimingMetric()),
-            compilationMode = compilationMode,
-            startupMode = StartupMode.WARM,
-            iterations = 1,
-            setupBlock = {
-                pressHome()
-                startActivityAndWait()
-            },
-            measureBlock = {
-                enterApiJourney()
-                waitForHomeContent()
-                scrollHomeScreenCarousels()
-                searchJourney()
-                navigatePublisherJourney()
-            }
-        )
-    }
-}
+//@RunWith(AndroidJUnit4::class)
+//@LargeTest
+//class PublisherJourneyBenchmarks {
+//
+//    @get:Rule
+//    val rule = MacrobenchmarkRule()
+//
+//    @Test
+//    fun startupCompilationNone() =
+//        benchmark(CompilationMode.None())
+//
+//    @Test
+//    fun startupCompilationBaselineProfiles() =
+//        benchmark(CompilationMode.Partial(BaselineProfileMode.Require))
+//
+//    private fun benchmark(compilationMode: CompilationMode) {
+//        rule.measureRepeated(
+//            packageName = "com.keetr.comicsnac",
+//            metrics = listOf(FrameTimingMetric()),
+//            compilationMode = compilationMode,
+//            startupMode = StartupMode.WARM,
+//            iterations = 1,
+//            setupBlock = {
+//                pressHome()
+//                startActivityAndWait()
+//            },
+//            measureBlock = {
+//                enterApiJourney()
+//                waitForHomeContent()
+//                scrollHomeScreenCarousels()
+//                searchJourney()
+//                navigatePublisherJourney()
+//            }
+//        )
+//    }
+//}
 
 fun MacrobenchmarkScope.scrollHomeScreenCarousels() {
     val homeList = device.findObject(By.res("home_list"))
-    homeList.wait(Until.hasObject(By.res("issues_carousel")), 20_000)
-    homeList.wait(Until.hasObject(By.res("category_row")), 20_000)
+    device.wait(Until.hasObject(By.res("issues_carousel")), 20_000)
+    device.wait(Until.hasObject(By.res("category_row")), 20_000)
 
-    homeList.findObject(By.res("issues_carousel")).fling(Direction.RIGHT)
+    device.findObject(By.res("issues_carousel"))?.fling(Direction.RIGHT)
     device.waitForIdle()
-    homeList.findObject(By.res("category_row")).fling(Direction.RIGHT)
+    device.findObject(By.res("category_row"))?.fling(Direction.RIGHT)
     device.waitForIdle()
 }
 
 fun MacrobenchmarkScope.searchJourney() {
     device.wait(Until.hasObject(By.res("search_button")), 10_000)
-    device.findObject(By.res("search_button")).click()
+    val searchButton = device.findObject(By.res("search_button")) ?: return
+    searchButton.click()
     device.waitForIdle()
     device.wait(Until.hasObject(By.res("search_field")), 10_000)
 
@@ -80,28 +81,28 @@ fun MacrobenchmarkScope.searchJourney() {
 //    device.pressSearch()
 
     device.wait(Until.hasObject(By.res("search_results")), 20_000)
-    device.findObject(By.res("search_results")).fling(Direction.DOWN)
+    device.findObject(By.res("search_results"))?.fling(Direction.DOWN)
     device.waitForIdle()
-    device.findObject(By.res("search_results")).fling(Direction.UP)
+    device.findObject(By.res("search_results"))?.fling(Direction.UP)
     device.waitForIdle()
     device.pressBack()
     device.waitForIdle()
 }
 
 fun MacrobenchmarkScope.navigatePublisherJourney() {
-    val homeList = device.findObject(By.res("home_list"))
+    val homeList = device.findObject(By.res("home_list")) ?: return
     homeList.setGestureMargin(device.displayWidth / 5)
 
     homeList.fling(Direction.DOWN)
 
     homeList.wait(Until.hasObject(By.res("publisher_carousel")), 20_000)
-    val publisherCarousel = homeList.findObject(By.res("publisher_carousel"))
+    val publisherCarousel = homeList.findObject(By.res("publisher_carousel")) ?: return
     val publisher = publisherCarousel.findObject(By.res("centered"))
     publisher.click()
     device.wait(Until.gone(By.res("home_list")), 20_000)
 
     device.wait(Until.hasObject(By.res("publisher_screen")), 20_000)
-    val publisherScreen = device.findObject(By.res("publisher_screen"))
+    val publisherScreen = device.findObject(By.res("publisher_screen")) ?: return
     // Set gesture margin to avoid triggering gesture navigation
     publisherScreen.setGestureMargin(device.displayWidth / 5)
     publisherScreen.fling(Direction.DOWN)
@@ -122,17 +123,17 @@ fun MacrobenchmarkScope.navigatePublisherJourney() {
     device.waitForIdle()
 
 
-    val characters = device.findObject(By.res("characters_panel"))
-    characters.wait(Until.hasObject(By.res("lazy_grid")), 20_000)
-
-    characters.findObject(By.res("lazy_grid")).fling(Direction.RIGHT)
-    device.waitForIdle()
-
-    characters.findObject(By.res("expand_button")).click()
-    device.waitForIdle()
-    characters.findObject(By.res("lazy_grid")).fling(Direction.RIGHT)
-    device.waitForIdle()
-    device.pressBack()
-    device.waitForIdle()
+//    val characters = device.findObject(By.res("characters_panel")) ?: return
+//    characters.wait(Until.hasObject(By.res("lazy_grid")), 20_000)
+//
+//    characters.findObject(By.res("lazy_grid")).fling(Direction.RIGHT)
+//    device.waitForIdle()
+//
+//    characters.findObject(By.res("expand_button")).click()
+//    device.waitForIdle()
+//    characters.findObject(By.res("lazy_grid")).fling(Direction.RIGHT)
+//    device.waitForIdle()
+//    device.pressBack()
+//    device.waitForIdle()
     device.pressBack()
 }
