@@ -4,12 +4,13 @@ android-gradle-plugin = "8.2.0-beta01"
 android-tools-desugar = "2.0.3"
 androidx-activity = "1.7.2"
 androidx-appcompat = "1.6.1"
+androidx-browser = "1.6.0"
 andriodx-core = "1.10.1"
 androidx-datastore = "1.0.0"
 androidx-espresso = "3.5.1"
 androidx-hilt = "1.0.0"
 andriodx-lifecycle = "2.6.1"
-androidx-navigation = "2.7.0"
+androidx-navigation = "2.7.1"
 androidx-room = "2.5.2"
 androidx-paging = "3.2.0"
 androidx-test-ext-junit = "1.1.5"
@@ -25,17 +26,18 @@ kotlinx-coroutines = "1.7.2"
 ktor = "2.3.3"
 mockk = "1.13.5"
 appcompat = "1.6.1"
-material = "1.9.0"
 uiautomator = "2.3.0-alpha04"
 benchmark-macro-junit4 = "1.2.0-beta05"
 androidx-baselineprofile = "1.2.0-beta05"
 profileinstaller = "1.3.1"
+#material = "1.9.0"
 
 [libraries]
 accompanist-webview = { group = "com.google.accompanist", name = "accompanist-webview", version.ref = "accompanist" }
 android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "android-gradle-plugin" }
 android-tools-desugar = { group = "com.android.tools", name = "desugar_jdk_libs", version.ref = "android-tools-desugar" }
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "androidx-activity" }
+androidx-browser = { group = "androidx.browser", name = "browser", version.ref = "androidx-browser"}
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "andriodx-core" }
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
 androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3" }
@@ -69,10 +71,10 @@ ktor-serialization-json = { group = "io.ktor", name = "ktor-serialization-kotlin
 ktor-mock = { group = "io.ktor", name = "ktor-client-mock", version.ref = "ktor" }
 mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
-material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 uiautomator = { group = "androidx.test.uiautomator", name = "uiautomator", version.ref = "uiautomator" }
 benchmark-macro-junit4 = { group = "androidx.benchmark", name = "benchmark-macro-junit4", version.ref = "benchmark-macro-junit4" }
 profileinstaller = { group = "androidx.profileinstaller", name = "profileinstaller", version.ref = "profileinstaller" }
+#material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 #appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 
 

@@ -34,6 +34,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.RectangleShape
+import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
@@ -157,7 +158,11 @@ fun SearchScreen(
                                     }
                                     if (searchResults.loadState.append == LoadState.Loading) {
                                         item {
-                                            LoadingPlaceholder(Modifier.height(64f.dp).fillMaxWidth())
+                                            LoadingPlaceholder(
+                                                Modifier
+                                                    .height(64f.dp)
+                                                    .fillMaxWidth()
+                                            )
                                         }
                                     }
                                 }
@@ -187,6 +192,7 @@ private fun TopBar(
         IconButton(onClick = onBackPressed) {
             Icon(AppIcons.ArrowBack, null)
         }
+        val focusManager = LocalFocusManager.current
         TextField(
             modifier = Modifier
                 .testTag("search_field")
@@ -200,6 +206,7 @@ private fun TopBar(
             keyboardActions = KeyboardActions(
                 onSearch = {
                     onSearch()
+                    focusManager.clearFocus()
                 }
             ),
         )

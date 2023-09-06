@@ -33,13 +33,15 @@ internal class DefaultSearchRepository @Inject constructor(
             ) {
                 CustomPagingSource(
                     provider = { page ->
-                        networkSource.getSearchResults(
-                            apiKey,
-                            query,
-                            filter.joinToString(",") { it.format },
-                            PageSize,
-                            PageSize * page
-                        ).getOrThrow().results
+                        if (page < 1) {
+                            networkSource.getSearchResults(
+                                apiKey,
+                                query,
+                                filter.joinToString(",") { it.format },
+                                PageSize,
+                                PageSize * page
+                            ).getOrThrow().results
+                        } else emptyList() //TODO: Bug in comicvine search api. Workaround to get just the first page
                     },
                     mapper = List<SearchApiModel>::toSearchModels
                 )

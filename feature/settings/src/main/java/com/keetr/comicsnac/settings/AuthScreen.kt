@@ -1,5 +1,8 @@
 package com.keetr.comicsnac.settings
 
+import android.net.Uri
+import androidx.browser.customtabs.CustomTabColorSchemeParams
+import androidx.browser.customtabs.CustomTabsIntent
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -12,6 +15,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.toArgb
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
@@ -21,6 +27,9 @@ import com.keetr.comicsnac.ui.components.TextField
 import com.keetr.comicsnac.ui.components.cards.ComicCard
 import com.keetr.comicsnac.ui.components.placeholders.LoadingPlaceholder
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
+import okhttp3.internal.toHexString
+
+const val ApiKeyUrl = "https://comicvine.gamespot.com/api/"
 
 @Composable
 fun AuthScreen(
@@ -51,9 +60,23 @@ fun AuthScreen(
                 stringResource(R.string.api_key_reason),
                 textAlign = TextAlign.Center
             )
+            val context = LocalContext.current
+            val colorScheme = MaterialTheme.colorScheme
             ComicCard(
                 backgroundColor = MaterialTheme.colorScheme.onError,
-                onClick = {}
+                onClick = {
+                    val intent = CustomTabsIntent.Builder().run {
+                        val params = CustomTabColorSchemeParams.Builder().run {
+                            setNavigationBarColor(colorScheme.primary.toArgb())
+                            setToolbarColor(colorScheme.tertiary.toArgb())
+                            build()
+                        }
+                        setDefaultColorSchemeParams(params)
+                        build()
+                    }
+
+                    intent.launchUrl(context, Uri.parse(ApiKeyUrl))
+                }
             ) {
                 Text(
                     stringResource(R.string.get_api_key),
@@ -65,7 +88,7 @@ fun AuthScreen(
             }
             Text(stringResource(R.string.request_enter_api_key))
             TextField(
-                modifier = Modifier.testTag("text_field"),
+                modifier = Modifier.testTag("text_field").padding(12f.dp, 8f.dp),
                 value = key,
                 onValueChange = onKeyChange,
                 placeholder = stringResource(R.string.enter_api_key),
