@@ -5,6 +5,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
@@ -20,32 +21,33 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
+import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.paging.LoadState
 import androidx.paging.compose.LazyPagingItems
+import com.keetr.comicsnac.model.LayoutType
+import com.keetr.comicsnac.ui.components.placeholders.ErrorPlaceholder
 import com.keetr.comicsnac.ui.components.placeholders.LoadingPlaceholder
 import com.keetr.comicsnac.ui.theme.AppIcons
-
-enum class LayoutType { Grid, List }
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 internal fun <T : Any> CategoryScreen(
     modifier: Modifier = Modifier,
     title: String,
-    onBackPressed: () -> Unit = {},
+    onBackPressed: () -> Unit,
     layoutType: LayoutType,
     onToggleLayoutType: () -> Unit,
     items: LazyPagingItems<T>,
     listContentBuilder: @Composable LazyItemScope.(T) -> Unit,
     listGridBuilder: @Composable LazyGridItemScope.(T) -> Unit
 ) {
-
     Scaffold(
         modifier = modifier,
+        containerColor = MaterialTheme.colorScheme.tertiary,
         topBar = {
             TopAppBar(
                 title = { Text(title) },
@@ -74,40 +76,55 @@ internal fun <T : Any> CategoryScreen(
         }
     ) { padding ->
         AnimatedContent(
-            layoutType,
-            label = "LayoutType",
+            targetState = items.loadState.refresh,
+            label = "CategoryContent",
             modifier = Modifier.padding(padding)
-        ) { layoutType ->
-            when (layoutType) {
-                LayoutType.Grid -> {
-                    LazyVerticalGrid(
-                        contentPadding = PaddingValues(16f.dp),
-                        columns = GridCells.Adaptive(96f.dp),
-                        horizontalArrangement = Arrangement.spacedBy(16f.dp),
-                        verticalArrangement = Arrangement.spacedBy(16f.dp)
-                    ) {
-                        items(100) {
-                            listGridBuilder(items[it]!!)
-                        }
-                        if (items.loadState.append == LoadState.Loading) {
-                            item {
-                                LoadingPlaceholder()
+        ) { refreshState ->
+            when (refreshState) {
+                is LoadState.Error -> ErrorPlaceholder(Modifier.fillMaxSize()) { items.retry() }
+                LoadState.Loading -> LoadingPlaceholder(Modifier.fillMaxSize())
+                is LoadState.NotLoading -> AnimatedContent(
+                    layoutType,
+                    label = "LayoutType"
+                ) { layoutType ->
+                    when (layoutType) {
+                        LayoutType.Grid -> {
+                            LazyVerticalGrid(
+                                modifier = Modifier.fillMaxSize(),
+                                contentPadding = PaddingValues(16f.dp),
+                                columns = GridCells.Adaptive(96f.dp),
+                                horizontalArrangement = Arrangement.spacedBy(16f.dp),
+                                verticalArrangement = Arrangement.spacedBy(16f.dp)
+                            ) {
+                                items(items.itemCount) {
+                                    listGridBuilder(items[it]!!)
+                                }
+                                if (items.loadState.append == LoadState.Loading) {
+                                    item {
+                                        LoadingPlaceholder()
+                                    }
+                                }
                             }
                         }
-                    }
-                }
 
-                LayoutType.List -> {
-                    LazyColumn(
-                        contentPadding = PaddingValues(16f.dp),
-                        verticalArrangement = Arrangement.spacedBy(16f.dp)
-                    ) {
-                        items(100) {
-                            listContentBuilder(items[it]!!)
-                        }
-                        if (items.loadState.append == LoadState.Loading) {
-                            item {
-                                LoadingPlaceholder(Modifier.height(64f.dp).fillMaxWidth())
+                        LayoutType.List -> {
+                            LazyColumn(
+                                modifier = Modifier.fillMaxSize(),
+                                contentPadding = PaddingValues(16f.dp),
+                                verticalArrangement = Arrangement.spacedBy(16f.dp)
+                            ) {
+                                items(items.itemCount) {
+                                    listContentBuilder(items[it]!!)
+                                }
+                                if (items.loadState.append == LoadState.Loading) {
+                                    item {
+                                        LoadingPlaceholder(
+                                            Modifier
+                                                .height(64f.dp)
+                                                .fillMaxWidth()
+                                        )
+                                    }
+                                }
                             }
                         }
                     }

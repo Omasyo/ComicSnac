@@ -10,10 +10,12 @@ import com.keetr.comicsnac.network.common.RandomNetworkSource
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import javax.inject.Inject
+import javax.inject.Named
 
 internal class DefaultAuthRepository @Inject constructor(
-    private val settingsDataStore: DataStore<Preferences>,
-    private val authKey: Preferences.Key<String>,
+
+    @Named("auth") private val settingsDataStore: DataStore<Preferences>,
+    @Named("auth") private val authKey: Preferences.Key<String>,
     private val randomNetworkSource: RandomNetworkSource
 ) : AuthRepository {
     override suspend fun verifyApiKey(key: String): RepositoryResponse<Unit> =

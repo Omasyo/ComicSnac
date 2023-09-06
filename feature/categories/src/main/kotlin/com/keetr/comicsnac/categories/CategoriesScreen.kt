@@ -26,6 +26,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.keetr.comicsnac.ui.R
 import com.keetr.comicsnac.ui.theme.AppIcons
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
@@ -120,7 +121,7 @@ private fun Category(
         horizontalArrangement = Arrangement.SpaceBetween,
         verticalAlignment = Alignment.CenterVertically
     ) {
-        Text(stringResource(nameId))
+        Text(stringResource(nameId), style = MaterialTheme.typography.titleMedium)
         Icon(
             imageVector = AppIcons.RightArrow,
             contentDescription = stringResource(

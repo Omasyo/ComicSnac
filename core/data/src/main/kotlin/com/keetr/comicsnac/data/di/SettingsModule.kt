@@ -10,6 +10,7 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
+import javax.inject.Named
 import javax.inject.Singleton
 
 @Module
@@ -17,6 +18,16 @@ import javax.inject.Singleton
 private object SettingsModule {
     @Provides
     @Singleton
+    @Named("auth")
+    fun provideAuthDatastore(
+        @ApplicationContext applicationContext: Context
+    ) = PreferenceDataStoreFactory.create {
+        applicationContext.preferencesDataStoreFile("auth")
+    }
+
+    @Provides
+    @Singleton
+    @Named("settings")
     fun provideSettingsDatastore(
         @ApplicationContext applicationContext: Context
     ) = PreferenceDataStoreFactory.create {
@@ -27,5 +38,10 @@ private object SettingsModule {
     fun provideColorSchemeKey() = intPreferencesKey("color_scheme")
 
     @Provides
+    @Named("layout")
+    fun provideLayoutPrefKey() = stringPreferencesKey("layout")
+
+    @Provides
+    @Named("auth")
     fun provideAuthKey() = stringPreferencesKey("auth")
 }
