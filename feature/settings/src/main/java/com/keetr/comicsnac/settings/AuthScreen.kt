@@ -27,6 +27,7 @@ import com.keetr.comicsnac.ui.components.TextField
 import com.keetr.comicsnac.ui.components.cards.ComicCard
 import com.keetr.comicsnac.ui.components.placeholders.LoadingPlaceholder
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
+import com.keetr.comicsnac.ui.theme.YetAnotherScheme
 import okhttp3.internal.toHexString
 
 const val ApiKeyUrl = "https://comicvine.gamespot.com/api/"
@@ -146,7 +147,7 @@ fun AuthScreen(
 @Preview
 @Composable
 private fun Preview() {
-    ComicSnacTheme {
+    ComicSnacTheme(YetAnotherScheme) {
         AuthScreen(
             authUiState = AuthUiState.Initial,
             key = "",

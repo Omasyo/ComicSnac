@@ -25,7 +25,11 @@ internal fun NavGraphBuilder.volumeRoute(
     onItemClicked: (String) -> Unit,
     onBackPressed: () -> Unit
 ) = composable(VolumeRoute.route) {
-    VolumeRoute(onItemClicked = onItemClicked, onBackPressed = onBackPressed)
+    VolumeRoute(
+        modifier = modifier,
+        onItemClicked = onItemClicked,
+        onBackPressed = onBackPressed
+    )
 }
 
 fun NavController.navigateToVolumes(navOptions: NavOptions? = null) =

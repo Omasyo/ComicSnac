@@ -10,5 +10,5 @@ import kotlinx.coroutines.flow.Flow
 interface PowerRepository {
     fun getPowerDetails(id: String): Flow<RepositoryResponse<PowerDetails>>
 
-    fun getAllPowers(sort: Sort): Flow<PagingData<PowerBasic>>
+    fun getAllPowers(sort: Sort = Sort.Descending): Flow<PagingData<PowerBasic>>
 }

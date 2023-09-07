@@ -9,6 +9,10 @@ import com.keetr.comicsnac.categories.issue.issueRoute
 import com.keetr.comicsnac.categories.issue.navigateToIssue
 import com.keetr.comicsnac.categories.`object`.navigateToObjects
 import com.keetr.comicsnac.categories.`object`.objectRoute
+import com.keetr.comicsnac.categories.person.navigateToPeople
+import com.keetr.comicsnac.categories.person.personRoute
+import com.keetr.comicsnac.categories.power.navigateToPowers
+import com.keetr.comicsnac.categories.power.powerRoute
 import com.keetr.comicsnac.categories.publisher.navigateToPublishers
 import com.keetr.comicsnac.categories.publisher.publisherRoute
 import com.keetr.comicsnac.categories.team.navigateToTeams
@@ -28,6 +32,10 @@ fun NavGraphBuilder.categoriesNavigation(
 
         objectRoute(onItemClicked = onItemClicked, onBackPressed = onBackPressed)
 
+        personRoute(onItemClicked = onItemClicked, onBackPressed = onBackPressed)
+
+        powerRoute(onItemClicked = onItemClicked, onBackPressed = onBackPressed)
+
         publisherRoute(onItemClicked = onItemClicked, onBackPressed = onBackPressed)
 
         teamRoute(onItemClicked = onItemClicked, onBackPressed = onBackPressed)
@@ -43,8 +51,8 @@ fun NavGraphBuilder.categoriesNavigation(
             onMoviesClicked = { },
             onObjectsClicked = { navController.navigateToObjects() },
             onOriginsClicked = { },
-            onPeopleClicked = { },
-            onPowersClicked = { },
+            onPeopleClicked = { navController.navigateToPeople() },
+            onPowersClicked = { navController.navigateToPowers() },
             onPublishersClicked = { navController.navigateToPublishers() },
             onSeriesClicked = { },
             onStoryArcsClicked = { },

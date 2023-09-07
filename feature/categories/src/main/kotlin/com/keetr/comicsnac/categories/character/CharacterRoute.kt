@@ -24,7 +24,11 @@ internal fun NavGraphBuilder.characterRoute(
     onItemClicked: (String) -> Unit,
     onBackPressed: () -> Unit
 ) = composable(CharacterRoute.route) {
-    CharacterRoute(onItemClicked = onItemClicked, onBackPressed = onBackPressed)
+    CharacterRoute(
+        modifier = modifier,
+        onItemClicked = onItemClicked,
+        onBackPressed = onBackPressed
+    )
 }
 
 fun NavController.navigateToCharacters(navOptions: NavOptions? = null) =

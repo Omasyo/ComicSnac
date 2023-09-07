@@ -25,7 +25,11 @@ internal fun NavGraphBuilder.teamRoute(
     onItemClicked: (String) -> Unit,
     onBackPressed: () -> Unit
 ) = composable(TeamRoute.route) {
-    TeamRoute(onItemClicked = onItemClicked, onBackPressed = onBackPressed)
+    TeamRoute(
+        modifier = modifier,
+        onItemClicked = onItemClicked,
+        onBackPressed = onBackPressed
+    )
 }
 
 fun NavController.navigateToTeams(navOptions: NavOptions? = null) =

@@ -25,7 +25,11 @@ internal fun NavGraphBuilder.objectRoute(
     onItemClicked: (String) -> Unit,
     onBackPressed: () -> Unit
 ) = composable(ObjectRoute.route) {
-    ObjectRoute(onItemClicked = onItemClicked, onBackPressed = onBackPressed)
+    ObjectRoute(
+        modifier = modifier,
+        onItemClicked = onItemClicked,
+        onBackPressed = onBackPressed
+    )
 }
 
 fun NavController.navigateToObjects(navOptions: NavOptions? = null) =

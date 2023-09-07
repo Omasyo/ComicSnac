@@ -13,7 +13,7 @@ android {
         applicationId = "com.keetr.comicsnac"
         minSdk = 24
         targetSdk = 34
-        versionCode = 1
+        versionCode = 2
         versionName = "0.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"

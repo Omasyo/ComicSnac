@@ -67,7 +67,7 @@ fun ComicWebView(
                 style = MaterialTheme.typography.bodyLarge.copy(MaterialTheme.colorScheme.primary),
             ) { offset ->
                 string.getUrlAnnotations(offset, offset).firstOrNull()?.let {
-                    onLinkClick(it.item.url.replace("/../..", ""))
+                    onLinkClick(it.item.url.replace("../..", ""))
                 }
             }
         }

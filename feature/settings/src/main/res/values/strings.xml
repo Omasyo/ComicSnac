@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="select_color_scheme">Select A Color Scheme</string>
-    <string name="api_key_reason">ComicSnac works with the ComicVine API.\\nTap the button below to get an API key</string>
+    <string name="api_key_reason">ComicSnac works with the ComicVine API.\nTap the button below to get an API key</string>
     <string name="get_api_key">Get API Key</string>
     <string name="enter_api_key">Enter API Key</string>
     <string name="request_enter_api_key">Please enter your API key to continue</string>

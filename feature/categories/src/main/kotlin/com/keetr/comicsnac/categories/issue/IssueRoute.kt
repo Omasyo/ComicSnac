@@ -24,7 +24,11 @@ internal fun NavGraphBuilder.issueRoute(
     onItemClicked: (String) -> Unit,
     onBackPressed: () -> Unit
 ) = composable(IssuesRoute.route) {
-    IssueRoute(onItemClicked = onItemClicked, onBackPressed = onBackPressed)
+    IssueRoute(
+        modifier = modifier,
+        onItemClicked = onItemClicked,
+        onBackPressed = onBackPressed
+    )
 }
 
 fun NavController.navigateToIssue(navOptions: NavOptions? = null) =
@@ -52,7 +56,10 @@ internal fun IssueRoute(
                 imageUrl = issue.imageUrl,
                 type = "",
                 imageDescription = stringResource(
-                    R.string.issue_image_desc, issue
+                    R.string.issue_image_desc,
+                    issue.volumeName,
+                    issue.issueNumber,
+                    issue.name
                 )
             )
         }
@@ -62,7 +69,10 @@ internal fun IssueRoute(
             name = issue.name,
             imageUrl = issue.imageUrl,
             contentDescription = stringResource(
-                R.string.issue_image_desc, issue.volumeName, issue.issueNumber, issue.name
+                R.string.issue_image_desc,
+                issue.volumeName,
+                issue.issueNumber,
+                issue.name
             ),
             onClick = { onItemClicked(issue.apiDetailUrl) }
         )

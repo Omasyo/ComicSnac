@@ -11,5 +11,5 @@ import kotlinx.coroutines.flow.Flow
 interface PersonRepository {
     fun getPersonDetails(id: String): Flow<RepositoryResponse<PersonDetails>>
 
-    fun getAllPeople(sort: Sort): Flow<PagingData<Person>>
+    fun getAllPeople(sort: Sort = Sort.Descending): Flow<PagingData<Person>>
 }
