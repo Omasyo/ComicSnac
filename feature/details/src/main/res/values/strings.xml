@@ -20,4 +20,9 @@
     <string name="start_year">Start Year</string>
     <string name="no_of_issues">Number of Issues</string>
     <string name="location">Location</string>
+    <string name="date_of_birth">Born</string>
+    <string name="date_of_death">Died</string>
+    <string name="address">Address</string>
+    <string name="email">Email</string>
+    <string name="website">Website</string>
 </resources>

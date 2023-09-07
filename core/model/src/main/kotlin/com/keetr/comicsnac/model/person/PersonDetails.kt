@@ -1,12 +1,12 @@
 package com.keetr.comicsnac.model.person
 
-import java.time.LocalDateTime
+import java.time.LocalDate
 
 data class PersonDetails(
     val apiDetailUrl: String,
-    val birth: LocalDateTime,
+    val birth: LocalDate?,
     val createdCharactersId: List<Int>,
-    val death: LocalDateTime,
+    val death: LocalDate?,
     val deck: String,
     val description: String,
     val email: String,

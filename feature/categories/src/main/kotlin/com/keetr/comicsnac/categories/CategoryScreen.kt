@@ -55,7 +55,7 @@ internal fun <T : Any> CategoryScreen(
     layoutType: LayoutType,
     onToggleLayoutType: () -> Unit,
     items: LazyPagingItems<T>,
-    listContentBuilder: @Composable LazyItemScope.(T) -> Unit,
+    listContentBuilder: (@Composable LazyItemScope.(T) -> Unit)? = null,
     listGridBuilder: @Composable LazyGridItemScope.(T) -> Unit
 ) {
     val listState = rememberLazyListState()
@@ -76,18 +76,20 @@ internal fun <T : Any> CategoryScreen(
                     }
                 },
                 actions = {
-                    val isGrid = layoutType == LayoutType.Grid
-                    Text(
-                        stringResource(if (isGrid) R.string.show_details else R.string.hide_details),
-                        style = MaterialTheme.typography.titleMedium,
-                        color = if (isGrid) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.tertiary,
-                        modifier = Modifier
-                            .testTag("layout_button")
-                            .padding(top = 8f.dp)
-                            .clickable { onToggleLayoutType() }
-                            .background(MaterialTheme.colorScheme.onSurface)
-                            .padding(horizontal = 16f.dp, vertical = 4f.dp)
-                    )
+                    if (listContentBuilder != null) {
+                        val isGrid = layoutType == LayoutType.Grid
+                        Text(
+                            stringResource(if (isGrid) R.string.show_details else R.string.hide_details),
+                            style = MaterialTheme.typography.titleMedium,
+                            color = if (isGrid) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.tertiary,
+                            modifier = Modifier
+                                .testTag("layout_button")
+                                .padding(top = 8f.dp)
+                                .clickable { onToggleLayoutType() }
+                                .background(MaterialTheme.colorScheme.onSurface)
+                                .padding(horizontal = 16f.dp, vertical = 4f.dp)
+                        )
+                    }
                 }
             )
         }
@@ -131,25 +133,27 @@ internal fun <T : Any> CategoryScreen(
                         }
 
                         LayoutType.List -> {
-                            LaunchedEffect(layoutType) {
-                                listState.scrollToItem(gridState.firstVisibleItemIndex)
-                            }
-                            LazyColumn(
-                                modifier = Modifier.fillMaxSize(),
-                                contentPadding = PaddingValues(16f.dp),
-                                verticalArrangement = Arrangement.spacedBy(16f.dp),
-                                state = listState
-                            ) {
-                                items(items.itemCount) {
-                                    listContentBuilder(items[it]!!)
+                            if (listContentBuilder != null) {
+                                LaunchedEffect(layoutType) {
+                                    listState.scrollToItem(gridState.firstVisibleItemIndex)
                                 }
-                                if (items.loadState.append == LoadState.Loading) {
-                                    item {
-                                        LoadingPlaceholder(
-                                            Modifier
-                                                .height(64f.dp)
-                                                .fillMaxWidth()
-                                        )
+                                LazyColumn(
+                                    modifier = Modifier.fillMaxSize(),
+                                    contentPadding = PaddingValues(16f.dp),
+                                    verticalArrangement = Arrangement.spacedBy(16f.dp),
+                                    state = listState
+                                ) {
+                                    items(items.itemCount) {
+                                        listContentBuilder(items[it]!!)
+                                    }
+                                    if (items.loadState.append == LoadState.Loading) {
+                                        item {
+                                            LoadingPlaceholder(
+                                                Modifier
+                                                    .height(64f.dp)
+                                                    .fillMaxWidth()
+                                            )
+                                        }
                                     }
                                 }
                             }

@@ -14,15 +14,15 @@ data class PersonDetailsApiModel(
     @SerialName("api_detail_url") val apiDetailUrl: String,
 
     @Serializable(DateAsStringSerializer::class)
-    @SerialName("birth") val birth: LocalDateTime,
+    @SerialName("birth") val birth: LocalDateTime?,
 
     @SerialName("created_characters") val createdCharacters: List<CharacterApiModel>,
-    @SerialName("death") val death: DeathApiModel,
+    @SerialName("death") val death: DeathApiModel?,
     @SerialName("deck") val deck: String?,
-    @SerialName("description") val description: String,
+    @SerialName("description") val description: String?,
     @SerialName("email") val email: String?,
     @SerialName("gender") val gender: Int,
-    @SerialName("hometown") val hometown: String,
+    @SerialName("hometown") val hometown: String?,
     @SerialName("id") val id: Int,
     @SerialName("image") val image: ImageApiModel,
     @SerialName("name") val name: String,

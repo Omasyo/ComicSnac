@@ -1,6 +1,7 @@
 package com.keetr.comicsnac.ui.components.webview
 
 import android.graphics.Typeface
+import android.net.Uri
 import android.text.Spanned
 import android.text.style.ImageSpan
 import android.text.style.RelativeSizeSpan
@@ -66,7 +67,7 @@ fun ComicWebView(
                 style = MaterialTheme.typography.bodyLarge.copy(MaterialTheme.colorScheme.primary),
             ) { offset ->
                 string.getUrlAnnotations(offset, offset).firstOrNull()?.let {
-                    onLinkClick(it.item.url.replace("../..", ""))
+                    onLinkClick(it.item.url.replace("/../..", ""))
                 }
             }
         }
@@ -156,7 +157,10 @@ fun Spanned.toAnnotatedString(
                             start,
                             end
                         )
-                        addUrlAnnotation(UrlAnnotation(baseUrl + span.url), start, end)
+                        val uri = Uri.parse(span.url)
+                        val url = if (uri.isAbsolute) uri.toString() else baseUrl + uri.path
+
+                        addUrlAnnotation(UrlAnnotation(url), start, end)
                     }
 
                     is ImageSpan -> {

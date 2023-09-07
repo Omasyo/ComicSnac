@@ -34,13 +34,13 @@ internal fun PersonListApiModel.toPerson() = Person(
 internal fun PersonDetailsApiModel.toPersonDetails() =
     PersonDetails(
         apiDetailUrl = apiDetailUrl,
-        birth = birth,
+        birth = birth?.toLocalDate(),
         createdCharactersId = createdCharacters.map { it.id },
-        death = death.date,
+        death = death?.date?.toLocalDate(),
         deck = deck ?: "",
-        description = description,
+        description = description ?: "",
         email = email ?: "",
-        hometown = hometown,
+        hometown = hometown ?: "",
         id = id,
         imageUrl = image.smallUrl,
         name = name,

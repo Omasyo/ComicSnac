@@ -49,21 +49,21 @@ internal suspend inline fun <reified T> NetworkSource.makeRequest(
             }
 
             HttpStatusCode.Unauthorized -> {
-                Log.w(tag, "makeRequest: Timeout - ${response.bodyAsText()}")
+                Log.e(tag, "makeRequest: Timeout - ${response.bodyAsText()}")
                 Result.failure(InvalidApiException)
             }
 
             HttpStatusCode.RequestTimeout -> {
-                Log.w(tag, "makeRequest: Timeout - ${response.bodyAsText()}")
+                Log.e(tag, "makeRequest: Timeout - ${response.bodyAsText()}")
                 Result.failure(TimeoutException)
             }
 
             else -> {
-                Log.w(tag, "makeRequest: Unknown - ${response.bodyAsText()}")
+                Log.e(tag, "makeRequest: Unknown - ${response.bodyAsText()}")
                 Result.failure(Exception(response.status.description))
             }
         }
     } catch (e: Exception) {
-        Log.w(tag, "makeRequest: Exception - $e")
+        Log.e(tag, "makeRequest: Exception - $e")
         Result.failure(e)
     }

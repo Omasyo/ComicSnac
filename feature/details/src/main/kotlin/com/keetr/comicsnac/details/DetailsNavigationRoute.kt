@@ -31,7 +31,7 @@ abstract class DetailsNavigationRoute(path: String, private val categoryId: Stri
 
     private val apiDeepLinkPattern get() = "$ApiBaseUrl$route"
 
-    protected val webDeepLinkPattern get() = "$Domain/{_}/$categoryId-{${requiredArguments.first()}}/"
+    protected val webDeepLinkPattern get() = "$Domain{_}/$categoryId-{${requiredArguments.first()}}/"
 
     open val deepLinks
         get() = listOf(

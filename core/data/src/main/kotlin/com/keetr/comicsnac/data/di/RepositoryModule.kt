@@ -6,6 +6,8 @@ import com.keetr.comicsnac.data.issue.DefaultIssueRepository
 import com.keetr.comicsnac.data.issue.IssueRepository
 import com.keetr.comicsnac.data.`object`.DefaultObjectRepository
 import com.keetr.comicsnac.data.`object`.ObjectRepository
+import com.keetr.comicsnac.data.person.DefaultPersonRepository
+import com.keetr.comicsnac.data.person.PersonRepository
 import com.keetr.comicsnac.data.power.DefaultPowerRepository
 import com.keetr.comicsnac.data.power.PowerRepository
 import com.keetr.comicsnac.data.publisher.DefaultPublisherRepository
@@ -37,6 +39,9 @@ private interface RepositoryModule {
 
     @Binds
     fun bindObjectRepository(objectRepository: DefaultObjectRepository): ObjectRepository
+
+    @Binds
+    fun bindPersonRepository(personRepository: DefaultPersonRepository): PersonRepository
 
     @Binds
     fun bindPowerRepository(powerRepository: DefaultPowerRepository): PowerRepository
