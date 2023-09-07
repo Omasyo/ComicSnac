@@ -170,7 +170,7 @@ internal fun PublisherDetailsScreen(
                         onItemClicked
                     )
 
-                    if (description.isNotBlank()) {
+                    if (annotatedString.isNotBlank()) {
                         webViewPanel(
                             annotatedString,
                             ::expandedProviderCallback,

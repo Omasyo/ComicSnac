@@ -217,7 +217,7 @@ internal fun TeamDetailsScreen(
                         )
                     }
 
-                    if (description.isNotBlank()) {
+                    if (annotatedString.isNotBlank()) {
                         webViewPanel(
                             annotatedString,
                             ::expandedProviderCallback,

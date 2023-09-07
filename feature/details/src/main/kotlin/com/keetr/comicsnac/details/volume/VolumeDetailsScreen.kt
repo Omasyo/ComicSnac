@@ -160,7 +160,7 @@ internal fun VolumeDetailsScreen(
                         }
                     }
 
-                    if (description.isNotBlank()) {
+                    if (annotatedString.isNotBlank()) {
                         webViewPanel(
                             annotatedString,
                             ::expandedProviderCallback,

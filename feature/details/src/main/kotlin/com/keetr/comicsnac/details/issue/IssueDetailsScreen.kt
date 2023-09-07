@@ -222,7 +222,7 @@ internal fun IssueDetailsScreen(
                         )
                     }
 
-                    if (description.isNotBlank()) {
+                    if (annotatedString.isNotBlank()) {
                         webViewPanel(
                             annotatedString,
                             ::expandedProviderCallback,

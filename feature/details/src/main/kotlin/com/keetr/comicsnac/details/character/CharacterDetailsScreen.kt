@@ -256,7 +256,7 @@ internal fun CharacterDetailsScreen(
                         )
                     }
 
-                    if (description.isNotBlank()) {
+                    if (annotatedString.isNotBlank()) {
                         webViewPanel(
                             annotatedString,
                             ::expandedProviderCallback,
