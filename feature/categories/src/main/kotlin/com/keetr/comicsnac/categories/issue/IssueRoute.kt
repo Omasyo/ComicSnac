@@ -1,4 +1,4 @@
-package com.keetr.comicsnac.categories.volume
+package com.keetr.comicsnac.categories.issue
 
 import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.runtime.Composable
@@ -14,58 +14,57 @@ import androidx.paging.compose.collectAsLazyPagingItems
 import com.keetr.comicsnac.categories.CategoryScreen
 import com.keetr.comicsnac.model.NavigationRoute
 import com.keetr.comicsnac.ui.R
-import com.keetr.comicsnac.ui.components.cards.ComicCard
 import com.keetr.comicsnac.ui.components.cards.PlainCard
 import com.keetr.comicsnac.ui.components.cards.WideCard
 
-private object VolumeRoute : NavigationRoute("volumes")
+private object IssuesRoute : NavigationRoute("issues_list")
 
-internal fun NavGraphBuilder.volumeRoute(
+internal fun NavGraphBuilder.issueRoute(
     modifier: Modifier = Modifier,
     onItemClicked: (String) -> Unit,
     onBackPressed: () -> Unit
-) = composable(VolumeRoute.route) {
-    VolumeRoute(onItemClicked = onItemClicked, onBackPressed = onBackPressed)
+) = composable(IssuesRoute.route) {
+    IssueRoute(onItemClicked = onItemClicked, onBackPressed = onBackPressed)
 }
 
-fun NavController.navigateToVolumes(navOptions: NavOptions? = null) =
-    navigate(VolumeRoute.route, navOptions)
+fun NavController.navigateToIssue(navOptions: NavOptions? = null) =
+    navigate(IssuesRoute.route, navOptions)
 
 @Composable
-internal fun VolumeRoute(
+internal fun IssueRoute(
     modifier: Modifier = Modifier,
     onItemClicked: (String) -> Unit,
     onBackPressed: () -> Unit,
-    viewModel: VolumeViewModel = hiltViewModel()
+    viewModel: IssueViewModel = hiltViewModel()
 ) {
     CategoryScreen(
         modifier = modifier,
-        title = stringResource(R.string.volumes),
+        title = stringResource(R.string.issues),
         onBackPressed = onBackPressed,
         layoutType = viewModel.layoutType.collectAsState().value,
         onToggleLayoutType = viewModel::onToggleLayout,
         items = viewModel.items.collectAsLazyPagingItems(),
-        listContentBuilder = { volume ->
+        listContentBuilder = { issue ->
             WideCard(
-                name = volume.name,
-                description = volume.deck,
-                onClick = { onItemClicked(volume.apiDetailUrl) },
-                imageUrl = volume.imageUrl,
+                name = issue.name,
+                description = issue.deck,
+                onClick = { onItemClicked(issue.apiDetailUrl) },
+                imageUrl = issue.imageUrl,
                 type = "",
                 imageDescription = stringResource(
-                    R.string.volume_image_desc, volume.name
+                    R.string.issue_image_desc, issue
                 )
             )
         }
-    ) { volume ->
+    ) { issue ->
         PlainCard(
             modifier = Modifier.aspectRatio(6f / 11f),
-            name = volume.name,
-            imageUrl = volume.imageUrl,
+            name = issue.name,
+            imageUrl = issue.imageUrl,
             contentDescription = stringResource(
-                R.string.volume_image_desc, volume.name
+                R.string.issue_image_desc, issue.volumeName, issue.issueNumber, issue.name
             ),
-            onClick = { onItemClicked(volume.apiDetailUrl) }
+            onClick = { onItemClicked(issue.apiDetailUrl) }
         )
     }
 }

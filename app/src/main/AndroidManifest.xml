@@ -34,7 +34,7 @@
 
                 <data
                     android:host="comicvine.gamespot.com"
-                    android:pathPrefix="/api"
+                    android:pathPrefix="/api/.*"
                     android:scheme="https" />
             </intent-filter>
 

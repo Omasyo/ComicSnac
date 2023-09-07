@@ -1,4 +1,4 @@
-package com.keetr.comicsnac.categories.volume
+package com.keetr.comicsnac.categories.`object`
 
 import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.runtime.Composable
@@ -18,54 +18,54 @@ import com.keetr.comicsnac.ui.components.cards.ComicCard
 import com.keetr.comicsnac.ui.components.cards.PlainCard
 import com.keetr.comicsnac.ui.components.cards.WideCard
 
-private object VolumeRoute : NavigationRoute("volumes")
+private object ObjectRoute : NavigationRoute("objects")
 
-internal fun NavGraphBuilder.volumeRoute(
+internal fun NavGraphBuilder.objectRoute(
     modifier: Modifier = Modifier,
     onItemClicked: (String) -> Unit,
     onBackPressed: () -> Unit
-) = composable(VolumeRoute.route) {
-    VolumeRoute(onItemClicked = onItemClicked, onBackPressed = onBackPressed)
+) = composable(ObjectRoute.route) {
+    ObjectRoute(onItemClicked = onItemClicked, onBackPressed = onBackPressed)
 }
 
-fun NavController.navigateToVolumes(navOptions: NavOptions? = null) =
-    navigate(VolumeRoute.route, navOptions)
+fun NavController.navigateToObjects(navOptions: NavOptions? = null) =
+    navigate(ObjectRoute.route, navOptions)
 
 @Composable
-internal fun VolumeRoute(
+internal fun ObjectRoute(
     modifier: Modifier = Modifier,
     onItemClicked: (String) -> Unit,
     onBackPressed: () -> Unit,
-    viewModel: VolumeViewModel = hiltViewModel()
+    viewModel: ObjectViewModel = hiltViewModel()
 ) {
     CategoryScreen(
         modifier = modifier,
-        title = stringResource(R.string.volumes),
+        title = stringResource(R.string.objects),
         onBackPressed = onBackPressed,
         layoutType = viewModel.layoutType.collectAsState().value,
         onToggleLayoutType = viewModel::onToggleLayout,
         items = viewModel.items.collectAsLazyPagingItems(),
-        listContentBuilder = { volume ->
+        listContentBuilder = { objectItem ->
             WideCard(
-                name = volume.name,
-                description = volume.deck,
-                onClick = { onItemClicked(volume.apiDetailUrl) },
-                imageUrl = volume.imageUrl,
+                name = objectItem.name,
+                description = objectItem.deck,
+                onClick = { onItemClicked(objectItem.apiDetailUrl) },
+                imageUrl = objectItem.imageUrl,
                 type = "",
                 imageDescription = stringResource(
-                    R.string.volume_image_desc, volume.name
+                    R.string.object_image_desc, objectItem.name
                 )
             )
         }
-    ) { volume ->
-        PlainCard(
+    ) { objectItem ->
+        ComicCard(
             modifier = Modifier.aspectRatio(6f / 11f),
-            name = volume.name,
-            imageUrl = volume.imageUrl,
+            name = objectItem.name,
+            imageUrl = objectItem.imageUrl,
             contentDescription = stringResource(
-                R.string.volume_image_desc, volume.name
+                R.string.object_image_desc, objectItem.name
             ),
-            onClick = { onItemClicked(volume.apiDetailUrl) }
+            onClick = { onItemClicked(objectItem.apiDetailUrl) }
         )
     }
 }

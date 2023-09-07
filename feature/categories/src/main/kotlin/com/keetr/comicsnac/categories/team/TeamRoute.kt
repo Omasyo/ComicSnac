@@ -1,4 +1,4 @@
-package com.keetr.comicsnac.categories.volume
+package com.keetr.comicsnac.categories.team
 
 import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.runtime.Composable
@@ -18,54 +18,54 @@ import com.keetr.comicsnac.ui.components.cards.ComicCard
 import com.keetr.comicsnac.ui.components.cards.PlainCard
 import com.keetr.comicsnac.ui.components.cards.WideCard
 
-private object VolumeRoute : NavigationRoute("volumes")
+private object TeamRoute : NavigationRoute("teams")
 
-internal fun NavGraphBuilder.volumeRoute(
+internal fun NavGraphBuilder.teamRoute(
     modifier: Modifier = Modifier,
     onItemClicked: (String) -> Unit,
     onBackPressed: () -> Unit
-) = composable(VolumeRoute.route) {
-    VolumeRoute(onItemClicked = onItemClicked, onBackPressed = onBackPressed)
+) = composable(TeamRoute.route) {
+    TeamRoute(onItemClicked = onItemClicked, onBackPressed = onBackPressed)
 }
 
-fun NavController.navigateToVolumes(navOptions: NavOptions? = null) =
-    navigate(VolumeRoute.route, navOptions)
+fun NavController.navigateToTeams(navOptions: NavOptions? = null) =
+    navigate(TeamRoute.route, navOptions)
 
 @Composable
-internal fun VolumeRoute(
+internal fun TeamRoute(
     modifier: Modifier = Modifier,
     onItemClicked: (String) -> Unit,
     onBackPressed: () -> Unit,
-    viewModel: VolumeViewModel = hiltViewModel()
+    viewModel: TeamViewModel = hiltViewModel()
 ) {
     CategoryScreen(
         modifier = modifier,
-        title = stringResource(R.string.volumes),
+        title = stringResource(R.string.teams),
         onBackPressed = onBackPressed,
         layoutType = viewModel.layoutType.collectAsState().value,
         onToggleLayoutType = viewModel::onToggleLayout,
         items = viewModel.items.collectAsLazyPagingItems(),
-        listContentBuilder = { volume ->
+        listContentBuilder = { team ->
             WideCard(
-                name = volume.name,
-                description = volume.deck,
-                onClick = { onItemClicked(volume.apiDetailUrl) },
-                imageUrl = volume.imageUrl,
+                name = team.name,
+                description = team.deck,
+                onClick = { onItemClicked(team.apiDetailUrl) },
+                imageUrl = team.imageUrl,
                 type = "",
                 imageDescription = stringResource(
-                    R.string.volume_image_desc, volume.name
+                    R.string.team_image_desc, team.name
                 )
             )
         }
-    ) { volume ->
-        PlainCard(
+    ) { team ->
+        ComicCard(
             modifier = Modifier.aspectRatio(6f / 11f),
-            name = volume.name,
-            imageUrl = volume.imageUrl,
+            name = team.name,
+            imageUrl = team.imageUrl,
             contentDescription = stringResource(
-                R.string.volume_image_desc, volume.name
+                R.string.team_image_desc, team.name
             ),
-            onClick = { onItemClicked(volume.apiDetailUrl) }
+            onClick = { onItemClicked(team.apiDetailUrl) }
         )
     }
 }

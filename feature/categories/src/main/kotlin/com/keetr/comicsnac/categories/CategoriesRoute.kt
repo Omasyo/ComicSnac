@@ -22,7 +22,7 @@ import androidx.navigation.compose.composable
 import com.keetr.comicsnac.model.NavigationRoute
 
 
-private object CategoriesRoute : NavigationRoute("categories")
+internal object CategoriesRoute : NavigationRoute("categories")
 
 fun NavController.navigateToCategories(navOptions: NavOptions? = null) =
     navigate(CategoriesRoute.route, navOptions)
