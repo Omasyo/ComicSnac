@@ -34,12 +34,18 @@ import com.keetr.comicsnac.details.components.DetailsScreen
 import com.keetr.comicsnac.details.components.Image
 import com.keetr.comicsnac.details.components.Info
 import com.keetr.comicsnac.details.components.panels.charactersPanel
+import com.keetr.comicsnac.details.components.panels.locationsPanel
+import com.keetr.comicsnac.details.components.panels.objectsPanel
+import com.keetr.comicsnac.details.components.panels.storyArcsPanel
 import com.keetr.comicsnac.details.components.panels.teamsPanel
 import com.keetr.comicsnac.details.components.panels.webViewPanel
 import com.keetr.comicsnac.model.character.Character
 import com.keetr.comicsnac.details.formatDate
+import com.keetr.comicsnac.model.location.Location
 import com.keetr.comicsnac.model.location.LocationBasic
 import com.keetr.comicsnac.model.`object`.ObjectBasic
+import com.keetr.comicsnac.model.`object`.ObjectItem
+import com.keetr.comicsnac.model.storyarc.StoryArc
 import com.keetr.comicsnac.model.storyarc.StoryArcBasic
 import com.keetr.comicsnac.model.team.Team
 import com.keetr.comicsnac.ui.components.lazylist.animateScrollAndAlignItem
@@ -54,9 +60,9 @@ internal fun IssueDetailsScreen(
     onBackPressed: () -> Unit,
     detailsUiState: IssueDetailsUiState,
     characters: LazyPagingItems<Character>,
-    locations: LazyPagingItems<LocationBasic>, //TODO
-    objects: LazyPagingItems<ObjectBasic>,
-    storyArcs: LazyPagingItems<StoryArcBasic>,
+    locations: LazyPagingItems<Location>, //TODO
+    objects: LazyPagingItems<ObjectItem>,
+    storyArcs: LazyPagingItems<StoryArc>,
     teams: LazyPagingItems<Team>,
 ) {
     when (detailsUiState) {
@@ -246,6 +252,44 @@ internal fun IssueDetailsScreen(
                                     style = MaterialTheme.typography.titleMedium)
                             }
                         }
+
+                        panelSeparator()
+                    }
+
+                    if (locationsId.isNotEmpty()) {
+
+                        locationsPanel(
+                            locations,
+                            ::expandedProviderCallback,
+                            ::onExpand,
+                            onItemClicked
+                        )
+
+                        panelSeparator()
+                    }
+
+                    if (objectsId.isNotEmpty()) {
+
+                        objectsPanel(
+                            objects,
+                            ::expandedProviderCallback,
+                            ::onExpand,
+                            onItemClicked
+                        )
+
+                        panelSeparator()
+                    }
+
+                    if (storyArcsId.isNotEmpty()) {
+
+                        storyArcsPanel(
+                            storyArcs,
+                            ::expandedProviderCallback,
+                            ::onExpand,
+                            onItemClicked
+                        )
+
+                        panelSeparator()
                     }
                 }
             }

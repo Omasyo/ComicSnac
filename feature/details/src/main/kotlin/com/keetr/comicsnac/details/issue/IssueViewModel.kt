@@ -16,8 +16,11 @@ import com.keetr.comicsnac.details.Success
 import com.keetr.comicsnac.details.character.getState
 import com.keetr.comicsnac.model.character.Character
 import com.keetr.comicsnac.model.issue.IssueDetails
+import com.keetr.comicsnac.model.location.Location
 import com.keetr.comicsnac.model.location.LocationBasic
 import com.keetr.comicsnac.model.`object`.ObjectBasic
+import com.keetr.comicsnac.model.`object`.ObjectItem
+import com.keetr.comicsnac.model.storyarc.StoryArc
 import com.keetr.comicsnac.model.storyarc.StoryArcBasic
 import com.keetr.comicsnac.model.team.Team
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -48,15 +51,15 @@ internal class IssueViewModel @Inject constructor(
         characterRepository.getCharactersWithId(charactersId)
     }
 
-    val locations: Flow<PagingData<LocationBasic>> = getPagingData {
+    val locations: Flow<PagingData<Location>> = getPagingData {
         emptyFlow()
     }
 
-    val objects: Flow<PagingData<ObjectBasic>> = getPagingData {
+    val objects: Flow<PagingData<ObjectItem>> = getPagingData {
         emptyFlow()
     }
 
-    val storyArcs: Flow<PagingData<StoryArcBasic>> = getPagingData {
+    val storyArcs: Flow<PagingData<StoryArc>> = getPagingData {
         emptyFlow()
     }
 

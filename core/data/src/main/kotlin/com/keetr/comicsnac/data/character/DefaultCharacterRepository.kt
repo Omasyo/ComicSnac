@@ -97,3 +97,12 @@ internal class DefaultCharacterRepository @Inject constructor(
         )
     }
 }
+
+fun <T : Any> getErrorPagingData() = Pager(PagingConfig(0)) {
+    CustomPagingSource<Nothing, T>(
+        provider = {
+            throw IllegalStateException()
+        },
+        mapper = { emptyList() }
+    )
+}

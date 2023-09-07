@@ -39,6 +39,7 @@ import com.keetr.comicsnac.details.character.characterRoute
 import com.keetr.comicsnac.details.issue.issueRoute
 import com.keetr.comicsnac.details.`object`.objectRoute
 import com.keetr.comicsnac.details.person.personRoute
+import com.keetr.comicsnac.details.power.powerRoute
 import com.keetr.comicsnac.details.publisher.publisherRoute
 import com.keetr.comicsnac.details.team.teamRoute
 import com.keetr.comicsnac.details.volume.volumeRoute
@@ -138,6 +139,11 @@ fun AppNavHost(
         )
 
         personRoute(
+            onItemClicked = onItemClicked,
+            onBackPressed = onBackPressed
+        )
+
+        powerRoute(
             onItemClicked = onItemClicked,
             onBackPressed = onBackPressed
         )
