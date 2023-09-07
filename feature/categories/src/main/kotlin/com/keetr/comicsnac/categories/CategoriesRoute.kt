@@ -17,13 +17,15 @@ import androidx.navigation.NavBackStackEntry
 import androidx.navigation.NavController
 import androidx.navigation.NavDeepLink
 import androidx.navigation.NavGraphBuilder
+import androidx.navigation.NavOptions
 import androidx.navigation.compose.composable
 import com.keetr.comicsnac.model.NavigationRoute
 
 
 private object CategoriesRoute : NavigationRoute("categories")
 
-fun NavController.navigateToCategories() = navigate(CategoriesRoute.route)
+fun NavController.navigateToCategories(navOptions: NavOptions? = null) =
+    navigate(CategoriesRoute.route, navOptions)
 
 fun NavGraphBuilder.categoriesRoute(
     modifier: Modifier = Modifier,

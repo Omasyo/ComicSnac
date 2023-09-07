@@ -16,42 +16,43 @@ import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 
-//@RunWith(AndroidJUnit4::class)
-//@LargeTest
-//class PublisherJourneyBenchmarks {
-//
-//    @get:Rule
-//    val rule = MacrobenchmarkRule()
-//
-//    @Test
-//    fun startupCompilationNone() =
-//        benchmark(CompilationMode.None())
-//
-//    @Test
-//    fun startupCompilationBaselineProfiles() =
-//        benchmark(CompilationMode.Partial(BaselineProfileMode.Require))
-//
-//    private fun benchmark(compilationMode: CompilationMode) {
-//        rule.measureRepeated(
-//            packageName = "com.keetr.comicsnac",
-//            metrics = listOf(FrameTimingMetric()),
-//            compilationMode = compilationMode,
-//            startupMode = StartupMode.WARM,
-//            iterations = 1,
-//            setupBlock = {
-//                pressHome()
-//                startActivityAndWait()
-//            },
-//            measureBlock = {
-//                enterApiJourney()
-//                waitForHomeContent()
-//                scrollHomeScreenCarousels()
-//                searchJourney()
-//                navigatePublisherJourney()
-//            }
-//        )
-//    }
-//}
+@RunWith(AndroidJUnit4::class)
+@LargeTest
+class PublisherJourneyBenchmarks {
+
+    @get:Rule
+    val rule = MacrobenchmarkRule()
+
+    @Test
+    fun startupCompilationNone() =
+        benchmark(CompilationMode.None())
+
+    @Test
+    fun startupCompilationBaselineProfiles() =
+        benchmark(CompilationMode.Partial(BaselineProfileMode.Require))
+
+    private fun benchmark(compilationMode: CompilationMode) {
+        rule.measureRepeated(
+            packageName = "com.keetr.comicsnac",
+            metrics = listOf(FrameTimingMetric()),
+            compilationMode = compilationMode,
+            startupMode = StartupMode.WARM,
+            iterations = 1,
+            setupBlock = {
+                pressHome()
+                startActivityAndWait()
+            },
+            measureBlock = {
+                enterApiJourney()
+                waitForHomeContent()
+                scrollHomeScreenCarousels()
+                categoriesJourney()
+                searchJourney()
+                navigatePublisherJourney()
+            }
+        )
+    }
+}
 
 fun MacrobenchmarkScope.scrollHomeScreenCarousels() {
     val homeList = device.findObject(By.res("home_list"))
@@ -62,6 +63,22 @@ fun MacrobenchmarkScope.scrollHomeScreenCarousels() {
     device.waitForIdle()
     device.findObject(By.res("category_row"))?.fling(Direction.RIGHT)
     device.waitForIdle()
+}
+
+fun MacrobenchmarkScope.categoriesJourney() {
+    device.wait(Until.hasObject(By.res("more_button")), 20_000)
+    device.findObject(By.res("more_button"))?.click()
+    device.wait(Until.gone(By.res("more_button")), 20_000)
+
+    device.wait(Until.hasObject(By.res("category_content")), 20_000)
+    device.findObject(By.res("category_content"))?.fling(Direction.DOWN)
+    device.waitForIdle()
+    device.findObject(By.res("layout_button"))?.click()
+    device.waitForIdle()
+    device.findObject(By.res("category_content"))?.fling(Direction.DOWN)
+    device.waitForIdle()
+    device.pressBack()
+    device.wait(Until.gone(By.res("category_content")), 20_000)
 }
 
 fun MacrobenchmarkScope.searchJourney() {

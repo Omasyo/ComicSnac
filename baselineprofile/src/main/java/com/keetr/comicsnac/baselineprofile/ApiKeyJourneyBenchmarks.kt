@@ -71,9 +71,10 @@ fun MacrobenchmarkScope.enterApiJourney() {
     var state = device.wait(Until.gone(By.res("auth_screen")), 10_000)
     Log.i("TAG", "enterApiJourney: Tapped apikey verify result $state")
 
-    while(!state) {
-        screen.findObject(By.res("verify_button")).click()
-        state = device.wait(Until.gone(By.res("auth_screen")), 10_000)
-        Log.i("TAG", "enterApiJourney: Tapped apikey verify result $state")
-    }
+//    while(!state) {
+//        device.wait(Until.hasObject(By.res("verify_button")), 10_000)
+//        screen.findObject(By.res("verify_button")).click()
+//        state = device.wait(Until.gone(By.res("auth_screen")), 10_000)
+//        Log.i("TAG", "enterApiJourney: Tapped apikey verify result $state")
+//    }
 }

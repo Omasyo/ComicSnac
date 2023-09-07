@@ -11,13 +11,15 @@ import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
+import androidx.navigation.NavOptions
 import androidx.navigation.compose.composable
 import androidx.paging.compose.collectAsLazyPagingItems
 import com.keetr.comicsnac.model.NavigationRoute
 
 private object SearchRoute : NavigationRoute("search")
 
-fun NavController.navigateToSearch() = navigate(SearchRoute.route)
+fun NavController.navigateToSearch(navOptions: NavOptions? = null) =
+    navigate(SearchRoute.route, navOptions)
 
 fun NavGraphBuilder.searchRoute(
     modifier: Modifier = Modifier,

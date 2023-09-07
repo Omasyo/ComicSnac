@@ -6,6 +6,10 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
 import androidx.navigation.navigation
 import com.keetr.comicsnac.categories.character.CharacterRoute
+import com.keetr.comicsnac.categories.character.characterRoute
+import com.keetr.comicsnac.categories.character.navigateToCharacters
+import com.keetr.comicsnac.categories.volume.navigateToVolumes
+import com.keetr.comicsnac.categories.volume.volumeRoute
 
 fun NavGraphBuilder.categoriesNavigation(
     onItemClicked: (String) -> Unit,
@@ -13,9 +17,13 @@ fun NavGraphBuilder.categoriesNavigation(
     navController: NavController
 ) {
     navigation("/", "categories") {
+        characterRoute(onItemClicked = onItemClicked, onBackPressed = onBackPressed)
+
+        volumeRoute(onItemClicked = onItemClicked, onBackPressed = onBackPressed)
+
         categoriesRoute(
-            onCharactersClicked = { navController.navigate("characters") },
-            onConceptsClicked = { },
+            onCharactersClicked = { navController.navigateToCharacters() },
+            onConceptsClicked = { navController.navigateToVolumes()},
             onEpisodesClicked = { },
             onIssuesClicked = { },
             onLocationsClicked = { },
@@ -31,9 +39,5 @@ fun NavGraphBuilder.categoriesNavigation(
             onVolumesClicked = { },
             onBackPressed = onBackPressed
         )
-
-        composable("characters") {
-            CharacterRoute(onItemClicked = onItemClicked, onBackPressed = onBackPressed)
-        }
     }
 }

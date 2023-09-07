@@ -51,6 +51,7 @@ class BaselineProfileGenerator {
             enterApiJourney()
             waitForHomeContent()
             scrollHomeScreenCarousels()
+            categoriesJourney()
             searchJourney()
             waitForHomeContent()
             navigatePublisherJourney()

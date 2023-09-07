@@ -50,6 +50,7 @@ internal fun <T> CategoryCarousel(
                 style = MaterialTheme.typography.titleMedium,
                 color = MaterialTheme.colorScheme.primary,
                 modifier = Modifier
+                    .testTag("more_button")
                     .padding(top = 8f.dp)
                     .clickable { onExpand() }
                     .background(MaterialTheme.colorScheme.onSurface)

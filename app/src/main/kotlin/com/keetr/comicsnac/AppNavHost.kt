@@ -32,7 +32,9 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navigation
 import com.keetr.comicsnac.categories.categoriesNavigation
 import com.keetr.comicsnac.categories.categoriesRoute
+import com.keetr.comicsnac.categories.character.navigateToCharacters
 import com.keetr.comicsnac.categories.navigateToCategories
+import com.keetr.comicsnac.categories.volume.navigateToVolumes
 import com.keetr.comicsnac.details.character.characterRoute
 import com.keetr.comicsnac.details.issue.issueRoute
 import com.keetr.comicsnac.details.`object`.objectRoute
@@ -81,10 +83,10 @@ fun AppNavHost(
         },
     ) {
         val onBackPressed: () -> Unit = { navController.popBackStack() }
-        val onItemClicked = { guid: String ->
+        val onItemClicked = { apiUrl: String ->
             try {
                 navController.navigate(
-                    Uri.parse(guid)
+                    Uri.parse(apiUrl)
                 )
             } catch (e: IllegalArgumentException) {
                 Log.e("AppNavHost", "AppNavHost: ${e.message}")
@@ -97,9 +99,8 @@ fun AppNavHost(
             onSearchClicked = { navController.navigateToSearch() },
             onMoreCategoriesClicked = { navController.navigateToCategories() },
             onSettingsClicked = { navController.navigateToTheme() },
-            onCharacterCategoryClicked = { navController.navigate("characters") },
-            onVolumeCategoryClicked = {
-            },
+            onCharacterCategoryClicked = { navController.navigateToCharacters() },
+            onVolumeCategoryClicked = { navController.navigateToVolumes() },
             onMovieCategoryClicked = {},
             onSeriesCategoryClicked = {}
         )

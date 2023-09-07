@@ -14,6 +14,8 @@ import androidx.compose.foundation.lazy.LazyItemScope
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyGridItemScope
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
+import androidx.compose.foundation.lazy.grid.rememberLazyGridState
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -23,7 +25,18 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.SideEffect
+import androidx.compose.runtime.derivedStateOf
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableIntStateOf
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.paging.LoadState
@@ -45,6 +58,9 @@ internal fun <T : Any> CategoryScreen(
     listContentBuilder: @Composable LazyItemScope.(T) -> Unit,
     listGridBuilder: @Composable LazyGridItemScope.(T) -> Unit
 ) {
+    val listState = rememberLazyListState()
+    val gridState = rememberLazyGridState()
+
     Scaffold(
         modifier = modifier,
         containerColor = MaterialTheme.colorScheme.tertiary,
@@ -66,6 +82,7 @@ internal fun <T : Any> CategoryScreen(
                         style = MaterialTheme.typography.titleMedium,
                         color = if (isGrid) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.tertiary,
                         modifier = Modifier
+                            .testTag("layout_button")
                             .padding(top = 8f.dp)
                             .clickable { onToggleLayoutType() }
                             .background(MaterialTheme.colorScheme.onSurface)
@@ -85,16 +102,22 @@ internal fun <T : Any> CategoryScreen(
                 LoadState.Loading -> LoadingPlaceholder(Modifier.fillMaxSize())
                 is LoadState.NotLoading -> AnimatedContent(
                     layoutType,
-                    label = "LayoutType"
+                    label = "LayoutType",
+                    modifier = Modifier.testTag("category_content")
                 ) { layoutType ->
+
                     when (layoutType) {
                         LayoutType.Grid -> {
+                            LaunchedEffect(layoutType) {
+                                gridState.scrollToItem(listState.firstVisibleItemIndex)
+                            }
                             LazyVerticalGrid(
                                 modifier = Modifier.fillMaxSize(),
                                 contentPadding = PaddingValues(16f.dp),
                                 columns = GridCells.Adaptive(96f.dp),
                                 horizontalArrangement = Arrangement.spacedBy(16f.dp),
-                                verticalArrangement = Arrangement.spacedBy(16f.dp)
+                                verticalArrangement = Arrangement.spacedBy(16f.dp),
+                                state = gridState
                             ) {
                                 items(items.itemCount) {
                                     listGridBuilder(items[it]!!)
@@ -108,10 +131,14 @@ internal fun <T : Any> CategoryScreen(
                         }
 
                         LayoutType.List -> {
+                            LaunchedEffect(layoutType) {
+                                listState.scrollToItem(gridState.firstVisibleItemIndex)
+                            }
                             LazyColumn(
                                 modifier = Modifier.fillMaxSize(),
                                 contentPadding = PaddingValues(16f.dp),
-                                verticalArrangement = Arrangement.spacedBy(16f.dp)
+                                verticalArrangement = Arrangement.spacedBy(16f.dp),
+                                state = listState
                             ) {
                                 items(items.itemCount) {
                                     listContentBuilder(items[it]!!)
