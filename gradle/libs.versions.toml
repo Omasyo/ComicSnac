@@ -10,12 +10,12 @@ androidx-datastore = "1.0.0"
 androidx-espresso = "3.5.1"
 androidx-hilt = "1.0.0"
 andriodx-lifecycle = "2.6.1"
-androidx-navigation = "2.7.1"
+androidx-navigation = "2.7.2"
 androidx-room = "2.5.2"
-androidx-paging = "3.2.0"
+androidx-paging = "3.2.1"
 androidx-test-ext-junit = "1.1.5"
 androidx-test-runner = "1.5.2"
-android-splashScreen = "1.0.0-beta02"
+androidx-splashScreen = "1.0.1"
 coil = "2.4.0"
 compose-bom = "2023.08.00"
 hilt = "2.46.1"
@@ -37,8 +37,9 @@ accompanist-webview = { group = "com.google.accompanist", name = "accompanist-we
 android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "android-gradle-plugin" }
 android-tools-desugar = { group = "com.android.tools", name = "desugar_jdk_libs", version.ref = "android-tools-desugar" }
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "androidx-activity" }
-androidx-browser = { group = "androidx.browser", name = "browser", version.ref = "androidx-browser"}
+androidx-browser = { group = "androidx.browser", name = "browser", version.ref = "androidx-browser" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "andriodx-core" }
+androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "androidx-splashScreen" }
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
 androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3" }
 androidx-compose-ui = { group = "androidx.compose.ui", name = "ui" }

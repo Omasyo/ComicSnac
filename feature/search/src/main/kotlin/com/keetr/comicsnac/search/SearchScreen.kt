@@ -19,6 +19,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.imePadding
+import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.lazy.LazyColumn
@@ -72,7 +73,7 @@ fun SearchScreen(
         sheetShape = RectangleShape,
         sheetContent = {
             FlowRow(
-                Modifier.padding(24f.dp).imePadding(),
+                Modifier.padding(24f.dp).navigationBarsPadding().imePadding(),
                 verticalArrangement = Arrangement.spacedBy(8f.dp),
                 horizontalArrangement = Arrangement.spacedBy(8f.dp)
             ) {

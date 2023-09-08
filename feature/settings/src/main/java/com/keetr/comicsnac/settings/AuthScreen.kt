@@ -69,6 +69,7 @@ fun AuthScreen(
                     val intent = CustomTabsIntent.Builder().run {
                         val params = CustomTabColorSchemeParams.Builder().run {
                             setNavigationBarColor(colorScheme.primary.toArgb())
+                            setNavigationBarDividerColor(colorScheme.onSurface.toArgb())
                             setToolbarColor(colorScheme.tertiary.toArgb())
                             build()
                         }

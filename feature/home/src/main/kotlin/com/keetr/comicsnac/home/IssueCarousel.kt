@@ -74,7 +74,11 @@ fun IssueCarousel(
         flingBehavior = PagerDefaults.flingBehavior(
             state = pagerState,
             pagerSnapDistance = CustomPagerSnapDistance
-        )
+        ),
+        key = {
+            val actualIndex = it % issues.size
+            issues[actualIndex].id
+        }
     ) { index ->
         val actualIndex = index % issues.size
         val pageOffset =

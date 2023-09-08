@@ -60,7 +60,11 @@ fun PublisherCarousel(
         flingBehavior = PagerDefaults.flingBehavior(
             state = pagerState,
             pagerSnapDistance = CustomPagerSnapDistance
-        )
+        ),
+        key = {
+            val actualIndex = it % publishers.size
+            publishers[actualIndex].id
+        }
     ) { index ->
         val actualIndex = index % publishers.size
         val pageOffset =

@@ -19,7 +19,7 @@ class MainViewModel @Inject constructor(
     private val settingsRepository: SettingsRepository
 ) : ViewModel() {
 
-    private var initialSchemeId by Delegates.notNull<Int>()
+    var initialSchemeId by Delegates.notNull<Int>()
 
     var apiKeyPresent by Delegates.notNull<Boolean>()
         private set
