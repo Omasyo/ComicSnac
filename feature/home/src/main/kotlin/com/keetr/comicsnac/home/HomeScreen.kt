@@ -194,8 +194,16 @@ internal fun HomeScreen(
                         uiState = moviesUiState,
                         key = { it.id },
                         onExpand = onMovieCategoryClicked
-                    ) {
-
+                    ) { movie ->
+                        PlainCard(modifier = Modifier
+                            .size(136f.dp, 224.dp)
+                            .padding(horizontal = 4f.dp),
+                            name = movie.name,
+                            imageUrl = movie.imageUrl,
+                            contentDescription = stringResource(
+                                R.string.movie_image_desc, movie.name
+                            ),
+                            onClick = { onItemClicked(movie.apiDetailUrl) })
                     }
                 }
 
@@ -207,8 +215,16 @@ internal fun HomeScreen(
                         uiState = seriesUiState,
                         key = { it.id },
                         onExpand = onSeriesCategoryClicked
-                    ) {
-
+                    ) { series ->
+                        PlainCard(modifier = Modifier
+                            .size(136f.dp, 224.dp)
+                            .padding(horizontal = 4f.dp),
+                            name = series.name,
+                            imageUrl = series.imageUrl,
+                            contentDescription = stringResource(
+                                R.string.movie_image_desc, series.name
+                            ),
+                            onClick = { onItemClicked(series.apiDetailUrl) })
                     }
                 }
 

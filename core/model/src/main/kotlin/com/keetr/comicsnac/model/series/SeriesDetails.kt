@@ -10,12 +10,12 @@ data class SeriesDetails(
     val deck: String,
     val description: String,
     val episodesId: List<Int>,
-    val firstEpisode: EpisodeBasic,
+    val firstEpisode: EpisodeBasic?,
     val id: Int,
     val imageUrl: String,
-    val lastEpisode: EpisodeBasic,
+    val lastEpisode: EpisodeBasic?,
     val name: String,
-    val publisher: PublisherBasic,
+    val publisher: PublisherBasic?,
     val siteDetailUrl: String,
     val startYear: String
 )

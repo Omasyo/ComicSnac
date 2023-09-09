@@ -47,7 +47,7 @@ internal class DefaultMovieNetworkSource @Inject constructor(
         apiKey: String,
         pageSize: Int,
         offset: Int,
-        sortCoverDate: Sort = Sort.None,
+        sortReleaseDate: Sort = Sort.None,
         moviesId: List<Int> = emptyList()
     ): Result<MovieListResponse> = makeRequest {
         client.get("movies") {
@@ -55,8 +55,8 @@ internal class DefaultMovieNetworkSource @Inject constructor(
             parameter("field_list", ListFieldList)
             parameter("limit", pageSize)
             parameter("offset", offset)
-            if (sortCoverDate != Sort.None) parameter(
-                "sort", "release_date:${sortCoverDate.format}"
+            if (sortReleaseDate != Sort.None) parameter(
+                "sort", "release_date:${sortReleaseDate.format}"
             )
             if (moviesId.isNotEmpty()) parameter(
                 "filter", "id:${moviesId.joinToString("|")}"
