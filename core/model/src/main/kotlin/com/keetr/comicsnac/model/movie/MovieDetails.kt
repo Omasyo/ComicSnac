@@ -14,7 +14,7 @@ data class MovieDetails(
     val imageUrl: String,
     val locationsId: List<Int>,
     val name: String,
-    val objects: List<Int>,
+    val objectsId: List<Int>,
     val publishers: List<PublisherBasic>,
     val producers: List<PersonBasic>,
     val rating: String,

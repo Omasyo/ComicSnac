@@ -4,6 +4,8 @@ import com.keetr.comicsnac.data.character.CharacterRepository
 import com.keetr.comicsnac.data.character.DefaultCharacterRepository
 import com.keetr.comicsnac.data.issue.DefaultIssueRepository
 import com.keetr.comicsnac.data.issue.IssueRepository
+import com.keetr.comicsnac.data.movie.DefaultMovieRepository
+import com.keetr.comicsnac.data.movie.MovieRepository
 import com.keetr.comicsnac.data.`object`.DefaultObjectRepository
 import com.keetr.comicsnac.data.`object`.ObjectRepository
 import com.keetr.comicsnac.data.person.DefaultPersonRepository
@@ -32,10 +34,13 @@ import dagger.hilt.components.SingletonComponent
 private interface RepositoryModule {
 
     @Binds
-    fun bindMovieRepository(characterRepository: DefaultCharacterRepository): CharacterRepository
+    fun bindCharacterRepository(characterRepository: DefaultCharacterRepository): CharacterRepository
 
     @Binds
     fun bindIssueRepository(issueRepository: DefaultIssueRepository): IssueRepository
+
+    @Binds
+    fun MovieRepository(movieRepository: DefaultMovieRepository): MovieRepository
 
     @Binds
     fun bindObjectRepository(objectRepository: DefaultObjectRepository): ObjectRepository

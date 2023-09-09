@@ -4,6 +4,7 @@ import com.keetr.comicsnac.model.publisher.Publisher
 import com.keetr.comicsnac.model.publisher.PublisherBasic
 import com.keetr.comicsnac.model.publisher.PublisherDetails
 import com.keetr.comicsnac.network.common.models.PublisherApiModel
+import com.keetr.comicsnac.network.common.models.StudioApiModel
 import com.keetr.comicsnac.network.publisher.models.PublisherDetailsApiModel
 import com.keetr.comicsnac.network.search.models.PublisherListApiModel
 
@@ -18,6 +19,9 @@ internal fun PublisherListApiModel.toPublisher() = Publisher(
     imageUrl = image.smallUrl,
     name = name
 )
+
+internal fun StudioApiModel.toPublisher() =
+    PublisherBasic(apiDetailUrl = apiDetailUrl, id = id, name = name)
 
 internal fun List<PublisherListApiModel>.toPublishers() = map { apiModel -> apiModel.toPublisher() }
 
