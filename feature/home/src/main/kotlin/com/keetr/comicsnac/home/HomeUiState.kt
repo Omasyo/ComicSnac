@@ -11,8 +11,6 @@ import com.keetr.comicsnac.model.volume.Volume
 
 sealed interface HomeCategoryUiState<out T>
 
-data object InDevelopment : HomeCategoryUiState<Nothing>
-
 data object Loading : HomeCategoryUiState<Nothing>
 
 data class Error(val error: RepositoryResponse.Error) : HomeCategoryUiState<Nothing>

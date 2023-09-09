@@ -120,12 +120,6 @@ internal fun HomeScreen(
                                         .fillMaxWidth()
                                 )
 
-                                InDevelopment -> InDevelopmentPlaceholder(
-                                    Modifier
-                                        .height(336f.dp)
-                                        .fillMaxWidth()
-                                )
-
                                 Loading -> LoadingPlaceholder(
                                     Modifier
                                         .height(336f.dp)
@@ -252,12 +246,6 @@ internal fun HomeScreen(
                                         .fillMaxWidth()
                                 )
 
-                                InDevelopment -> InDevelopmentPlaceholder(
-                                    Modifier
-                                        .height(336f.dp)
-                                        .fillMaxWidth()
-                                )
-
                                 Loading -> LoadingPlaceholder(
                                     Modifier
                                         .height(336f.dp)
@@ -326,10 +314,10 @@ private fun Preview() {
             onSeriesCategoryClicked = { },
             issuesUiState = Success(Issues),
             charactersUiState = Success(Characters),
-            volumesUiState = InDevelopment,
+            volumesUiState = Loading,
             moviesUiState = Error(RepositoryResponse.TimeoutError),
-            seriesUiState = InDevelopment,
-            publishersUiState = InDevelopment
+            seriesUiState = Loading,
+            publishersUiState = Loading
 
         )
     }
