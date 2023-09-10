@@ -32,7 +32,7 @@ internal class DefaultSeriesRepository @Inject constructor(
     private val authRepository: AuthRepository,
     @IODispatcher private val dispatcher: CoroutineDispatcher
 ) : SeriesRepository {
-    override fun getMovieDetails(id: String): Flow<RepositoryResponse<SeriesDetails>> =
+    override fun getSeriesDetails(id: String): Flow<RepositoryResponse<SeriesDetails>> =
         authRepository.getApiKey().map { apiKey ->
             networkSource.getSeriesDetails(apiKey, id)
                 .fold(onSuccess = { RepositoryResponse.Success(it.results.toSeriesDetails()) }) {
