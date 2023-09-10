@@ -33,7 +33,9 @@ import androidx.navigation.navigation
 import com.keetr.comicsnac.categories.categoriesNavigation
 import com.keetr.comicsnac.categories.categoriesRoute
 import com.keetr.comicsnac.categories.character.navigateToCharacters
+import com.keetr.comicsnac.categories.movie.navigateToMovies
 import com.keetr.comicsnac.categories.navigateToCategories
+import com.keetr.comicsnac.categories.series.navigateToSeries
 import com.keetr.comicsnac.categories.volume.navigateToVolumes
 import com.keetr.comicsnac.details.character.characterRoute
 import com.keetr.comicsnac.details.issue.issueRoute
@@ -103,8 +105,8 @@ fun AppNavHost(
             onSettingsClicked = { navController.navigateToTheme() },
             onCharacterCategoryClicked = { navController.navigateToCharacters() },
             onVolumeCategoryClicked = { navController.navigateToVolumes() },
-            onMovieCategoryClicked = {},
-            onSeriesCategoryClicked = {}
+            onMovieCategoryClicked = { navController.navigateToMovies() },
+            onSeriesCategoryClicked = { navController.navigateToSeries() }
         )
 
         authRoute(

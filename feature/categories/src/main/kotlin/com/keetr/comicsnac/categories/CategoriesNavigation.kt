@@ -7,6 +7,8 @@ import com.keetr.comicsnac.categories.character.characterRoute
 import com.keetr.comicsnac.categories.character.navigateToCharacters
 import com.keetr.comicsnac.categories.issue.issueRoute
 import com.keetr.comicsnac.categories.issue.navigateToIssue
+import com.keetr.comicsnac.categories.movie.movieRoute
+import com.keetr.comicsnac.categories.movie.navigateToMovies
 import com.keetr.comicsnac.categories.`object`.navigateToObjects
 import com.keetr.comicsnac.categories.`object`.objectRoute
 import com.keetr.comicsnac.categories.person.navigateToPeople
@@ -30,6 +32,8 @@ fun NavGraphBuilder.categoriesNavigation(
 
         issueRoute(onItemClicked = onItemClicked, onBackPressed = onBackPressed)
 
+        movieRoute(onItemClicked = onItemClicked, onBackPressed = onBackPressed)
+
         objectRoute(onItemClicked = onItemClicked, onBackPressed = onBackPressed)
 
         personRoute(onItemClicked = onItemClicked, onBackPressed = onBackPressed)
@@ -48,7 +52,7 @@ fun NavGraphBuilder.categoriesNavigation(
             onEpisodesClicked = { },
             onIssuesClicked = { navController.navigateToIssue() },
             onLocationsClicked = { },
-            onMoviesClicked = { },
+            onMoviesClicked = { navController.navigateToMovies() },
             onObjectsClicked = { navController.navigateToObjects() },
             onOriginsClicked = { },
             onPeopleClicked = { navController.navigateToPeople() },

@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -60,7 +61,7 @@ fun ThemeScreen(
                     ColorSchemes.forEach { (id, scheme) ->
                         Column(
                             Modifier
-                                .fillMaxWidth(0.35f)
+                                .fillMaxHeight(0.1f)
                         ) {
                             ThemeBox(
                                 scheme,
@@ -130,6 +131,7 @@ fun ThemeBox(
 }
 
 @Preview
+@Preview(device = "id:pixel_tablet")
 @Composable
 private fun Preview() {
     ComicSnacTheme {

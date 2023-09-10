@@ -14,7 +14,7 @@ fun List<SeriesListApiModel>.toSeries() = map { apiModel -> apiModel.toSeries() 
 fun SeriesListApiModel.toSeries() =
     Series(
         apiDetailUrl = apiDetailUrl,
-        deck = deck,
+        deck = deck ?: "",
         id = id,
         imageUrl = image.smallUrl,
         name = name
