@@ -39,10 +39,12 @@ import com.keetr.comicsnac.categories.series.navigateToSeries
 import com.keetr.comicsnac.categories.volume.navigateToVolumes
 import com.keetr.comicsnac.details.character.characterRoute
 import com.keetr.comicsnac.details.issue.issueRoute
+import com.keetr.comicsnac.details.movie.movieRoute
 import com.keetr.comicsnac.details.`object`.objectRoute
 import com.keetr.comicsnac.details.person.personRoute
 import com.keetr.comicsnac.details.power.powerRoute
 import com.keetr.comicsnac.details.publisher.publisherRoute
+import com.keetr.comicsnac.details.series.seriesRoute
 import com.keetr.comicsnac.details.team.teamRoute
 import com.keetr.comicsnac.details.volume.volumeRoute
 import com.keetr.comicsnac.home.HomeRoute
@@ -135,6 +137,11 @@ fun AppNavHost(
             onBackPressed = onBackPressed
         )
 
+        movieRoute(
+            onItemClicked = onItemClicked,
+            onBackPressed = onBackPressed
+        )
+
         objectRoute(
             onItemClicked = onItemClicked,
             onBackPressed = onBackPressed
@@ -151,6 +158,11 @@ fun AppNavHost(
         )
 
         publisherRoute(
+            onItemClicked = onItemClicked,
+            onBackPressed = onBackPressed
+        )
+
+        seriesRoute(
             onItemClicked = onItemClicked,
             onBackPressed = onBackPressed
         )

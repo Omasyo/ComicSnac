@@ -8,8 +8,10 @@ import com.keetr.comicsnac.network.common.models.ObjectApiModel
 import com.keetr.comicsnac.network.common.models.PersonApiModel
 import com.keetr.comicsnac.network.common.models.StudioApiModel
 import com.keetr.comicsnac.network.common.models.TeamApiModel
+import com.keetr.comicsnac.network.common.serializers.DateAsStringSerializer
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
+import java.time.LocalDateTime
 
 @Serializable
 data class MovieDetailsApiModel(
@@ -26,7 +28,10 @@ data class MovieDetailsApiModel(
     @SerialName("objects") val objects: List<ObjectApiModel>,
     @SerialName("producers") val producers: List<PersonApiModel>?,
     @SerialName("rating") val rating: String,
-    @SerialName("release_date") val releaseDate: String,
+
+    @Serializable(DateAsStringSerializer::class)
+    @SerialName("release_date") val releaseDate: LocalDateTime,
+
     @SerialName("runtime") val runtime: String,
     @SerialName("site_detail_url") val siteDetailUrl: String,
     @SerialName("studios") val studios: List<StudioApiModel>?,

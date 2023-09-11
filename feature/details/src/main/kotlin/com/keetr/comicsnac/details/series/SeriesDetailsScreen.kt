@@ -1,4 +1,4 @@
-package com.keetr.comicsnac.details.volume
+package com.keetr.comicsnac.details.series
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.layout.Arrangement
@@ -23,6 +23,7 @@ import com.keetr.comicsnac.details.Domain
 import com.keetr.comicsnac.details.Error
 import com.keetr.comicsnac.details.Loading
 import com.keetr.comicsnac.details.R
+import com.keetr.comicsnac.details.SeriesDetailsUiState
 import com.keetr.comicsnac.details.Success
 import com.keetr.comicsnac.details.VolumeDetailsUiState
 import com.keetr.comicsnac.details.components.DetailsErrorPlaceholder
@@ -30,8 +31,12 @@ import com.keetr.comicsnac.details.components.DetailsLoadingPlaceholder
 import com.keetr.comicsnac.details.components.DetailsScreen
 import com.keetr.comicsnac.details.components.Image
 import com.keetr.comicsnac.details.components.Info
+import com.keetr.comicsnac.details.components.panels.charactersPanel
+import com.keetr.comicsnac.details.components.panels.episodesPanel
 import com.keetr.comicsnac.details.components.panels.issuesPanel
 import com.keetr.comicsnac.details.components.panels.webViewPanel
+import com.keetr.comicsnac.model.character.Character
+import com.keetr.comicsnac.model.episode.Episode
 import com.keetr.comicsnac.model.issue.Issue
 import com.keetr.comicsnac.ui.components.lazylist.animateScrollAndAlignItem
 import com.keetr.comicsnac.ui.components.webview.rememberAnnotatedString
@@ -39,12 +44,13 @@ import kotlinx.coroutines.launch
 import com.keetr.comicsnac.ui.R.string as CommonString
 
 @Composable
-internal fun VolumeDetailsScreen(
+internal fun SeriesDetailsScreen(
     modifier: Modifier = Modifier,
     onItemClicked: (fullId: String) -> Unit,
     onBackPressed: () -> Unit,
-    detailsUiState: VolumeDetailsUiState,
-    issues: LazyPagingItems<Issue>
+    detailsUiState: SeriesDetailsUiState,
+    characters: LazyPagingItems<Character>,
+    episodes: LazyPagingItems<Episode>
 ) {
     when (detailsUiState) {
         is Error -> {
@@ -136,18 +142,18 @@ internal fun VolumeDetailsScreen(
                                 content = startYear
                             )
                             Info(
-                                name = stringResource(R.string.no_of_issues),
-                                content = countOfIssues.toString()
+                                name = stringResource(R.string.no_of_episodes),
+                                content = episodeCount.toString()
                             )
-                            lastIssue?.let {
+                            lastEpisode?.let {
                                 Info(
-                                    name = stringResource(R.string.most_recent_issue),
+                                    name = stringResource(R.string.most_recent_episode),
                                     content = it.name
                                 ) { onItemClicked(it.apiDetailUrl) }
                             }
-                            firstIssue?.let {
+                            firstEpisode?.let {
                                 Info(
-                                    name = stringResource(R.string.first_issue),
+                                    name = stringResource(R.string.first_episode),
                                     content = it.name
                                 ) { onItemClicked(it.apiDetailUrl) }
                             }
@@ -160,20 +166,32 @@ internal fun VolumeDetailsScreen(
                         }
                     }
 
-                    if (annotatedString.isNotBlank()) {
-                        webViewPanel(
-                            annotatedString,
+                    if (episodesId.isNotEmpty()) {
+                        panelSeparator()
+
+                        episodesPanel(
+                            episodes,
                             ::expandedProviderCallback,
                             ::onExpand,
                             onItemClicked
                         )
-                    } else if (issuesId.isNotEmpty()) {
-                        panelSeparator()
                     }
 
-                    if (issuesId.isNotEmpty()) {
-                        issuesPanel(
-                            issues,
+                    if (charactersId.isNotEmpty()) {
+                        panelSeparator()
+
+                        charactersPanel(
+                            CommonString.characters,
+                            characters,
+                            ::expandedProviderCallback,
+                            ::onExpand,
+                            onItemClicked
+                        )
+                    }
+
+                    if (annotatedString.isNotBlank()) {
+                        webViewPanel(
+                            annotatedString,
                             ::expandedProviderCallback,
                             ::onExpand,
                             onItemClicked

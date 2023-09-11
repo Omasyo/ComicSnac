@@ -4,6 +4,8 @@ import com.keetr.comicsnac.data.character.CharacterRepository
 import com.keetr.comicsnac.data.character.DefaultCharacterRepository
 import com.keetr.comicsnac.data.issue.DefaultIssueRepository
 import com.keetr.comicsnac.data.issue.IssueRepository
+import com.keetr.comicsnac.data.location.DefaultLocationRepository
+import com.keetr.comicsnac.data.location.LocationRepository
 import com.keetr.comicsnac.data.movie.DefaultMovieRepository
 import com.keetr.comicsnac.data.movie.MovieRepository
 import com.keetr.comicsnac.data.`object`.DefaultObjectRepository
@@ -42,7 +44,10 @@ private interface RepositoryModule {
     fun bindIssueRepository(issueRepository: DefaultIssueRepository): IssueRepository
 
     @Binds
-    fun MovieRepository(movieRepository: DefaultMovieRepository): MovieRepository
+    fun bindLocationRepository(locationRepository: DefaultLocationRepository): LocationRepository
+
+    @Binds
+    fun bindMovieRepository(movieRepository: DefaultMovieRepository): MovieRepository
 
     @Binds
     fun bindObjectRepository(objectRepository: DefaultObjectRepository): ObjectRepository

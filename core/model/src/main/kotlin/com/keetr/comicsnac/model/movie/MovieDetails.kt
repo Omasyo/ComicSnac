@@ -2,6 +2,7 @@ package com.keetr.comicsnac.model.movie
 
 import com.keetr.comicsnac.model.person.PersonBasic
 import com.keetr.comicsnac.model.publisher.PublisherBasic
+import java.time.LocalDate
 
 data class MovieDetails(
     val apiDetailUrl: String,
@@ -18,7 +19,7 @@ data class MovieDetails(
     val publishers: List<PublisherBasic>,
     val producers: List<PersonBasic>,
     val rating: String,
-    val releaseDate: String,
+    val releaseDate: LocalDate,
     val runtime: String,
     val siteDetailUrl: String,
     val teamsId: List<Int>,

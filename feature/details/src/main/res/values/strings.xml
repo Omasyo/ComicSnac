@@ -17,12 +17,24 @@
     <string name="no_of_members">Number of Members</string>
     <string name="members">Members</string>
     <string name="most_recent_issue">Most Recent Issue</string>
+    <string name="most_recent_episode">Most Recent Episode</string>
     <string name="start_year">Start Year</string>
     <string name="no_of_issues">Number of Issues</string>
+    <string name="no_of_episodes">Number of Episodes</string>
     <string name="location">Location</string>
     <string name="date_of_birth">Born</string>
     <string name="date_of_death">Died</string>
     <string name="address">Address</string>
     <string name="email">Email</string>
     <string name="website">Website</string>
+    <string name="box_office_revenue">Box Office Revenue</string>
+    <string name="budget">Budget</string>
+    <string name="release_date">Release Date</string>
+    <string name="rating">Rating</string>
+    <string name="runtime">Runtime</string>
+    <string name="total_revenue">Total Revenue</string>
+    <string name="writers">Writers</string>
+    <string name="producers">Producers</string>
+    <string name="first_issue">First Issue</string>
+    <string name="first_episode">First Episode</string>
 </resources>

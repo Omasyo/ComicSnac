@@ -17,6 +17,8 @@ import com.keetr.comicsnac.categories.power.navigateToPowers
 import com.keetr.comicsnac.categories.power.powerRoute
 import com.keetr.comicsnac.categories.publisher.navigateToPublishers
 import com.keetr.comicsnac.categories.publisher.publisherRoute
+import com.keetr.comicsnac.categories.series.navigateToSeries
+import com.keetr.comicsnac.categories.series.seriesRoute
 import com.keetr.comicsnac.categories.team.navigateToTeams
 import com.keetr.comicsnac.categories.team.teamRoute
 import com.keetr.comicsnac.categories.volume.navigateToVolumes
@@ -42,6 +44,8 @@ fun NavGraphBuilder.categoriesNavigation(
 
         publisherRoute(onItemClicked = onItemClicked, onBackPressed = onBackPressed)
 
+        seriesRoute(onItemClicked = onItemClicked, onBackPressed = onBackPressed)
+
         teamRoute(onItemClicked = onItemClicked, onBackPressed = onBackPressed)
 
         volumeRoute(onItemClicked = onItemClicked, onBackPressed = onBackPressed)
@@ -58,7 +62,7 @@ fun NavGraphBuilder.categoriesNavigation(
             onPeopleClicked = { navController.navigateToPeople() },
             onPowersClicked = { navController.navigateToPowers() },
             onPublishersClicked = { navController.navigateToPublishers() },
-            onSeriesClicked = { },
+            onSeriesClicked = { navController.navigateToSeries() },
             onStoryArcsClicked = { },
             onTeamsClicked = { navController.navigateToTeams() },
             onVolumesClicked = { navController.navigateToVolumes() },

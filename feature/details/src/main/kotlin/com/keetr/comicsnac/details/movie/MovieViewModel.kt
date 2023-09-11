@@ -7,6 +7,7 @@ import androidx.paging.PagingData
 import androidx.paging.cachedIn
 import com.keetr.comicsnac.data.RepositoryResponse
 import com.keetr.comicsnac.data.character.CharacterRepository
+import com.keetr.comicsnac.data.location.LocationRepository
 import com.keetr.comicsnac.data.movie.MovieRepository
 import com.keetr.comicsnac.data.`object`.ObjectRepository
 import com.keetr.comicsnac.data.team.TeamRepository
@@ -34,6 +35,7 @@ import javax.inject.Inject
 internal class MovieViewModel @Inject constructor(
     private val movieRepository: MovieRepository,
     private val characterRepository: CharacterRepository,
+    private val locationRepository: LocationRepository,
     private val objectRepository: ObjectRepository,
     private val teamRepository: TeamRepository,
     savedStateHandle: SavedStateHandle,
@@ -50,7 +52,7 @@ internal class MovieViewModel @Inject constructor(
     }
 
     val locations: Flow<PagingData<Location>> = getPagingData {
-        emptyFlow()
+        locationRepository.getLocationsWithId(locationsId)
     }
 
     val objects: Flow<PagingData<ObjectItem>> = getPagingData {

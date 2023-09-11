@@ -17,7 +17,7 @@ import com.keetr.comicsnac.ui.R
 import com.keetr.comicsnac.ui.components.cards.PlainCard
 import com.keetr.comicsnac.ui.components.cards.WideCard
 
-private object SeriesRoute : NavigationRoute("seriess")
+private object SeriesRoute : NavigationRoute("series")
 
 internal fun NavGraphBuilder.seriesRoute(
     modifier: Modifier = Modifier,
