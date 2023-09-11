@@ -18,6 +18,7 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.core.text.HtmlCompat
@@ -44,6 +45,7 @@ import com.keetr.comicsnac.details.components.panels.teamFriendsPanel
 import com.keetr.comicsnac.details.components.panels.teamsPanel
 import com.keetr.comicsnac.details.components.panels.volumesPanel
 import com.keetr.comicsnac.details.components.panels.webViewPanel
+import com.keetr.comicsnac.details.components.shareUrl
 import com.keetr.comicsnac.model.character.Character
 import com.keetr.comicsnac.model.character.CharacterDetails
 import com.keetr.comicsnac.model.issue.IssueBasic
@@ -120,6 +122,7 @@ internal fun TeamDetailsScreen(
             with(detailsUiState.content) {
 
                 val annotatedString = rememberAnnotatedString(description, Domain)
+                val context = LocalContext.current
 
                 DetailsScreen(
                     modifier = modifier,
@@ -139,8 +142,8 @@ internal fun TeamDetailsScreen(
                             state.scrollToItem(0)
                         }
                     },
-
-                    ) {
+                    onShareClick = { shareUrl(context, siteDetailUrl) }
+                ) {
                     panel {
                         Column(
                             Modifier

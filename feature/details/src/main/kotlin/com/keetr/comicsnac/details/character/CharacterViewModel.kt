@@ -7,6 +7,7 @@ import androidx.paging.PagingData
 import androidx.paging.cachedIn
 import com.keetr.comicsnac.data.RepositoryResponse
 import com.keetr.comicsnac.data.character.CharacterRepository
+import com.keetr.comicsnac.data.movie.MovieRepository
 import com.keetr.comicsnac.data.team.TeamRepository
 import com.keetr.comicsnac.data.volume.VolumeRepository
 import com.keetr.comicsnac.details.Arg
@@ -32,6 +33,7 @@ import javax.inject.Inject
 @HiltViewModel
 internal class CharacterViewModel @Inject constructor(
     private val characterRepository: CharacterRepository,
+    private val movieRepository: MovieRepository,
     private val teamRepository: TeamRepository,
     private val volumeRepository: VolumeRepository,
     savedStateHandle: SavedStateHandle,
@@ -52,7 +54,7 @@ internal class CharacterViewModel @Inject constructor(
     }
 
     val movies: Flow<PagingData<Movie>> = getPagingData {
-        emptyFlow()
+        movieRepository.getMoviesWithId(moviesId)
     }
 
     val teams: Flow<PagingData<Team>> = getPagingData {

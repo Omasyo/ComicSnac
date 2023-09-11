@@ -1,5 +1,7 @@
 package com.keetr.comicsnac.details.components
 
+import android.content.Context
+import android.content.Intent
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.scaleIn
@@ -29,11 +31,13 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.core.content.ContextCompat.startActivity
 import com.keetr.comicsnac.ui.components.lazylist.ComicListSeparator
 import com.keetr.comicsnac.ui.components.lazylist.PanelColors
 import com.keetr.comicsnac.ui.components.lazylist.PanelLazyListScope
@@ -52,6 +56,7 @@ internal fun DetailsScreen(
     imageExpanded: Boolean,
     onImageClicked: () -> Unit,
     onImageClose: () -> Unit,
+    onShareClick: () -> Unit,
     lazyListState: LazyListState = rememberLazyListState(),
     content: PanelLazyListScope.() -> Unit
 ) {
@@ -119,10 +124,13 @@ internal fun DetailsScreen(
                             .align(Alignment.TopEnd)
                             .size(56f.dp)
                     ) {
+                        val context = LocalContext.current
                         Box(
                             Modifier
                                 .clip(CircleShape)
-                                .clickable { }
+                                .clickable {
+                                    onShareClick()
+                                }
                                 .background(MaterialTheme.colorScheme.primary),
                             contentAlignment = Alignment.Center
                         ) {
@@ -145,6 +153,17 @@ internal fun DetailsScreen(
             }
         }
     }
+}
+
+internal fun shareUrl(context: Context, url: String) {
+    val sendIntent: Intent = Intent().apply {
+        action = Intent.ACTION_SEND
+        putExtra(Intent.EXTRA_TEXT, url)
+        type = "text/html"
+    }
+
+    val shareIntent = Intent.createChooser(sendIntent, null)
+    startActivity(context, shareIntent, null)
 }
 
 @Composable
@@ -188,7 +207,8 @@ private fun Preview() {
             imageExpanded = expanded,
             onImageClicked = { expanded = true },
             onImageClose = { expanded = false },
-            onBackPressed = { expanded = false }
+            onBackPressed = { expanded = false },
+            onShareClick = {}
         ) {
             repeat(4) {
                 panel {

@@ -16,6 +16,7 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
@@ -34,6 +35,7 @@ import com.keetr.comicsnac.details.components.Info
 import com.keetr.comicsnac.details.components.panels.charactersPanel
 import com.keetr.comicsnac.details.components.panels.volumesPanel
 import com.keetr.comicsnac.details.components.panels.webViewPanel
+import com.keetr.comicsnac.details.components.shareUrl
 import com.keetr.comicsnac.details.formatDate
 import com.keetr.comicsnac.model.character.Character
 import com.keetr.comicsnac.model.volume.Volume
@@ -99,6 +101,7 @@ internal fun PersonDetailsScreen(
             with(detailsUiState.content) {
 
                 val annotatedString = rememberAnnotatedString(description, Domain)
+                val context = LocalContext.current
 
                 DetailsScreen(
                     modifier = modifier,
@@ -122,8 +125,8 @@ internal fun PersonDetailsScreen(
                             state.scrollToItem(0)
                         }
                     },
-
-                    ) {
+                    onShareClick = { shareUrl(context, siteDetailUrl) }
+                ) {
                     panel {
                         Column(
                             Modifier

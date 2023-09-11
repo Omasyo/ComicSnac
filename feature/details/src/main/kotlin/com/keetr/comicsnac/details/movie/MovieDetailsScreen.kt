@@ -18,6 +18,7 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.paging.compose.LazyPagingItems
@@ -38,6 +39,7 @@ import com.keetr.comicsnac.details.components.panels.locationsPanel
 import com.keetr.comicsnac.details.components.panels.objectsPanel
 import com.keetr.comicsnac.details.components.panels.teamsPanel
 import com.keetr.comicsnac.details.components.panels.webViewPanel
+import com.keetr.comicsnac.details.components.shareUrl
 import com.keetr.comicsnac.model.character.Character
 import com.keetr.comicsnac.model.location.Location
 import com.keetr.comicsnac.model.`object`.ObjectItem
@@ -106,6 +108,7 @@ internal fun MovieDetailsScreen(
             with(detailsUiState.content) {
 
                 val annotatedString = rememberAnnotatedString(description, Domain)
+                val context = LocalContext.current
 
                 DetailsScreen(
                     modifier = modifier,
@@ -123,8 +126,8 @@ internal fun MovieDetailsScreen(
                             state.scrollToItem(0)
                         }
                     },
-
-                    ) {
+                    onShareClick = { shareUrl(context, siteDetailUrl) }
+                ) {
                     panel {
                         Column(
                             Modifier
