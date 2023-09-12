@@ -1,10 +1,6 @@
 package com.keetr.comicsnac.network.origin
 
-import com.keetr.comicsnac.network.common.Sort
 import com.keetr.comicsnac.network.makeRequest
-import com.keetr.comicsnac.network.origin.DetailsFieldList
-import com.keetr.comicsnac.network.origin.ListFieldList
-import com.keetr.comicsnac.network.origin.OriginNetworkSource
 import com.keetr.comicsnac.network.origin.models.OriginDetailsResponse
 import com.keetr.comicsnac.network.origin.models.OriginListResponse
 import io.ktor.client.HttpClient
@@ -15,7 +11,10 @@ import javax.inject.Inject
 class DefaultOriginNetworkSource @Inject constructor(
     private val client: HttpClient
 ) : OriginNetworkSource {
-    override suspend fun getOriginDetails(apiKey: String, id: String): Result<OriginDetailsResponse> =
+    override suspend fun getOriginDetails(
+        apiKey: String,
+        id: String
+    ): Result<OriginDetailsResponse> =
         makeRequest {
             client.get("origin/4030-$id") {
                 parameter("api_key", apiKey)

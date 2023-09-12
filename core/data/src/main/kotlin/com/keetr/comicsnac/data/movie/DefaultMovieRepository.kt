@@ -78,7 +78,7 @@ internal class DefaultMovieRepository @Inject constructor(
 
 
     companion object {
-        private const val PageSize = 100
+        private const val PageSize = 25
 
         private val pagingConfig = PagingConfig(
             pageSize = PageSize, enablePlaceholders = false

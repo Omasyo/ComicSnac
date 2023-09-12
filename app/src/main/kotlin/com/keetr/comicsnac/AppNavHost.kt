@@ -24,14 +24,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.semantics.testTagsAsResourceId
 import androidx.compose.ui.unit.dp
-import androidx.navigation.NavBackStackEntry
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import androidx.navigation.navigation
 import com.keetr.comicsnac.categories.categoriesNavigation
-import com.keetr.comicsnac.categories.categoriesRoute
 import com.keetr.comicsnac.categories.character.navigateToCharacters
 import com.keetr.comicsnac.categories.movie.navigateToMovies
 import com.keetr.comicsnac.categories.navigateToCategories

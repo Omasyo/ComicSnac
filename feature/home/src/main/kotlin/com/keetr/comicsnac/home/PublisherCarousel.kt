@@ -45,7 +45,9 @@ import kotlin.math.absoluteValue
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
 fun PublisherCarousel(
-    modifier: Modifier = Modifier, publishers: List<Publisher>, onIssueClick: (apiUrl: String) -> Unit
+    modifier: Modifier = Modifier,
+    publishers: List<Publisher>,
+    onIssueClick: (apiUrl: String) -> Unit
 ) {
     val pagerState =
         rememberPagerState(publishers.size * (Int.MAX_VALUE / (2 * publishers.size)) - 1) { Int.MAX_VALUE }
@@ -98,7 +100,7 @@ fun PublisherCarousel(
                         ),
                         contentScale = ContentScale.Fit,
                         modifier = Modifier
-                            .testTag(if(index - 1 == pagerState.currentPage) "centered" else "not_centered")
+                            .testTag(if (index - 1 == pagerState.currentPage) "centered" else "not_centered")
                             .padding(1f.dp)
                             .drawWithContent {
                                 drawRect(Color.Black, Offset.Zero, size)

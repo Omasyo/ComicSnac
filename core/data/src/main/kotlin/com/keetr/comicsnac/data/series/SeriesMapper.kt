@@ -2,8 +2,6 @@ package com.keetr.comicsnac.data.series
 
 import com.keetr.comicsnac.data.episode.toEpisodeBasic
 import com.keetr.comicsnac.data.publisher.toPublisherBasic
-import com.keetr.comicsnac.model.episode.EpisodeBasic
-import com.keetr.comicsnac.model.publisher.PublisherBasic
 import com.keetr.comicsnac.model.series.Series
 import com.keetr.comicsnac.model.series.SeriesBasic
 import com.keetr.comicsnac.model.series.SeriesDetails

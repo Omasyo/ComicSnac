@@ -5,7 +5,6 @@ import androidx.paging.PagingConfig
 import androidx.paging.PagingData
 import com.keetr.comicsnac.data.CustomPagingSource
 import com.keetr.comicsnac.data.RepositoryResponse
-import com.keetr.comicsnac.data.character.DefaultCharacterRepository
 import com.keetr.comicsnac.data.di.IODispatcher
 import com.keetr.comicsnac.data.fromNetworkError
 import com.keetr.comicsnac.data.settings.AuthRepository
@@ -71,7 +70,7 @@ internal class DefaultVolumeRepository @Inject constructor(
                         val offset = PageSize * page
                         val pageList = volumesId.subList(
                             volumesId.size.coerceAtMost(offset),
-                            volumesId.size.coerceAtMost(offset + DefaultCharacterRepository.PageSize)
+                            volumesId.size.coerceAtMost(offset + PageSize)
                         )
                         if (pageList.isNotEmpty()) {
                             networkSource.getVolumesWithId(
@@ -88,10 +87,10 @@ internal class DefaultVolumeRepository @Inject constructor(
         }.flowOn(dispatcher)
 
     companion object {
-        const val PageSize = 100
+        private const val PageSize = 25
 
         private val pagingConfig = PagingConfig(
-            pageSize = DefaultCharacterRepository.PageSize, enablePlaceholders = false
+            pageSize = PageSize, enablePlaceholders = false
         )
     }
 }

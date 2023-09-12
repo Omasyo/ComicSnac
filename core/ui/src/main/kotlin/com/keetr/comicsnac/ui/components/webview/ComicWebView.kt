@@ -44,7 +44,7 @@ fun ComicWebView(
     val strings = remember {
         buildList {
             var start = 0
-            var end = annotatedString.indexOf('\n', start + 400)
+            var end = annotatedString.indexOf('\n', 400)
 
             while (end >= 0) {
                 add(annotatedString.subSequence(TextRange(start, end)))
@@ -165,10 +165,10 @@ fun Spanned.toAnnotatedString(
 
                     is ImageSpan -> {
 
-                        val source = span.source
-                        if (source != null) {
-//                            appendInlineContent(source)
-                        }
+//                        val source = span.source
+//                        if (source != null) {
+////                            appendInlineContent(source)
+//                        }
                     }
 
                     is RelativeSizeSpan -> {

@@ -5,11 +5,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.PagingData
 import androidx.paging.cachedIn
-import com.keetr.comicsnac.data.RepositoryResponse
 import com.keetr.comicsnac.data.concept.ConceptRepository
 import com.keetr.comicsnac.data.issue.IssueRepository
-import com.keetr.comicsnac.data.movie.MovieRepository
-import com.keetr.comicsnac.data.team.TeamRepository
 import com.keetr.comicsnac.data.volume.VolumeRepository
 import com.keetr.comicsnac.details.Arg
 import com.keetr.comicsnac.details.DetailsUiState
@@ -17,11 +14,8 @@ import com.keetr.comicsnac.details.Error
 import com.keetr.comicsnac.details.Loading
 import com.keetr.comicsnac.details.Success
 import com.keetr.comicsnac.details.getState
-import com.keetr.comicsnac.model.concept.Concept
 import com.keetr.comicsnac.model.concept.ConceptDetails
 import com.keetr.comicsnac.model.issue.Issue
-import com.keetr.comicsnac.model.movie.Movie
-import com.keetr.comicsnac.model.team.Team
 import com.keetr.comicsnac.model.volume.Volume
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
@@ -35,7 +29,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 internal class ConceptViewModel @Inject constructor(
-    private val conceptRepository: ConceptRepository,
+    conceptRepository: ConceptRepository,
     private val issueRepository: IssueRepository,
     private val volumeRepository: VolumeRepository,
     savedStateHandle: SavedStateHandle,

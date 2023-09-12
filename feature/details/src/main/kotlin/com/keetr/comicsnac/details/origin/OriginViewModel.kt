@@ -26,7 +26,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 internal class OriginViewModel @Inject constructor(
-    private val originRepository: OriginRepository,
+    originRepository: OriginRepository,
     private val characterRepository: CharacterRepository,
     savedStateHandle: SavedStateHandle,
 ) : ViewModel() {

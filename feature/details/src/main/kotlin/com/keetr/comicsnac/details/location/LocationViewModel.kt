@@ -3,12 +3,9 @@ package com.keetr.comicsnac.details.location
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.keetr.comicsnac.data.RepositoryResponse
 import com.keetr.comicsnac.data.location.LocationRepository
 import com.keetr.comicsnac.details.Arg
-import com.keetr.comicsnac.details.Error
 import com.keetr.comicsnac.details.Loading
-import com.keetr.comicsnac.details.Success
 import com.keetr.comicsnac.details.getState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.SharingStarted
@@ -18,7 +15,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 internal class LocationViewModel @Inject constructor(
-    private val locationRepository: LocationRepository,
+    locationRepository: LocationRepository,
     savedStateHandle: SavedStateHandle,
 ) : ViewModel() {
 

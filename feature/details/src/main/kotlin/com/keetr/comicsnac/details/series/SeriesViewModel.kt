@@ -5,7 +5,6 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.PagingData
 import androidx.paging.cachedIn
-import com.keetr.comicsnac.data.RepositoryResponse
 import com.keetr.comicsnac.data.character.CharacterRepository
 import com.keetr.comicsnac.data.episode.EpisodeRepository
 import com.keetr.comicsnac.data.series.SeriesRepository
@@ -17,12 +16,7 @@ import com.keetr.comicsnac.details.Success
 import com.keetr.comicsnac.details.getState
 import com.keetr.comicsnac.model.character.Character
 import com.keetr.comicsnac.model.episode.Episode
-import com.keetr.comicsnac.model.episode.EpisodeBasic
-import com.keetr.comicsnac.model.location.Location
-import com.keetr.comicsnac.model.movie.MovieDetails
-import com.keetr.comicsnac.model.`object`.ObjectItem
 import com.keetr.comicsnac.model.series.SeriesDetails
-import com.keetr.comicsnac.model.team.Team
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow
@@ -35,7 +29,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 internal class SeriesViewModel @Inject constructor(
-    private val seriesRepository: SeriesRepository,
+    seriesRepository: SeriesRepository,
     private val characterRepository: CharacterRepository,
     private val episodeRepository: EpisodeRepository,
     savedStateHandle: SavedStateHandle,

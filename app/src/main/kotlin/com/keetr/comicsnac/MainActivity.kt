@@ -1,8 +1,6 @@
 package com.keetr.comicsnac
 
 import android.os.Bundle
-import android.view.View
-import android.view.ViewTreeObserver
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
@@ -10,7 +8,6 @@ import androidx.compose.runtime.collectAsState
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.keetr.comicsnac.ui.theme.ColorSchemes
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
-import com.keetr.comicsnac.ui.theme.DefaultScheme
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.map
@@ -38,7 +35,10 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             ComicSnacTheme(
-                colorScheme.collectAsState(ColorSchemes[viewModel.initialSchemeId]!!, Dispatchers.Default).value
+                colorScheme.collectAsState(
+                    ColorSchemes[viewModel.initialSchemeId]!!,
+                    Dispatchers.Default
+                ).value
             ) {
                 AppNavHost(apiKeyPresent = isPresent)
             }

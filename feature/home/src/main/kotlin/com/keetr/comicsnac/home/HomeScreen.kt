@@ -36,7 +36,6 @@ import com.keetr.comicsnac.ui.components.cards.ComicCard
 import com.keetr.comicsnac.ui.components.cards.PlainCard
 import com.keetr.comicsnac.ui.components.lazylist.PanelList
 import com.keetr.comicsnac.ui.components.placeholders.ErrorPlaceholder
-import com.keetr.comicsnac.ui.components.placeholders.InDevelopmentPlaceholder
 import com.keetr.comicsnac.ui.components.placeholders.LoadingPlaceholder
 import com.keetr.comicsnac.ui.theme.AppIcons
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme

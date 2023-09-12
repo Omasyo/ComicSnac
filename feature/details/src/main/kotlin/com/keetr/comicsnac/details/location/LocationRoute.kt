@@ -4,11 +4,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
-import androidx.navigation.NavDeepLink
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
-import androidx.navigation.navDeepLink
-import androidx.paging.compose.collectAsLazyPagingItems
 import com.keetr.comicsnac.details.Arg
 import com.keetr.comicsnac.details.DetailsNavigationRoute
 
@@ -44,5 +41,5 @@ private fun LocationRoute(
         onBackPressed = onBackPressed,
         detailsUiState = viewModel.detailsUiState.collectAsState().value
 
-        )
+    )
 }

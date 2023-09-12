@@ -4,7 +4,6 @@ import com.keetr.comicsnac.data.series.toSeriesBasic
 import com.keetr.comicsnac.model.episode.Episode
 import com.keetr.comicsnac.model.episode.EpisodeBasic
 import com.keetr.comicsnac.model.episode.EpisodeDetails
-import com.keetr.comicsnac.model.series.SeriesBasic
 import com.keetr.comicsnac.network.common.models.EpisodeApiModel
 import com.keetr.comicsnac.network.episode.models.EpisodeDetailsApiModel
 import com.keetr.comicsnac.network.episode.models.EpisodeListApiModel

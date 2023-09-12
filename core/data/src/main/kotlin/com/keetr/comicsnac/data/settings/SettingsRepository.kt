@@ -10,5 +10,5 @@ interface SettingsRepository {
 
     suspend fun updateLayoutPreference(layout: LayoutType)
 
-    fun getLayoutPreference() : Flow<LayoutType>
+    fun getLayoutPreference(): Flow<LayoutType>
 }

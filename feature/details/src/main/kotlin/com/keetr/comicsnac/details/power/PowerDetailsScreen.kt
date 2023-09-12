@@ -54,7 +54,6 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.flow
 
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 internal fun PowerDetailsScreen(
     modifier: Modifier = Modifier,
@@ -225,7 +224,7 @@ internal fun Preview() {
     ComicSnacTheme {
         PowerDetailsScreen(
             onItemClicked = {},
-            onBackPressed = {  },
+            onBackPressed = { },
             detailsUiState = Error(RepositoryResponse.InvalidApiKeyError),
             characters = flow {
                 emit(PagingData.from(List(100) {

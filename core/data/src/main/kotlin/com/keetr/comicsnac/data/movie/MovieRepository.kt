@@ -4,9 +4,6 @@ import androidx.paging.PagingData
 import com.keetr.comicsnac.data.RepositoryResponse
 import com.keetr.comicsnac.model.movie.Movie
 import com.keetr.comicsnac.model.movie.MovieDetails
-import com.keetr.comicsnac.model.`object`.ObjectDetails
-import com.keetr.comicsnac.model.`object`.ObjectItem
-import com.keetr.comicsnac.network.movie.models.MovieListApiModel
 import kotlinx.coroutines.flow.Flow
 
 interface MovieRepository {

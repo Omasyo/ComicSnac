@@ -10,7 +10,6 @@ import com.keetr.comicsnac.data.fromNetworkError
 import com.keetr.comicsnac.data.settings.AuthRepository
 import com.keetr.comicsnac.model.Sort
 import com.keetr.comicsnac.model.person.Person
-import com.keetr.comicsnac.model.person.PersonBasic
 import com.keetr.comicsnac.model.person.PersonDetails
 import com.keetr.comicsnac.network.person.PersonNetworkSource
 import com.keetr.comicsnac.network.search.models.PersonListApiModel
@@ -54,7 +53,7 @@ internal class DefaultPersonRepository @Inject constructor(
         }.flowOn(dispatcher)
 
     companion object {
-        const val PageSize = 100
+        private const val PageSize = 25
 
         private val pagingConfig = PagingConfig(
             pageSize = PageSize, enablePlaceholders = false

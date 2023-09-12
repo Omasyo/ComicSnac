@@ -14,7 +14,6 @@ import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.rememberLazyGridState
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
@@ -39,7 +38,6 @@ import com.keetr.comicsnac.details.DetailsUiState
 import com.keetr.comicsnac.details.Error
 import com.keetr.comicsnac.details.Loading
 import com.keetr.comicsnac.details.Success
-import com.keetr.comicsnac.details.components.PlaceholderDesc
 import com.keetr.comicsnac.details.components.PlaceholderName
 import com.keetr.comicsnac.model.character.Character
 import com.keetr.comicsnac.model.origin.OriginDetails
@@ -54,7 +52,6 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.flow
 
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 internal fun OriginDetailsScreen(
     modifier: Modifier = Modifier,

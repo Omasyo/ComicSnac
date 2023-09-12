@@ -146,7 +146,7 @@ internal fun StoryArcDetailsScreen(
                             }
                             firstAppearedInEpisode?.let {
                                 Info(
-                                    name = stringResource(R.string.first_issue),
+                                    name = stringResource(R.string.first_appeared_in_episode),
                                     content = it.name
                                 ) { onItemClicked(it.apiDetailUrl) }
                             }

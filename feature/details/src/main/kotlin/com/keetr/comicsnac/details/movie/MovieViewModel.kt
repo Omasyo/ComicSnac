@@ -5,7 +5,6 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.PagingData
 import androidx.paging.cachedIn
-import com.keetr.comicsnac.data.RepositoryResponse
 import com.keetr.comicsnac.data.character.CharacterRepository
 import com.keetr.comicsnac.data.location.LocationRepository
 import com.keetr.comicsnac.data.movie.MovieRepository
@@ -34,7 +33,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 internal class MovieViewModel @Inject constructor(
-    private val movieRepository: MovieRepository,
+    movieRepository: MovieRepository,
     private val characterRepository: CharacterRepository,
     private val locationRepository: LocationRepository,
     private val objectRepository: ObjectRepository,

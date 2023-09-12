@@ -49,7 +49,7 @@ internal class DefaultSearchRepository @Inject constructor(
         }.flowOn(dispatcher)
 
     companion object {
-        const val PageSize = 100
+        private const val PageSize = 25
 
         private val pagingConfig = PagingConfig(
             pageSize = PageSize, enablePlaceholders = false

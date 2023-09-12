@@ -2,7 +2,6 @@ package com.keetr.comicsnac.data.origin
 
 import androidx.paging.PagingData
 import com.keetr.comicsnac.data.RepositoryResponse
-import com.keetr.comicsnac.model.Sort
 import com.keetr.comicsnac.model.origin.OriginBasic
 import com.keetr.comicsnac.model.origin.OriginDetails
 import kotlinx.coroutines.flow.Flow

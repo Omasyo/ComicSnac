@@ -26,7 +26,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 internal class PowerViewModel @Inject constructor(
-    private val powerRepository: PowerRepository,
+    powerRepository: PowerRepository,
     private val characterRepository: CharacterRepository,
     savedStateHandle: SavedStateHandle,
 ) : ViewModel() {

@@ -1,7 +1,6 @@
 package com.keetr.comicsnac.data.location
 
 import com.keetr.comicsnac.data.issue.toIssueBasic
-import com.keetr.comicsnac.model.issue.IssueBasic
 import com.keetr.comicsnac.model.location.Location
 import com.keetr.comicsnac.model.location.LocationDetails
 import com.keetr.comicsnac.network.location.models.LocationDetailsApiModel

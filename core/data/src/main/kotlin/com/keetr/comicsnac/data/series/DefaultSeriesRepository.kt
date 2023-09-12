@@ -8,13 +8,8 @@ import com.keetr.comicsnac.data.RepositoryResponse
 import com.keetr.comicsnac.data.di.IODispatcher
 import com.keetr.comicsnac.data.fromNetworkError
 import com.keetr.comicsnac.data.settings.AuthRepository
-import com.keetr.comicsnac.model.movie.Movie
-import com.keetr.comicsnac.model.movie.MovieDetails
 import com.keetr.comicsnac.model.series.Series
 import com.keetr.comicsnac.model.series.SeriesDetails
-import com.keetr.comicsnac.network.movie.MovieNetworkSource
-import com.keetr.comicsnac.network.movie.models.MovieListApiModel
-import com.keetr.comicsnac.network.movie.models.MovieListResponse
 import com.keetr.comicsnac.network.series.SeriesNetworkSource
 import com.keetr.comicsnac.network.series.models.SeriesListApiModel
 import com.keetr.comicsnac.network.series.models.SeriesListResponse
@@ -83,7 +78,7 @@ internal class DefaultSeriesRepository @Inject constructor(
 
 
     companion object {
-        private const val PageSize = 100
+        private const val PageSize = 25
 
         private val pagingConfig = PagingConfig(
             pageSize = PageSize, enablePlaceholders = false

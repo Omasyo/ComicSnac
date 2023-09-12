@@ -14,7 +14,6 @@ import androidx.paging.compose.collectAsLazyPagingItems
 import com.keetr.comicsnac.categories.CategoryScreen
 import com.keetr.comicsnac.model.NavigationRoute
 import com.keetr.comicsnac.ui.R
-import com.keetr.comicsnac.ui.components.cards.ComicCard
 import com.keetr.comicsnac.ui.components.cards.PlainCard
 import com.keetr.comicsnac.ui.components.cards.WideCard
 

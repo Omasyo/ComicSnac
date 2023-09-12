@@ -8,9 +8,7 @@ import com.keetr.comicsnac.data.RepositoryResponse
 import com.keetr.comicsnac.data.di.IODispatcher
 import com.keetr.comicsnac.data.fromNetworkError
 import com.keetr.comicsnac.data.settings.AuthRepository
-import com.keetr.comicsnac.model.Sort
 import com.keetr.comicsnac.model.concept.Concept
-import com.keetr.comicsnac.model.concept.ConceptBasic
 import com.keetr.comicsnac.model.concept.ConceptDetails
 import com.keetr.comicsnac.network.concept.ConceptNetworkSource
 import com.keetr.comicsnac.network.search.models.ConceptListApiModel
@@ -54,7 +52,7 @@ internal class DefaultConceptRepository @Inject constructor(
         }.flowOn(dispatcher)
 
     companion object {
-        private const val PageSize = 100
+        private const val PageSize = 25
 
         private val pagingConfig = PagingConfig(
             pageSize = PageSize, enablePlaceholders = false

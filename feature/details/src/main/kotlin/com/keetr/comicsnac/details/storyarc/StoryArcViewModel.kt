@@ -8,7 +8,6 @@ import androidx.paging.cachedIn
 import com.keetr.comicsnac.data.episode.EpisodeRepository
 import com.keetr.comicsnac.data.issue.IssueRepository
 import com.keetr.comicsnac.data.storyarc.StoryArcRepository
-import com.keetr.comicsnac.data.volume.VolumeRepository
 import com.keetr.comicsnac.details.Arg
 import com.keetr.comicsnac.details.Error
 import com.keetr.comicsnac.details.Loading

@@ -2,9 +2,7 @@ package com.keetr.comicsnac.data.episode
 
 import androidx.paging.PagingData
 import com.keetr.comicsnac.data.RepositoryResponse
-import com.keetr.comicsnac.model.Sort
 import com.keetr.comicsnac.model.episode.Episode
-import com.keetr.comicsnac.model.episode.EpisodeBasic
 import com.keetr.comicsnac.model.episode.EpisodeDetails
 import kotlinx.coroutines.flow.Flow
 
