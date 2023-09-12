@@ -8,6 +8,8 @@ import com.keetr.comicsnac.network.common.RandomNetworkSource
 import com.keetr.comicsnac.network.concept.ConceptNetworkSource
 import com.keetr.comicsnac.network.concept.DefaultConceptNetworkSource
 import com.keetr.comicsnac.network.createClient
+import com.keetr.comicsnac.network.episode.DefaultEpisodeNetworkSource
+import com.keetr.comicsnac.network.episode.EpisodeNetworkSource
 import com.keetr.comicsnac.network.issue.DefaultIssueNetworkSource
 import com.keetr.comicsnac.network.issue.IssueNetworkSource
 import com.keetr.comicsnac.network.location.DefaultLocationNetworkSource
@@ -16,6 +18,8 @@ import com.keetr.comicsnac.network.movie.DefaultMovieNetworkSource
 import com.keetr.comicsnac.network.movie.MovieNetworkSource
 import com.keetr.comicsnac.network.`object`.DefaultObjectNetworkSource
 import com.keetr.comicsnac.network.`object`.ObjectNetworkSource
+import com.keetr.comicsnac.network.origin.DefaultOriginNetworkSource
+import com.keetr.comicsnac.network.origin.OriginNetworkSource
 import com.keetr.comicsnac.network.person.DefaultPersonNetworkSource
 import com.keetr.comicsnac.network.person.PersonNetworkSource
 import com.keetr.comicsnac.network.power.DefaultPowerNetworkSource
@@ -63,12 +67,16 @@ private object NetworkModule {
     fun provideCharacterNetworkSource(client: HttpClient): CharacterNetworkSource =
         DefaultCharacterNetworkSource(client)
 
-
     @Provides
     @Singleton
     fun provideConceptNetworkSource(client: HttpClient): ConceptNetworkSource =
         DefaultConceptNetworkSource(client)
 
+
+    @Provides
+    @Singleton
+    fun provideEpisodeNetworkSource(client: HttpClient): EpisodeNetworkSource =
+        DefaultEpisodeNetworkSource(client)
 
     @Provides
     @Singleton
@@ -89,6 +97,11 @@ private object NetworkModule {
     @Singleton
     fun provideObjectNetworkSource(client: HttpClient): ObjectNetworkSource =
         DefaultObjectNetworkSource(client)
+
+    @Provides
+    @Singleton
+    fun provideOriginNetworkSource(client: HttpClient): OriginNetworkSource =
+        DefaultOriginNetworkSource(client)
 
     @Provides
     @Singleton

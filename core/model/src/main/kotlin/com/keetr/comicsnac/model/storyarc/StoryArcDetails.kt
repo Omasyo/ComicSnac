@@ -9,11 +9,11 @@ data class StoryArcDetails(
     val deck: String,
     val description: String,
     val episodesId: List<Int>,
-    val firstAppearedInEpisode: EpisodeBasic,
-    val firstAppearedInIssue: IssueBasic,
+    val firstAppearedInEpisode: EpisodeBasic?,
+    val firstAppearedInIssue: IssueBasic?,
     val id: Int,
     val imageUrl: String,
     val name: String,
-    val publisher: PublisherBasic,
+    val publisher: PublisherBasic?,
     val siteDetailUrl: String
 )

@@ -159,7 +159,7 @@ internal fun shareUrl(context: Context, url: String) {
     val sendIntent: Intent = Intent().apply {
         action = Intent.ACTION_SEND
         putExtra(Intent.EXTRA_TEXT, url)
-        type = "text/html"
+        type = "text/plain"
     }
 
     val shareIntent = Intent.createChooser(sendIntent, null)

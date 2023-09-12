@@ -31,7 +31,6 @@ class DefaultPowerNetworkSource @Inject constructor(
                 parameter("field_list", ListFieldList)
                 parameter("limit", pageSize)
                 parameter("offset", offset)
-                parameter("sort", "date_last_updated:${Sort.Descending.format}")
             }
         }
 }

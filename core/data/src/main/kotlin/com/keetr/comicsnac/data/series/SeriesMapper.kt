@@ -5,9 +5,13 @@ import com.keetr.comicsnac.data.publisher.toPublisherBasic
 import com.keetr.comicsnac.model.episode.EpisodeBasic
 import com.keetr.comicsnac.model.publisher.PublisherBasic
 import com.keetr.comicsnac.model.series.Series
+import com.keetr.comicsnac.model.series.SeriesBasic
 import com.keetr.comicsnac.model.series.SeriesDetails
+import com.keetr.comicsnac.network.common.models.SeriesApiModel
 import com.keetr.comicsnac.network.series.models.SeriesDetailsApiModel
 import com.keetr.comicsnac.network.series.models.SeriesListApiModel
+
+fun SeriesApiModel.toSeriesBasic() = SeriesBasic(apiDetailUrl = apiDetailUrl, id = id, name = name)
 
 fun List<SeriesListApiModel>.toSeries() = map { apiModel -> apiModel.toSeries() }
 
