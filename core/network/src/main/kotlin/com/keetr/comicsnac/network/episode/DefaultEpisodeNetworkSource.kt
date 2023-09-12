@@ -36,8 +36,8 @@ internal class DefaultEpisodeNetworkSource @Inject constructor(
         apiKey: String,
         pageSize: Int,
         offset: Int,
-        sortAirDate: Sort,
-        episodesId: List<Int>
+        episodesId: List<Int>,
+        sortAirDate: Sort
     ): Result<EpisodeListResponse> = getEpisodes(apiKey, pageSize, offset, sortAirDate, episodesId)
 
     private suspend fun getEpisodes(

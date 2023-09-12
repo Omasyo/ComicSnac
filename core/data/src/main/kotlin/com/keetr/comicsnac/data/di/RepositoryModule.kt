@@ -2,6 +2,10 @@ package com.keetr.comicsnac.data.di
 
 import com.keetr.comicsnac.data.character.CharacterRepository
 import com.keetr.comicsnac.data.character.DefaultCharacterRepository
+import com.keetr.comicsnac.data.concept.ConceptRepository
+import com.keetr.comicsnac.data.concept.DefaultConceptRepository
+import com.keetr.comicsnac.data.episode.DefaultEpisodeRepository
+import com.keetr.comicsnac.data.episode.EpisodeRepository
 import com.keetr.comicsnac.data.issue.DefaultIssueRepository
 import com.keetr.comicsnac.data.issue.IssueRepository
 import com.keetr.comicsnac.data.location.DefaultLocationRepository
@@ -10,6 +14,8 @@ import com.keetr.comicsnac.data.movie.DefaultMovieRepository
 import com.keetr.comicsnac.data.movie.MovieRepository
 import com.keetr.comicsnac.data.`object`.DefaultObjectRepository
 import com.keetr.comicsnac.data.`object`.ObjectRepository
+import com.keetr.comicsnac.data.origin.DefaultOriginRepository
+import com.keetr.comicsnac.data.origin.OriginRepository
 import com.keetr.comicsnac.data.person.DefaultPersonRepository
 import com.keetr.comicsnac.data.person.PersonRepository
 import com.keetr.comicsnac.data.power.DefaultPowerRepository
@@ -24,6 +30,8 @@ import com.keetr.comicsnac.data.settings.AuthRepository
 import com.keetr.comicsnac.data.settings.DefaultAuthRepository
 import com.keetr.comicsnac.data.settings.DefaultSettingsRepository
 import com.keetr.comicsnac.data.settings.SettingsRepository
+import com.keetr.comicsnac.data.storyarc.DefaultStoryArcRepository
+import com.keetr.comicsnac.data.storyarc.StoryArcRepository
 import com.keetr.comicsnac.data.team.DefaultTeamRepository
 import com.keetr.comicsnac.data.team.TeamRepository
 import com.keetr.comicsnac.data.volume.DefaultVolumeRepository
@@ -41,6 +49,12 @@ private interface RepositoryModule {
     fun bindCharacterRepository(characterRepository: DefaultCharacterRepository): CharacterRepository
 
     @Binds
+    fun bindConceptRepository(conceptRepository: DefaultConceptRepository): ConceptRepository
+
+    @Binds
+    fun bindEpisodeRepository(episodeRepository: DefaultEpisodeRepository): EpisodeRepository
+
+    @Binds
     fun bindIssueRepository(issueRepository: DefaultIssueRepository): IssueRepository
 
     @Binds
@@ -51,6 +65,9 @@ private interface RepositoryModule {
 
     @Binds
     fun bindObjectRepository(objectRepository: DefaultObjectRepository): ObjectRepository
+
+    @Binds
+    fun bindOriginRepository(originRepository: DefaultOriginRepository): OriginRepository
 
     @Binds
     fun bindPersonRepository(personRepository: DefaultPersonRepository): PersonRepository
@@ -66,6 +83,9 @@ private interface RepositoryModule {
 
     @Binds
     fun bindSeriesRepository(seriesRepository: DefaultSeriesRepository): SeriesRepository
+
+    @Binds
+    fun bindStoryArcRepository(storyArcRepository: DefaultStoryArcRepository): StoryArcRepository
 
     @Binds
     fun bindTeamRepository(teamRepository: DefaultTeamRepository): TeamRepository

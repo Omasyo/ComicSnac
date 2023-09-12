@@ -1,4 +1,4 @@
-package com.keetr.comicsnac.data.power
+package com.keetr.comicsnac.data.concept
 
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
@@ -9,10 +9,11 @@ import com.keetr.comicsnac.data.di.IODispatcher
 import com.keetr.comicsnac.data.fromNetworkError
 import com.keetr.comicsnac.data.settings.AuthRepository
 import com.keetr.comicsnac.model.Sort
-import com.keetr.comicsnac.model.power.PowerBasic
-import com.keetr.comicsnac.model.power.PowerDetails
-import com.keetr.comicsnac.network.power.PowerNetworkSource
-import com.keetr.comicsnac.network.power.models.PowerListApiModel
+import com.keetr.comicsnac.model.concept.Concept
+import com.keetr.comicsnac.model.concept.ConceptBasic
+import com.keetr.comicsnac.model.concept.ConceptDetails
+import com.keetr.comicsnac.network.concept.ConceptNetworkSource
+import com.keetr.comicsnac.network.search.models.ConceptListApiModel
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow
@@ -21,33 +22,33 @@ import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.flow.map
 import javax.inject.Inject
 
-internal class DefaultPowerRepository @Inject constructor(
-    private val networkSource: PowerNetworkSource,
+internal class DefaultConceptRepository @Inject constructor(
+    private val networkSource: ConceptNetworkSource,
     private val authRepository: AuthRepository,
     @IODispatcher private val dispatcher: CoroutineDispatcher
-) : PowerRepository {
-    override fun getPowerDetails(id: String): Flow<RepositoryResponse<PowerDetails>> =
+) : ConceptRepository {
+    override fun getConceptDetails(id: String): Flow<RepositoryResponse<ConceptDetails>> =
         authRepository.getApiKey().map { apiKey ->
-            networkSource.getPowerDetails(apiKey, id)
-                .fold(onSuccess = { RepositoryResponse.Success(it.results.toPowerDetails()) }) {
+            networkSource.getConceptDetails(apiKey, id)
+                .fold(onSuccess = { RepositoryResponse.Success(it.results.toConceptDetails()) }) {
                     fromNetworkError(it)
                 }
         }.flowOn(dispatcher)
 
     @OptIn(ExperimentalCoroutinesApi::class)
-    override fun getAllPowers(): Flow<PagingData<PowerBasic>> =
+    override fun getAllConcepts(): Flow<PagingData<Concept>> =
         authRepository.getApiKey().flatMapLatest { apiKey ->
             Pager(
                 config = pagingConfig,
             ) {
                 CustomPagingSource(
                     provider = { page ->
-                        networkSource.getAllPowers(
+                        networkSource.getAllConcepts(
                             apiKey,
                             PageSize,
                             PageSize * page
                         ).getOrThrow().results
-                    }, mapper = List<PowerListApiModel>::toPowers
+                    }, mapper = List<ConceptListApiModel>::toConcepts
                 )
             }.flow
         }.flowOn(dispatcher)

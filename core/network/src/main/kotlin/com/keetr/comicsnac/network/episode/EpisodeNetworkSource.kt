@@ -19,7 +19,7 @@ interface EpisodeNetworkSource : NetworkSource {
         apiKey: String,
         pageSize: Int,
         offset: Int,
-        sortAirDate: Sort = Sort.Descending,
-        episodesId: List<Int>
+        episodesId: List<Int>,
+        sortAirDate: Sort = Sort.Descending
     ): Result<EpisodeListResponse>
 }
