@@ -253,7 +253,7 @@ internal fun Preview() {
     ComicSnacTheme {
         PowerDetailsScreen(
             onItemClicked = {},
-            onBackPressed = { /*TODO*/ },
+            onBackPressed = {  },
             detailsUiState = Error(RepositoryResponse.InvalidApiKeyError),
             characters = flow {
                 emit(PagingData.from(List(100) {

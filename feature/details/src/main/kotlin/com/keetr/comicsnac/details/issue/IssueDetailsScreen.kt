@@ -62,7 +62,7 @@ internal fun IssueDetailsScreen(
     onBackPressed: () -> Unit,
     detailsUiState: IssueDetailsUiState,
     characters: LazyPagingItems<Character>,
-    locations: LazyPagingItems<Location>, //TODO
+    locations: LazyPagingItems<Location>,
     objects: LazyPagingItems<ObjectItem>,
     storyArcs: LazyPagingItems<StoryArc>,
     teams: LazyPagingItems<Team>,

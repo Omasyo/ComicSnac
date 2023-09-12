@@ -7,6 +7,7 @@ import androidx.paging.PagingData
 import androidx.paging.cachedIn
 import com.keetr.comicsnac.data.RepositoryResponse
 import com.keetr.comicsnac.data.character.CharacterRepository
+import com.keetr.comicsnac.data.episode.EpisodeRepository
 import com.keetr.comicsnac.data.series.SeriesRepository
 import com.keetr.comicsnac.details.Arg
 import com.keetr.comicsnac.details.DetailsUiState
@@ -35,6 +36,7 @@ import javax.inject.Inject
 internal class SeriesViewModel @Inject constructor(
     private val seriesRepository: SeriesRepository,
     private val characterRepository: CharacterRepository,
+    private val episodeRepository: EpisodeRepository,
     savedStateHandle: SavedStateHandle,
 ) : ViewModel() {
 
@@ -49,7 +51,7 @@ internal class SeriesViewModel @Inject constructor(
     }
 
     val episodes: Flow<PagingData<Episode>> = getPagingData {
-        emptyFlow() //TODO
+        episodeRepository.getEpisodesWithId(episodesId)
     }
 
     private fun <T> Flow<DetailsUiState<T>>.stateInCurrentScope() =

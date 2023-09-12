@@ -20,7 +20,8 @@ fun EpisodeListApiModel.toEpisode() =
         deck = deck ?: "",
         id = id,
         imageUrl = image.smallUrl,
-        name = name
+        name = name,
+        seriesName = series.name
     )
 
 fun EpisodeDetailsApiModel.toEpisodeDetails() =

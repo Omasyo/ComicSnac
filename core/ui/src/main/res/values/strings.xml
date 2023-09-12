@@ -33,10 +33,11 @@
     <string name="story_arcs">Story Arcs</string>
     <string name="publisher_image_desc">Image of the %1$s logo</string>
     <string name="oops">Oops</string>
-    <string name="error">An Error Occured</string>
+    <string name="error">An Error Occurred</string>
     <string name="retry">Retry</string>
     <string name="search_button_desc">Search Button</string>
     <string name="person_image_desc">Image of %1$s</string>
     <string name="movie_image_desc">Poster for %1$s</string>
     <string name="series_image_desc">Poster for %1$s</string>
+    <string name="episode_image_desc">"Still from %1$s"</string>
 </resources>
