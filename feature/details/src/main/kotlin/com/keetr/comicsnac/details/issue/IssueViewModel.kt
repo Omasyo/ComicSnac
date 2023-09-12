@@ -13,15 +13,12 @@ import com.keetr.comicsnac.details.DetailsUiState
 import com.keetr.comicsnac.details.Error
 import com.keetr.comicsnac.details.Loading
 import com.keetr.comicsnac.details.Success
-import com.keetr.comicsnac.details.character.getState
+import com.keetr.comicsnac.details.getState
 import com.keetr.comicsnac.model.character.Character
 import com.keetr.comicsnac.model.issue.IssueDetails
 import com.keetr.comicsnac.model.location.Location
-import com.keetr.comicsnac.model.location.LocationBasic
-import com.keetr.comicsnac.model.`object`.ObjectBasic
 import com.keetr.comicsnac.model.`object`.ObjectItem
 import com.keetr.comicsnac.model.storyarc.StoryArc
-import com.keetr.comicsnac.model.storyarc.StoryArcBasic
 import com.keetr.comicsnac.model.team.Team
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi

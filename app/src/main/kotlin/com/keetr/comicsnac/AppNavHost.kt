@@ -38,13 +38,18 @@ import com.keetr.comicsnac.categories.navigateToCategories
 import com.keetr.comicsnac.categories.series.navigateToSeries
 import com.keetr.comicsnac.categories.volume.navigateToVolumes
 import com.keetr.comicsnac.details.character.characterRoute
+import com.keetr.comicsnac.details.concept.conceptRoute
+import com.keetr.comicsnac.details.episode.episodeRoute
 import com.keetr.comicsnac.details.issue.issueRoute
+import com.keetr.comicsnac.details.location.locationRoute
 import com.keetr.comicsnac.details.movie.movieRoute
 import com.keetr.comicsnac.details.`object`.objectRoute
+import com.keetr.comicsnac.details.origin.originRoute
 import com.keetr.comicsnac.details.person.personRoute
 import com.keetr.comicsnac.details.power.powerRoute
 import com.keetr.comicsnac.details.publisher.publisherRoute
 import com.keetr.comicsnac.details.series.seriesRoute
+import com.keetr.comicsnac.details.storyarc.storyArcRoute
 import com.keetr.comicsnac.details.team.teamRoute
 import com.keetr.comicsnac.details.volume.volumeRoute
 import com.keetr.comicsnac.home.HomeRoute
@@ -132,7 +137,22 @@ fun AppNavHost(
             onBackPressed = onBackPressed
         )
 
+        conceptRoute(
+            onItemClicked = onItemClicked,
+            onBackPressed = onBackPressed
+        )
+
+        episodeRoute(
+            onItemClicked = onItemClicked,
+            onBackPressed = onBackPressed
+        )
+
         issueRoute(
+            onItemClicked = onItemClicked,
+            onBackPressed = onBackPressed
+        )
+
+        locationRoute(
             onItemClicked = onItemClicked,
             onBackPressed = onBackPressed
         )
@@ -143,6 +163,11 @@ fun AppNavHost(
         )
 
         objectRoute(
+            onItemClicked = onItemClicked,
+            onBackPressed = onBackPressed
+        )
+
+        originRoute(
             onItemClicked = onItemClicked,
             onBackPressed = onBackPressed
         )
@@ -163,6 +188,11 @@ fun AppNavHost(
         )
 
         seriesRoute(
+            onItemClicked = onItemClicked,
+            onBackPressed = onBackPressed
+        )
+
+        storyArcRoute(
             onItemClicked = onItemClicked,
             onBackPressed = onBackPressed
         )

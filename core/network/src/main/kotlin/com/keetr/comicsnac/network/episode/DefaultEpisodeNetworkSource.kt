@@ -55,8 +55,9 @@ internal class DefaultEpisodeNetworkSource @Inject constructor(
             if (sortCoverDate != Sort.None) parameter(
                 "sort", "air_date:${sortCoverDate.format}"
             )
-
-            parameter("filter", "id:${episodesId.joinToString("|")}")
+            if (episodesId.isNotEmpty()) parameter(
+                "filter", "id:${episodesId.joinToString("|")}"
+            )
         }
     }
 }
@@ -67,4 +68,4 @@ private const val DetailsFieldList = "air_date,api_detail_url,character_credits,
         "team_credits"
 
 private const val ListFieldList =
-    "api_detail_url,deck,id,image,name"
+    "api_detail_url,deck,id,image,name,series"

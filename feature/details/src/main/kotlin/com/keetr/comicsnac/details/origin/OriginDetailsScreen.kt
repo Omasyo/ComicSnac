@@ -1,4 +1,4 @@
-package com.keetr.comicsnac.details.power
+package com.keetr.comicsnac.details.origin
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.foundation.background
@@ -42,7 +42,7 @@ import com.keetr.comicsnac.details.Success
 import com.keetr.comicsnac.details.components.PlaceholderDesc
 import com.keetr.comicsnac.details.components.PlaceholderName
 import com.keetr.comicsnac.model.character.Character
-import com.keetr.comicsnac.model.power.PowerDetails
+import com.keetr.comicsnac.model.origin.OriginDetails
 import com.keetr.comicsnac.ui.R
 import com.keetr.comicsnac.ui.components.cards.ComicCard
 import com.keetr.comicsnac.ui.components.lazylist.ComicListSeparator
@@ -56,11 +56,11 @@ import kotlinx.coroutines.flow.flow
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-internal fun PowerDetailsScreen(
+internal fun OriginDetailsScreen(
     modifier: Modifier = Modifier,
     onItemClicked: (fullId: String) -> Unit,
     onBackPressed: () -> Unit,
-    detailsUiState: DetailsUiState<PowerDetails>,
+    detailsUiState: DetailsUiState<OriginDetails>,
     characters: LazyPagingItems<Character>
 ) {
     Scaffold(
@@ -80,12 +80,13 @@ internal fun PowerDetailsScreen(
             }
         }
     ) { paddingValues ->
-        Column(Modifier.padding(paddingValues)) {
+        Column(Modifier) {
 
             AnimatedContent(
-                targetState = detailsUiState, label = "power_details_header",
+                targetState = detailsUiState, label = "origin_details_header",
                 modifier =
                 Modifier
+                    .padding(paddingValues)
                     .background(MaterialTheme.colorScheme.secondary)
                     .fillMaxWidth()
                     .padding(horizontal = 16f.dp, vertical = 8f.dp),
@@ -98,7 +99,6 @@ internal fun PowerDetailsScreen(
                             verticalArrangement = Arrangement.spacedBy(4f.dp),
                         ) {
                             Text(name, style = MaterialTheme.typography.headlineMedium)
-                            Text(description, color = MaterialTheme.colorScheme.onSurfaceVariant)
                         }
                     }
                 }
@@ -194,10 +194,6 @@ private fun HeaderLoadingPlaceholder(modifier: Modifier = Modifier) {
             PlaceholderName.replaceRange(dotCount, dotCount, "_"),
             style = MaterialTheme.typography.headlineMedium
         )
-        Text(
-            PlaceholderDesc.repeat(2),
-            color = MaterialTheme.colorScheme.onSurfaceVariant
-        )
     }
 }
 
@@ -212,10 +208,6 @@ private fun HeaderErrorPlaceholder(modifier: Modifier = Modifier) {
             PlaceholderName,
             style = MaterialTheme.typography.headlineMedium
         )
-        Text(
-            PlaceholderDesc.repeat(2),
-            color = MaterialTheme.colorScheme.onSurfaceVariant
-        )
     }
 }
 
@@ -223,9 +215,9 @@ private fun HeaderErrorPlaceholder(modifier: Modifier = Modifier) {
 @Composable
 internal fun Preview() {
     ComicSnacTheme {
-        PowerDetailsScreen(
+        OriginDetailsScreen(
             onItemClicked = {},
-            onBackPressed = {  },
+            onBackPressed = { },
             detailsUiState = Error(RepositoryResponse.InvalidApiKeyError),
             characters = flow {
                 emit(PagingData.from(List(100) {

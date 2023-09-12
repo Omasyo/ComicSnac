@@ -1,12 +1,15 @@
-package com.keetr.comicsnac.details.publisher
+package com.keetr.comicsnac.details.concept
 
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.PagingData
 import androidx.paging.cachedIn
-import com.keetr.comicsnac.data.character.CharacterRepository
-import com.keetr.comicsnac.data.publisher.PublisherRepository
+import com.keetr.comicsnac.data.RepositoryResponse
+import com.keetr.comicsnac.data.concept.ConceptRepository
+import com.keetr.comicsnac.data.issue.IssueRepository
+import com.keetr.comicsnac.data.movie.MovieRepository
+import com.keetr.comicsnac.data.team.TeamRepository
 import com.keetr.comicsnac.data.volume.VolumeRepository
 import com.keetr.comicsnac.details.Arg
 import com.keetr.comicsnac.details.DetailsUiState
@@ -14,7 +17,11 @@ import com.keetr.comicsnac.details.Error
 import com.keetr.comicsnac.details.Loading
 import com.keetr.comicsnac.details.Success
 import com.keetr.comicsnac.details.getState
-import com.keetr.comicsnac.model.character.Character
+import com.keetr.comicsnac.model.concept.Concept
+import com.keetr.comicsnac.model.concept.ConceptDetails
+import com.keetr.comicsnac.model.issue.Issue
+import com.keetr.comicsnac.model.movie.Movie
+import com.keetr.comicsnac.model.team.Team
 import com.keetr.comicsnac.model.volume.Volume
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
@@ -27,9 +34,9 @@ import kotlinx.coroutines.flow.stateIn
 import javax.inject.Inject
 
 @HiltViewModel
-internal class PublisherViewModel @Inject constructor(
-    publisherRepository: PublisherRepository,
-    private val characterRepository: CharacterRepository,
+internal class ConceptViewModel @Inject constructor(
+    private val conceptRepository: ConceptRepository,
+    private val issueRepository: IssueRepository,
     private val volumeRepository: VolumeRepository,
     savedStateHandle: SavedStateHandle,
 ) : ViewModel() {
@@ -37,32 +44,29 @@ internal class PublisherViewModel @Inject constructor(
     private val id = checkNotNull(savedStateHandle.get<String>(Arg))
 
     val detailsUiState =
-        publisherRepository.getPublisherDetails(id).map(::getState).stateInCurrentScope()
+        conceptRepository.getConceptDetails(id).map(::getState).stateInCurrentScope()
 
-    @OptIn(ExperimentalCoroutinesApi::class)
-    val characters: Flow<PagingData<Character>> =
-        publisherRepository.getPublisherCharactersId(id).map(::getState).flatMapLatest {
-            when (it) {
-                is Error -> emptyFlow()
-                Loading -> emptyFlow()
-                is Success -> {
-                    characterRepository.getCharactersWithId(it.content)
-                }
-            }
-        }.cachedIn(viewModelScope)
 
-    @OptIn(ExperimentalCoroutinesApi::class)
-    val volumes: Flow<PagingData<Volume>> =
-        publisherRepository.getPublisherVolumesId(id).map(::getState).flatMapLatest {
-            when (it) {
-                is Error -> emptyFlow()
-                Loading -> emptyFlow()
-                is Success -> {
-                    volumeRepository.getVolumesWithId(it.content)
-                }
-            }
-        }.cachedIn(viewModelScope)
+    val issues: Flow<PagingData<Issue>> = getPagingData {
+        issueRepository.getIssuesWithId(issuesId)
+    }
+
+    val volumes: Flow<PagingData<Volume>> = getPagingData {
+        volumeRepository.getVolumesWithId(volumesId)
+    }
 
     private fun <T> Flow<DetailsUiState<T>>.stateInCurrentScope() =
         stateIn(viewModelScope, SharingStarted.WhileSubscribed(), Loading)
+
+    @OptIn(ExperimentalCoroutinesApi::class)
+    private fun <T : Any> getPagingData(init: ConceptDetails.() -> Flow<PagingData<T>>) =
+        detailsUiState.flatMapLatest {
+            when (it) {
+                is Error -> emptyFlow()
+                Loading -> emptyFlow()
+                is Success -> {
+                    init(it.content)
+                }
+            }
+        }.cachedIn(viewModelScope)
 }

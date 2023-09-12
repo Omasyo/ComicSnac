@@ -1,4 +1,4 @@
-package com.keetr.comicsnac.details.publisher
+package com.keetr.comicsnac.details.episode
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.layout.Arrangement
@@ -17,7 +17,6 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.paging.compose.LazyPagingItems
@@ -33,25 +32,32 @@ import com.keetr.comicsnac.details.components.DetailsScreen
 import com.keetr.comicsnac.details.components.Image
 import com.keetr.comicsnac.details.components.Info
 import com.keetr.comicsnac.details.components.panels.charactersPanel
-import com.keetr.comicsnac.details.components.panels.volumesPanel
+import com.keetr.comicsnac.details.components.panels.locationsPanel
+import com.keetr.comicsnac.details.components.panels.objectsPanel
+import com.keetr.comicsnac.details.components.panels.teamsPanel
 import com.keetr.comicsnac.details.components.panels.webViewPanel
 import com.keetr.comicsnac.details.components.shareUrl
+import com.keetr.comicsnac.details.formatDate
 import com.keetr.comicsnac.model.character.Character
-import com.keetr.comicsnac.model.publisher.PublisherDetails
-import com.keetr.comicsnac.model.volume.Volume
+import com.keetr.comicsnac.model.episode.EpisodeDetails
+import com.keetr.comicsnac.model.location.Location
+import com.keetr.comicsnac.model.`object`.ObjectItem
+import com.keetr.comicsnac.model.team.Team
 import com.keetr.comicsnac.ui.components.lazylist.animateScrollAndAlignItem
 import com.keetr.comicsnac.ui.components.webview.rememberAnnotatedString
 import kotlinx.coroutines.launch
 import com.keetr.comicsnac.ui.R.string as CommonString
 
 @Composable
-internal fun PublisherDetailsScreen(
+internal fun EpisodeDetailsScreen(
     modifier: Modifier = Modifier,
     onItemClicked: (fullId: String) -> Unit,
     onBackPressed: () -> Unit,
-    detailsUiState: DetailsUiState<PublisherDetails>,
+    detailsUiState: DetailsUiState<EpisodeDetails>,
     characters: LazyPagingItems<Character>,
-    volumes: LazyPagingItems<Volume>
+    locations: LazyPagingItems<Location>,
+    objects: LazyPagingItems<ObjectItem>,
+    teams: LazyPagingItems<Team>
 ) {
     when (detailsUiState) {
         is Error -> {
@@ -68,6 +74,7 @@ internal fun PublisherDetailsScreen(
             var imageExpanded by rememberSaveable {
                 mutableStateOf(false)
             }
+
 
             val state = rememberLazyListState()
             var expandedIndex by rememberSaveable {
@@ -104,9 +111,11 @@ internal fun PublisherDetailsScreen(
                 val context = LocalContext.current
 
                 DetailsScreen(
-                    modifier = modifier.testTag("publisher_screen"),
+                    modifier = modifier,
                     images = listOf(
-                        Image(imageUrl, stringResource(CommonString.issue_image_desc))
+                        Image(
+                            imageUrl, stringResource(CommonString.character_image_desc)
+                        ),
                     ),
                     lazyListState = state,
                     userScrollEnabled = canScroll,
@@ -139,41 +148,65 @@ internal fun PublisherDetailsScreen(
                                 .padding(horizontal = 16f.dp, vertical = 4f.dp),
                             verticalArrangement = Arrangement.spacedBy(4f.dp)
                         ) {
-                            if (aliases.isNotEmpty()) {
-                                Info(
-                                    name = stringResource(CommonString.aliases),
-                                    content = aliases.joinToString(", ")
-                                )
-                            }
                             Info(
-                                name = stringResource(R.string.location),
-                                content = location
+                                name = stringResource(R.string.air_date),
+                                content = airDate.formatDate()
                             )
+                            Info(
+                                name = stringResource(CommonString.series),
+                                content = series.name
+                            ) { onItemClicked(series.apiDetailUrl) }
                         }
                     }
 
-                    panelSeparator()
+                    if (charactersId.isNotEmpty()) {
+                        panelSeparator()
 
-                    volumesPanel(
-                        volumes,
-                        ::expandedProviderCallback,
-                        ::onExpand,
-                        onItemClicked
-                    )
+                        charactersPanel(
+                            CommonString.characters,
+                            characters,
+                            ::expandedProviderCallback,
+                            ::onExpand,
+                            onItemClicked
+                        )
+                    }
 
-                    panelSeparator()
+                    if (teamsId.isNotEmpty()) {
+                        panelSeparator()
 
-                    charactersPanel(
-                        CommonString.characters,
-                        characters,
-                        ::expandedProviderCallback,
-                        ::onExpand,
-                        onItemClicked
-                    )
+                        teamsPanel(
+                            teams,
+                            ::expandedProviderCallback,
+                            ::onExpand,
+                            onItemClicked
+                        )
+                    }
 
                     if (annotatedString.isNotBlank()) {
                         webViewPanel(
                             annotatedString,
+                            ::expandedProviderCallback,
+                            ::onExpand,
+                            onItemClicked
+                        )
+                    } else if (locationsId.isNotEmpty()) {
+                        panelSeparator()
+                    }
+
+                    if (locationsId.isNotEmpty()) {
+                        locationsPanel(
+                            locations,
+                            ::expandedProviderCallback,
+                            ::onExpand,
+                            onItemClicked
+                        )
+                    }
+
+                    if (objectsId.isNotEmpty()) {
+                        panelSeparator()
+
+                        objectsPanel(
+                            objects,
                             ::expandedProviderCallback,
                             ::onExpand,
                             onItemClicked

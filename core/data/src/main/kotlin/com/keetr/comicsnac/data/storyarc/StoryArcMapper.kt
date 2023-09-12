@@ -31,6 +31,7 @@ internal fun StoryArcDetailsApiModel.toStoryArcDetails() =
         firstAppearedInIssue = firstAppearedInIssue?.toIssueBasic(),
         id = id,
         imageUrl = image.smallUrl,
+        issuesId = issues.map { it.id },
         name = name,
         publisher = publisher?.toPublisherBasic(),
         siteDetailUrl = siteDetailUrl

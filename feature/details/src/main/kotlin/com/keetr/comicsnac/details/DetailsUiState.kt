@@ -23,22 +23,8 @@ internal data class Error(val error: RepositoryResponse.Error) : DetailsUiState<
 @Immutable
 internal data class Success<T>(val content: T) : DetailsUiState<T>
 
-internal typealias CharacterDetailsUiState = DetailsUiState<CharacterDetails>
-
-internal typealias IssueDetailsUiState = DetailsUiState<IssueDetails>
-
-internal typealias MovieDetailsUiState = DetailsUiState<MovieDetails>
-
-internal typealias ObjectDetailsUiState = DetailsUiState<ObjectDetails>
-
-internal typealias PersonDetailsUiState = DetailsUiState<PersonDetails>
-
-internal typealias PowerDetailsUiState = DetailsUiState<PowerDetails>
-
-internal typealias PublisherDetailsUiState = DetailsUiState<PublisherDetails>
-
-internal typealias SeriesDetailsUiState = DetailsUiState<SeriesDetails>
-
-internal typealias TeamDetailsUiState = DetailsUiState<TeamDetails>
-
-internal typealias VolumeDetailsUiState = DetailsUiState<VolumeDetails>
+internal fun <T> getState(response: RepositoryResponse<T>) =
+    when (response) {
+        is RepositoryResponse.Error -> Error(response)
+        is RepositoryResponse.Success -> Success(response.content)
+    }

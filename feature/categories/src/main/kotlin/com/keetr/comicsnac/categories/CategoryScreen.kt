@@ -38,6 +38,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.paging.LoadState
 import androidx.paging.compose.LazyPagingItems
@@ -54,12 +55,22 @@ internal fun <T : Any> CategoryScreen(
     onBackPressed: () -> Unit,
     layoutType: LayoutType,
     onToggleLayoutType: () -> Unit,
+    minGridWidth: Dp = 96f.dp,
     items: LazyPagingItems<T>,
     listContentBuilder: (@Composable LazyItemScope.(T) -> Unit),
     listGridBuilder: @Composable LazyGridItemScope.(T) -> Unit
 ) {
     val listState = rememberLazyListState()
     val gridState = rememberLazyGridState()
+
+    val firstVisibleItemIndex by remember {
+        derivedStateOf {
+            when(layoutType) {
+                LayoutType.Grid -> gridState.firstVisibleItemIndex
+                LayoutType.List -> listState.firstVisibleItemIndex
+            }
+        }
+    }
 
     Scaffold(
         modifier = modifier,
@@ -109,12 +120,12 @@ internal fun <T : Any> CategoryScreen(
                     when (layoutType) {
                         LayoutType.Grid -> {
                             LaunchedEffect(layoutType) {
-                                gridState.scrollToItem(listState.firstVisibleItemIndex)
+                                gridState.scrollToItem(firstVisibleItemIndex)
                             }
                             LazyVerticalGrid(
                                 modifier = Modifier.fillMaxSize(),
                                 contentPadding = PaddingValues(16f.dp),
-                                columns = GridCells.Adaptive(96f.dp),
+                                columns = GridCells.Adaptive(minGridWidth),
                                 horizontalArrangement = Arrangement.spacedBy(16f.dp),
                                 verticalArrangement = Arrangement.spacedBy(16f.dp),
                                 state = gridState
@@ -132,7 +143,7 @@ internal fun <T : Any> CategoryScreen(
 
                         LayoutType.List -> {
                             LaunchedEffect(layoutType) {
-                                listState.scrollToItem(gridState.firstVisibleItemIndex)
+                                listState.scrollToItem(firstVisibleItemIndex)
                             }
                             LazyColumn(
                                 modifier = Modifier.fillMaxSize(),

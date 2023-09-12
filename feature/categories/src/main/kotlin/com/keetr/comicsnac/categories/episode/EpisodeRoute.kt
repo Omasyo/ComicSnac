@@ -5,6 +5,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
@@ -47,6 +48,7 @@ internal fun EpisodeRoute(
         onBackPressed = onBackPressed,
         layoutType = viewModel.layoutType.collectAsState().value,
         onToggleLayoutType = viewModel::onToggleLayout,
+        minGridWidth = 160f.dp,
         items = viewModel.items.collectAsLazyPagingItems(),
         listContentBuilder = { episode ->
             WideCard(
@@ -62,7 +64,7 @@ internal fun EpisodeRoute(
         }
     ) { episode ->
         PlainCard(
-            modifier = Modifier.aspectRatio(6f / 11f),
+            modifier = Modifier.aspectRatio(4f / 3f),
             name = episode.name,
             imageUrl = episode.imageUrl,
             contentDescription = stringResource(

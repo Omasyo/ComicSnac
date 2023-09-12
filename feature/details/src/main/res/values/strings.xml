@@ -5,6 +5,7 @@
     <string name="real_name">Real Name</string>
     <string name="origin">Origin</string>
     <string name="first_appeared_in_issue">First Appeared in Issue</string>
+    <string name="first_appeared_in_episode">First Appeared in Episode</string>
     <string name="issue_appearances">Issue Appearances</string>
     <string name="publisher">Publisher</string>
     <string name="friends">Friends</string>
@@ -37,4 +38,5 @@
     <string name="producers">Producers</string>
     <string name="first_issue">First Issue</string>
     <string name="first_episode">First Episode</string>
+    <string name="air_date">Air Date</string>
 </resources>

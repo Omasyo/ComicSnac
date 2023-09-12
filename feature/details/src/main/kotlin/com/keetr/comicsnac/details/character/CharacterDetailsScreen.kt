@@ -21,7 +21,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.paging.compose.LazyPagingItems
-import com.keetr.comicsnac.details.CharacterDetailsUiState
+import com.keetr.comicsnac.details.DetailsUiState
 import com.keetr.comicsnac.details.Domain
 import com.keetr.comicsnac.details.Error
 import com.keetr.comicsnac.details.Loading
@@ -43,6 +43,7 @@ import com.keetr.comicsnac.details.components.panels.volumesPanel
 import com.keetr.comicsnac.details.components.panels.webViewPanel
 import com.keetr.comicsnac.details.components.shareUrl
 import com.keetr.comicsnac.model.character.Character
+import com.keetr.comicsnac.model.character.CharacterDetails
 import com.keetr.comicsnac.model.movie.Movie
 import com.keetr.comicsnac.model.team.Team
 import com.keetr.comicsnac.model.volume.Volume
@@ -56,7 +57,7 @@ internal fun CharacterDetailsScreen(
     modifier: Modifier = Modifier,
     onItemClicked: (fullId: String) -> Unit,
     onBackPressed: () -> Unit,
-    detailsUiState: CharacterDetailsUiState,
+    detailsUiState: DetailsUiState<CharacterDetails>,
     enemies: LazyPagingItems<Character>,
     friends: LazyPagingItems<Character>,
     movies: LazyPagingItems<Movie>,
@@ -135,7 +136,7 @@ internal fun CharacterDetailsScreen(
                         }
                     },
                     onShareClick = { shareUrl(context, siteDetailUrl) }
-                    ) {
+                ) {
                     panel {
                         Column(
                             Modifier

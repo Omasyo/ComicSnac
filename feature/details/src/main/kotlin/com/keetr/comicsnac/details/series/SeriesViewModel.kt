@@ -14,6 +14,7 @@ import com.keetr.comicsnac.details.DetailsUiState
 import com.keetr.comicsnac.details.Error
 import com.keetr.comicsnac.details.Loading
 import com.keetr.comicsnac.details.Success
+import com.keetr.comicsnac.details.getState
 import com.keetr.comicsnac.model.character.Character
 import com.keetr.comicsnac.model.episode.Episode
 import com.keetr.comicsnac.model.episode.EpisodeBasic
@@ -69,10 +70,3 @@ internal class SeriesViewModel @Inject constructor(
             }
         }.cachedIn(viewModelScope)
 }
-
-
-internal fun <T> getState(response: RepositoryResponse<T>) =
-    when (response) {
-        is RepositoryResponse.Error -> Error(response)
-        is RepositoryResponse.Success -> Success(response.content)
-    }

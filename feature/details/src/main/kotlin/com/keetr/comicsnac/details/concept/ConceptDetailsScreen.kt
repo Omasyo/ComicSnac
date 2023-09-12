@@ -1,4 +1,4 @@
-package com.keetr.comicsnac.details.publisher
+package com.keetr.comicsnac.details.concept
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.layout.Arrangement
@@ -17,7 +17,6 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.paging.compose.LazyPagingItems
@@ -25,19 +24,18 @@ import com.keetr.comicsnac.details.DetailsUiState
 import com.keetr.comicsnac.details.Domain
 import com.keetr.comicsnac.details.Error
 import com.keetr.comicsnac.details.Loading
-import com.keetr.comicsnac.details.R
 import com.keetr.comicsnac.details.Success
 import com.keetr.comicsnac.details.components.DetailsErrorPlaceholder
 import com.keetr.comicsnac.details.components.DetailsLoadingPlaceholder
 import com.keetr.comicsnac.details.components.DetailsScreen
 import com.keetr.comicsnac.details.components.Image
 import com.keetr.comicsnac.details.components.Info
-import com.keetr.comicsnac.details.components.panels.charactersPanel
+import com.keetr.comicsnac.details.components.panels.issuesPanel
 import com.keetr.comicsnac.details.components.panels.volumesPanel
 import com.keetr.comicsnac.details.components.panels.webViewPanel
 import com.keetr.comicsnac.details.components.shareUrl
-import com.keetr.comicsnac.model.character.Character
-import com.keetr.comicsnac.model.publisher.PublisherDetails
+import com.keetr.comicsnac.model.concept.ConceptDetails
+import com.keetr.comicsnac.model.issue.Issue
 import com.keetr.comicsnac.model.volume.Volume
 import com.keetr.comicsnac.ui.components.lazylist.animateScrollAndAlignItem
 import com.keetr.comicsnac.ui.components.webview.rememberAnnotatedString
@@ -45,12 +43,12 @@ import kotlinx.coroutines.launch
 import com.keetr.comicsnac.ui.R.string as CommonString
 
 @Composable
-internal fun PublisherDetailsScreen(
+internal fun ConceptDetailsScreen(
     modifier: Modifier = Modifier,
     onItemClicked: (fullId: String) -> Unit,
     onBackPressed: () -> Unit,
-    detailsUiState: DetailsUiState<PublisherDetails>,
-    characters: LazyPagingItems<Character>,
+    detailsUiState: DetailsUiState<ConceptDetails>,
+    issues: LazyPagingItems<Issue>,
     volumes: LazyPagingItems<Volume>
 ) {
     when (detailsUiState) {
@@ -68,6 +66,7 @@ internal fun PublisherDetailsScreen(
             var imageExpanded by rememberSaveable {
                 mutableStateOf(false)
             }
+
 
             val state = rememberLazyListState()
             var expandedIndex by rememberSaveable {
@@ -104,9 +103,11 @@ internal fun PublisherDetailsScreen(
                 val context = LocalContext.current
 
                 DetailsScreen(
-                    modifier = modifier.testTag("publisher_screen"),
+                    modifier = modifier,
                     images = listOf(
-                        Image(imageUrl, stringResource(CommonString.issue_image_desc))
+                        Image(
+                            imageUrl, stringResource(CommonString.character_image_desc)
+                        ),
                     ),
                     lazyListState = state,
                     userScrollEnabled = canScroll,
@@ -145,31 +146,28 @@ internal fun PublisherDetailsScreen(
                                     content = aliases.joinToString(", ")
                                 )
                             }
-                            Info(
-                                name = stringResource(R.string.location),
-                                content = location
-                            )
                         }
                     }
 
-                    panelSeparator()
+                    if (issuesId.isNotEmpty()) {
+                        panelSeparator()
 
-                    volumesPanel(
-                        volumes,
-                        ::expandedProviderCallback,
-                        ::onExpand,
-                        onItemClicked
-                    )
+                        issuesPanel(
+                            issues,
+                            ::expandedProviderCallback,
+                            ::onExpand,
+                            onItemClicked
+                        )
+                    }
 
-                    panelSeparator()
-
-                    charactersPanel(
-                        CommonString.characters,
-                        characters,
-                        ::expandedProviderCallback,
-                        ::onExpand,
-                        onItemClicked
-                    )
+                    if (volumesId.isNotEmpty()) {
+                        volumesPanel(
+                            volumes,
+                            ::expandedProviderCallback,
+                            ::onExpand,
+                            onItemClicked
+                        )
+                    }
 
                     if (annotatedString.isNotBlank()) {
                         webViewPanel(

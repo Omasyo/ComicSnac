@@ -22,9 +22,9 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.paging.compose.LazyPagingItems
+import com.keetr.comicsnac.details.DetailsUiState
 import com.keetr.comicsnac.details.Domain
 import com.keetr.comicsnac.details.Error
-import com.keetr.comicsnac.details.IssueDetailsUiState
 import com.keetr.comicsnac.details.Loading
 import com.keetr.comicsnac.details.R
 import com.keetr.comicsnac.details.Success
@@ -41,14 +41,12 @@ import com.keetr.comicsnac.details.components.panels.storyArcsPanel
 import com.keetr.comicsnac.details.components.panels.teamsPanel
 import com.keetr.comicsnac.details.components.panels.webViewPanel
 import com.keetr.comicsnac.details.components.shareUrl
-import com.keetr.comicsnac.model.character.Character
 import com.keetr.comicsnac.details.formatDate
+import com.keetr.comicsnac.model.character.Character
+import com.keetr.comicsnac.model.issue.IssueDetails
 import com.keetr.comicsnac.model.location.Location
-import com.keetr.comicsnac.model.location.LocationBasic
-import com.keetr.comicsnac.model.`object`.ObjectBasic
 import com.keetr.comicsnac.model.`object`.ObjectItem
 import com.keetr.comicsnac.model.storyarc.StoryArc
-import com.keetr.comicsnac.model.storyarc.StoryArcBasic
 import com.keetr.comicsnac.model.team.Team
 import com.keetr.comicsnac.ui.components.lazylist.animateScrollAndAlignItem
 import com.keetr.comicsnac.ui.components.webview.rememberAnnotatedString
@@ -60,7 +58,7 @@ internal fun IssueDetailsScreen(
     modifier: Modifier = Modifier,
     onItemClicked: (fullId: String) -> Unit,
     onBackPressed: () -> Unit,
-    detailsUiState: IssueDetailsUiState,
+    detailsUiState: DetailsUiState<IssueDetails>,
     characters: LazyPagingItems<Character>,
     locations: LazyPagingItems<Location>,
     objects: LazyPagingItems<ObjectItem>,

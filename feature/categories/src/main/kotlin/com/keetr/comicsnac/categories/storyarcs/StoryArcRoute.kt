@@ -62,7 +62,7 @@ internal fun StoryArcRoute(
             )
         }
     ) { storyArc ->
-        PlainCard(
+        ComicCard(
             modifier = Modifier.aspectRatio(6f / 11f),
             name = storyArc.name,
             imageUrl = storyArc.imageUrl,

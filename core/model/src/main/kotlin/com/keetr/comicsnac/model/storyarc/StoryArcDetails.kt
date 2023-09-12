@@ -13,6 +13,7 @@ data class StoryArcDetails(
     val firstAppearedInIssue: IssueBasic?,
     val id: Int,
     val imageUrl: String,
+    val issuesId: List<Int>,
     val name: String,
     val publisher: PublisherBasic?,
     val siteDetailUrl: String

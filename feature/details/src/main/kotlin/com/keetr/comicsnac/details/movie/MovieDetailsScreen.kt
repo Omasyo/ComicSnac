@@ -22,10 +22,10 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.paging.compose.LazyPagingItems
+import com.keetr.comicsnac.details.DetailsUiState
 import com.keetr.comicsnac.details.Domain
 import com.keetr.comicsnac.details.Error
 import com.keetr.comicsnac.details.Loading
-import com.keetr.comicsnac.details.MovieDetailsUiState
 import com.keetr.comicsnac.details.R
 import com.keetr.comicsnac.details.Success
 import com.keetr.comicsnac.details.components.DetailsErrorPlaceholder
@@ -42,6 +42,7 @@ import com.keetr.comicsnac.details.components.panels.webViewPanel
 import com.keetr.comicsnac.details.components.shareUrl
 import com.keetr.comicsnac.model.character.Character
 import com.keetr.comicsnac.model.location.Location
+import com.keetr.comicsnac.model.movie.MovieDetails
 import com.keetr.comicsnac.model.`object`.ObjectItem
 import com.keetr.comicsnac.model.team.Team
 import com.keetr.comicsnac.ui.components.lazylist.animateScrollAndAlignItem
@@ -54,7 +55,7 @@ internal fun MovieDetailsScreen(
     modifier: Modifier = Modifier,
     onItemClicked: (fullId: String) -> Unit,
     onBackPressed: () -> Unit,
-    detailsUiState: MovieDetailsUiState,
+    detailsUiState: DetailsUiState<MovieDetails>,
     characters: LazyPagingItems<Character>,
     locations: LazyPagingItems<Location>,
     objects: LazyPagingItems<ObjectItem>,

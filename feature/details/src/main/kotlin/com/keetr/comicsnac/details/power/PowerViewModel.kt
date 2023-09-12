@@ -12,7 +12,7 @@ import com.keetr.comicsnac.details.Arg
 import com.keetr.comicsnac.details.Error
 import com.keetr.comicsnac.details.Loading
 import com.keetr.comicsnac.details.Success
-import com.keetr.comicsnac.details.character.getState
+import com.keetr.comicsnac.details.getState
 import com.keetr.comicsnac.model.character.Character
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi

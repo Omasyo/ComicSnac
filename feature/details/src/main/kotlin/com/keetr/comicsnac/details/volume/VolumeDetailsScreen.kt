@@ -20,12 +20,12 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.paging.compose.LazyPagingItems
+import com.keetr.comicsnac.details.DetailsUiState
 import com.keetr.comicsnac.details.Domain
 import com.keetr.comicsnac.details.Error
 import com.keetr.comicsnac.details.Loading
 import com.keetr.comicsnac.details.R
 import com.keetr.comicsnac.details.Success
-import com.keetr.comicsnac.details.VolumeDetailsUiState
 import com.keetr.comicsnac.details.components.DetailsErrorPlaceholder
 import com.keetr.comicsnac.details.components.DetailsLoadingPlaceholder
 import com.keetr.comicsnac.details.components.DetailsScreen
@@ -35,6 +35,7 @@ import com.keetr.comicsnac.details.components.panels.issuesPanel
 import com.keetr.comicsnac.details.components.panels.webViewPanel
 import com.keetr.comicsnac.details.components.shareUrl
 import com.keetr.comicsnac.model.issue.Issue
+import com.keetr.comicsnac.model.volume.VolumeDetails
 import com.keetr.comicsnac.ui.components.lazylist.animateScrollAndAlignItem
 import com.keetr.comicsnac.ui.components.webview.rememberAnnotatedString
 import kotlinx.coroutines.launch
@@ -45,7 +46,7 @@ internal fun VolumeDetailsScreen(
     modifier: Modifier = Modifier,
     onItemClicked: (fullId: String) -> Unit,
     onBackPressed: () -> Unit,
-    detailsUiState: VolumeDetailsUiState,
+    detailsUiState: DetailsUiState<VolumeDetails>,
     issues: LazyPagingItems<Issue>
 ) {
     when (detailsUiState) {
