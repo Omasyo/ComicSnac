@@ -10,5 +10,5 @@ android {
 dependencies {
     implementation(project(":core:model"))
 
-    implementation(libs.accompanist.webview)
+    implementation(libs.androidx.browser)
 }

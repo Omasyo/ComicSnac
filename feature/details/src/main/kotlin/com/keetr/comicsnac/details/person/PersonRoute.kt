@@ -4,8 +4,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.navigation.NavDeepLink
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
+import androidx.navigation.navDeepLink
 import androidx.paging.compose.collectAsLazyPagingItems
 import com.keetr.comicsnac.details.Arg
 import com.keetr.comicsnac.details.DetailsNavigationRoute
@@ -13,6 +15,11 @@ import com.keetr.comicsnac.details.DetailsNavigationRoute
 
 private object PersonRoute : DetailsNavigationRoute("person", "4040") {
     override val requiredArguments: List<String> = listOf(Arg)
+
+    override val deepLinks: List<NavDeepLink>
+        get() = super.deepLinks + navDeepLink {
+            uriPattern = webDeepLinkPattern.replace("4040", "26")
+        }
 }
 
 fun NavGraphBuilder.personRoute(

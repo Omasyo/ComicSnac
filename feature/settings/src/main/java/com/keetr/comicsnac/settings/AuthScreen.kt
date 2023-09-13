@@ -1,8 +1,5 @@
 package com.keetr.comicsnac.settings
 
-import android.net.Uri
-import androidx.browser.customtabs.CustomTabColorSchemeParams
-import androidx.browser.customtabs.CustomTabsIntent
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -15,7 +12,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
@@ -25,6 +21,7 @@ import androidx.compose.ui.unit.dp
 import com.keetr.comicsnac.ui.components.TextField
 import com.keetr.comicsnac.ui.components.cards.ComicCard
 import com.keetr.comicsnac.ui.components.placeholders.LoadingPlaceholder
+import com.keetr.comicsnac.ui.components.webview.openUrl
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
 import com.keetr.comicsnac.ui.theme.YetAnotherScheme
 
@@ -64,18 +61,7 @@ fun AuthScreen(
             ComicCard(
                 backgroundColor = MaterialTheme.colorScheme.onError,
                 onClick = {
-                    val intent = CustomTabsIntent.Builder().run {
-                        val params = CustomTabColorSchemeParams.Builder().run {
-                            setNavigationBarColor(colorScheme.primary.toArgb())
-                            setNavigationBarDividerColor(colorScheme.onSurface.toArgb())
-                            setToolbarColor(colorScheme.tertiary.toArgb())
-                            build()
-                        }
-                        setDefaultColorSchemeParams(params)
-                        build()
-                    }
-
-                    intent.launchUrl(context, Uri.parse(ApiKeyUrl))
+                    openUrl(context, ApiKeyUrl, colorScheme)
                 }
             ) {
                 Text(

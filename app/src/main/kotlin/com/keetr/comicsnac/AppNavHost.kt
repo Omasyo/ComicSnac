@@ -21,6 +21,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.semantics.testTagsAsResourceId
 import androidx.compose.ui.unit.dp
@@ -58,6 +59,7 @@ import com.keetr.comicsnac.settings.authRoute
 import com.keetr.comicsnac.settings.navigateToTheme
 import com.keetr.comicsnac.settings.themeRoute
 import com.keetr.comicsnac.ui.components.placeholders.InDevelopmentPlaceholder
+import com.keetr.comicsnac.ui.components.webview.openUrl
 
 @OptIn(ExperimentalComposeUiApi::class)
 @Composable
@@ -66,6 +68,8 @@ fun AppNavHost(
     apiKeyPresent: Boolean,
     navController: NavHostController = rememberNavController()
 ) {
+    val context = LocalContext.current
+    val colorScheme = MaterialTheme.colorScheme
     NavHost(
         modifier = modifier
             .semantics {
@@ -98,7 +102,13 @@ fun AppNavHost(
                 )
             } catch (e: IllegalArgumentException) {
                 Log.e("AppNavHost", "AppNavHost: ${e.message}")
-                navController.navigate("error")
+
+                if (apiUrl.contains("api")) {
+                    navController.navigate("error")
+                }
+
+                openUrl(context, apiUrl, colorScheme)
+
             }
         }
 

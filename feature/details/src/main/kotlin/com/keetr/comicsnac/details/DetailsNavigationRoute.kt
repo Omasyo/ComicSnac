@@ -11,7 +11,6 @@ const val Arg = "id"
 
 abstract class DetailsNavigationRoute(path: String, private val categoryId: String = "") :
     NavigationRoute("$path/$categoryId-%s/") {
-    protected open val format = "$path/$categoryId-%s/"
 
     private val apiDeepLinkPattern get() = "$ApiBaseUrl$route"
 

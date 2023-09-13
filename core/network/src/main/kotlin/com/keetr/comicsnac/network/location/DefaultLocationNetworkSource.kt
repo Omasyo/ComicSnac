@@ -61,8 +61,8 @@ internal class DefaultLocationNetworkSource @Inject constructor(
     }
 }
 
-private const val DetailsFieldList = "aliases,api_detail_url,count_of_location_appearances,deck," +
-        "description,first_appeared_in_location,id,image,name,site_detail_url"
+private const val DetailsFieldList = "api_detail_url,count_of_issue_appearances,deck," +
+        "description,first_appeared_in_issue,id,image,name,site_detail_url"
 
 private const val ListFieldList =
     "api_detail_url,deck,id,image,name"

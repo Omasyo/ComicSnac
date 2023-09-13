@@ -8,7 +8,6 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class LocationDetailsApiModel(
-    @SerialName("aliases") val aliases: String,
     @SerialName("api_detail_url") val apiDetailUrl: String,
     @SerialName("count_of_issue_appearances") val countOfIssueAppearances: Int,
     @SerialName("deck") val deck: String?,

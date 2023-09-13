@@ -126,21 +126,6 @@ internal fun LocationDetailsScreen(
                             Text(deck, color = MaterialTheme.colorScheme.onSurfaceVariant)
                         }
                     }
-                    panel {
-                        Column(
-                            Modifier
-                                .fillMaxWidth()
-                                .padding(horizontal = 16f.dp, vertical = 4f.dp),
-                            verticalArrangement = Arrangement.spacedBy(4f.dp)
-                        ) {
-                            if (aliases.isNotEmpty()) {
-                                Info(
-                                    name = stringResource(CommonString.aliases),
-                                    content = aliases.joinToString(", ")
-                                )
-                            }
-                        }
-                    }
 
                     if (annotatedString.isNotBlank()) {
                         webViewPanel(

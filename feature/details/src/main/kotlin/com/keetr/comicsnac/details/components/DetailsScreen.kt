@@ -123,7 +123,6 @@ internal fun DetailsScreen(
                             .align(Alignment.TopEnd)
                             .size(56f.dp)
                     ) {
-                        val context = LocalContext.current
                         Box(
                             Modifier
                                 .clip(CircleShape)

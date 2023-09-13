@@ -18,7 +18,6 @@ internal fun LocationListApiModel.toLocation() = Location(
 
 internal fun LocationDetailsApiModel.toLocationDetails() =
     LocationDetails(
-        aliases = aliases.split("\n"),
         apiDetailUrl = apiDetailUrl,
         countOfIssueAppearances = countOfIssueAppearances,
         deck = deck ?: "",

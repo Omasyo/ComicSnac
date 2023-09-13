@@ -3,7 +3,6 @@ package com.keetr.comicsnac.model.location
 import com.keetr.comicsnac.model.issue.IssueBasic
 
 data class LocationDetails(
-    val aliases: List<String>,
     val apiDetailUrl: String,
     val countOfIssueAppearances: Int,
     val deck: String,

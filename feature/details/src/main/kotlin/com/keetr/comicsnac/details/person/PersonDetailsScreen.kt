@@ -41,6 +41,7 @@ import com.keetr.comicsnac.model.character.Character
 import com.keetr.comicsnac.model.person.PersonDetails
 import com.keetr.comicsnac.model.volume.Volume
 import com.keetr.comicsnac.ui.components.lazylist.animateScrollAndAlignItem
+import com.keetr.comicsnac.ui.components.webview.openUrl
 import com.keetr.comicsnac.ui.components.webview.rememberAnnotatedString
 import kotlinx.coroutines.launch
 import com.keetr.comicsnac.ui.R.string as CommonString
@@ -167,12 +168,13 @@ internal fun PersonDetailsScreen(
                                 }
                             }
                             if (website.isNotBlank()) {
+                                val colorScheme = MaterialTheme.colorScheme
                                 Info(
                                     name = stringResource(R.string.website),
                                     textDecoration = TextDecoration.Underline,
                                     content = website
                                 ) {
-
+                                    openUrl(context, website, colorScheme)
                                 }
                             }
                         }
