@@ -9,6 +9,21 @@ Built using Jetpack Compose.
 
 Download APK [here](https://github.com/Omasyo/ComicSnac/releases/download/v1.0/app-release.apk).
 
+## Libraries
+
+- [Jetpack Compose](https://developer.android.com/jetpack/compose) - UI toolkit.
+- [Hilt](https://dagger.dev/hilt/) - Dependency Injection.
+- [Ktor](https://ktor.io/) - Network Client.
+- [Coil](https://coil-kt.github.io/coil/) - Image loading library.
+- [Kotlin Coroutines](https://kotlinlang.org/docs/coroutines-overview.html)
+- [Android Lifecycle](https://developer.android.com/topic/libraries/architecture/lifecycle) - Observe Android lifecycles.
+- [Android Navigation](https://developer.android.com/jetpack/compose/navigation) - Navigation component for Jetpack Compose applications.
+- [Datastore](https://developer.android.com/topic/libraries/architecture/datastore) - Store key-value pairs or typed objects with protocol buffers.
+- [Paging 3](https://developer.android.com/topic/libraries/architecture/paging/v3-overview) - Load data in pages.
+- [Kotlinx Serialization](https://kotlinlang.org/docs/serialization.html) - Data serialization and deserialization.
+- [Mockk](https://mockk.io/) - Mocking library for Kotlin
+- [Junit4](https://junit.org/junit4/) - Testing framework
+
 ## Screenshots
 
 ![screenshot 1](screenshots/screenshot_1.png)&nbsp;&nbsp;&nbsp;&nbsp;
