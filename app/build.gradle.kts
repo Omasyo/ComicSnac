@@ -7,12 +7,12 @@ plugins {
 
 android {
     namespace = "com.keetr.comicsnac"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.keetr.comicsnac"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 5
         versionName = "1.0"
 

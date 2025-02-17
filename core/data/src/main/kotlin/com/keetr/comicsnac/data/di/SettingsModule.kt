@@ -15,7 +15,7 @@ import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
-private object SettingsModule {
+internal object SettingsModule {
     @Provides
     @Singleton
     @Named("auth")
