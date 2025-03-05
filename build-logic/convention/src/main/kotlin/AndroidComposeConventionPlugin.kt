@@ -9,12 +9,13 @@ import org.gradle.kotlin.dsl.getByType
 class AndroidComposeConventionPlugin : Plugin<Project> {
     override fun apply(target: Project) {
         with(target) {
+            pluginManager.apply {
+                apply("org.jetbrains.kotlin.plugin.compose")
+            }
+
             extensions.configure<LibraryExtension> {
                 buildFeatures {
                     compose = true
-                }
-                composeOptions {
-                    kotlinCompilerExtensionVersion = "1.5.1"
                 }
             }
 

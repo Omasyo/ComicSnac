@@ -155,7 +155,7 @@ private class DefaultPanelListScope(colors: PanelColors) : PanelLazyListScope {
                             colors[colorIndex],
                             colors[nextColorIndex],
                             strokeColor,
-                            flipped = colorId % 2 != 0
+                            colorId % 2 != 0
                         )
                     }
                 }
