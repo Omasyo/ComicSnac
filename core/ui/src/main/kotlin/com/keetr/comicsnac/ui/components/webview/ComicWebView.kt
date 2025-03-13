@@ -11,18 +11,17 @@ import android.util.Log
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.text.ClickableText
+import androidx.compose.foundation.text.BasicText
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.AnnotatedString
-import androidx.compose.ui.text.ExperimentalTextApi
+import androidx.compose.ui.text.LinkAnnotation
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.TextRange
 import androidx.compose.ui.text.TextStyle
-import androidx.compose.ui.text.UrlAnnotation
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -32,7 +31,8 @@ import androidx.core.text.getSpans
 
 const val TAG = "SComicWebView"
 
-@OptIn(ExperimentalTextApi::class)
+
+@Deprecated("", ReplaceWith("ComicWebView(modifier, contentPadding, annotatedString, scrollable)"))
 @Composable
 fun ComicWebView(
     modifier: Modifier = Modifier,
@@ -40,6 +40,14 @@ fun ComicWebView(
     annotatedString: AnnotatedString,
     scrollable: Boolean = true,
     onLinkClick: (String) -> Unit,
+) = ComicWebView(modifier, contentPadding, annotatedString, scrollable)
+
+@Composable
+fun ComicWebView(
+    modifier: Modifier = Modifier,
+    contentPadding: PaddingValues = PaddingValues(0f.dp),
+    annotatedString: AnnotatedString,
+    scrollable: Boolean = true,
 ) {
     val strings = remember {
         buildList {
@@ -50,7 +58,6 @@ fun ComicWebView(
                 add(annotatedString.subSequence(TextRange(start, end)))
                 start = end
                 end = annotatedString.indexOf('\n', start + 400)
-//                Log.i(TAG, "ComicWebView: start is $start end is $end ${annotatedString.length}")
             }
             add(annotatedString.subSequence(start, annotatedString.length))
         }
@@ -62,21 +69,28 @@ fun ComicWebView(
         userScrollEnabled = scrollable
     ) {
         items(strings) { string ->
-            ClickableText(
+            BasicText(
                 text = string,
                 style = MaterialTheme.typography.bodyLarge.copy(MaterialTheme.colorScheme.primary),
-            ) { offset ->
-                string.getUrlAnnotations(offset, offset).firstOrNull()?.let {
-                    onLinkClick(it.item.url.replace("../..", ""))
-                }
-            }
+            )
         }
     }
 }
 
+@Deprecated("", ReplaceWith("rememberAnnotatedString(content, baseUrl, TODO()})"))
+@Composable
+fun rememberAnnotatedString(
+    content: String,
+    baseUrl: String,
+): AnnotatedString = rememberAnnotatedString(content, baseUrl) {}
+
 
 @Composable
-fun rememberAnnotatedString(content: String, baseUrl: String): AnnotatedString {
+fun rememberAnnotatedString(
+    content: String,
+    baseUrl: String,
+    onLinkClick: (String) -> Unit = {},
+): AnnotatedString {
     val body =
         MaterialTheme.typography.bodyLarge.copy(MaterialTheme.colorScheme.tertiary)
     val title =
@@ -87,25 +101,26 @@ fun rememberAnnotatedString(content: String, baseUrl: String): AnnotatedString {
         MaterialTheme.typography.bodyLarge.copy(MaterialTheme.colorScheme.secondary)
 
 
-    return remember(body, title, headline, link) {
+    return remember(baseUrl, body, title, headline, link, onLinkClick) {
         HtmlCompat.fromHtml(content, HtmlCompat.FROM_HTML_MODE_LEGACY)
             .toAnnotatedString(
                 baseUrl,
                 body,
                 title,
                 headline,
-                link
+                link,
+                onLinkClick,
             )
     }
 }
 
-@OptIn(ExperimentalTextApi::class)
 fun Spanned.toAnnotatedString(
     baseUrl: String,
     body: TextStyle,
     title: TextStyle,
     headline: TextStyle,
-    link: TextStyle
+    link: TextStyle,
+    onLinkClick: (String) -> Unit,
 ): AnnotatedString =
     buildAnnotatedString {
         Log.w(TAG, "toAnnotatedString: Building string")
@@ -160,7 +175,14 @@ fun Spanned.toAnnotatedString(
                         val uri = Uri.parse(span.url)
                         val url = if (uri.isAbsolute) uri.toString() else baseUrl + uri.path
 
-                        addUrlAnnotation(UrlAnnotation(url), start, end)
+                        addLink(LinkAnnotation.Url(url, linkInteractionListener = {
+
+                            //TODO check this out
+                            val item = it
+                            if (item is LinkAnnotation.Url) {
+                                onLinkClick(item.url.replace("../..", ""))
+                            }
+                        }), start, end)
                     }
 
                     is ImageSpan -> {
