@@ -13,8 +13,8 @@ import com.keetr.comicsnac.details.Arg
 import com.keetr.comicsnac.details.DetailsUiState
 import com.keetr.comicsnac.details.Error
 import com.keetr.comicsnac.details.Loading
+import com.keetr.comicsnac.details.RefreshWrapper
 import com.keetr.comicsnac.details.Success
-import com.keetr.comicsnac.details.getState
 import com.keetr.comicsnac.model.character.Character
 import com.keetr.comicsnac.model.character.CharacterDetails
 import com.keetr.comicsnac.model.movie.Movie
@@ -26,7 +26,6 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.emptyFlow
 import kotlinx.coroutines.flow.flatMapLatest
-import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import javax.inject.Inject
 
@@ -42,7 +41,7 @@ internal class CharacterViewModel @Inject constructor(
     private val id = checkNotNull(savedStateHandle.get<String>(Arg))
 
     val detailsUiState =
-        characterRepository.getCharacterDetails(id).map(::getState).stateInCurrentScope()
+        RefreshWrapper(viewModelScope) { characterRepository.getCharacterDetails(id) }.response
 
 
     val enemies: Flow<PagingData<Character>> = getPagingData {

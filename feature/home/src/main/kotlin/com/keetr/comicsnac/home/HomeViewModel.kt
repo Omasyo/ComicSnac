@@ -10,10 +10,13 @@ import com.keetr.comicsnac.data.publisher.PublisherRepository
 import com.keetr.comicsnac.data.series.SeriesRepository
 import com.keetr.comicsnac.data.volume.VolumeRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
-import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
@@ -25,31 +28,43 @@ internal class HomeViewModel @Inject constructor(
     volumeRepository: VolumeRepository,
     publisherRepository: PublisherRepository
 ) : ViewModel() {
-
     val charactersUiState =
-        characterRepository.getRecentCharacters().map(::getCategoryState).stateInCurrentScope()
+        RefreshWrapper(viewModelScope) { characterRepository.getRecentCharacters() }.response
 
     val issueUiState =
-        issueRepository.getRecentIssues().map(::getCategoryState).stateInCurrentScope()
+        RefreshWrapper(viewModelScope) { issueRepository.getRecentIssues() }.response
 
     val movieUiState =
-        movieRepository.getRecentMovies().map(::getCategoryState).stateInCurrentScope()
+        RefreshWrapper(viewModelScope) { movieRepository.getRecentMovies() }.response
 
     val seriesUiState =
-        seriesRepository.getRecentSeries().map(::getCategoryState).stateInCurrentScope()
+        RefreshWrapper(viewModelScope) { seriesRepository.getRecentSeries() }.response
 
     val volumeUiState =
-        volumeRepository.getRecentVolumes().map(::getCategoryState).stateInCurrentScope()
+        RefreshWrapper(viewModelScope) { volumeRepository.getRecentVolumes() }.response
 
     val publishersUiState =
-        publisherRepository.getPopularPublishers().map(::getCategoryState).stateInCurrentScope()
+        RefreshWrapper(viewModelScope) { publisherRepository.getPopularPublishers() }.response
 
-    private fun <T> getCategoryState(response: RepositoryResponse<List<T>>) =
-        when (response) {
-            is RepositoryResponse.Error -> Error(response)
-            is RepositoryResponse.Success -> Success(response.content)
+    private class RefreshWrapper<T>(
+        private val scope: CoroutineScope,
+        private val request: () -> Flow<RepositoryResponse<List<T>>>
+    ) {
+        private val mutableFlow = MutableStateFlow<HomeCategoryUiState<T>>(Loading)
+        val response = mutableFlow.stateIn(scope, SharingStarted.WhileSubscribed(), Loading)
+
+        init {
+            refresh()
         }
 
-    private fun <T> Flow<HomeCategoryUiState<T>>.stateInCurrentScope() =
-        stateIn(viewModelScope, SharingStarted.WhileSubscribed(), Loading)
+        fun refresh() {
+            scope.launch {
+                mutableFlow.value = Loading
+                mutableFlow.value = when (val response = request().first()) {
+                    is RepositoryResponse.Error -> Error(response, ::refresh)
+                    is RepositoryResponse.Success -> Success(response.content, ::refresh)
+                }
+            }
+        }
+    }
 }

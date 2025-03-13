@@ -51,7 +51,6 @@ import com.keetr.comicsnac.ui.theme.ComicSnacTheme
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.flow
 
-
 @Composable
 internal fun OriginDetailsScreen(
     modifier: Modifier = Modifier,
@@ -215,7 +214,7 @@ internal fun Preview() {
         OriginDetailsScreen(
             onItemClicked = {},
             onBackPressed = { },
-            detailsUiState = Error(RepositoryResponse.InvalidApiKeyError),
+            detailsUiState = Error(RepositoryResponse.InvalidApiKeyError,{}),
             characters = flow {
                 emit(PagingData.from(List(100) {
                     Character(
