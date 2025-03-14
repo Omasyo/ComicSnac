@@ -37,18 +37,6 @@ import java.util.ArrayDeque
 
 const val TAG = "SComicWebView"
 
-@Deprecated("", ReplaceWith("ComicWebView(modifier, contentPadding, annotatedString, scrollable)"))
-@Composable
-fun ComicWebView(
-    modifier: Modifier = Modifier,
-    contentPadding: PaddingValues = PaddingValues(0f.dp),
-    annotatedString: AnnotatedString,
-    scrollable: Boolean = true,
-    onLinkClick: (String) -> Unit,
-) = ComicWebView(
-    modifier, contentPadding, ComicWebViewContent(annotatedString, emptyList()), scrollable
-)
-
 @Composable
 fun ComicWebView(
     modifier: Modifier = Modifier,
@@ -142,13 +130,6 @@ fun ComicWebView(
         }
     }
 }
-
-@Deprecated("", ReplaceWith("rememberComicWebViewContent(content, baseUrl, onItemClicked)"))
-@Composable
-fun rememberAnnotatedString(
-    content: String,
-    baseUrl: String,
-): AnnotatedString = rememberComicWebViewContent(content, baseUrl) {}.text
 
 @Composable
 fun rememberComicWebViewContent(

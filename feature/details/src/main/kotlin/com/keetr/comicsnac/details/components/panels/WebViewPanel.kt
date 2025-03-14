@@ -18,7 +18,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.unit.dp
 import com.keetr.comicsnac.details.R
 import com.keetr.comicsnac.ui.components.lazylist.ComicListSeparator
@@ -26,29 +25,12 @@ import com.keetr.comicsnac.ui.components.lazylist.PanelLazyListScope
 import com.keetr.comicsnac.ui.components.webview.ComicWebView
 import com.keetr.comicsnac.ui.components.webview.ComicWebViewContent
 
-@Deprecated("", ReplaceWith(
-    "webViewPanel(annotatedString,\n expandedProvider,\n onToggleExpand,)",
-    "com.keetr.comicsnac.ui.components.webview.ComicWebViewContent"
-)
-)
-internal fun PanelLazyListScope.webViewPanel(
-    description: AnnotatedString,
-    expandedProvider: (Int) -> Boolean,
-    onToggleExpand: (Int) -> Unit,
-    onItemClicked: (String) -> Unit
-) = webViewPanel(
-    ComicWebViewContent(description, emptyList()),
-    expandedProvider,
-    onToggleExpand,
-)
-
 internal fun PanelLazyListScope.webViewPanel(
     description: ComicWebViewContent,
     expandedProvider: (Int) -> Boolean,
     onToggleExpand: (Int) -> Unit,
 ) {
     specialPanel { index ->
-
         val expanded = expandedProvider(index)
 
         val heightModifier = remember(expanded) {
