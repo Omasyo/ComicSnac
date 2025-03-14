@@ -34,7 +34,7 @@ import com.keetr.comicsnac.details.components.panels.webViewPanel
 import com.keetr.comicsnac.details.components.shareUrl
 import com.keetr.comicsnac.model.`object`.ObjectDetails
 import com.keetr.comicsnac.ui.components.lazylist.animateScrollAndAlignItem
-import com.keetr.comicsnac.ui.components.webview.rememberAnnotatedString
+import com.keetr.comicsnac.ui.components.webview.rememberComicWebViewContent
 import kotlinx.coroutines.launch
 import com.keetr.comicsnac.ui.R.string as CommonString
 
@@ -93,7 +93,8 @@ internal fun ObjectDetailsScreen(
 
             with(detailsUiState.content) {
 
-                val annotatedString = rememberAnnotatedString(description, Domain)
+                val webViewContent =
+                    rememberComicWebViewContent(description, Domain, onItemClicked)
                 val context = LocalContext.current
 
                 DetailsScreen(
@@ -157,12 +158,11 @@ internal fun ObjectDetailsScreen(
                         }
                     }
 
-                    if (annotatedString.isNotBlank()) {
+                    if (description.isNotBlank()) {
                         webViewPanel(
-                            annotatedString,
+                            webViewContent,
                             ::expandedProviderCallback,
                             ::onExpand,
-                            onItemClicked
                         )
                     }
                 }

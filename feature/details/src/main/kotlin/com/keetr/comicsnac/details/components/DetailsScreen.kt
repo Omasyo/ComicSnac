@@ -31,12 +31,10 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import androidx.core.content.ContextCompat.startActivity
 import com.keetr.comicsnac.ui.components.lazylist.ComicListSeparator
 import com.keetr.comicsnac.ui.components.lazylist.PanelColors
 import com.keetr.comicsnac.ui.components.lazylist.PanelLazyListScope
@@ -161,7 +159,7 @@ internal fun shareUrl(context: Context, url: String) {
     }
 
     val shareIntent = Intent.createChooser(sendIntent, null)
-    startActivity(context, shareIntent, null)
+    context.startActivity(shareIntent, null)
 }
 
 @Composable

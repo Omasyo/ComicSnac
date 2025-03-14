@@ -1,24 +1,24 @@
 [versions]
-android-gradle-plugin = "8.2.2"
-android-tools-desugar = "2.1.4"
-androidx-activity = "1.10.0"
+android-gradle-plugin = "8.8.0"
+android-tools-desugar = "2.1.5"
+androidx-activity = "1.10.1"
 androidx-browser = "1.8.0"
 andriodx-core = "1.15.0"
-androidx-datastore = "1.1.2"
+androidx-datastore = "1.1.3"
 androidx-espresso = "3.6.1"
 androidx-hilt = "1.2.0"
 andriodx-lifecycle = "2.8.7"
-androidx-navigation = "2.8.7"
+androidx-navigation = "2.8.8"
 androidx-paging = "3.3.6"
 androidx-test-ext-junit = "1.2.1"
 androidx-splashScreen = "1.0.1"
 coil = "2.7.0"
 compose-bom = "2025.02.00"
-hilt = "2.49"
+hilt = "2.51.1"
 junit = "4.13.2"
-kotlin = "1.9.0"
+kotlin = "2.1.10"
 kotlinx-coroutines = "1.7.2"
-ktor = "2.3.3"
+ktor = "3.0.1"
 mockk = "1.13.5"
 uiautomator = "2.3.0"
 benchmark-macro-junit4 = "1.3.3"
@@ -73,6 +73,7 @@ android-application = { id = "com.android.application", version.ref = "android-g
 android-library = { id = "com.android.library", version.ref = "android-gradle-plugin" }
 hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
 kotlin-plugin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
