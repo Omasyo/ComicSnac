@@ -28,12 +28,11 @@ import com.keetr.comicsnac.details.components.DetailsErrorPlaceholder
 import com.keetr.comicsnac.details.components.DetailsLoadingPlaceholder
 import com.keetr.comicsnac.details.components.DetailsScreen
 import com.keetr.comicsnac.details.components.Image
-import com.keetr.comicsnac.details.components.Info
 import com.keetr.comicsnac.details.components.panels.webViewPanel
 import com.keetr.comicsnac.details.components.shareUrl
 import com.keetr.comicsnac.model.location.LocationDetails
 import com.keetr.comicsnac.ui.components.lazylist.animateScrollAndAlignItem
-import com.keetr.comicsnac.ui.components.webview.rememberAnnotatedString
+import com.keetr.comicsnac.ui.components.webview.rememberComicWebViewContent
 import kotlinx.coroutines.launch
 import com.keetr.comicsnac.ui.R.string as CommonString
 
@@ -92,7 +91,8 @@ internal fun LocationDetailsScreen(
 
             with(detailsUiState.content) {
 
-                val annotatedString = rememberAnnotatedString(description, Domain)
+                val webViewContent =
+                    rememberComicWebViewContent(description, Domain, onItemClicked)
                 val context = LocalContext.current
 
                 DetailsScreen(
@@ -127,12 +127,11 @@ internal fun LocationDetailsScreen(
                         }
                     }
 
-                    if (annotatedString.isNotBlank()) {
+                    if (description.isNotBlank()) {
                         webViewPanel(
-                            annotatedString,
+                            webViewContent,
                             ::expandedProviderCallback,
                             ::onExpand,
-                            onItemClicked
                         )
                     }
                 }

@@ -37,7 +37,7 @@ import com.keetr.comicsnac.details.components.shareUrl
 import com.keetr.comicsnac.model.issue.Issue
 import com.keetr.comicsnac.model.volume.VolumeDetails
 import com.keetr.comicsnac.ui.components.lazylist.animateScrollAndAlignItem
-import com.keetr.comicsnac.ui.components.webview.rememberAnnotatedString
+import com.keetr.comicsnac.ui.components.webview.rememberComicWebViewContent
 import kotlinx.coroutines.launch
 import com.keetr.comicsnac.ui.R.string as CommonString
 
@@ -96,7 +96,8 @@ internal fun VolumeDetailsScreen(
 
             with(detailsUiState.content) {
 
-                val annotatedString = rememberAnnotatedString(description, Domain)
+                val annotatedString =
+                    rememberComicWebViewContent(description, Domain, onItemClicked)
                 val context = LocalContext.current
 
                 DetailsScreen(
@@ -164,12 +165,11 @@ internal fun VolumeDetailsScreen(
                         }
                     }
 
-                    if (annotatedString.isNotBlank()) {
+                    if (description.isNotBlank()) {
                         webViewPanel(
                             annotatedString,
                             ::expandedProviderCallback,
                             ::onExpand,
-                            onItemClicked
                         )
                     } else if (issuesId.isNotEmpty()) {
                         panelSeparator()

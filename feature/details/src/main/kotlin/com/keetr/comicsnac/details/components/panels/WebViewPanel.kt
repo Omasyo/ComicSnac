@@ -27,7 +27,7 @@ import com.keetr.comicsnac.ui.components.webview.ComicWebView
 import com.keetr.comicsnac.ui.components.webview.ComicWebViewContent
 
 @Deprecated("", ReplaceWith(
-    "webViewPanel(annotatedString, expandedProvider, onToggleExpand,)",
+    "webViewPanel(annotatedString,\n expandedProvider,\n onToggleExpand,)",
     "com.keetr.comicsnac.ui.components.webview.ComicWebViewContent"
 )
 )

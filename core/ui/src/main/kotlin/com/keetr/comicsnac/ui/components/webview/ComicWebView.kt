@@ -143,7 +143,7 @@ fun ComicWebView(
     }
 }
 
-@Deprecated("", ReplaceWith("rememberComicWebViewContent(content, baseUrl, TODO())"))
+@Deprecated("", ReplaceWith("rememberComicWebViewContent(content, baseUrl, onItemClicked)"))
 @Composable
 fun rememberAnnotatedString(
     content: String,
