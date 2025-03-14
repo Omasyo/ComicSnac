@@ -13,11 +13,7 @@ internal data object Loading : DetailsUiState<Nothing> {
 }
 
 internal data class Error(val error: RepositoryResponse.Error, override val refresh: () -> Unit) :
-    DetailsUiState<Nothing> {
-
-    @Deprecated("")
-    constructor(error: RepositoryResponse.Error) : this(error, {})
-}
+    DetailsUiState<Nothing>
 
 @Immutable
 internal data class Success<T>(val content: T, override val refresh: () -> Unit = {}) :
