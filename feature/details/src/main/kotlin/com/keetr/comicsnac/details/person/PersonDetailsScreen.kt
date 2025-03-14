@@ -57,7 +57,7 @@ internal fun PersonDetailsScreen(
 ) {
     when (detailsUiState) {
         is Error -> {
-            DetailsErrorPlaceholder(onBackPressed = onBackPressed)
+            DetailsErrorPlaceholder(onBackPressed = onBackPressed, onRetry = detailsUiState.refresh)
         }
 
         Loading -> {

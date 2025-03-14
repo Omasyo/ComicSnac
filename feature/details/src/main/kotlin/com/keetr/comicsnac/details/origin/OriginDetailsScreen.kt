@@ -46,6 +46,7 @@ import com.keetr.comicsnac.ui.components.cards.ComicCard
 import com.keetr.comicsnac.ui.components.lazylist.ComicListSeparator
 import com.keetr.comicsnac.ui.components.placeholders.ErrorPlaceholder
 import com.keetr.comicsnac.ui.components.placeholders.LoadingPlaceholder
+import com.keetr.comicsnac.ui.theme.AnotherScheme
 import com.keetr.comicsnac.ui.theme.AppIcons
 import com.keetr.comicsnac.ui.theme.ComicSnacTheme
 import kotlinx.coroutines.delay
@@ -76,13 +77,15 @@ internal fun OriginDetailsScreen(
             }
         }
     ) { paddingValues ->
-        Column(Modifier) {
+        Column(
+            modifier = Modifier
+                .padding(paddingValues)
+        ) {
 
             AnimatedContent(
                 targetState = detailsUiState, label = "origin_details_header",
                 modifier =
                 Modifier
-                    .padding(paddingValues)
                     .background(MaterialTheme.colorScheme.secondary)
                     .fillMaxWidth()
                     .padding(horizontal = 16f.dp, vertical = 8f.dp),
@@ -117,8 +120,10 @@ internal fun OriginDetailsScreen(
                     is LoadState.Error -> ErrorPlaceholder(
                         Modifier.fillMaxSize(),
                         onRetry = if (detailsUiState is Success) {
-                            { characters.retry() }
-                        } else null
+                            characters::retry
+                        } else {
+                            detailsUiState.refresh
+                        }
                     )
 
                     LoadState.Loading -> LoadingPlaceholder(Modifier.fillMaxSize())
@@ -210,16 +215,16 @@ private fun HeaderErrorPlaceholder(modifier: Modifier = Modifier) {
 @Preview
 @Composable
 internal fun Preview() {
-    ComicSnacTheme {
+    ComicSnacTheme(AnotherScheme) {
         OriginDetailsScreen(
             onItemClicked = {},
             onBackPressed = { },
-            detailsUiState = Error(RepositoryResponse.InvalidApiKeyError,{}),
+            detailsUiState = Error(RepositoryResponse.InvalidApiKeyError) {},
             characters = flow {
                 emit(PagingData.from(List(100) {
                     Character(
                         apiDetailUrl = "https://www.google.com/#q=odio",
-                        deck = "propriae",
+                        deck = "",
                         id = it,
                         imageUrl = "https://search.yahoo.com/search?p=quod",
                         name = "Kerry Cabrera",
