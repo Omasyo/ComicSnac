@@ -9,105 +9,172 @@ import android.text.style.StyleSpan
 import android.text.style.URLSpan
 import android.util.Log
 import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.text.ClickableText
+import androidx.compose.foundation.text.BasicText
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.AnnotatedString
-import androidx.compose.ui.text.ExperimentalTextApi
+import androidx.compose.ui.text.LinkAnnotation
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.TextRange
 import androidx.compose.ui.text.TextStyle
-import androidx.compose.ui.text.UrlAnnotation
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.core.text.HtmlCompat
 import androidx.core.text.getSpans
+import coil.compose.AsyncImage
+import coil.request.ImageRequest
+import java.util.ArrayDeque
 
 const val TAG = "SComicWebView"
 
-@OptIn(ExperimentalTextApi::class)
 @Composable
 fun ComicWebView(
     modifier: Modifier = Modifier,
     contentPadding: PaddingValues = PaddingValues(0f.dp),
-    annotatedString: AnnotatedString,
+    content: ComicWebViewContent,
     scrollable: Boolean = true,
-    onLinkClick: (String) -> Unit,
 ) {
-    val strings = remember {
+    val strings: List<WebviewContentItem> = remember {
         buildList {
-            var start = 0
-            var end = annotatedString.indexOf('\n', 400)
+            with(content) {
+                val deque = ArrayDeque(content.images)
+                var nextImage = deque.poll()
 
-            while (end >= 0) {
-                add(annotatedString.subSequence(TextRange(start, end)))
-                start = end
-                end = annotatedString.indexOf('\n', start + 400)
-//                Log.i(TAG, "ComicWebView: start is $start end is $end ${annotatedString.length}")
+                var start = 0
+                var end: Int
+
+                do {
+                    if (nextImage != null && nextImage.startIndex < start + 400) {
+                        val image = nextImage
+                        nextImage = deque.poll()
+
+                        end = image.startIndex
+                        add(
+                            WebviewContentItem.Text(
+                                text.subSequence(
+                                    TextRange(
+                                        start, end
+                                    )
+                                )
+                            )
+                        )
+                        add(WebviewContentItem.Image(image.url))
+                        start = image.endIndex
+
+                    } else {
+                        end = text.indexOf('\n', start + 400)
+                        if (end < 0) {
+                            add(
+                                WebviewContentItem.Text(
+                                    text.subSequence(
+                                        TextRange(
+                                            start, text.length
+                                        )
+                                    )
+                                )
+                            )
+                            break
+                        } else {
+
+                            add(
+                                WebviewContentItem.Text(
+                                    text.subSequence(
+                                        TextRange(
+                                            start, end
+                                        )
+                                    )
+                                )
+                            )
+                        }
+
+                        start = end
+                    }
+                } while (true)
             }
-            add(annotatedString.subSequence(start, annotatedString.length))
         }
     }
 
     LazyColumn(
-        modifier = modifier,
-        contentPadding = contentPadding,
-        userScrollEnabled = scrollable
+        modifier = modifier, contentPadding = contentPadding, userScrollEnabled = scrollable
     ) {
         items(strings) { string ->
-            ClickableText(
-                text = string,
-                style = MaterialTheme.typography.bodyLarge.copy(MaterialTheme.colorScheme.primary),
-            ) { offset ->
-                string.getUrlAnnotations(offset, offset).firstOrNull()?.let {
-                    onLinkClick(it.item.url.replace("../..", ""))
+            when (string) {
+                is WebviewContentItem.Image -> {
+                    AsyncImage(
+                        model = ImageRequest.Builder(LocalContext.current).data(string.url)
+                            .crossfade(true).build(),
+
+                        contentDescription = null,
+                        contentScale = ContentScale.FillWidth,
+                        modifier = Modifier.fillMaxWidth()
+                    )
+                }
+
+                is WebviewContentItem.Text -> {
+                    BasicText(
+                        text = string.text,
+                        style = MaterialTheme.typography.bodyLarge.copy(MaterialTheme.colorScheme.primary),
+                    )
                 }
             }
         }
     }
 }
 
-
 @Composable
-fun rememberAnnotatedString(content: String, baseUrl: String): AnnotatedString {
-    val body =
-        MaterialTheme.typography.bodyLarge.copy(MaterialTheme.colorScheme.tertiary)
-    val title =
-        MaterialTheme.typography.titleLarge.copy(MaterialTheme.colorScheme.tertiary)
-    val headline =
-        MaterialTheme.typography.headlineSmall.copy(MaterialTheme.colorScheme.tertiary)
-    val link =
-        MaterialTheme.typography.bodyLarge.copy(MaterialTheme.colorScheme.secondary)
+fun rememberComicWebViewContent(
+    content: String,
+    baseUrl: String,
+    onLinkClick: (String) -> Unit = {},
+): ComicWebViewContent {
+    val body = MaterialTheme.typography.bodyLarge.copy(MaterialTheme.colorScheme.tertiary)
+    val title = MaterialTheme.typography.titleLarge.copy(MaterialTheme.colorScheme.tertiary)
+    val headline = MaterialTheme.typography.headlineSmall.copy(MaterialTheme.colorScheme.tertiary)
+    val link = MaterialTheme.typography.bodyLarge.copy(MaterialTheme.colorScheme.secondary)
 
 
-    return remember(body, title, headline, link) {
-        HtmlCompat.fromHtml(content, HtmlCompat.FROM_HTML_MODE_LEGACY)
-            .toAnnotatedString(
-                baseUrl,
-                body,
-                title,
-                headline,
-                link
-            )
+    return remember(baseUrl, body, title, headline, link, onLinkClick) {
+        HtmlCompat.fromHtml(content, HtmlCompat.FROM_HTML_MODE_LEGACY).toAnnotatedString(
+            baseUrl,
+            body,
+            title,
+            headline,
+            link,
+            onLinkClick,
+        )
     }
 }
 
-@OptIn(ExperimentalTextApi::class)
+private sealed interface WebviewContentItem {
+    data class Text(val text: AnnotatedString) : WebviewContentItem
+
+    data class Image(val url: String) : WebviewContentItem
+}
+
+data class ComicWebViewContent(val text: AnnotatedString, val images: List<InlineImage>)
+
+data class InlineImage(val url: String, val startIndex: Int, val endIndex: Int)
+
 fun Spanned.toAnnotatedString(
     baseUrl: String,
     body: TextStyle,
     title: TextStyle,
     headline: TextStyle,
-    link: TextStyle
-): AnnotatedString =
-    buildAnnotatedString {
+    link: TextStyle,
+    onLinkClick: (String) -> Unit,
+): ComicWebViewContent {
+    val list = mutableListOf<InlineImage>()
+    val string = buildAnnotatedString {
         Log.w(TAG, "toAnnotatedString: Building string")
 
         val spanned = this@toAnnotatedString
@@ -120,55 +187,47 @@ fun Spanned.toAnnotatedString(
 
             val spans = spanned.getSpans<Any>(index, end)
 
-//            if (!spans.any { span -> span is ImageSpan }) {
             append(spanned.subSequence(index, end))
-//            } else {
-//                ++skipped
-//            }
 
             val start = index - skipped
             spans.forEach { span ->
-
                 when (span) {
                     is StyleSpan -> when (span.style) {
                         Typeface.BOLD -> addStyle(
-                            SpanStyle(fontWeight = FontWeight.Bold),
-                            start,
-                            end
+                            SpanStyle(fontWeight = FontWeight.Bold), start, end
                         )
 
                         Typeface.ITALIC -> addStyle(
-                            SpanStyle(fontStyle = FontStyle.Italic),
-                            start,
-                            end
+                            SpanStyle(fontStyle = FontStyle.Italic), start, end
                         )
 
                         Typeface.BOLD_ITALIC -> addStyle(
                             SpanStyle(
-                                fontWeight = FontWeight.Bold,
-                                fontStyle = FontStyle.Italic
+                                fontWeight = FontWeight.Bold, fontStyle = FontStyle.Italic
                             ), start, end
                         )
                     }
 
                     is URLSpan -> {
                         addStyle(
-                            link.toSpanStyle(),
-                            start,
-                            end
+                            link.toSpanStyle(), start, end
                         )
                         val uri = Uri.parse(span.url)
                         val url = if (uri.isAbsolute) uri.toString() else baseUrl + uri.path
 
-                        addUrlAnnotation(UrlAnnotation(url), start, end)
+                        addLink(
+                            url = LinkAnnotation.Url(url, linkInteractionListener = { item ->
+                                if (item is LinkAnnotation.Url) {
+                                    onLinkClick(item.url.replace("../..", ""))
+                                }
+                            }),
+                            start = start,
+                            end = end
+                        )
                     }
 
                     is ImageSpan -> {
-
-//                        val source = span.source
-//                        if (source != null) {
-////                            appendInlineContent(source)
-//                        }
+                        span.source?.let { list.add(InlineImage(it, start, end)) }
                     }
 
                     is RelativeSizeSpan -> {
@@ -188,3 +247,5 @@ fun Spanned.toAnnotatedString(
             index = end
         }
     }
+    return ComicWebViewContent(text = string, images = list)
+}

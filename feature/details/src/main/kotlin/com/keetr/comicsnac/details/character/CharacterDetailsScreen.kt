@@ -48,7 +48,7 @@ import com.keetr.comicsnac.model.movie.Movie
 import com.keetr.comicsnac.model.team.Team
 import com.keetr.comicsnac.model.volume.Volume
 import com.keetr.comicsnac.ui.components.lazylist.animateScrollAndAlignItem
-import com.keetr.comicsnac.ui.components.webview.rememberAnnotatedString
+import com.keetr.comicsnac.ui.components.webview.rememberComicWebViewContent
 import kotlinx.coroutines.launch
 import com.keetr.comicsnac.ui.R.string as CommonString
 
@@ -114,7 +114,8 @@ internal fun CharacterDetailsScreen(
 
             with(detailsUiState.content) {
 
-                val annotatedString = rememberAnnotatedString(description, Domain)
+                val webViewContent =
+                    rememberComicWebViewContent(description, Domain, onItemClicked)
                 val context = LocalContext.current
 
                 DetailsScreen(
@@ -260,12 +261,11 @@ internal fun CharacterDetailsScreen(
                         )
                     }
 
-                    if (annotatedString.isNotBlank()) {
+                    if (description.isNotBlank()) {
                         webViewPanel(
-                            annotatedString,
+                            webViewContent,
                             ::expandedProviderCallback,
                             ::onExpand,
-                            onItemClicked
                         )
                     } else if (volumeCreditsId.isNotEmpty()) {
                         panelSeparator()

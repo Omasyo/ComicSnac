@@ -39,7 +39,7 @@ import com.keetr.comicsnac.model.episode.Episode
 import com.keetr.comicsnac.model.issue.Issue
 import com.keetr.comicsnac.model.storyarc.StoryArcDetails
 import com.keetr.comicsnac.ui.components.lazylist.animateScrollAndAlignItem
-import com.keetr.comicsnac.ui.components.webview.rememberAnnotatedString
+import com.keetr.comicsnac.ui.components.webview.rememberComicWebViewContent
 import kotlinx.coroutines.launch
 import com.keetr.comicsnac.ui.R.string as CommonString
 
@@ -99,7 +99,8 @@ internal fun StoryArcDetailsScreen(
 
             with(detailsUiState.content) {
 
-                val annotatedString = rememberAnnotatedString(description, Domain)
+                val webViewContent =
+                    rememberComicWebViewContent(description, Domain, onItemClicked)
                 val context = LocalContext.current
 
                 DetailsScreen(
@@ -159,12 +160,11 @@ internal fun StoryArcDetailsScreen(
                         }
                     }
 
-                    if (annotatedString.isNotBlank()) {
+                    if (description.isNotBlank()) {
                         webViewPanel(
-                            annotatedString,
+                            webViewContent,
                             ::expandedProviderCallback,
                             ::onExpand,
-                            onItemClicked
                         )
                     } else if (issuesId.isNotEmpty()) {
                         panelSeparator()
