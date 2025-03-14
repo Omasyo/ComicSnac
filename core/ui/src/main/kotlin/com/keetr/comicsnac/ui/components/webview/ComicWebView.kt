@@ -53,13 +53,13 @@ fun ComicWebView(
 fun ComicWebView(
     modifier: Modifier = Modifier,
     contentPadding: PaddingValues = PaddingValues(0f.dp),
-    comicWebViewContent: ComicWebViewContent,
+    content: ComicWebViewContent,
     scrollable: Boolean = true,
 ) {
     val strings: List<WebviewContentItem> = remember {
         buildList {
-            with(comicWebViewContent) {
-                val deque = ArrayDeque(comicWebViewContent.images)
+            with(content) {
+                val deque = ArrayDeque(content.images)
                 var nextImage = deque.poll()
 
                 var start = 0
@@ -143,7 +143,7 @@ fun ComicWebView(
     }
 }
 
-@Deprecated("", ReplaceWith("rememberAnnotatedString(content, baseUrl, TODO()})"))
+@Deprecated("", ReplaceWith("rememberComicWebViewContent(content, baseUrl, TODO())"))
 @Composable
 fun rememberAnnotatedString(
     content: String,

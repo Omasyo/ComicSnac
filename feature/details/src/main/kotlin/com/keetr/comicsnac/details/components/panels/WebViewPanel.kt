@@ -24,15 +24,29 @@ import com.keetr.comicsnac.details.R
 import com.keetr.comicsnac.ui.components.lazylist.ComicListSeparator
 import com.keetr.comicsnac.ui.components.lazylist.PanelLazyListScope
 import com.keetr.comicsnac.ui.components.webview.ComicWebView
+import com.keetr.comicsnac.ui.components.webview.ComicWebViewContent
 
-
+@Deprecated("", ReplaceWith(
+    "webViewPanel(annotatedString, expandedProvider, onToggleExpand,)",
+    "com.keetr.comicsnac.ui.components.webview.ComicWebViewContent"
+)
+)
 internal fun PanelLazyListScope.webViewPanel(
     description: AnnotatedString,
     expandedProvider: (Int) -> Boolean,
     onToggleExpand: (Int) -> Unit,
     onItemClicked: (String) -> Unit
-) {
+) = webViewPanel(
+    ComicWebViewContent(description, emptyList()),
+    expandedProvider,
+    onToggleExpand,
+)
 
+internal fun PanelLazyListScope.webViewPanel(
+    description: ComicWebViewContent,
+    expandedProvider: (Int) -> Boolean,
+    onToggleExpand: (Int) -> Unit,
+) {
     specialPanel { index ->
 
         val expanded = expandedProvider(index)
@@ -53,13 +67,12 @@ internal fun PanelLazyListScope.webViewPanel(
                 .then(heightModifier),
         ) {
             ComicWebView(
-                annotatedString = description,
+                content = description,
                 contentPadding = PaddingValues(
                     vertical = 40f.dp,
                     horizontal = 16f.dp
                 ),
                 scrollable = expanded,
-                onLinkClick = onItemClicked
             )
 
             Text(
