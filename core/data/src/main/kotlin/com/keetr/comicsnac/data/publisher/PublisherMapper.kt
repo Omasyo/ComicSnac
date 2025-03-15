@@ -27,7 +27,7 @@ internal fun List<PublisherListApiModel>.toPublishers() = map { apiModel -> apiM
 
 internal fun PublisherDetailsApiModel.toPublisherDetails() =
     PublisherDetails(
-        aliases = aliases.split("\n"),
+        aliases = aliases?.split("\n") ?: emptyList(),
         apiDetailUrl = apiDetailUrl,
         deck = deck ?: "",
         description = description ?: "",

@@ -71,9 +71,14 @@ fun SearchScreen(
         sheetTonalElevation = 0f.dp,
         sheetShadowElevation = 0f.dp,
         sheetShape = RectangleShape,
+        sheetContainerColor = MaterialTheme.colorScheme.primary,
         sheetContent = {
             FlowRow(
-                Modifier.padding(24f.dp).navigationBarsPadding().imePadding(),
+                Modifier
+                    .fillMaxWidth()
+                    .padding(24f.dp)
+                    .navigationBarsPadding()
+                    .imePadding(),
                 verticalArrangement = Arrangement.spacedBy(8f.dp),
                 horizontalArrangement = Arrangement.spacedBy(8f.dp)
             ) {
@@ -82,7 +87,7 @@ fun SearchScreen(
                         name = type.name,
                         enabled = filter.contains(type),
                         onClick = { onClickFilter(type) },
-                        onLongClick = { onLongClickFilter(type) }
+                        onLongClick = { onLongClickFilter(type) },
                     )
                 }
             }
@@ -226,7 +231,8 @@ private fun SearchFilter(
     name: String,
     enabled: Boolean,
     onClick: () -> Unit,
-    onLongClick: () -> Unit
+    onLongClick: () -> Unit,
+    modifier: Modifier = Modifier,
 ) {
     with(MaterialTheme.colorScheme) {
         val containerColor by animateColorAsState(
@@ -240,7 +246,7 @@ private fun SearchFilter(
         Text(
             text = name,
             color = contentColor,
-            modifier = Modifier
+            modifier = modifier
                 .combinedClickable(
                     onLongClick = onLongClick,
                     onClick = onClick

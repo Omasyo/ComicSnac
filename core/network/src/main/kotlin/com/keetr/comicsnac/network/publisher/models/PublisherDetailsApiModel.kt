@@ -8,7 +8,7 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class PublisherDetailsApiModel(
-    @SerialName("aliases") val aliases: String,
+    @SerialName("aliases") val aliases: String?,
     @SerialName("api_detail_url") val apiDetailUrl: String,
     @SerialName("deck") val deck: String?,
     @SerialName("description") val description: String?,

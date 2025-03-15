@@ -19,15 +19,9 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-//        WindowCompat.setDecorFitsSystemWindows(window, false)
-//        val initial = runBlocking {
-//            viewModel.selectedSchemeId.first()
-//        }
 
         installSplashScreen()
-//            .setKeepOnScreenCondition {
-//            viewModel.apiKeyPresent
-//        }
+
         val colorScheme = viewModel.selectedSchemeId.map {
             ColorSchemes[it]!!
         }
@@ -43,23 +37,5 @@ class MainActivity : ComponentActivity() {
                 AppNavHost(apiKeyPresent = isPresent)
             }
         }
-
-//        val content: View = findViewById(android.R.id.content)
-//        content.viewTreeObserver.addOnPreDrawListener(
-//            object : ViewTreeObserver.OnPreDrawListener {
-//                override fun onPreDraw(): Boolean {
-//                    // Check whether the initial data is ready.
-//                    return if (!viewModel.apiKeyPresent) {
-//                        // The content is ready. Start drawing.
-//                        content.viewTreeObserver.removeOnPreDrawListener(this)
-//                        true
-//                    } else {
-//                        // The content isn't ready. Suspend.
-//                        false
-//                    }
-//                }
-//            }
-//        )
-
     }
 }
