@@ -11,17 +11,14 @@ import com.keetr.comicsnac.data.origin.OriginRepository
 import com.keetr.comicsnac.details.Arg
 import com.keetr.comicsnac.details.Error
 import com.keetr.comicsnac.details.Loading
+import com.keetr.comicsnac.details.RefreshWrapper
 import com.keetr.comicsnac.details.Success
-import com.keetr.comicsnac.details.getState
 import com.keetr.comicsnac.model.character.Character
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.emptyFlow
 import kotlinx.coroutines.flow.flatMapLatest
-import kotlinx.coroutines.flow.map
-import kotlinx.coroutines.flow.stateIn
 import javax.inject.Inject
 
 @HiltViewModel
@@ -34,8 +31,7 @@ internal class OriginViewModel @Inject constructor(
     private val id = checkNotNull(savedStateHandle.get<String>(Arg))
 
     val detailsUiState =
-        originRepository.getOriginDetails(id).map(::getState)
-            .stateIn(viewModelScope, SharingStarted.WhileSubscribed(), Loading)
+        RefreshWrapper(viewModelScope) { originRepository.getOriginDetails(id) }.response
 
 
     @OptIn(ExperimentalCoroutinesApi::class)

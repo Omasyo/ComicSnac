@@ -11,18 +11,15 @@ import com.keetr.comicsnac.data.storyarc.StoryArcRepository
 import com.keetr.comicsnac.details.Arg
 import com.keetr.comicsnac.details.Error
 import com.keetr.comicsnac.details.Loading
+import com.keetr.comicsnac.details.RefreshWrapper
 import com.keetr.comicsnac.details.Success
-import com.keetr.comicsnac.details.getState
 import com.keetr.comicsnac.model.episode.Episode
 import com.keetr.comicsnac.model.issue.Issue
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.emptyFlow
 import kotlinx.coroutines.flow.flatMapLatest
-import kotlinx.coroutines.flow.map
-import kotlinx.coroutines.flow.stateIn
 import javax.inject.Inject
 
 @OptIn(ExperimentalCoroutinesApi::class)
@@ -37,8 +34,7 @@ internal class StoryArcViewModel @Inject constructor(
     private val id = checkNotNull(savedStateHandle.get<String>(Arg))
 
     val detailsUiState =
-        storyArcRepository.getStoryArcDetails(id).map(::getState)
-            .stateIn(viewModelScope, SharingStarted.WhileSubscribed(), Loading)
+        RefreshWrapper(viewModelScope) { storyArcRepository.getStoryArcDetails(id) }.response
 
     val episodes: Flow<PagingData<Episode>> = detailsUiState.flatMapLatest {
         when (it) {

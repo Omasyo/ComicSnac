@@ -114,9 +114,10 @@ internal fun HomeScreen(
                         ) { uiState ->
                             when (uiState) {
                                 is Error -> ErrorPlaceholder(
-                                    Modifier
+                                    modifier = Modifier
                                         .height(336f.dp)
-                                        .fillMaxWidth()
+                                        .fillMaxWidth(),
+                                    onRetry = uiState.refresh
                                 )
 
                                 Loading -> LoadingPlaceholder(
@@ -240,10 +241,12 @@ internal fun HomeScreen(
                         ) { uiState ->
                             when (uiState) {
                                 is Error -> ErrorPlaceholder(
-                                    Modifier
+                                    modifier = Modifier
                                         .height(336f.dp)
-                                        .fillMaxWidth()
+                                        .fillMaxWidth(),
+                                    onRetry = uiState.refresh
                                 )
+
 
                                 Loading -> LoadingPlaceholder(
                                     Modifier
@@ -314,7 +317,7 @@ private fun Preview() {
             issuesUiState = Success(Issues),
             charactersUiState = Success(Characters),
             volumesUiState = Loading,
-            moviesUiState = Error(RepositoryResponse.TimeoutError),
+            moviesUiState = Error(RepositoryResponse.TimeoutError, {}),
             seriesUiState = Loading,
             publishersUiState = Loading
 

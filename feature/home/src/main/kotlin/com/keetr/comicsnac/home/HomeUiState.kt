@@ -9,14 +9,20 @@ import com.keetr.comicsnac.model.publisher.Publisher
 import com.keetr.comicsnac.model.series.Series
 import com.keetr.comicsnac.model.volume.Volume
 
-sealed interface HomeCategoryUiState<out T>
+sealed interface HomeCategoryUiState<out T> {
+    val refresh: () -> Unit
+}
 
-data object Loading : HomeCategoryUiState<Nothing>
+data object Loading : HomeCategoryUiState<Nothing> {
+    override val refresh: () -> Unit = {}
+}
 
-data class Error(val error: RepositoryResponse.Error) : HomeCategoryUiState<Nothing>
+data class Error(val error: RepositoryResponse.Error, override val refresh: () -> Unit) :
+    HomeCategoryUiState<Nothing>
 
 @Immutable
-data class Success<T>(val contents: List<T>) : HomeCategoryUiState<T>
+data class Success<T>(val contents: List<T>, override val refresh: () -> Unit = {}) :
+    HomeCategoryUiState<T>
 
 typealias IssuesUiState = HomeCategoryUiState<Issue>
 
@@ -29,4 +35,3 @@ typealias MoviesUiState = HomeCategoryUiState<Movie>
 typealias SeriesUiState = HomeCategoryUiState<Series>
 
 typealias PublishersUiState = HomeCategoryUiState<Publisher>
-

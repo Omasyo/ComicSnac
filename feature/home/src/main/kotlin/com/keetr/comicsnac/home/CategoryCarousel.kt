@@ -63,7 +63,13 @@ internal fun <T> CategoryCarousel(
             label = "Category Carousel"
         ) { uiState ->
             when (uiState) {
-                is Error -> ErrorPlaceholder(Modifier.height(264f.dp).fillMaxWidth())
+                is Error -> ErrorPlaceholder(
+                    modifier = Modifier
+                        .height(264f.dp)
+                        .fillMaxWidth(),
+                    onRetry = uiState.refresh
+                )
+
                 Loading -> LoadingPlaceholder(Modifier.height(264f.dp).fillMaxWidth())
 
                 is Success -> {
