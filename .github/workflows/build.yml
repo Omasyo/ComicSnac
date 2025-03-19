@@ -40,11 +40,12 @@ jobs:
 
       - name: Create ApiKey file
         run: |
-          cd ${{ github.action_path }}
-          ls
-          touch baselineprofile/src/main/java/com/keetr/comicsnac/baselineprofile/ApiKey.kt,
-          cd baselineprofile/src/main/java/com/keetr/comicsnac/baselineprofile,
-          ls
+          echo ${{ github.action_path }}
+          echo ${GITHUB_WORKSPACE}
+          # ls
+          # touch baselineprofile/src/main/java/com/keetr/comicsnac/baselineprofile/ApiKey.kt,
+          # cd baselineprofile/src/main/java/com/keetr/comicsnac/baselineprofile,
+          # ls
 
       # Runs a single command using the runners shell
       # - name: Build project
