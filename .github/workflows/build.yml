@@ -41,7 +41,6 @@ jobs:
       - name: Create ApiKey file
         run: |
           cd ${{ github.action_path }}
-          cwd
           ls
           touch baselineprofile/src/main/java/com/keetr/comicsnac/baselineprofile/ApiKey.kt,
           cd baselineprofile/src/main/java/com/keetr/comicsnac/baselineprofile,
