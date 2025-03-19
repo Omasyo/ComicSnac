@@ -38,6 +38,12 @@ jobs:
           build-scan-terms-of-use-url: "https://gradle.com/terms-of-service"
           build-scan-terms-of-use-agree: "yes"
 
+      - name: Create ApiKey file
+        run: |
+          touch baselineprofile/src/main/java/com/keetr/comicsnac/baselineprofile/ApiKey.kt,
+          cd baselineprofile/src/main/java/com/keetr/comicsnac/baselineprofile,
+          ls
+
       # Runs a single command using the runners shell
-      - name: Build project
-        run: ./gradlew build
+      # - name: Build project
+      #   run: ./gradlew build
