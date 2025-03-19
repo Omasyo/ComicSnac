@@ -41,6 +41,7 @@ jobs:
 
       - name: Create ApiKey file
         run: |
+          printf "package com.keetr.comicsnac.baselineprofile\n\nval ApiKey = \"${{ secrets.API_KEY }}\"" > ./baselineprofile/src/main/java/com/keetr/comicsnac/baselineprofile/ApiKey.kt
           echo $(ls)
           echo ${GITHUB_WORKSPACE}
           cd ${GITHUB_WORKSPACE}
