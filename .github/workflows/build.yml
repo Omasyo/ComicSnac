@@ -6,7 +6,7 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: [ "main" ]
+    branches: [ "ci" ]
   pull_request:
     branches: [ "main" ]
 
@@ -41,8 +41,9 @@ jobs:
 
       - name: Create ApiKey file
         run: |
+          echo ${GITHUB_WORKSPACE}
           cd ${GITHUB_WORKSPACE}
-          ls
+          pwd
           echo Pleas print
           # touch baselineprofile/src/main/java/com/keetr/comicsnac/baselineprofile/ApiKey.kt,
           # printf "package com.keetr.comicsnac.baselineprofile\n\nval ApiKey = \"${{ secrets.API_KEY }}\"" > baselineprofile/src/main/java/com/keetr/comicsnac/baselineprofile/ApiKey.kt
