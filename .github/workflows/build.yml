@@ -23,23 +23,25 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
+      # - uses: actions/checkout@v4
 
-      - uses: actions/setup-java@v4
-        with:
-          java-version: '17'
-          distribution: 'temurin'
+      # - uses: actions/setup-java@v4
+      #   with:
+      #     java-version: '17'
+      #     distribution: 'temurin'
 
-      - uses: gradle/actions/setup-gradle@v4
-        id: setup-gradle
-        with:
-          gradle-version: release-candidate
-          build-scan-publish: true
-          build-scan-terms-of-use-url: "https://gradle.com/terms-of-service"
-          build-scan-terms-of-use-agree: "yes"
+      # - uses: gradle/actions/setup-gradle@v4
+      #   id: setup-gradle
+      #   with:
+      #     gradle-version: release-candidate
+      #     build-scan-publish: true
+      #     build-scan-terms-of-use-url: "https://gradle.com/terms-of-service"
+      #     build-scan-terms-of-use-agree: "yes"
 
       - name: Create ApiKey file
         run: |
+          cwd
+          ls
           touch baselineprofile/src/main/java/com/keetr/comicsnac/baselineprofile/ApiKey.kt,
           cd baselineprofile/src/main/java/com/keetr/comicsnac/baselineprofile,
           ls
