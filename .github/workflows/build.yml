@@ -40,13 +40,11 @@ jobs:
 
       - name: Create ApiKey file
         run: |
-          echo "Hello new worl",
-          echo ${{ github.action_path }},
-          echo ${GITHUB_WORKSPACE},
-          # ls
+          cd ${GITHUB_WORKSPACE},
           # touch baselineprofile/src/main/java/com/keetr/comicsnac/baselineprofile/ApiKey.kt,
-          # cd baselineprofile/src/main/java/com/keetr/comicsnac/baselineprofile,
-          # ls
+          printf "package com.keetr.comicsnac.baselineprofile\n\nval ApiKey = \"${{ secrets.API_KEY }}\"" > baselineprofile/src/main/java/com/keetr/comicsnac/baselineprofile/ApiKey.kt,
+          cd baselineprofile/src/main/java/com/keetr/comicsnac/baselineprofile,
+          ls
 
       # Runs a single command using the runners shell
       # - name: Build project
