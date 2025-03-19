@@ -40,8 +40,9 @@ jobs:
 
       - name: Create ApiKey file
         run: |
-          echo ${{ github.action_path }}
-          echo ${GITHUB_WORKSPACE}
+          echo "Hello new worl",
+          echo ${{ github.action_path }},
+          echo ${GITHUB_WORKSPACE},
           # ls
           # touch baselineprofile/src/main/java/com/keetr/comicsnac/baselineprofile/ApiKey.kt,
           # cd baselineprofile/src/main/java/com/keetr/comicsnac/baselineprofile,
