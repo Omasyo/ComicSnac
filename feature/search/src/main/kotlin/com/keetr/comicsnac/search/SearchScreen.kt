@@ -118,6 +118,7 @@ fun SearchScreen(
                     Text(
                         "What would you like to know?",
                         style = MaterialTheme.typography.headlineLarge,
+                        modifier = Modifier.padding(16f.dp)
                     )
                 }
                 else

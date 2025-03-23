@@ -51,7 +51,7 @@ fun ErrorPlaceholder(
                 stringResource(R.string.error),
                 color = MaterialTheme.colorScheme.onBackground,
                 style = MaterialTheme.typography.titleLarge,
-                modifier = Modifier
+                modifier = Modifier.align(Alignment.CenterVertically)
             )
             onRetry?.let {
                 Spacer(Modifier.width(4f.dp))

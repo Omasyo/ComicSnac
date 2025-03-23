@@ -119,8 +119,10 @@ internal fun PowerDetailsScreen(
                     is LoadState.Error -> ErrorPlaceholder(
                         Modifier.fillMaxSize(),
                         onRetry = if (detailsUiState is Success) {
-                            { characters.retry() }
-                        } else null
+                            characters::retry
+                        } else {
+                            detailsUiState.refresh
+                        }
                     )
 
                     LoadState.Loading -> LoadingPlaceholder(Modifier.fillMaxSize())
@@ -224,12 +226,12 @@ internal fun Preview() {
         PowerDetailsScreen(
             onItemClicked = {},
             onBackPressed = { },
-            detailsUiState = Error(RepositoryResponse.InvalidApiKeyError),
+            detailsUiState = Error(RepositoryResponse.InvalidApiKeyError) {},
             characters = flow {
                 emit(PagingData.from(List(100) {
                     Character(
                         apiDetailUrl = "https://www.google.com/#q=odio",
-                        deck = "propriae",
+                        deck = "",
                         id = it,
                         imageUrl = "https://search.yahoo.com/search?p=quod",
                         name = "Kerry Cabrera",
