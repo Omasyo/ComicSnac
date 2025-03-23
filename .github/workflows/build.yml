@@ -43,6 +43,11 @@ jobs:
           printf "package com.keetr.comicsnac.baselineprofile\n\nval ApiKey = \"${{ secrets.API_KEY }}\"" > ./baselineprofile/src/main/java/com/keetr/comicsnac/baselineprofile/ApiKey.kt
           cd baselineprofile/src/main/java/com/keetr/comicsnac/baselineprofile
 
-      # Runs a single command using the runners shell
-      - name: Build project
-        run: ./gradlew build
+      - name: Run tests
+        run: ./gradlew test
+        
+      - name: Build debug
+        run: ./gradlew assembleDebug
+        
+      - name: Run tests
+        run: ./gradlew assembleRelease
