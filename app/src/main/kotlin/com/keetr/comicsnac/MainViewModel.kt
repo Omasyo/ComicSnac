@@ -9,6 +9,7 @@ import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.firstOrNull
 import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import javax.inject.Inject
 import kotlin.properties.Delegates
@@ -26,8 +27,8 @@ class MainViewModel @Inject constructor(
 
     init {
         runBlocking {
-            initialSchemeId = settingsRepository.getColorSchemeId().first()
-            apiKeyPresent = !authRepository.getApiKey().firstOrNull().isNullOrBlank()
+            launch { initialSchemeId = settingsRepository.getColorSchemeId().first() }
+            launch { apiKeyPresent = !authRepository.getApiKey().firstOrNull().isNullOrBlank() }
         }
     }
 

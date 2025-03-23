@@ -146,10 +146,12 @@ internal fun PublisherDetailsScreen(
                                     content = aliases.joinToString(", ")
                                 )
                             }
-                            Info(
-                                name = stringResource(R.string.location),
-                                content = location
-                            )
+                            if (location.isNotBlank()) {
+                                Info(
+                                    name = stringResource(R.string.location),
+                                    content = location
+                                )
+                            }
                         }
                     }
 
