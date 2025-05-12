@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     id("comicsnac.android.hilt")
     alias(libs.plugins.androidx.baselineprofile)
+    alias(libs.plugins.ksp)
 }
 
 android {
