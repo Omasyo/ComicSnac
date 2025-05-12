@@ -33,6 +33,9 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.RectangleShape
@@ -40,15 +43,21 @@ import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.paging.LoadState
+import androidx.paging.PagingData
 import androidx.paging.compose.LazyPagingItems
+import androidx.paging.compose.collectAsLazyPagingItems
+import com.keetr.comicsnac.model.character.Character
 import com.keetr.comicsnac.model.search.SearchModel
 import com.keetr.comicsnac.model.search.SearchType
 import com.keetr.comicsnac.ui.components.TextField
 import com.keetr.comicsnac.ui.components.placeholders.ErrorPlaceholder
 import com.keetr.comicsnac.ui.components.placeholders.LoadingPlaceholder
 import com.keetr.comicsnac.ui.theme.AppIcons
+import com.keetr.comicsnac.ui.theme.ComicSnacTheme
+import kotlinx.coroutines.flow.flow
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalLayoutApi::class)
 @Composable
@@ -92,13 +101,11 @@ fun SearchScreen(
                 }
             }
         },
-//        sheetPeekHeight = 24f.dp,
         containerColor = MaterialTheme.colorScheme.tertiary,
     ) { innerPadding ->
         Column(Modifier.padding(innerPadding)) {
             TopBar(
-                modifier =
-                Modifier
+                modifier = Modifier
                     .background(MaterialTheme.colorScheme.primary)
                     .statusBarsPadding()
                     .fillMaxWidth()
@@ -260,35 +267,43 @@ private fun SearchFilter(
 }
 
 
-//@Preview
-//@Composable
-//private fun Preview() {
-//    ComicSnacTheme {
-//        var query by remember {
-//            mutableStateOf("")
-//        }
-//        var filter by remember {
-//            mutableStateOf(setOf(SearchType.Character, SearchType.Concept))
-//        }
-//        SearchScreen(
-//            query = query,
-//            onQueryChanged = { query = it },
-//            onItemClicked = {},
-//            filter = filter,
-//            onFilterChange = {
-//                filter = if (filter.contains(it)) filter - it else filter + it
-//            },
-//            onBackPressed = {},
-//            searchResults = List(30) {
-//                Character(
-//                    apiDetailUrl = "https://search.yahoo.com/search?p=solet",
-//                    deck = "sententiae",
-//                    id = 2909,
-//                    imageUrl = "https://www.google.com/#q=nonumes",
-//                    name = "Berta Shelton"
-//                )
-//            }
-//
-//        )
-//    }
-//}
+@Preview
+@Composable
+private fun Preview() {
+    ComicSnacTheme {
+        var query by remember {
+            mutableStateOf("")
+        }
+        var filter by remember {
+            mutableStateOf(setOf(SearchType.Character, SearchType.Concept))
+        }
+        SearchScreen(
+            queryProvider = { query },
+            onQueryChanged = { query = it },
+            searchEmpty = false,
+            filter = filter,
+            onClickFilter = {
+                filter = if (filter.contains(it)) filter - it else filter + it
+            },
+            onLongClickFilter = {},
+            onItemClicked = {},
+            onSearch = {},
+            onClear = {},
+            onBackPressed = {},
+            searchResults =
+                flow {
+                    emit(PagingData.from(List<SearchModel>(30) {
+                        Character(
+                            apiDetailUrl = "https://search.yahoo.com/search?p=solet",
+                            deck = "sententiae",
+                            id = 2909,
+                            imageUrl = "https://www.google.com/#q=nonumes",
+                            name = "Berta Shelton"
+                        )
+                    }))
+                }.collectAsLazyPagingItems()
+
+
+        )
+    }
+}
